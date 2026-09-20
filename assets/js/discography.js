@@ -71,7 +71,11 @@ function coverHtml(album, extra = '') {
 function writtenByStyle(names) {
   const map = state.data.memberColors || {};
   const cols = names.split(',').map(n => map[n.trim()]).filter(Boolean);
-  if (!cols.length) return '';
+  if (!cols.length) {
+    const g = state.data.groupColors;
+    return g && g.length > 1
+      ? `background:linear-gradient(110deg, ${g.join(', ')});color:#fff;` : '';
+  }
   const bg = cols.length === 1
     ? cols[0]
     : `linear-gradient(110deg, ${cols.join(', ')})`;

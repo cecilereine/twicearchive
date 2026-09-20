@@ -44,7 +44,7 @@ RULES = [
     ("dance",       r"dance (practice|video)|choreography|dance ver"),
     ("performance", r"comeback stage|music bank|show champion|inkigayo|music ?core"
                     r"|m ?countdown|show! ?music|special stage|debut stage|kpop tv show"
-                    r"|meet ?& ?greet|performs|뮤직뱅크|음악중심|쇼챔"
+                    r"|meet ?& ?greet|performs|stage ?mix|교차편집|뮤직뱅크|음악중심|쇼챔"
                     r"|golden ?disc|골든디스크|mama|awards|가요대전|가요대축제|시상식"),
     ("live",        r"live|fancam|concert|tour|encore|fanmeet|showcase|begins"
                     r"|stadium|dome|직캠|@ |^\d{6}\b"

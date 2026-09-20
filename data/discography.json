@@ -17,16 +17,20 @@
     }
   ],
   "memberColors": {
-    "Nayeon": "#f4a6c8",
-    "Jeongyeon": "#8fd3a8",
-    "Momo": "#f6a1b6",
-    "Sana": "#b79ce0",
-    "Jihyo": "#f6b17a",
-    "Mina": "#7fd4c8",
-    "Dahyun": "#9fc7f2",
-    "Chaeyoung": "#e8697d",
-    "Tzuyu": "#6fa8e8"
+    "Nayeon": "#49c0ec",
+    "Jeongyeon": "#a3cc54",
+    "Momo": "#e67ea3",
+    "Sana": "#8c79b4",
+    "Jihyo": "#f9cc85",
+    "Mina": "#71c7d4",
+    "Dahyun": "#fefefe",
+    "Chaeyoung": "#e62722",
+    "Tzuyu": "#2253a3"
   },
+  "groupColors": [
+    "#f9c596",
+    "#fc5d9d"
+  ],
   "services": [
     {
       "key": "spotify",
@@ -1228,6 +1232,18 @@
               "url": "76-KTVPm7XA",
               "official": true,
               "label": "Dance Practice ver."
+            },
+            {
+              "kind": "live",
+              "url": "eI5U-bMhVpc",
+              "label": "「Candy pop」 FHD। 1st ARENA TOUR 2018 BDZ",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "JJ_4D4smNfc",
+              "label": "「CANDY POP」(+Full intro) FHDX60FPS। Dream Day concert at Tokyo Dome",
+              "official": false
             }
           ]
         }
@@ -1264,32 +1280,135 @@
               "official": true
             },
             {
+              "kind": "dance",
+              "url": "JPPqAw4q95A",
+              "label": "What is Love? Dance Video (for ONCE Ver.)",
+              "official": true
+            },
+            {
               "kind": "performance",
               "url": "y9DxUmPM8pQ",
               "label": "Comeback Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "r0g3wa9cJPs",
+              "label": "What is Love? [Music Bank HOT Stage / 2018.04.13]",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "qY22HPfafSQ",
+              "label": "Stage Mix (교차편집)",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "M83nVWOlQ0k",
+              "label": "＜THIS IS FOR＞ WORLD TOUR IN JAPAN 「What is Love?」@ TOKYO DOME",
               "official": true
             }
           ]
         },
         {
           "title": "Sweet Talker",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "CXbSskpFlKg",
+              "label": "Sweet talker (Twiceland zone 2 fantasy park live)",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "z4DqKSb35f0",
+              "label": "「Sweet Talker」 FHDX60FPS। Dream Day concert at Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "-qWkCJgf1to",
+              "label": "Sweet Talker Lyrics (Han|Rom|Eng) Color Coded",
+              "official": false
+            }
+          ],
+          "writtenBy": "Jeongyeon, Chaeyoung"
         },
         {
           "title": "Ho!",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "eGW4qZ1qO3w",
+              "label": "HO! 4K 60FPS। World Tour 2019 TWICELIGHTS In Seoul (Medicore Upscale)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "-lSsZFUkDiI",
+              "label": "HO! Lyrics [Color Coded/HAN/ROM/ENG]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Jihyo"
         },
         {
           "title": "Dejavu",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "r2KlZbiXA6E",
+              "label": "DEJAVU Lyrics (Han|Rom|Eng) Color Coded",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Say Yes",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "-5wuWmLdBLc",
+              "label": "[ - SAY YES] Comeback Stage | M COUNTDOWN 180412 EP.566",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "MQfBJjZMp6s",
+              "label": "[Comeback Stage] - SAY YES, - 세이 예스 Show Music core 20180414",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "PCd6PDScjIE",
+              "label": "뮤직뱅크 Music Bank - SAY YES - .20180413",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "8oSyI3uuAMo",
+              "label": "Say Yes Lyrics (Han|Rom|Eng) Color Coded",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Stuck",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "zZk3soPiL-Y",
+              "label": "「STUCK (Acoustic ver.)」Encore WORLD TOUR 2019 TWICELIGHTS in SEOUL",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "5TCAwHPLLKU",
+              "label": "Stuck Lyrics (Han|Rom|Eng) Color Coded",
+              "official": false
+            }
+          ]
         }
       ]
     },

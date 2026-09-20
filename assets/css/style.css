@@ -268,8 +268,15 @@ a { color: inherit; }
   display: inline-block;
   font-size: 11.5px; font-weight: 700; letter-spacing: .01em;
   padding: 3px 10px; border-radius: 999px;
+  /* A hairline keeps a near-white member colour (Dahyun) legible against the
+     light theme; it disappears against the darker colours. */
+  border: 1px solid rgba(0,0,0,.14);
   /* fallback until the inline member colours apply */
   color: #fff; background: linear-gradient(120deg, var(--grape), var(--accent));
+}
+:root[data-theme="dark"] .written { border-color: rgba(255,255,255,.18); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .written { border-color: rgba(255,255,255,.18); }
 }
 @media (max-width: 560px) { .written-row { margin-left: 0; } }
 
