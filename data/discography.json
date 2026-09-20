@@ -1,7 +1,21 @@
 {
   "section": "Discography",
-  "note": "Korean releases. Japanese and solo releases to be added. Tracklists verified against each release's Wikipedia article; video and audio links verified by YouTube channel.",
+  "note": "Korean, Japanese and solo releases share this file; each carries a \"category\" so the page can filter between them.",
   "updated": "2026-09-21",
+  "categories": [
+    {
+      "key": "korean",
+      "label": "Korean"
+    },
+    {
+      "key": "japanese",
+      "label": "Japanese"
+    },
+    {
+      "key": "solo",
+      "label": "Solo & Units"
+    }
+  ],
   "services": [
     {
       "key": "spotify",
@@ -24,6 +38,7 @@
     {
       "id": "the-story-begins",
       "title": "The Story Begins",
+      "category": "korean",
       "seq": "1st Mini Album",
       "type": "EP",
       "released": "2015-10-20",
@@ -80,6 +95,7 @@
     {
       "id": "page-two",
       "title": "Page Two",
+      "category": "korean",
       "seq": "2nd Mini Album",
       "type": "EP",
       "released": "2016-04-25",
@@ -134,6 +150,7 @@
     {
       "id": "twicecoaster-lane-1",
       "title": "Twicecoaster: Lane 1",
+      "category": "korean",
       "seq": "3rd Mini Album",
       "type": "EP",
       "released": "2016-10-24",
@@ -191,6 +208,7 @@
     {
       "id": "twicecoaster-lane-2",
       "title": "Twicecoaster: Lane 2",
+      "category": "korean",
       "seq": "Special Album",
       "type": "Reissue",
       "released": "2017-02-20",
@@ -234,6 +252,7 @@
     {
       "id": "signal",
       "title": "Signal",
+      "category": "korean",
       "seq": "4th Mini Album",
       "type": "EP",
       "released": "2017-05-15",
@@ -289,6 +308,7 @@
     {
       "id": "twicetagram",
       "title": "Twicetagram",
+      "category": "korean",
       "seq": "1st Full Album",
       "type": "Full Album",
       "released": "2017-10-30",
@@ -375,6 +395,7 @@
     {
       "id": "merry-and-happy",
       "title": "Merry & Happy",
+      "category": "korean",
       "seq": "Repackage",
       "type": "Reissue",
       "released": "2017-12-11",
@@ -407,6 +428,7 @@
     {
       "id": "what-is-love",
       "title": "What Is Love?",
+      "category": "korean",
       "seq": "5th Mini Album",
       "type": "EP",
       "released": "2018-04-09",
@@ -460,6 +482,7 @@
     {
       "id": "summer-nights",
       "title": "Summer Nights",
+      "category": "korean",
       "seq": "Special Album",
       "type": "Reissue",
       "released": "2018-07-09",
@@ -502,6 +525,7 @@
     {
       "id": "yes-or-yes",
       "title": "Yes or Yes",
+      "category": "korean",
       "seq": "6th Mini Album",
       "type": "EP",
       "released": "2018-11-05",
@@ -560,6 +584,7 @@
     {
       "id": "the-year-of-yes",
       "title": "The Year of \"Yes\"",
+      "category": "korean",
       "seq": "Special Album",
       "type": "Reissue",
       "released": "2018-12-12",
@@ -594,6 +619,7 @@
     {
       "id": "fancy-you",
       "title": "Fancy You",
+      "category": "korean",
       "seq": "7th Mini Album",
       "type": "EP",
       "released": "2019-04-22",
@@ -647,6 +673,7 @@
     {
       "id": "feel-special",
       "title": "Feel Special",
+      "category": "korean",
       "seq": "8th Mini Album",
       "type": "EP",
       "released": "2019-09-23",
@@ -705,6 +732,7 @@
     {
       "id": "more-and-more",
       "title": "More & More",
+      "category": "korean",
       "seq": "9th Mini Album",
       "type": "EP",
       "released": "2020-06-01",
@@ -756,6 +784,7 @@
     {
       "id": "eyes-wide-open",
       "title": "Eyes Wide Open",
+      "category": "korean",
       "seq": "2nd Full Album",
       "type": "Full Album",
       "released": "2020-10-26",
@@ -837,6 +866,8 @@
     {
       "id": "ill-show-you",
       "title": "I'll Show You",
+      "artist": "K/DA",
+      "category": "korean",
       "seq": "Collaboration",
       "type": "Single",
       "released": "2020-11-06",
@@ -854,12 +885,12 @@
           "artist": "K/DA",
           "videos": []
         }
-      ],
-      "artist": "K/DA"
+      ]
     },
     {
       "id": "cry-for-me",
       "title": "Cry for Me",
+      "category": "korean",
       "seq": "Digital Single",
       "type": "Single",
       "released": "2020-12-18",
@@ -907,6 +938,7 @@
     {
       "id": "taste-of-love",
       "title": "Taste of Love",
+      "category": "korean",
       "seq": "10th Mini Album",
       "type": "EP",
       "released": "2021-06-11",
@@ -959,6 +991,7 @@
     {
       "id": "i-love-you-more-than-anyone",
       "title": "I Love You More Than Anyone",
+      "category": "korean",
       "seq": "OST",
       "type": "Single",
       "released": "2021-07-09",
@@ -981,6 +1014,7 @@
     {
       "id": "the-feels",
       "title": "The Feels",
+      "category": "korean",
       "seq": "Pre-release Single",
       "type": "Single",
       "released": "2021-10-01",
@@ -1015,6 +1049,7 @@
     {
       "id": "formula-of-love",
       "title": "Formula of Love: O+T=<3",
+      "category": "korean",
       "seq": "3rd Full Album",
       "type": "Full Album",
       "released": "2021-11-12",
@@ -1123,6 +1158,7 @@
     {
       "id": "between-1-and-2",
       "title": "Between 1&2",
+      "category": "korean",
       "seq": "11th Mini Album",
       "type": "EP",
       "released": "2022-08-26",
@@ -1187,6 +1223,7 @@
     {
       "id": "moonlight-sunrise",
       "title": "Moonlight Sunrise",
+      "category": "korean",
       "seq": "Pre-release Single",
       "type": "Single",
       "released": "2023-01-20",
@@ -1221,6 +1258,7 @@
     {
       "id": "ready-to-be",
       "title": "Ready to Be",
+      "category": "korean",
       "seq": "12th Mini Album",
       "type": "EP",
       "released": "2023-03-10",
@@ -1293,6 +1331,7 @@
     {
       "id": "i-got-you",
       "title": "I Got You",
+      "category": "korean",
       "seq": "Pre-release Single",
       "type": "Single",
       "released": "2024-02-02",
@@ -1327,6 +1366,7 @@
     {
       "id": "with-youth",
       "title": "With You-th",
+      "category": "korean",
       "seq": "13th Mini Album",
       "type": "EP",
       "released": "2024-02-23",
@@ -1394,6 +1434,8 @@
     {
       "id": "mamushi-remix",
       "title": "Mamushi (Remix)",
+      "artist": "Megan Thee Stallion feat. Twice",
+      "category": "korean",
       "seq": "Collaboration",
       "type": "Single",
       "released": "2024-10-25",
@@ -1411,12 +1453,12 @@
           "artist": "Megan Thee Stallion feat. Twice",
           "videos": []
         }
-      ],
-      "artist": "Megan Thee Stallion feat. Twice"
+      ]
     },
     {
       "id": "strategy",
       "title": "Strategy",
+      "category": "korean",
       "seq": "14th Mini Album",
       "type": "EP",
       "released": "2024-12-06",
@@ -1476,6 +1518,8 @@
     {
       "id": "we-pray",
       "title": "We Pray",
+      "artist": "Coldplay feat. Twice",
+      "category": "korean",
       "seq": "Collaboration",
       "type": "Single",
       "released": "2025-04-17",
@@ -1494,12 +1538,12 @@
           "note": "Twice version",
           "videos": []
         }
-      ],
-      "artist": "Coldplay feat. Twice"
+      ]
     },
     {
       "id": "takedown",
       "title": "Takedown",
+      "category": "korean",
       "seq": "OST",
       "type": "Single",
       "released": "2025-06-20",
@@ -1536,6 +1580,7 @@
     {
       "id": "this-is-for",
       "title": "This Is For",
+      "category": "korean",
       "seq": "4th Full Album",
       "type": "Full Album",
       "released": "2025-07-11",
@@ -1650,6 +1695,8 @@
     {
       "id": "superstars",
       "title": "Superstars",
+      "artist": "Saweetie feat. Twice",
+      "category": "korean",
       "seq": "Collaboration",
       "type": "Single",
       "released": "2025-08-01",
@@ -1667,12 +1714,12 @@
           "artist": "with Saweetie",
           "videos": []
         }
-      ],
-      "artist": "Saweetie feat. Twice"
+      ]
     },
     {
       "id": "ten-the-story-goes-on",
       "title": "Ten: The Story Goes On",
+      "category": "korean",
       "seq": "Special Album",
       "type": "Full Album",
       "released": "2025-10-10",

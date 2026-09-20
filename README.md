@@ -129,6 +129,28 @@ sips -Z 600 -s format jpeg -s formatOptions 82 assets/img/covers/new-cover.jpg
 whose exact day isn't documented. Releases are grouped by the year, and a partial
 date sorts to the end of its year.
 
+## Categories
+
+Korean, Japanese and solo releases all live in **one file**, `data/discography.json`,
+and share one page. Every release carries a `category`:
+
+| `category` | meaning |
+|---|---|
+| `korean` | Twice's Korean releases |
+| `japanese` | Twice's Japanese releases |
+| `solo` | member solo releases and sub-units |
+
+The releases sort by date and group by year regardless of category, so a Japanese
+single slots in beside the Korean releases from the same year.
+
+**Still to build:** a Korean / Japanese / Solo filter on this page. The data side
+is already done — `categories` at the top of the JSON declares the three options,
+and every release is tagged — so it only needs a chip row wired up the same way
+as the year chips in `assets/js/discography.js`.
+
+To add releases, copy a block from `data/release-template.json`, which documents
+every field and has worked examples for a Japanese album and a solo release.
+
 ## Adding a new section
 
 Copy `discography.html` and its data file, point `DATA_URL` in a new JS file at the

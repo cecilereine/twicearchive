@@ -1,0 +1,98 @@
+{
+  "_README": [
+    "Template for adding releases to data/discography.json.",
+    "Everything lives in that one file — Korean, Japanese and solo together.",
+    "Copy a block below into its \"albums\" array. Order doesn't matter;",
+    "the page sorts by \"released\" and groups by year on its own.",
+    "",
+    "Set \"category\" so the planned Korean / Japanese / Solo filter picks it up:",
+    "  korean | japanese | solo",
+    "",
+    "Validate before committing:  python3 -m json.tool data/discography.json"
+  ],
+
+  "_FIELDS": {
+    "id":         "REQUIRED. kebab-case, unique across the whole file. Used in the #deep-link.",
+    "title":      "REQUIRED. As it should display.",
+    "category":   "REQUIRED. korean | japanese | solo",
+    "artist":     "OPTIONAL. The other act on a collaboration, or the member for a solo release.",
+    "seq":        "Free text under the type badge. '1st Japanese Album', 'Single', '2nd Mini Album'.",
+    "type":       "REQUIRED. EP | Full Album | Single | Reissue",
+    "released":   "REQUIRED. YYYY-MM-DD. YYYY-MM or YYYY also work and display as 'Jul 2018' / '2018'.",
+    "cover":      "Square art path, e.g. assets/img/covers/bdz.jpg. \"\" gives a coloured placeholder.",
+    "note":       "OPTIONAL. One line under the title in the panel.",
+    "links":      "Streaming URLs. \"\" renders the button greyed out, so gaps stay visible.",
+    "tracks[].title":      "REQUIRED.",
+    "tracks[].titleKo":    "OPTIONAL. Original-script title — use for the Japanese title.",
+    "tracks[].artist":     "OPTIONAL. Solo / sub-unit / featured credit. Searchable.",
+    "tracks[].titleTrack": "OPTIONAL. true adds the TITLE flag.",
+    "tracks[].note":       "OPTIONAL. Small aside, e.g. 'Japanese ver.'",
+    "videos[].kind":       "REQUIRED. mv | lyric | performance | dance | live | audio | other",
+    "videos[].url":        "REQUIRED. Full YouTube URL, youtu.be, /shorts/, or the bare 11-char id.",
+    "videos[].url_note":   "Non-YouTube links work too — they become link-out cards.",
+    "videos[].official":   "true = green Official, false = amber Fan. Omitted counts as official.",
+    "videos[].label":      "OPTIONAL. Overrides the caption, e.g. 'Dance Practice Video'."
+  },
+
+  "_EXAMPLE_JAPANESE": {
+    "id": "bdz",
+    "title": "BDZ",
+    "category": "japanese",
+    "seq": "1st Japanese Album",
+    "type": "Full Album",
+    "released": "2018-09-12",
+    "cover": "assets/img/covers/bdz.jpg",
+    "note": "",
+    "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+    "tracks": [
+      { "title": "BDZ", "titleTrack": true, "videos": [
+        { "kind": "mv", "url": "PASTE_YOUTUBE_URL_HERE", "official": true },
+        { "kind": "dance", "url": "", "label": "Dance Practice Video", "official": true }
+      ] },
+      { "title": "Candy Pop", "titleTrack": true, "videos": [] },
+      { "title": "Wake Me Up", "titleTrack": true, "videos": [] },
+      { "title": "One More Time", "titleTrack": true, "videos": [] },
+      { "title": "Brand New Girl", "videos": [] },
+      { "title": "I Want You Back", "note": "Cover", "videos": [] },
+      { "title": "Say It Again", "videos": [] },
+      { "title": "L.O.V.E.", "videos": [] },
+      { "title": "Stay by My Side", "videos": [] },
+      { "title": "Be as One", "videos": [] },
+      { "title": "Wishing", "videos": [] }
+    ]
+  },
+
+  "_EXAMPLE_SOLO": {
+    "id": "im-nayeon",
+    "title": "IM NAYEON",
+    "category": "solo",
+    "artist": "Nayeon",
+    "seq": "1st Mini Album",
+    "type": "EP",
+    "released": "2022-06-24",
+    "cover": "assets/img/covers/im-nayeon.jpg",
+    "note": "",
+    "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+    "tracks": [
+      { "title": "Pop!", "titleTrack": true, "videos": [
+        { "kind": "mv", "url": "", "official": true }
+      ] }
+    ]
+  },
+
+  "_EXAMPLE_BLANK": {
+    "id": "",
+    "title": "",
+    "category": "japanese",
+    "seq": "",
+    "type": "Single",
+    "released": "",
+    "cover": "",
+    "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+    "tracks": [
+      { "title": "", "titleTrack": true, "videos": [
+        { "kind": "mv", "url": "", "official": true }
+      ] }
+    ]
+  }
+}
