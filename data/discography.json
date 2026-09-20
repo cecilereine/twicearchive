@@ -198,17 +198,73 @@
               "kind": "mv",
               "url": "c7rCyll5AeY",
               "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "L7_i-r9mo9w",
+              "label": "@ STADIUM",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "7T4wxA2BGTo",
+              "label": "Dance Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "1Kg4yomNEgs",
+              "label": "Comeback Stage @ M COUNTDOWN",
+              "official": true
             }
           ]
         },
         {
           "title": "Precious Love",
           "titleKo": "소중한 사랑",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "D3Sd-4xKAHU",
+              "label": "Yu Huiyeol's Sketchbook",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "sTGeDgdUNK8",
+              "label": "Yonsei AKARAKA Fancam",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "kSs6wjy-NN0",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Touchdown",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "9YnlX1lSWHg",
+              "label": "Comeback Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "P0wYetVMwUg",
+              "label": "TWICELIGHTS in Seoul",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "6lA1VTTxC1w",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Tuk Tok",
