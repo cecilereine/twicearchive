@@ -353,8 +353,8 @@
       "released": "2016-10-24",
       "cover": "assets/img/covers/twicecoaster-lane-1.jpg",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/5zQhaDNbiXHRqd8Y51I4vy",
+        "appleMusic": "https://music.apple.com/ph/album/twicecoaster-lane-1/1555401119",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -373,32 +373,147 @@
               "url": "9uypQGzzhns",
               "label": "Dance Practice Video",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "aIotMK_TxWk",
+              "label": "Comeback Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "0kFysgVv9ZQ",
+              "label": "【TVPP】 – TT, – 티티 @Show Music Core",
+              "official": false
+            },
+            {
+              "kind": "mv",
+              "url": "t35H2BVq490",
+              "label": "「TT -Japanese ver.-」Music Video",
+              "official": true
             }
           ]
         },
         {
           "title": "1 to 10",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "GetXGYf9Fts",
+              "label": "Comeback Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "UWyk7QZW5fc",
+              "label": "Music Bank Comeback Stage",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "EYWD9IlZ4N8",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Ponytail",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "lQ34ohezZDI",
+              "label": "ONCE BEGINS, TWICE BEGINS",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "GR6QvlCKazk",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Jelly Jelly",
-          "videos": []
+          "videos": [
+            {
+              "kind": "dance",
+              "url": "WuLQ5iV3Q64",
+              "label": "Dance Practice Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "C6uRLMVijvY",
+              "label": "MEET&GREET @ Mwave",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "UrkP7RRycIA",
+              "label": "Inkigayo Follow-up Song Stage",
+              "official": true,
+              "noEmbed": true
+            },
+            {
+              "kind": "lyric",
+              "url": "dcZZRuhVnFs",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Pit-A-Pat",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "t-VpvVMcsQY",
+              "label": "Pit-A-Pat + TT (live)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "gySq3p0qgug",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Next Page",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "nAtL9snSjqU",
+              "label": "「NEXT PAGE」TWICELAND -THE OPENING- ENCORE",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "3aB1tb0Jgx4",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         },
         {
           "title": "One in a Million",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "715h-XJ9Wzg",
+              "label": "ONCE BEGINS, TWICE BEGINS",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "EYU5DS_2xcM",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -412,8 +527,8 @@
       "cover": "assets/img/covers/twicecoaster-lane-2.jpg",
       "note": "Reissue of Twicecoaster: Lane 1 — new tracks only; the rest of the disc repeats Lane 1.",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/2Mw8oK3aJKmOa9YGWqpN2W",
+        "appleMusic": "https://music.apple.com/ph/album/twicecoaster-lane-2/1555396345",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -432,13 +547,44 @@
               "url": "idOQFSu_4Ok",
               "label": "Dance Practice Video",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "PVpMNQVE8dQ",
+              "label": "Comeback Stage @ M COUNTDOWN",
+              "official": true
             }
           ]
         },
         {
           "title": "Ice Cream",
           "titleKo": "녹아요",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "fBKUZPSE8Z0",
+              "label": "[제34회 골든디스크] - INTRO+ 녹아요",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "3vH3YpKwE24",
+              "label": "「녹아요 Ice Cream」TWICELAND THE OPENING ENCORE",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "Z6w2QPqYtrs",
+              "label": "Color Coded Lyrics",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "ECUZWIAbfjI",
+              "label": "Ice Cream (녹아요) [Color Coded Lyrics/Han/Rom/Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "TT (Tak Remix)",
@@ -489,8 +635,8 @@
       "released": "2017-05-15",
       "cover": "assets/img/covers/signal.jpg",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/28PwDunFAR71toOCTYRvkf",
+        "appleMusic": "https://music.apple.com/ph/album/signal-ep/1555393686",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -509,30 +655,119 @@
               "url": "EpMwiqW8k8o",
               "label": "Dance Video",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "TRijPlol9D8",
+              "label": "Comeback Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "8e8g_arMluI",
+              "label": "2017 KBS가요대축제 Music Festival - - Intro+SIGNAL (Intro+SIGNAL - ). 20171",
+              "official": true
             }
           ]
         },
         {
           "title": "Three Times a Day",
           "titleKo": "하루에 세번",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "gUMm9U4eDls",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Only You",
           "titleKo": "Only 너",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "vXzUDPoR9cs",
+              "label": "Color Coded Lyrics",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "LVBlDtqW9sE",
+              "label": "Only You 4k 60FPS | TWICELAND OPENING ENCORE",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "1GKpYc-CAfQ",
+              "label": "Only You FHD। Dream Day concert at Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "_ZamLdR0iwU",
+              "label": "Only you FHD। Twiceland Zone 2 – Fantasy Park",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Hold Me Tight",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "Igd3E5h4MWA",
+              "label": "Color Coded Lyrics",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "2oGftByddrg",
+              "label": "Please hold me tight FHD। Twiceland Zone 2 – Fantasy Park",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Eye Eye Eyes",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "DkgNYR6eVrw",
+              "label": "Color Coded Lyrics",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "OqVB-zzVJvw",
+              "label": "「EYE EYE EYES」TWICELAND -THE OPENING- ENCORE",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Someone Like Me",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "gpaW4U779Uc",
+              "label": "Color Coded Lyrics",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "J-al_DKsgi0",
+              "label": "vostfr Someone Like Me live",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "ym7W0kEw4ME",
+              "label": "Some one like me FHDX60FPS। Twiceland Zone 2 – Fantasy Park",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -547,7 +782,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/twice-ep/1242966871",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -610,7 +845,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/one-more-time-ep/1288112870",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -629,7 +864,14 @@
         },
         {
           "title": "Luv Me",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "Tc8Dk81xyV8",
+              "label": "「LUV ME」 FHDX60FPS। Dream Day concert at Tokyo Dome",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -642,8 +884,8 @@
       "released": "2017-10-30",
       "cover": "assets/img/covers/twicetagram.jpg",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/3hJXmK5gWN9P6jtZL0Lr2y",
+        "appleMusic": "https://music.apple.com/ph/album/twicetagram/1555405141",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -661,6 +903,12 @@
               "kind": "dance",
               "url": "aHN1dK2UxE4",
               "label": "Dance Video (NO CG Ver.)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "bUrQbt1jR4A",
+              "label": "Comeback Stage @ M COUNTDOWN",
               "official": true
             }
           ]
@@ -730,8 +978,8 @@
       "cover": "assets/img/covers/merry-and-happy.jpg",
       "note": "Reissue of Twicetagram — new tracks only.",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/0R7pj4tnmcoUulrZGPo6nw",
+        "appleMusic": "https://music.apple.com/ph/album/merry-happy/1555410489",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -743,6 +991,12 @@
             {
               "kind": "mv",
               "url": "rRzxEiBLQCA",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "Tw9TPoToEvw",
+              "label": "Music Bank Stage",
               "official": true
             }
           ]
@@ -764,7 +1018,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/candy-pop-ep/1333016985",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -798,8 +1052,8 @@
       "released": "2018-04-09",
       "cover": "assets/img/covers/what-is-love.jpg",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/5o5cJ6yZmcyy4y4hK0J6de",
+        "appleMusic": "https://music.apple.com/ph/album/what-is-love-ep/1555390082",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -817,6 +1071,12 @@
               "kind": "dance",
               "url": "WhHEQ-W3x5Y",
               "label": "Dance Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "y9DxUmPM8pQ",
+              "label": "Comeback Stage @ M COUNTDOWN",
               "official": true
             }
           ]
@@ -854,7 +1114,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/wake-me-up-ep/1372727163",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -887,8 +1147,8 @@
       "cover": "assets/img/covers/summer-nights.jpg",
       "note": "Reissue of What Is Love? — new tracks only.",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/2GKTroaa4ysyhEdvzpvUoM",
+        "appleMusic": "https://music.apple.com/ph/album/summer-nights/1555401452",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -906,6 +1166,12 @@
               "kind": "dance",
               "url": "mr5bu2cxdzU",
               "label": "Dance Video (NEW JYP Practice Room Ver.)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "_eQmGhvr5U4",
+              "label": "Music Bank Stage",
               "official": true
             }
           ]
@@ -931,7 +1197,7 @@
       "note": "Advance digital release from BDZ. Cover art shared with the album.",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/bdz/1423569986",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -961,7 +1227,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/bdz/1423569986",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1060,7 +1326,7 @@
       "note": "Digital release from BDZ. Cover art shared with the album.",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/stay-by-my-side-single/1439570598",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1088,8 +1354,8 @@
       "released": "2018-11-05",
       "cover": "assets/img/covers/yes-or-yes.jpg",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/25VunQEW0x2W6ALND2Mh4g",
+        "appleMusic": "https://music.apple.com/ph/album/yes-or-yes/1555395987",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1107,6 +1373,12 @@
               "kind": "dance",
               "url": "Nl4BJ2TDmWE",
               "label": "Dance Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "r-vLGzfFKVA",
+              "label": "Music Bank Stage",
               "official": true
             }
           ]
@@ -1148,8 +1420,8 @@
       "cover": "assets/img/covers/the-year-of-yes.jpg",
       "note": "Reissue of Yes or Yes — new tracks only.",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/0pzmyJftuTK7i4HLjnfq1n",
+        "appleMusic": "https://music.apple.com/ph/album/the-year-of-yes/1555390354",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1184,7 +1456,7 @@
       "note": "Repackaged edition of BDZ — new track only.",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/bdz/1423569986",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1214,7 +1486,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/twice2-japanese-version-ep/1448705091",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1275,8 +1547,8 @@
       "released": "2019-04-22",
       "cover": "assets/img/covers/fancy-you.jpg",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/3aLpWFejbsdyafODLXRqwF",
+        "appleMusic": "https://music.apple.com/ph/album/fancy-you-ep/1555390183",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1294,6 +1566,12 @@
               "kind": "dance",
               "url": "iRw4kL1CMI8",
               "label": "Dance Practice Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "Jvhq3JAV_c8",
+              "label": "Comeback Stage @ M COUNTDOWN",
               "official": true
             }
           ]
@@ -1331,7 +1609,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/happy-happy-ep/1465222258",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1367,7 +1645,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/breakthrough-ep/1465709258",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1395,8 +1673,8 @@
       "released": "2019-09-23",
       "cover": "assets/img/covers/feel-special.jpg",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/3NQBPabmRm3LzVcmtkTLfo",
+        "appleMusic": "https://music.apple.com/ph/album/feel-special/1556087002",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1414,6 +1692,12 @@
               "kind": "dance",
               "url": "yChy1KRIWAY",
               "label": "Dance Practice Video (COMPLETE Ver.)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "1K_FbN_8UqU",
+              "label": "Music Bank Stage",
               "official": true
             }
           ]
@@ -1486,7 +1770,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/twice/1483087458",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1568,7 +1852,7 @@
       "note": "Repackaged edition of &Twice — new track only.",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/twice/1483087458",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1588,8 +1872,8 @@
       "released": "2020-06-01",
       "cover": "assets/img/covers/more-and-more.jpg",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/5KsduuDNWzt65TaHzmtciv",
+        "appleMusic": "https://music.apple.com/ph/album/more-more/1515404856",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1642,7 +1926,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/fanfare-ep/1517581744",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1678,7 +1962,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/twice3-japanese-version-ep/1528951135",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1748,8 +2032,8 @@
       "released": "2020-10-26",
       "cover": "assets/img/covers/eyes-wide-open.jpg",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/33jypnU7WULxPaVrjj4RXH",
+        "appleMusic": "https://music.apple.com/ph/album/eyes-wide-open/1535654236",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1767,6 +2051,12 @@
               "kind": "dance",
               "url": "pMQjg5b-3gE",
               "label": "Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "TjPGouR4FzQ",
+              "label": "Comeback Stage @ M COUNTDOWN",
               "official": true
             }
           ]
@@ -1856,7 +2146,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/better-ep/1537586354",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1901,8 +2191,8 @@
       "cover": "assets/img/covers/cry-for-me.jpg",
       "note": "",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/2aRAPmBCEdo9pWimsI5l87",
+        "appleMusic": "https://music.apple.com/ph/album/cry-for-me-single/1544547831",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1911,12 +2201,6 @@
           "title": "Cry for Me",
           "titleTrack": true,
           "videos": [
-            {
-              "kind": "audio",
-              "url": "FF50-LY2Kro",
-              "label": "Official Audio",
-              "official": true
-            },
             {
               "kind": "dance",
               "url": "nUP0SLPtQgU",
@@ -1950,7 +2234,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/kura-kura-ep/1561940504",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1988,8 +2272,8 @@
       "released": "2021-06-11",
       "cover": "assets/img/covers/taste-of-love.jpg",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/00vb6sViDbJLmLLchfbRh4",
+        "appleMusic": "https://music.apple.com/ph/album/taste-of-love-ep/1566636556",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2001,6 +2285,12 @@
             {
               "kind": "mv",
               "url": "XA2YEHn-A8Q",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "zzUpUEzG_68",
+              "label": "Music Bank Stage",
               "official": true
             }
           ]
@@ -2043,7 +2333,7 @@
       "note": "Advance digital release from Perfect World. Cover art shared with the album.",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/perfect-world/1572685835",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2102,7 +2392,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/perfect-world/1572685835",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2191,8 +2481,8 @@
       "cover": "assets/img/covers/the-feels.jpg",
       "note": "Pre-release English single for Formula of Love: O+T=<3.",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/5kaDKzyrE5Cx9c4mLQZ6b1",
+        "appleMusic": "https://music.apple.com/ph/album/the-feels-single/1584128932",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2211,6 +2501,12 @@
               "url": "9j6_KM-uzfY",
               "label": "Choreography Video (Moving Ver.)",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "2CRISIrpObg",
+              "label": "@ Amazon Music Live",
+              "official": true
             }
           ]
         }
@@ -2225,8 +2521,8 @@
       "released": "2021-11-12",
       "cover": "assets/img/covers/formula-of-love.jpg",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/5052Ip89wdW8EGdpjEpNeq",
+        "appleMusic": "https://music.apple.com/ph/album/formula-of-love-o-t-3/1591509653",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2319,6 +2615,12 @@
               "url": "9j6_KM-uzfY",
               "label": "Choreography Video (Moving Ver.)",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "2CRISIrpObg",
+              "label": "@ Amazon Music Live",
+              "official": true
             }
           ],
           "note": "Pre-release single"
@@ -2336,7 +2638,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/doughnut-ep/1595859513",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2376,7 +2678,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/twice4-japanese-ver-ep/1611148059",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2430,7 +2732,7 @@
       "note": "Digital release from Celebrate. Cover art shared with the album.",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/just-be-yourself-single/1613516516",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2438,14 +2740,7 @@
         {
           "title": "Just Be Yourself",
           "titleTrack": true,
-          "videos": [
-            {
-              "kind": "audio",
-              "url": "7LBqr_sjsys",
-              "official": true,
-              "label": "Audio"
-            }
-          ]
+          "videos": []
         }
       ]
     },
@@ -2460,7 +2755,7 @@
       "note": "Advance digital release from Celebrate. Cover art shared with the album.",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/celebrate/1633009348",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2496,7 +2791,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/celebrate/1633009348",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2539,14 +2834,7 @@
         },
         {
           "title": "Just Be Yourself",
-          "videos": [
-            {
-              "kind": "audio",
-              "url": "7LBqr_sjsys",
-              "official": true,
-              "label": "Audio"
-            }
-          ]
+          "videos": []
         },
         {
           "title": "Doughnut",
@@ -2571,8 +2859,8 @@
       "released": "2022-08-26",
       "cover": "assets/img/covers/between-1-and-2.jpg",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/3NZ94nQbqimcu2i71qhc4f",
+        "appleMusic": "https://music.apple.com/ph/album/between-1-2/1635656322",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2637,8 +2925,8 @@
       "cover": "assets/img/covers/moonlight-sunrise.jpg",
       "note": "Pre-release English single for Ready to Be.",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/3Haj0Fa9S49LCeYcOiODcL",
+        "appleMusic": "https://music.apple.com/ph/album/moonlight-sunrise-single/1660143942",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2657,6 +2945,12 @@
               "url": "-38PwJvhDN0",
               "label": "Choreography Video (Moving Ver.)",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "LXfS5gTXMOY",
+              "label": "@ Amazon Music Live",
+              "official": true
             }
           ]
         }
@@ -2674,7 +2968,7 @@
       "note": "MISAMO's debut release. Insert song for the drama Liaison. Cover art shared with Masterpiece.",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/bouquet-single/1666018986",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2688,12 +2982,6 @@
               "url": "c64_lZErcOQ",
               "official": true,
               "label": "Making Music Video (short ver.)"
-            },
-            {
-              "kind": "audio",
-              "url": "lD-GY7WiTd4",
-              "official": true,
-              "label": "Audio"
             }
           ]
         }
@@ -2708,8 +2996,8 @@
       "released": "2023-03-10",
       "cover": "assets/img/covers/ready-to-be.jpg",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/7hzP5i7StxYG4StECA0rrJ",
+        "appleMusic": "https://music.apple.com/ph/album/ready-to-be/1669081578",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2745,6 +3033,12 @@
               "kind": "dance",
               "url": "-38PwJvhDN0",
               "label": "Choreography Video (Moving Ver.)",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "LXfS5gTXMOY",
+              "label": "@ Amazon Music Live",
               "official": true
             }
           ]
@@ -2783,7 +3077,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/hare-hare-ep/1686024797",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2824,7 +3118,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/masterpiece/1691852603",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2870,14 +3164,7 @@
         },
         {
           "title": "Bouquet",
-          "videos": [
-            {
-              "kind": "audio",
-              "url": "lD-GY7WiTd4",
-              "official": true,
-              "label": "Audio"
-            }
-          ]
+          "videos": []
         }
       ]
     },
@@ -2892,7 +3179,7 @@
       "note": "Digital release from Dive. Cover art shared with the album.",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/dance-again-single/1717884700",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2921,8 +3208,8 @@
       "cover": "assets/img/covers/i-got-you.jpg",
       "note": "Pre-release single for With You-th.",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/6RZHj6L3NqrvcKeiBHQbjL",
+        "appleMusic": "https://music.apple.com/ph/album/i-got-you-single/1720841846",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2955,8 +3242,8 @@
       "released": "2024-02-23",
       "cover": "assets/img/covers/with-youth.jpg",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/575TQDOQqc0MAheeEeKWUR",
+        "appleMusic": "https://music.apple.com/ph/album/with-you-th-ep/1726087580",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -3025,7 +3312,7 @@
       "note": "Digital release from Dive. Cover art shared with the album.",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/dive/1754339021",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -3055,7 +3342,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/dive/1754339021",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -3167,7 +3454,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/haute-couture/1772136984",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -3226,14 +3513,7 @@
         },
         {
           "title": "Jealousy",
-          "videos": [
-            {
-              "kind": "audio",
-              "url": "ISocMAtkK1g",
-              "official": true,
-              "label": "Audio"
-            }
-          ]
+          "videos": []
         }
       ]
     },
@@ -3246,8 +3526,8 @@
       "released": "2024-12-06",
       "cover": "assets/img/covers/strategy.jpg",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/5YamV8eSywqu7g1Ms4GoqA",
+        "appleMusic": "https://music.apple.com/ph/album/strategy/1774299753",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -3266,6 +3546,12 @@
               "kind": "mv",
               "url": "bpiyH00cqS8",
               "label": "M/V (TWICE-TRATEGY ver.)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "qgHlUeOkAo4",
+              "label": "Music Bank One-Take 4K",
               "official": true
             }
           ]
@@ -3308,7 +3594,7 @@
       "note": "Digital release from Enemy. Cover art shared with the album.",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/the-wish-single/1781860012",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -3339,7 +3625,7 @@
       "note": "Twice version of the Coldplay single, with a new Korean verse.",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/we-pray-twice-version-single/1807106199",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -3364,7 +3650,7 @@
       "note": "Theme song for the film Kakukaku Shikajika. Cover art shared with Play.",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/message-single/1807547126",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -3446,7 +3732,7 @@
       "cover": "assets/img/covers/takedown.jpg",
       "note": "From the KPop Demon Hunters soundtrack. Also appears as a bonus track on This Is For.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/5HL3SRsMf7iX4kwWO3Hiuf",
         "appleMusic": "",
         "youtubeMusic": "",
         "melon": ""
@@ -3482,8 +3768,8 @@
       "released": "2025-07-11",
       "cover": "assets/img/covers/this-is-for.jpg",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/02dUOPB3MtmV5fawzaZiq6",
+        "appleMusic": "https://music.apple.com/ph/album/this-is-for-deluxe/1826124841",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -3505,6 +3791,12 @@
               "kind": "dance",
               "url": "qJVd5WZO8Ao",
               "label": "Choreography Video (Fix ver.)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "mh_4SYlP-tY",
+              "label": "Music Bank Stage",
               "official": true
             }
           ]
@@ -3599,7 +3891,7 @@
       "note": "Digital release from Enemy. Cover art shared with the album.",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/enemy/1828648304",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -3695,7 +3987,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/enemy/1828648304",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -3776,8 +4068,8 @@
       "cover": "assets/img/covers/ten-the-story-goes-on.jpg",
       "note": "10th anniversary album — one group track plus a solo song for each member.",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/7zyibWit2LeHvy5h9utbfg",
+        "appleMusic": "https://music.apple.com/ph/album/ten-the-story-goes-on/1840284138",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -3790,6 +4082,12 @@
               "kind": "mv",
               "url": "zqorlX_5oHQ",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "gfQcVjbc1Vg",
+              "label": "Live Stage @ 2025 FANMEETING",
+              "official": true
             }
           ]
         },
@@ -3798,9 +4096,15 @@
           "artist": "Nayeon",
           "videos": [
             {
-              "kind": "audio",
-              "url": "vnA8--MCU_A",
-              "label": "Official Audio",
+              "kind": "other",
+              "url": "NEPHzkDCw08",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "16_2Z--YW7s",
+              "label": "Lyric Video",
               "official": true
             }
           ]
@@ -3810,9 +4114,9 @@
           "artist": "Jeongyeon",
           "videos": [
             {
-              "kind": "audio",
-              "url": "1kFNJEIYSaY",
-              "label": "Official Audio",
+              "kind": "lyric",
+              "url": "2hMplq1eXOo",
+              "label": "Lyric Video",
               "official": true
             }
           ]
@@ -3822,9 +4126,9 @@
           "artist": "Momo",
           "videos": [
             {
-              "kind": "audio",
-              "url": "LkF528yaz9A",
-              "label": "Official Audio",
+              "kind": "lyric",
+              "url": "mfDt-GWZdFc",
+              "label": "Lyric Video",
               "official": true
             }
           ]
@@ -3834,9 +4138,9 @@
           "artist": "Sana",
           "videos": [
             {
-              "kind": "audio",
-              "url": "um6VLQEm500",
-              "label": "Official Audio",
+              "kind": "lyric",
+              "url": "wfsrUojDPtg",
+              "label": "Lyric Video",
               "official": true
             }
           ]
@@ -3846,9 +4150,9 @@
           "artist": "Jihyo",
           "videos": [
             {
-              "kind": "audio",
-              "url": "WYMyJmm4IMc",
-              "label": "Official Audio",
+              "kind": "lyric",
+              "url": "lY8jvTG0edQ",
+              "label": "Lyric Video",
               "official": true
             }
           ]
@@ -3858,9 +4162,9 @@
           "artist": "Mina",
           "videos": [
             {
-              "kind": "audio",
-              "url": "kOt4ekUkNvs",
-              "label": "Official Audio",
+              "kind": "lyric",
+              "url": "XXwo3aOVLxU",
+              "label": "Lyric Video",
               "official": true
             }
           ]
@@ -3870,9 +4174,9 @@
           "artist": "Dahyun",
           "videos": [
             {
-              "kind": "audio",
-              "url": "7wlDQRd5lGU",
-              "label": "Official Audio",
+              "kind": "lyric",
+              "url": "KGIEoc7Ry5k",
+              "label": "Lyric Video",
               "official": true
             }
           ]
@@ -3882,9 +4186,9 @@
           "artist": "Chaeyoung",
           "videos": [
             {
-              "kind": "audio",
-              "url": "5zrfR0-qwog",
-              "label": "Official Audio",
+              "kind": "lyric",
+              "url": "zyPIzeV4gQ0",
+              "label": "Lyric Video",
               "official": true
             }
           ]
@@ -3894,9 +4198,15 @@
           "artist": "Tzuyu",
           "videos": [
             {
-              "kind": "audio",
-              "url": "TPHLwBBN00o",
-              "label": "Official Audio",
+              "kind": "other",
+              "url": "CDtaA78aSzE",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "jI_rZqZcSEA",
+              "label": "Lyric Video",
               "official": true
             }
           ]
@@ -3915,7 +4225,7 @@
       "note": "",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/play/1866521162",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -4006,7 +4316,7 @@
       "note": "10th anniversary best album. Tracklist still to be filled in.",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
         "youtubeMusic": "",
         "melon": ""
       },

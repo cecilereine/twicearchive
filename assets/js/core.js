@@ -168,16 +168,20 @@ function videoCard(v) {
 
   const durTag = v.duration ? `<span class="dur">${escapeHtml(v.duration)}</span>` : '';
 
-  /* Non-YouTube entries have nothing to embed, so their card is a plain link
-     out instead of a play button. */
-  const thumbTag = id
+  /* Some uploads — SBS Inkigayo stages, for instance — have embedding turned
+     off by the uploader. Playing one inline would show YouTube's "Video
+     unavailable" panel, so those are marked "noEmbed": true in the data and
+     open on YouTube instead, keeping their thumbnail. */
+  const embeddable = id && !v.noEmbed;
+  const thumbTag = embeddable
     ? `<button type="button" class="vthumb" data-yt="${id}"
                data-start="${youtubeStart(v.url)}"
                aria-label="Play ${escapeHtml(label)}">
          ${thumbInner}<span class="play">▶</span>${durTag}
        </button>`
-    : `<a class="vthumb" href="${escapeHtml(v.url)}" target="_blank" rel="noopener"
-          aria-label="Open ${escapeHtml(label)}">
+    : `<a class="vthumb" href="${escapeHtml(id ? ytWatch(id) : v.url)}"
+          target="_blank" rel="noopener"
+          aria-label="Open ${escapeHtml(label)} on YouTube">
          ${thumbInner}<span class="play">↗</span>${durTag}
        </a>`;
 
@@ -189,6 +193,7 @@ function videoCard(v) {
         <div class="vtags">
           <span class="badge" data-kind="${kind}">${escapeHtml(KIND_LABEL[kind])}</span>
           ${official}
+          ${v.noEmbed ? '<span class="offsite" title="Embedding is disabled on this upload — opens on YouTube">YouTube ↗</span>' : ''}
           <a class="ext" href="${escapeHtml(id ? ytWatch(id) : v.url)}"
              target="_blank" rel="noopener" title="Open in a new tab">↗</a>
         </div>

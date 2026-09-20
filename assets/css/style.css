@@ -427,6 +427,11 @@ a { color: inherit; }
 .watch-btn:hover { color: var(--text); border-color: var(--text-faint); }
 .watch-btn.on { background: var(--ok); border-color: transparent; color: #fff; }
 
+.offsite {
+  font-size: 10px; font-weight: 700; letter-spacing: .03em;
+  color: var(--text-faint);
+}
+
 .ext {
   font-size: 11.5px; color: var(--text-faint); text-decoration: none;
   margin-left: auto;

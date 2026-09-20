@@ -83,6 +83,40 @@ tracks, with a `note` saying what they're a reissue of.
 To find links fast: turn on the **Needs links** filter, open a release, and every
 song without a video shows a *Search YouTube ↗* link that runs the search for you.
 
+## Adding links without labelling them
+
+You don't have to write any of the fields out by hand. Paste bare YouTube URLs,
+one per line, and let the tool work it out:
+
+```bash
+python3 tools/add-links.py auto < links.txt
+```
+
+For each link it asks YouTube for the video's real title and channel, then fills
+in the rest itself:
+
+| field | how it's decided |
+|---|---|
+| which release and track | the track name found in the video title, longest match wins |
+| `kind` | keywords in the title — "Comeback Stage", "Dance Practice", "Lyrics"… |
+| `official` | **the channel**, never the title |
+| `label` | the video title, tidied up |
+| `noEmbed` | set when the uploader has disabled embedding |
+
+Lines that aren't links are treated as headings and ignored, so you can paste a
+song name above each group. Pass a release id instead of `auto` to confine it to
+one release, and `--dry-run` to see what it would do without writing.
+
+It refuses to guess: anything it can't match to a track, or that's already
+filed, is listed at the end and left alone.
+
+Two things it gets right that are easy to get wrong by hand. A channel called
+"TWICE World" is *not* official, and fan reuploads regularly title themselves
+"Official MV" — so official status comes from the channel only. And a few
+uploads (SBS Inkigayo stages, for instance) have embedding disabled; those would
+show a dead player, so they're flagged `noEmbed` and the card links out to
+YouTube instead, keeping its thumbnail.
+
 ## Adding streaming links
 
 Each release has a `links` object. Fill in whichever you have — the rest render

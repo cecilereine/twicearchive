@@ -9,3 +9,7 @@
 
 # Logs
 *.log
+
+# never commit API credentials
+.env
+*.secret
