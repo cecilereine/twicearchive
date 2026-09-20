@@ -1437,12 +1437,43 @@
               "url": "DdLYSziSXII",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "live",
+              "url": "PAh3xTo4TQo",
+              "label": "「Wake me up」 FHD। DreamDay concert at Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "_Mp_tYzB7bc",
+              "label": "「Wake me up」+ intro FHD। 1st ARENA TOUR 2018 BDZ",
+              "official": false
             }
           ]
         },
         {
           "title": "Pink Lemonade",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "5AIGCWw3r8c",
+              "label": "「Pink lemonade」 FHDX60FPS। Dream Day concert at Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "32UXwkpnDHg",
+              "label": "「Pink lemonade」 FHD। 1st ARENA TOUR 2018 BDZ",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "rZnzTVvmex8",
+              "label": "Pink Lemonade [Color Coded Lyrics/Jap/Rom/Eng]",
+              "official": false
+            }
+          ]
         }
       ]
     },
