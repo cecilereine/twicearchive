@@ -25,10 +25,17 @@ const allVideos = album => album.tracks.flatMap(t => t.videos || []);
 
 const albumYear = album => (album.released || '').slice(0, 4);
 
+/* Dates may be partial. Some collaboration singles are only documented to the
+   year, so "2025" renders as "2025" rather than inventing a January 1st. */
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
 const prettyDate = iso => {
-  const d = new Date(iso + 'T00:00:00');
-  return isNaN(d) ? iso
-    : d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+  const [y, m, d] = String(iso || '').split('-');
+  if (!y) return '';
+  if (!m) return y;
+  const month = MONTHS[parseInt(m, 10) - 1] || '';
+  if (!d) return `${month} ${y}`;
+  return `${month} ${parseInt(d, 10)}, ${y}`;
 };
 
 /* Two-letter stand-in drawn on the cover tile until real art is dropped into

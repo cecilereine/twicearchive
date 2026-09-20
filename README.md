@@ -97,7 +97,7 @@ greyed out so the gaps stay visible:
 }
 ```
 
-## Adding cover art
+## Cover art
 
 YouTube thumbnails come for free, but album covers don't. Drop an image in
 `assets/img/covers/` and name it in the release's `cover` field:
@@ -108,6 +108,26 @@ YouTube thumbnails come for free, but album covers don't. Drop an image in
 
 Without one you get a coloured tile with the release's initials, which is a
 perfectly fine placeholder.
+
+Covers are shown in a **square** tile (`aspect-ratio: 1/1`, `object-fit: cover`),
+so standard square album art fits with no cropping. Anything non-square is
+centre-cropped to a square rather than squashed.
+
+Export at **600x600** — the grid tile is roughly 170-250 CSS pixels, so that is
+still comfortably sharp on a retina screen. Bigger just costs load time; the
+originals in this repo were resized from 1000px and 3000px masters, which took
+the set from 38.5 MB to 3.1 MB. To resize a new one in place:
+
+```bash
+sips -Z 600 -s format jpeg -s formatOptions 82 assets/img/covers/new-cover.jpg
+```
+
+## Dates
+
+`released` may be partial. `2025-07-11` renders as "Jul 11, 2025", `2025-07` as
+"Jul 2025", and a bare `2025` as "2025" — used for a few collaboration singles
+whose exact day isn't documented. Releases are grouped by the year, and a partial
+date sorts to the end of its year.
 
 ## Adding a new section
 
@@ -130,6 +150,8 @@ Set `data-accent` on `<html>` to re-tint the page — `discography` (pink),
 - **Cache busting.** GitHub Pages caches for ten minutes. Whenever you change the CSS
   or JS, bump every `?v=` in `index.html` and `discography.html` to the same new
   number, or a browser can pair new HTML with a stale script.
+- Singles and collaborations are separate releases, one per entry, so each lands
+  in its own year rather than being lumped together.
 - Tracklists were taken from each release's own Wikipedia article, not the
   "songs recorded by Twice" list — that list covers group songs only and silently
   drops member solos and sub-unit tracks.

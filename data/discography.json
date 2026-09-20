@@ -3,10 +3,22 @@
   "note": "Korean releases. Japanese and solo releases to be added. Tracklists verified against each release's Wikipedia article; video and audio links verified by YouTube channel.",
   "updated": "2026-09-21",
   "services": [
-    { "key": "spotify",      "label": "Spotify" },
-    { "key": "appleMusic",   "label": "Apple Music" },
-    { "key": "youtubeMusic", "label": "YouTube Music" },
-    { "key": "melon",        "label": "Melon" }
+    {
+      "key": "spotify",
+      "label": "Spotify"
+    },
+    {
+      "key": "appleMusic",
+      "label": "Apple Music"
+    },
+    {
+      "key": "youtubeMusic",
+      "label": "YouTube Music"
+    },
+    {
+      "key": "melon",
+      "label": "Melon"
+    }
   ],
   "albums": [
     {
@@ -15,18 +27,54 @@
       "seq": "1st Mini Album",
       "type": "EP",
       "released": "2015-10-20",
-      "cover": "",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "cover": "assets/img/covers/the-story-begins.jpg",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "Like Ooh-Ahh", "titleKo": "OOH-AHH하게", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "https://www.youtube.com/watch?v=0rtV5esQT6I", "official": true },
-          { "kind": "dance", "url": "CtE2MauDkrs", "label": "M/V Dance Ver.", "official": true }
-        ] },
-        { "title": "Do It Again", "titleKo": "다시 해줘", "videos": [] },
-        { "title": "Going Crazy", "titleKo": "미쳤나봐", "videos": [] },
-        { "title": "Truth", "videos": [] },
-        { "title": "Candy Boy", "videos": [] },
-        { "title": "Like a Fool", "videos": [] }
+        {
+          "title": "Like Ooh-Ahh",
+          "titleKo": "OOH-AHH하게",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "https://www.youtube.com/watch?v=0rtV5esQT6I",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "CtE2MauDkrs",
+              "label": "M/V Dance Ver.",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Do It Again",
+          "titleKo": "다시 해줘",
+          "videos": []
+        },
+        {
+          "title": "Going Crazy",
+          "titleKo": "미쳤나봐",
+          "videos": []
+        },
+        {
+          "title": "Truth",
+          "videos": []
+        },
+        {
+          "title": "Candy Boy",
+          "videos": []
+        },
+        {
+          "title": "Like a Fool",
+          "videos": []
+        }
       ]
     },
     {
@@ -35,18 +83,52 @@
       "seq": "2nd Mini Album",
       "type": "EP",
       "released": "2016-04-25",
-      "cover": "",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "cover": "assets/img/covers/page-two.jpg",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "Cheer Up", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "c7rCyll5AeY", "official": true }
-        ] },
-        { "title": "Precious Love", "titleKo": "소중한 사랑", "videos": [] },
-        { "title": "Touchdown", "videos": [] },
-        { "title": "Tuk Tok", "titleKo": "툭하면 톡", "videos": [] },
-        { "title": "Woohoo", "videos": [] },
-        { "title": "My Headphones On", "titleKo": "Headphone 써", "videos": [] },
-        { "title": "I'm Gonna Be a Star", "videos": [] }
+        {
+          "title": "Cheer Up",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "c7rCyll5AeY",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Precious Love",
+          "titleKo": "소중한 사랑",
+          "videos": []
+        },
+        {
+          "title": "Touchdown",
+          "videos": []
+        },
+        {
+          "title": "Tuk Tok",
+          "titleKo": "툭하면 톡",
+          "videos": []
+        },
+        {
+          "title": "Woohoo",
+          "videos": []
+        },
+        {
+          "title": "My Headphones On",
+          "titleKo": "Headphone 써",
+          "videos": []
+        },
+        {
+          "title": "I'm Gonna Be a Star",
+          "videos": []
+        }
       ]
     },
     {
@@ -55,19 +137,55 @@
       "seq": "3rd Mini Album",
       "type": "EP",
       "released": "2016-10-24",
-      "cover": "",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "cover": "assets/img/covers/twicecoaster-lane-1.jpg",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "TT", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "ePpPVE-GGJw", "official": true },
-          { "kind": "dance", "url": "9uypQGzzhns", "label": "Dance Practice Video", "official": true }
-        ] },
-        { "title": "1 to 10", "videos": [] },
-        { "title": "Ponytail", "videos": [] },
-        { "title": "Jelly Jelly", "videos": [] },
-        { "title": "Pit-A-Pat", "videos": [] },
-        { "title": "Next Page", "videos": [] },
-        { "title": "One in a Million", "videos": [] }
+        {
+          "title": "TT",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "ePpPVE-GGJw",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "9uypQGzzhns",
+              "label": "Dance Practice Video",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "1 to 10",
+          "videos": []
+        },
+        {
+          "title": "Ponytail",
+          "videos": []
+        },
+        {
+          "title": "Jelly Jelly",
+          "videos": []
+        },
+        {
+          "title": "Pit-A-Pat",
+          "videos": []
+        },
+        {
+          "title": "Next Page",
+          "videos": []
+        },
+        {
+          "title": "One in a Million",
+          "videos": []
+        }
       ]
     },
     {
@@ -76,16 +194,41 @@
       "seq": "Special Album",
       "type": "Reissue",
       "released": "2017-02-20",
-      "cover": "",
+      "cover": "assets/img/covers/twicecoaster-lane-2.jpg",
       "note": "Reissue of Twicecoaster: Lane 1 — new tracks only; the rest of the disc repeats Lane 1.",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "Knock Knock", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "8A2t_tAjMz8", "official": true },
-          { "kind": "dance", "url": "idOQFSu_4Ok", "label": "Dance Practice Video", "official": true }
-        ] },
-        { "title": "Ice Cream", "titleKo": "녹아요", "videos": [] },
-        { "title": "TT (Tak Remix)", "videos": [] }
+        {
+          "title": "Knock Knock",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "8A2t_tAjMz8",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "idOQFSu_4Ok",
+              "label": "Dance Practice Video",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Ice Cream",
+          "titleKo": "녹아요",
+          "videos": []
+        },
+        {
+          "title": "TT (Tak Remix)",
+          "videos": []
+        }
       ]
     },
     {
@@ -94,18 +237,53 @@
       "seq": "4th Mini Album",
       "type": "EP",
       "released": "2017-05-15",
-      "cover": "",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "cover": "assets/img/covers/signal.jpg",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "Signal", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "VQtonf1fv_s", "official": true },
-          { "kind": "dance", "url": "EpMwiqW8k8o", "label": "Dance Video", "official": true }
-        ] },
-        { "title": "Three Times a Day", "titleKo": "하루에 세번", "videos": [] },
-        { "title": "Only You", "titleKo": "Only 너", "videos": [] },
-        { "title": "Hold Me Tight", "videos": [] },
-        { "title": "Eye Eye Eyes", "videos": [] },
-        { "title": "Someone Like Me", "videos": [] }
+        {
+          "title": "Signal",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "VQtonf1fv_s",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "EpMwiqW8k8o",
+              "label": "Dance Video",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Three Times a Day",
+          "titleKo": "하루에 세번",
+          "videos": []
+        },
+        {
+          "title": "Only You",
+          "titleKo": "Only 너",
+          "videos": []
+        },
+        {
+          "title": "Hold Me Tight",
+          "videos": []
+        },
+        {
+          "title": "Eye Eye Eyes",
+          "videos": []
+        },
+        {
+          "title": "Someone Like Me",
+          "videos": []
+        }
       ]
     },
     {
@@ -114,25 +292,84 @@
       "seq": "1st Full Album",
       "type": "Full Album",
       "released": "2017-10-30",
-      "cover": "",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "cover": "assets/img/covers/twicetagram.jpg",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "Likey", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "V2hlQkVJZhE", "official": true },
-          { "kind": "dance", "url": "aHN1dK2UxE4", "label": "Dance Video (NO CG Ver.)", "official": true }
-        ] },
-        { "title": "Turtle", "titleKo": "거북이", "videos": [] },
-        { "title": "Missing U", "videos": [] },
-        { "title": "Wow", "videos": [] },
-        { "title": "FFW", "videos": [] },
-        { "title": "Ding Dong", "videos": [] },
-        { "title": "24/7", "videos": [] },
-        { "title": "Look at Me", "titleKo": "날 바라바라봐", "videos": [] },
-        { "title": "Rollin'", "videos": [] },
-        { "title": "Love Line", "videos": [] },
-        { "title": "Don't Give Up", "titleKo": "힘내!", "videos": [] },
-        { "title": "You in My Heart", "titleKo": "널 내게 담아", "videos": [] },
-        { "title": "Jaljayo Good Night", "titleKo": "잘자요 굿나잇", "videos": [] }
+        {
+          "title": "Likey",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "V2hlQkVJZhE",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "aHN1dK2UxE4",
+              "label": "Dance Video (NO CG Ver.)",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Turtle",
+          "titleKo": "거북이",
+          "videos": []
+        },
+        {
+          "title": "Missing U",
+          "videos": []
+        },
+        {
+          "title": "Wow",
+          "videos": []
+        },
+        {
+          "title": "FFW",
+          "videos": []
+        },
+        {
+          "title": "Ding Dong",
+          "videos": []
+        },
+        {
+          "title": "24/7",
+          "videos": []
+        },
+        {
+          "title": "Look at Me",
+          "titleKo": "날 바라바라봐",
+          "videos": []
+        },
+        {
+          "title": "Rollin'",
+          "videos": []
+        },
+        {
+          "title": "Love Line",
+          "videos": []
+        },
+        {
+          "title": "Don't Give Up",
+          "titleKo": "힘내!",
+          "videos": []
+        },
+        {
+          "title": "You in My Heart",
+          "titleKo": "널 내게 담아",
+          "videos": []
+        },
+        {
+          "title": "Jaljayo Good Night",
+          "titleKo": "잘자요 굿나잇",
+          "videos": []
+        }
       ]
     },
     {
@@ -141,14 +378,30 @@
       "seq": "Repackage",
       "type": "Reissue",
       "released": "2017-12-11",
-      "cover": "",
+      "cover": "assets/img/covers/merry-and-happy.jpg",
       "note": "Reissue of Twicetagram — new tracks only.",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "Heart Shaker", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "rRzxEiBLQCA", "official": true }
-        ] },
-        { "title": "Merry & Happy", "videos": [] }
+        {
+          "title": "Heart Shaker",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "rRzxEiBLQCA",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Merry & Happy",
+          "videos": []
+        }
       ]
     },
     {
@@ -157,18 +410,51 @@
       "seq": "5th Mini Album",
       "type": "EP",
       "released": "2018-04-09",
-      "cover": "",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "cover": "assets/img/covers/what-is-love.jpg",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "What Is Love?", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "i0p1bmr0EmE", "official": true },
-          { "kind": "dance", "url": "WhHEQ-W3x5Y", "label": "Dance Video", "official": true }
-        ] },
-        { "title": "Sweet Talker", "videos": [] },
-        { "title": "Ho!", "videos": [] },
-        { "title": "Dejavu", "videos": [] },
-        { "title": "Say Yes", "videos": [] },
-        { "title": "Stuck", "videos": [] }
+        {
+          "title": "What Is Love?",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "i0p1bmr0EmE",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "WhHEQ-W3x5Y",
+              "label": "Dance Video",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Sweet Talker",
+          "videos": []
+        },
+        {
+          "title": "Ho!",
+          "videos": []
+        },
+        {
+          "title": "Dejavu",
+          "videos": []
+        },
+        {
+          "title": "Say Yes",
+          "videos": []
+        },
+        {
+          "title": "Stuck",
+          "videos": []
+        }
       ]
     },
     {
@@ -177,16 +463,40 @@
       "seq": "Special Album",
       "type": "Reissue",
       "released": "2018-07-09",
-      "cover": "",
+      "cover": "assets/img/covers/summer-nights.jpg",
       "note": "Reissue of What Is Love? — new tracks only.",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "Dance the Night Away", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "Fm5iP0S1z9w", "official": true },
-          { "kind": "dance", "url": "mr5bu2cxdzU", "label": "Dance Video (NEW JYP Practice Room Ver.)", "official": true }
-        ] },
-        { "title": "Chillax", "videos": [] },
-        { "title": "Shot Thru the Heart", "videos": [] }
+        {
+          "title": "Dance the Night Away",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "Fm5iP0S1z9w",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "mr5bu2cxdzU",
+              "label": "Dance Video (NEW JYP Practice Room Ver.)",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Chillax",
+          "videos": []
+        },
+        {
+          "title": "Shot Thru the Heart",
+          "videos": []
+        }
       ]
     },
     {
@@ -195,19 +505,56 @@
       "seq": "6th Mini Album",
       "type": "EP",
       "released": "2018-11-05",
-      "cover": "",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "cover": "assets/img/covers/yes-or-yes.jpg",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "Yes or Yes", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "mAKsZ26SabQ", "official": true },
-          { "kind": "dance", "url": "Nl4BJ2TDmWE", "label": "Dance Video", "official": true }
-        ] },
-        { "title": "Say You Love Me", "videos": [] },
-        { "title": "LaLaLa", "videos": [] },
-        { "title": "Young & Wild", "videos": [] },
-        { "title": "Sunset", "videos": [] },
-        { "title": "After Moon", "videos": [] },
-        { "title": "BDZ", "note": "Korean ver.", "videos": [] }
+        {
+          "title": "Yes or Yes",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "mAKsZ26SabQ",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "Nl4BJ2TDmWE",
+              "label": "Dance Video",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Say You Love Me",
+          "videos": []
+        },
+        {
+          "title": "LaLaLa",
+          "videos": []
+        },
+        {
+          "title": "Young & Wild",
+          "videos": []
+        },
+        {
+          "title": "Sunset",
+          "videos": []
+        },
+        {
+          "title": "After Moon",
+          "videos": []
+        },
+        {
+          "title": "BDZ",
+          "note": "Korean ver.",
+          "videos": []
+        }
       ]
     },
     {
@@ -216,14 +563,32 @@
       "seq": "Special Album",
       "type": "Reissue",
       "released": "2018-12-12",
-      "cover": "",
+      "cover": "assets/img/covers/the-year-of-yes.jpg",
       "note": "Reissue of Yes or Yes — new tracks only.",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "The Best Thing I Ever Did", "titleKo": "올해 제일 잘한 일", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "CfUGjK6gGgs", "official": true }
-        ] },
-        { "title": "Be as One", "note": "Korean ver.", "videos": [] }
+        {
+          "title": "The Best Thing I Ever Did",
+          "titleKo": "올해 제일 잘한 일",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "CfUGjK6gGgs",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Be as One",
+          "note": "Korean ver.",
+          "videos": []
+        }
       ]
     },
     {
@@ -232,18 +597,51 @@
       "seq": "7th Mini Album",
       "type": "EP",
       "released": "2019-04-22",
-      "cover": "",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "cover": "assets/img/covers/fancy-you.jpg",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "Fancy", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "kOHB85vDuow", "official": true },
-          { "kind": "dance", "url": "iRw4kL1CMI8", "label": "Dance Practice Video", "official": true }
-        ] },
-        { "title": "Stuck in My Head", "videos": [] },
-        { "title": "Girls Like Us", "videos": [] },
-        { "title": "Hot", "videos": [] },
-        { "title": "Turn It Up", "videos": [] },
-        { "title": "Strawberry", "videos": [] }
+        {
+          "title": "Fancy",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "kOHB85vDuow",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "iRw4kL1CMI8",
+              "label": "Dance Practice Video",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Stuck in My Head",
+          "videos": []
+        },
+        {
+          "title": "Girls Like Us",
+          "videos": []
+        },
+        {
+          "title": "Hot",
+          "videos": []
+        },
+        {
+          "title": "Turn It Up",
+          "videos": []
+        },
+        {
+          "title": "Strawberry",
+          "videos": []
+        }
       ]
     },
     {
@@ -252,19 +650,56 @@
       "seq": "8th Mini Album",
       "type": "EP",
       "released": "2019-09-23",
-      "cover": "",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "cover": "assets/img/covers/feel-special.jpg",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "Feel Special", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "3ymwOvzhwHs", "official": true },
-          { "kind": "dance", "url": "yChy1KRIWAY", "label": "Dance Practice Video (COMPLETE Ver.)", "official": true }
-        ] },
-        { "title": "Rainbow", "videos": [] },
-        { "title": "Get Loud", "videos": [] },
-        { "title": "Trick It", "videos": [] },
-        { "title": "Love Foolish", "videos": [] },
-        { "title": "21:29", "videos": [] },
-        { "title": "Breakthrough", "note": "Korean ver.", "videos": [] }
+        {
+          "title": "Feel Special",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "3ymwOvzhwHs",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "yChy1KRIWAY",
+              "label": "Dance Practice Video (COMPLETE Ver.)",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Rainbow",
+          "videos": []
+        },
+        {
+          "title": "Get Loud",
+          "videos": []
+        },
+        {
+          "title": "Trick It",
+          "videos": []
+        },
+        {
+          "title": "Love Foolish",
+          "videos": []
+        },
+        {
+          "title": "21:29",
+          "videos": []
+        },
+        {
+          "title": "Breakthrough",
+          "note": "Korean ver.",
+          "videos": []
+        }
       ]
     },
     {
@@ -273,18 +708,49 @@
       "seq": "9th Mini Album",
       "type": "EP",
       "released": "2020-06-01",
-      "cover": "",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "cover": "assets/img/covers/more-and-more.jpg",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "More & More", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "mH0_XpSHkZo", "official": true }
-        ] },
-        { "title": "Oxygen", "videos": [] },
-        { "title": "Firework", "videos": [] },
-        { "title": "Make Me Go", "videos": [] },
-        { "title": "Shadow", "videos": [] },
-        { "title": "Don't Call Me Again", "videos": [] },
-        { "title": "Sweet Summer Day", "videos": [] }
+        {
+          "title": "More & More",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "mH0_XpSHkZo",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Oxygen",
+          "videos": []
+        },
+        {
+          "title": "Firework",
+          "videos": []
+        },
+        {
+          "title": "Make Me Go",
+          "videos": []
+        },
+        {
+          "title": "Shadow",
+          "videos": []
+        },
+        {
+          "title": "Don't Call Me Again",
+          "videos": []
+        },
+        {
+          "title": "Sweet Summer Day",
+          "videos": []
+        }
       ]
     },
     {
@@ -293,25 +759,135 @@
       "seq": "2nd Full Album",
       "type": "Full Album",
       "released": "2020-10-26",
-      "cover": "",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "cover": "assets/img/covers/eyes-wide-open.jpg",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "I Can't Stop Me", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "CM4CkVFmTds", "official": true },
-          { "kind": "dance", "url": "pMQjg5b-3gE", "label": "Choreography Video", "official": true }
-        ] },
-        { "title": "Hell in Heaven", "videos": [] },
-        { "title": "Up No More", "videos": [] },
-        { "title": "Do What We Like", "videos": [] },
-        { "title": "Bring It Back", "videos": [] },
-        { "title": "Believer", "videos": [] },
-        { "title": "Queen", "videos": [] },
-        { "title": "Go Hard", "videos": [] },
-        { "title": "Shot Clock", "videos": [] },
-        { "title": "Handle It", "videos": [] },
-        { "title": "Depend on You", "videos": [] },
-        { "title": "Say Something", "videos": [] },
-        { "title": "Behind the Mask", "videos": [] }
+        {
+          "title": "I Can't Stop Me",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "CM4CkVFmTds",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "pMQjg5b-3gE",
+              "label": "Choreography Video",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Hell in Heaven",
+          "videos": []
+        },
+        {
+          "title": "Up No More",
+          "videos": []
+        },
+        {
+          "title": "Do What We Like",
+          "videos": []
+        },
+        {
+          "title": "Bring It Back",
+          "videos": []
+        },
+        {
+          "title": "Believer",
+          "videos": []
+        },
+        {
+          "title": "Queen",
+          "videos": []
+        },
+        {
+          "title": "Go Hard",
+          "videos": []
+        },
+        {
+          "title": "Shot Clock",
+          "videos": []
+        },
+        {
+          "title": "Handle It",
+          "videos": []
+        },
+        {
+          "title": "Depend on You",
+          "videos": []
+        },
+        {
+          "title": "Say Something",
+          "videos": []
+        },
+        {
+          "title": "Behind the Mask",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "cry-for-me",
+      "title": "Cry for Me",
+      "seq": "Digital Single",
+      "type": "Single",
+      "released": "2020-12-18",
+      "cover": "assets/img/covers/cry-for-me.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Cry for Me",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "h1gIqiZiPzg",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "bkQw-F1QTq4",
+              "label": "Choreography - 2",
+              "official": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ill-show-you",
+      "title": "I'll Show You",
+      "seq": "Collaboration",
+      "type": "Single",
+      "released": "2020",
+      "cover": "",
+      "note": "K/DA single featuring members of Twice, from the EP All Out.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "I'll Show You",
+          "artist": "K/DA",
+          "videos": []
+        }
       ]
     },
     {
@@ -320,18 +896,50 @@
       "seq": "10th Mini Album",
       "type": "EP",
       "released": "2021-06-11",
-      "cover": "",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "cover": "assets/img/covers/taste-of-love.jpg",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "Alcohol-Free", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "XA2YEHn-A8Q", "official": true }
-        ] },
-        { "title": "First Time", "videos": [] },
-        { "title": "Scandal", "videos": [] },
-        { "title": "Conversation", "videos": [] },
-        { "title": "Baby Blue Love", "videos": [] },
-        { "title": "SOS", "videos": [] },
-        { "title": "Cry for Me", "note": "English ver.", "videos": [] }
+        {
+          "title": "Alcohol-Free",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "XA2YEHn-A8Q",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "First Time",
+          "videos": []
+        },
+        {
+          "title": "Scandal",
+          "videos": []
+        },
+        {
+          "title": "Conversation",
+          "videos": []
+        },
+        {
+          "title": "Baby Blue Love",
+          "videos": []
+        },
+        {
+          "title": "SOS",
+          "videos": []
+        },
+        {
+          "title": "Cry for Me",
+          "note": "English ver.",
+          "videos": []
+        }
       ]
     },
     {
@@ -340,30 +948,127 @@
       "seq": "3rd Full Album",
       "type": "Full Album",
       "released": "2021-11-12",
-      "cover": "",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "cover": "assets/img/covers/formula-of-love.jpg",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "Scientist", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "vPwaXytZcgI", "official": true },
-          { "kind": "dance", "url": "hUSqTW21Xl8", "label": "Choreography Video", "official": true }
-        ] },
-        { "title": "Moonlight", "videos": [] },
-        { "title": "Icon", "videos": [] },
-        { "title": "Cruel", "videos": [] },
-        { "title": "Real You", "videos": [] },
-        { "title": "F.I.L.A. (Fall in Love Again)", "videos": [] },
-        { "title": "Last Waltz", "videos": [] },
-        { "title": "Espresso", "videos": [] },
-        { "title": "Rewind", "titleKo": "알고 싶지 않아", "videos": [] },
-        { "title": "Cactus", "titleKo": "선인장", "videos": [] },
-        { "title": "Push & Pull", "artist": "Jihyo, Sana, Dahyun", "videos": [] },
-        { "title": "Hello", "artist": "Nayeon, Momo, Chaeyoung", "videos": [] },
-        { "title": "1, 3, 2", "artist": "Jeongyeon, Mina, Tzuyu", "videos": [] },
-        { "title": "Candy", "videos": [] },
-        { "title": "The Feels", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "f5_wn8mexmM", "official": true },
-          { "kind": "dance", "url": "9j6_KM-uzfY", "label": "Choreography Video (Moving Ver.)", "official": true }
-        ] }
+        {
+          "title": "Scientist",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "vPwaXytZcgI",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "hUSqTW21Xl8",
+              "label": "Choreography Video",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Moonlight",
+          "videos": []
+        },
+        {
+          "title": "Icon",
+          "videos": []
+        },
+        {
+          "title": "Cruel",
+          "videos": []
+        },
+        {
+          "title": "Real You",
+          "videos": []
+        },
+        {
+          "title": "F.I.L.A. (Fall in Love Again)",
+          "videos": []
+        },
+        {
+          "title": "Last Waltz",
+          "videos": []
+        },
+        {
+          "title": "Espresso",
+          "videos": []
+        },
+        {
+          "title": "Rewind",
+          "titleKo": "알고 싶지 않아",
+          "videos": []
+        },
+        {
+          "title": "Cactus",
+          "titleKo": "선인장",
+          "videos": []
+        },
+        {
+          "title": "Push & Pull",
+          "artist": "Jihyo, Sana, Dahyun",
+          "videos": []
+        },
+        {
+          "title": "Hello",
+          "artist": "Nayeon, Momo, Chaeyoung",
+          "videos": []
+        },
+        {
+          "title": "1, 3, 2",
+          "artist": "Jeongyeon, Mina, Tzuyu",
+          "videos": []
+        },
+        {
+          "title": "Candy",
+          "videos": []
+        },
+        {
+          "title": "The Feels",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "f5_wn8mexmM",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "9j6_KM-uzfY",
+              "label": "Choreography Video (Moving Ver.)",
+              "official": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i-love-you-more-than-anyone",
+      "title": "I Love You More Than Anyone",
+      "seq": "OST",
+      "type": "Single",
+      "released": "2021",
+      "cover": "",
+      "note": "Hospital Playlist Season 2 OST Part 4.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "I Love You More Than Anyone",
+          "titleKo": "누구보다 널 사랑해",
+          "videos": []
+        }
       ]
     },
     {
@@ -372,21 +1077,62 @@
       "seq": "11th Mini Album",
       "type": "EP",
       "released": "2022-08-26",
-      "cover": "",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "cover": "assets/img/covers/between-1-and-2.jpg",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "Talk That Talk", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "k6jqx9kZgPM", "official": true },
-          { "kind": "performance", "url": "pmkWBgayoUk", "label": "Performance Video", "official": true }
-        ] },
-        { "title": "Queen of Hearts", "videos": [
-          { "kind": "live", "url": "Q4Rb5_kjS2M", "label": "Live Clip", "official": true }
-        ] },
-        { "title": "Basics", "videos": [] },
-        { "title": "Trouble", "videos": [] },
-        { "title": "Brave", "videos": [] },
-        { "title": "Gone", "videos": [] },
-        { "title": "When We Were Kids", "videos": [] }
+        {
+          "title": "Talk That Talk",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "k6jqx9kZgPM",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "pmkWBgayoUk",
+              "label": "Performance Video",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Queen of Hearts",
+          "videos": [
+            {
+              "kind": "live",
+              "url": "Q4Rb5_kjS2M",
+              "label": "Live Clip",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Basics",
+          "videos": []
+        },
+        {
+          "title": "Trouble",
+          "videos": []
+        },
+        {
+          "title": "Brave",
+          "videos": []
+        },
+        {
+          "title": "Gone",
+          "videos": []
+        },
+        {
+          "title": "When We Were Kids",
+          "videos": []
+        }
       ]
     },
     {
@@ -395,21 +1141,64 @@
       "seq": "12th Mini Album",
       "type": "EP",
       "released": "2023-03-10",
-      "cover": "",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "cover": "assets/img/covers/ready-to-be.jpg",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "Set Me Free", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "w4cTYnOPdNk", "official": true },
-          { "kind": "performance", "url": "qSnlTld85yc", "label": "Performance Video", "official": true }
-        ] },
-        { "title": "Moonlight Sunrise", "titleTrack": true, "note": "Pre-release English single", "videos": [
-          { "kind": "mv", "url": "cKlEE_EYuNM", "official": true }
-        ] },
-        { "title": "Got the Thrills", "videos": [] },
-        { "title": "Blame It on Me", "videos": [] },
-        { "title": "Wallflower", "videos": [] },
-        { "title": "Crazy Stupid Love", "videos": [] },
-        { "title": "Set Me Free", "note": "English ver.", "videos": [] }
+        {
+          "title": "Set Me Free",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "w4cTYnOPdNk",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "qSnlTld85yc",
+              "label": "Performance Video",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Moonlight Sunrise",
+          "titleTrack": true,
+          "note": "Pre-release English single",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "cKlEE_EYuNM",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Got the Thrills",
+          "videos": []
+        },
+        {
+          "title": "Blame It on Me",
+          "videos": []
+        },
+        {
+          "title": "Wallflower",
+          "videos": []
+        },
+        {
+          "title": "Crazy Stupid Love",
+          "videos": []
+        },
+        {
+          "title": "Set Me Free",
+          "note": "English ver.",
+          "videos": []
+        }
       ]
     },
     {
@@ -418,21 +1207,65 @@
       "seq": "13th Mini Album",
       "type": "EP",
       "released": "2024-02-23",
-      "cover": "",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "cover": "assets/img/covers/with-youth.jpg",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "I Got You", "titleTrack": true, "note": "Pre-release single", "videos": [
-          { "kind": "mv", "url": "haf67eKF0uo", "official": true },
-          { "kind": "live", "url": "NhmzKgaoLX0", "label": "Live Clip", "official": true }
-        ] },
-        { "title": "One Spark", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "jCzez_q8si0", "official": true },
-          { "kind": "performance", "url": "XiwY-syjwm4", "label": "Performance Video", "official": true }
-        ] },
-        { "title": "Rush", "videos": [] },
-        { "title": "New New", "videos": [] },
-        { "title": "Bloom", "videos": [] },
-        { "title": "You Get Me", "videos": [] }
+        {
+          "title": "I Got You",
+          "titleTrack": true,
+          "note": "Pre-release single",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "haf67eKF0uo",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "NhmzKgaoLX0",
+              "label": "Live Clip",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "One Spark",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "jCzez_q8si0",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "XiwY-syjwm4",
+              "label": "Performance Video",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Rush",
+          "videos": []
+        },
+        {
+          "title": "New New",
+          "videos": []
+        },
+        {
+          "title": "Bloom",
+          "videos": []
+        },
+        {
+          "title": "You Get Me",
+          "videos": []
+        }
       ]
     },
     {
@@ -441,19 +1274,79 @@
       "seq": "14th Mini Album",
       "type": "EP",
       "released": "2024-12-06",
-      "cover": "",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "cover": "assets/img/covers/strategy.jpg",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "Strategy", "artist": "feat. Megan Thee Stallion", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "Sz_wWzgh-vQ", "official": true },
-          { "kind": "mv", "url": "bpiyH00cqS8", "label": "M/V (TWICE-TRATEGY ver.)", "official": true }
-        ] },
-        { "title": "Kiss My Troubles Away", "videos": [] },
-        { "title": "Like It Like It", "videos": [] },
-        { "title": "Sweetest Obsession", "videos": [] },
-        { "title": "Keeper", "videos": [] },
-        { "title": "Magical", "videos": [] },
-        { "title": "Strategy", "note": "solo ver.", "videos": [] }
+        {
+          "title": "Strategy",
+          "artist": "feat. Megan Thee Stallion",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "Sz_wWzgh-vQ",
+              "official": true
+            },
+            {
+              "kind": "mv",
+              "url": "bpiyH00cqS8",
+              "label": "M/V (TWICE-TRATEGY ver.)",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Kiss My Troubles Away",
+          "videos": []
+        },
+        {
+          "title": "Like It Like It",
+          "videos": []
+        },
+        {
+          "title": "Sweetest Obsession",
+          "videos": []
+        },
+        {
+          "title": "Keeper",
+          "videos": []
+        },
+        {
+          "title": "Magical",
+          "videos": []
+        },
+        {
+          "title": "Strategy",
+          "note": "solo ver.",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "mamushi-remix",
+      "title": "Mamushi (Remix)",
+      "seq": "Collaboration",
+      "type": "Single",
+      "released": "2024",
+      "cover": "",
+      "note": "Megan Thee Stallion featuring Twice, from Megan: Act II.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Mamushi (Remix)",
+          "artist": "Megan Thee Stallion feat. Twice",
+          "videos": []
+        }
       ]
     },
     {
@@ -462,28 +1355,99 @@
       "seq": "4th Full Album",
       "type": "Full Album",
       "released": "2025-07-11",
-      "cover": "",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "cover": "assets/img/covers/this-is-for.jpg",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "Four", "videos": [] },
-        { "title": "This Is For", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "eHHQaoEW30Q", "official": true },
-          { "kind": "dance", "url": "qJVd5WZO8Ao", "label": "Choreography Video (Fix ver.)", "official": true }
-        ] },
-        { "title": "Options", "videos": [] },
-        { "title": "Mars", "videos": [] },
-        { "title": "Right Hand Girl", "videos": [] },
-        { "title": "Peach Gelato", "videos": [] },
-        { "title": "Hi Hello", "videos": [] },
-        { "title": "Battitude", "artist": "Nayeon, Jeongyeon, Momo, Mina", "videos": [] },
-        { "title": "Dat Ahh Dat Ooh", "artist": "Sana, Jihyo, Dahyun, Chaeyoung, Tzuyu", "videos": [] },
-        { "title": "Let Love Go", "artist": "Jeongyeon, Momo, Sana, Tzuyu", "videos": [] },
-        { "title": "G.O.A.T.", "artist": "Mina, Dahyun, Chaeyoung", "videos": [] },
-        { "title": "Talk", "artist": "Nayeon, Jihyo", "videos": [] },
-        { "title": "Seesaw", "videos": [] },
-        { "title": "Heartbreak Avenue", "videos": [] },
-        { "title": "This Is For", "note": "Extended", "videos": [] },
-        { "title": "Takedown", "artist": "Jeongyeon, Jihyo, Chaeyoung", "note": "KPop Demon Hunters OST", "videos": [] }
+        {
+          "title": "Four",
+          "videos": []
+        },
+        {
+          "title": "This Is For",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "eHHQaoEW30Q",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "qJVd5WZO8Ao",
+              "label": "Choreography Video (Fix ver.)",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Options",
+          "videos": []
+        },
+        {
+          "title": "Mars",
+          "videos": []
+        },
+        {
+          "title": "Right Hand Girl",
+          "videos": []
+        },
+        {
+          "title": "Peach Gelato",
+          "videos": []
+        },
+        {
+          "title": "Hi Hello",
+          "videos": []
+        },
+        {
+          "title": "Battitude",
+          "artist": "Nayeon, Jeongyeon, Momo, Mina",
+          "videos": []
+        },
+        {
+          "title": "Dat Ahh Dat Ooh",
+          "artist": "Sana, Jihyo, Dahyun, Chaeyoung, Tzuyu",
+          "videos": []
+        },
+        {
+          "title": "Let Love Go",
+          "artist": "Jeongyeon, Momo, Sana, Tzuyu",
+          "videos": []
+        },
+        {
+          "title": "G.O.A.T.",
+          "artist": "Mina, Dahyun, Chaeyoung",
+          "videos": []
+        },
+        {
+          "title": "Talk",
+          "artist": "Nayeon, Jihyo",
+          "videos": []
+        },
+        {
+          "title": "Seesaw",
+          "videos": []
+        },
+        {
+          "title": "Heartbreak Avenue",
+          "videos": []
+        },
+        {
+          "title": "This Is For",
+          "note": "Extended",
+          "videos": []
+        },
+        {
+          "title": "Takedown",
+          "artist": "Jeongyeon, Jihyo, Chaeyoung",
+          "note": "KPop Demon Hunters OST",
+          "videos": []
+        }
       ]
     },
     {
@@ -492,61 +1456,179 @@
       "seq": "Special Album",
       "type": "Full Album",
       "released": "2025-10-10",
-      "cover": "",
+      "cover": "assets/img/covers/ten-the-story-goes-on.jpg",
       "note": "10th anniversary album — one group track plus a solo song for each member.",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "Me+You", "titleTrack": true, "videos": [
-          { "kind": "mv", "url": "zqorlX_5oHQ", "official": true }
-        ] },
-        { "title": "Meeeeee", "artist": "Nayeon", "videos": [
-          { "kind": "audio", "url": "vnA8--MCU_A", "label": "Official Audio", "official": true }
-        ] },
-        { "title": "Fix a Drink", "artist": "Jeongyeon", "videos": [
-          { "kind": "audio", "url": "1kFNJEIYSaY", "label": "Official Audio", "official": true }
-        ] },
-        { "title": "Move Like That", "artist": "Momo", "videos": [
-          { "kind": "audio", "url": "LkF528yaz9A", "label": "Official Audio", "official": true }
-        ] },
-        { "title": "Decaffeinated", "artist": "Sana", "videos": [
-          { "kind": "audio", "url": "um6VLQEm500", "label": "Official Audio", "official": true }
-        ] },
-        { "title": "ATM", "artist": "Jihyo", "videos": [
-          { "kind": "audio", "url": "WYMyJmm4IMc", "label": "Official Audio", "official": true }
-        ] },
-        { "title": "Stone Cold", "artist": "Mina", "videos": [
-          { "kind": "audio", "url": "kOt4ekUkNvs", "label": "Official Audio", "official": true }
-        ] },
-        { "title": "Chess", "artist": "Dahyun", "videos": [
-          { "kind": "audio", "url": "7wlDQRd5lGU", "label": "Official Audio", "official": true }
-        ] },
-        { "title": "In My Room", "artist": "Chaeyoung", "videos": [
-          { "kind": "audio", "url": "5zrfR0-qwog", "label": "Official Audio", "official": true }
-        ] },
-        { "title": "Dive In", "artist": "Tzuyu", "videos": [
-          { "kind": "audio", "url": "TPHLwBBN00o", "label": "Official Audio", "official": true }
-        ] }
+        {
+          "title": "Me+You",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "zqorlX_5oHQ",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Meeeeee",
+          "artist": "Nayeon",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "vnA8--MCU_A",
+              "label": "Official Audio",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Fix a Drink",
+          "artist": "Jeongyeon",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "1kFNJEIYSaY",
+              "label": "Official Audio",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Move Like That",
+          "artist": "Momo",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "LkF528yaz9A",
+              "label": "Official Audio",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Decaffeinated",
+          "artist": "Sana",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "um6VLQEm500",
+              "label": "Official Audio",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "ATM",
+          "artist": "Jihyo",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "WYMyJmm4IMc",
+              "label": "Official Audio",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Stone Cold",
+          "artist": "Mina",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "kOt4ekUkNvs",
+              "label": "Official Audio",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Chess",
+          "artist": "Dahyun",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "7wlDQRd5lGU",
+              "label": "Official Audio",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "In My Room",
+          "artist": "Chaeyoung",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "5zrfR0-qwog",
+              "label": "Official Audio",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Dive In",
+          "artist": "Tzuyu",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "TPHLwBBN00o",
+              "label": "Official Audio",
+              "official": true
+            }
+          ]
+        }
       ]
     },
     {
-      "id": "singles",
-      "title": "Singles & Collaborations",
-      "seq": "Non-album",
+      "id": "superstars",
+      "title": "Superstars",
+      "seq": "Collaboration",
       "type": "Single",
-      "released": "2020-12-18",
+      "released": "2025",
       "cover": "",
-      "note": "Releases that don't sit on a Korean album.",
-      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "note": "With Saweetie.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
       "tracks": [
-        { "title": "Cry for Me", "note": "2020", "videos": [
-          { "kind": "mv", "url": "h1gIqiZiPzg", "official": true },
-          { "kind": "dance", "url": "bkQw-F1QTq4", "label": "Choreography - 2", "official": true }
-        ] },
-        { "title": "I'll Show You", "artist": "with K/DA", "note": "2020", "videos": [] },
-        { "title": "I Love You More Than Anyone", "note": "2021 · Hospital Playlist S2 OST", "videos": [] },
-        { "title": "Mamushi (Remix)", "artist": "Megan Thee Stallion", "note": "2024", "videos": [] },
-        { "title": "Superstars", "artist": "with Saweetie", "note": "2025", "videos": [] },
-        { "title": "We Pray", "artist": "with Coldplay", "note": "2025 · TWICE version", "videos": [] }
+        {
+          "title": "Superstars",
+          "artist": "with Saweetie",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "we-pray",
+      "title": "We Pray",
+      "seq": "Collaboration",
+      "type": "Single",
+      "released": "2025",
+      "cover": "",
+      "note": "Twice version of the Coldplay single.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "We Pray",
+          "artist": "Coldplay feat. Twice",
+          "note": "Twice version",
+          "videos": []
+        }
       ]
     }
   ]
