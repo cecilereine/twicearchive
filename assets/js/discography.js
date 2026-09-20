@@ -6,7 +6,7 @@
    every video filed against each song.
 --------------------------------------------------------------------------- */
 
-const DATA_URL = 'data/discography-kr.json';
+const DATA_URL = 'data/discography.json';
 
 const el = id => document.getElementById(id);
 
@@ -49,7 +49,7 @@ function coverHtml(album, extra = '') {
 function matchesQuery(album, q) {
   if (!q) return true;
   const hay = [album.title, album.seq, album.type,
-               ...album.tracks.flatMap(t => [t.title, t.titleKo])]
+               ...album.tracks.flatMap(t => [t.title, t.titleKo, t.artist, t.note])]
     .filter(Boolean).join(' ').toLowerCase();
   return hay.includes(q);
 }
@@ -117,6 +117,8 @@ function albumCard(album) {
       ${coverHtml(album, ring)}
       <div class="body">
         <h3>${escapeHtml(album.title)}</h3>
+        <p class="type-row"><span class="type-badge"
+           data-type="${escapeHtml(album.type)}">${escapeHtml(album.type)}</span></p>
         <p class="meta">${escapeHtml(album.seq)} · ${escapeHtml(prettyDate(album.released))}</p>
       </div>
     </button>`;
@@ -144,7 +146,9 @@ function renderPanel(album) {
       <div class="info">
         <h2>${escapeHtml(album.title)}</h2>
         ${album.note ? `<p class="ko">${escapeHtml(album.note)}</p>` : ''}
-        <p class="meta">${escapeHtml(album.seq)} · ${escapeHtml(album.type)} ·
+        <p class="type-row"><span class="type-badge"
+           data-type="${escapeHtml(album.type)}">${escapeHtml(album.type)}</span></p>
+        <p class="meta">${escapeHtml(album.seq)} ·
            ${escapeHtml(prettyDate(album.released))} ·
            ${seen}/${vids.length} watched</p>
         <div class="stream-links">${services}</div>
@@ -179,6 +183,7 @@ function trackRow(track, no) {
         <span class="track-no">${no}</span>
         <span class="track-title">${escapeHtml(track.title)}</span>
         ${track.titleKo ? `<span class="track-ko">${escapeHtml(track.titleKo)}</span>` : ''}
+        ${track.artist ? `<span class="credit">${escapeHtml(track.artist)}</span>` : ''}
         ${track.titleTrack ? `<span class="star">Title</span>` : ''}
         ${track.note ? `<span class="track-ko">· ${escapeHtml(track.note)}</span>` : ''}
       </div>

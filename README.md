@@ -8,9 +8,9 @@ no API keys. Drop it on GitHub Pages and it runs.
 
 ```
 index.html            hub — one card per section
-discography.html      Korean discography
+discography.html      discography (Korean releases for now)
 data/
-  discography-kr.json all the release/track/video data
+  discography.json    all the release/track/video data
 assets/css/style.css  shared styles (light + dark)
 assets/js/core.js     YouTube links, video cards, watched state
 assets/js/discography.js
@@ -29,7 +29,7 @@ Then open <http://localhost:8790>.
 
 ## Adding a video link
 
-Open `data/discography-kr.json`, find the track, and add an entry to its `videos` array:
+Open `data/discography.json`, find the track, and add an entry to its `videos` array:
 
 ```json
 { "title": "Rainbow", "videos": [
@@ -52,6 +52,7 @@ an embed, and you can give it a `"thumb": "assets/img/whatever.jpg"`.
 | `performance` | Performance |
 | `dance` | Dance Practice |
 | `live` | Live |
+| `audio` | Audio |
 | `other` | Video |
 
 **`official`** — `true` shows a green ✓ Official, `false` shows an amber ✦ Fan.
@@ -59,6 +60,25 @@ Leave it out and it's treated as official.
 
 **`label`** — optional; overrides the badge text as the card's caption, e.g.
 `"Choreography Video (Moving Ver.)"`.
+
+## Track fields
+
+```json
+{ "title": "Meeeeee", "artist": "Nayeon", "note": "Korean ver.",
+  "titleKo": "우아하게", "titleTrack": true, "videos": [] }
+```
+
+`artist` is for solo, sub-unit and featured credits — it shows as a pill beside the
+track title and is searchable, so typing "Tzuyu" or "Megan" finds those tracks.
+`titleTrack` adds the TITLE flag. `note` adds a small grey aside ("English ver.",
+"Pre-release single").
+
+## Release fields
+
+`type` drives the coloured label under the title on each card. Use one of
+**EP**, **Full Album**, **Single** or **Reissue**. `seq` is the free-text line
+underneath it ("1st Mini Album", "Repackage"). Reissues list only their *new*
+tracks, with a `note` saying what they're a reissue of.
 
 To find links fast: turn on the **Needs links** filter, open a release, and every
 song without a video shows a *Search YouTube ↗* link that runs the search for you.
@@ -110,5 +130,9 @@ Set `data-accent` on `<html>` to re-tint the page — `discography` (pink),
 - **Cache busting.** GitHub Pages caches for ten minutes. Whenever you change the CSS
   or JS, bump every `?v=` in `index.html` and `discography.html` to the same new
   number, or a browser can pair new HTML with a stale script.
-- Release and track data came from Wikipedia; the video links in the initial commit
-  were checked against the JYP Entertainment YouTube channel.
+- Tracklists were taken from each release's own Wikipedia article, not the
+  "songs recorded by Twice" list — that list covers group songs only and silently
+  drops member solos and sub-unit tracks.
+- Video and audio links were checked by YouTube channel. Anything on
+  "TWICE - Topic" is a label-uploaded Art Track; several convincing-looking
+  "Official MV" uploads turned out to be fan reuploads and were left out.
