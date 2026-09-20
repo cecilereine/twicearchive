@@ -184,10 +184,10 @@
       "released": "2016-04-25",
       "cover": "assets/img/covers/page-two.jpg",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
-        "youtubeMusic": "",
-        "melon": ""
+        "spotify": "https://open.spotify.com/album/6q2oUEqL9uzVXHCeKoA8JV",
+        "appleMusic": "https://music.apple.com/ph/album/page-two-ep/1555389971",
+        "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nOP2wHatmCZbGJg4URCQV66iWtGvyVmSk",
+        "melon": "https://www.melon.com/album/detail.htm?albumId=2681333"
       },
       "tracks": [
         {
@@ -269,20 +269,78 @@
         {
           "title": "Tuk Tok",
           "titleKo": "툭하면 톡",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "JL4_RL7UzVo",
+              "label": "TWICELAND The Opening Encore",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "IkjcfU50Ils",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Woohoo",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "AnoKWh9FgtE",
+              "label": "TWICELIGHTS in Seoul",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "2nb0GKCxs1g",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         },
         {
           "title": "My Headphones On",
           "titleKo": "Headphone 써",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "5EQqilDWdws",
+              "label": "TWICELAND The Opening Encore",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "lNIbBQeuKoY",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         },
         {
           "title": "I'm Gonna Be a Star",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "7_RLMDZsuI4",
+              "label": "@ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "rFlJ6mSjlMA",
+              "label": "Once Again Fanmeeting Fancam",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "ioiaRU4YNy0",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         }
       ]
     },
