@@ -129,6 +129,7 @@ function albumCard(album) {
       ${coverHtml(album, ring)}
       <div class="body">
         <h3>${escapeHtml(album.title)}</h3>
+        ${album.artist ? `<p class="card-artist">${escapeHtml(album.artist)}</p>` : ''}
         <p class="type-row"><span class="type-badge"
            data-type="${escapeHtml(album.type)}">${escapeHtml(album.type)}</span></p>
         <p class="meta">${escapeHtml(album.seq)} · ${escapeHtml(prettyDate(album.released))}</p>
@@ -157,6 +158,7 @@ function renderPanel(album) {
       ${coverHtml(album)}
       <div class="info">
         <h2>${escapeHtml(album.title)}</h2>
+        ${album.artist ? `<p class="panel-artist">${escapeHtml(album.artist)}</p>` : ''}
         ${album.note ? `<p class="ko">${escapeHtml(album.note)}</p>` : ''}
         <p class="type-row"><span class="type-badge"
            data-type="${escapeHtml(album.type)}">${escapeHtml(album.type)}</span></p>

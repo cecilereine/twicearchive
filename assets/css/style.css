@@ -231,6 +231,16 @@ a { color: inherit; }
 .album-card h3 { margin: 0 0 3px; font-size: 14px; line-height: 1.3; }
 .album-card .meta { margin: 0; font-size: 11.5px; color: var(--text-faint); }
 
+/* Who the release is credited to, when it isn't simply Twice — the other
+   artist on a collaboration. */
+.card-artist {
+  margin: 0 0 6px; font-size: 11.5px; font-weight: 600;
+  color: var(--accent); line-height: 1.3;
+}
+.panel-artist {
+  margin: 0 0 5px; font-size: 13px; font-weight: 600; color: var(--accent);
+}
+
 /* Release type, shown under the title on the card and in the panel head. */
 .type-row { margin: 0 0 5px; }
 .type-badge {

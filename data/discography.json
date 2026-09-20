@@ -835,6 +835,29 @@
       ]
     },
     {
+      "id": "ill-show-you",
+      "title": "I'll Show You",
+      "seq": "Collaboration",
+      "type": "Single",
+      "released": "2020-11-06",
+      "cover": "assets/img/covers/ill-show-you.jpg",
+      "note": "From the K/DA EP All Out. Nayeon, Sana and Jihyo sing for Ahri.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "I'll Show You",
+          "artist": "K/DA",
+          "videos": []
+        }
+      ],
+      "artist": "K/DA"
+    },
+    {
       "id": "cry-for-me",
       "title": "Cry for Me",
       "seq": "Digital Single",
@@ -878,28 +901,6 @@
               "official": true
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "ill-show-you",
-      "title": "I'll Show You",
-      "seq": "Collaboration",
-      "type": "Single",
-      "released": "2020",
-      "cover": "assets/img/covers/ill-show-you.jpg",
-      "note": "K/DA single featuring members of Twice, from the EP All Out.",
-      "links": {
-        "spotify": "",
-        "appleMusic": "",
-        "youtubeMusic": "",
-        "melon": ""
-      },
-      "tracks": [
-        {
-          "title": "I'll Show You",
-          "artist": "K/DA",
-          "videos": []
         }
       ]
     },
@@ -951,6 +952,28 @@
         {
           "title": "Cry for Me",
           "note": "English ver.",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "i-love-you-more-than-anyone",
+      "title": "I Love You More Than Anyone",
+      "seq": "OST",
+      "type": "Single",
+      "released": "2021-07-09",
+      "cover": "assets/img/covers/i-love-you-more-than-anyone.jpg",
+      "note": "Hospital Playlist Season 2 OST Part 4.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "I Love You More Than Anyone",
+          "titleKo": "누구보다 널 사랑해",
           "videos": []
         }
       ]
@@ -1094,28 +1117,6 @@
             }
           ],
           "note": "Pre-release single"
-        }
-      ]
-    },
-    {
-      "id": "i-love-you-more-than-anyone",
-      "title": "I Love You More Than Anyone",
-      "seq": "OST",
-      "type": "Single",
-      "released": "2021",
-      "cover": "assets/img/covers/i-love-you-more-than-anyone.jpg",
-      "note": "Hospital Playlist Season 2 OST Part 4.",
-      "links": {
-        "spotify": "",
-        "appleMusic": "",
-        "youtubeMusic": "",
-        "melon": ""
-      },
-      "tracks": [
-        {
-          "title": "I Love You More Than Anyone",
-          "titleKo": "누구보다 널 사랑해",
-          "videos": []
         }
       ]
     },
@@ -1391,6 +1392,29 @@
       ]
     },
     {
+      "id": "mamushi-remix",
+      "title": "Mamushi (Remix)",
+      "seq": "Collaboration",
+      "type": "Single",
+      "released": "2024-10-25",
+      "cover": "assets/img/covers/mamushi-remix.jpg",
+      "note": "Remix from Megan: Act II, the reissue of Megan.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Mamushi (Remix)",
+          "artist": "Megan Thee Stallion feat. Twice",
+          "videos": []
+        }
+      ],
+      "artist": "Megan Thee Stallion feat. Twice"
+    },
+    {
       "id": "strategy",
       "title": "Strategy",
       "seq": "14th Mini Album",
@@ -1450,13 +1474,13 @@
       ]
     },
     {
-      "id": "mamushi-remix",
-      "title": "Mamushi (Remix)",
+      "id": "we-pray",
+      "title": "We Pray",
       "seq": "Collaboration",
       "type": "Single",
-      "released": "2024",
-      "cover": "assets/img/covers/mamushi-remix.jpg",
-      "note": "Megan Thee Stallion featuring Twice, from Megan: Act II.",
+      "released": "2025-04-17",
+      "cover": "assets/img/covers/we-pray.jpg",
+      "note": "Twice version of the Coldplay single, with a new Korean verse.",
       "links": {
         "spotify": "",
         "appleMusic": "",
@@ -1465,11 +1489,13 @@
       },
       "tracks": [
         {
-          "title": "Mamushi (Remix)",
-          "artist": "Megan Thee Stallion feat. Twice",
+          "title": "We Pray",
+          "artist": "Coldplay feat. Twice",
+          "note": "Twice version",
           "videos": []
         }
-      ]
+      ],
+      "artist": "Coldplay feat. Twice"
     },
     {
       "id": "takedown",
@@ -1622,6 +1648,29 @@
       ]
     },
     {
+      "id": "superstars",
+      "title": "Superstars",
+      "seq": "Collaboration",
+      "type": "Single",
+      "released": "2025-08-01",
+      "cover": "assets/img/covers/superstars.jpg",
+      "note": "From Saweetie's EP Hella Pressure.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Superstars",
+          "artist": "with Saweetie",
+          "videos": []
+        }
+      ],
+      "artist": "Saweetie feat. Twice"
+    },
+    {
       "id": "ten-the-story-goes-on",
       "title": "Ten: The Story Goes On",
       "seq": "Special Album",
@@ -1754,51 +1803,6 @@
               "official": true
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "superstars",
-      "title": "Superstars",
-      "seq": "Collaboration",
-      "type": "Single",
-      "released": "2025",
-      "cover": "assets/img/covers/superstars.jpg",
-      "note": "With Saweetie.",
-      "links": {
-        "spotify": "",
-        "appleMusic": "",
-        "youtubeMusic": "",
-        "melon": ""
-      },
-      "tracks": [
-        {
-          "title": "Superstars",
-          "artist": "with Saweetie",
-          "videos": []
-        }
-      ]
-    },
-    {
-      "id": "we-pray",
-      "title": "We Pray",
-      "seq": "Collaboration",
-      "type": "Single",
-      "released": "2025",
-      "cover": "assets/img/covers/we-pray.jpg",
-      "note": "Twice version of the Coldplay single.",
-      "links": {
-        "spotify": "",
-        "appleMusic": "",
-        "youtubeMusic": "",
-        "melon": ""
-      },
-      "tracks": [
-        {
-          "title": "We Pray",
-          "artist": "Coldplay feat. Twice",
-          "note": "Twice version",
-          "videos": []
         }
       ]
     }
