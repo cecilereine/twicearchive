@@ -143,10 +143,12 @@ and share one page. Every release carries a `category`:
 The releases sort by date and group by year regardless of category, so a Japanese
 single slots in beside the Korean releases from the same year.
 
-**Still to build:** a Korean / Japanese / Solo filter on this page. The data side
-is already done — `categories` at the top of the JSON declares the three options,
-and every release is tagged — so it only needs a chip row wired up the same way
-as the year chips in `assets/js/discography.js`.
+The filter chips at the top of the page switch between them, with a count on each.
+Picking a category also narrows the year chips to the years that category actually
+has, and resets the year if the current one disappears.
+
+Sub-units sit under `solo` — the label reads "Solo & Units" — so MISAMO is filed
+there rather than under `japanese`, even though its releases are Japanese.
 
 To add releases, copy a block from `data/release-template.json`, which documents
 every field and has worked examples for a Japanese album and a solo release.

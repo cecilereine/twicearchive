@@ -173,6 +173,13 @@ a { color: inherit; }
   background: linear-gradient(120deg, var(--accent), var(--accent-2));
 }
 
+/* Count beside a filter chip's label. */
+.chip-n {
+  font-size: 10.5px; font-weight: 700; opacity: .6;
+  margin-left: 2px;
+}
+.chip.on .chip-n { opacity: .8; }
+
 .spacer { flex: 1 1 auto; }
 
 .progress-pill {

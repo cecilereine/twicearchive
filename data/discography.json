@@ -250,6 +250,40 @@
       ]
     },
     {
+      "id": "whats-twice",
+      "title": "What's Twice?",
+      "category": "japanese",
+      "seq": "Compilation EP",
+      "type": "EP",
+      "released": "2017-02-24",
+      "cover": "",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Like Ooh-Ahh",
+          "videos": []
+        },
+        {
+          "title": "Cheer Up",
+          "videos": []
+        },
+        {
+          "title": "Touchdown",
+          "videos": []
+        },
+        {
+          "title": "TT",
+          "videos": []
+        }
+      ]
+    },
+    {
       "id": "signal",
       "title": "Signal",
       "category": "korean",
@@ -301,6 +335,103 @@
         },
         {
           "title": "Someone Like Me",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "hash-twice",
+      "title": "#Twice",
+      "category": "japanese",
+      "seq": "1st Best Album",
+      "type": "Full Album",
+      "released": "2017-06-28",
+      "cover": "assets/img/covers/hash-twice.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Like Ooh-Ahh",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "Cheer Up",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "TT",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "Knock Knock",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "Signal",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "Like Ooh-Ahh",
+          "videos": []
+        },
+        {
+          "title": "Cheer Up",
+          "videos": []
+        },
+        {
+          "title": "TT",
+          "videos": []
+        },
+        {
+          "title": "Knock Knock",
+          "videos": []
+        },
+        {
+          "title": "Signal",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "one-more-time",
+      "title": "One More Time",
+      "category": "japanese",
+      "seq": "1st Japanese Single",
+      "type": "Single",
+      "released": "2017-10-18",
+      "cover": "assets/img/covers/one-more-time.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "One More Time",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "HuoOEry-Yc4",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        },
+        {
+          "title": "Luv Me",
           "videos": []
         }
       ]
@@ -426,6 +557,42 @@
       ]
     },
     {
+      "id": "candy-pop",
+      "title": "Candy Pop",
+      "category": "japanese",
+      "seq": "2nd Japanese Single",
+      "type": "Single",
+      "released": "2018-02-07",
+      "cover": "assets/img/covers/candy-pop.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Candy Pop",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "wQ_POfToaVY",
+              "official": true,
+              "label": "Music Video"
+            },
+            {
+              "kind": "dance",
+              "url": "76-KTVPm7XA",
+              "official": true,
+              "label": "Dance Practice ver."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "what-is-love",
       "title": "What Is Love?",
       "category": "korean",
@@ -480,6 +647,40 @@
       ]
     },
     {
+      "id": "wake-me-up",
+      "title": "Wake Me Up",
+      "category": "japanese",
+      "seq": "3rd Japanese Single",
+      "type": "Single",
+      "released": "2018-05-16",
+      "cover": "assets/img/covers/wake-me-up.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Wake Me Up",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "DdLYSziSXII",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        },
+        {
+          "title": "Pink Lemonade",
+          "videos": []
+        }
+      ]
+    },
+    {
       "id": "summer-nights",
       "title": "Summer Nights",
       "category": "korean",
@@ -518,6 +719,135 @@
         },
         {
           "title": "Shot Thru the Heart",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "bdz-single",
+      "title": "BDZ",
+      "category": "japanese",
+      "seq": "4th Japanese Single",
+      "type": "Single",
+      "released": "2018-08-17",
+      "cover": "",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "BDZ",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "CMNahhgR_ss",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bdz",
+      "title": "BDZ",
+      "category": "japanese",
+      "seq": "1st Japanese Album",
+      "type": "Full Album",
+      "released": "2018-09-12",
+      "cover": "assets/img/covers/bdz.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "BDZ",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "CMNahhgR_ss",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        },
+        {
+          "title": "One More Time",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "HuoOEry-Yc4",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        },
+        {
+          "title": "Candy Pop",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "wQ_POfToaVY",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        },
+        {
+          "title": "L.O.V.E",
+          "videos": []
+        },
+        {
+          "title": "Wishing",
+          "videos": []
+        },
+        {
+          "title": "Say It Again",
+          "videos": []
+        },
+        {
+          "title": "Wake Me Up",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "DdLYSziSXII",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        },
+        {
+          "title": "Brand New Girl",
+          "videos": []
+        },
+        {
+          "title": "Be as One",
+          "videos": []
+        },
+        {
+          "title": "I Want You Back",
+          "note": "Cover",
+          "videos": []
+        },
+        {
+          "title": "Luv Me",
+          "videos": []
+        },
+        {
+          "title": "Pink Lemonade",
           "videos": []
         }
       ]
@@ -617,6 +947,92 @@
       ]
     },
     {
+      "id": "bdz-repackage",
+      "title": "BDZ",
+      "category": "japanese",
+      "seq": "Repackage",
+      "type": "Reissue",
+      "released": "2018-12-26",
+      "cover": "assets/img/covers/bdz-repackage.jpg",
+      "note": "Repackaged edition of BDZ.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "BDZ",
+          "note": "Repackage edition",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "hash-twice2",
+      "title": "#Twice2",
+      "category": "japanese",
+      "seq": "2nd Best Album",
+      "type": "Full Album",
+      "released": "2019-03-06",
+      "cover": "assets/img/covers/hash-twice2.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Likey",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "Heart Shaker",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "What Is Love?",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "Dance the Night Away",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "Yes or Yes",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "Likey",
+          "videos": []
+        },
+        {
+          "title": "Heart Shaker",
+          "videos": []
+        },
+        {
+          "title": "What Is Love?",
+          "videos": []
+        },
+        {
+          "title": "Dance the Night Away",
+          "videos": []
+        },
+        {
+          "title": "Yes or Yes",
+          "videos": []
+        }
+      ]
+    },
+    {
       "id": "fancy-you",
       "title": "Fancy You",
       "category": "korean",
@@ -667,6 +1083,72 @@
         {
           "title": "Strawberry",
           "videos": []
+        }
+      ]
+    },
+    {
+      "id": "happy-happy",
+      "title": "Happy Happy",
+      "category": "japanese",
+      "seq": "5th Japanese Single",
+      "type": "Single",
+      "released": "2019-07-17",
+      "cover": "assets/img/covers/happy-happy.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Happy Happy",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "3n9rDwpa6QA",
+              "official": true,
+              "label": "Music Video"
+            },
+            {
+              "kind": "dance",
+              "url": "vdVCUDqnL0U",
+              "official": true,
+              "label": "Dance Making Video In Hawaii"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "breakthrough",
+      "title": "Breakthrough",
+      "category": "japanese",
+      "seq": "6th Japanese Single",
+      "type": "Single",
+      "released": "2019-07-24",
+      "cover": "assets/img/covers/breakthrough.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Breakthrough",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "ZdKYi5ekshM",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
         }
       ]
     },
@@ -730,6 +1212,140 @@
       ]
     },
     {
+      "id": "fake-and-true",
+      "title": "Fake & True",
+      "category": "japanese",
+      "seq": "7th Japanese Single",
+      "type": "Single",
+      "released": "2019-10-18",
+      "cover": "",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Fake & True",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "zQELp93xxfo",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "and-twice",
+      "title": "&Twice",
+      "category": "japanese",
+      "seq": "2nd Japanese Album",
+      "type": "Full Album",
+      "released": "2019-11-20",
+      "cover": "assets/img/covers/and-twice.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Fake & True",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "zQELp93xxfo",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        },
+        {
+          "title": "Stronger",
+          "videos": []
+        },
+        {
+          "title": "Breakthrough",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "ZdKYi5ekshM",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        },
+        {
+          "title": "Changing!",
+          "videos": []
+        },
+        {
+          "title": "Happy Happy",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "3n9rDwpa6QA",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        },
+        {
+          "title": "What You Waiting For",
+          "videos": []
+        },
+        {
+          "title": "Be OK",
+          "videos": []
+        },
+        {
+          "title": "Polish",
+          "videos": []
+        },
+        {
+          "title": "How U Doin'",
+          "videos": []
+        },
+        {
+          "title": "The Reason Why",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "and-twice-repackage",
+      "title": "&Twice",
+      "category": "japanese",
+      "seq": "Repackage",
+      "type": "Reissue",
+      "released": "2020-02-05",
+      "cover": "assets/img/covers/and-twice-repackage.jpg",
+      "note": "Repackaged edition of &Twice — new track only.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Swing",
+          "videos": []
+        }
+      ]
+    },
+    {
       "id": "more-and-more",
       "title": "More & More",
       "category": "korean",
@@ -777,6 +1393,114 @@
         },
         {
           "title": "Sweet Summer Day",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "fanfare",
+      "title": "Fanfare",
+      "category": "japanese",
+      "seq": "8th Japanese Single",
+      "type": "Single",
+      "released": "2020-07-08",
+      "cover": "assets/img/covers/fanfare.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Fanfare",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "kRT174IdxuM",
+              "official": true,
+              "label": "Music Video"
+            },
+            {
+              "kind": "performance",
+              "url": "fWe0jcsd41Q",
+              "official": true,
+              "label": "Special Stage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hash-twice3",
+      "title": "#Twice3",
+      "category": "japanese",
+      "seq": "3rd Best Album",
+      "type": "Full Album",
+      "released": "2020-09-16",
+      "cover": "assets/img/covers/hash-twice3.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "The Best Thing I Ever Did",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "Fancy",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "Feel Special",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "More & More",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "Stuck in My Head",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "21:29",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "The Best Thing I Ever Did",
+          "videos": []
+        },
+        {
+          "title": "Fancy",
+          "videos": []
+        },
+        {
+          "title": "Feel Special",
+          "videos": []
+        },
+        {
+          "title": "More & More",
+          "videos": []
+        },
+        {
+          "title": "Stuck in My Head",
+          "videos": []
+        },
+        {
+          "title": "21:29",
           "videos": []
         }
       ]
@@ -888,6 +1612,52 @@
       ]
     },
     {
+      "id": "better",
+      "title": "Better",
+      "category": "japanese",
+      "seq": "9th Japanese Single",
+      "type": "Single",
+      "released": "2020-11-18",
+      "cover": "assets/img/covers/better.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Better",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "sLmLwgxnPUE",
+              "official": true,
+              "label": "Music Video"
+            },
+            {
+              "kind": "dance",
+              "url": "cbzjs4Gji_4",
+              "official": true,
+              "label": "Dance Practice Video"
+            },
+            {
+              "kind": "performance",
+              "url": "HGJiSZW2PNY",
+              "official": true,
+              "label": "Performance Re-Edit ver."
+            }
+          ]
+        },
+        {
+          "title": "Scorpion",
+          "videos": []
+        }
+      ]
+    },
+    {
       "id": "cry-for-me",
       "title": "Cry for Me",
       "category": "korean",
@@ -932,6 +1702,46 @@
               "official": true
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "kura-kura",
+      "title": "Kura Kura",
+      "category": "japanese",
+      "seq": "10th Japanese Single",
+      "type": "Single",
+      "released": "2021-05-12",
+      "cover": "assets/img/covers/kura-kura.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Kura Kura",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "BSS8Y-0hOlY",
+              "official": true,
+              "label": "Music Video"
+            },
+            {
+              "kind": "dance",
+              "url": "oTuYKF_BT9A",
+              "official": true,
+              "label": "Special Dance Clip"
+            }
+          ]
+        },
+        {
+          "title": "Strawberry Moon",
+          "videos": []
         }
       ]
     },
@@ -989,6 +1799,42 @@
       ]
     },
     {
+      "id": "perfect-world-single",
+      "title": "Perfect World",
+      "category": "japanese",
+      "seq": "11th Japanese Single",
+      "type": "Single",
+      "released": "2021-06-29",
+      "cover": "",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Perfect World",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "fmOEKOjyDxU",
+              "official": true,
+              "label": "Music Video"
+            },
+            {
+              "kind": "live",
+              "url": "Fb6uIFE-zoU",
+              "official": true,
+              "label": "@ Nissan Stadium"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "i-love-you-more-than-anyone",
       "title": "I Love You More Than Anyone",
       "category": "korean",
@@ -1007,6 +1853,96 @@
         {
           "title": "I Love You More Than Anyone",
           "titleKo": "누구보다 널 사랑해",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "perfect-world",
+      "title": "Perfect World",
+      "category": "japanese",
+      "seq": "3rd Japanese Album",
+      "type": "Full Album",
+      "released": "2021-07-28",
+      "cover": "assets/img/covers/perfect-world.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Perfect World",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "fmOEKOjyDxU",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        },
+        {
+          "title": "Better",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "sLmLwgxnPUE",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        },
+        {
+          "title": "Good at Love",
+          "videos": []
+        },
+        {
+          "title": "Fanfare",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "kRT174IdxuM",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        },
+        {
+          "title": "Kura Kura",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "BSS8Y-0hOlY",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        },
+        {
+          "title": "Four-leaf Clover",
+          "videos": []
+        },
+        {
+          "title": "In the Summer",
+          "videos": []
+        },
+        {
+          "title": "Pieces of Love",
+          "videos": []
+        },
+        {
+          "title": "Thank You, Family",
+          "videos": []
+        },
+        {
+          "title": "Promise",
           "videos": []
         }
       ]
@@ -1152,6 +2088,206 @@
             }
           ],
           "note": "Pre-release single"
+        }
+      ]
+    },
+    {
+      "id": "doughnut",
+      "title": "Doughnut",
+      "category": "japanese",
+      "seq": "12th Japanese Single",
+      "type": "Single",
+      "released": "2021-12-15",
+      "cover": "assets/img/covers/doughnut.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Doughnut",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "VcOSUOpACq0",
+              "official": true,
+              "label": "Music Video"
+            },
+            {
+              "kind": "performance",
+              "url": "BDxYzVzzw2M",
+              "official": true,
+              "label": "Special Stage"
+            }
+          ]
+        },
+        {
+          "title": "Wonderful Day",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "hash-twice4",
+      "title": "#Twice4",
+      "category": "japanese",
+      "seq": "4th Best Album",
+      "type": "Full Album",
+      "released": "2022-03-16",
+      "cover": "assets/img/covers/hash-twice4.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "I Can't Stop Me",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "Cry for Me",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "Alcohol-Free",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "Scientist",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "I Can't Stop Me",
+          "videos": []
+        },
+        {
+          "title": "Cry for Me",
+          "videos": []
+        },
+        {
+          "title": "Alcohol-Free",
+          "videos": []
+        },
+        {
+          "title": "Scientist",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "celebrate-single",
+      "title": "Celebrate",
+      "category": "japanese",
+      "seq": "13th Japanese Single",
+      "type": "Single",
+      "released": "2022-07-15",
+      "cover": "",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Celebrate",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "fMIn43MiwG8",
+              "official": true,
+              "label": "Music Video"
+            },
+            {
+              "kind": "live",
+              "url": "lSQMiBTBUOI",
+              "official": true,
+              "label": "ONCE DAY Stage Ver."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "celebrate",
+      "title": "Celebrate",
+      "category": "japanese",
+      "seq": "4th Japanese Album",
+      "type": "Full Album",
+      "released": "2022-07-27",
+      "cover": "assets/img/covers/celebrate.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Celebrate",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "fMIn43MiwG8",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        },
+        {
+          "title": "Voices of Delight",
+          "videos": []
+        },
+        {
+          "title": "Tick Tock",
+          "videos": []
+        },
+        {
+          "title": "Flow Like Waves",
+          "videos": []
+        },
+        {
+          "title": "That's All I'm Saying",
+          "videos": []
+        },
+        {
+          "title": "Bitter Sweet",
+          "videos": []
+        },
+        {
+          "title": "Sandcastle",
+          "videos": []
+        },
+        {
+          "title": "Just Be Yourself",
+          "videos": []
+        },
+        {
+          "title": "Doughnut",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "VcOSUOpACq0",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
         }
       ]
     },
@@ -1329,6 +2465,146 @@
       ]
     },
     {
+      "id": "hare-hare",
+      "title": "Hare Hare",
+      "category": "japanese",
+      "seq": "14th Japanese Single",
+      "type": "Single",
+      "released": "2023-05-31",
+      "cover": "assets/img/covers/hare-hare.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Hare Hare",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "-uqWaGzQyxA",
+              "official": true,
+              "label": "Music Video"
+            },
+            {
+              "kind": "live",
+              "url": "zkcNMhqJBok",
+              "official": true,
+              "label": "@ Nissan Stadium"
+            }
+          ]
+        },
+        {
+          "title": "Catch a Wave",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "haute-couture",
+      "title": "Haute Couture",
+      "artist": "MISAMO",
+      "category": "solo",
+      "seq": "1st Japanese Single",
+      "type": "Single",
+      "released": "2023-07-26",
+      "cover": "assets/img/covers/haute-couture.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Bouquet",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "lD-GY7WiTd4",
+              "official": true,
+              "label": "Audio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "masterpiece",
+      "title": "Masterpiece",
+      "artist": "MISAMO",
+      "category": "solo",
+      "seq": "1st Mini Album",
+      "type": "EP",
+      "released": "2023-07-26",
+      "cover": "assets/img/covers/masterpiece.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Do Not Touch",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "woKq2sD8xho",
+              "official": true,
+              "label": "M/V"
+            }
+          ]
+        },
+        {
+          "title": "Behind the Curtain",
+          "videos": []
+        },
+        {
+          "title": "Marshmallow",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "gAFgaI5D3Gc",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        },
+        {
+          "title": "Funny Valentine",
+          "videos": []
+        },
+        {
+          "title": "It's Not Easy for You",
+          "videos": []
+        },
+        {
+          "title": "Rewind You",
+          "videos": []
+        },
+        {
+          "title": "Bouquet",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "lD-GY7WiTd4",
+              "official": true,
+              "label": "Audio"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "i-got-you",
       "title": "I Got You",
       "category": "korean",
@@ -1428,6 +2704,86 @@
         {
           "title": "You Get Me",
           "videos": []
+        }
+      ]
+    },
+    {
+      "id": "dive",
+      "title": "Dive",
+      "category": "japanese",
+      "seq": "5th Japanese Album",
+      "type": "Full Album",
+      "released": "2024-07-17",
+      "cover": "assets/img/covers/dive.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Beyond the Horizon",
+          "videos": []
+        },
+        {
+          "title": "Dive",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "QGCkDOkpWf8",
+              "official": true,
+              "label": "Music Video"
+            },
+            {
+              "kind": "live",
+              "url": "Rm6cN89LFW8",
+              "official": true,
+              "label": "Live Stage @ Nissan Stadium"
+            }
+          ]
+        },
+        {
+          "title": "Ocean Deep",
+          "videos": []
+        },
+        {
+          "title": "Love Warning",
+          "videos": []
+        },
+        {
+          "title": "Here I Am",
+          "videos": []
+        },
+        {
+          "title": "Inside of Me",
+          "videos": []
+        },
+        {
+          "title": "Peach Soda",
+          "videos": []
+        },
+        {
+          "title": "Echoes of Heart",
+          "videos": []
+        },
+        {
+          "title": "Dance Again",
+          "videos": []
+        },
+        {
+          "title": "Hare Hare",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "-uqWaGzQyxA",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
         }
       ]
     },
@@ -1536,6 +2892,59 @@
           "title": "We Pray",
           "artist": "Coldplay feat. Twice",
           "note": "Twice version",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "hash-twice5",
+      "title": "#Twice5",
+      "category": "japanese",
+      "seq": "5th Best Album",
+      "type": "Full Album",
+      "released": "2025-05-14",
+      "cover": "assets/img/covers/hash-twice5.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Talk That Talk",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "Set Me Free",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "One Spark",
+          "note": "Japanese ver.",
+          "videos": []
+        },
+        {
+          "title": "Talk That Talk",
+          "videos": []
+        },
+        {
+          "title": "Set Me Free",
+          "videos": []
+        },
+        {
+          "title": "I Got You",
+          "videos": []
+        },
+        {
+          "title": "One Spark",
+          "videos": []
+        },
+        {
+          "title": "Strategy",
           "videos": []
         }
       ]
@@ -1717,6 +3126,88 @@
       ]
     },
     {
+      "id": "enemy",
+      "title": "Enemy",
+      "category": "japanese",
+      "seq": "6th Japanese Album",
+      "type": "Full Album",
+      "released": "2025-08-27",
+      "cover": "assets/img/covers/enemy.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Up to You",
+          "videos": []
+        },
+        {
+          "title": "Enemy",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "xWldBK4d2Ps",
+              "official": true,
+              "label": "Music Video"
+            },
+            {
+              "kind": "mv",
+              "url": "tW1YLmIJ-YY",
+              "official": true,
+              "label": "MV Director's Cut"
+            }
+          ]
+        },
+        {
+          "title": "Fine",
+          "videos": []
+        },
+        {
+          "title": "One Day",
+          "videos": []
+        },
+        {
+          "title": "Blind in Love",
+          "videos": []
+        },
+        {
+          "title": "Love Is More",
+          "videos": []
+        },
+        {
+          "title": "The Wish",
+          "videos": [
+            {
+              "kind": "other",
+              "url": "GrWWM5KGf4c",
+              "official": true,
+              "label": "Making Movie"
+            }
+          ]
+        },
+        {
+          "title": "Glow",
+          "videos": []
+        },
+        {
+          "title": "Like 1",
+          "videos": [
+            {
+              "kind": "other",
+              "url": "Xtfxxo4QgJA",
+              "official": true,
+              "label": "Animation Movie"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "ten-the-story-goes-on",
       "title": "Ten: The Story Goes On",
       "category": "korean",
@@ -1852,6 +3343,115 @@
           ]
         }
       ]
+    },
+    {
+      "id": "play",
+      "title": "Play",
+      "artist": "MISAMO",
+      "category": "solo",
+      "seq": "1st Studio Album",
+      "type": "Full Album",
+      "released": "2026-02-04",
+      "cover": "assets/img/covers/play.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Confetti",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "gOjG-70-D5o",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        },
+        {
+          "title": "Hmm",
+          "videos": []
+        },
+        {
+          "title": "Not a Goodbye",
+          "videos": []
+        },
+        {
+          "title": "Deep Eden",
+          "videos": []
+        },
+        {
+          "title": "Red Diamond",
+          "videos": []
+        },
+        {
+          "title": "Catch My Eye",
+          "videos": []
+        },
+        {
+          "title": "Kitty",
+          "artist": "Momo",
+          "videos": []
+        },
+        {
+          "title": "Ma Cherry",
+          "artist": "Sana",
+          "videos": []
+        },
+        {
+          "title": "Turning Tables",
+          "artist": "Mina",
+          "videos": []
+        },
+        {
+          "title": "Identity",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "-J_w9K6DgRo",
+              "official": true,
+              "label": "M/V"
+            }
+          ]
+        },
+        {
+          "title": "Do Not Touch",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "woKq2sD8xho",
+              "official": true,
+              "label": "M/V"
+            }
+          ]
+        },
+        {
+          "title": "Message",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "hash-best-2015-2025",
+      "title": "#Best 2015–2025",
+      "category": "japanese",
+      "seq": "Best Album",
+      "type": "Full Album",
+      "released": "2026-08-26",
+      "cover": "assets/img/covers/hash-best-2015-2025.jpg",
+      "note": "10th anniversary best album. Tracklist still to be filled in.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": []
     }
   ]
 }

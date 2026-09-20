@@ -19,6 +19,7 @@ const state = {
   data: null,
   query: '',
   era: 'all',
+  category: 'all',
   unwatchedOnly: false,
   needsLinks: false,
   openId: null,
@@ -76,6 +77,7 @@ function visibleTracks(album) {
 function visibleAlbums() {
   const q = state.query.trim().toLowerCase();
   return state.data.albums.filter(a => {
+    if (state.category !== 'all' && a.category !== state.category) return false;
     if (state.era !== 'all' && albumYear(a) !== state.era) return false;
     if (!matchesQuery(a, q)) return false;
     if (state.needsLinks && !a.tracks.some(t => !(t.videos || []).length)) return false;
@@ -235,16 +237,41 @@ function renderProgress() {
 /* ---------- filters ---------- */
 
 function renderEraChips() {
-  const years = [...new Set(state.data.albums.map(albumYear))].filter(Boolean).sort();
+  const pool = state.category === 'all'
+    ? state.data.albums
+    : state.data.albums.filter(a => a.category === state.category);
+  const years = [...new Set(pool.map(albumYear))].filter(Boolean).sort();
+  if (!years.includes(state.era)) state.era = 'all';   /* year gone with the category */
   el('eras').innerHTML = [
-    `<button type="button" class="chip on" data-era="all">All years</button>`,
-    ...years.map(y => `<button type="button" class="chip" data-era="${y}">${y}</button>`),
+    `<button type="button" class="chip${state.era === 'all' ? ' on' : ''}" data-era="all">All years</button>`,
+    ...years.map(y => `<button type="button" class="chip${state.era === y ? ' on' : ''}" data-era="${y}">${y}</button>`),
+  ].join('');
+}
+
+function renderCategoryChips() {
+  const counts = {};
+  for (const a of state.data.albums) counts[a.category] = (counts[a.category] || 0) + 1;
+  const total = state.data.albums.length;
+  el('categories').innerHTML = [
+    `<button type="button" class="chip on" data-category="all">All <span class="chip-n">${total}</span></button>`,
+    ...(state.data.categories || []).map(c => counts[c.key]
+      ? `<button type="button" class="chip" data-category="${c.key}">${escapeHtml(c.label)} <span class="chip-n">${counts[c.key]}</span></button>`
+      : '').filter(Boolean),
   ].join('');
 }
 
 function wireFilters() {
   el('search').addEventListener('input', e => {
     state.query = e.target.value;
+    renderGrid();
+  });
+
+  el('categories').addEventListener('click', e => {
+    const chip = e.target.closest('[data-category]');
+    if (!chip) return;
+    state.category = chip.dataset.category;
+    [...el('categories').children].forEach(c => c.classList.toggle('on', c === chip));
+    renderEraChips();
     renderGrid();
   });
 
@@ -288,6 +315,7 @@ async function init() {
   }
 
   state.data = data;
+  renderCategoryChips();
   renderEraChips();
   wireFilters();
   renderGrid();
