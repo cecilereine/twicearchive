@@ -854,14 +854,27 @@
           "titleTrack": true,
           "videos": [
             {
-              "kind": "mv",
-              "url": "h1gIqiZiPzg",
+              "kind": "audio",
+              "url": "FF50-LY2Kro",
+              "label": "Official Audio",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "nUP0SLPtQgU",
+              "label": "Choreography - 1",
               "official": true
             },
             {
               "kind": "dance",
               "url": "bkQw-F1QTq4",
               "label": "Choreography - 2",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "9KW7hojmoaI",
+              "label": "The Kelly Clarkson Show Performance",
               "official": true
             }
           ]
@@ -939,6 +952,40 @@
           "title": "Cry for Me",
           "note": "English ver.",
           "videos": []
+        }
+      ]
+    },
+    {
+      "id": "the-feels",
+      "title": "The Feels",
+      "seq": "Pre-release Single",
+      "type": "Single",
+      "released": "2021-10-01",
+      "cover": "assets/img/covers/the-feels.jpg",
+      "note": "Pre-release English single for Formula of Love: O+T=<3.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "The Feels",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "f5_wn8mexmM",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "9j6_KM-uzfY",
+              "label": "Choreography Video (Moving Ver.)",
+              "official": true
+            }
+          ]
         }
       ]
     },
@@ -1045,7 +1092,8 @@
               "label": "Choreography Video (Moving Ver.)",
               "official": true
             }
-          ]
+          ],
+          "note": "Pre-release single"
         }
       ]
     },
@@ -1136,6 +1184,40 @@
       ]
     },
     {
+      "id": "moonlight-sunrise",
+      "title": "Moonlight Sunrise",
+      "seq": "Pre-release Single",
+      "type": "Single",
+      "released": "2023-01-20",
+      "cover": "assets/img/covers/moonlight-sunrise.jpg",
+      "note": "Pre-release English single for Ready to Be.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Moonlight Sunrise",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "cKlEE_EYuNM",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "-38PwJvhDN0",
+              "label": "Choreography Video (Moving Ver.)",
+              "official": true
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "ready-to-be",
       "title": "Ready to Be",
       "seq": "12th Mini Album",
@@ -1175,6 +1257,12 @@
               "kind": "mv",
               "url": "cKlEE_EYuNM",
               "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "-38PwJvhDN0",
+              "label": "Choreography Video (Moving Ver.)",
+              "official": true
             }
           ]
         },
@@ -1198,6 +1286,40 @@
           "title": "Set Me Free",
           "note": "English ver.",
           "videos": []
+        }
+      ]
+    },
+    {
+      "id": "i-got-you",
+      "title": "I Got You",
+      "seq": "Pre-release Single",
+      "type": "Single",
+      "released": "2024-02-02",
+      "cover": "assets/img/covers/i-got-you.jpg",
+      "note": "Pre-release single for With You-th.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "I Got You",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "haf67eKF0uo",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "NhmzKgaoLX0",
+              "label": "Live Clip",
+              "official": true
+            }
+          ]
         }
       ]
     },
@@ -1482,7 +1604,20 @@
           "title": "Takedown",
           "artist": "Jeongyeon, Jihyo, Chaeyoung",
           "note": "KPop Demon Hunters OST",
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "-IMRzPJEAyE",
+              "label": "Music Video",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "_sbIOngf-U4",
+              "label": "Live",
+              "official": true
+            }
+          ]
         }
       ]
     },

@@ -155,6 +155,13 @@ Set `data-accent` on `<html>` to re-tint the page — `discography` (pink),
 - Tracklists were taken from each release's own Wikipedia article, not the
   "songs recorded by Twice" list — that list covers group songs only and silently
   drops member solos and sub-unit tracks.
-- Video and audio links were checked by YouTube channel. Anything on
-  "TWICE - Topic" is a label-uploaded Art Track; several convincing-looking
-  "Official MV" uploads turned out to be fan reuploads and were left out.
+- Video and audio links are checked **by YouTube channel**, not by title. Fan
+  reuploads routinely outrank the real thing and title themselves "Official MV".
+  The trusted channels are `JYP Entertainment`, `TWICE`, `TWICE - Topic` (the
+  label's Art Tracks) and, for the KPop Demon Hunters material, Netflix's own
+  channels. To re-check every link in the data at once, open youtube.com and run
+  each id through `/oembed?format=json&url=...`, which returns `author_name`.
+  That check has already caught two bad links that looked official.
+- Some songs never got a music video. Cry for Me, for instance, has official
+  audio, two choreography videos and a televised performance, but no M/V — so
+  the archive files what exists rather than inventing an `mv` entry.
