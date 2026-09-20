@@ -261,6 +261,18 @@ a { color: inherit; }
 .type-badge[data-type="Single"]     { background:#e0902f; border-color:transparent; color:#fff; }
 .type-badge[data-type="Reissue"]    { background:#4ec9b0; border-color:transparent; color:#123; }
 
+/* A member writing credit. On its own line under the title rather than lost
+   among the pills on the title row. */
+.written-row { margin: 6px 0 0 28px; }
+.written {
+  display: inline-block;
+  font-size: 11.5px; font-weight: 700; letter-spacing: .01em;
+  padding: 3px 10px; border-radius: 999px;
+  /* fallback until the inline member colours apply */
+  color: #fff; background: linear-gradient(120deg, var(--grape), var(--accent));
+}
+@media (max-width: 560px) { .written-row { margin-left: 0; } }
+
 /* Solo, sub-unit and featured credits beside a track title. */
 .credit {
   font-size: 11px; font-weight: 600; color: var(--text-soft);
@@ -304,6 +316,12 @@ a { color: inherit; }
 .panel-close:hover { color: var(--text); }
 
 .stream-links { display: flex; flex-wrap: wrap; gap: 7px; }
+.region-lock {
+  margin: 7px 0 0; font-size: 11.5px; font-weight: 600; color: var(--warn);
+  display: inline-block;
+  padding: 3px 9px; border-radius: 999px;
+  background: var(--surface-2); border: 1px dashed var(--line);
+}
 .stream-btn {
   display: inline-flex; align-items: center; gap: 6px;
   text-decoration: none; font-size: 12.5px; font-weight: 600;

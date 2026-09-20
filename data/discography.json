@@ -16,6 +16,17 @@
       "label": "Solo & Units"
     }
   ],
+  "memberColors": {
+    "Nayeon": "#f4a6c8",
+    "Jeongyeon": "#8fd3a8",
+    "Momo": "#f6a1b6",
+    "Sana": "#b79ce0",
+    "Jihyo": "#f6b17a",
+    "Mina": "#7fd4c8",
+    "Dahyun": "#9fc7f2",
+    "Chaeyoung": "#e8697d",
+    "Tzuyu": "#6fa8e8"
+  },
   "services": [
     {
       "key": "spotify",
@@ -385,12 +396,6 @@
               "url": "0kFysgVv9ZQ",
               "label": "【TVPP】 – TT, – 티티 @Show Music Core",
               "official": false
-            },
-            {
-              "kind": "mv",
-              "url": "t35H2BVq490",
-              "label": "「TT -Japanese ver.-」Music Video",
-              "official": true
             }
           ]
         },
@@ -600,10 +605,10 @@
       "type": "EP",
       "released": "2017-02-24",
       "cover": "assets/img/covers/whats-twice.jpg",
-      "note": "",
+      "note": "Japan-only release — available on the Japanese storefront.",
       "links": {
         "spotify": "",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/jp/album/whats-twice-ep/1206052768",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -624,7 +629,8 @@
           "title": "TT",
           "videos": []
         }
-      ]
+      ],
+      "regionLocked": "Japan only"
     },
     {
       "id": "signal",
@@ -687,12 +693,6 @@
           "titleKo": "Only 너",
           "videos": [
             {
-              "kind": "lyric",
-              "url": "vXzUDPoR9cs",
-              "label": "Color Coded Lyrics",
-              "official": false
-            },
-            {
               "kind": "live",
               "url": "LVBlDtqW9sE",
               "label": "Only You 4k 60FPS | TWICELAND OPENING ENCORE",
@@ -709,6 +709,12 @@
               "url": "_ZamLdR0iwU",
               "label": "Only you FHD। Twiceland Zone 2 – Fantasy Park",
               "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "vXzUDPoR9cs",
+              "label": "Color Coded Lyrics",
+              "official": false
             }
           ]
         },
@@ -716,15 +722,15 @@
           "title": "Hold Me Tight",
           "videos": [
             {
-              "kind": "lyric",
-              "url": "Igd3E5h4MWA",
-              "label": "Color Coded Lyrics",
-              "official": false
-            },
-            {
               "kind": "live",
               "url": "2oGftByddrg",
               "label": "Please hold me tight FHD। Twiceland Zone 2 – Fantasy Park",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "Igd3E5h4MWA",
+              "label": "Color Coded Lyrics",
               "official": false
             }
           ]
@@ -733,15 +739,15 @@
           "title": "Eye Eye Eyes",
           "videos": [
             {
-              "kind": "lyric",
-              "url": "DkgNYR6eVrw",
-              "label": "Color Coded Lyrics",
-              "official": false
-            },
-            {
               "kind": "live",
               "url": "OqVB-zzVJvw",
               "label": "「EYE EYE EYES」TWICELAND -THE OPENING- ENCORE",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "DkgNYR6eVrw",
+              "label": "Color Coded Lyrics",
               "official": false
             }
           ]
@@ -749,12 +755,6 @@
         {
           "title": "Someone Like Me",
           "videos": [
-            {
-              "kind": "lyric",
-              "url": "gpaW4U779Uc",
-              "label": "Color Coded Lyrics",
-              "official": false
-            },
             {
               "kind": "live",
               "url": "J-al_DKsgi0",
@@ -765,6 +765,12 @@
               "kind": "live",
               "url": "ym7W0kEw4ME",
               "label": "Some one like me FHDX60FPS। Twiceland Zone 2 – Fantasy Park",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "gpaW4U779Uc",
+              "label": "Color Coded Lyrics",
               "official": false
             }
           ]
@@ -779,9 +785,9 @@
       "type": "Full Album",
       "released": "2017-06-28",
       "cover": "assets/img/covers/hash-twice.jpg",
-      "note": "",
+      "note": "Best album. Japanese versions only here — the Korean originals are filed under their own releases.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/2MwyDQhotK4B1WcZ5ogrtB",
         "appleMusic": "https://music.apple.com/ph/album/twice-ep/1242966871",
         "youtubeMusic": "",
         "melon": ""
@@ -800,7 +806,14 @@
         {
           "title": "TT",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "t35H2BVq490",
+              "label": "TT -Japanese ver.- Music Video",
+              "official": true
+            }
+          ]
         },
         {
           "title": "Knock Knock",
@@ -810,26 +823,6 @@
         {
           "title": "Signal",
           "note": "Japanese ver.",
-          "videos": []
-        },
-        {
-          "title": "Like Ooh-Ahh",
-          "videos": []
-        },
-        {
-          "title": "Cheer Up",
-          "videos": []
-        },
-        {
-          "title": "TT",
-          "videos": []
-        },
-        {
-          "title": "Knock Knock",
-          "videos": []
-        },
-        {
-          "title": "Signal",
           "videos": []
         }
       ]
@@ -844,7 +837,7 @@
       "cover": "assets/img/covers/one-more-time.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/20tQIMCWsH5GjJUlSX5tBb",
         "appleMusic": "https://music.apple.com/ph/album/one-more-time-ep/1288112870",
         "youtubeMusic": "",
         "melon": ""
@@ -859,6 +852,24 @@
               "url": "HuoOEry-Yc4",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "performance",
+              "url": "4XwyHPrFPCA",
+              "label": "NHK Shibuya Note",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "VgVEfd-dLgU",
+              "label": "「One More Time」1st Arena Tour 2018 BDZ",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "oD3L2BEjehE",
+              "label": "「One More Time」 FHD। Dream Day concert at Tokyo Dome",
+              "official": false
             }
           ]
         },
@@ -910,61 +921,197 @@
               "url": "bUrQbt1jR4A",
               "label": "Comeback Stage @ M COUNTDOWN",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "GoLvhh89law",
+              "label": "LIKEY, - LIKEY (Part Changed Ver.) @2017 MBC Music Festival",
+              "official": true
             }
           ]
         },
         {
           "title": "Turtle",
           "titleKo": "거북이",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "htikOgt39uk",
+              "label": "[Turtle] TWICELAND ZONE 2 Fantasy Park",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "kqBnP7yMam0",
+              "label": "TURTLE (거북이) [Color Coded Lyrics/Han/Rom/Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Missing U",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "WjzJgkIEDa8",
+              "label": "TWICELAND Zone 2 – Fantasy Park",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "Cpv3CQO6WLQ",
+              "label": "MISSING U [Color Coded Lyrics/Han/Rom/Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Dahyun, Chaeyoung"
         },
         {
           "title": "Wow",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "-kf1y0S9gsk",
+              "label": "WOW Lyrics (Han|Rom|Eng) Color Coded",
+              "official": false
+            }
+          ]
         },
         {
           "title": "FFW",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "C57aEV6aaDE",
+              "label": "FFW।4k 60FPS land Zone 2 – Fantasy Park (Mediocre Upscaled)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "5LOKWmu1u_s",
+              "label": "FFW Lyrics (Han|Rom|Eng) Color Coded",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Ding Dong",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "davOz6Lt3Dc",
+              "label": "Ding Dong Lyrics [Color Coded/HAN/ROM/ENG]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "24/7",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "3BvnwltugcM",
+              "label": "24/7 Lyrics (Han|Rom|Eng) Color Coded",
+              "official": false
+            }
+          ],
+          "writtenBy": "Nayeon, Jihyo"
         },
         {
           "title": "Look at Me",
           "titleKo": "날 바라바라봐",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "yypHJz_DWvA",
+              "label": "《日本語字幕》-LOOK AT ME/TWICELAND ZONE2：Fantasy Park",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "9jSwhoA0X94",
+              "label": "LOOK AT ME Lyrics ( 날 바라바라봐 가사) (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Rollin'",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "FJ1RXlGQV88",
+              "label": "[4K60] ROLLIN ENCORE 4TH WORLD TOUR III (Bluray)",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "UTFAvHsnN-w",
+              "label": "World Tour III | Rollin | Concert | 20220218 @ Oakland",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "EerDQTK1L2A",
+              "label": "Rollin | Color Coded HAN/ROM/ENG Lyrics",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Love Line",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "W00TCCfs5ks",
+              "label": "LOVE LINE Lyrics (Han|Rom|Eng) Color Coded",
+              "official": false
+            }
+          ],
+          "writtenBy": "Jeongyeon"
         },
         {
           "title": "Don't Give Up",
           "titleKo": "힘내!",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "4Efp1unyBDc",
+              "label": "Dont Give Up Lyrics (Han|Rom|Eng) Color Coded",
+              "official": false
+            }
+          ],
+          "writtenBy": "Chaeyoung"
         },
         {
           "title": "You in My Heart",
           "titleKo": "널 내게 담아",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "nVn_d5fflTk",
+              "label": "You in my heart|FHD| World Tour 2019 TWICELIGHTS In Seoul",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "razIpAatdVc",
+              "label": "YOU IN MY HEART (널 내게 담아) [Color Coded Lyrics/Han/Rom/Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Jaljayo Good Night",
           "titleKo": "잘자요 굿나잇",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "M4pk0Wx372w",
+              "label": "SLEEP TIGHT GOOD NIGHT, - 잘자요 굿나잇 [테이의 꿈꾸는 라디오] 20171206",
+              "official": true
+            }
+          ]
         }
       ]
     },
@@ -994,16 +1141,59 @@
               "official": true
             },
             {
+              "kind": "dance",
+              "url": "bRveOotrnFA",
+              "label": "Heart Shaker Dance Video (Practice Room Ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "mtoZRqCvucc",
+              "label": "Heart Shaker Dance Video (Studio Ver.)",
+              "official": true
+            },
+            {
               "kind": "performance",
               "url": "Tw9TPoToEvw",
               "label": "Music Bank Stage",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "jH2l1CLSh9I",
+              "label": "Heart shaker /remix cut ver./ (Twicelights In Seoul)",
+              "official": false
             }
           ]
         },
         {
           "title": "Merry & Happy",
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "zi_6oaQyckM",
+              "label": "Merry & Happy M/V",
+              "official": true
+            },
+            {
+              "kind": "mv",
+              "url": "gfKPzQN_9ng",
+              "label": "Merry & Happy 2022ver. - Mini M/V",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "hTj8JdZN8Ms",
+              "label": "[📂Secret Cut] 38_Merry & Happy Choreography Video for Broadcast.mp4",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "PM8EJ7-VdOI",
+              "label": "Merry & Happy [Music Bank COMEBACK / 2017.12.15]",
+              "official": true
+            }
+          ]
         }
       ]
     },
@@ -1017,7 +1207,7 @@
       "cover": "assets/img/covers/candy-pop.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/4t6JjDorVawKA34IhApYC4",
         "appleMusic": "https://music.apple.com/ph/album/candy-pop-ep/1333016985",
         "youtubeMusic": "",
         "melon": ""
@@ -1113,7 +1303,7 @@
       "cover": "assets/img/covers/wake-me-up.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/6IAy5NUKOpoJ3RHC9snSmI",
         "appleMusic": "https://music.apple.com/ph/album/wake-me-up-ep/1372727163",
         "youtubeMusic": "",
         "melon": ""
@@ -1196,7 +1386,7 @@
       "cover": "assets/img/covers/bdz.jpg",
       "note": "Advance digital release from BDZ. Cover art shared with the album.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/3Bi7hl11zYHpw6uE6gAtSs",
         "appleMusic": "https://music.apple.com/ph/album/bdz/1423569986",
         "youtubeMusic": "",
         "melon": ""
@@ -1226,7 +1416,7 @@
       "cover": "assets/img/covers/bdz.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/3Bi7hl11zYHpw6uE6gAtSs",
         "appleMusic": "https://music.apple.com/ph/album/bdz/1423569986",
         "youtubeMusic": "",
         "melon": ""
@@ -1325,7 +1515,7 @@
       "cover": "assets/img/covers/bdz-repackage.jpg",
       "note": "Digital release from BDZ. Cover art shared with the album.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/7lbNjJbfXVb5HjmtApXLY2",
         "appleMusic": "https://music.apple.com/ph/album/stay-by-my-side-single/1439570598",
         "youtubeMusic": "",
         "melon": ""
@@ -1455,7 +1645,7 @@
       "cover": "assets/img/covers/bdz-repackage.jpg",
       "note": "Repackaged edition of BDZ — new track only.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/3Bi7hl11zYHpw6uE6gAtSs",
         "appleMusic": "https://music.apple.com/ph/album/bdz/1423569986",
         "youtubeMusic": "",
         "melon": ""
@@ -1483,9 +1673,9 @@
       "type": "Full Album",
       "released": "2019-03-06",
       "cover": "assets/img/covers/hash-twice2.jpg",
-      "note": "",
+      "note": "Best album. Japanese versions only here — the Korean originals are filed under their own releases.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/2QmO12UqPp1BQN4kSGtcAx",
         "appleMusic": "https://music.apple.com/ph/album/twice2-japanese-version-ep/1448705091",
         "youtubeMusic": "",
         "melon": ""
@@ -1514,26 +1704,6 @@
         {
           "title": "Yes or Yes",
           "note": "Japanese ver.",
-          "videos": []
-        },
-        {
-          "title": "Likey",
-          "videos": []
-        },
-        {
-          "title": "Heart Shaker",
-          "videos": []
-        },
-        {
-          "title": "What Is Love?",
-          "videos": []
-        },
-        {
-          "title": "Dance the Night Away",
-          "videos": []
-        },
-        {
-          "title": "Yes or Yes",
           "videos": []
         }
       ]
@@ -1608,7 +1778,7 @@
       "cover": "assets/img/covers/happy-happy.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/7L4aQ3NuXn10GinA6Fs2pc",
         "appleMusic": "https://music.apple.com/ph/album/happy-happy-ep/1465222258",
         "youtubeMusic": "",
         "melon": ""
@@ -1644,7 +1814,7 @@
       "cover": "assets/img/covers/breakthrough.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/7LWfEiSeue9BXPbUOH34q6",
         "appleMusic": "https://music.apple.com/ph/album/breakthrough-ep/1465709258",
         "youtubeMusic": "",
         "melon": ""
@@ -1739,8 +1909,8 @@
       "cover": "assets/img/covers/and-twice.jpg",
       "note": "Advance digital release from &Twice. Cover art shared with the album.",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/6Dj10YAOr22VG3eWsvwmeE",
+        "appleMusic": "https://music.apple.com/ph/album/fake-true/1483087458",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -1769,7 +1939,7 @@
       "cover": "assets/img/covers/and-twice.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/2MwyDQhotK4B1WcZ5ogrtB",
         "appleMusic": "https://music.apple.com/ph/album/twice/1483087458",
         "youtubeMusic": "",
         "melon": ""
@@ -1851,7 +2021,7 @@
       "cover": "assets/img/covers/and-twice-repackage.jpg",
       "note": "Repackaged edition of &Twice — new track only.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/2MwyDQhotK4B1WcZ5ogrtB",
         "appleMusic": "https://music.apple.com/ph/album/twice/1483087458",
         "youtubeMusic": "",
         "melon": ""
@@ -1925,7 +2095,7 @@
       "cover": "assets/img/covers/fanfare.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/47bxLQc3jt9EcpFXOECxVA",
         "appleMusic": "https://music.apple.com/ph/album/fanfare-ep/1517581744",
         "youtubeMusic": "",
         "melon": ""
@@ -1959,9 +2129,9 @@
       "type": "Full Album",
       "released": "2020-09-16",
       "cover": "assets/img/covers/hash-twice3.jpg",
-      "note": "",
+      "note": "Best album. Japanese versions only here — the Korean originals are filed under their own releases.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/5CCOdkAWMzHFQCky3Lbfw5",
         "appleMusic": "https://music.apple.com/ph/album/twice3-japanese-version-ep/1528951135",
         "youtubeMusic": "",
         "melon": ""
@@ -1995,30 +2165,6 @@
         {
           "title": "21:29",
           "note": "Japanese ver.",
-          "videos": []
-        },
-        {
-          "title": "The Best Thing I Ever Did",
-          "videos": []
-        },
-        {
-          "title": "Fancy",
-          "videos": []
-        },
-        {
-          "title": "Feel Special",
-          "videos": []
-        },
-        {
-          "title": "More & More",
-          "videos": []
-        },
-        {
-          "title": "Stuck in My Head",
-          "videos": []
-        },
-        {
-          "title": "21:29",
           "videos": []
         }
       ]
@@ -2122,8 +2268,8 @@
       "cover": "assets/img/covers/ill-show-you.jpg",
       "note": "From the K/DA EP All Out. Nayeon, Sana and Jihyo sing for Ahri.",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/track/497qmwcUsCv5hmMU0K8Hik",
+        "appleMusic": "https://music.apple.com/ph/album/ill-show-you-feat-annika-wells-league-of-legends-music/1832012000",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2145,7 +2291,7 @@
       "cover": "assets/img/covers/better.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/2jOvgj6NJc1l5SBApgFaZC",
         "appleMusic": "https://music.apple.com/ph/album/better-ep/1537586354",
         "youtubeMusic": "",
         "melon": ""
@@ -2233,7 +2379,7 @@
       "cover": "assets/img/covers/kura-kura.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/5FMslDParbcWQ7o5FQqCWf",
         "appleMusic": "https://music.apple.com/ph/album/kura-kura-ep/1561940504",
         "youtubeMusic": "",
         "melon": ""
@@ -2332,7 +2478,7 @@
       "cover": "assets/img/covers/perfect-world.jpg",
       "note": "Advance digital release from Perfect World. Cover art shared with the album.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/17rk8h2IU4wwSFXw9j2uR6",
         "appleMusic": "https://music.apple.com/ph/album/perfect-world/1572685835",
         "youtubeMusic": "",
         "melon": ""
@@ -2368,8 +2514,8 @@
       "cover": "assets/img/covers/i-love-you-more-than-anyone.jpg",
       "note": "Hospital Playlist Season 2 OST Part 4.",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/track/3AqYmY1GE4oW6w90BPAU3i",
+        "appleMusic": "https://music.apple.com/ph/album/i-love-you-more-than-anyone/1575669260",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -2391,7 +2537,7 @@
       "cover": "assets/img/covers/perfect-world.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/17rk8h2IU4wwSFXw9j2uR6",
         "appleMusic": "https://music.apple.com/ph/album/perfect-world/1572685835",
         "youtubeMusic": "",
         "melon": ""
@@ -2637,7 +2783,7 @@
       "cover": "assets/img/covers/doughnut.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/2g8Uav5MCzs3B4pJO9U24p",
         "appleMusic": "https://music.apple.com/ph/album/doughnut-ep/1595859513",
         "youtubeMusic": "",
         "melon": ""
@@ -2675,9 +2821,9 @@
       "type": "Full Album",
       "released": "2022-03-16",
       "cover": "assets/img/covers/hash-twice4.jpg",
-      "note": "",
+      "note": "Best album. Japanese versions only here — the Korean originals are filed under their own releases.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/5UMKm3ihuSD9WQDkwQ7btX",
         "appleMusic": "https://music.apple.com/ph/album/twice4-japanese-ver-ep/1611148059",
         "youtubeMusic": "",
         "melon": ""
@@ -2702,22 +2848,6 @@
           "title": "Scientist",
           "note": "Japanese ver.",
           "videos": []
-        },
-        {
-          "title": "I Can't Stop Me",
-          "videos": []
-        },
-        {
-          "title": "Cry for Me",
-          "videos": []
-        },
-        {
-          "title": "Alcohol-Free",
-          "videos": []
-        },
-        {
-          "title": "Scientist",
-          "videos": []
         }
       ]
     },
@@ -2731,7 +2861,7 @@
       "cover": "assets/img/covers/celebrate.jpg",
       "note": "Digital release from Celebrate. Cover art shared with the album.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/580je4ls7G3Ul39rZzqXOC",
         "appleMusic": "https://music.apple.com/ph/album/just-be-yourself-single/1613516516",
         "youtubeMusic": "",
         "melon": ""
@@ -2754,7 +2884,7 @@
       "cover": "assets/img/covers/celebrate.jpg",
       "note": "Advance digital release from Celebrate. Cover art shared with the album.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/1nqz3cEjuvCMo8RHLBI9kM",
         "appleMusic": "https://music.apple.com/ph/album/celebrate/1633009348",
         "youtubeMusic": "",
         "melon": ""
@@ -2790,7 +2920,7 @@
       "cover": "assets/img/covers/celebrate.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/1nqz3cEjuvCMo8RHLBI9kM",
         "appleMusic": "https://music.apple.com/ph/album/celebrate/1633009348",
         "youtubeMusic": "",
         "melon": ""
@@ -2967,7 +3097,7 @@
       "cover": "assets/img/covers/masterpiece.jpg",
       "note": "MISAMO's debut release. Insert song for the drama Liaison. Cover art shared with Masterpiece.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/7lH4TKCD5FrzmMu8CS4rzd",
         "appleMusic": "https://music.apple.com/ph/album/bouquet-single/1666018986",
         "youtubeMusic": "",
         "melon": ""
@@ -3076,7 +3206,7 @@
       "cover": "assets/img/covers/hare-hare.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/0ymqvaOiilJa797C3Y2mZh",
         "appleMusic": "https://music.apple.com/ph/album/hare-hare-ep/1686024797",
         "youtubeMusic": "",
         "melon": ""
@@ -3117,7 +3247,7 @@
       "cover": "assets/img/covers/masterpiece.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/3qmO83vO1SsdmP1Y0ljhSQ",
         "appleMusic": "https://music.apple.com/ph/album/masterpiece/1691852603",
         "youtubeMusic": "",
         "melon": ""
@@ -3178,7 +3308,7 @@
       "cover": "assets/img/covers/dive.jpg",
       "note": "Digital release from Dive. Cover art shared with the album.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/1Z7QoKOpqAWfiHnurlsiti",
         "appleMusic": "https://music.apple.com/ph/album/dance-again-single/1717884700",
         "youtubeMusic": "",
         "melon": ""
@@ -3311,7 +3441,7 @@
       "cover": "assets/img/covers/dive.jpg",
       "note": "Digital release from Dive. Cover art shared with the album.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/7tgTOUXm74GKA12wsQIUPu",
         "appleMusic": "https://music.apple.com/ph/album/dive/1754339021",
         "youtubeMusic": "",
         "melon": ""
@@ -3341,7 +3471,7 @@
       "cover": "assets/img/covers/dive.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/7tgTOUXm74GKA12wsQIUPu",
         "appleMusic": "https://music.apple.com/ph/album/dive/1754339021",
         "youtubeMusic": "",
         "melon": ""
@@ -3429,8 +3559,8 @@
       "cover": "assets/img/covers/mamushi-remix.jpg",
       "note": "Remix from Megan: Act II, the reissue of Megan.",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/track/6LH0tmf42QU4EDFSbTlWvt",
+        "appleMusic": "https://music.apple.com/ph/album/mamushi-remix-feat-twice/1776124685?i=1776125333",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -3453,7 +3583,7 @@
       "cover": "assets/img/covers/haute-couture.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/1WJ9XNiSoICq7iRrqzXOij",
         "appleMusic": "https://music.apple.com/ph/album/haute-couture/1772136984",
         "youtubeMusic": "",
         "melon": ""
@@ -3593,7 +3723,7 @@
       "cover": "assets/img/covers/enemy.jpg",
       "note": "Digital release from Enemy. Cover art shared with the album.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/3lyPz62SgsRODphFZBGCfL",
         "appleMusic": "https://music.apple.com/ph/album/the-wish-single/1781860012",
         "youtubeMusic": "",
         "melon": ""
@@ -3624,7 +3754,7 @@
       "cover": "assets/img/covers/we-pray.jpg",
       "note": "Twice version of the Coldplay single, with a new Korean verse.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/0QOAUAUR20fpa2SK1J0yGy",
         "appleMusic": "https://music.apple.com/ph/album/we-pray-twice-version-single/1807106199",
         "youtubeMusic": "",
         "melon": ""
@@ -3649,7 +3779,7 @@
       "cover": "assets/img/covers/play.jpg",
       "note": "Theme song for the film Kakukaku Shikajika. Cover art shared with Play.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/46CtRn5cgpV5xkTQ7xIb5u",
         "appleMusic": "https://music.apple.com/ph/album/message-single/1807547126",
         "youtubeMusic": "",
         "melon": ""
@@ -3677,10 +3807,10 @@
       "type": "Full Album",
       "released": "2025-05-14",
       "cover": "assets/img/covers/hash-twice5.jpg",
-      "note": "",
+      "note": "Best album. Japanese versions only here — the Korean originals are filed under their own releases.",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/7H559hhWLuJbRWRJlQTFRG",
+        "appleMusic": "https://music.apple.com/gb/album/twice5-japanese-ver/1807336456",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -3699,26 +3829,6 @@
           "title": "One Spark",
           "note": "Japanese ver.",
           "videos": []
-        },
-        {
-          "title": "Talk That Talk",
-          "videos": []
-        },
-        {
-          "title": "Set Me Free",
-          "videos": []
-        },
-        {
-          "title": "I Got You",
-          "videos": []
-        },
-        {
-          "title": "One Spark",
-          "videos": []
-        },
-        {
-          "title": "Strategy",
-          "videos": []
         }
       ]
     },
@@ -3733,7 +3843,7 @@
       "note": "From the KPop Demon Hunters soundtrack. Also appears as a bonus track on This Is For.",
       "links": {
         "spotify": "https://open.spotify.com/album/5HL3SRsMf7iX4kwWO3Hiuf",
-        "appleMusic": "",
+        "appleMusic": "https://music.apple.com/ph/album/takedown-jeongyeon-jihyo-chaeyoung/1820264137",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -3890,7 +4000,7 @@
       "cover": "assets/img/covers/enemy.jpg",
       "note": "Digital release from Enemy. Cover art shared with the album.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/18v5nf750qcff18B0a6WmG",
         "appleMusic": "https://music.apple.com/ph/album/enemy/1828648304",
         "youtubeMusic": "",
         "melon": ""
@@ -3927,8 +4037,8 @@
       "cover": "assets/img/covers/superstars.jpg",
       "note": "From Saweetie's EP Hella Pressure.",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/6J8N4aJ1p1XwhGF2yk3HW0",
+        "appleMusic": "https://music.apple.com/ph/album/superstars/1827566423",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -3950,8 +4060,8 @@
       "cover": "assets/img/covers/enemy.jpg",
       "note": "Digital release from Enemy. Cover art shared with the album.",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
+        "spotify": "https://open.spotify.com/album/6m1tTBNtQtBtNeDLhVm3bO",
+        "appleMusic": "https://music.apple.com/ph/album/like-1/1828648304",
         "youtubeMusic": "",
         "melon": ""
       },
@@ -3986,7 +4096,7 @@
       "cover": "assets/img/covers/enemy.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/18v5nf750qcff18B0a6WmG",
         "appleMusic": "https://music.apple.com/ph/album/enemy/1828648304",
         "youtubeMusic": "",
         "melon": ""
@@ -4224,7 +4334,7 @@
       "cover": "assets/img/covers/play.jpg",
       "note": "",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/2Y6S52I2kx6FLvaOkZK7un",
         "appleMusic": "https://music.apple.com/ph/album/play/1866521162",
         "youtubeMusic": "",
         "melon": ""
@@ -4315,7 +4425,7 @@
       "cover": "assets/img/covers/hash-best-2015-2025.jpg",
       "note": "10th anniversary best album. Tracklist still to be filled in.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/0xX14LV8P8ZI2GZZNjHsqx",
         "appleMusic": "https://music.apple.com/ph/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
         "youtubeMusic": "",
         "melon": ""

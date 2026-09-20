@@ -27,6 +27,14 @@ const state = {
 
 /* ---------- small helpers ---------- */
 
+/* Lyric videos read as a footnote to a track, so they always come last however
+   the data file happens to be ordered. Sorting here rather than only in the
+   data means a hand-edited entry can't show up out of place. */
+const VIDEO_ORDER = { mv: 0, dance: 1, performance: 2, live: 3, other: 4, lyric: 5 };
+const orderVideos = list =>
+  [...(list || [])].sort((a, b) =>
+    (VIDEO_ORDER[a.kind] ?? 4) - (VIDEO_ORDER[b.kind] ?? 4));
+
 const allVideos = album => album.tracks.flatMap(t => t.videos || []);
 
 const albumYear = album => (album.released || '').slice(0, 4);
@@ -57,12 +65,35 @@ function coverHtml(album, extra = '') {
   return `<div class="cover">${inner}${extra}</div>`;
 }
 
+/* A writing credit is tinted with the member's colour; two or more members
+   blend into a gradient across their colours. Colours live in memberColors in
+   the data file, so changing one is an edit there rather than in here. */
+function writtenByStyle(names) {
+  const map = state.data.memberColors || {};
+  const cols = names.split(',').map(n => map[n.trim()]).filter(Boolean);
+  if (!cols.length) return '';
+  const bg = cols.length === 1
+    ? cols[0]
+    : `linear-gradient(110deg, ${cols.join(', ')})`;
+  return `background:${bg};color:${readableOn(cols[0])};`;
+}
+
+/* Dark text on a pale chip, light text on a deep one, so the credit stays
+   readable whatever colours are chosen. */
+function readableOn(hex) {
+  const m = /^#?([\da-f]{2})([\da-f]{2})([\da-f]{2})$/i.exec(hex || '');
+  if (!m) return '#fff';
+  const [r, g, b] = m.slice(1).map(h => parseInt(h, 16) / 255)
+    .map(c => (c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4));
+  return (0.2126 * r + 0.7152 * g + 0.0722 * b) > 0.45 ? '#2a1b22' : '#fff';
+}
+
 /* ---------- filtering ---------- */
 
 function matchesQuery(album, q) {
   if (!q) return true;
   const hay = [album.title, album.seq, album.type,
-               ...album.tracks.flatMap(t => [t.title, t.titleKo, t.artist, t.note])]
+               ...album.tracks.flatMap(t => [t.title, t.titleKo, t.artist, t.note, t.writtenBy])]
     .filter(Boolean).join(' ').toLowerCase();
   return hay.includes(q);
 }
@@ -147,13 +178,18 @@ function renderPanel(album) {
   const seen   = vids.filter(isWatched).length;
 
   const services = state.data.services.map(s => {
-    const href = (album.links || {})[s.key];
-    return href
-      ? `<a class="stream-btn" data-svc="${s.key}" href="${escapeHtml(href)}"
-            target="_blank" rel="noopener"><span class="dot"></span>${escapeHtml(s.label)}</a>`
-      : `<span class="stream-btn empty" data-svc="${s.key}"
-            title="No link yet"><span class="dot"></span>${escapeHtml(s.label)}</span>`;
-  }).join('');
+        const href = (album.links || {})[s.key];
+        return href
+          ? `<a class="stream-btn" data-svc="${s.key}" href="${escapeHtml(href)}"
+                target="_blank" rel="noopener"><span class="dot"></span>${escapeHtml(s.label)}</a>`
+          : `<span class="stream-btn empty" data-svc="${s.key}"
+                title="No link yet"><span class="dot"></span>${escapeHtml(s.label)}</span>`;
+      }).join('');
+
+  /* Some releases only exist on one country's storefront, which is worth saying
+     so a link that looks broken from elsewhere reads as expected instead. */
+  const region = album.regionLocked
+    ? `<p class="region-lock">${escapeHtml(album.regionLocked)}</p>` : '';
 
   el('panelBody').innerHTML = `
     <div class="panel-head">
@@ -168,6 +204,7 @@ function renderPanel(album) {
            ${escapeHtml(prettyDate(album.released))} ·
            ${seen}/${vids.length} watched</p>
         <div class="stream-links">${services}</div>
+        ${region}
       </div>
       <button type="button" class="panel-close" id="panelClose" aria-label="Close">&times;</button>
     </div>
@@ -181,7 +218,7 @@ function renderPanel(album) {
 }
 
 function trackRow(track, no) {
-  const vids = (track.videos || [])
+  const vids = orderVideos(track.videos)
     .filter(v => !state.unwatchedOnly || !isWatched(v));
 
   const body = vids.length
@@ -203,6 +240,10 @@ function trackRow(track, no) {
         ${track.titleTrack ? `<span class="star">Title</span>` : ''}
         ${track.note ? `<span class="track-ko">· ${escapeHtml(track.note)}</span>` : ''}
       </div>
+      ${track.writtenBy
+        ? `<p class="written-row"><span class="written"
+             style="${writtenByStyle(track.writtenBy)}">✎ Written by ${escapeHtml(track.writtenBy)}</span></p>`
+        : ''}
       ${body}
     </div>`;
 }
