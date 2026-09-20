@@ -118,15 +118,60 @@
         },
         {
           "title": "Truth",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "XbykR5AfWzo",
+              "label": "Debut Showcase",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "nSGqXl-vyuo",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Candy Boy",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "DYb62rba38U",
+              "label": "Special Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "ploWj-7J9gM",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Like a Fool",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "cn_fvqJf1uw",
+              "label": "MEET&GREET @ Mwave",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "DFdjt6ykwTY",
+              "label": "ONCE BEGINS, TWICE BEGINS",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "PvvBo6MGPLs",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         }
       ]
     },
