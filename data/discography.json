@@ -1350,6 +1350,42 @@
       ]
     },
     {
+      "id": "takedown",
+      "title": "Takedown",
+      "seq": "OST",
+      "type": "Single",
+      "released": "2025-06-20",
+      "cover": "assets/img/covers/takedown.jpg",
+      "note": "From the KPop Demon Hunters soundtrack. Also appears as a bonus track on This Is For.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Takedown",
+          "artist": "Jeongyeon, Jihyo, Chaeyoung",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "-IMRzPJEAyE",
+              "label": "Music Video",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "_sbIOngf-U4",
+              "label": "Live",
+              "official": true
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "this-is-for",
       "title": "This Is For",
       "seq": "4th Full Album",
