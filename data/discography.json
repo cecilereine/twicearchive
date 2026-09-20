@@ -727,11 +727,11 @@
       "id": "bdz-single",
       "title": "BDZ",
       "category": "japanese",
-      "seq": "4th Japanese Single",
+      "seq": "Digital Single",
       "type": "Single",
       "released": "2018-08-17",
       "cover": "assets/img/covers/bdz.jpg",
-      "note": "Cover art shared with the album BDZ (2018-09).",
+      "note": "Advance digital release from BDZ. Cover art shared with the album.",
       "links": {
         "spotify": "",
         "appleMusic": "",
@@ -853,6 +853,36 @@
       ]
     },
     {
+      "id": "stay-by-my-side",
+      "title": "Stay by My Side",
+      "category": "japanese",
+      "seq": "Digital Single",
+      "type": "Single",
+      "released": "2018-10-22",
+      "cover": "assets/img/covers/bdz-repackage.jpg",
+      "note": "Digital release from BDZ. Cover art shared with the album.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Stay by My Side",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "other",
+              "url": "96K5RxgTfW4",
+              "official": true,
+              "label": "Making Music Video"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "yes-or-yes",
       "title": "Yes or Yes",
       "category": "korean",
@@ -954,7 +984,7 @@
       "type": "Reissue",
       "released": "2018-12-26",
       "cover": "assets/img/covers/bdz-repackage.jpg",
-      "note": "Repackaged edition of BDZ.",
+      "note": "Repackaged edition of BDZ — new track only.",
       "links": {
         "spotify": "",
         "appleMusic": "",
@@ -963,9 +993,16 @@
       },
       "tracks": [
         {
-          "title": "BDZ",
-          "note": "Repackage edition",
-          "videos": []
+          "title": "Stay by My Side",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "other",
+              "url": "96K5RxgTfW4",
+              "official": true,
+              "label": "Making Music Video"
+            }
+          ]
         }
       ]
     },
@@ -1090,7 +1127,7 @@
       "id": "happy-happy",
       "title": "Happy Happy",
       "category": "japanese",
-      "seq": "5th Japanese Single",
+      "seq": "4th Japanese Single",
       "type": "Single",
       "released": "2019-07-17",
       "cover": "assets/img/covers/happy-happy.jpg",
@@ -1126,7 +1163,7 @@
       "id": "breakthrough",
       "title": "Breakthrough",
       "category": "japanese",
-      "seq": "6th Japanese Single",
+      "seq": "5th Japanese Single",
       "type": "Single",
       "released": "2019-07-24",
       "cover": "assets/img/covers/breakthrough.jpg",
@@ -1215,11 +1252,11 @@
       "id": "fake-and-true",
       "title": "Fake & True",
       "category": "japanese",
-      "seq": "7th Japanese Single",
+      "seq": "Digital Single",
       "type": "Single",
       "released": "2019-10-18",
       "cover": "assets/img/covers/and-twice.jpg",
-      "note": "Cover art shared with the album &Twice (2019-11).",
+      "note": "Advance digital release from &Twice. Cover art shared with the album.",
       "links": {
         "spotify": "",
         "appleMusic": "",
@@ -1401,7 +1438,7 @@
       "id": "fanfare",
       "title": "Fanfare",
       "category": "japanese",
-      "seq": "8th Japanese Single",
+      "seq": "6th Japanese Single",
       "type": "Single",
       "released": "2020-07-08",
       "cover": "assets/img/covers/fanfare.jpg",
@@ -1615,7 +1652,7 @@
       "id": "better",
       "title": "Better",
       "category": "japanese",
-      "seq": "9th Japanese Single",
+      "seq": "7th Japanese Single",
       "type": "Single",
       "released": "2020-11-18",
       "cover": "assets/img/covers/better.jpg",
@@ -1709,7 +1746,7 @@
       "id": "kura-kura",
       "title": "Kura Kura",
       "category": "japanese",
-      "seq": "10th Japanese Single",
+      "seq": "8th Japanese Single",
       "type": "Single",
       "released": "2021-05-12",
       "cover": "assets/img/covers/kura-kura.jpg",
@@ -1802,11 +1839,11 @@
       "id": "perfect-world-single",
       "title": "Perfect World",
       "category": "japanese",
-      "seq": "11th Japanese Single",
+      "seq": "Digital Single",
       "type": "Single",
       "released": "2021-06-29",
       "cover": "assets/img/covers/perfect-world.jpg",
-      "note": "Cover art shared with the album Perfect World (2021-07).",
+      "note": "Advance digital release from Perfect World. Cover art shared with the album.",
       "links": {
         "spotify": "",
         "appleMusic": "",
@@ -2095,7 +2132,7 @@
       "id": "doughnut",
       "title": "Doughnut",
       "category": "japanese",
-      "seq": "12th Japanese Single",
+      "seq": "9th Japanese Single",
       "type": "Single",
       "released": "2021-12-15",
       "cover": "assets/img/covers/doughnut.jpg",
@@ -2186,14 +2223,44 @@
       ]
     },
     {
+      "id": "just-be-yourself",
+      "title": "Just Be Yourself",
+      "category": "japanese",
+      "seq": "Digital Single",
+      "type": "Single",
+      "released": "2022-03-22",
+      "cover": "assets/img/covers/celebrate.jpg",
+      "note": "Digital release from Celebrate. Cover art shared with the album.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Just Be Yourself",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "7LBqr_sjsys",
+              "official": true,
+              "label": "Audio"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "celebrate-single",
       "title": "Celebrate",
       "category": "japanese",
-      "seq": "13th Japanese Single",
+      "seq": "Digital Single",
       "type": "Single",
       "released": "2022-07-15",
       "cover": "assets/img/covers/celebrate.jpg",
-      "note": "Cover art shared with the album Celebrate (2022-07).",
+      "note": "Advance digital release from Celebrate. Cover art shared with the album.",
       "links": {
         "spotify": "",
         "appleMusic": "",
@@ -2275,7 +2342,14 @@
         },
         {
           "title": "Just Be Yourself",
-          "videos": []
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "7LBqr_sjsys",
+              "official": true,
+              "label": "Audio"
+            }
+          ]
         },
         {
           "title": "Doughnut",
@@ -2392,6 +2466,43 @@
       ]
     },
     {
+      "id": "bouquet",
+      "title": "Bouquet",
+      "artist": "MISAMO",
+      "category": "solo",
+      "seq": "Digital Single",
+      "type": "Single",
+      "released": "2023-01-25",
+      "cover": "assets/img/covers/masterpiece.jpg",
+      "note": "MISAMO's debut release. Insert song for the drama Liaison. Cover art shared with Masterpiece.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Bouquet",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "other",
+              "url": "c64_lZErcOQ",
+              "official": true,
+              "label": "Making Music Video (short ver.)"
+            },
+            {
+              "kind": "audio",
+              "url": "lD-GY7WiTd4",
+              "official": true,
+              "label": "Audio"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "ready-to-be",
       "title": "Ready to Be",
       "category": "korean",
@@ -2468,7 +2579,7 @@
       "id": "hare-hare",
       "title": "Hare Hare",
       "category": "japanese",
-      "seq": "14th Japanese Single",
+      "seq": "10th Japanese Single",
       "type": "Single",
       "released": "2023-05-31",
       "cover": "assets/img/covers/hare-hare.jpg",
@@ -2501,37 +2612,6 @@
         {
           "title": "Catch a Wave",
           "videos": []
-        }
-      ]
-    },
-    {
-      "id": "haute-couture",
-      "title": "Haute Couture",
-      "artist": "MISAMO",
-      "category": "solo",
-      "seq": "1st Japanese Single",
-      "type": "Single",
-      "released": "2023-07-26",
-      "cover": "assets/img/covers/haute-couture.jpg",
-      "note": "",
-      "links": {
-        "spotify": "",
-        "appleMusic": "",
-        "youtubeMusic": "",
-        "melon": ""
-      },
-      "tracks": [
-        {
-          "title": "Bouquet",
-          "titleTrack": true,
-          "videos": [
-            {
-              "kind": "audio",
-              "url": "lD-GY7WiTd4",
-              "official": true,
-              "label": "Audio"
-            }
-          ]
         }
       ]
     },
@@ -2599,6 +2679,36 @@
               "url": "lD-GY7WiTd4",
               "official": true,
               "label": "Audio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dance-again",
+      "title": "Dance Again",
+      "category": "japanese",
+      "seq": "Digital Single",
+      "type": "Single",
+      "released": "2023-12-12",
+      "cover": "assets/img/covers/dive.jpg",
+      "note": "Digital release from Dive. Cover art shared with the album.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Dance Again",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "OzmnjIca8LU",
+              "official": true,
+              "label": "Special Video"
             }
           ]
         }
@@ -2708,6 +2818,36 @@
       ]
     },
     {
+      "id": "dive-single",
+      "title": "Dive",
+      "category": "japanese",
+      "seq": "Digital Single",
+      "type": "Single",
+      "released": "2024-07-10",
+      "cover": "assets/img/covers/dive.jpg",
+      "note": "Digital release from Dive. Cover art shared with the album.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Dive",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "QGCkDOkpWf8",
+              "official": true,
+              "label": "Music Video"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "dive",
       "title": "Dive",
       "category": "japanese",
@@ -2771,7 +2911,14 @@
         },
         {
           "title": "Dance Again",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "OzmnjIca8LU",
+              "official": true,
+              "label": "Special Video"
+            }
+          ]
         },
         {
           "title": "Hare Hare",
@@ -2808,6 +2955,88 @@
           "title": "Mamushi (Remix)",
           "artist": "Megan Thee Stallion feat. Twice",
           "videos": []
+        }
+      ]
+    },
+    {
+      "id": "haute-couture",
+      "title": "Haute Couture",
+      "artist": "MISAMO",
+      "category": "solo",
+      "seq": "2nd Mini Album",
+      "type": "EP",
+      "released": "2024-11-06",
+      "cover": "assets/img/covers/haute-couture.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Identity",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "-J_w9K6DgRo",
+              "official": true,
+              "label": "M/V"
+            }
+          ]
+        },
+        {
+          "title": "Runway",
+          "videos": [
+            {
+              "kind": "live",
+              "url": "c3tiv65f8fQ",
+              "official": true,
+              "label": "@ Tokyo Dome"
+            }
+          ]
+        },
+        {
+          "title": "Wah Wah Wah",
+          "videos": []
+        },
+        {
+          "title": "Baby, I'm Good",
+          "videos": []
+        },
+        {
+          "title": "Daydream",
+          "videos": []
+        },
+        {
+          "title": "New Look",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "FJWLj1-kGC0",
+              "official": true,
+              "label": "Music Video"
+            },
+            {
+              "kind": "other",
+              "url": "l1J0uBVWQsM",
+              "official": true,
+              "label": "MV Story Teaser"
+            }
+          ]
+        },
+        {
+          "title": "Jealousy",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "ISocMAtkK1g",
+              "official": true,
+              "label": "Audio"
+            }
+          ]
         }
       ]
     },
@@ -2872,6 +3101,36 @@
       ]
     },
     {
+      "id": "the-wish",
+      "title": "The Wish",
+      "category": "japanese",
+      "seq": "Digital Single",
+      "type": "Single",
+      "released": "2024-12-15",
+      "cover": "assets/img/covers/enemy.jpg",
+      "note": "Digital release from Enemy. Cover art shared with the album.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "The Wish",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "other",
+              "url": "GrWWM5KGf4c",
+              "official": true,
+              "label": "Making Movie"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "we-pray",
       "title": "We Pray",
       "artist": "Coldplay feat. Twice",
@@ -2893,6 +3152,37 @@
           "artist": "Coldplay feat. Twice",
           "note": "Twice version",
           "videos": []
+        }
+      ]
+    },
+    {
+      "id": "message",
+      "title": "Message",
+      "artist": "MISAMO",
+      "category": "solo",
+      "seq": "Digital Single",
+      "type": "Single",
+      "released": "2025-04-28",
+      "cover": "assets/img/covers/play.jpg",
+      "note": "Theme song for the film Kakukaku Shikajika. Cover art shared with Play.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Message",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "other",
+              "url": "4_12UdOTub0",
+              "official": true,
+              "label": "x Kakukaku Shikajika Special Movie"
+            }
+          ]
         }
       ]
     },
@@ -3102,6 +3392,42 @@
       ]
     },
     {
+      "id": "enemy-single",
+      "title": "Enemy",
+      "category": "japanese",
+      "seq": "Digital Single",
+      "type": "Single",
+      "released": "2025-07-30",
+      "cover": "assets/img/covers/enemy.jpg",
+      "note": "Digital release from Enemy. Cover art shared with the album.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Enemy",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "xWldBK4d2Ps",
+              "official": true,
+              "label": "Music Video"
+            },
+            {
+              "kind": "mv",
+              "url": "tW1YLmIJ-YY",
+              "official": true,
+              "label": "MV Director's Cut"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "superstars",
       "title": "Superstars",
       "artist": "Saweetie feat. Twice",
@@ -3122,6 +3448,42 @@
           "title": "Superstars",
           "artist": "with Saweetie",
           "videos": []
+        }
+      ]
+    },
+    {
+      "id": "like-1",
+      "title": "Like 1",
+      "category": "japanese",
+      "seq": "Digital Single",
+      "type": "Single",
+      "released": "2025-08-20",
+      "cover": "assets/img/covers/enemy.jpg",
+      "note": "Digital release from Enemy. Cover art shared with the album.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Like 1",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "other",
+              "url": "Xtfxxo4QgJA",
+              "official": true,
+              "label": "Animation Movie"
+            },
+            {
+              "kind": "other",
+              "url": "M0FUPbM9ktI",
+              "official": true,
+              "label": "Cheering Guide"
+            }
+          ]
         }
       ]
     },
