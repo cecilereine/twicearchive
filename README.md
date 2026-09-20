@@ -181,9 +181,11 @@ Set `data-accent` on `<html>` to re-tint the page — `discography` (pink),
   drops member solos and sub-unit tracks.
 - Video and audio links are checked **by YouTube channel**, not by title. Fan
   reuploads routinely outrank the real thing and title themselves "Official MV".
-  The trusted channels are `JYP Entertainment`, `TWICE`, `TWICE - Topic` (the
-  label's Art Tracks) and, for the KPop Demon Hunters material, Netflix's own
-  channels. To re-check every link in the data at once, open youtube.com and run
+  The trusted channels are `JYP Entertainment`, `TWICE`, `TWICE JAPAN OFFICIAL`,
+  `TWICE - Topic` / `MISAMO - Topic` (the label's Art Tracks), Netflix's own
+  channels for the KPop Demon Hunters material, and broadcaster channels such as
+  `Mnet K-POP` for music-show stages — those are official uploads by the
+  rights-holding network, just not by JYP. To re-check every link in the data at once, open youtube.com and run
   each id through `/oembed?format=json&url=...`, which returns `author_name`.
   That check has already caught two bad links that looked official.
 - Some songs never got a music video. Cry for Me, for instance, has official

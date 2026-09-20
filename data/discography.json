@@ -44,10 +44,10 @@
       "released": "2015-10-20",
       "cover": "assets/img/covers/the-story-begins.jpg",
       "links": {
-        "spotify": "",
-        "appleMusic": "",
-        "youtubeMusic": "",
-        "melon": ""
+        "spotify": "https://open.spotify.com/album/72WWZVAx6GtSbEeGESwDLo",
+        "appleMusic": "https://music.apple.com/ph/album/the-story-begins-ep/1555401291",
+        "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lVpxRMLt1PqitvxaGIu1x7Zm_qSExBEG0",
+        "melon": "https://www.melon.com/album/detail.htm?albumId=2645617"
       },
       "tracks": [
         {
@@ -65,18 +65,56 @@
               "url": "CtE2MauDkrs",
               "label": "M/V Dance Ver.",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "vYkGpOeqp4g",
+              "label": "Debut Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "904UMBcnaC4",
+              "label": "Live Stage @ 2025 FANMEETING [10VE UNIVERSE]",
+              "official": true
             }
           ]
         },
         {
           "title": "Do It Again",
           "titleKo": "다시 해줘",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "lACXsSeWhe8",
+              "label": "Debut Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "7vDSQJpod7Y",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Going Crazy",
           "titleKo": "미쳤나봐",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "sjGgjFDbcvY",
+              "label": "TWICELAND Opening Encore",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "8HUzP-iTCQQ",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Truth",
