@@ -1,0 +1,96 @@
+{
+  "_README": [
+    "Template for the Japanese discography. Copy this to data/discography-jp.json,",
+    "delete the _README and _FIELDS keys, and fill in the albums array.",
+    "Anything you leave out is fine — the page degrades gracefully.",
+    "Validate before committing:  python3 -m json.tool data/discography-jp.json"
+  ],
+
+  "_FIELDS": {
+    "release.id":       "REQUIRED. kebab-case, unique, used in the #deep-link. e.g. bdz",
+    "release.title":    "REQUIRED. As it should display.",
+    "release.artist":   "OPTIONAL. Only for collaborations — the other act. Shown on the card.",
+    "release.seq":      "Free text under the type badge. e.g. '1st Japanese Album', 'Single'.",
+    "release.type":     "REQUIRED. One of: EP | Full Album | Single | Reissue",
+    "release.released": "REQUIRED. YYYY-MM-DD preferred. YYYY-MM or YYYY also work and",
+    "release.released2":"   display as 'Jul 2018' / '2018'. Partial dates sort last in their year.",
+    "release.cover":    "Path to square art, e.g. assets/img/covers/bdz.jpg. Leave \"\" for a placeholder.",
+    "release.note":     "OPTIONAL. One line shown under the title in the panel.",
+    "release.links":    "Streaming URLs. Leave \"\" for any you don't have — it renders greyed out.",
+    "track.title":      "REQUIRED.",
+    "track.titleKo":    "OPTIONAL. Original-script title — use it for the Japanese title.",
+    "track.artist":     "OPTIONAL. Solo / sub-unit / featured credit. Searchable.",
+    "track.titleTrack": "OPTIONAL. true adds the TITLE flag.",
+    "track.note":       "OPTIONAL. Small aside, e.g. 'Japanese ver.'",
+    "video.kind":       "REQUIRED. One of: mv | lyric | performance | dance | live | audio | other",
+    "video.url":        "REQUIRED. Full YouTube URL, youtu.be, /shorts/, or the bare 11-char id.",
+    "video.url2":       "   Non-YouTube links work too — they become link-out cards.",
+    "video.official":   "true = green Official, false = amber Fan. Omitted means official.",
+    "video.label":      "OPTIONAL. Overrides the caption, e.g. 'Dance Practice Video'."
+  },
+
+  "section": "Japanese Discography",
+  "note": "Japanese releases.",
+  "updated": "2026-09-21",
+
+  "services": [
+    { "key": "spotify",      "label": "Spotify" },
+    { "key": "appleMusic",   "label": "Apple Music" },
+    { "key": "youtubeMusic", "label": "YouTube Music" },
+    { "key": "melon",        "label": "Melon" }
+  ],
+
+  "albums": [
+    {
+      "id": "bdz",
+      "title": "BDZ",
+      "seq": "1st Japanese Album",
+      "type": "Full Album",
+      "released": "2018-09-12",
+      "cover": "assets/img/covers/bdz.jpg",
+      "note": "",
+      "links": {
+        "spotify": "",
+        "appleMusic": "",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "BDZ",
+          "titleTrack": true,
+          "videos": [
+            { "kind": "mv", "url": "PASTE_YOUTUBE_URL_HERE", "official": true },
+            { "kind": "dance", "url": "", "label": "Dance Practice Video", "official": true }
+          ]
+        },
+        { "title": "Candy Pop", "titleTrack": true, "videos": [] },
+        { "title": "Wake Me Up", "titleTrack": true, "videos": [] },
+        { "title": "One More Time", "titleTrack": true, "videos": [] },
+        { "title": "Brand New Girl", "videos": [] },
+        { "title": "I Want You Back", "note": "Cover", "videos": [] },
+        { "title": "Say It Again", "videos": [] },
+        { "title": "L.O.V.E.", "videos": [] },
+        { "title": "Stay by My Side", "videos": [] },
+        { "title": "Be as One", "videos": [] },
+        { "title": "Wishing", "videos": [] }
+      ]
+    },
+
+    {
+      "id": "REPLACE-ME",
+      "title": "",
+      "seq": "",
+      "type": "Single",
+      "released": "",
+      "cover": "",
+      "note": "",
+      "links": { "spotify": "", "appleMusic": "", "youtubeMusic": "", "melon": "" },
+      "tracks": [
+        { "title": "", "titleTrack": true, "videos": [
+          { "kind": "mv", "url": "", "official": true }
+        ] }
+      ]
+    }
+  ]
+}
