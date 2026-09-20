@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" data-accent="discography">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Korean Discography · TWICE Content Archive</title>
+<meta name="description" content="Every TWICE Korean release with its music videos, lyric videos and performance videos.">
+<link rel="stylesheet" href="assets/css/style.css?v=3">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="site-head">
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="discography.html" class="on">Korean Discography</a>
+    </nav>
+    <h1>Korean Discography</h1>
+    <p>Pick a release to see its tracks, streaming links and every video filed against each song.</p>
+  </header>
+
+  <div class="toolbar">
+    <div class="row">
+      <input type="text" class="search" id="search"
+             placeholder="🔍  Search a release or a song — “Feel Special”, “거북이”, “Cry for Me”…">
+      <button type="button" class="chip" id="unwatched">Only unwatched</button>
+      <button type="button" class="chip" id="needsLinks">Needs links</button>
+      <span class="progress-pill" id="progress"></span>
+    </div>
+    <div class="row" id="eras"><!-- year chips, built by discography.js --></div>
+  </div>
+
+  <div id="grid"></div>
+
+  <footer class="site-foot">
+    Release and track data from Wikipedia. “Watched” marks are stored in this browser only —
+    they never leave your device, and clearing site data resets them.
+  </footer>
+
+</div>
+
+<!-- Album detail. Filled by discography.js when a cover is clicked. -->
+<div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-label="Release details">
+  <div class="panel" id="panelBody"></div>
+</div>
+
+<script src="assets/js/core.js?v=3"></script>
+<script src="assets/js/discography.js?v=3"></script>
+</body>
+</html>
