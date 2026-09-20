@@ -6,7 +6,12 @@
    every video filed against each song.
 --------------------------------------------------------------------------- */
 
-const DATA_URL = 'data/discography.json';
+/* The data file has to cache-bust along with the scripts. GitHub Pages caches
+   for ten minutes, so editing the JSON without this can leave a browser showing
+   yesterday's tracklist against today's code. Reusing the ?v= already on this
+   script tag means one bump in the HTML covers CSS, JS and data together. */
+const ASSET_V  = (document.currentScript?.src.match(/[?&]v=([^&]+)/) || ['', ''])[1];
+const DATA_URL = 'data/discography.json' + (ASSET_V ? '?v=' + ASSET_V : '');
 
 const el = id => document.getElementById(id);
 
