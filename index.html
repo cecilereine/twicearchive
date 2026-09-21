@@ -20,6 +20,7 @@
     <nav class="site-nav">
       <a href="index.html" class="on">Home</a>
       <a href="discography.html">Discography</a>
+      <a href="covers.html">Melody Project</a>
       <a href="donate.html">Donate</a>
       <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch theme">🌙</button>
     </nav>
@@ -33,7 +34,15 @@
       <h2>Discography</h2>
       <p>Every release, with M/Vs, lyric videos, audio and performances filed per track.</p>
       <span class="tag">103 releases · KR · JP · Solo · OST</span>
-      <span class="hub-progress" id="discoProgress" hidden></span>
+      <span class="hub-progress" data-key="twice-archive:discography-progress" data-noun="releases" hidden></span>
+    </a>
+
+    <a class="hub-card" href="covers.html">
+      <span class="emoji">🎶</span>
+      <h2>Melody Project &amp; Covers</h2>
+      <p>Members covering other artists' songs — the Melody Project videos, and every other cover, by year.</p>
+      <span class="tag">Melody Project · Covers</span>
+      <span class="hub-progress" data-key="twice-archive:covers-progress" data-noun="covers" hidden></span>
     </a>
 
     <!-- Copy discography.html + its data file to add one of these. -->
@@ -71,12 +80,11 @@
    totals in localStorage each time it counts them, so the hub can show them
    without loading the whole data file. Nothing stored yet — never visited, or
    storage off — and the line simply stays hidden. */
-(function () {
-  var host = document.getElementById('discoProgress');
+document.querySelectorAll('.hub-progress[data-key]').forEach(function (host) {
   var p;
-  try { p = JSON.parse(localStorage.getItem('twice-archive:discography-progress') || 'null'); }
+  try { p = JSON.parse(localStorage.getItem(host.dataset.key) || 'null'); }
   catch (e) { p = null; }
-  if (!host || !p || !p.total) return;
+  if (!p || !p.total || p.entries == null) return;
   var done = p.seen >= p.total;
   host.classList.toggle('done', done);
   host.innerHTML =
@@ -84,9 +92,9 @@
     (done
       ? '✓ All ' + p.total + ' videos watched'
       : '<b>' + p.seen + '</b> / ' + p.total + ' videos watched · ' +
-        p.done + ' of ' + p.releases + ' releases done');
+        p.done + ' of ' + p.entries + ' ' + host.dataset.noun + ' done');
   host.hidden = false;
-})();
+});
 </script>
 </body>
 </html>

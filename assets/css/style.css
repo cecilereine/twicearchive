@@ -42,6 +42,7 @@
 :root[data-accent="discography"] { --accent: var(--candy);  --accent-2: var(--peach); }
 :root[data-accent="shows"]       { --accent: var(--grape);  --accent-2: var(--candy); }
 :root[data-accent="live"]        { --accent: var(--mint);   --accent-2: var(--grape); }
+:root[data-accent="covers"]      { --accent: var(--grape);  --accent-2: var(--mint); }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -307,11 +308,12 @@ a { color: inherit; }
 .type-badge[data-type="Single"]     { background:#e0902f; border-color:transparent; color:#fff; }
 .type-badge[data-type="Reissue"]    { background:#4ec9b0; border-color:transparent; color:#123; }
 .type-badge[data-type="Compilation"] { background:#e2b93b; border-color:transparent; color:#2a1b22; }
+.type-badge[data-type="Remix Album"] { background:#8b6fd1; border-color:transparent; color:#fff; }
 
 /* A member writing credit. On its own line under the title rather than lost
    among the pills on the title row. */
 .written-row { margin: 6px 0 0 28px; display: flex; flex-wrap: wrap; gap: 6px; }
-.written {
+.written, .member {
   display: inline-block;
   font-size: 11.5px; font-weight: 700; letter-spacing: .01em;
   padding: 3px 10px; border-radius: 999px;
@@ -321,9 +323,10 @@ a { color: inherit; }
   /* fallback until the inline member colours apply */
   color: #fff; background: linear-gradient(120deg, var(--grape), var(--accent));
 }
-:root[data-theme="dark"] .written { border-color: rgba(255,255,255,.18); }
+:root[data-theme="dark"] .written, :root[data-theme="dark"] .member { border-color: rgba(255,255,255,.18); }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .written { border-color: rgba(255,255,255,.18); }
+  :root:not([data-theme="light"]) .written,
+  :root:not([data-theme="light"]) .member { border-color: rgba(255,255,255,.18); }
 }
 @media (max-width: 560px) { .written-row { margin-left: 0; } }
 
@@ -523,6 +526,43 @@ a { color: inherit; }
 
 .empty-state {
   text-align: center; padding: 60px 20px; color: var(--text-faint); font-size: 14px;
+}
+
+/* ---------- covers page ---------- */
+
+/* Every video is a card, laid out like the album grid; the song, original
+   artist, members and series sit on the card above the usual video tags. */
+.cover-grid {
+  display: grid; gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+.cover-card .vmeta { gap: 5px; padding-bottom: 11px; }
+.cover-card .song { margin: 0; font-size: 14.5px; line-height: 1.3; }
+.cover-card .song .track-ko { font-weight: 500; }
+.cover-card .orig { font-size: 12px; color: var(--text-soft); }
+.cover-card .vlabel { font-size: 12px; color: var(--text-soft); }
+.cover-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; margin: 2px 0; }
+.cover-meta .date { font-size: 11.5px; color: var(--text-faint); }
+.cover-card .member { font-size: 10.5px; padding: 2px 8px; }
+.cover-note { margin: 0; font-size: 12px; color: var(--text-soft); line-height: 1.4; }
+.cover-card .no-video { margin-top: 4px; }
+.series-badge {
+  font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em;
+  padding: 2.5px 7px; border-radius: 999px;
+  color: var(--text-soft); background: var(--surface-2); border: 1px solid var(--line);
+}
+.series-badge[data-series="melody-project"] { color: #fff; background: var(--accent); border-color: transparent; }
+.series-badge[data-series="performance-project"] { color: #123; background: var(--accent-2); border-color: transparent; }
+/* A member chip in the filter row carries a dot in that member's colour. */
+.chip .dot {
+  display: inline-block; width: 8px; height: 8px; border-radius: 999px;
+  margin-right: 6px; border: 1px solid rgba(0,0,0,.14);
+}
+@media (max-width: 560px) {
+  .cover-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 400px) {
+  .cover-grid { grid-template-columns: 1fr; }
 }
 
 /* ---------- donate page ---------- */

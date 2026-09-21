@@ -8,13 +8,19 @@ no API keys. Drop it on GitHub Pages and it runs.
 
 ```
 index.html            hub — one card per section
-discography.html      discography (Korean releases for now)
+discography.html      discography: Korean, Japanese, solo and OST releases
+covers.html           Melody Project & Covers
+donate.html
 data/
   discography.json    all the release/track/video data
+  covers.json         one entry per cover, with its videos
 assets/css/style.css  shared styles (light + dark)
-assets/js/core.js     YouTube links, video cards, watched state
+assets/js/core.js     YouTube links, video cards, watched state, shared helpers
 assets/js/discography.js
-assets/img/covers/    album art goes here (optional)
+assets/js/covers.js
+assets/js/theme.js    light / dark toggle
+assets/img/covers/    album art
+tools/                add-links.py, add-covers.py, sync-videos.py, streaming-link finders
 ```
 
 ## Running it locally
@@ -80,7 +86,8 @@ track title and is searchable, so typing "Tzuyu" or "Megan" finds those tracks.
 ## Release fields
 
 `type` drives the coloured label under the title on each card. Use one of
-**EP**, **Full Album**, **Single**, **Reissue** or **Compilation** (the #TWICE best albums). `seq` is the free-text line
+**EP**, **Full Album**, **Single**, **Reissue**, **Compilation** (the #TWICE best albums,
+What's Twice?) or **Remix Album** (The Remixes). `seq` is the free-text line
 underneath it ("1st Mini Album", "Repackage"). Reissues list only their *new*
 tracks, with a `note` saying what they're a reissue of.
 
@@ -200,11 +207,58 @@ group's Hospital Playlist single sit together; an OST track on a regular album
 To add releases, copy a block from `data/release-template.json`, which documents
 every field and has worked examples for a Japanese album and a solo release.
 
+## Melody Project & Covers
+
+`covers.html` lists members' covers of other artists' songs by year, from
+`data/covers.json`. One entry per cover — the song, who originally sang it, the
+members, the series (Melody Project, Performance Project or an ordinary cover),
+the date — and its videos: the cover itself, a behind-the-scenes, a live clip.
+On the page every video is a card in a grid, carrying its cover's details, so a
+cover with a behind-the-scenes takes two cards side by side.
+
+```json
+{ "id": "snowman-mina", "song": "Snowman", "originalArtist": "Sia",
+  "members": "Mina", "series": "melody-project", "released": "2021-12-19",
+  "note": "", "videos": [ { "kind": "mv", "url": "cAvMGWLZCHA", "label": "Cover", "official": true } ] }
+```
+
+`members` is a comma-separated list ("Dahyun, Chaeyoung") and drives the coloured
+member chips and the member filter. `series` is one of the keys in the file's
+`series` list. Videos use the same fields as the discography.
+
+Paste links and let `tools/add-covers.py` fill the entry in from the video's own
+title, channel and publish date:
+
+```bash
+python3 tools/add-covers.py < links.txt        # add --dry-run to preview
+```
+
+It reads the song and original artist out of the quoted part of the title
+("Snowman (Sia)"), the members out of the rest ("Cover by DAHYUN and CHAEYOUNG"),
+treats "Melody Project" in the title as that series, and files "Behind" videos as
+behind-the-scenes and "Live" ones as live clips. Teasers are left out. Links to
+the same song by the same members join one entry. When a title doesn't carry the
+song — the 2016 videos are just "TWICE(트와이스) MINA MELODY PROJECT" — put a
+heading above the link and it wins:
+
+```
+Good Person (Toy) — Mina
+https://www.youtube.com/watch?v=IG-ykt57E-U
+```
+
+Watched marks, the progress pill and the reset button work the same as on the
+discography, and the hub card shows the same totals.
+
 ## Adding a new section
 
-Copy `discography.html` and its data file, point `DATA_URL` in a new JS file at the
-new JSON, and add a card to `index.html`. `assets/js/core.js` already gives you the
-video cards and watched marks.
+Copy `covers.html` (the simpler page) or `discography.html` and its data file,
+point `DATA_URL` in a new JS file at the new JSON, and add a card to `index.html`.
+`assets/js/core.js` already gives you the video cards, watched marks, the reset
+button (`resetButton`), dates (`prettyDate`), member-coloured chips (`memberStyle`)
+and the video ordering (`orderVideos`). To show progress on the hub card, save
+`{ seen, total, done, entries }` under a `twice-archive:<section>-progress` key
+whenever you count it, and give the card a `.hub-progress` span with
+`data-key` and `data-noun`.
 
 New pages need three things for the light/dark toggle: the one-line theme script right after the
 stylesheet in `<head>`, the `#themeToggle` button at the end of `.site-nav`, and
@@ -212,7 +266,7 @@ stylesheet in `<head>`, the `#themeToggle` button at the end of `.site-nav`, and
 site follows their device's setting.
 
 Set `data-accent` on `<html>` to re-tint the page — `discography` (pink),
-`shows` (purple) or `live` (mint).
+`covers` (purple), `shows` (purple) or `live` (mint).
 
 ## Notes
 

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" data-accent="covers">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Melody Project &amp; Covers · TWICE Content Archive</title>
+<meta name="description" content="TWICE members' Melody Project videos and every other cover, filed by year.">
+<link rel="icon" href="assets/img/favicon.svg?v=67">
+<link rel="stylesheet" href="assets/css/style.css?v=67">
+<script>try{var t=localStorage.getItem('twice-archive:theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="site-head">
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="discography.html">Discography</a>
+      <a href="covers.html" class="on">Melody Project</a>
+      <a href="donate.html">Donate</a>
+      <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch theme">🌙</button>
+    </nav>
+    <h1>Melody Project &amp; Covers</h1>
+    <p>Members covering other artists' songs — the Melody Project videos, and every other cover, by year.</p>
+  </header>
+
+  <div class="toolbar">
+    <div class="row">
+      <input type="text" class="search" id="search"
+             placeholder="🔍  Search a song, an artist or a member — “Snowman”, “Sia”, “Mina”…">
+      <span class="progress-pill" id="progress"></span>
+    </div>
+    <div class="row" id="series"><!-- Melody Project / Other Covers chips, built by covers.js --></div>
+    <div class="row" id="members"><!-- member chips, built by covers.js --></div>
+    <div class="row" id="years"><!-- year chips, built by covers.js --></div>
+  </div>
+
+  <div id="list"></div>
+
+  <div class="reset-row">
+    <button type="button" class="chip danger" id="resetProgress">Reset watched progress</button>
+  </div>
+
+  <footer class="site-foot">
+    “Watched” marks are stored in this browser only — they never leave your device, and
+    clearing site data resets them.
+  </footer>
+
+</div>
+
+<script src="assets/js/core.js?v=67"></script>
+<script src="assets/js/covers.js?v=67"></script>
+<script src="assets/js/theme.js?v=67"></script>
+</body>
+</html>

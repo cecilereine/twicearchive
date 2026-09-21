@@ -1,10 +1,11 @@
 /* ---------------------------------------------------------------------------
    TWICE Content Archive — shared helpers.
 
-   Three things live here because every section page needs them:
+   Four things live here because every section page needs them:
      1. YouTube link handling  — turn whatever you pasted into a video id.
-     2. Video cards            — a thumbnail that becomes a player when clicked.
-     3. Watched state          — remembered in this browser via localStorage.
+     2. Watched state          — remembered in this browser via localStorage.
+     3. Small shared helpers   — dates, member colours, video order.
+     4. Video cards            — a thumbnail that opens the video in a new tab.
 --------------------------------------------------------------------------- */
 
 /* ---------- 1. YouTube links ---------------------------------------------
@@ -140,13 +141,88 @@ function setWatchedAll(list, on) {
   saveWatched(watched);
 }
 
-/* Forget every mark in this browser — the "Reset watched progress" button. */
-function clearWatched() {
-  watched.clear();
-  saveWatched(watched);
+/* "Reset watched progress" for one section. Wiping every mark shouldn't
+   happen on one stray click, and a browser confirm box would be jarring, so
+   the button arms on the first click and clears on the second; left alone it
+   disarms itself. listVideos gives the section's videos (only those are
+   cleared), onCleared redraws the page. Returns a painter to call whenever
+   the watched count changes. */
+function resetButton(btn, listVideos, onCleared) {
+  let timer = null;
+  const paint = () => {
+    const seen = listVideos().filter(isWatched).length;
+    clearTimeout(timer);
+    btn.classList.remove('armed');
+    btn.disabled = !seen;
+    btn.textContent = seen ? `Reset watched progress · ${seen}` : 'Nothing watched yet';
+  };
+  btn.addEventListener('click', () => {
+    if (!btn.classList.contains('armed')) {
+      const seen = listVideos().filter(isWatched).length;
+      btn.classList.add('armed');
+      btn.textContent = `Clear ${seen} watched mark${seen === 1 ? '' : 's'}? Click again`;
+      timer = setTimeout(paint, 4000);
+      return;
+    }
+    setWatchedAll(listVideos(), false);
+    onCleared();
+  });
+  return paint;
 }
 
-/* ---------- 3. Video cards ------------------------------------------------
+/* ---------- 3. Small shared helpers --------------------------------------- */
+
+/* Dates may be partial. "2025-07-11" reads "Jul 11, 2025", "2025-07" reads
+   "Jul 2025", and a bare "2025" stays "2025" rather than inventing a January 1st. */
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+function prettyDate(iso) {
+  const [y, m, d] = String(iso || '').split('-');
+  if (!y) return '';
+  if (!m) return y;
+  const month = MONTHS[parseInt(m, 10) - 1] || '';
+  if (!d) return `${month} ${y}`;
+  return `${month} ${parseInt(d, 10)}, ${y}`;
+}
+
+/* Dark text on a pale chip, light text on a deep one, so a chip stays
+   readable whatever colour it's given. */
+function readableOn(hex) {
+  const m = /^#?([\da-f]{2})([\da-f]{2})([\da-f]{2})$/i.exec(hex || '');
+  if (!m) return '#fff';
+  const [r, g, b] = m.slice(1).map(h => parseInt(h, 16) / 255)
+    .map(c => (c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4));
+  return (0.2126 * r + 0.7152 * g + 0.0722 * b) > 0.45 ? '#2a1b22' : '#fff';
+}
+
+/* Inline style for a chip in a member's colour. "Dahyun, Chaeyoung" blends
+   into a gradient across both; a name that matches nobody ("all members")
+   falls back to the group colours. The colours come from the data file, so
+   changing one is an edit there rather than here. */
+function memberStyle(names, colors, groupColors) {
+  const cols = String(names || '').split(',').map(n => (colors || {})[n.trim()]).filter(Boolean);
+  if (!cols.length) {
+    const g = groupColors;
+    return g && g.length > 1
+      ? `background:linear-gradient(110deg, ${g.join(', ')});color:${readableOn(g[0])};` : '';
+  }
+  const bg = cols.length === 1 ? cols[0] : `linear-gradient(110deg, ${cols.join(', ')})`;
+  return `background:${bg};color:${readableOn(cols[0])};`;
+}
+
+/* A pinned video leads, then every official upload ahead of every fan one, and
+   within each of those the kinds in VIDEO_ORDER, so lyric videos read as a
+   footnote. Sorting here rather than only in the data means a hand-edited
+   entry can't show up out of place. */
+const VIDEO_ORDER = { mv: 0, special: 1, dance: 2, 'dance-performance': 2.5, performance: 3,
+                      live: 4, other: 5, lyric: 6 };
+const orderVideos = list =>
+  [...(list || [])].sort((a, b) =>
+    (a.pin ? 0 : 1) - (b.pin ? 0 : 1) ||
+    (a.official === false ? 1 : 0) - (b.official === false ? 1 : 0) ||
+    (VIDEO_ORDER[a.kind] ?? 4) - (VIDEO_ORDER[b.kind] ?? 4));
+
+/* ---------- 4. Video cards ------------------------------------------------
 
    The thumbnail is a link that opens the video on its own site in a new tab,
    start time included, so the archive stays open where you left it. Nothing
@@ -168,10 +244,15 @@ const KIND_LABEL = {
 const escapeHtml = s => String(s ?? '').replace(/[&<>"']/g,
   c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
 
-function videoCard(v) {
+/* opts.head is HTML placed at the top of the card's text — the covers page
+   puts the song and member there. opts.caption replaces the label line, and
+   null hides it. opts.badge false drops the kind badge (M/V, Live…) — on a page
+   where every card is a cover it says nothing. opts.id names the card so a
+   #hash can scroll to it. */
+function videoCard(v, opts = {}) {
   const kind   = KIND_LABEL[v.kind] ? v.kind : 'other';
   const id     = youtubeId(v.url);
-  const label  = v.label || KIND_LABEL[kind];
+  const label  = opts.caption === undefined ? (v.label || KIND_LABEL[kind]) : opts.caption;
   const seen   = isWatched(v);
   const key    = escapeHtml(videoKey(v));
 
@@ -205,17 +286,19 @@ function videoCard(v) {
   const thumbTag =
     `<a class="vthumb" href="${escapeHtml(watchUrl(v))}"
         target="_blank" rel="noopener"
-        aria-label="Open ${escapeHtml(label)} ${id ? 'on YouTube' : 'in a new tab'}">
+        aria-label="Open ${escapeHtml(label || KIND_LABEL[kind])} ${id ? 'on YouTube' : 'in a new tab'}">
        ${thumbInner}<span class="play">${id ? '▶' : '↗'}</span>${durTag}
      </a>`;
 
   return `
-    <article class="vcard${seen ? ' watched' : ''}" data-key="${key}">
+    <article class="vcard${seen ? ' watched' : ''}${opts.className ? ' ' + opts.className : ''}"
+             data-key="${key}"${opts.id ? ` id="${escapeHtml(opts.id)}"` : ''}>
       ${thumbTag}
       <div class="vmeta">
-        <span class="vlabel">${escapeHtml(label)}</span>
+        ${opts.head || ''}
+        ${label ? `<span class="vlabel">${escapeHtml(label)}</span>` : ''}
         <div class="vtags">
-          <span class="badge" data-kind="${kind}">${escapeHtml(KIND_LABEL[kind])}</span>
+          ${opts.badge === false ? '' : `<span class="badge" data-kind="${kind}">${escapeHtml(KIND_LABEL[kind])}</span>`}
           ${official}${fancam}
           <a class="ext" href="${escapeHtml(watchUrl(v))}"
              target="_blank" rel="noopener" title="Open in a new tab">↗</a>

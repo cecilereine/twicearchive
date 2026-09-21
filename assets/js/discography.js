@@ -14,6 +14,7 @@ const ASSET_V  = (document.currentScript?.src.match(/[?&]v=([^&]+)/) || ['', '']
 const DATA_URL = 'data/discography.json' + (ASSET_V ? '?v=' + ASSET_V : '');
 
 const el = id => document.getElementById(id);
+let paintReset = () => {};          /* set once the reset button is wired */
 
 const state = {
   data: null,
@@ -25,34 +26,9 @@ const state = {
 
 /* ---------- small helpers ---------- */
 
-/* A pinned video leads, then every official upload ahead of every fan one, and
-   within each of those the kinds in VIDEO_ORDER, so lyric videos read as a
-   footnote to a track. Sorting here rather than only in the data means a
-   hand-edited entry can't show up out of place. */
-const VIDEO_ORDER = { mv: 0, special: 1, dance: 2, 'dance-performance': 2.5, performance: 3,
-                      live: 4, other: 5, lyric: 6 };
-const orderVideos = list =>
-  [...(list || [])].sort((a, b) =>
-    (a.pin ? 0 : 1) - (b.pin ? 0 : 1) ||
-    (a.official === false ? 1 : 0) - (b.official === false ? 1 : 0) ||
-    (VIDEO_ORDER[a.kind] ?? 4) - (VIDEO_ORDER[b.kind] ?? 4));
-
 const allVideos = album => album.tracks.flatMap(t => t.videos || []);
 
 const albumYear = album => (album.released || '').slice(0, 4);
-
-/* Dates may be partial. Some collaboration singles are only documented to the
-   year, so "2025" renders as "2025" rather than inventing a January 1st. */
-const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-
-const prettyDate = iso => {
-  const [y, m, d] = String(iso || '').split('-');
-  if (!y) return '';
-  if (!m) return y;
-  const month = MONTHS[parseInt(m, 10) - 1] || '';
-  if (!d) return `${month} ${y}`;
-  return `${month} ${parseInt(d, 10)}, ${y}`;
-};
 
 /* Two-letter stand-in drawn on the cover tile until real art is dropped into
    assets/img/covers/ and named in the data file. */
@@ -67,22 +43,8 @@ function coverHtml(album, extra = '') {
   return `<div class="cover">${inner}${extra}</div>`;
 }
 
-/* A writing credit is tinted with the member's colour; two or more members
-   blend into a gradient across their colours. Colours live in memberColors in
-   the data file, so changing one is an edit there rather than in here. */
-function writtenByStyle(names) {
-  const map = state.data.memberColors || {};
-  const cols = names.split(',').map(n => map[n.trim()]).filter(Boolean);
-  if (!cols.length) {
-    const g = state.data.groupColors;
-    return g && g.length > 1
-      ? `background:linear-gradient(110deg, ${g.join(', ')});color:${readableOn(g[0])};` : '';
-  }
-  const bg = cols.length === 1
-    ? cols[0]
-    : `linear-gradient(110deg, ${cols.join(', ')})`;
-  return `background:${bg};color:${readableOn(cols[0])};`;
-}
+/* A credit chip is tinted with the member's colour (memberStyle in core.js). */
+const writtenByStyle = names => memberStyle(names, state.data.memberColors, state.data.groupColors);
 
 /* Member credits under a track: lyrics (writtenBy) and music (composedBy).
    When the same member did both it reads as one chip rather than two. */
@@ -95,16 +57,6 @@ function creditRow(track) {
     ? [chip(w, '✎ Written &amp; composed by')]
     : [w && chip(w, '✎ Written by'), c && chip(c, '♪ Composed by')].filter(Boolean);
   return `<p class="written-row">${chips.join(' ')}</p>`;
-}
-
-/* Dark text on a pale chip, light text on a deep one, so the credit stays
-   readable whatever colours are chosen. */
-function readableOn(hex) {
-  const m = /^#?([\da-f]{2})([\da-f]{2})([\da-f]{2})$/i.exec(hex || '');
-  if (!m) return '#fff';
-  const [r, g, b] = m.slice(1).map(h => parseInt(h, 16) / 255)
-    .map(c => (c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4));
-  return (0.2126 * r + 0.7152 * g + 0.0722 * b) > 0.45 ? '#2a1b22' : '#fff';
 }
 
 /* ---------- filtering ---------- */
@@ -317,7 +269,7 @@ function renderProgress() {
   const all  = state.data.albums.flatMap(allVideos);
   const seen = all.filter(isWatched).length;
   el('progress').innerHTML = `<b>${seen}</b> / ${all.length} videos watched`;
-  renderReset(seen);
+  paintReset();
 
   /* The hub shows the same totals on its Discography card without loading the
      data file: the numbers are left here for it, in the same browser the
@@ -326,41 +278,8 @@ function renderProgress() {
   const done = releases.filter(a => allVideos(a).every(isWatched)).length;
   try {
     localStorage.setItem(PROGRESS_KEY, JSON.stringify(
-      { seen, total: all.length, done, releases: releases.length }));
+      { seen, total: all.length, done, entries: releases.length }));
   } catch { /* nothing to remember */ }
-}
-
-/* ---------- reset ----------
-
-   Wiping every mark shouldn't happen on one stray click, and a browser confirm
-   box would be jarring here. So the button arms on the first click and clears
-   on the second; left alone it disarms itself. */
-
-let resetTimer = null;
-
-function renderReset(seen) {
-  const btn = el('resetProgress');
-  clearTimeout(resetTimer);
-  btn.classList.remove('armed');
-  btn.disabled = !seen;
-  btn.textContent = seen ? `Reset watched progress · ${seen}` : 'Nothing watched yet';
-}
-
-function wireReset() {
-  el('resetProgress').addEventListener('click', e => {
-    const btn = e.currentTarget;
-    if (!btn.classList.contains('armed')) {
-      const seen = watched.size;
-      btn.classList.add('armed');
-      btn.textContent = `Clear ${seen} watched mark${seen === 1 ? '' : 's'}? Click again`;
-      resetTimer = setTimeout(() => renderReset(seen), 4000);
-      return;
-    }
-    clearWatched();
-    renderGrid();
-    renderProgress();                 /* also disarms the button */
-    if (state.openId) renderPanel(state.data.albums.find(a => a.id === state.openId));
-  });
 }
 
 /* ---------- filters ---------- */
@@ -462,7 +381,11 @@ async function init() {
   renderCategoryChips();
   renderEraChips();
   wireFilters();
-  wireReset();
+  paintReset = resetButton(el('resetProgress'), () => state.data.albums.flatMap(allVideos), () => {
+    renderGrid();
+    renderProgress();
+    if (state.openId) renderPanel(state.data.albums.find(a => a.id === state.openId));
+  });
   renderGrid();
   renderProgress();
 

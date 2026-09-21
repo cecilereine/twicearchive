@@ -1,0 +1,570 @@
+{
+  "section": "Melody Project & Covers",
+  "note": "Members covering other artists' songs: the Melody Project videos on TWICE's channel, and every other cover. One entry per cover, with its videos (the cover itself, a behind-the-scenes, a live clip).",
+  "updated": "2026-09-22",
+  "memberColors": {
+    "Nayeon": "#49c0ec",
+    "Jeongyeon": "#a3cc54",
+    "Momo": "#e67ea3",
+    "Sana": "#8c79b4",
+    "Jihyo": "#f9cc85",
+    "Mina": "#71c7d4",
+    "Dahyun": "#fefefe",
+    "Chaeyoung": "#e62722",
+    "Tzuyu": "#2253a3"
+  },
+  "groupColors": [
+    "#f9c596",
+    "#fc5d9d"
+  ],
+  "series": [
+    {
+      "key": "melody-project",
+      "label": "Melody Project"
+    },
+    {
+      "key": "performance-project",
+      "label": "Performance Project"
+    },
+    {
+      "key": "cover",
+      "label": "Other Covers"
+    }
+  ],
+  "covers": [
+    {
+      "id": "good-person-mina",
+      "song": "Good Person",
+      "songKo": "좋은 사람",
+      "originalArtist": "Toy",
+      "members": "Mina",
+      "series": "melody-project",
+      "released": "2016-09-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "IG-ykt57E-U",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "like-ooh-ahh-cheer-up-sana",
+      "song": "Like Ooh-Ahh & Cheer Up",
+      "originalArtist": "TWICE",
+      "members": "Sana",
+      "series": "melody-project",
+      "released": "2016-10-02",
+      "note": "Sana as Harley Quinn, performing to TWICE's own songs rather than singing a cover.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "62ZIJpt0wz8",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "alone-chaeyoung",
+      "song": "Alone",
+      "songKo": "혼자",
+      "originalArtist": "Dalchong of CHEEZE",
+      "members": "Chaeyoung",
+      "series": "melody-project",
+      "released": "2016-12-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "uK16TLBzWYo",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "geuriumman-ssaine-nayeon",
+      "song": "그리움만 쌓이네",
+      "originalArtist": "Yeo Jin (여진)",
+      "members": "Nayeon",
+      "series": "cover",
+      "released": "2017-03-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "K_wlWUtbyAY",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "reminiscent-dahyun",
+      "song": "Reminiscent",
+      "originalArtist": "Yiruma",
+      "members": "Dahyun",
+      "series": "cover",
+      "released": "2019-05-27",
+      "note": "Piano cover.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "bBgEs40MdFQ",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "santa-tell-me-nayeon",
+      "song": "Santa Tell Me",
+      "originalArtist": "Ariana Grande",
+      "members": "Nayeon",
+      "series": "cover",
+      "released": "2019-12-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "XO9GiPOLd3I",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "a-late-night-of-1994-jihyo",
+      "song": "A Late Night of 1994",
+      "songKo": "1994년 어느 늦은 밤",
+      "originalArtist": "Jang Hye Jin",
+      "members": "Jihyo",
+      "series": "melody-project",
+      "released": "2020-05-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "djjbl7J6ZmU",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "feel-special-dahyun",
+      "song": "Feel Special",
+      "originalArtist": "TWICE",
+      "members": "Dahyun",
+      "series": "cover",
+      "released": "2020-05-27",
+      "note": "Piano cover.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "J3KA6WDAYPM",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "falling-nayeon",
+      "song": "Falling",
+      "originalArtist": "Harry Styles",
+      "members": "Nayeon",
+      "series": "cover",
+      "released": "2020-09-21",
+      "note": "Vocals only.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "zKdT6KHT1jM",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "i-love-nayeon",
+      "song": "I Love...",
+      "originalArtist": "Official HIGE DANdism",
+      "members": "Nayeon",
+      "series": "cover",
+      "released": "2020-09-21",
+      "note": "Vocals only.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "e54YjIvHV8k",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "the-first-noel-silent-night-dahyun",
+      "song": "The First Noel, Silent Night",
+      "originalArtist": "traditional carols",
+      "members": "Dahyun",
+      "series": "cover",
+      "released": "2020-12-19",
+      "note": "Piano cover of two carols.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "hJBN4Ff8-pY",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "love-is-everything-nayeon",
+      "song": "Love Is Everything",
+      "originalArtist": "Ariana Grande",
+      "members": "Nayeon",
+      "series": "melody-project",
+      "released": "2020-12-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "K4I2bTD7Fh0",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "switch-to-me-dahyun",
+      "song": "Switch to Me",
+      "songKo": "나로 바꾸자",
+      "originalArtist": "Park Jin-young & Rain",
+      "members": "Dahyun, Chaeyoung",
+      "series": "melody-project",
+      "released": "2021-02-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "5UMgw3V-Q5I",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "tadow-bad-momo",
+      "song": "Tadow / Bad",
+      "originalArtist": "Masego & FKJ / Christopher",
+      "members": "Momo",
+      "series": "performance-project",
+      "released": "2021-02-22",
+      "note": "Two dance pieces — choreography by Leejung Lee (Tadow) and J-Ho (Bad).",
+      "videos": [
+        {
+          "kind": "dance-performance",
+          "url": "7Xv09ZURWQE",
+          "label": "Performance Video",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "crown-jihyo",
+      "song": "Crown",
+      "originalArtist": "Camila Cabello & Grey",
+      "members": "Jihyo",
+      "series": "performance-project",
+      "released": "2021-05-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "nAW4uqc-7T4",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "waiting-dahyun",
+      "song": "Waiting",
+      "songKo": "기다리다",
+      "originalArtist": "Panic (패닉)",
+      "members": "Dahyun",
+      "series": "cover",
+      "released": "2021-05-27",
+      "note": "Vocal & guitar cover.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "RZQO_e3KVTE",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "me-tzuyu",
+      "song": "ME!",
+      "originalArtist": "Taylor Swift",
+      "members": "Tzuyu",
+      "series": "melody-project",
+      "released": "2021-06-28",
+      "note": "Feat. Bang Chan of Stray Kids",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "IO1Nl9ErTsI",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "off-my-face-chaeyoung",
+      "song": "Off My Face",
+      "originalArtist": "Justin Bieber",
+      "members": "Chaeyoung",
+      "series": "melody-project",
+      "released": "2021-10-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "8vhhTUvRSZM",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "full-house-momo",
+      "song": "처음 그 자리에",
+      "originalArtist": "Lee Bo-ram (Full House OST)",
+      "members": "Momo",
+      "series": "cover",
+      "released": "2021-11-08",
+      "note": "MOMO-made: Momo shot and edited the video herself.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "I0o_OqZ4FjM",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "snowman-mina",
+      "song": "Snowman",
+      "originalArtist": "Sia",
+      "members": "Mina",
+      "series": "melody-project",
+      "released": "2021-12-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "cAvMGWLZCHA",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "promise-dahyun",
+      "song": "Promise",
+      "originalArtist": "TWICE",
+      "members": "Dahyun",
+      "series": "cover",
+      "released": "2022-02-07",
+      "note": "Vocal & piano cover.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "_YIOiI8IA5A",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "monsters-dahyun",
+      "song": "Monsters",
+      "originalArtist": "Katie Sky",
+      "members": "Dahyun",
+      "series": "melody-project",
+      "released": "2022-05-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "SY2kZjVEd54",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "25-dahyun",
+      "song": "25",
+      "originalArtist": "BOL4",
+      "members": "Dahyun",
+      "series": "cover",
+      "released": "2022-11-24",
+      "note": "Video editing by Dahyun.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "yExVG3ebaEs",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "christmas-without-you-tzuyu",
+      "song": "Christmas Without You",
+      "originalArtist": "Ava Max",
+      "members": "Tzuyu",
+      "series": "cover",
+      "released": "2022-12-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "lxchSHUVS5w",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "mood-indigo-sana",
+      "song": "Mood Indigo",
+      "originalArtist": "CHEEZE",
+      "members": "Sana",
+      "series": "melody-project",
+      "released": "2022-12-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "7123DLSc9FA",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "good-mood-dahyun",
+      "song": "Good Mood",
+      "originalArtist": "Adam Levine",
+      "members": "Dahyun",
+      "series": "melody-project",
+      "released": "2023-05-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "1S-4d1nRUis",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "weatherman-chaeyoung",
+      "song": "Weatherman",
+      "originalArtist": "Eddie Benjamin",
+      "members": "Chaeyoung",
+      "series": "melody-project",
+      "released": "2023-10-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "tKItcpOutpg",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "zero-tzuyu",
+      "song": "Zero",
+      "originalArtist": "Yerin Baek",
+      "members": "Tzuyu",
+      "series": "cover",
+      "released": "2023-12-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "jU3rJWVIPRI",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "first-love-dahyun",
+      "song": "First Love",
+      "songKo": "첫사랑",
+      "originalArtist": "Baek A (백아)",
+      "members": "Dahyun",
+      "series": "cover",
+      "released": "2024-10-16",
+      "note": "Vocal & guitar cover.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "aXGpDv5JYzI",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "glow-dahyun",
+      "song": "Glow",
+      "originalArtist": "TWICE",
+      "members": "Dahyun",
+      "series": "cover",
+      "released": "2025-11-02",
+      "note": "Solo version of the TWICE song — Dahyun wrote its lyrics.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "rq8qBb4B7CA",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "may-dahyun",
+      "song": "May",
+      "songKo": "오월",
+      "originalArtist": "lalasweet (랄라스윗)",
+      "members": "Dahyun",
+      "series": "cover",
+      "released": "2026-05-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "y5fRzW5uFlQ",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    }
+  ]
+}

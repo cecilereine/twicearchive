@@ -267,6 +267,30 @@
               "url": "1Kg4yomNEgs",
               "label": "Comeback Stage @ M COUNTDOWN",
               "official": true
+            },
+            {
+              "kind": "special",
+              "url": "kATqAHOIOSw",
+              "label": "Avengers Ver.",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "t9ETveuWsaU",
+              "label": "요술봉 Ver. (Magic Wand)",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "W0Ryc34rNe8",
+              "label": "Akaraka 2019",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "m3o_jC6sObE",
+              "label": "Akaraka 2016 · crowd sing-along",
+              "official": false
             }
           ]
         },
@@ -680,7 +704,7 @@
       "title": "What's Twice?",
       "category": "japanese",
       "seq": "Compilation EP",
-      "type": "EP",
+      "type": "Compilation",
       "released": "2017-02-24",
       "cover": "assets/img/covers/whats-twice.jpg",
       "note": "Japan-only release — available on the Japanese storefront.",
@@ -6649,7 +6673,7 @@
       "title": "The Remixes",
       "category": "korean",
       "seq": "Remix Album",
-      "type": "Full Album",
+      "type": "Remix Album",
       "released": "2023-11-22",
       "cover": "assets/img/covers/the-remixes.jpg",
       "note": "Digital-only remix album — remixes and English versions of earlier singles.",
