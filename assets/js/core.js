@@ -88,6 +88,16 @@ function ytThumbFallback(img) {
 
 const ytWatch    = id => `https://www.youtube.com/watch?v=${id}`;
 
+/* Where the ↗ link should go. A stored url with a ?t= carries a start time —
+   rebuilding a bare watch?v= would throw that away and open at 0:00, which
+   matters for a medley filed against one song inside it. */
+function watchUrl(v) {
+  const id = youtubeId(v.url);
+  if (!id) return v.url;
+  const t = youtubeStart(v.url);
+  return t ? `${ytWatch(id)}&t=${t}` : ytWatch(id);
+}
+
 /* ---------- 2. Watched state ---------------------------------------------
 
    Stored per browser under one key. A video is identified by its YouTube id
@@ -179,7 +189,7 @@ function videoCard(v) {
                aria-label="Play ${escapeHtml(label)}">
          ${thumbInner}<span class="play">▶</span>${durTag}
        </button>`
-    : `<a class="vthumb" href="${escapeHtml(id ? ytWatch(id) : v.url)}"
+    : `<a class="vthumb" href="${escapeHtml(watchUrl(v))}"
           target="_blank" rel="noopener"
           aria-label="Open ${escapeHtml(label)} on YouTube">
          ${thumbInner}<span class="play">↗</span>${durTag}
@@ -194,7 +204,7 @@ function videoCard(v) {
           <span class="badge" data-kind="${kind}">${escapeHtml(KIND_LABEL[kind])}</span>
           ${official}
           ${v.noEmbed ? '<span class="offsite" title="Embedding is disabled on this upload — opens on YouTube">YouTube ↗</span>' : ''}
-          <a class="ext" href="${escapeHtml(id ? ytWatch(id) : v.url)}"
+          <a class="ext" href="${escapeHtml(watchUrl(v))}"
              target="_blank" rel="noopener" title="Open in a new tab">↗</a>
         </div>
         <button type="button" class="watch-btn${seen ? ' on' : ''}" data-watch="${key}">

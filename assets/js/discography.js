@@ -33,6 +33,7 @@ const state = {
 const VIDEO_ORDER = { mv: 0, dance: 1, performance: 2, live: 3, other: 4, lyric: 5 };
 const orderVideos = list =>
   [...(list || [])].sort((a, b) =>
+    (a.pin ? 0 : 1) - (b.pin ? 0 : 1) ||
     (VIDEO_ORDER[a.kind] ?? 4) - (VIDEO_ORDER[b.kind] ?? 4));
 
 const allVideos = album => album.tracks.flatMap(t => t.videos || []);

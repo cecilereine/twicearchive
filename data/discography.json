@@ -211,7 +211,14 @@
           "title": "Daring Woman",
           "titleKo": "당돌한 여자",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "YeBbK5JbBR8",
+              "label": "Sugar Man Ep.11 (당돌한 여자)",
+              "official": true
+            }
+          ]
         }
       ]
     },
@@ -936,6 +943,12 @@
               "url": "Tc8Dk81xyV8",
               "label": "「LUV ME」 FHDX60FPS। Dream Day concert at Tokyo Dome",
               "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "9WNZqdtJKQA",
+              "label": "[ LUV ME ] JPN/ROM/ENG Lyrics | Color Coded",
+              "official": false
             }
           ]
         }
@@ -1554,7 +1567,38 @@
           "title": "I Want You Back",
           "titleTrack": true,
           "note": "Cover",
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "X3H-4crGD6k",
+              "label": "「I WANT YOU BACK」Music Video",
+              "official": true
+            },
+            {
+              "kind": "mv",
+              "url": "t_HKBOv_YpI",
+              "label": "『センセイ君主』× TWICE Original M/V",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "Ku1eCjqbmDc",
+              "label": "「I Want You Back」1st Arena Tour 2018 BDZ",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "ibpS3i6WiWQ",
+              "label": "「I want you back」 FHD। DreamDay concert at Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "kGROwXC_p4o",
+              "label": "「I Want You Back」WORLD TOUR 2019 TWICELIGHTS in SEOUL",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -1590,20 +1634,59 @@
               "official": true
             },
             {
+              "kind": "dance",
+              "url": "6bT2CA9DS6o",
+              "label": "Dance The Night Away Dance Video (Studio Ver.)",
+              "official": true
+            },
+            {
               "kind": "performance",
               "url": "_eQmGhvr5U4",
               "label": "Music Bank Stage",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "i9zVakPBcGM",
+              "label": "[ - Dance The Night Away] KPOP TV Show | M COUNTDOWN 180719 EP.579",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "_A0vSZCpzhc",
+              "label": "「Dance The Night Away (Remix)」WORLD TOUR 2019 TWICELIGHTS in SEOUL",
+              "official": false
             }
           ]
         },
         {
           "title": "Chillax",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "https://www.youtube.com/watch?v=0xLNFlOVSu8&t=777",
+              "label": "Finale in Seoul (medley, from 12:57)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "rEv7cw34_wE",
+              "label": "CHILLAX (Color Coded Lyrics Eng/Rom/Han/가사)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Shot Thru the Heart",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "Pnvh7fDMgWY",
+              "label": "SHOT THRU THE HEART (Color Coded Lyrics Eng/RomHan/가사)",
+              "official": false
+            }
+          ],
+          "writtenBy": "Momo, Sana, Mina"
         }
       ]
     },
@@ -1632,6 +1715,24 @@
               "url": "CMNahhgR_ss",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "performance",
+              "url": "400Ki4hG6kw",
+              "label": "[KCON 2019 JAPAN] - BDZㅣKCON 2019 JAPAN × M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "tW09vMcJQkQ",
+              "label": "「BDZ」1st Arena Tour 2018 BDZ",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "CXXhH2lFTJY",
+              "label": "「BDZ」 FHD। Dream Day concert at TokyoDome",
+              "official": false
             }
           ]
         }
@@ -1757,10 +1858,22 @@
           "titleTrack": true,
           "videos": [
             {
-              "kind": "other",
+              "kind": "mv",
               "url": "96K5RxgTfW4",
               "official": true,
               "label": "Making Music Video"
+            },
+            {
+              "kind": "live",
+              "url": "pU3BtqB0mwU",
+              "label": "「STAY BY MY SIDE」1st Arena Tour 2018 BDZ",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "EhoxH1gAtnI",
+              "label": "「Stay by my side」 FHD। DreamDay concert at TokyoDome",
+              "official": false
             }
           ]
         }
@@ -3360,6 +3473,30 @@
               "label": "Music Video"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "i-fly",
+      "title": "I Fly",
+      "artist": "Jihyo",
+      "category": "solo",
+      "seq": "OST",
+      "type": "Single",
+      "released": "2022-07-29",
+      "cover": "assets/img/covers/i-fly.jpg",
+      "note": "Jihyo's second soundtrack release, for the drama Today's Webtoon.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "https://music.apple.com/ph/album/i-fly/1698670676",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "I Fly",
+          "titleTrack": true,
+          "videos": []
         }
       ]
     },

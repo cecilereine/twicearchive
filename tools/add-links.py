@@ -32,8 +32,8 @@ OFFICIAL = re.compile(r"""^(
     .*\ -\ Topic | Mnet\ K-POP | KBS\ Kpop | KBS\ WORLD\ TV | SBS\ KPOP |
     SBSKPOP.* | SBS\ Entertainment | MBCentertainment |
     MBCkpop | MBC\ every1 | Mwave | M2 | 1theK.* | Netflix.* |
-    Still\ Watching\ Netflix | Arirang\ K-Pop |
-    Golden\ Disc | MAMA\ AWARDS | Melon\ Music\ Awards | The\ Fact\ Music\ Awards |
+    Still\ Watching\ Netflix | Arirang\ K-Pop | 東宝MOVIEチャンネル | TOHO.*|
+    JTBC\ Entertainment | JTBC.* | tvN\ D.* | Golden\ Disc | MAMA\ AWARDS | Melon\ Music\ Awards | The\ Fact\ Music\ Awards |
     SBS\ Awards | KBS\ Song\ Festival | MBC\ Music\ Festival
 )$""", re.I | re.X)
 
@@ -55,6 +55,13 @@ norm = lambda s: re.sub(r"[^a-z0-9가-힣]", "", (s or "").lower())
 
 # Lyric videos always sort to the end of a track's list.
 VIDEO_ORDER = {"mv": 0, "dance": 1, "performance": 2, "live": 3, "other": 4, "lyric": 5}
+
+
+def start_at(url):
+    """A ?t= on a link means "the good bit starts here" — keep it, the player
+       reads it back off the stored URL."""
+    m = re.search(r"[?&](?:t|start)=(\d+)", url or "")
+    return int(m.group(1)) if m else 0
 
 
 def video_id(url):
@@ -193,12 +200,15 @@ def main():
         if any(video_id(v["url"]) == vid for v in track["videos"]):
             skipped.append((url, f"already on {track['title']}")); continue
         kind, official = classify(title, channel)
-        entry = {"kind": kind, "url": vid, "label": caption(title, kind),
-                 "official": official}
+        t = start_at(url)
+        entry = {"kind": kind,
+                 "url": f"https://www.youtube.com/watch?v={vid}&t={t}" if t else vid,
+                 "label": caption(title, kind), "official": official}
         if not embeddable:
             entry["noEmbed"] = True
         track["videos"].append(entry)
-        track["videos"].sort(key=lambda v: VIDEO_ORDER.get(v.get("kind"), 4))
+        track["videos"].sort(key=lambda v: (0 if v.get("pin") else 1,
+                                            VIDEO_ORDER.get(v.get("kind"), 4)))
         added.append((target["title"], track["title"], kind, official, channel,
                       entry["label"] + ("  [no-embed]" if not embeddable else "")))
 
