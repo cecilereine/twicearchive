@@ -129,6 +129,17 @@ function toggleWatched(v) {
   return watched.has(key);
 }
 
+/* Mark (or unmark) a whole list at once — a release's "Mark all watched" —
+   and save once rather than per video. */
+function setWatchedAll(list, on) {
+  for (const v of list) {
+    const key = videoKey(v);
+    if (!key) continue;
+    if (on) watched.add(key); else watched.delete(key);
+  }
+  saveWatched(watched);
+}
+
 /* ---------- 3. Video cards ------------------------------------------------
 
    The thumbnail is a link that opens the video on its own site in a new tab,

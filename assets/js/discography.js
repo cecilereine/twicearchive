@@ -197,6 +197,7 @@ function renderPanel(album) {
   const tracks = visibleTracks(album);
   const vids   = allVideos(album);
   const seen   = vids.filter(isWatched).length;
+  const allSeen = vids.length > 0 && seen === vids.length;
 
   const services = state.data.services.map(s => {
         const href = (album.links || {})[s.key];
@@ -224,6 +225,8 @@ function renderPanel(album) {
         <p class="meta">${escapeHtml(album.seq)} ·
            ${escapeHtml(prettyDate(album.released))} ·
            ${seen}/${vids.length} watched</p>
+        ${vids.length ? `<button type="button" class="watch-btn mark-all${allSeen ? ' on' : ''}" id="markAll">
+           ${allSeen ? '✓ All watched · Unmark all' : 'Mark all watched'}</button>` : ''}
         <div class="stream-links">${services}</div>
         ${region}
       </div>
@@ -236,6 +239,13 @@ function renderPanel(album) {
     </div>`;
 
   el('panelClose').addEventListener('click', closePanel);
+  /* One click for the whole release; once everything is watched it undoes. The
+     grid's per-release counts refresh when the panel closes. */
+  el('markAll')?.addEventListener('click', () => {
+    setWatchedAll(vids, !allSeen);
+    renderPanel(album);
+    renderProgress();
+  });
 }
 
 function trackRow(track, no) {

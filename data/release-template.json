@@ -17,7 +17,7 @@
     "category":   "REQUIRED. korean | japanese | solo",
     "artist":     "OPTIONAL. The other act on a collaboration, or the member for a solo release.",
     "seq":        "Free text under the type badge. '1st Japanese Album', 'Single', '2nd Mini Album'.",
-    "type":       "REQUIRED. EP | Full Album | Single | Reissue",
+    "type":       "REQUIRED. EP | Full Album | Single | Reissue | Compilation",
     "released":   "REQUIRED. YYYY-MM-DD. YYYY-MM or YYYY also work and display as 'Jul 2018' / '2018'.",
     "cover":      "Square art path, e.g. assets/img/covers/bdz.jpg. \"\" gives a coloured placeholder.",
     "note":       "OPTIONAL. One line under the title in the panel.",

@@ -31,12 +31,14 @@ DATA = os.path.join(os.path.dirname(__file__), "..", "data", "discography.json")
 #     (incl. Cool FM), SBS, MBC (incl. MBC WORLD and it's Live), JTBC, tvN,
 #     KOCOWA (the three networks' streaming service), Genius (Open Mic),
 #     Billboard, MTV, The Tonight Show, Prime Video (Amazon Music Live), IU's
-#     own channel (IU's Palette) and Cinema Today (film studios' promos)
+#     own channel (IU's Palette), dingo japan (MOVE REC.), MUSIC AWARDS JAPAN
+#     and Cinema Today (film studios' promos)
 #   - CJ ENM's STUDIO CHOOM and STONE MUSIC, YG PLUS's SEOUL MUSIC, KT's GENIE
 #     MUSIC, MOSTCONTENTS and VLENDING, which put out OSTs
 #   - Netflix and Sony Pictures Animation for KPop Demon Hunters
 #   - the other artist's own channel on a collaboration (League of Legends for
-#     K/DA, Kobukuro, Coco & Clair Clair, Coldplay, Saweetie)
+#     K/DA, Kobukuro, Coco & Clair Clair, Coldplay, Saweetie, Corbyn Besson, RedOne,
+#     FANDOM)
 #   - any VEVO channel: VEVO only hosts labels' own uploads (Disney's Beyond)
 # Everything else is treated as fan-made.
 OFFICIAL = re.compile(r"""^(
@@ -47,9 +49,9 @@ OFFICIAL = re.compile(r"""^(
     Still\ Watching\ Netflix | Arirang\ K-Pop | 東宝MOVIEチャンネル | TOHO.*|
     JTBC\ Entertainment | JTBC.* | tvN\ D.* | Golden\ Disc | MAMA\ AWARDS | Melon\ Music\ Awards | The\ Fact\ Music\ Awards |
     SBS\ Awards | KBS\ Song\ Festival | MBC\ Music\ Festival | STUDIO\ CHOOM.* |
-    it's\ Live |
+    it's\ Live | dingo\ japan | MUSIC\ AWARDS\ JAPAN.* |
     League\ of\ Legends | コブクロ\ 公式チャンネル | Genius | STONE\ MUSIC |
-    coco\ &\ clair\ clair | Coldplay | Official\ Saweetie | .*VEVO | 모스트콘텐츠.* | シネマトゥデイ | VLENDING.* |
+    coco\ &\ clair\ clair | Coldplay | Official\ Saweetie | Corbyn\ Besson | RedOne | FANDOM | .*VEVO | 모스트콘텐츠.* | シネマトゥデイ | VLENDING.* |
     KOCOWA\ TV | SEOUL\ MUSIC.* | SBS\ Catch | MTV | GENIE\ MUSIC |
     Billboard | The\ Tonight\ Show.* | Prime\ Video.*
 )$""", re.I | re.X)

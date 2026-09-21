@@ -80,7 +80,7 @@ track title and is searchable, so typing "Tzuyu" or "Megan" finds those tracks.
 ## Release fields
 
 `type` drives the coloured label under the title on each card. Use one of
-**EP**, **Full Album**, **Single** or **Reissue**. `seq` is the free-text line
+**EP**, **Full Album**, **Single**, **Reissue** or **Compilation** (the #TWICE best albums). `seq` is the free-text line
 underneath it ("1st Mini Album", "Repackage"). Reissues list only their *new*
 tracks, with a `note` saying what they're a reissue of.
 
@@ -197,6 +197,11 @@ every field and has worked examples for a Japanese album and a solo release.
 Copy `discography.html` and its data file, point `DATA_URL` in a new JS file at the
 new JSON, and add a card to `index.html`. `assets/js/core.js` already gives you the
 video cards and watched marks.
+
+New pages need three things for the light/dark toggle: the one-line theme script right after the
+stylesheet in `<head>`, the `#themeToggle` button at the end of `.site-nav`, and
+`assets/js/theme.js` before `</body>` — copy them from `donate.html`. Until a visitor picks, the
+site follows their device's setting.
 
 Set `data-accent` on `<html>` to re-tint the page — `discography` (pink),
 `shows` (purple) or `live` (mint).

@@ -103,6 +103,18 @@ a { color: inherit; }
   background: linear-gradient(120deg, var(--accent), var(--accent-2));
 }
 
+/* Light / dark toggle, pushed to the right end of the nav row. */
+.theme-toggle {
+  margin-left: auto;
+  width: 36px; height: 36px; border-radius: 999px;
+  display: inline-grid; place-items: center;
+  font-size: 16px; line-height: 1; cursor: pointer;
+  border: 1px solid var(--line); background: var(--surface);
+  transition: border-color .15s ease, transform .15s ease;
+}
+.theme-toggle:hover { border-color: var(--accent); transform: rotate(-12deg); }
+.theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
 .site-head h1 {
   margin: 0 0 6px;
   font-size: clamp(26px, 5vw, 40px);
@@ -260,6 +272,7 @@ a { color: inherit; }
 .type-badge[data-type="EP"]         { background:#3f8fd6; border-color:transparent; color:#fff; }
 .type-badge[data-type="Single"]     { background:#e0902f; border-color:transparent; color:#fff; }
 .type-badge[data-type="Reissue"]    { background:#4ec9b0; border-color:transparent; color:#123; }
+.type-badge[data-type="Compilation"] { background:#e2b93b; border-color:transparent; color:#2a1b22; }
 
 /* A member writing credit. On its own line under the title rather than lost
    among the pills on the title row. */
@@ -453,6 +466,8 @@ a { color: inherit; }
 }
 .watch-btn:hover { color: var(--text); border-color: var(--text-faint); }
 .watch-btn.on { background: var(--ok); border-color: transparent; color: #fff; }
+/* The release-wide version sits under the panel's watched count. */
+.watch-btn.mark-all { margin: 2px 0 10px; }
 
 .ext {
   font-size: 11.5px; color: var(--text-faint); text-decoration: none;
@@ -465,6 +480,47 @@ a { color: inherit; }
 .empty-state {
   text-align: center; padding: 60px 20px; color: var(--text-faint); font-size: 14px;
 }
+
+/* ---------- donate page ---------- */
+
+.donate-card {
+  max-width: 640px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 26px 24px;
+  box-shadow: var(--shadow);
+}
+.donate-card .emoji { font-size: 28px; display: block; margin-bottom: 8px; }
+.donate-card h2 { margin: 0 0 10px; font-size: 19px; }
+.donate-card p { margin: 0 0 12px; color: var(--text-soft); font-size: 14.5px; }
+.donate-btn {
+  display: inline-flex; align-items: center; gap: 8px; margin-top: 10px;
+  padding: 13px 28px; border-radius: 12px;
+  font: inherit; font-weight: 800; font-size: 15.5px; letter-spacing: .01em;
+  text-decoration: none; color: #fff; cursor: pointer;
+  text-shadow: 0 1px 2px rgba(0,0,0,.22);
+  background: linear-gradient(120deg, var(--accent), var(--accent-2));
+  border: 1px solid rgba(0,0,0,.06);
+  /* a light top edge and a coloured drop shadow read as a raised, pressable button */
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.35),
+              0 4px 0 color-mix(in srgb, var(--accent-2) 70%, #000 30%),
+              0 8px 18px color-mix(in srgb, var(--accent-2) 35%, transparent);
+  transition: transform .12s ease, box-shadow .12s ease, filter .12s ease;
+}
+.donate-btn:hover {
+  transform: translateY(-2px); filter: brightness(1.05);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.35),
+              0 6px 0 color-mix(in srgb, var(--accent-2) 70%, #000 30%),
+              0 12px 24px color-mix(in srgb, var(--accent-2) 40%, transparent);
+}
+.donate-btn:active {
+  transform: translateY(3px);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.25),
+              0 1px 0 color-mix(in srgb, var(--accent-2) 70%, #000 30%),
+              0 3px 8px color-mix(in srgb, var(--accent-2) 30%, transparent);
+}
+.donate-btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
 
 footer.site-foot {
   margin-top: 50px; padding-top: 20px;

@@ -857,7 +857,7 @@
       "title": "#Twice",
       "category": "japanese",
       "seq": "1st Best Album",
-      "type": "Full Album",
+      "type": "Compilation",
       "released": "2017-06-28",
       "cover": "assets/img/covers/hash-twice.jpg",
       "note": "Best album. Japanese versions only here — the Korean originals are filed under their own releases.",
@@ -2474,7 +2474,7 @@
       "title": "#Twice2",
       "category": "japanese",
       "seq": "2nd Best Album",
-      "type": "Full Album",
+      "type": "Compilation",
       "released": "2019-03-06",
       "cover": "assets/img/covers/hash-twice2.jpg",
       "note": "Best album. Japanese versions only here — the Korean originals are filed under their own releases.",
@@ -3409,7 +3409,7 @@
       "title": "#Twice3",
       "category": "japanese",
       "seq": "3rd Best Album",
-      "type": "Full Album",
+      "type": "Compilation",
       "released": "2020-09-16",
       "cover": "assets/img/covers/hash-twice3.jpg",
       "note": "Best album. Japanese versions only here — the Korean originals are filed under their own releases.",
@@ -5067,7 +5067,7 @@
       "title": "#Twice4",
       "category": "japanese",
       "seq": "4th Best Album",
-      "type": "Full Album",
+      "type": "Compilation",
       "released": "2022-03-16",
       "cover": "assets/img/covers/hash-twice4.jpg",
       "note": "Best album. Japanese versions only here — the Korean originals are filed under their own releases.",
@@ -6603,7 +6603,9 @@
               "label": "Coco & Clair Clair & CHAEYOUNG Pop Star (CHAEYOUNG Remix) Lyrics (Colo",
               "official": false
             }
-          ]
+          ],
+          "writtenBy": "Chaeyoung",
+          "composedBy": "Chaeyoung"
         }
       ]
     },
@@ -8293,7 +8295,7 @@
       "title": "#Twice5",
       "category": "japanese",
       "seq": "5th Best Album",
-      "type": "Full Album",
+      "type": "Compilation",
       "released": "2025-05-14",
       "cover": "assets/img/covers/hash-twice5.jpg",
       "note": "Best album. Japanese versions only here — the Korean originals are filed under their own releases.",
@@ -9216,6 +9218,12 @@
           ],
           "writtenBy": "Chaeyoung",
           "composedBy": "Chaeyoung"
+        },
+        {
+          "title": "Lonely Doll Waltz",
+          "note": "Physical edition only",
+          "videos": [],
+          "composedBy": "Chaeyoung"
         }
       ]
     },
@@ -9240,7 +9248,16 @@
           "title": "Blink",
           "artist": "with Corbyn Besson",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "QcuV8h_I1y0",
+              "label": "Music Video",
+              "official": true
+            }
+          ],
+          "writtenBy": "Tzuyu",
+          "composedBy": "Tzuyu"
         }
       ]
     },
@@ -9283,7 +9300,7 @@
           "artist": "Nayeon",
           "videos": [
             {
-              "kind": "other",
+              "kind": "special",
               "url": "NEPHzkDCw08",
               "label": "Cheering Guide",
               "official": true
@@ -9291,8 +9308,27 @@
             {
               "kind": "lyric",
               "url": "16_2Z--YW7s",
-              "label": "Lyric Video",
+              "label": "Lyric Video (short ver.)",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "ndt1T6knZts",
+              "label": "MEEEEEE (full ver.) @ 2026 Singdome, Taiwan 260829",
+              "official": false,
+              "fancam": true
+            },
+            {
+              "kind": "live",
+              "url": "GyaxUd32mWY",
+              "label": "MEEEEEE @ THIS IS FOR, MUFG Stadium Day 3",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "flzDKU49yvs",
+              "label": "NAYEON (TWICE) MEEEEEE Lyrics (트와이스 MEEEEEE 가사) [Color Coded_Eng]",
+              "official": false
             }
           ],
           "writtenBy": "Nayeon",
@@ -9303,10 +9339,28 @@
           "artist": "Jeongyeon",
           "videos": [
             {
+              "kind": "special",
+              "url": "ZW5_I1A9IOQ",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
               "kind": "lyric",
               "url": "2hMplq1eXOo",
-              "label": "Lyric Video",
+              "label": "Lyric Video (short ver.)",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "fIrvTgVqHmQ",
+              "label": "Fix a Drink @ THIS IS FOR, MUFG Stadium",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "7NCpG7kFEDE",
+              "label": "FIX A DRINK Lyrics (full ver.) [Color Coded Han_Rom_Eng]",
+              "official": false
             }
           ]
         },
@@ -9315,10 +9369,28 @@
           "artist": "Momo",
           "videos": [
             {
+              "kind": "special",
+              "url": "jVHrsvzExug",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
               "kind": "lyric",
               "url": "mfDt-GWZdFc",
-              "label": "Lyric Video",
+              "label": "Lyric Video (short ver.)",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "modMBWIXluQ",
+              "label": "MOVE LIKE THAT solo performance @ THIS IS FOR, Incheon",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "VYmdK-RvoIU",
+              "label": "MOMO (TWICE) MOVE LIKE THAT Lyrics (트와이스 MOVE LIKE THAT 가사) [Color Cod",
+              "official": false
             }
           ]
         },
@@ -9327,10 +9399,29 @@
           "artist": "Sana",
           "videos": [
             {
+              "kind": "special",
+              "url": "stOJK5Ghyho",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
               "kind": "lyric",
               "url": "wfsrUojDPtg",
-              "label": "Lyric Video",
+              "label": "Lyric Video (short ver.)",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "BBs2PmQr8jU",
+              "label": "DECAFFEINATED @ THIS IS FOR 250719-20",
+              "official": false,
+              "fancam": true
+            },
+            {
+              "kind": "lyric",
+              "url": "fGBcNWkIzwk",
+              "label": "SANA (TWICE) DECAFFEINATED Lyrics (트와이스 DECAFFEINATED 가사) [Color Coded",
+              "official": false
             }
           ]
         },
@@ -9339,10 +9430,28 @@
           "artist": "Jihyo",
           "videos": [
             {
+              "kind": "special",
+              "url": "4kAcZ-V-Ens",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
               "kind": "lyric",
               "url": "lY8jvTG0edQ",
-              "label": "Lyric Video",
+              "label": "Lyric Video (short ver.)",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "ACiBRgsjpgM",
+              "label": "ATM @ THIS IS FOR, MUFG Stadium",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "2OMC-9b0S3U",
+              "label": "JIHYO (TWICE) ATM Lyrics (트와이스 ATM 가사) [Color Coded_Eng]",
+              "official": false
             }
           ]
         },
@@ -9351,10 +9460,28 @@
           "artist": "Mina",
           "videos": [
             {
+              "kind": "special",
+              "url": "qbyYALf1Hc8",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
               "kind": "lyric",
               "url": "XXwo3aOVLxU",
-              "label": "Lyric Video",
+              "label": "Lyric Video (short ver.)",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "dplKqH0Nb3U",
+              "label": "Stone Cold @ THIS IS FOR Finale in Seoul",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "fpUaD2JgK9I",
+              "label": "MINA (TWICE) STONE COLD Lyrics (트와이스 STONE COLD 가사) [Color Coded_Eng]",
+              "official": false
             }
           ]
         },
@@ -9363,10 +9490,28 @@
           "artist": "Dahyun",
           "videos": [
             {
+              "kind": "special",
+              "url": "mdAVQ3vZxFg",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
               "kind": "lyric",
               "url": "KGIEoc7Ry5k",
-              "label": "Lyric Video",
+              "label": "Lyric Video (short ver.)",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "TZndBmmL1rU",
+              "label": "CHESS @ THIS IS FOR, MUFG Stadium",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "I9Yf4SK3OpQ",
+              "label": "DAHYUN (TWICE) CHESS Lyrics (트와이스 CHESS 가사) [Color Coded_Eng]",
+              "official": false
             }
           ],
           "writtenBy": "Dahyun"
@@ -9376,10 +9521,29 @@
           "artist": "Chaeyoung",
           "videos": [
             {
+              "kind": "special",
+              "url": "RWAN4_twVuo",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
               "kind": "lyric",
               "url": "zyPIzeV4gQ0",
-              "label": "Lyric Video",
+              "label": "Lyric Video (short ver.)",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "bjDt0qM9Xkw",
+              "label": "In My Room @ THIS IS FOR 250720",
+              "official": false,
+              "fancam": true
+            },
+            {
+              "kind": "lyric",
+              "url": "qkiWtKB3f7w",
+              "label": "CHAEYOUNG (TWICE) IN MY ROOM Lyrics (트와이스 IN MY ROOM 가사) [Color Coded_",
+              "official": false
             }
           ]
         },
@@ -9388,7 +9552,7 @@
           "artist": "Tzuyu",
           "videos": [
             {
-              "kind": "other",
+              "kind": "special",
               "url": "CDtaA78aSzE",
               "label": "Cheering Guide",
               "official": true
@@ -9396,8 +9560,20 @@
             {
               "kind": "lyric",
               "url": "jI_rZqZcSEA",
-              "label": "Lyric Video",
+              "label": "Lyric Video (short ver.)",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "tyKJGIAVsR0",
+              "label": "DIVE IN solo stage @ THIS IS FOR",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "_gIN0LVzuTA",
+              "label": "TZUYU (TWICE) DIVE IN Lyrics (트와이스 DIVE IN 가사) [Color Coded_Eng]",
+              "official": false
             }
           ]
         }
@@ -9429,43 +9605,153 @@
               "url": "gOjG-70-D5o",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "special",
+              "url": "ZEl7vFEeH3M",
+              "label": "Confetti New Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "G7W7IZbHkg8",
+              "label": "Confetti @ MUSIC AWARDS JAPAN 2026",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "-ny7xGEb1EA",
+              "label": "Confetti | MOVE REC. (dingo japan)",
+              "official": true
             }
           ]
         },
         {
           "title": "Hmm",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "_2YGGZu4S9s",
+              "label": "Hmm Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Not a Goodbye",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "-jQv6D9CyCI",
+              "label": "Not a Goodbye @ ユニ春 x MISAMO Special Prom Night 260206",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "m-FyYziDER4",
+              "label": "Not a Goodbye Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Deep Eden",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "D-NDux40KaM",
+              "label": "Deep Eden Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Red Diamond",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "2l8t9MOKWQI",
+              "label": "RED DIAMOND (live performance)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "3lw93NVKAi0",
+              "label": "Red Diamond Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Catch My Eye",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "G7nVwdTkcNQ",
+              "label": "CATCH MY EYE, first performed at Tokyo Dome (before release)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "eNvgrYr2QWI",
+              "label": "Catch My Eye Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Kitty",
           "artist": "Momo",
-          "videos": []
+          "videos": [
+            {
+              "kind": "special",
+              "url": "https://www.youtube.com/watch?v=azYWuBNdhvI&t=140",
+              "label": "PLAY Highlight Medley — Momo's solo stage (from 2:20)",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "4pEOASG0VJY",
+              "label": "MOMO (TWICE) Kitty Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Ma Cherry",
           "artist": "Sana",
-          "videos": []
+          "videos": [
+            {
+              "kind": "special",
+              "url": "https://www.youtube.com/watch?v=azYWuBNdhvI&t=95",
+              "label": "PLAY Highlight Medley — Sana's solo stage (from 1:35)",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "q_sx4PNmS3w",
+              "label": "SANA (TWICE) Ma Cherry Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Turning Tables",
           "artist": "Mina",
-          "videos": []
+          "videos": [
+            {
+              "kind": "special",
+              "url": "https://www.youtube.com/watch?v=azYWuBNdhvI&t=55",
+              "label": "PLAY Highlight Medley — Mina's solo stage (from 0:55)",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "eva9DLBiCvQ",
+              "label": "MINA (TWICE) Turning Tables Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Identity",
@@ -9584,7 +9870,14 @@
           "title": "Hvnly",
           "artist": "Jenevieve feat. Jihyo",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "_opQpDYh33I",
+              "label": "Music Video",
+              "official": true
+            }
+          ]
         }
       ]
     },
@@ -9609,7 +9902,14 @@
           "title": "Follow Me",
           "artist": "with French Montana, Ludmilla, Adriana C & RedOne",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "RlY3SMoPUoY",
+              "label": "Music Video (World Cup 2026)",
+              "official": true
+            }
+          ]
         }
       ]
     },
@@ -9634,7 +9934,21 @@
           "title": "Distant Lover",
           "artist": "with Shenseea",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "V8KO2qf23Mc",
+              "label": "Music Video",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "7KCfsU4qkAY",
+              "label": "Distant Lover + Talkin' About It @ WATERBOMB Kaohsiung 260912",
+              "official": false,
+              "fancam": true
+            }
+          ]
         }
       ]
     },
@@ -9643,7 +9957,7 @@
       "title": "#Best 2015–2025",
       "category": "japanese",
       "seq": "Best Album",
-      "type": "Full Album",
+      "type": "Compilation",
       "released": "2026-08-26",
       "cover": "assets/img/covers/hash-best-2015-2025.jpg",
       "note": "10th anniversary best album. Tracklist still to be filled in.",
