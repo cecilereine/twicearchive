@@ -13,3 +13,7 @@
 # never commit API credentials
 .env
 *.secret
+
+# python
+__pycache__/
+*.pyc

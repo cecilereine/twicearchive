@@ -70,14 +70,41 @@ def search(tok, q, limit=8):
         return json.load(r)["albums"]["items"]
 
 
-def pick(items, artist, title):
-    """Prefer an exact name match by the right artist. Japanese and remix
+MEMBERS = ["Nayeon", "Jeongyeon", "Momo", "Sana", "Jihyo", "Mina",
+           "Dahyun", "Chaeyoung", "Tzuyu"]
+
+
+def credited(album):
+    """Who to search as, and whose name counts as a match.
+
+    A solo or collaboration release is not credited to Twice — "IM NAYEON" is
+    Nayeon's, "Hvnly" is Jenevieve's. Searching everything as Twice and then
+    demanding Twice in the result made every one of those fail even though they
+    are plainly on Spotify."""
+    cred = album.get("artist") or ""
+    low = cred.lower()
+    if "misamo" in low:
+        return "MISAMO", {"misamo"}
+    members = [m for m in MEMBERS if m.lower() in low]
+    # any other act named in the credit, e.g. "Jenevieve feat. Jihyo"
+    others = [w for w in re.split(r"[^\w'&]+", cred)
+              if len(w) > 3 and w.lower() not in {m.lower() for m in MEMBERS}
+              and w.lower() not in {"with", "feat", "twice", "remix", "from"}]
+    accept = {m.lower() for m in members} | {o.lower() for o in others}
+    if album.get("category") == "solo":
+        lead = members[0] if members else (others[0] if others else "Twice")
+        return lead, (accept or {"twice"})
+    return "Twice", accept | {"twice"}
+
+
+def pick(items, accept, title):
+    """Prefer an exact name match by an accepted artist. Japanese and remix
        editions share a name with the original, so an exact match wins over a
        merely-contains one."""
     want, exact, loose = norm(title), None, None
     for it in items:
         names = norm(" ".join(a["name"] for a in it["artists"]))
-        if norm(artist) not in names:
+        if accept and not any(norm(x) in names for x in accept):
             continue
         n = norm(it["name"])
         if n == want and exact is None:
@@ -100,11 +127,12 @@ def main():
     print(f"looking up {len(targets)} releases\n")
     ok = bad = 0
     for a in targets:
-        artist = "MISAMO" if (a.get("artist") or "") == "MISAMO" else "TWICE"
+        artist, accept = credited(a)
         hit = None
         for q in (f'artist:{artist} album:"{a["title"]}"',
-                  f'{artist} {a["title"]}'):
-            hit = pick(search(tok, q), artist, a["title"])
+                  f'{artist} {a["title"]}',
+                  a["title"]):                      # last resort: title alone
+            hit = pick(search(tok, q), accept, a["title"])
             if hit:
                 break
             time.sleep(.2)
