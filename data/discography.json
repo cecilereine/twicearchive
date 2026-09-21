@@ -387,7 +387,8 @@
               "label": "Color Coded Lyrics",
               "official": false
             }
-          ]
+          ],
+          "note": "Physical edition only"
         }
       ]
     },
@@ -1516,7 +1517,8 @@
               "label": "Stuck Lyrics (Han|Rom|Eng) Color Coded",
               "official": false
             }
-          ]
+          ],
+          "note": "Physical edition only"
         }
       ]
     },
@@ -4700,6 +4702,12 @@
               "url": "libbITYEitI",
               "label": "Real You | 4th World Tour in Seoul [4K 60FPS]",
               "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "aYeNXbUABT0",
+              "label": "REAL YOU Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
             }
           ],
           "writtenBy": "Jihyo"
@@ -4740,6 +4748,12 @@
               "kind": "live",
               "url": "hjZ5jCAsjRQ",
               "label": "Espresso | 4th World Tour in Seoul [4K 60FPS]",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "IkLFQYZmrxc",
+              "label": "ESPRESSO Lyrics [Color Coded_Han_Rom_Eng]",
               "official": false
             }
           ]
