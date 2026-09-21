@@ -580,7 +580,15 @@
           "titleKo": "내가 예뻐진 이유",
           "artist": "with Ben and Jung Eun-ji",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "rSGTkaIp_hU",
+              "label": "《Special Stage》 Jeong Eun Ji X Ji Hyo X Ben (정은지X지효X벤) - 내가 예뻐진 이유 @인기",
+              "official": true,
+              "noEmbed": true
+            }
+          ]
         }
       ]
     },
@@ -1316,6 +1324,29 @@
               "official": false
             }
           ]
+        },
+        {
+          "title": "Brand New Girl",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "r1CMjQ0QJ1E",
+              "label": "「BRAND NEW GIRL」Music Video",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "e8fYcl1mN7k",
+              "label": "Brand new girl FHD। Dream Day concert at Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "ozu76acSs-U",
+              "label": "BRAND NEW GIRL : Colour-Coded ENG LYRICS/日本語歌詞/한국어 가사",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -1763,6 +1794,24 @@
               "url": "CMNahhgR_ss",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "performance",
+              "url": "400Ki4hG6kw",
+              "label": "[KCON 2019 JAPAN] - BDZㅣKCON 2019 JAPAN × M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "tW09vMcJQkQ",
+              "label": "「BDZ」1st Arena Tour 2018 BDZ",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "CXXhH2lFTJY",
+              "label": "「BDZ」 FHD। Dream Day concert at TokyoDome",
+              "official": false
             }
           ]
         },
@@ -1775,6 +1824,24 @@
               "url": "HuoOEry-Yc4",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "performance",
+              "url": "4XwyHPrFPCA",
+              "label": "NHK Shibuya Note",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "VgVEfd-dLgU",
+              "label": "「One More Time」1st Arena Tour 2018 BDZ",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "oD3L2BEjehE",
+              "label": "「One More Time」 FHD। Dream Day concert at Tokyo Dome",
+              "official": false
             }
           ]
         },
@@ -1787,20 +1854,83 @@
               "url": "wQ_POfToaVY",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "dance",
+              "url": "76-KTVPm7XA",
+              "official": true,
+              "label": "Dance Practice ver."
+            },
+            {
+              "kind": "live",
+              "url": "eI5U-bMhVpc",
+              "label": "「Candy pop」 FHD। 1st ARENA TOUR 2018 BDZ",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "JJ_4D4smNfc",
+              "label": "「CANDY POP」(+Full intro) FHDX60FPS। Dream Day concert at Tokyo Dome",
+              "official": false
             }
           ]
         },
         {
           "title": "L.O.V.E",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "Bpxx6r7aci0",
+              "label": "「L.O.V.E」 FHD। 1st ARENA TOUR 2018 BDZ",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "2DFefwYyp1Q",
+              "label": "「L.O.V.E」 FHD। Dream Day concert at Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "EZNH2UMGbO8",
+              "label": "『トゥワイス』- L.O.V.E (Color coded Kan/Rom/Eng lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Wishing",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "WlGTpHM55g8",
+              "label": "「Wishing」 FHDX60FPS। Dream Day concert at Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "0o7GH3mEzd4",
+              "label": "『トゥワイス』- Wishing (Color coded Kan/Rom/Eng lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Say It Again",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "wMCo-8x11dg",
+              "label": "「Say it again」 FHD। Dream Day concert at Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "NVUZ3uD4xDw",
+              "label": "『トゥワイス』- Say it again (Color coded Kan/Rom/Eng lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Wake Me Up",
@@ -1811,29 +1941,142 @@
               "url": "DdLYSziSXII",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "live",
+              "url": "PAh3xTo4TQo",
+              "label": "「Wake me up」 FHD। DreamDay concert at Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "_Mp_tYzB7bc",
+              "label": "「Wake me up」+ intro FHD। 1st ARENA TOUR 2018 BDZ",
+              "official": false
             }
           ]
         },
         {
           "title": "Brand New Girl",
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "r1CMjQ0QJ1E",
+              "label": "「BRAND NEW GIRL」Music Video",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "e8fYcl1mN7k",
+              "label": "Brand new girl FHD। Dream Day concert at Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "ozu76acSs-U",
+              "label": "BRAND NEW GIRL : Colour-Coded ENG LYRICS/日本語歌詞/한국어 가사",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Be as One",
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "LsSZbRReWNY",
+              "label": "Be as ONE Document Video",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "DjnXsk3xl34",
+              "label": "「Be as one」 FHDX60FPS। Dream Day concert at Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "bIY5NfYzxfI",
+              "label": "『トゥワイス』- Be as ONE (Color coded Kan/Rom/Eng lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "I Want You Back",
           "note": "Cover",
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "X3H-4crGD6k",
+              "label": "「I WANT YOU BACK」Music Video",
+              "official": true
+            },
+            {
+              "kind": "mv",
+              "url": "t_HKBOv_YpI",
+              "label": "『センセイ君主』× TWICE Original M/V",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "Ku1eCjqbmDc",
+              "label": "「I Want You Back」1st Arena Tour 2018 BDZ",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "ibpS3i6WiWQ",
+              "label": "「I want you back」 FHD। DreamDay concert at Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "kGROwXC_p4o",
+              "label": "「I Want You Back」WORLD TOUR 2019 TWICELIGHTS in SEOUL",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Luv Me",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "Tc8Dk81xyV8",
+              "label": "「LUV ME」 FHDX60FPS। Dream Day concert at Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "9WNZqdtJKQA",
+              "label": "[ LUV ME ] JPN/ROM/ENG Lyrics | Color Coded",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Pink Lemonade",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "5AIGCWw3r8c",
+              "label": "「Pink lemonade」 FHDX60FPS। Dream Day concert at Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "32UXwkpnDHg",
+              "label": "「Pink lemonade」 FHD। 1st ARENA TOUR 2018 BDZ",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "rZnzTVvmex8",
+              "label": "Pink Lemonade [Color Coded Lyrics/Jap/Rom/Eng]",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -1901,7 +2144,14 @@
           "titleKo": "별처럼",
           "artist": "with Gong Seung-yeon",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "v3myBev66aI",
+              "label": "JEONGYEON & GONG SEUNGYEON (정연, 공승연) – LIKE A STAR (별처럼) (Coded Lyrics",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -1940,33 +2190,114 @@
               "url": "r-vLGzfFKVA",
               "label": "Music Bank Stage",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "xxq4VeSB2yM",
+              "label": "[ - YES or YES] KPOP TV Show | M COUNTDOWN 181115 EP.596",
+              "official": true
             }
           ]
         },
         {
           "title": "Say You Love Me",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "Bbd2XpWkdI4",
+              "label": "[4K60] SAY YOU LOVE ME ENCORE 4TH WORLD TOUR III (Bluray)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "k6rKVJkUL2k",
+              "label": "SAY YOU LOVE ME [Color Coded Lyrics/Han/Rom/Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "LaLaLa",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "kURfpL3Tgw0",
+              "label": "– LALALA (Color Coded Lyrics Eng/Rom/Han/가사)",
+              "official": false
+            }
+          ],
+          "writtenBy": "Jeongyeon"
         },
         {
           "title": "Young & Wild",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "ly8eEhVt-u0",
+              "label": "– YOUNG & WILD (Color Coded Lyrics Eng/Rom/Han/가사)",
+              "official": false
+            }
+          ],
+          "writtenBy": "Chaeyoung"
         },
         {
           "title": "Sunset",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "NsUlSteYQ-Y",
+              "label": "「SUNSET」WORLD TOUR 2019 TWICELIGHTS in SEOUL",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "9H43SGzwSq0",
+              "label": "SUNSET [Color Coded Lyrics/Han/Rom/Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Jihyo"
         },
         {
           "title": "After Moon",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "q-WKUDuirH4",
+              "label": "《日本語字幕》-AFTER MOON @ WORLD TOUR 2019TWICELIGHTS",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "f0OjmmgzQuM",
+              "label": "– AFTER MOON (Color Coded Lyrics Eng/Rom/Han/가사)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "BDZ",
           "note": "Korean ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "ofmvk_O2LIM",
+              "label": "BDZ(Korean Ver) [Music Bank COMEBACK / 2018.11.09]",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "oyIoIUAYOv0",
+              "label": "[Comeback Stage] - BDZ (Korean Ver.) , - BDZ (Korean Ver.) Show Music ",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "Z9EYz--QJoI",
+              "label": "트와이스 BDZ KOR VERSION | TWICELIGHTS IN SEOUL",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -2026,10 +2357,22 @@
           "titleTrack": true,
           "videos": [
             {
-              "kind": "other",
+              "kind": "mv",
               "url": "96K5RxgTfW4",
               "official": true,
               "label": "Making Music Video"
+            },
+            {
+              "kind": "live",
+              "url": "pU3BtqB0mwU",
+              "label": "「STAY BY MY SIDE」1st Arena Tour 2018 BDZ",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "EhoxH1gAtnI",
+              "label": "「Stay by my side」 FHD। DreamDay concert at TokyoDome",
+              "official": false
             }
           ]
         }
@@ -2356,6 +2699,12 @@
               "url": "3n9rDwpa6QA",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "dance",
+              "url": "vdVCUDqnL0U",
+              "official": true,
+              "label": "Dance Making Video In Hawaii"
             }
           ]
         },
@@ -2973,6 +3322,12 @@
               "url": "fmOEKOjyDxU",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "live",
+              "url": "Fb6uIFE-zoU",
+              "official": true,
+              "label": "@ Nissan Stadium"
             }
           ]
         },
@@ -2985,6 +3340,18 @@
               "url": "sLmLwgxnPUE",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "dance",
+              "url": "cbzjs4Gji_4",
+              "official": true,
+              "label": "Dance Practice Video"
+            },
+            {
+              "kind": "performance",
+              "url": "HGJiSZW2PNY",
+              "official": true,
+              "label": "Performance Re-Edit ver."
             }
           ]
         },
@@ -3001,6 +3368,12 @@
               "url": "kRT174IdxuM",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "performance",
+              "url": "fWe0jcsd41Q",
+              "official": true,
+              "label": "Special Stage"
             }
           ]
         },
@@ -3013,6 +3386,12 @@
               "url": "BSS8Y-0hOlY",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "dance",
+              "url": "oTuYKF_BT9A",
+              "official": true,
+              "label": "Special Dance Clip"
             }
           ]
         },
@@ -3431,6 +3810,12 @@
               "url": "fMIn43MiwG8",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "live",
+              "url": "lSQMiBTBUOI",
+              "official": true,
+              "label": "ONCE DAY Stage Ver."
             }
           ]
         },
@@ -3471,6 +3856,12 @@
               "url": "VcOSUOpACq0",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "performance",
+              "url": "BDxYzVzzw2M",
+              "official": true,
+              "label": "Special Stage"
             }
           ]
         }
@@ -3839,7 +4230,14 @@
         },
         {
           "title": "Bouquet",
-          "videos": []
+          "videos": [
+            {
+              "kind": "other",
+              "url": "c64_lZErcOQ",
+              "official": true,
+              "label": "Making Music Video (short ver.)"
+            }
+          ]
         }
       ]
     },
@@ -4290,6 +4688,12 @@
               "url": "-uqWaGzQyxA",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "live",
+              "url": "zkcNMhqJBok",
+              "official": true,
+              "label": "@ Nissan Stadium"
             }
           ]
         }
@@ -5057,6 +5461,12 @@
               "url": "Xtfxxo4QgJA",
               "official": true,
               "label": "Animation Movie"
+            },
+            {
+              "kind": "other",
+              "url": "M0FUPbM9ktI",
+              "official": true,
+              "label": "Cheering Guide"
             }
           ]
         }
@@ -5391,7 +5801,14 @@
         },
         {
           "title": "Message",
-          "videos": []
+          "videos": [
+            {
+              "kind": "other",
+              "url": "4_12UdOTub0",
+              "official": true,
+              "label": "x Kakukaku Shikajika Special Movie"
+            }
+          ]
         }
       ]
     },
