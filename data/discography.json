@@ -6463,6 +6463,12 @@
           "title": "Closer",
           "videos": [
             {
+              "kind": "dance",
+              "url": "zcSB9oHz5AU",
+              "label": "JIHYO Closer Choreography Video",
+              "official": true
+            },
+            {
               "kind": "performance",
               "url": "nq4rAGVW-cw",
               "label": "Closer - 지효(TWICE) [뮤직뱅크/Music Bank] | KBS 230818 방송",
@@ -7028,6 +7034,12 @@
               "kind": "mv",
               "url": "oUZttxRcPZw",
               "label": "NAYEON ABCD M/V",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "Fhzd5BZYQe0",
+              "label": "NAYEON ABCD Choreography Video",
               "official": true
             },
             {
@@ -7908,7 +7920,20 @@
           "titleKo": "저 너머로",
           "artist": "feat. Te Vaka",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "Kdubj6Rr-wE",
+              "label": "Music Video",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "5Ah1HGSL2hc",
+              "label": "저 너머로 (Beyond) Lyrics (feat. Te Vaka) Color Coded",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -7944,9 +7969,33 @@
               "official": true
             },
             {
+              "kind": "dance",
+              "url": "h5CwaVjF_78",
+              "label": "Strategy Choreography Video (Moving ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "SboYuhJZYK4",
+              "label": "Strategy Choreography Video (Fix ver.)",
+              "official": true
+            },
+            {
               "kind": "dance-performance",
               "url": "1I0lzeXajzI",
               "label": "[릴레이댄스] TWICE(트와이스) - Strategy (4K)",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "LcV0eAgCSgw",
+              "label": "Strategy (4K) | STUDIO CHOOM ORIGINAL",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "f4VCRBWNvms",
+              "label": "Strategy (with Lee Young-ji) @ The Seasons: Lee Young-ji's Rainbow 241206",
               "official": true
             },
             {
@@ -7954,34 +8003,118 @@
               "url": "qgHlUeOkAo4",
               "label": "Music Bank One-Take 4K",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "zHqxnAttDJA",
+              "label": "Strategy @ The Tonight Show Starring Jimmy Fallon",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "PrkNZRd9G88",
+              "label": "Strategy Special Stage",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "uOUGjkXFXEY",
+              "label": "Strategy @ Show! Music Core 241215",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.youtube.com/watch?v=2rwrOtpQCl4&t=1554",
+              "label": "Strategy @ IU's Palette Ep.30 (from 25:54)",
+              "official": true
             }
           ]
         },
         {
           "title": "Kiss My Troubles Away",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "AJhePh1FhKc",
+              "label": "Kiss My Troubles Away Lyrics (트와이스 Kiss My Troubles Away 가사) [Color Co",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Like It Like It",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "MHDEAKjbBoI",
+              "label": "Like It Like It Lyrics (트와이스 Like It Like It 가사) [Color Coded Han_Rom_",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Sweetest Obsession",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "dM2MAOavweU",
+              "label": "Sweetest Obsession @ 2024 TWICE FANMEETING [HOME 9ROUND]⚾",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "YLCTJHl4Q4M",
+              "label": "Sweetest Obsession Lyrics (트와이스 Sweetest Obsession 가사) [Color Coded Ha",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Keeper",
-          "videos": [],
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "vSpuFxupbYk",
+              "label": "Keeper Lyrics (트와이스 Keeper 가사) [Color Coded Han_Rom_Eng]",
+              "official": false
+            }
+          ],
           "writtenBy": "Dahyun"
         },
         {
           "title": "Magical",
-          "videos": []
+          "videos": [
+            {
+              "kind": "special",
+              "url": "nKlCkB_Iicc",
+              "label": "Magical Happy Holidays! Video",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "wfGTo_nMpA4",
+              "label": "Magical & TT Live Stage @ TWICE ＜THIS IS FOR＞ WORLD TOUR IN BANGKOK",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "SQX9BFfvtZk",
+              "label": "Magical Lyrics (트와이스 Magical 가사) [Color Coded_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Strategy",
-          "note": "solo ver.",
-          "videos": []
+          "note": "solo ver. · the version performed on stage; stages are filed under Strategy",
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "2iyZPfsKhTU",
+              "label": "Official Lyric Video (from KPop Demon Hunters)",
+              "official": true
+            }
+          ]
         }
       ]
     },
@@ -7992,8 +8125,8 @@
       "seq": "5th Digital Single",
       "type": "Single",
       "released": "2024-12-15",
-      "cover": "assets/img/covers/enemy.jpg",
-      "note": "Digital release from Enemy. Cover art shared with the album.",
+      "cover": "assets/img/covers/the-wish.jpg",
+      "note": "Digital release from Enemy.",
       "links": {
         "spotify": "https://open.spotify.com/album/3lyPz62SgsRODphFZBGCfL",
         "appleMusic": "https://music.apple.com/ph/album/the-wish-single/1781860012",
@@ -8010,6 +8143,12 @@
               "url": "GrWWM5KGf4c",
               "official": true,
               "label": "Making Movie"
+            },
+            {
+              "kind": "lyric",
+              "url": "KS-Gyw9xxwU",
+              "label": "The Wish Lyrics (Color Coded Lyrics)",
+              "official": false
             }
           ]
         }
@@ -8036,7 +8175,22 @@
           "title": "You Are the Apple of My Eye",
           "artist": "with Jinyoung",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "0wesWD3Q6Bk",
+              "label": "Music Video",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "KVAYHe6eowQ",
+              "label": "You Are the Apple of My Eye [Rom/Eng Lyrics]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Dahyun, Jinyoung",
+          "composedBy": "Dahyun, Jinyoung"
         }
       ]
     },
@@ -8061,7 +8215,33 @@
           "title": "We Pray",
           "artist": "Coldplay feat. Twice",
           "note": "Twice version",
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "K2vVU4aR5Lg",
+              "label": "Official Visualiser (TWICE Version)",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "DDPfTmDZfh8",
+              "label": "Photo Slideshow @ Coldplay Music of the Spheres World Tour",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "oWRM9bXnZRs",
+              "label": "WE PRAY with TWICE x Elyanna @ Coldplay Music of the Spheres, Seoul 250419",
+              "official": false,
+              "fancam": true
+            },
+            {
+              "kind": "lyric",
+              "url": "g-gU__xO2TI",
+              "label": "WE PRAY (TWICE Version) Color Coded Lyrics (Han/Rom/Eng)",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -8087,10 +8267,22 @@
           "titleTrack": true,
           "videos": [
             {
-              "kind": "other",
+              "kind": "special",
+              "url": "FLGGeI0QT3k",
+              "label": "Film making-of set to Message (Kakukaku Shikajika theme song special video)",
+              "official": true
+            },
+            {
+              "kind": "special",
               "url": "4_12UdOTub0",
               "official": true,
               "label": "x Kakukaku Shikajika Special Movie"
+            },
+            {
+              "kind": "lyric",
+              "url": "NQInXtCliNU",
+              "label": "MESSAGE Color Coded Lyrics (KAN|ROM|ENG)",
+              "official": false
             }
           ]
         }
@@ -8150,7 +8342,20 @@
           "title": "Kimagure Romantic",
           "titleKo": "気まぐれロマンティック",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "2NLxlQYBmyg",
+              "label": "気まぐれロマンティック (Kimagure Romantic) (live)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "xr-fVtLnmpE",
+              "label": "Kimagure Romantic Lyrics (Kan/Rom/Eng)",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -8186,6 +8391,12 @@
               "url": "_sbIOngf-U4",
               "label": "Live",
               "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "l8Dr7vzMSVE",
+              "label": "Official Lyric Video (KPop Demon Hunters)",
+              "official": true
             }
           ]
         }
@@ -8212,7 +8423,20 @@
         {
           "title": "New Days",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "UIQCiT5UfJM",
+              "label": "Music Video (Marry My Husband Japan OST)",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "yDTx0k1RG4E",
+              "label": "New Days Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -8233,7 +8457,20 @@
       "tracks": [
         {
           "title": "Four",
-          "videos": []
+          "videos": [
+            {
+              "kind": "special",
+              "url": "t9XQb2b_KtE",
+              "label": "4th Full Album Intro: FOUR",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "R-6cUCQ_a-Q",
+              "label": "FOUR Lyrics (트와이스 FOUR 가사) [Color Coded_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "This Is For",
@@ -8251,42 +8488,169 @@
               "official": true
             },
             {
+              "kind": "dance",
+              "url": "hM6eLscqnpI",
+              "label": "THIS IS FOR Choreography Video (Moving ver.)",
+              "official": true
+            },
+            {
               "kind": "performance",
               "url": "mh_4SYlP-tY",
               "label": "Music Bank Stage",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "DnZ3O9g_zHc",
+              "label": "THIS IS FOR @ Show! Music Core 250712",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "XeyYcrs7kq8",
+              "label": "THIS IS FOR One Take Stage @ Inkigayo 250713",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "YR1mVK6nqKI",
+              "label": "THIS IS FOR @ Inkigayo 250713",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "rf_858Gcqbk",
+              "label": "THIS IS FOR Live Stage @ THIS IS FOR World Tour in Incheon",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "387tGAU9pNY",
+              "label": "THIS IS FOR @ THIS IS FOR World Tour in Japan, Tokyo Dome",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "vSzq0NxHwx4",
+              "label": "THIS IS FOR Official Lyric Video",
               "official": true
             }
           ]
         },
         {
           "title": "Options",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "Xi84KZhxbc8",
+              "label": "OPTIONS @ THIS IS FOR World Tour, Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "NY8n48EHvHI",
+              "label": "OPTIONS Lyrics (트와이스 OPTIONS 가사) [Color Coded_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Mars",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "J9cwgJNebU8",
+              "label": "MARS @ THIS IS FOR World Tour, Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "PdXhWsBRCl4",
+              "label": "MARS Lyrics (트와이스 MARS 가사) [Color Coded Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Right Hand Girl",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "FD_oc92GO6k",
+              "label": "RIGHT HAND GIRL Live Stage @ THIS IS FOR World Tour Finale in Seoul",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "dkZ4giWqSqc",
+              "label": "RIGHT HAND GIRL Lyrics (트와이스 RIGHT HAND GIRL 가사) [Color Coded_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Peach Gelato",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "BtfCw5sBiMM",
+              "label": "PEACH GELATO Lyrics (트와이스 PEACH GELATO 가사) [Color Coded_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Hi Hello",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "8i_0-dS6Jc8",
+              "label": "HI HELLO Lyrics (트와이스 HI HELLO 가사) [Color Coded Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Battitude",
           "artist": "Nayeon, Jeongyeon, Momo, Mina",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "8yMu09Bs7M4",
+              "label": "DAT AHH DAT OOH + BATTITUDE @ THIS IS FOR Finale in Seoul, KSPO Dome",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "8hizwW38hnM",
+              "label": "BATTITUDE @ THIS IS FOR Finale in Seoul 260712",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "Y7LV9tK3u-w",
+              "label": "BATTITUDE (NAYEON & JEONGYEON & MOMO & MINA) Lyrics (트와이스 BATTITUDE 가사",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Dat Ahh Dat Ooh",
           "artist": "Sana, Jihyo, Dahyun, Chaeyoung, Tzuyu",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "8yMu09Bs7M4",
+              "label": "DAT AHH DAT OOH + BATTITUDE @ THIS IS FOR Finale in Seoul, KSPO Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "pbPWxtzf05U",
+              "label": "DAT AHH DAT OOH (SANA & JIHYO & DAHYUN & CHAEYOUNG & TZUYU) Lyrics [Co",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Let Love Go",
@@ -8296,20 +8660,54 @@
         {
           "title": "G.O.A.T.",
           "artist": "Mina, Dahyun, Chaeyoung",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "GTKSjMNa-NY",
+              "label": "G.O.A.T. (MINA & DAHYUN & CHAEYOUNG) Lyrics (트와이스 G.O.A.T. 가사) [Color ",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Talk",
           "artist": "Nayeon, Jihyo",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "EX3jKt0Awm4",
+              "label": "TALK (NAYEON & JIHYO) Lyrics (트와이스 TALK 가사) [Color Coded_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Seesaw",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "MW6GVafRiEU",
+              "label": "SEESAW Lyrics (트와이스 SEESAW 가사) [Color Coded Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Heartbreak Avenue",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "2RsBgWt6X0k",
+              "label": "Heartbreak Avenue @ THIS IS FOR Finale in Seoul",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "wjV0FeqGwPA",
+              "label": "HEARTBREAK AVENUE Lyrics (트와이스 HEARTBREAK AVENUE 가사) [Color Coded_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "This Is For",
@@ -8331,6 +8729,12 @@
               "kind": "live",
               "url": "_sbIOngf-U4",
               "label": "Live",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "l8Dr7vzMSVE",
+              "label": "Official Lyric Video (KPop Demon Hunters)",
               "official": true
             }
           ]
@@ -8368,6 +8772,12 @@
               "url": "tW1YLmIJ-YY",
               "official": true,
               "label": "MV Director's Cut"
+            },
+            {
+              "kind": "live",
+              "url": "7cwmSwPae1I",
+              "label": "ENEMY @ THIS IS FOR World Tour, MUFG Stadium Tokyo (Day 3)",
+              "official": false
             }
           ]
         }
@@ -8393,7 +8803,26 @@
         {
           "title": "Superstars",
           "artist": "with Saweetie",
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "eqlsSefRBsc",
+              "label": "Official Visualizer",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "-qHKU8vxLyc",
+              "label": "Official Lyric Video",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "E5ewt3UpJVs",
+              "label": "superstars (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -8418,19 +8847,33 @@
           "titleTrack": true,
           "videos": [
             {
-              "kind": "other",
+              "kind": "special",
               "url": "Xtfxxo4QgJA",
               "official": true,
               "label": "Animation Movie"
             },
             {
-              "kind": "other",
+              "kind": "special",
               "url": "M0FUPbM9ktI",
               "official": true,
               "label": "Cheering Guide"
+            },
+            {
+              "kind": "live",
+              "url": "https://weibo.com/tv/show/1034:5192777127100673",
+              "label": "Like 1 fancam (Weibo)",
+              "official": false,
+              "fancam": true
+            },
+            {
+              "kind": "lyric",
+              "url": "leQNNW1Gnj0",
+              "label": "Like 1 Lyrics (Color Coded Lyrics)",
+              "official": false
             }
           ],
-          "writtenBy": "Jihyo"
+          "writtenBy": "Jihyo",
+          "note": "Composed by Taka & Toru of ONE OK ROCK"
         }
       ]
     },
@@ -8470,24 +8913,58 @@
               "url": "tW1YLmIJ-YY",
               "official": true,
               "label": "MV Director's Cut"
+            },
+            {
+              "kind": "live",
+              "url": "7cwmSwPae1I",
+              "label": "ENEMY @ THIS IS FOR World Tour, MUFG Stadium Tokyo (Day 3)",
+              "official": false
             }
           ]
         },
         {
           "title": "Fine",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "HJMwf69nbts",
+              "label": "Fine (트와이스 Fine 가사) (Lyrics (Color Coded Lyrics (Kan/Rom/Eng)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "One Day",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "nuycL3xFyak",
+              "label": "One day Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Blind in Love",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "Gykj1PjX_Dc",
+              "label": "Blind in Love Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Love Is More",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "52JRFO_4UhY",
+              "label": "Love is more Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "The Wish",
@@ -8497,31 +8974,64 @@
               "url": "GrWWM5KGf4c",
               "official": true,
               "label": "Making Movie"
+            },
+            {
+              "kind": "lyric",
+              "url": "KS-Gyw9xxwU",
+              "label": "The Wish Lyrics (Color Coded Lyrics)",
+              "official": false
             }
           ]
         },
         {
           "title": "Glow",
-          "videos": [],
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "rq8qBb4B7CA",
+              "label": "Glow (TWICE) Lyric Video by Dahyun",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "Kundb6WpshM",
+              "label": "Glow Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ],
           "writtenBy": "Dahyun"
         },
         {
           "title": "Like 1",
           "videos": [
             {
-              "kind": "other",
+              "kind": "special",
               "url": "Xtfxxo4QgJA",
               "official": true,
               "label": "Animation Movie"
             },
             {
-              "kind": "other",
+              "kind": "special",
               "url": "M0FUPbM9ktI",
               "official": true,
               "label": "Cheering Guide"
+            },
+            {
+              "kind": "live",
+              "url": "https://weibo.com/tv/show/1034:5192777127100673",
+              "label": "Like 1 fancam (Weibo)",
+              "official": false,
+              "fancam": true
+            },
+            {
+              "kind": "lyric",
+              "url": "leQNNW1Gnj0",
+              "label": "Like 1 Lyrics (Color Coded Lyrics)",
+              "official": false
             }
           ],
-          "writtenBy": "Jihyo"
+          "writtenBy": "Jihyo",
+          "note": "Composed by Taka & Toru of ONE OK ROCK"
         }
       ]
     },
@@ -8545,59 +9055,165 @@
         {
           "title": "Avocado",
           "artist": "feat. Gliiico",
-          "videos": [],
+          "videos": [
+            {
+              "kind": "special",
+              "url": "NlHD4ndO-z0",
+              "label": "Welcome to LIL FANTASY: AVOCADO (feat. Gliiico)",
+              "official": true
+            }
+          ],
           "writtenBy": "Chaeyoung",
           "composedBy": "Chaeyoung"
         },
         {
           "title": "Band-Aid",
-          "videos": [],
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "B8WjP-C7TDg",
+              "label": "CHAEYOUNG (TWICE) BAND-AID Lyrics (채영 BAND-AID 가사) [Color Coded_Eng]",
+              "official": false
+            }
+          ],
           "writtenBy": "Chaeyoung",
           "composedBy": "Chaeyoung"
         },
         {
           "title": "Shoot (Firecracker)",
           "titleTrack": true,
-          "videos": [],
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "tl2luF-JRlU",
+              "label": "CHAEYOUNG SHOOT (Firecracker) M/V",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "DzxykhI_8v4",
+              "label": "SHOOT (Firecracker) Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "9zEvLqQT1bQ",
+              "label": "CHAEYOUNG SHOOT (Firecracker) Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "mXM-SvJh4PM",
+              "label": "SHOOT (Firecracker) @ Inkigayo 250914",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "hKgTbkiGhnU",
+              "label": "SHOOT (Firecracker) @ Show! Music Core 250913",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "xpwxHrzcTkI",
+              "label": "SHOOT (Firecracker) @ THIS IS FOR, MUFG Stadium 260425-26",
+              "official": false,
+              "fancam": true
+            }
+          ],
           "writtenBy": "Chaeyoung",
           "composedBy": "Chaeyoung"
         },
         {
           "title": "Girl",
-          "videos": [],
+          "videos": [
+            {
+              "kind": "live",
+              "url": "ML3knJPwNTA",
+              "label": "CHAEYOUNG GIRL Live Clip",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "_lymIMEgcZQ",
+              "label": "CHAEYOUNG (TWICE) GIRL Lyrics (채영 GIRL 가사) [Color Coded Han_Rom_Eng]",
+              "official": false
+            }
+          ],
           "writtenBy": "Chaeyoung",
           "composedBy": "Chaeyoung"
         },
         {
           "title": "Ribbons",
           "artist": "feat. Sumin, Jibin of Y2K92",
-          "videos": [],
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "VbeGAamilHE",
+              "label": "CHAEYOUNG (TWICE) RIBBONS (Feat. SUMIN & Jibin) Lyrics (채영 RIBBONS 가사)",
+              "official": false
+            }
+          ],
           "writtenBy": "Chaeyoung",
           "composedBy": "Chaeyoung"
         },
         {
           "title": "Downpour",
-          "artist": "with Kai",
-          "videos": [],
+          "artist": "with Kai of Gliiico",
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "kFY9NMR_Mjs",
+              "label": "CHAEYOUNG (TWICE) DOWNPOUR (Feat. Gliiico) Lyrics (채영 DOWNPOUR 가사) [Co",
+              "official": false
+            }
+          ],
           "writtenBy": "Chaeyoung",
           "composedBy": "Chaeyoung"
         },
         {
           "title": "BF",
-          "videos": [],
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "f4Oi3_j6CSo",
+              "label": "CHAEYOUNG (TWICE) BF Lyrics (채영 BF 가사) [Color Coded Han_Rom_Eng]",
+              "official": false
+            }
+          ],
           "writtenBy": "Chaeyoung"
         },
         {
           "title": "Shadow Puppet",
           "titleKo": "그림자놀이",
-          "videos": [],
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "vuX35riksmQ",
+              "label": "CHAEYOUNG (TWICE) Shadow Puppets Lyrics (채영 그림자놀이 가사) [Color Coded Han",
+              "official": false
+            }
+          ],
           "writtenBy": "Chaeyoung",
           "composedBy": "Chaeyoung"
         },
         {
           "title": "My Guitar",
           "titleKo": "내 기타",
-          "videos": [],
+          "videos": [
+            {
+              "kind": "live",
+              "url": "_XDMgxEOA3I",
+              "label": "[4K] CHAEYOUNG 「MY GUITAR」 @ Nissan Stadium",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "YT3XSzybI84",
+              "label": "CHAEYOUNG (TWICE) My Guitar Lyrics (채영 내 기타 가사) [Color Coded Han_Rom_E",
+              "official": false
+            }
+          ],
           "writtenBy": "Chaeyoung",
           "composedBy": "Chaeyoung"
         }
@@ -8926,10 +9542,22 @@
           "title": "Message",
           "videos": [
             {
-              "kind": "other",
+              "kind": "special",
+              "url": "FLGGeI0QT3k",
+              "label": "Film making-of set to Message (Kakukaku Shikajika theme song special video)",
+              "official": true
+            },
+            {
+              "kind": "special",
               "url": "4_12UdOTub0",
               "official": true,
               "label": "x Kakukaku Shikajika Special Movie"
+            },
+            {
+              "kind": "lyric",
+              "url": "NQInXtCliNU",
+              "label": "MESSAGE Color Coded Lyrics (KAN|ROM|ENG)",
+              "official": false
             }
           ]
         }

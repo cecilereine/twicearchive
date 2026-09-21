@@ -25,26 +25,31 @@ import json, re, sys, os, urllib.parse, urllib.request
 
 DATA = os.path.join(os.path.dirname(__file__), "..", "data", "discography.json")
 
-# Uploads from these channels are official: the label, the group, the
-# broadcasters and outlets whose shows the stages come from (KOCOWA is KBS,
-# MBC and SBS's own streaming service; it's Live is MBC's band-live series;
-# Genius for Open Mic; Billboard for its awards; Prime Video for Amazon Music
-# Live), CJ ENM's own channels (STUDIO CHOOM, and STONE MUSIC for drama
-# OSTs), YG PLUS's SEOUL MUSIC and KT's GENIE MUSIC for OSTs too, Netflix for
-# the KPop Demon Hunters material, and the other artist's own channel on a
-# collaboration (Riot's League of Legends for K/DA, Kobukuro for Sotsugyou,
-# Coco & Clair Clair for Pop Star). Everything else is fan-made.
+# Uploads from these channels are official:
+#   - the label and the group (JYP, TWICE, TWICE JAPAN, "- Topic" channels)
+#   - broadcasters and outlets whose shows the stages come from: Mnet/M2, KBS
+#     (incl. Cool FM), SBS, MBC (incl. MBC WORLD and it's Live), JTBC, tvN,
+#     KOCOWA (the three networks' streaming service), Genius (Open Mic),
+#     Billboard, MTV, The Tonight Show, Prime Video (Amazon Music Live), IU's
+#     own channel (IU's Palette) and Cinema Today (film studios' promos)
+#   - CJ ENM's STUDIO CHOOM and STONE MUSIC, YG PLUS's SEOUL MUSIC, KT's GENIE
+#     MUSIC, MOSTCONTENTS and VLENDING, which put out OSTs
+#   - Netflix and Sony Pictures Animation for KPop Demon Hunters
+#   - the other artist's own channel on a collaboration (League of Legends for
+#     K/DA, Kobukuro, Coco & Clair Clair, Coldplay, Saweetie)
+#   - any VEVO channel: VEVO only hosts labels' own uploads (Disney's Beyond)
+# Everything else is treated as fan-made.
 OFFICIAL = re.compile(r"""^(
     JYP\ Entertainment | TWICE | TWICE\ JAPAN\ OFFICIAL\ YouTube\ Channel |
     .*\ -\ Topic | Mnet\ K-POP | KBS\ Kpop | KBS\ WORLD\ TV | KBS\ CoolFM | SBS\ KPOP |
     SBSKPOP.* | SBS\ Entertainment | MBCentertainment |
-    MBCkpop | MBC\ every1 | Mwave | M2 | 1theK.* | Netflix.* |
+    MBCkpop | MBC\ every1 | MBC\ WORLD | Mwave | M2 | 1theK.* | Netflix.* | Sony\ Pictures.* | 이지금.* |
     Still\ Watching\ Netflix | Arirang\ K-Pop | 東宝MOVIEチャンネル | TOHO.*|
     JTBC\ Entertainment | JTBC.* | tvN\ D.* | Golden\ Disc | MAMA\ AWARDS | Melon\ Music\ Awards | The\ Fact\ Music\ Awards |
     SBS\ Awards | KBS\ Song\ Festival | MBC\ Music\ Festival | STUDIO\ CHOOM.* |
     it's\ Live |
     League\ of\ Legends | コブクロ\ 公式チャンネル | Genius | STONE\ MUSIC |
-    coco\ &\ clair\ clair |
+    coco\ &\ clair\ clair | Coldplay | Official\ Saweetie | .*VEVO | 모스트콘텐츠.* | シネマトゥデイ | VLENDING.* |
     KOCOWA\ TV | SEOUL\ MUSIC.* | SBS\ Catch | MTV | GENIE\ MUSIC |
     Billboard | The\ Tonight\ Show.* | Prime\ Video.*
 )$""", re.I | re.X)
@@ -55,7 +60,8 @@ RULES = [
     # a live performance at an anniversary event is still a live performance
     ("live",        r"special live"),
     ("special",     r"anniversary|\bspecial video\b|document video|기념|주년|cheering guide|응원법"
-                    r"|selfie (?:movie|mv)|behind the scenes|recording (?:video|film)|レコーディング|메이킹"),
+                    r"|selfie (?:movie|mv)|behind the scenes|recording (?:video|film)|レコーディング|메이킹"
+                    r"|happy holidays"),
     ("lyric",       r"lyric"),
     ("dance-performance", r"relay ?dance|릴레이 ?댄스|be original|studio choom original|frame dance"),
     ("dance",       r"dance (practice|video)|choreography|dance ver"),
