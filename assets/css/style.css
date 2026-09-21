@@ -428,6 +428,7 @@ a { color: inherit; }
   border: 1px solid transparent;
 }
 .badge[data-kind="mv"]          { background:#ff6fa5; color:#fff; }
+.badge[data-kind="special"]     { background:#d98cf0; color:#2a1b22; }
 .badge[data-kind="lyric"]       { background:#8b6fd1; color:#fff; }
 .badge[data-kind="performance"] { background:#3f8fd6; color:#fff; }
 .badge[data-kind="dance"]       { background:#4ec9b0; color:#123; }

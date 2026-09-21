@@ -139,6 +139,7 @@ function toggleWatched(v) {
 
 const KIND_LABEL = {
   mv:          'M/V',
+  special:     'Special',
   lyric:       'Lyric Video',
   performance: 'Performance',
   dance:       'Dance Practice',

@@ -2326,13 +2326,44 @@
               "kind": "mv",
               "url": "CfUGjK6gGgs",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "Vt-OlpYtXbc",
+              "label": "「The best thing I ever did」 FHD। Dream Day concert at Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "c-CMdhojphc",
+              "label": "[4K60] The Best Thing I Ever Did ENCORE 4TH WORLD TOUR III (Bluray)",
+              "official": false
             }
           ]
         },
         {
           "title": "Be as One",
           "note": "Korean ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "special",
+              "url": "Svk07DjlTE8",
+              "label": "ONCE와 TWICE. 4년, 그리고 하루. Be as ONE. (2019 anniversary)",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "bp4InMLGJl8",
+              "label": "Be as ONE (Korean Ver.) Live Stage @ ＜THIS IS FOR＞ WORLD TOUR FINALE I",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "4KwOjoatoaA",
+              "label": "Twicelights Be as one",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -2864,7 +2895,14 @@
         {
           "title": "Fancy",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "6LbWN3FVfqI",
+              "label": "「FANCY -Japanese ver.-」Music Video",
+              "official": true
+            }
+          ]
         },
         {
           "title": "Feel Special",

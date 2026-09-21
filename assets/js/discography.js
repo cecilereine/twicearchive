@@ -30,7 +30,7 @@ const state = {
 /* Lyric videos read as a footnote to a track, so they always come last however
    the data file happens to be ordered. Sorting here rather than only in the
    data means a hand-edited entry can't show up out of place. */
-const VIDEO_ORDER = { mv: 0, dance: 1, performance: 2, live: 3, other: 4, lyric: 5 };
+const VIDEO_ORDER = { mv: 0, special: 1, dance: 2, performance: 3, live: 4, other: 5, lyric: 6 };
 const orderVideos = list =>
   [...(list || [])].sort((a, b) =>
     (a.pin ? 0 : 1) - (b.pin ? 0 : 1) ||

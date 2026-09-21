@@ -40,6 +40,7 @@ OFFICIAL = re.compile(r"""^(
 RULES = [
     ("audio",       r"official audio"),
     ("mv",          r"\bM/V\b|Music Video|\bMV\b"),
+    ("special",     r"anniversary|\bspecial video\b|document video|기념|주년"),
     ("lyric",       r"lyric"),
     ("dance",       r"dance (practice|video)|choreography|dance ver"),
     ("performance", r"comeback stage|music bank|show champion|inkigayo|music ?core"
@@ -54,7 +55,8 @@ RULES = [
 norm = lambda s: re.sub(r"[^a-z0-9가-힣]", "", (s or "").lower())
 
 # Lyric videos always sort to the end of a track's list.
-VIDEO_ORDER = {"mv": 0, "dance": 1, "performance": 2, "live": 3, "other": 4, "lyric": 5}
+VIDEO_ORDER = {"mv": 0, "special": 1, "dance": 2, "performance": 3,
+               "live": 4, "other": 5, "lyric": 6}
 
 
 def start_at(url):
@@ -114,7 +116,8 @@ def caption(title, kind):
     """A short caption. Strips the group name, then tidies up what that leaves
        behind — an empty "()" where "(트와이스)" used to be, stray quote marks
        and the ♪ that music shows put on the end."""
-    t = re.sub(r"\bTWICE\b\s*\(트와이스\)|\bTWICE\b|트와이스|\bMISAMO\b", "", title, flags=re.I)
+    t = re.sub(r"^\s*(?:\bTWICE\b\s*\(트와이스\)|\bTWICE\b|트와이스|\bMISAMO\b)\s*",
+               "", title, flags=re.I)
     t = re.sub(r"[\"\u201c\u201d'\u2018\u2019\u2032]", "", t)
     t = re.sub(r"\(\s*\)|\[\s*\]", "", t)
     t = re.sub(r"\s{2,}", " ", t).strip(" -|\u00b7,\u266a")

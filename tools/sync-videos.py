@@ -17,7 +17,8 @@ import json, os, sys
 from collections import defaultdict
 
 DATA = os.path.join(os.path.dirname(__file__), "..", "data", "discography.json")
-ORDER = {"mv": 0, "dance": 1, "performance": 2, "live": 3, "other": 4, "lyric": 5}
+ORDER = {"mv": 0, "special": 1, "dance": 2, "performance": 3,
+         "live": 4, "other": 5, "lyric": 6}
 
 
 def rank(v):
