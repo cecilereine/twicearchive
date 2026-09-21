@@ -9,8 +9,8 @@
      data/ changes, so a browser can't pair new HTML with a stale script or stale
      data the way GitHub Pages' ten minute cache otherwise allows. The scripts
      pass their own ?v= through to the data file they fetch. -->
-<link rel="icon" href="assets/img/favicon.svg?v=66">
-<link rel="stylesheet" href="assets/css/style.css?v=66">
+<link rel="icon" href="assets/img/favicon.svg?v=67">
+<link rel="stylesheet" href="assets/css/style.css?v=67">
 <script>try{var t=localStorage.getItem('twice-archive:theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 </head>
 <body>
@@ -32,7 +32,8 @@
       <span class="emoji">💿</span>
       <h2>Discography</h2>
       <p>Every release, with M/Vs, lyric videos, audio and performances filed per track.</p>
-      <span class="tag">65 releases · KR · JP · Solo</span>
+      <span class="tag">103 releases · KR · JP · Solo · OST</span>
+      <span class="hub-progress" id="discoProgress" hidden></span>
     </a>
 
     <!-- Copy discography.html + its data file to add one of these. -->
@@ -64,6 +65,28 @@
   </footer>
 
 </div>
-<script src="assets/js/theme.js?v=66"></script>
+<script src="assets/js/theme.js?v=67"></script>
+<script>
+/* Watched progress on the Discography card. The discography page leaves its
+   totals in localStorage each time it counts them, so the hub can show them
+   without loading the whole data file. Nothing stored yet — never visited, or
+   storage off — and the line simply stays hidden. */
+(function () {
+  var host = document.getElementById('discoProgress');
+  var p;
+  try { p = JSON.parse(localStorage.getItem('twice-archive:discography-progress') || 'null'); }
+  catch (e) { p = null; }
+  if (!host || !p || !p.total) return;
+  var done = p.seen >= p.total;
+  host.classList.toggle('done', done);
+  host.innerHTML =
+    '<i class="bar"><b style="width:' + Math.round(100 * p.seen / p.total) + '%"></b></i>' +
+    (done
+      ? '✓ All ' + p.total + ' videos watched'
+      : '<b>' + p.seen + '</b> / ' + p.total + ' videos watched · ' +
+        p.done + ' of ' + p.releases + ' releases done');
+  host.hidden = false;
+})();
+</script>
 </body>
 </html>

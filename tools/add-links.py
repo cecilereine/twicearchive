@@ -34,7 +34,7 @@ DATA = os.path.join(os.path.dirname(__file__), "..", "data", "discography.json")
 #     own channel (IU's Palette), dingo japan (MOVE REC.), MUSIC AWARDS JAPAN
 #     and Cinema Today (film studios' promos)
 #   - CJ ENM's STUDIO CHOOM and STONE MUSIC, YG PLUS's SEOUL MUSIC, KT's GENIE
-#     MUSIC, MOSTCONTENTS and VLENDING, which put out OSTs
+#     MUSIC, MOSTCONTENTS, VLENDING and YAMYAM Entertainment, which put out OSTs
 #   - Netflix and Sony Pictures Animation for KPop Demon Hunters
 #   - the other artist's own channel on a collaboration (League of Legends for
 #     K/DA, Kobukuro, Coco & Clair Clair, Coldplay, Saweetie, Corbyn Besson, RedOne,
@@ -52,7 +52,7 @@ OFFICIAL = re.compile(r"""^(
     it's\ Live | dingo\ japan | MUSIC\ AWARDS\ JAPAN.* |
     League\ of\ Legends | コブクロ\ 公式チャンネル | Genius | STONE\ MUSIC |
     coco\ &\ clair\ clair | Coldplay | Official\ Saweetie | Corbyn\ Besson | RedOne | FANDOM | .*VEVO | 모스트콘텐츠.* | シネマトゥデイ | VLENDING.* |
-    KOCOWA\ TV | SEOUL\ MUSIC.* | SBS\ Catch | MTV | GENIE\ MUSIC |
+    KOCOWA\ TV | SEOUL\ MUSIC.* | SBS\ Catch | MTV | GENIE\ MUSIC | .*YAMYAM\ ENTERTAINMENT |
     Billboard | The\ Tonight\ Show.* | Prime\ Video.*
 )$""", re.I | re.X)
 

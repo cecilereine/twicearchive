@@ -20,8 +20,6 @@ const state = {
   query: '',
   era: 'all',
   category: 'all',
-  unwatchedOnly: false,
-  needsLinks: false,
   openId: null,
 };
 
@@ -119,21 +117,12 @@ function matchesQuery(album, q) {
   return hay.includes(q);
 }
 
-function visibleTracks(album) {
-  let tracks = album.tracks;
-  if (state.needsLinks)     tracks = tracks.filter(t => !(t.videos || []).length);
-  if (state.unwatchedOnly)  tracks = tracks.filter(t => (t.videos || []).some(v => !isWatched(v)));
-  return tracks;
-}
-
 function visibleAlbums() {
   const q = state.query.trim().toLowerCase();
   return state.data.albums.filter(a => {
     if (state.category !== 'all' && a.category !== state.category) return false;
     if (state.era !== 'all' && albumYear(a) !== state.era) return false;
     if (!matchesQuery(a, q)) return false;
-    if (state.needsLinks && !a.tracks.some(t => !(t.videos || []).length)) return false;
-    if (state.unwatchedOnly && !allVideos(a).some(v => !isWatched(v))) return false;
     return true;
   });
 }
@@ -170,17 +159,22 @@ function renderGrid() {
     </section>`).join('');
 }
 
+/* Watched state on a cover reads the way YouTube's does: a bar along the bottom
+   edge fills as videos are watched, and a finished release gets a tick, a
+   dimmed cover and a green frame, so "done" shows from across the grid without
+   reading a number. */
 function albumCard(album) {
   const vids  = allVideos(album);
   const seen  = vids.filter(isWatched).length;
   const done  = vids.length > 0 && seen === vids.length;
-  const ring  = vids.length
-    ? `<span class="ring${done ? ' done' : ''}">${seen}/${vids.length}</span>`
-    : `<span class="ring">no links yet</span>`;
+  const pill  = !vids.length ? 'no links yet' : done ? '✓ Watched' : `${seen}/${vids.length}`;
+  const extra = `<span class="ring${done ? ' done' : ''}">${pill}</span>` +
+    (vids.length ? `<span class="bar"><i style="width:${Math.round(100 * seen / vids.length)}%"></i></span>` : '') +
+    (done ? '<span class="tick" aria-hidden="true">✓</span>' : '');
 
   return `
-    <button type="button" class="album-card" data-album="${escapeHtml(album.id)}">
-      ${coverHtml(album, ring)}
+    <button type="button" class="album-card${done ? ' done' : ''}" data-album="${escapeHtml(album.id)}">
+      ${coverHtml(album, extra)}
       <div class="body">
         <h3>${escapeHtml(album.title)}</h3>
         ${album.artist ? `<p class="card-artist">${escapeHtml(album.artist)}</p>` : ''}
@@ -194,7 +188,7 @@ function albumCard(album) {
 /* ---------- album panel ---------- */
 
 function renderPanel(album) {
-  const tracks = visibleTracks(album);
+  const tracks = album.tracks;
   const vids   = allVideos(album);
   const seen   = vids.filter(isWatched).length;
   const allSeen = vids.length > 0 && seen === vids.length;
@@ -213,6 +207,17 @@ function renderPanel(album) {
   const region = album.regionLocked
     ? `<p class="region-lock">${escapeHtml(album.regionLocked)}</p>` : '';
 
+  /* Neighbours in the order the grid is showing, so with a category or year
+     chip on the arrows walk through just those. A release opened from a link
+     while the filters hide it falls back to the full list. */
+  let trail = visibleAlbums();
+  if (!trail.some(a => a.id === album.id)) trail = state.data.albums;
+  const at = trail.findIndex(a => a.id === album.id);
+  const arrow = (a, id, dir, glyph) => a
+    ? `<button type="button" class="panel-arrow" id="${id}" data-go="${escapeHtml(a.id)}"
+          title="${escapeHtml(a.title)}" aria-label="${dir}: ${escapeHtml(a.title)}">${glyph}</button>`
+    : `<button type="button" class="panel-arrow" id="${id}" disabled aria-label="${dir}">${glyph}</button>`;
+
   el('panelBody').innerHTML = `
     <div class="panel-head">
       ${coverHtml(album)}
@@ -230,15 +235,19 @@ function renderPanel(album) {
         <div class="stream-links">${services}</div>
         ${region}
       </div>
-      <button type="button" class="panel-close" id="panelClose" aria-label="Close">&times;</button>
+      <div class="panel-nav">
+        ${arrow(trail[at - 1], 'panelPrev', 'Previous release', '‹')}
+        ${arrow(trail[at + 1], 'panelNext', 'Next release', '›')}
+        <button type="button" class="panel-close" id="panelClose" aria-label="Close">&times;</button>
+      </div>
     </div>
     <div class="panel-body">
-      ${tracks.length
-        ? tracks.map((t, i) => trackRow(t, album.tracks.indexOf(t) + 1)).join('')
-        : `<p class="empty-state">No tracks match the current filters.</p>`}
+      ${tracks.map((t, i) => trackRow(t, i + 1)).join('')}
     </div>`;
 
   el('panelClose').addEventListener('click', closePanel);
+  for (const b of el('panelBody').querySelectorAll('[data-go]'))
+    b.addEventListener('click', () => goTo(b.dataset.go));
   /* One click for the whole release; once everything is watched it undoes. The
      grid's per-release counts refresh when the panel closes. */
   el('markAll')?.addEventListener('click', () => {
@@ -249,8 +258,7 @@ function renderPanel(album) {
 }
 
 function trackRow(track, no) {
-  const vids = orderVideos(track.videos)
-    .filter(v => !state.unwatchedOnly || !isWatched(v));
+  const vids = orderVideos(track.videos);
 
   const body = vids.length
     ? `<div class="video-strip">${vids.map(videoCard).join('')}</div>`
@@ -286,6 +294,14 @@ function openPanel(id) {
   if (location.hash.slice(1) !== id) history.pushState(null, '', '#' + id);
 }
 
+/* Step to a neighbouring release without closing. The grid redraws first so
+   the card being left shows what was watched in it. */
+function goTo(id) {
+  renderGrid();
+  openPanel(id);
+  el('overlay').scrollTop = 0;
+}
+
 function closePanel() {
   state.openId = null;
   el('overlay').classList.remove('open');
@@ -301,6 +317,50 @@ function renderProgress() {
   const all  = state.data.albums.flatMap(allVideos);
   const seen = all.filter(isWatched).length;
   el('progress').innerHTML = `<b>${seen}</b> / ${all.length} videos watched`;
+  renderReset(seen);
+
+  /* The hub shows the same totals on its Discography card without loading the
+     data file: the numbers are left here for it, in the same browser the
+     watched marks live in. */
+  const releases = state.data.albums.filter(a => allVideos(a).length);
+  const done = releases.filter(a => allVideos(a).every(isWatched)).length;
+  try {
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(
+      { seen, total: all.length, done, releases: releases.length }));
+  } catch { /* nothing to remember */ }
+}
+
+/* ---------- reset ----------
+
+   Wiping every mark shouldn't happen on one stray click, and a browser confirm
+   box would be jarring here. So the button arms on the first click and clears
+   on the second; left alone it disarms itself. */
+
+let resetTimer = null;
+
+function renderReset(seen) {
+  const btn = el('resetProgress');
+  clearTimeout(resetTimer);
+  btn.classList.remove('armed');
+  btn.disabled = !seen;
+  btn.textContent = seen ? `Reset watched progress · ${seen}` : 'Nothing watched yet';
+}
+
+function wireReset() {
+  el('resetProgress').addEventListener('click', e => {
+    const btn = e.currentTarget;
+    if (!btn.classList.contains('armed')) {
+      const seen = watched.size;
+      btn.classList.add('armed');
+      btn.textContent = `Clear ${seen} watched mark${seen === 1 ? '' : 's'}? Click again`;
+      resetTimer = setTimeout(() => renderReset(seen), 4000);
+      return;
+    }
+    clearWatched();
+    renderGrid();
+    renderProgress();                 /* also disarms the button */
+    if (state.openId) renderPanel(state.data.albums.find(a => a.id === state.openId));
+  });
 }
 
 /* ---------- filters ---------- */
@@ -351,20 +411,6 @@ function wireFilters() {
     [...el('eras').children].forEach(c => c.classList.toggle('on', c === chip));
     renderGrid();
   });
-
-  el('unwatched').addEventListener('click', e => {
-    state.unwatchedOnly = !state.unwatchedOnly;
-    e.currentTarget.classList.toggle('on', state.unwatchedOnly);
-    renderGrid();
-    if (state.openId) renderPanel(state.data.albums.find(a => a.id === state.openId));
-  });
-
-  el('needsLinks').addEventListener('click', e => {
-    state.needsLinks = !state.needsLinks;
-    e.currentTarget.classList.toggle('on', state.needsLinks);
-    renderGrid();
-    if (state.openId) renderPanel(state.data.albums.find(a => a.id === state.openId));
-  });
 }
 
 /* ---------- where you were ----------
@@ -375,7 +421,8 @@ function wireFilters() {
    puts both back once everything is drawn. sessionStorage is per tab and goes
    when the tab closes; if storage is off there's simply nothing to restore. */
 
-const SCROLL_KEY = 'twice-archive:discography-scroll';
+const SCROLL_KEY   = 'twice-archive:discography-scroll';
+const PROGRESS_KEY = 'twice-archive:discography-progress';
 
 function saveScroll() {
   try {
@@ -415,6 +462,7 @@ async function init() {
   renderCategoryChips();
   renderEraChips();
   wireFilters();
+  wireReset();
   renderGrid();
   renderProgress();
 
@@ -433,7 +481,13 @@ async function init() {
     if (e.target === el('overlay')) closePanel();
   });
   document.addEventListener('keydown', e => {
-    if (e.key === 'Escape' && state.openId) closePanel();
+    if (!state.openId) return;
+    if (e.key === 'Escape') closePanel();
+    /* ← → step between releases, unless you're typing somewhere. */
+    if ((e.key === 'ArrowLeft' || e.key === 'ArrowRight') && !e.target.matches?.('input, textarea')) {
+      const b = el(e.key === 'ArrowLeft' ? 'panelPrev' : 'panelNext');
+      if (b?.dataset.go) goTo(b.dataset.go);
+    }
   });
 
   wireVideoCards(el('overlay'), () => { renderProgress(); });

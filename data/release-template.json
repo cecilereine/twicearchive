@@ -5,7 +5,7 @@
     "Copy a block below into its \"albums\" array. Order doesn't matter;",
     "the page sorts by \"released\" and groups by year on its own.",
     "",
-    "Set \"category\" so the planned Korean / Japanese / Solo filter picks it up:",
+    "Set \"category\" so the Korean / Japanese / Solo / OST filter picks it up:",
     "  korean | japanese | solo",
     "",
     "Validate before committing:  python3 -m json.tool data/discography.json"
@@ -14,7 +14,7 @@
   "_FIELDS": {
     "id":         "REQUIRED. kebab-case, unique across the whole file. Used in the #deep-link.",
     "title":      "REQUIRED. As it should display.",
-    "category":   "REQUIRED. korean | japanese | solo",
+    "category":   "REQUIRED. korean | japanese | solo | ost (soundtrack singles)",
     "artist":     "OPTIONAL. The other act on a collaboration, or the member for a solo release.",
     "seq":        "Free text under the type badge. '1st Japanese Album', 'Single', '2nd Mini Album'.",
     "type":       "REQUIRED. EP | Full Album | Single | Reissue | Compilation",

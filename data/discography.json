@@ -14,6 +14,10 @@
     {
       "key": "solo",
       "label": "Solo & Units"
+    },
+    {
+      "key": "ost",
+      "label": "OST"
     }
   ],
   "memberColors": {
@@ -2180,7 +2184,7 @@
       "id": "like-a-star",
       "title": "Like a Star",
       "artist": "Jeongyeon with Gong Seung-yeon",
-      "category": "solo",
+      "category": "ost",
       "seq": "OST",
       "type": "Single",
       "released": "2018-10-25",
@@ -4284,7 +4288,7 @@
     {
       "id": "i-love-you-more-than-anyone",
       "title": "I Love You More Than Anyone",
-      "category": "korean",
+      "category": "ost",
       "seq": "OST",
       "type": "Single",
       "released": "2021-07-09",
@@ -5029,7 +5033,7 @@
       "id": "stardust-love-song",
       "title": "Stardust Love Song",
       "artist": "Jihyo",
-      "category": "solo",
+      "category": "ost",
       "seq": "OST",
       "type": "Single",
       "released": "2022-03-06",
@@ -5560,7 +5564,7 @@
       "id": "i-fly",
       "title": "I Fly",
       "artist": "Jihyo",
-      "category": "solo",
+      "category": "ost",
       "seq": "OST",
       "type": "Single",
       "released": "2022-07-29",
@@ -5794,7 +5798,7 @@
       "id": "a-strange-day",
       "title": "A Strange Day",
       "artist": "Jihyo",
-      "category": "solo",
+      "category": "ost",
       "seq": "OST",
       "type": "Single",
       "released": "2022-11-14",
@@ -7904,7 +7908,7 @@
       "id": "beyond-moana",
       "title": "Beyond",
       "artist": "Nayeon feat. Te Vaka",
-      "category": "solo",
+      "category": "ost",
       "seq": "OST",
       "type": "Single",
       "released": "2024-11-20",
@@ -8160,7 +8164,7 @@
       "id": "apple-of-my-eye",
       "title": "You Are the Apple of My Eye",
       "artist": "Dahyun with Jinyoung",
-      "category": "solo",
+      "category": "ost",
       "seq": "OST",
       "type": "Single",
       "released": "2025-02-20",
@@ -8362,9 +8366,42 @@
       ]
     },
     {
+      "id": "era-with-nayeon",
+      "title": "Era (Remix)",
+      "artist": "Tayla Parx with Nayeon",
+      "category": "solo",
+      "seq": "Collaboration",
+      "type": "Single",
+      "released": "2025-06-13",
+      "cover": "assets/img/covers/era-with-nayeon.jpg",
+      "note": "Tayla Parx's Era with a new Nayeon verse, released as \"Era with NAYEON - (Remix)\".",
+      "links": {
+        "spotify": "https://open.spotify.com/track/0Nezjtp74RRI0p6C3gXN13",
+        "appleMusic": "https://music.apple.com/ph/album/era-remix-single/1815777569",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Era",
+          "note": "Remix",
+          "artist": "Tayla Parx with Nayeon",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "9c3U7zBQBFM",
+              "label": "Era (Remix) Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "takedown",
       "title": "Takedown",
-      "category": "korean",
+      "category": "ost",
       "seq": "OST",
       "type": "Single",
       "released": "2025-06-20",
@@ -8409,7 +8446,7 @@
       "id": "new-days",
       "title": "New Days",
       "artist": "Jihyo",
-      "category": "solo",
+      "category": "ost",
       "seq": "OST",
       "type": "Single",
       "released": "2025-06-28",
@@ -9843,6 +9880,50 @@
               "kind": "lyric",
               "url": "NQInXtCliNU",
               "label": "MESSAGE Color Coded Lyrics (KAN|ROM|ENG)",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "love-is-enough",
+      "title": "Love Is Enough",
+      "artist": "Nayeon",
+      "category": "ost",
+      "seq": "OST",
+      "type": "Single",
+      "released": "2026-05-07",
+      "cover": "assets/img/covers/love-is-enough.jpg",
+      "note": "Nayeon's second solo soundtrack release, for SBS' Sold Out on You (OST Part 7).",
+      "links": {
+        "spotify": "https://open.spotify.com/album/4OCK8PY77FI8t0wRFCFfO2",
+        "appleMusic": "https://music.apple.com/ph/album/love-is-enough-from-sold-out-on-you-original-soundtrack/1896215953",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Love Is Enough",
+          "titleKo": "괜찮아 사랑이니까",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "bcAp9yicW7M",
+              "label": "Music Video",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "VUObiUb716c",
+              "label": "Live Clip",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "f6tmb8_Z4YA",
+              "label": "Love Is Enough Lyrics",
               "official": false
             }
           ]

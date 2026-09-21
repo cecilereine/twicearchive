@@ -84,8 +84,8 @@ track title and is searchable, so typing "Tzuyu" or "Megan" finds those tracks.
 underneath it ("1st Mini Album", "Repackage"). Reissues list only their *new*
 tracks, with a `note` saying what they're a reissue of.
 
-To find links fast: turn on the **Needs links** filter, open a release, and every
-song without a video shows a *Search YouTube ↗* link that runs the search for you.
+To find links fast: open a release, and every song without a video shows a
+*Search YouTube ↗* link that runs the search for you.
 
 ## Adding links without labelling them
 
@@ -170,7 +170,7 @@ date sorts to the end of its year.
 
 ## Categories
 
-Korean, Japanese and solo releases all live in **one file**, `data/discography.json`,
+Korean, Japanese, solo and OST releases all live in **one file**, `data/discography.json`,
 and share one page. Every release carries a `category`:
 
 | `category` | meaning |
@@ -178,6 +178,7 @@ and share one page. Every release carries a `category`:
 | `korean` | Twice's Korean releases |
 | `japanese` | Twice's Japanese releases |
 | `solo` | member solo releases and sub-units |
+| `ost` | soundtrack singles, by the group or a member |
 
 The releases sort by date and group by year regardless of category, so a Japanese
 single slots in beside the Korean releases from the same year.
@@ -186,8 +187,15 @@ The filter chips at the top of the page switch between them, with a count on eac
 Picking a category also narrows the year chips to the years that category actually
 has, and resets the year if the current one disappears.
 
+Inside an open release, ‹ › (or the ← → keys) step to the previous or next
+release in the order the grid is showing, so a category or year chip narrows the
+trail too.
+
 Sub-units sit under `solo` — the label reads "Solo & Units" — so MISAMO is filed
-there rather than under `japanese`, even though its releases are Japanese.
+there rather than under `japanese`, even though its releases are Japanese. A
+soundtrack single goes under `ost` whoever sings it, so Jihyo's drama songs and the
+group's Hospital Playlist single sit together; an OST track on a regular album
+(Takedown on This Is For) stays with its album.
 
 To add releases, copy a block from `data/release-template.json`, which documents
 every field and has worked examples for a Japanese album and a solo release.
@@ -211,6 +219,10 @@ Set `data-accent` on `<html>` to re-tint the page — `discography` (pink),
 - **Watched marks** live in `localStorage` under `twice_archive_watched_v1`. They're
   per-browser, never leave the device, and clearing site data resets them. A video is
   keyed by its YouTube id, so marking it watched in one section marks it everywhere.
+  Each cover in the grid shows a progress bar along its bottom edge; a fully watched
+  release gets a tick, a dimmed cover and a green frame. The discography page also
+  leaves its totals under `twice-archive:discography-progress`, which the hub reads
+  to show "312 / 964 watched" on the Discography card without loading the data.
 - **Embeds are lazy.** Cards show YouTube's own thumbnail and only build the real
   player iframe when you press play — otherwise a page with a few hundred videos
   would pull tens of megabytes of player code before you watched anything. Players

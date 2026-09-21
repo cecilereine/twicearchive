@@ -140,6 +140,12 @@ function setWatchedAll(list, on) {
   saveWatched(watched);
 }
 
+/* Forget every mark in this browser — the "Reset watched progress" button. */
+function clearWatched() {
+  watched.clear();
+  saveWatched(watched);
+}
+
 /* ---------- 3. Video cards ------------------------------------------------
 
    The thumbnail is a link that opens the video on its own site in a new tab,

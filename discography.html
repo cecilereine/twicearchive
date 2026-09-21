@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Discography · TWICE Content Archive</title>
 <meta name="description" content="Every TWICE Korean release with its music videos, lyric videos and performance videos.">
-<link rel="icon" href="assets/img/favicon.svg?v=66">
-<link rel="stylesheet" href="assets/css/style.css?v=66">
+<link rel="icon" href="assets/img/favicon.svg?v=67">
+<link rel="stylesheet" href="assets/css/style.css?v=67">
 <script>try{var t=localStorage.getItem('twice-archive:theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 </head>
 <body>
@@ -27,8 +27,6 @@
     <div class="row">
       <input type="text" class="search" id="search"
              placeholder="🔍  Search a release or a song — “Feel Special”, “거북이”, “Cry for Me”…">
-      <button type="button" class="chip" id="unwatched">Only unwatched</button>
-      <button type="button" class="chip" id="needsLinks">Needs links</button>
       <span class="progress-pill" id="progress"></span>
     </div>
     <div class="row" id="categories"><!-- Korean / Japanese / Solo chips, built by discography.js --></div>
@@ -36,6 +34,10 @@
   </div>
 
   <div id="grid"></div>
+
+  <div class="reset-row">
+    <button type="button" class="chip danger" id="resetProgress">Reset watched progress</button>
+  </div>
 
   <footer class="site-foot">
     Release and track data from Wikipedia. “Watched” marks are stored in this browser only —
@@ -49,8 +51,8 @@
   <div class="panel" id="panelBody"></div>
 </div>
 
-<script src="assets/js/core.js?v=66"></script>
-<script src="assets/js/discography.js?v=66"></script>
-<script src="assets/js/theme.js?v=66"></script>
+<script src="assets/js/core.js?v=67"></script>
+<script src="assets/js/discography.js?v=67"></script>
+<script src="assets/js/theme.js?v=67"></script>
 </body>
 </html>
