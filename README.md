@@ -51,6 +51,7 @@ an embed, and you can give it a `"thumb": "assets/img/whatever.jpg"`.
 | `lyric` | Lyric Video |
 | `performance` | Performance |
 | `dance` | Dance Practice |
+| `dance-performance` | Dance Performance (relay dances, STUDIO CHOOM) |
 | `live` | Live |
 | `audio` | Audio |
 | `other` | Video |

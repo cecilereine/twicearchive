@@ -27,13 +27,16 @@ const state = {
 
 /* ---------- small helpers ---------- */
 
-/* Lyric videos read as a footnote to a track, so they always come last however
-   the data file happens to be ordered. Sorting here rather than only in the
-   data means a hand-edited entry can't show up out of place. */
-const VIDEO_ORDER = { mv: 0, special: 1, dance: 2, performance: 3, live: 4, other: 5, lyric: 6 };
+/* A pinned video leads, then every official upload ahead of every fan one, and
+   within each of those the kinds in VIDEO_ORDER, so lyric videos read as a
+   footnote to a track. Sorting here rather than only in the data means a
+   hand-edited entry can't show up out of place. */
+const VIDEO_ORDER = { mv: 0, special: 1, dance: 2, 'dance-performance': 2.5, performance: 3,
+                      live: 4, other: 5, lyric: 6 };
 const orderVideos = list =>
   [...(list || [])].sort((a, b) =>
     (a.pin ? 0 : 1) - (b.pin ? 0 : 1) ||
+    (a.official === false ? 1 : 0) - (b.official === false ? 1 : 0) ||
     (VIDEO_ORDER[a.kind] ?? 4) - (VIDEO_ORDER[b.kind] ?? 4));
 
 const allVideos = album => album.tracks.flatMap(t => t.videos || []);
@@ -75,7 +78,7 @@ function writtenByStyle(names) {
   if (!cols.length) {
     const g = state.data.groupColors;
     return g && g.length > 1
-      ? `background:linear-gradient(110deg, ${g.join(', ')});color:#fff;` : '';
+      ? `background:linear-gradient(110deg, ${g.join(', ')});color:${readableOn(g[0])};` : '';
   }
   const bg = cols.length === 1
     ? cols[0]
@@ -344,9 +347,37 @@ function wireFilters() {
   });
 }
 
+/* ---------- where you were ----------
+
+   The grid is only drawn once the data has loaded, which is after the browser
+   has already tried, and failed, to put you back where you were on a reload.
+   So this tab remembers the page's scroll and the open panel's own scroll, and
+   puts both back once everything is drawn. sessionStorage is per tab and goes
+   when the tab closes; if storage is off there's simply nothing to restore. */
+
+const SCROLL_KEY = 'twice-archive:discography-scroll';
+
+function saveScroll() {
+  try {
+    sessionStorage.setItem(SCROLL_KEY, JSON.stringify({
+      page: window.scrollY, panel: el('overlay').scrollTop, openId: state.openId }));
+  } catch { /* nothing to remember */ }
+}
+
+function savedScroll() {
+  try { return JSON.parse(sessionStorage.getItem(SCROLL_KEY) || 'null') || {}; }
+  catch { return {}; }
+}
+
 /* ---------- boot ---------- */
 
 async function init() {
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  window.addEventListener('pagehide', saveScroll);
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') saveScroll();
+  });
+
   let data;
   try {
     const res = await fetch(DATA_URL);
@@ -366,6 +397,11 @@ async function init() {
   wireFilters();
   renderGrid();
   renderProgress();
+
+  /* The page scroll goes back before a panel opens: an open panel locks the
+     page, and some browsers ignore scrollTo on a locked page. */
+  const where = savedScroll();
+  window.scrollTo(0, where.page || 0);
 
   el('grid').addEventListener('click', e => {
     const card = e.target.closest('[data-album]');
@@ -390,6 +426,7 @@ async function init() {
   };
   window.addEventListener('popstate', fromHash);
   fromHash();
+  if (state.openId && where.openId === state.openId) el('overlay').scrollTop = where.panel || 0;
 }
 
 init();

@@ -9,7 +9,8 @@ For each URL it asks YouTube's oEmbed endpoint for the video's real title and
 channel, then works out on its own:
 
   * which track it belongs to  — by finding the track name in the video title
-  * what kind of video it is   — mv / lyric / dance / performance / live / audio
+  * what kind of video it is   — mv / lyric / dance / dance-performance /
+                                 performance / live / audio
   * whether it is official     — from the channel, never from the title, because
                                  fan reuploads routinely call themselves
                                  "Official MV" and channels like "TWICE World"
@@ -25,8 +26,12 @@ import json, re, sys, os, urllib.parse, urllib.request
 DATA = os.path.join(os.path.dirname(__file__), "..", "data", "discography.json")
 
 # Uploads from these channels are official: the label, the group, the
-# broadcasters whose shows the stages come from, and Netflix for the KPop Demon
-# Hunters material. Everything else is treated as fan-made.
+# broadcasters and outlets whose shows the stages come from (KOCOWA is KBS,
+# MBC and SBS's own streaming service; Genius for Open Mic), CJ ENM's own
+# channels (STUDIO CHOOM, and STONE MUSIC for drama OSTs), YG PLUS's SEOUL
+# MUSIC for OSTs too, Netflix for the KPop Demon Hunters material, and the
+# other artist's own channel on a collaboration (Riot's League of Legends
+# for K/DA, Kobukuro for Sotsugyou). Everything else is treated as fan-made.
 OFFICIAL = re.compile(r"""^(
     JYP\ Entertainment | TWICE | TWICE\ JAPAN\ OFFICIAL\ YouTube\ Channel |
     .*\ -\ Topic | Mnet\ K-POP | KBS\ Kpop | KBS\ WORLD\ TV | SBS\ KPOP |
@@ -34,34 +39,44 @@ OFFICIAL = re.compile(r"""^(
     MBCkpop | MBC\ every1 | Mwave | M2 | 1theK.* | Netflix.* |
     Still\ Watching\ Netflix | Arirang\ K-Pop | 東宝MOVIEチャンネル | TOHO.*|
     JTBC\ Entertainment | JTBC.* | tvN\ D.* | Golden\ Disc | MAMA\ AWARDS | Melon\ Music\ Awards | The\ Fact\ Music\ Awards |
-    SBS\ Awards | KBS\ Song\ Festival | MBC\ Music\ Festival
+    SBS\ Awards | KBS\ Song\ Festival | MBC\ Music\ Festival | STUDIO\ CHOOM.* |
+    League\ of\ Legends | コブクロ\ 公式チャンネル | Genius | STONE\ MUSIC |
+    KOCOWA\ TV | SEOUL\ MUSIC.*
 )$""", re.I | re.X)
 
 RULES = [
     ("audio",       r"official audio"),
     ("mv",          r"\bM/V\b|Music Video|\bMV\b"),
-    ("special",     r"anniversary|\bspecial video\b|document video|기념|주년"),
+    # a live performance at an anniversary event is still a live performance
+    ("live",        r"special live"),
+    ("special",     r"anniversary|\bspecial video\b|document video|기념|주년|cheering guide|응원법"
+                    r"|selfie (?:movie|mv)"),
     ("lyric",       r"lyric"),
+    ("dance-performance", r"relay ?dance|릴레이 ?댄스|be original"),
     ("dance",       r"dance (practice|video)|choreography|dance ver"),
     ("performance", r"comeback stage|music bank|show champion|inkigayo|music ?core"
                     r"|m ?countdown|show! ?music|special stage|debut stage|kpop tv show"
                     r"|meet ?& ?greet|performs|stage ?mix|교차편집|뮤직뱅크|음악중심|쇼챔"
-                    r"|golden ?disc|골든디스크|mama|awards|가요대전|가요대축제|시상식"),
+                    r"|golden ?disc|골든디스크|mama|awards|가요대전|가요대축제|시상식"
+                    r"|song festival|music festival|late show|tonight show|kimmel"
+                    r"|good morning america|\bgma\d?\b|time ?100|ellen degeneres"
+                    r"|ellen show|open mic|music day|music station|\bmtv\b"
+                    r"|\b(?:MBC|KBS|SBS) \d{6} 방송"),
     ("live",        r"live|fancam|concert|tour|encore|fanmeet|showcase|begins"
                     r"|stadium|dome|직캠|@ |^\d{6}\b"
-                    r"|twiceland|twicelights|fantasy park|ready to be|이지리스닝"),
+                    r"|twiceland|twicelights|fantasy park|ready to be|이지리스닝|fan ?meeting"),
 ]
 
 norm = lambda s: re.sub(r"[^a-z0-9가-힣]", "", (s or "").lower())
 
 # Lyric videos always sort to the end of a track's list.
-VIDEO_ORDER = {"mv": 0, "special": 1, "dance": 2, "performance": 3,
-               "live": 4, "other": 5, "lyric": 6}
+VIDEO_ORDER = {"mv": 0, "special": 1, "dance": 2, "dance-performance": 2.5,
+               "performance": 3, "live": 4, "other": 5, "lyric": 6}
 
 
 def start_at(url):
-    """A ?t= on a link means "the good bit starts here" — keep it, the player
-       reads it back off the stored URL."""
+    """A ?t= on a link means "the good bit starts here" — keep it, the page
+       reads it back off the stored URL when it opens the video."""
     m = re.search(r"[?&](?:t|start)=(\d+)", url or "")
     return int(m.group(1)) if m else 0
 
@@ -77,7 +92,7 @@ def video_id(url):
 def lookup(vid):
     """Title and channel straight from YouTube, so nothing is guessed.
 
-    Returns (title, channel, embeddable). oEmbed answers 401 when the uploader
+    Returns (title, channel, handle, embeddable). oEmbed answers 401 when the uploader
     has turned embedding off — the video is fine, it just cannot play inside the
     page — so fall back to reading the watch page and flag it, rather than
     dropping a perfectly good link."""
@@ -86,7 +101,7 @@ def lookup(vid):
     try:
         with urllib.request.urlopen(api, timeout=15) as r:
             d = json.load(r)
-        return d["title"], d["author_name"], True
+        return d["title"], d["author_name"], handle(d.get("author_url")), True
     except urllib.error.HTTPError as e:
         if e.code not in (401, 403):
             raise
@@ -96,33 +111,55 @@ def lookup(vid):
         html = r.read().decode("utf-8", "replace")
     title = re.search(r'<meta name="title" content="([^"]{1,200})"', html)
     chan = re.search(r'"ownerChannelName":"((?:[^"\\]|\\.){1,100})"', html)
+    base = re.search(r'"canonicalBaseUrl":"(/@[^"]+)"', html)
     if not title:
         raise RuntimeError("embedding disabled and title not found")
     unescape = lambda x: x.encode().decode("unicode_escape") if "\\u" in x else x
-    return unescape(title.group(1)), unescape(chan.group(1)) if chan else "", False
+    return (unescape(title.group(1)), unescape(chan.group(1)) if chan else "",
+            handle(base.group(1) if base else None), False)
 
 
-def classify(title, channel):
+def handle(url):
+    m = re.search(r"/(@[^/?]+)", url or "")
+    return m.group(1) if m else ""
+
+
+# A fan channel can give itself one of these names too (@twice2379 calls itself
+# "TWICE"), so for them the handle decides rather than the name.
+OFFICIAL_HANDLE = {"twice": "@twice"}
+
+
+def is_official(channel, handle):
+    want = OFFICIAL_HANDLE.get(channel.strip().lower())
+    if want:
+        return handle.lower() == want
+    return bool(OFFICIAL.match(channel))
+
+
+def classify(title, channel, handle=""):
+    official = is_official(channel, handle)
     if channel.endswith(" - Topic"):
         kind = "audio"
     else:
         kind = next((k for k, pat in RULES if re.search(pat, title, re.I)), None)
         if kind is None:
-            kind = "live" if OFFICIAL.match(channel) else "other"
-    return kind, bool(OFFICIAL.match(channel))
+            kind = "live" if official else "other"
+    return kind, official
 
 
 def caption(title, kind):
     """A short caption. Strips the group name, then tidies up what that leaves
        behind — an empty "()" where "(트와이스)" used to be, stray quote marks
        and the ♪ that music shows put on the end."""
-    t = re.sub(r"^\s*(?:\bTWICE\b\s*\(트와이스\)|\bTWICE\b|트와이스|\bMISAMO\b)\s*",
+    t = re.sub(r"^\s*(?:\bTWICE\b\s*\((?:트와이스|トゥワイス)\)|트와이스\s*\(TWICE\)"
+               r"|\bTWICE\b\s*트와이스|\bTWICE\b|트와이스|\bMISAMO\b)\s*",
                "", title, flags=re.I)
     t = re.sub(r"[\"\u201c\u201d'\u2018\u2019\u2032]", "", t)
     t = re.sub(r"\(\s*\)|\[\s*\]", "", t)
-    t = re.sub(r"\s{2,}", " ", t).strip(" -|\u00b7,\u266a")
-    t = re.sub(r"^[-|\u00b7,\s]+", "", t)
+    t = re.sub(r"\s{2,}", " ", t).strip(" -\u2013\u2014|\u00b7,\u266a")
+    t = re.sub(r"^[-\u2013\u2014|\u00b7,\s]+", "", t)
     return t[:70] or {"mv": "M/V", "lyric": "Lyric Video", "dance": "Dance Practice",
+                      "dance-performance": "Dance Performance",
                       "performance": "Performance", "live": "Live",
                       "audio": "Official Audio"}.get(kind, "Video")
 
@@ -169,12 +206,20 @@ def main():
     dry = "--dry-run" in sys.argv
     if not args:
         sys.exit(__doc__)
-    album_id, urls = args[0], args[1:]
+    album_id, urls = args[0], [(u, None) for u in args[1:]]
     if not urls:
-        # Lines that aren't links are treated as headings you typed for your own
-        # benefit ("TT", "Jelly Jelly") and quietly ignored.
-        urls = [l for l in (ln.split("#")[0].strip() for ln in sys.stdin)
-                if l and video_id(l)]
+        # A line that isn't a link is a heading ("TT", "girls like us"). It
+        # applies to the links beneath it, and is used to place them — see
+        # below — rather than thrown away.
+        urls, heading = [], None
+        for ln in sys.stdin:
+            ln = ln.split("#")[0].strip()
+            if not ln:
+                continue
+            if video_id(ln):
+                urls.append((ln, heading))
+            else:
+                heading = ln.rstrip(":").strip()
 
     data = json.load(open(DATA))
     auto = album_id == "auto"
@@ -186,23 +231,34 @@ def main():
 
 
     added, skipped = [], []
-    for url in urls:
+    for url, heading in urls:
         vid = video_id(url)
         if not vid:
             skipped.append((url, "not a YouTube link")); continue
         try:
-            title, channel, embeddable = lookup(vid)
+            title, channel, chandle, embeddable = lookup(vid)
         except Exception as e:
             skipped.append((url, f"lookup failed ({e})")); continue
-        if auto:
-            target, track = best_album(data, title)
-        else:
-            target, track = album, match_track(album, title)
+        target = track = None
+        # the heading wins: it's what you meant, and for a showcase or medley
+        # the video title names some other song entirely
+        if heading:
+            for a in ([album] if album else data["albums"]):
+                t = next((t for t in a["tracks"] if norm(t["title"]) == norm(heading)
+                          or (t.get("titleKo") and norm(t["titleKo"]) == norm(heading))), None)
+                if t:
+                    target, track = a, t
+                    break
+        if track is None:
+            if auto:
+                target, track = best_album(data, title)
+            else:
+                target, track = album, match_track(album, title)
         if track is None:
             skipped.append((url, f"no track matches — {title[:60]}")); continue
         if any(video_id(v["url"]) == vid for v in track["videos"]):
             skipped.append((url, f"already on {track['title']}")); continue
-        kind, official = classify(title, channel)
+        kind, official = classify(title, channel, chandle)
         t = start_at(url)
         entry = {"kind": kind,
                  "url": f"https://www.youtube.com/watch?v={vid}&t={t}" if t else vid,
@@ -210,7 +266,9 @@ def main():
         if not embeddable:
             entry["noEmbed"] = True
         track["videos"].append(entry)
+        # pinned first, then official before fan, then by kind
         track["videos"].sort(key=lambda v: (0 if v.get("pin") else 1,
+                                            0 if v.get("official", True) else 1,
                                             VIDEO_ORDER.get(v.get("kind"), 4)))
         added.append((target["title"], track["title"], kind, official, channel,
                       entry["label"] + ("  [no-embed]" if not embeddable else "")))

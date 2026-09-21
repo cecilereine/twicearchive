@@ -17,8 +17,8 @@ import json, os, sys
 from collections import defaultdict
 
 DATA = os.path.join(os.path.dirname(__file__), "..", "data", "discography.json")
-ORDER = {"mv": 0, "special": 1, "dance": 2, "performance": 3,
-         "live": 4, "other": 5, "lyric": 6}
+ORDER = {"mv": 0, "special": 1, "dance": 2, "dance-performance": 2.5,
+         "performance": 3, "live": 4, "other": 5, "lyric": 6}
 
 
 def rank(v):
@@ -58,6 +58,7 @@ def main():
     for album in data["albums"]:
         for track in album["tracks"]:
             track["videos"].sort(key=lambda v: (0 if v.get("pin") else 1,
+                                                0 if v.get("official", True) else 1,
                                                 ORDER.get(v.get("kind"), 4)))
 
     for title, seq, track, url, diff in changed:

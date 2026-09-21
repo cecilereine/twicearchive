@@ -882,6 +882,13 @@
               "url": "t35H2BVq490",
               "label": "TT -Japanese ver.- Music Video",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2042880413",
+              "label": "181221 Music Station Super Live - BDZ + TT (Japanese Ver.) + What Is Love? (Japanese Ver.)",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/0ffbd51a429e50852fcb5358602e0b69.jpg@640w_360h.webp"
             }
           ]
         },
@@ -1399,16 +1406,16 @@
               "official": true
             },
             {
-              "kind": "performance",
-              "url": "qY22HPfafSQ",
-              "label": "Stage Mix (교차편집)",
-              "official": false
-            },
-            {
               "kind": "live",
               "url": "M83nVWOlQ0k",
               "label": "＜THIS IS FOR＞ WORLD TOUR IN JAPAN 「What is Love?」@ TOKYO DOME",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "qY22HPfafSQ",
+              "label": "Stage Mix (교차편집)",
+              "official": false
             }
           ]
         },
@@ -1471,7 +1478,7 @@
             {
               "kind": "performance",
               "url": "-5wuWmLdBLc",
-              "label": "[ - SAY YES] Comeback Stage | M COUNTDOWN 180412 EP.566",
+              "label": "[TWICE - SAY YES] Comeback Stage | M COUNTDOWN 180412 EP.566",
               "official": true
             },
             {
@@ -1538,6 +1545,13 @@
               "url": "DdLYSziSXII",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2046220417",
+              "label": "180525 Music Station - Wake Me Up",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/c8b6db6904402908c5e38dea5d99c61b.jpg@640w_360h.webp"
             },
             {
               "kind": "live",
@@ -1671,6 +1685,12 @@
               "official": true
             },
             {
+              "kind": "dance-performance",
+              "url": "R3Mrl-rthso",
+              "label": "[릴레이댄스] TWICE (트와이스) - Dance The Night Away @KCON18LA",
+              "official": true
+            },
+            {
               "kind": "performance",
               "url": "_eQmGhvr5U4",
               "label": "Music Bank Stage",
@@ -1679,7 +1699,7 @@
             {
               "kind": "performance",
               "url": "i9zVakPBcGM",
-              "label": "[ - Dance The Night Away] KPOP TV Show | M COUNTDOWN 180719 EP.579",
+              "label": "[TWICE - Dance The Night Away] KPOP TV Show | M COUNTDOWN 180719 EP.579",
               "official": true
             },
             {
@@ -1754,6 +1774,13 @@
               "official": true
             },
             {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2042880413",
+              "label": "181221 Music Station Super Live - BDZ + TT (Japanese Ver.) + What Is Love? (Japanese Ver.)",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/0ffbd51a429e50852fcb5358602e0b69.jpg@640w_360h.webp"
+            },
+            {
               "kind": "live",
               "url": "tW09vMcJQkQ",
               "label": "「BDZ」1st Arena Tour 2018 BDZ",
@@ -1800,6 +1827,13 @@
               "url": "400Ki4hG6kw",
               "label": "[KCON 2019 JAPAN] - BDZㅣKCON 2019 JAPAN × M COUNTDOWN",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2042880413",
+              "label": "181221 Music Station Super Live - BDZ + TT (Japanese Ver.) + What Is Love? (Japanese Ver.)",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/0ffbd51a429e50852fcb5358602e0b69.jpg@640w_360h.webp"
             },
             {
               "kind": "live",
@@ -1941,6 +1975,13 @@
               "url": "DdLYSziSXII",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2046220417",
+              "label": "180525 Music Station - Wake Me Up",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/c8b6db6904402908c5e38dea5d99c61b.jpg@640w_360h.webp"
             },
             {
               "kind": "live",
@@ -2186,6 +2227,12 @@
               "official": true
             },
             {
+              "kind": "dance-performance",
+              "url": "2z5-BPnYmiE",
+              "label": "[릴레이댄스] TWICE (트와이스) - YES or YES",
+              "official": true
+            },
+            {
               "kind": "performance",
               "url": "r-vLGzfFKVA",
               "label": "Music Bank Stage",
@@ -2194,7 +2241,7 @@
             {
               "kind": "performance",
               "url": "xxq4VeSB2yM",
-              "label": "[ - YES or YES] KPOP TV Show | M COUNTDOWN 181115 EP.596",
+              "label": "[TWICE - YES or YES] KPOP TV Show | M COUNTDOWN 181115 EP.596",
               "official": true
             }
           ]
@@ -2222,7 +2269,7 @@
             {
               "kind": "lyric",
               "url": "kURfpL3Tgw0",
-              "label": "– LALALA (Color Coded Lyrics Eng/Rom/Han/가사)",
+              "label": "LALALA (Color Coded Lyrics Eng/Rom/Han/가사)",
               "official": false
             }
           ],
@@ -2234,7 +2281,7 @@
             {
               "kind": "lyric",
               "url": "ly8eEhVt-u0",
-              "label": "– YOUNG & WILD (Color Coded Lyrics Eng/Rom/Han/가사)",
+              "label": "YOUNG & WILD (Color Coded Lyrics Eng/Rom/Han/가사)",
               "official": false
             }
           ],
@@ -2270,7 +2317,7 @@
             {
               "kind": "lyric",
               "url": "f0OjmmgzQuM",
-              "label": "– AFTER MOON (Color Coded Lyrics Eng/Rom/Han/가사)",
+              "label": "AFTER MOON (Color Coded Lyrics Eng/Rom/Han/가사)",
               "official": false
             }
           ]
@@ -2438,7 +2485,15 @@
         {
           "title": "What Is Love?",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2042880413",
+              "label": "181221 Music Station Super Live - BDZ + TT (Japanese Ver.) + What Is Love? (Japanese Ver.)",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/0ffbd51a429e50852fcb5358602e0b69.jpg@640w_360h.webp"
+            }
+          ]
         },
         {
           "title": "Dance the Night Away",
@@ -2487,28 +2542,116 @@
               "url": "Jvhq3JAV_c8",
               "label": "Comeback Stage @ M COUNTDOWN",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "AhUkH5p114s",
+              "label": "[TWICE - FANCY] 2019 MAMA Nominees Special│ M COUNTDOWN 191128 EP.644",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "QsV25Q6VldA",
+              "label": "FANCY @인기가요 Inkigayo 20190428",
+              "official": true
             }
           ]
         },
         {
           "title": "Stuck in My Head",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "RljM7cz6sf4",
+              "label": "「STUCK IN MY HEAD」WORLD TOUR 2019 TWICELIGHTS in SEOUL",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "XLs2aXHFQpg",
+              "label": "STUCK IN MY HEAD (트와이스 - STUCK IN MY HEAD) [Color Coded Lyrics/Han/Rom",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Girls Like Us",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "kWkn2NpHDiQ",
+              "label": "GIRLS LIKE US (Perfomance) { LIVE } |VKPOP",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "https://www.youtube.com/watch?v=W-u1AdSi5go&t=1156",
+              "label": "FANCY Showcase (from 19:16)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "6Sucn2GNppw",
+              "label": "GIRLS LIKE US (Color Coded Lyrics Eng/Rom/Han/가사)",
+              "official": false
+            }
+          ],
+          "writtenBy": "Jihyo"
         },
         {
           "title": "Hot",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "yW_uoF5Bo7g",
+              "label": "HOT (트와이스 - HOT) [Color Coded Lyrics/Han/Rom/Eng/가사]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Momo"
         },
         {
           "title": "Turn It Up",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "3arRFBk8g-Y",
+              "label": "[4K60] TURN IT UP TWICE 4TH WORLD TOUR III (Bluray)",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "https://vimeo.com/514451131",
+              "label": "TURN IT UP @ Beyond LIVE: World in A Day",
+              "official": false,
+              "thumb": "https://i.vimeocdn.com/video/1065109885-3b061a196e53a36f45522c7cdd293e0c519c7f71211d821141efd12f62c65c89-d_640x360"
+            },
+            {
+              "kind": "lyric",
+              "url": "FzS1NzoZ1_E",
+              "label": "TURN IT UP (트와이스 - TURN IT UP) [Color Coded Lyrics/Han/Rom/Eng/가사]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Sana"
         },
         {
           "title": "Strawberry",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "adR4GQ2i_dY",
+              "label": "「STRAWBERRY」WORLD TOUR 2019 TWICELIGHTS in SEOUL",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "CynX48VNW0M",
+              "label": "STRAWBERRY (Color Coded Lyrics Eng/Rom/Han/가사)",
+              "official": false
+            }
+          ],
+          "writtenBy": "Chaeyoung"
         }
       ]
     },
@@ -2543,6 +2686,18 @@
               "url": "vdVCUDqnL0U",
               "official": true,
               "label": "Dance Making Video In Hawaii"
+            },
+            {
+              "kind": "live",
+              "url": "-ZwRjMsBdVA",
+              "label": "「HAPPY HAPPY」Encore 4TH WORLD TOUR III IN JAPAN",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "1DtCGVkoVGE",
+              "label": "190907 TWICE Happy Happy+Breakthrough @Japan FES.2019",
+              "official": false
             }
           ]
         }
@@ -2573,6 +2728,24 @@
               "url": "ZdKYi5ekshM",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "performance",
+              "url": "xF-li6UEGxY",
+              "label": "190801 TWICE - Breakthrough + FANCY + Dance The Night Away @ 2019 MGMA",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "1DtCGVkoVGE",
+              "label": "190907 TWICE Happy Happy+Breakthrough @Japan FES.2019",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "d9QvIpjGzWM",
+              "label": "「Breakthrough」Encore 4TH WORLD TOUR III IN JAPAN",
+              "official": false
             }
           ]
         }
@@ -2613,33 +2786,135 @@
               "url": "1K_FbN_8UqU",
               "label": "Music Bank Stage",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "2iM33mGY8cw",
+              "label": "Feel Special [Music Bank COMEBACK / 2019.09.27]",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "WEiyz8rUuEQ",
+              "label": "[TWICE - Feel Special] 2019 MAMA Nominees Special│ M COUNTDOWN 191121 ",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "7e7JQPTSxPk",
+              "label": "Feel Special in Marine Messe Fukuoka",
+              "official": true
             }
           ]
         },
         {
           "title": "Rainbow",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "hWWhvEBx5Tk",
+              "label": "〈Rainbow〉 SHOWCASE",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "6ay9MM1HpSQ",
+              "label": "RAINBOW Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Nayeon"
         },
         {
           "title": "Get Loud",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "F1h58GO4iJ0",
+              "label": "[special] TWICE | Get loud | 4th World Tour in Seoul [4K 60FPS]",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "FFcCeTEME8I",
+              "label": "GET LOUD (Color Coded Lyrics Eng/Rom/Han/가사)",
+              "official": false
+            }
+          ],
+          "writtenBy": "Jihyo"
         },
         {
           "title": "Trick It",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "Mrl-M9y_iqQ",
+              "label": "190923 TWICE트와이스; TRICK IT SHOWCASE COMEBACK STAGE 1080P",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "OYf4vBc_D_A",
+              "label": "TRICK IT (트와이스 - TRICK IT) [Color Coded Lyrics/Han/Rom/Eng/가사]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Dahyun"
         },
         {
           "title": "Love Foolish",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "https://vimeo.com/487570350",
+              "label": "LOVE FOOLISH @ Beyond LIVE: World in A Day",
+              "official": false,
+              "thumb": "https://i.vimeocdn.com/video/1008986887-0892970bfc868d93f0ac8b530b252f4b5cd99eaf9d5d66640865119a49f7285e-d_640x360"
+            },
+            {
+              "kind": "lyric",
+              "url": "JXNNjnvuayE",
+              "label": "LOVE FOOLISH (트와이스 - LOVE FOOLISH) [Color Coded Lyrics/Han/Rom/Eng/가사]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Momo"
         },
         {
           "title": "21:29",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "SUJm3rvXPE4",
+              "label": "[FANCAM] 191020 트와이스 TWICE 21:29 (Live) ONCE HALLOWEEN 2 (1st Show)",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "IhArhWPNLEE",
+              "label": "21:29 (LIVE)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "YxltCbBOcYw",
+              "label": "21:29 (트와이스 - 21:29) [Color Coded Lyrics/Han/Rom/Eng/가사]",
+              "official": false
+            }
+          ],
+          "writtenBy": "all members"
         },
         {
           "title": "Breakthrough",
           "note": "Korean ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "jPGIbkV2htQ",
+              "label": "Breakthrough [The 2019 KBS Song Festival / 2019.12.27]",
+              "official": true
+            }
+          ]
         }
       ]
     },
@@ -2668,6 +2943,19 @@
               "url": "zQELp93xxfo",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2045156752",
+              "label": "191122 Music Station - Fake & True",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/ad4760836b10ff34fa246a97928b892b.jpg@640w_360h.webp"
+            },
+            {
+              "kind": "live",
+              "url": "vBpLfDVuVso",
+              "label": "[4K] TWICE 「Fake & True」 @ Nissan Stadium",
+              "official": false
             }
           ]
         }
@@ -2698,12 +2986,32 @@
               "url": "zQELp93xxfo",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2045156752",
+              "label": "191122 Music Station - Fake & True",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/ad4760836b10ff34fa246a97928b892b.jpg@640w_360h.webp"
+            },
+            {
+              "kind": "live",
+              "url": "vBpLfDVuVso",
+              "label": "[4K] TWICE 「Fake & True」 @ Nissan Stadium",
+              "official": false
             }
           ]
         },
         {
           "title": "Stronger",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "mzyBQRChUvI",
+              "label": "STRONGER Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Breakthrough",
@@ -2714,12 +3022,37 @@
               "url": "ZdKYi5ekshM",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "performance",
+              "url": "xF-li6UEGxY",
+              "label": "190801 TWICE - Breakthrough + FANCY + Dance The Night Away @ 2019 MGMA",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "1DtCGVkoVGE",
+              "label": "190907 TWICE Happy Happy+Breakthrough @Japan FES.2019",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "d9QvIpjGzWM",
+              "label": "「Breakthrough」Encore 4TH WORLD TOUR III IN JAPAN",
+              "official": false
             }
           ]
         },
         {
           "title": "Changing!",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "DWNU79Ox5nc",
+              "label": "CHANGING! Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Happy Happy",
@@ -2736,28 +3069,88 @@
               "url": "vdVCUDqnL0U",
               "official": true,
               "label": "Dance Making Video In Hawaii"
+            },
+            {
+              "kind": "live",
+              "url": "-ZwRjMsBdVA",
+              "label": "「HAPPY HAPPY」Encore 4TH WORLD TOUR III IN JAPAN",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "1DtCGVkoVGE",
+              "label": "190907 TWICE Happy Happy+Breakthrough @Japan FES.2019",
+              "official": false
             }
           ]
         },
         {
           "title": "What You Waiting For",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "2i-6pDHjOnk",
+              "label": "191029 TWICELIGHTS in Japan What you waiting for",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "O0F2-wTss_E",
+              "label": "WHAT YOU WAITING FOR Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Be OK",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "_hBQ-Hu2x-Y",
+              "label": "BE OK Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Polish",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "DZ1IsWeWRrI",
+              "label": "POLISH Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "How U Doin'",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "5wWA1so4Bec",
+              "label": "HOW YOU DOIN Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Chaeyoung"
         },
         {
           "title": "The Reason Why",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "rut-_he6X8M",
+              "label": "JAPAN FAN MEETING ONCE DAY TOKYO「The Reason Why」4K 60FPS (Mediocre Ups",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "TqioKRlkpaQ",
+              "label": "THE REASON WHY Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -2779,7 +3172,14 @@
       "tracks": [
         {
           "title": "Swing",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "cOfZJiAdT78",
+              "label": "SWING Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -2806,32 +3206,143 @@
               "kind": "mv",
               "url": "mH0_XpSHkZo",
               "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "xiMNWJr8J1w",
+              "label": "MORE & MORE Dance Practice Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "gWpoYFYGwL4",
+              "label": "[TWICE - MORE & MORE] KPOP TV Show | M COUNTDOWN 200611 EP.669",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "DdGANagiCPM",
+              "label": "INTRO(Feel Special) + MORE & MORE - TWICE(트와이스) [뮤직뱅크/Music Bank] 2020",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "AW0eHUT-MCI",
+              "label": "[제35회 골든디스크] 트와이스 - CRY FOR ME + MORE & MORE♪｜JTBC 210110 방송",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "MHbm4TvQGwg",
+              "label": "SPECIAL LIVE MORE & MORE",
+              "official": true
             }
           ]
         },
         {
           "title": "Oxygen",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "b_T9Y8NQuZg",
+              "label": "OXYGEN 라이브 공연 LIVE Performance",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "dr5LfPAN_28",
+              "label": "OXYGEN Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Firework",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "c6IPi5QIyUs",
+              "label": "FIREWORK Live Stage @ TWICE ＜THIS IS FOR＞ WORLD TOUR FINALE IN SEOUL",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "lPVqtbmAThM",
+              "label": "Firework (World in A Day live) + Momo fancams: Turn It Up, Love Foolish",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "xyp39OrN82I",
+              "label": "FIREWORK Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Make Me Go",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "gCMHFEInDis",
+              "label": "MAKE ME GO @Inspire Arena THIS IS FOR WORLD TOUR IN INCHEON",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "Uyg2iqCM4Io",
+              "label": "MAKE ME GO Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Nayeon"
         },
         {
           "title": "Shadow",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "https://vimeo.com/462137131",
+              "label": "SHADOW @ Beyond LIVE: World in A Day",
+              "official": false,
+              "thumb": "https://i.vimeocdn.com/video/964547214-b19ba9f8c77ce1d66f4c40a39ec692a2b9f385564955d499eed4e6a422eccfb3-d_640x360"
+            },
+            {
+              "kind": "lyric",
+              "url": "ixVhFT8W0Ho",
+              "label": "SHADOW Lyrics (ColorCoded/ENG/HAN/ROM/가사)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Don't Call Me Again",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "JzO_znj8zsQ",
+              "label": "DONT CALL ME AGAIN Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Sweet Summer Day",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "6jMX93BGU6c",
+              "label": "SPECIAL LIVE SWEET SUMMER DAY",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "bLprGy2_GeM",
+              "label": "SWEET SUMMER DAY Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Jeongyeon, Chaeyoung"
         }
       ]
     },
@@ -2866,6 +3377,12 @@
               "url": "fWe0jcsd41Q",
               "official": true,
               "label": "Special Stage"
+            },
+            {
+              "kind": "live",
+              "url": "sbtLf7emcYE",
+              "label": "[4K] TWICE 「Fanfare」 @ Nissan Stadium",
+              "official": false
             }
           ]
         }
@@ -2957,73 +3474,265 @@
               "official": true
             },
             {
+              "kind": "dance",
+              "url": "TPpmOzpHiE0",
+              "label": "I CANT STOP ME Dance Practice Video",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "i9pJx9aaDfM",
+              "label": "[릴레이댄스] TWICE (트와이스) - I CANT STOP ME (4K)",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "vWAC8Wkt9ok",
+              "label": "[BE ORIGINAL] TWICE(트와이스) I CANT STOP ME (4K)",
+              "official": true
+            },
+            {
               "kind": "performance",
               "url": "TjPGouR4FzQ",
               "label": "Comeback Stage @ M COUNTDOWN",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "I9nYSumuaLA",
+              "label": "[4K] I CANT STOP ME Colbert Late Show #PlayAtHome Performance",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "E50QmZyX3zI",
+              "label": "I CANT STOP ME(DISCO Ver.), MBC 201231 방송",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "qNlMt1eV03w",
+              "label": "20210131 TWICE (트와이스) OT9 I CANT STOP ME; ALL MEMBERS PERFORM LIVE!@20",
+              "official": false
             }
           ]
         },
         {
           "title": "Hell in Heaven",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "uFzxkdL5gpA",
+              "label": "HELL IN HEAVEN @Inspire Arena THIS IS FOR WORLD TOUR IN INCHEON",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "dRduroOHmP4",
+              "label": "HELL IN HEAVEN Lyrics (트와이스 HELL IN HEAVEN 가사) [Color Coded Lyrics/Han",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Up No More",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "3s41wKOnAHg",
+              "label": "UP NO MORE - TWICE(트와이스) [뮤직뱅크/Music Bank] | KBS 201030 방송",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "bq8kFdQbrNU",
+              "label": "[TWICE - UP NO MORE] Comeback Stage | M COUNTDOWN EP.688 | Mnet 201029",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "-w7DTBNisFA",
+              "label": "「UP NO MORE」4TH WORLD TOUR III IN JAPAN (OT9)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "zyWDsdG7Nlo",
+              "label": "UP NO MORE Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Jihyo"
         },
         {
           "title": "Do What We Like",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "GJgClU-rU64",
+              "label": "DO WHAT WE LIKE Lyrics (ColorCoded/ENG/HAN/ROM/가사)",
+              "official": false
+            }
+          ],
+          "writtenBy": "Sana"
         },
         {
           "title": "Bring It Back",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "tOuvMAv5xwg",
+              "label": "BRING IT BACK Lyrics (트와이스 BRING IT BACK 가사) [Color Coded Lyrics/Han/R",
+              "official": false
+            }
+          ],
+          "writtenBy": "Dahyun"
         },
         {
           "title": "Believer",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "tAv2npizg9U",
+              "label": "Special Live Replay BELIEVER",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "Pd-N2xcocug",
+              "label": "BELIEVER Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Queen",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "epE8kNXjEz0",
+              "label": "「QUEEN」4TH WORLD TOUR III IN SEOUL",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "Prm4CAdA6xM",
+              "label": "QUEEN Lyrics (트와이스 QUEEN 가사) [Color Coded Lyrics Han/Rom/Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Dahyun"
         },
         {
           "title": "Go Hard",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "SZCvFZFXTww",
+              "label": "GO HARD | TWICE 5TH WORLD TOUR READY TO BE in JAPAN Fukuoka Day (FHDX6",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "WNVgdbpNGEk",
+              "label": "GO HARD Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Shot Clock",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "1ptXyddY1b0",
+              "label": "[special] TWICE | Shot clock | 4th World Tour in Seoul [4K 60FPS]",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "mky7JnFqtFk",
+              "label": "SHOT CLOCK Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Handle It",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "FNB-grZ0sok",
+              "label": "HANDLE IT Lyrics (트와이스 HANDLE IT 가사) [Color Coded Lyrics/Han/Rom/Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Chaeyoung"
         },
         {
           "title": "Depend on You",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "Jj9vsP4HWwg",
+              "label": "[4K] DEPEND ON YOU TIME100 Talks Performance",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "MQPWab3bzDo",
+              "label": "DEPEND ON YOU Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Nayeon"
         },
         {
           "title": "Say Something",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "UY3N52CrTPE",
+              "label": "5th Anniversary Special Live WITH SAY SOMETHING",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "xLvLajHBbGQ",
+              "label": "SAY SOMETHING Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Behind the Mask",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "xQVowR4myeU",
+              "label": "Special Live Replay BEHIND THE MASK",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "pHy2rFumT8Q",
+              "label": "BEHIND THE MASK Lyrics (트와이스 BEHIND THE MASK 가사) [Color Coded Lyrics/H",
+              "official": false
+            }
+          ]
         }
       ]
     },
     {
       "id": "ill-show-you",
       "title": "I'll Show You",
-      "artist": "K/DA — Nayeon, Jihyo, Sana, Chaeyoung",
+      "artist": "K/DA — Nayeon, Jihyo, Sana, Chaeyoung, Bekuh BOOM & Annika Wells",
       "category": "korean",
       "seq": "Collaboration",
       "type": "Single",
       "released": "2020-11-06",
       "cover": "assets/img/covers/ill-show-you.jpg",
-      "note": "K/DA single featuring four Twice members — Nayeon, Jihyo, Sana and Chaeyoung — with Bekuh Boom and Annika Wells, from the EP All Out.",
+      "note": "K/DA single featuring four Twice members — Nayeon, Jihyo, Sana and Chaeyoung — with Bekuh BOOM and Annika Wells, from the EP All Out.",
       "links": {
         "spotify": "https://open.spotify.com/track/497qmwcUsCv5hmMU0K8Hik",
         "appleMusic": "https://music.apple.com/ph/album/ill-show-you-feat-annika-wells-league-of-legends-music/1832012000",
@@ -3033,8 +3742,21 @@
       "tracks": [
         {
           "title": "I'll Show You",
-          "artist": "K/DA feat. Bekuh Boom & Annika Wells",
-          "videos": []
+          "artist": "K/DA feat. TWICE, Bekuh BOOM & Annika Wells",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "WW1BpABbzHs",
+              "label": "Official Concept Video, starring Ahri",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "bkPkwJgZr0s",
+              "label": "I'LL SHOW YOU Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -3075,12 +3797,32 @@
               "url": "HGJiSZW2PNY",
               "official": true,
               "label": "Performance Re-Edit ver."
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2043335247",
+              "label": "201113 Music Station - Better",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/3e6b5c1c9f7e21757133f1e62c3048f3.jpg@640w_360h.webp"
             }
           ]
         },
         {
           "title": "Scorpion",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "sJV5ri2zeVk",
+              "label": "「Scorpion」Performance Re-Edit ver",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "8SaPJP9vz9Q",
+              "label": "SCORPION Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -3117,10 +3859,28 @@
               "official": true
             },
             {
+              "kind": "performance",
+              "url": "AW0eHUT-MCI",
+              "label": "[제35회 골든디스크] 트와이스 - CRY FOR ME + MORE & MORE♪｜JTBC 210110 방송",
+              "official": true
+            },
+            {
               "kind": "live",
               "url": "9KW7hojmoaI",
               "label": "The Kelly Clarkson Show Performance",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "kI_ocJs88Cw",
+              "label": "201206 TWICE(트와이스) CRY FOR ME [2020 MAMA] [4k 60fps]",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "UuSvyumSnkM",
+              "label": "CRY FOR ME - TWICE 5TH WORLD TOUR READY TO BE in JAPAN, TOKYO (OT9)",
+              "official": false
             }
           ]
         }
@@ -3147,7 +3907,20 @@
           "title": "Sotsugyou",
           "titleKo": "卒業",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "special",
+              "url": "jn47nrQPexg",
+              "label": "「卒業」Special Clip with SANA（TWICE）",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "zI7WPZNrjFs",
+              "label": "SANA - Sotsugyou (Kobukuro Cover) Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -3173,7 +3946,20 @@
           "titleKo": "卒業",
           "artist": "with Kobukuro",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "tYUcVX83HYw",
+              "label": "Kobukuro「卒業 (Special Version) [with SANA]」Music Video",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "w7ILk7HVHEM",
+              "label": "Recording video: SANA from TWICE × コブクロ / 卒業",
+              "official": true
+            }
+          ]
         }
       ]
     },
@@ -3208,12 +3994,45 @@
               "url": "oTuYKF_BT9A",
               "official": true,
               "label": "Special Dance Clip"
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2043412853",
+              "label": "210514 Music Station - Kura Kura",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/35aad06eb5fe0e083ffc189833aba724.jpg@640w_360h.webp"
+            },
+            {
+              "kind": "live",
+              "url": "GUHZI9KVmAs",
+              "label": "Kura Kura【Live Performance】",
+              "official": false,
+              "noEmbed": true
             }
           ]
         },
         {
           "title": "Strawberry Moon",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "ukU9uVdvMq4",
+              "label": "STRAWBERRY MOON LIVE PERFORMANCE in JAPAN",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "-TKpnzgOhfU",
+              "label": "Strawberry Moon LIVE(라이브) & 한국어 번역 가사 발음 가사",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "sQKoZx4Jte4",
+              "label": "STRAWBERRY MOON Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -3242,37 +4061,144 @@
               "official": true
             },
             {
+              "kind": "special",
+              "url": "t0hYMtM4ZKg",
+              "label": "Alcohol-Free Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "VEwqQ5Z-rsQ",
+              "label": "[릴레이댄스] TWICE (트와이스) - Alcohol-Free (4K)",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "3de64yKeElM",
+              "label": "[BE ORIGINAL] TWICE (트와이스) Alcohol-Free (4K)",
+              "official": true
+            },
+            {
               "kind": "performance",
               "url": "zzUpUEzG_68",
               "label": "Music Bank Stage",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "FRvPXtvfg1w",
+              "label": "[4K] Alcohol-Free The Ellen DeGeneres Show Full Performance",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "YgaFZsBT9Ls",
+              "label": "Alcohol-Free (Live Performance) | Open Mic",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "71cKKiQUqxE",
+              "label": "Alcohol-Free Lyrics Video",
               "official": true
             }
           ]
         },
         {
           "title": "First Time",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "ZRc3FVq_rrM",
+              "label": "First Time LIVE @ BENCH fan meeting",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "NGMCf-CIQOE",
+              "label": "First Time Lyrics (트와이스 First Time 가사) [Color Coded Lyrics/Han/Rom/Eng",
+              "official": false
+            }
+          ],
+          "writtenBy": "Jihyo"
         },
         {
           "title": "Scandal",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "tF7WuszRVd8",
+              "label": "Scandal LIVE @ BENCH fan meeting",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "FVjX1nOn5O0",
+              "label": "SCANDAL Lyrics (트와이스 SCANDAL 가사) [Color Coded Lyrics Han/Rom/Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Dahyun"
         },
         {
           "title": "Conversation",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "WN0zDtkvfk0",
+              "label": "Conversation Lyrics (트와이스 Conversation 가사) [Color Coded Lyrics/Han/Rom",
+              "official": false
+            }
+          ],
+          "writtenBy": "Sana"
         },
         {
           "title": "Baby Blue Love",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "My2k6Z374Ko",
+              "label": "[4K60] BABY BLUE LOVE ENCORE TWICE 4TH WORLD TOUR III (Bluray)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "FGQY-rGjrns",
+              "label": "BABY BLUE LOVE Lyrics (트와이스 BABY BLUE LOVE 가사) [Color Coded Lyrics Han",
+              "official": false
+            }
+          ],
+          "writtenBy": "Nayeon"
         },
         {
           "title": "SOS",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "SmaEhtM0ENE",
+              "label": "220222 SOS (Encore) Twice - Twice 4th World Tour III - State Farm Aren",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "Dh5hE7fSjjA",
+              "label": "SOS Lyrics (트와이스 SOS 가사) [Color Coded Lyrics Han/Rom/Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Dahyun"
         },
         {
           "title": "Cry for Me",
           "note": "English ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "8sSvOeKhWDc",
+              "label": "Cry For Me (English Ver.) (Lyrics)",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -3307,6 +4233,25 @@
               "url": "Fb6uIFE-zoU",
               "official": true,
               "label": "@ Nissan Stadium"
+            },
+            {
+              "kind": "performance",
+              "url": "thVxk8wwDg8",
+              "label": "[TWICE] 「Perfect World」 Live Performance @ THE MUSIC DAY 2021 (OT9)",
+              "official": false
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2042311957",
+              "label": "210820 Music Station - Perfect World",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/8d6ccaa9d27d48ecd97df13f21b68640.jpg@640w_360h.webp"
+            },
+            {
+              "kind": "live",
+              "url": "NuQjEn5UevQ",
+              "label": "「Perfect World」Dance Performance 2021 [4K & 60FPS]",
+              "official": false
             }
           ]
         }
@@ -3331,7 +4276,26 @@
         {
           "title": "I Love You More Than Anyone",
           "titleKo": "누구보다 널 사랑해",
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "DG6aqGQea2s",
+              "label": "Music Video",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "x7_BDV9Hvro",
+              "label": "I Love You More Than Anyone (Live) - 26/12/21",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "yOXQGiqmxrw",
+              "label": "I Love You More Than Anyone Lyrics (트와이스 누구보다 널 사랑해 가사) [Color Coded L",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -3366,6 +4330,25 @@
               "url": "Fb6uIFE-zoU",
               "official": true,
               "label": "@ Nissan Stadium"
+            },
+            {
+              "kind": "performance",
+              "url": "thVxk8wwDg8",
+              "label": "[TWICE] 「Perfect World」 Live Performance @ THE MUSIC DAY 2021 (OT9)",
+              "official": false
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2042311957",
+              "label": "210820 Music Station - Perfect World",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/8d6ccaa9d27d48ecd97df13f21b68640.jpg@640w_360h.webp"
+            },
+            {
+              "kind": "live",
+              "url": "NuQjEn5UevQ",
+              "label": "「Perfect World」Dance Performance 2021 [4K & 60FPS]",
+              "official": false
             }
           ]
         },
@@ -3390,12 +4373,26 @@
               "url": "HGJiSZW2PNY",
               "official": true,
               "label": "Performance Re-Edit ver."
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2043335247",
+              "label": "201113 Music Station - Better",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/3e6b5c1c9f7e21757133f1e62c3048f3.jpg@640w_360h.webp"
             }
           ]
         },
         {
           "title": "Good at Love",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "azTpxrqgcBo",
+              "label": "GOOD AT LOVE Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Fanfare",
@@ -3412,6 +4409,12 @@
               "url": "fWe0jcsd41Q",
               "official": true,
               "label": "Special Stage"
+            },
+            {
+              "kind": "live",
+              "url": "sbtLf7emcYE",
+              "label": "[4K] TWICE 「Fanfare」 @ Nissan Stadium",
+              "official": false
             }
           ]
         },
@@ -3430,28 +4433,89 @@
               "url": "oTuYKF_BT9A",
               "official": true,
               "label": "Special Dance Clip"
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2043412853",
+              "label": "210514 Music Station - Kura Kura",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/35aad06eb5fe0e083ffc189833aba724.jpg@640w_360h.webp"
+            },
+            {
+              "kind": "live",
+              "url": "GUHZI9KVmAs",
+              "label": "Kura Kura【Live Performance】",
+              "official": false,
+              "noEmbed": true
             }
           ]
         },
         {
           "title": "Four-leaf Clover",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "9zgEzLMEq-I",
+              "label": "FOUR-LEAF CLOVER Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "In the Summer",
-          "videos": []
+          "videos": [
+            {
+              "kind": "other",
+              "url": "IbjgLpKCCE4",
+              "label": "In The Summer",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "5fB35E-6Ii8",
+              "label": "In the summer Lyrics (トゥワイス In the summer 歌詞) [Color Coded Lyrics Kan/",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Pieces of Love",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "gaQSN3Esb7s",
+              "label": "PIECES OF LOVE Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Thank You, Family",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "HNgaDo4HE_g",
+              "label": "THANK YOU, FAMILY Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Promise",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "FG2tJ-6Vztg",
+              "label": "211002 TWICE - PROMISE",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "tM9Zfr3Qyb8",
+              "label": "PROMISE Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -3487,9 +4551,33 @@
               "official": true
             },
             {
+              "kind": "dance",
+              "url": "90mwhuwIQco",
+              "label": "The Feels Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "AWu9aCHZxqY",
+              "label": "[4K] The Feels The Tonight Show Starring Jimmy Fallon Full Performance",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "We3r4OAz_VA",
+              "label": "[4K] The Feels GMA3: What You Need to Know Full Performance",
+              "official": true
+            },
+            {
               "kind": "live",
               "url": "2CRISIrpObg",
               "label": "@ Amazon Music Live",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "MKU_lJI0t40",
+              "label": "The Feels Official Lyrics Video",
               "official": true
             }
           ]
@@ -3525,65 +4613,244 @@
               "url": "hUSqTW21Xl8",
               "label": "Choreography Video",
               "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "FWjMQ-XY2XY",
+              "label": "SCIENTIST Choreography Video (Moving Ver.)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "sxGpVqn-u1E",
+              "label": "[4K] SCIENTIST MTV Fresh Out Live Full Performance",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "QxnIEg5M0cA",
+              "label": "SCIENTIST [SBS Inkigayo Ep 1117]",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "aO_QjSRVyTE",
+              "label": "SCIENTIST [SBS Inkigayo Ep 1118]",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "o95EyN5LnK8",
+              "label": "[LIVE] TWICE (트와이스) _ SCIENTIST | 사이언티스트 | The Booth | 더 부스 | 라이브 | 4K",
+              "official": true
             }
           ]
         },
         {
           "title": "Moonlight",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "CFI94VZHEoY",
+              "label": "「MOONLIGHT」4TH WORLD TOUR III IN SEOUL",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "kqYuJ6OCR-0",
+              "label": "MOONLIGHT Lyrics [Color Coded_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Icon",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "_nmV18l2Nq0",
+              "label": "「ICON」4TH WORLD TOUR III IN SEOUL",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "21sSmU43uTo",
+              "label": "ICON Lyrics [Color Coded_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Cruel",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "_qpTHv_cxD4",
+              "label": "CRUEL Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Dahyun"
         },
         {
           "title": "Real You",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "libbITYEitI",
+              "label": "Real You | 4th World Tour in Seoul [4K 60FPS]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Jihyo"
         },
         {
           "title": "F.I.L.A. (Fall in Love Again)",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "mh_BoKr9RrI",
+              "label": "F.I.L.A (Fall In Love Again) Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Nayeon"
         },
         {
           "title": "Last Waltz",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "M4U15qbEtGU",
+              "label": "Last Waltz | 2022.02.24 Atlanta | 4th World Tour III",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "kvaFbCGZ5aI",
+              "label": "LAST WALTZ Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Espresso",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "hjZ5jCAsjRQ",
+              "label": "Espresso | 4th World Tour in Seoul [4K 60FPS]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Rewind",
           "titleKo": "알고 싶지 않아",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "VwANA6zIsPM",
+              "label": "「REWIND」4TH WORLD TOUR III IN SEOUL",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "gysJsfh8hXw",
+              "label": "REWIND (알고 싶지 않아) Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Cactus",
           "titleKo": "선인장",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "_oC5AwN5x_U",
+              "label": "「선인장 (CACTUS)」4TH WORLD TOUR III IN JAPAN",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "fF7yDqrNuJM",
+              "label": "CACTUS (선인장) Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Jihyo"
         },
         {
           "title": "Push & Pull",
           "artist": "Jihyo, Sana, Dahyun",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "6sBBmOdIRbY",
+              "label": "[4K60] PUSH & PULL TWICE 4TH WORLD TOUR III IN SEOUL (Bluray)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "s1FGPvIwrnY",
+              "label": "(JIHYO,SANA,DAHYUN) - PUSH & PULL Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Hello",
           "artist": "Nayeon, Momo, Chaeyoung",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "VN0LUlv0WBc",
+              "label": "NAYEON, MOMO, CHAEYOUNG -「HELLO」4TH WORLD TOUR III IN SEOUL",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "Qf6_eK82LLQ",
+              "label": "(NAYEON,MOMO,CHAEYOUNG) - HELLO Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "1, 3, 2",
           "artist": "Jeongyeon, Mina, Tzuyu",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "y0K4FXBla3A",
+              "label": "1,3,2 full HD performance ll TWICE Tokyo dome concert Day 2",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "yZ7lA5Ei-cg",
+              "label": "(JEONGYEON,MINA,TZUYU) - 1, 3, 2 Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Candy",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "uFPFq6tuTmk",
+              "label": "6th Anniversary H6ME PARTY with 6NCE CANDY",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "CAkh7mAi-14",
+              "label": "CANDY Lyrics [Color Coded_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "The Feels",
@@ -3601,13 +4868,50 @@
               "official": true
             },
             {
+              "kind": "dance",
+              "url": "90mwhuwIQco",
+              "label": "The Feels Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "AWu9aCHZxqY",
+              "label": "[4K] The Feels The Tonight Show Starring Jimmy Fallon Full Performance",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "We3r4OAz_VA",
+              "label": "[4K] The Feels GMA3: What You Need to Know Full Performance",
+              "official": true
+            },
+            {
               "kind": "live",
               "url": "2CRISIrpObg",
               "label": "@ Amazon Music Live",
               "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "MKU_lJI0t40",
+              "label": "The Feels Official Lyrics Video",
+              "official": true
             }
           ],
           "note": "Pre-release single"
+        },
+        {
+          "title": "The Feels",
+          "note": "Korean ver., physical edition only",
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "rIP1l6JFEts",
+              "label": "THE FEELS (Korean Ver.) Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Chaeyoung"
         }
       ]
     },
@@ -3642,12 +4946,37 @@
               "url": "BDxYzVzzw2M",
               "official": true,
               "label": "Special Stage"
+            },
+            {
+              "kind": "live",
+              "url": "2-nTLguyjPI",
+              "label": "JAPAN FAN MEETING ONCE DAY TOKYO 「Doughnut」4K (Mediocre Upscaled)",
+              "official": false
             }
           ]
         },
         {
           "title": "Wonderful Day",
-          "videos": []
+          "videos": [
+            {
+              "kind": "special",
+              "url": "pQ6oXmnCsSo",
+              "label": "「Wonderful Day」Member Selfie Movie",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "otoxc_H8qkE",
+              "label": "「Wonderful Day」Special Stage",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "rn2lYdVmlzo",
+              "label": "Wonderful Day Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -3671,7 +5000,20 @@
         {
           "title": "Stardust Love Song",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "oVN5jiwby1A",
+              "label": "Music Video",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "A_SSOyZthT4",
+              "label": "Jihyo (TWICE) - Stardust love song (2521 OST 6) Lyrics Color Coded (Ha",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -3709,7 +5051,14 @@
         {
           "title": "Scientist",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "7MHlhHaLcTA",
+              "label": "「SCIENTIST -Japanese ver.-」Music Video",
+              "official": true
+            }
+          ]
         }
       ]
     },
@@ -3732,7 +5081,20 @@
         {
           "title": "Just Be Yourself",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "CrbkxzIh8II",
+              "label": "220424 Just Be Yourself @ Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "H1g3rTBQOIo",
+              "label": "JUST BE YOURSELF Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -3756,7 +5118,14 @@
         {
           "title": "Pop!",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "dance-performance",
+              "url": "OH8qMMHhH_M",
+              "label": "[릴레이댄스] 나연(NAYEON) - POP! (4K)",
+              "official": true
+            }
+          ]
         },
         {
           "title": "No Problem",
@@ -3883,7 +5252,20 @@
         },
         {
           "title": "Just Be Yourself",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "CrbkxzIh8II",
+              "label": "220424 Just Be Yourself @ Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "H1g3rTBQOIo",
+              "label": "JUST BE YOURSELF Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Doughnut",
@@ -3900,6 +5282,12 @@
               "url": "BDxYzVzzw2M",
               "official": true,
               "label": "Special Stage"
+            },
+            {
+              "kind": "live",
+              "url": "2-nTLguyjPI",
+              "label": "JAPAN FAN MEETING ONCE DAY TOKYO 「Doughnut」4K (Mediocre Upscaled)",
+              "official": false
             }
           ]
         }
@@ -4299,7 +5687,14 @@
         {
           "title": "Killin' Me Good",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "dance-performance",
+              "url": "_bJ2Xq7nRTQ",
+              "label": "[릴레이댄스] 지효(JIHYO) - Killin Me Good (4K)",
+              "official": true
+            }
+          ]
         },
         {
           "title": "Talkin' About It",
@@ -4539,6 +5934,12 @@
               "official": true
             },
             {
+              "kind": "dance-performance",
+              "url": "4sOiP27Ka9g",
+              "label": "[릴레이댄스] TWICE (트와이스) - ONE SPARK (4K)",
+              "official": true
+            },
+            {
               "kind": "performance",
               "url": "XiwY-syjwm4",
               "label": "Performance Video",
@@ -4757,7 +6158,14 @@
         {
           "title": "Run Away",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "dance-performance",
+              "url": "OktFPNjFfAk",
+              "label": "[릴레이댄스] 쯔위(TZUYU) - Run Away (4K)",
+              "official": true
+            }
+          ]
         },
         {
           "title": "Heartbreak in Heaven",
@@ -4937,6 +6345,12 @@
               "kind": "mv",
               "url": "bpiyH00cqS8",
               "label": "M/V (TWICE-TRATEGY ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "1I0lzeXajzI",
+              "label": "[릴레이댄스] TWICE(트와이스) - Strategy (4K)",
               "official": true
             },
             {

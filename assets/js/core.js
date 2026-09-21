@@ -131,10 +131,9 @@ function toggleWatched(v) {
 
 /* ---------- 3. Video cards ------------------------------------------------
 
-   Rendered as a "facade": the thumbnail is just an <img>, and the real
-   YouTube <iframe> is only created when you click play. That matters on a
-   page like the discography — a few hundred live iframes would pull tens of
-   megabytes of player code before you'd watched a single thing.
+   The thumbnail is a link that opens the video on its own site in a new tab,
+   start time included, so the archive stays open where you left it. Nothing
+   is embedded, which also keeps a page of a few hundred cards light.
 -------------------------------------------------------------------------- */
 
 const KIND_LABEL = {
@@ -143,6 +142,7 @@ const KIND_LABEL = {
   lyric:       'Lyric Video',
   performance: 'Performance',
   dance:       'Dance Practice',
+  'dance-performance': 'Dance Performance',
   live:        'Live',
   audio:       'Audio',
   other:       'Video',
@@ -168,7 +168,10 @@ function videoCard(v) {
             data-yt-id="${id}" data-yt-step="0"
             onload="ytThumbFallback(this)" onerror="ytThumbFallback(this)">`;
   } else if (v.thumb) {
-    thumbInner = `<img src="${escapeHtml(v.thumb)}" alt="" loading="lazy" decoding="async">`;
+    /* no-referrer: Bilibili's image server refuses requests that say they
+       came from another site. */
+    thumbInner = `<img src="${escapeHtml(v.thumb)}" alt="" loading="lazy" decoding="async"
+                       referrerpolicy="no-referrer">`;
   } else {
     thumbInner = `<span class="fallback">${escapeHtml(KIND_LABEL[kind])}</span>`;
   }
@@ -179,22 +182,12 @@ function videoCard(v) {
 
   const durTag = v.duration ? `<span class="dur">${escapeHtml(v.duration)}</span>` : '';
 
-  /* Some uploads — SBS Inkigayo stages, for instance — have embedding turned
-     off by the uploader. Playing one inline would show YouTube's "Video
-     unavailable" panel, so those are marked "noEmbed": true in the data and
-     open on YouTube instead, keeping their thumbnail. */
-  const embeddable = id && !v.noEmbed;
-  const thumbTag = embeddable
-    ? `<button type="button" class="vthumb" data-yt="${id}"
-               data-start="${youtubeStart(v.url)}"
-               aria-label="Play ${escapeHtml(label)}">
-         ${thumbInner}<span class="play">▶</span>${durTag}
-       </button>`
-    : `<a class="vthumb" href="${escapeHtml(watchUrl(v))}"
-          target="_blank" rel="noopener"
-          aria-label="Open ${escapeHtml(label)} on YouTube">
-         ${thumbInner}<span class="play">↗</span>${durTag}
-       </a>`;
+  const thumbTag =
+    `<a class="vthumb" href="${escapeHtml(watchUrl(v))}"
+        target="_blank" rel="noopener"
+        aria-label="Open ${escapeHtml(label)} ${id ? 'on YouTube' : 'in a new tab'}">
+       ${thumbInner}<span class="play">${id ? '▶' : '↗'}</span>${durTag}
+     </a>`;
 
   return `
     <article class="vcard${seen ? ' watched' : ''}" data-key="${key}">
@@ -204,7 +197,6 @@ function videoCard(v) {
         <div class="vtags">
           <span class="badge" data-kind="${kind}">${escapeHtml(KIND_LABEL[kind])}</span>
           ${official}
-          ${v.noEmbed ? '<span class="offsite" title="Embedding is disabled on this upload — opens on YouTube">YouTube ↗</span>' : ''}
           <a class="ext" href="${escapeHtml(watchUrl(v))}"
              target="_blank" rel="noopener" title="Open in a new tab">↗</a>
         </div>
@@ -219,30 +211,18 @@ function videoCard(v) {
    rendered or re-rendered by the filters. */
 function wireVideoCards(root, onWatchChange) {
   root.addEventListener('click', event => {
-    const play = event.target.closest('.vthumb[data-yt]');
-    if (play) {
-      const id    = play.dataset.yt;
-      const start = play.dataset.start && play.dataset.start !== '0'
-        ? `&start=${play.dataset.start}` : '';
-      const frame = document.createElement('iframe');
-      /* youtube-nocookie keeps YouTube from setting tracking cookies unless
-         and until something is actually played. */
-      frame.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0${start}`;
-      frame.className = 'vframe';
-      frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture';
-      frame.allowFullscreen = true;
-      frame.loading = 'eager';
-      play.replaceWith(frame);
-      return;
-    }
-
     const mark = event.target.closest('[data-watch]');
     if (mark) {
       const key = mark.dataset.watch;
       const now = toggleWatched({ url: key });
-      mark.classList.toggle('on', now);
-      mark.textContent = now ? '✓ Watched' : 'Mark watched';
-      mark.closest('.vcard')?.classList.toggle('watched', now);
+      /* The same video can sit on two tracks of one release (a medley, say),
+         so update every card for it, not just the one clicked. */
+      root.querySelectorAll('[data-watch]').forEach(btn => {
+        if (btn.dataset.watch !== key) return;
+        btn.classList.toggle('on', now);
+        btn.textContent = now ? '✓ Watched' : 'Mark watched';
+        btn.closest('.vcard')?.classList.toggle('watched', now);
+      });
       onWatchChange?.();
     }
   });

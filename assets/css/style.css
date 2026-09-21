@@ -415,8 +415,6 @@ a { color: inherit; }
   font-size: 10.5px; font-weight: 600; color: #fff;
   background: rgba(0,0,0,.75); padding: 1px 5px; border-radius: 3px;
 }
-/* The iframe replaces the facade in place, so the card must not jump. */
-.vframe { aspect-ratio: 16 / 9; width: 100%; display: block; border: 0; }
 
 .vmeta { padding: 8px 10px 9px; display: flex; flex-direction: column; gap: 6px; }
 .vlabel { font-size: 12.5px; font-weight: 600; line-height: 1.35; }
@@ -432,6 +430,8 @@ a { color: inherit; }
 .badge[data-kind="lyric"]       { background:#8b6fd1; color:#fff; }
 .badge[data-kind="performance"] { background:#3f8fd6; color:#fff; }
 .badge[data-kind="dance"]       { background:#4ec9b0; color:#123; }
+/* a relay dance or STUDIO CHOOM take: part dance video, part stage */
+.badge[data-kind="dance-performance"] { background:linear-gradient(90deg, #4ec9b0, #3f8fd6); color:#123; }
 .badge[data-kind="live"]        { background:#e0902f; color:#fff; }
 .badge[data-kind="audio"]       { background:#6f7fd1; color:#fff; }
 .badge[data-kind="other"]       { background:var(--surface-2); color:var(--text-soft); border-color:var(--line); }
@@ -452,11 +452,6 @@ a { color: inherit; }
 }
 .watch-btn:hover { color: var(--text); border-color: var(--text-faint); }
 .watch-btn.on { background: var(--ok); border-color: transparent; color: #fff; }
-
-.offsite {
-  font-size: 10px; font-weight: 700; letter-spacing: .03em;
-  color: var(--text-faint);
-}
 
 .ext {
   font-size: 11.5px; color: var(--text-faint); text-decoration: none;
