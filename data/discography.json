@@ -191,6 +191,31 @@
       ]
     },
     {
+      "id": "daring-woman",
+      "title": "Daring Woman",
+      "artist": "Jihyo, Nayeon, Tzuyu & Chaeyoung",
+      "category": "solo",
+      "seq": "Collaboration",
+      "type": "Single",
+      "released": "2015-12-30",
+      "cover": "assets/img/covers/daring-woman.jpg",
+      "note": "From Two Yoo Project – Sugar Man Pt. 11. Four members, before any of them had solo releases.",
+      "links": {
+        "spotify": "https://open.spotify.com/track/7AqScxClmkJdqHZjWSkKH8",
+        "appleMusic": "https://music.apple.com/ph/album/%ED%88%AC%EC%9C%A0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%8A%88%EA%B0%80%EB%A7%A8-pt-11-%EB%8B%B9%EB%8F%8C%ED%95%9C-%EC%97%AC%EC%9E%90/1267694092?i=1267694099",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Daring Woman",
+          "titleKo": "당돌한 여자",
+          "titleTrack": true,
+          "videos": []
+        }
+      ]
+    },
+    {
       "id": "page-two",
       "title": "Page Two",
       "category": "korean",
@@ -527,6 +552,32 @@
       ]
     },
     {
+      "id": "what-makes-me-beautiful",
+      "title": "What Makes Me Beautiful?",
+      "artist": "Jihyo with Ben & Jung Eun-ji",
+      "category": "solo",
+      "seq": "Collaboration",
+      "type": "Single",
+      "released": "2016-11-06",
+      "cover": "assets/img/covers/what-makes-me-beautiful.jpg",
+      "note": "From the Inkigayo Music Crush Part.1 project — released as 내가 예뻐진 이유 / 'The Reason Why I Got Pretty'.",
+      "links": {
+        "spotify": "https://open.spotify.com/track/5MAwmzXI0jfD0vfoaghdVF",
+        "appleMusic": "https://music.apple.com/ph/album/inkigayo-music-crush-part-1-the-reason-why-i-got-pretty/1859895827?i=1859895828",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "What Makes Me Beautiful?",
+          "titleKo": "내가 예뻐진 이유",
+          "artist": "with Ben and Jung Eun-ji",
+          "titleTrack": true,
+          "videos": []
+        }
+      ]
+    },
+    {
       "id": "twicecoaster-lane-2",
       "title": "Twicecoaster: Lane 2",
       "category": "korean",
@@ -611,7 +662,7 @@
       "cover": "assets/img/covers/whats-twice.jpg",
       "note": "Japan-only release — available on the Japanese storefront.",
       "links": {
-        "spotify": "",
+        "spotify": "https://open.spotify.com/album/2MwyDQhotK4B1WcZ5ogrtB",
         "appleMusic": "https://music.apple.com/jp/album/whats-twice-ep/1206052768",
         "youtubeMusic": "",
         "melon": ""
@@ -1114,6 +1165,12 @@
               "url": "M4pk0Wx372w",
               "label": "SLEEP TIGHT GOOD NIGHT, - 잘자요 굿나잇 [테이의 꿈꾸는 라디오] 20171206",
               "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "81BUf4YMTVA",
+              "label": "Sleep Tight Good Night Lyrics (잘자요 굿나잇) Han|Rom|Eng Color Coded",
+              "official": false
             }
           ]
         }
@@ -1478,6 +1535,30 @@
       ]
     },
     {
+      "id": "i-want-you-back",
+      "title": "I Want You Back",
+      "category": "japanese",
+      "seq": "1st Digital Single",
+      "type": "Single",
+      "released": "2018-06-15",
+      "cover": "assets/img/covers/i-want-you-back.jpg",
+      "note": "Twice's first Japanese digital single — a cover of The Jackson 5.",
+      "links": {
+        "spotify": "https://open.spotify.com/album/5DOl2VlVp5epRomVwPdGDQ",
+        "appleMusic": "https://music.apple.com/jp/album/i-want-you-back-single/1394016295",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "I Want You Back",
+          "titleTrack": true,
+          "note": "Cover",
+          "videos": []
+        }
+      ]
+    },
+    {
       "id": "summer-nights",
       "title": "Summer Nights",
       "category": "korean",
@@ -1530,7 +1611,7 @@
       "id": "bdz-single",
       "title": "BDZ",
       "category": "japanese",
-      "seq": "Digital Single",
+      "seq": "Advance Release",
       "type": "Single",
       "released": "2018-08-17",
       "cover": "assets/img/covers/bdz.jpg",
@@ -1659,7 +1740,7 @@
       "id": "stay-by-my-side",
       "title": "Stay by My Side",
       "category": "japanese",
-      "seq": "Digital Single",
+      "seq": "2nd Digital Single",
       "type": "Single",
       "released": "2018-10-22",
       "cover": "assets/img/covers/bdz-repackage.jpg",
@@ -1682,6 +1763,32 @@
               "label": "Making Music Video"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "like-a-star",
+      "title": "Like a Star",
+      "artist": "Jeongyeon with Gong Seung-yeon",
+      "category": "solo",
+      "seq": "OST",
+      "type": "Single",
+      "released": "2018-10-25",
+      "cover": "assets/img/covers/like-a-star.jpg",
+      "note": "From the My Dream Class soundtrack.",
+      "links": {
+        "spotify": "https://open.spotify.com/album/59c9J6eGlumdx29qLhvYyw",
+        "appleMusic": "https://music.apple.com/ph/album/my-dream-class-like-a-star-original-motion-picture/1440128780",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Like a Star",
+          "titleKo": "별처럼",
+          "artist": "with Gong Seung-yeon",
+          "titleTrack": true,
+          "videos": []
         }
       ]
     },
@@ -2053,7 +2160,7 @@
       "id": "fake-and-true",
       "title": "Fake & True",
       "category": "japanese",
-      "seq": "Digital Single",
+      "seq": "Advance Release",
       "type": "Single",
       "released": "2019-10-18",
       "cover": "assets/img/covers/and-twice.jpg",
@@ -2410,13 +2517,13 @@
     {
       "id": "ill-show-you",
       "title": "I'll Show You",
-      "artist": "K/DA",
+      "artist": "K/DA — Nayeon, Jihyo, Sana, Chaeyoung",
       "category": "korean",
       "seq": "Collaboration",
       "type": "Single",
       "released": "2020-11-06",
       "cover": "assets/img/covers/ill-show-you.jpg",
-      "note": "From the K/DA EP All Out. Nayeon, Sana and Jihyo sing for Ahri.",
+      "note": "K/DA single featuring four Twice members — Nayeon, Jihyo, Sana and Chaeyoung — with Bekuh Boom and Annika Wells, from the EP All Out.",
       "links": {
         "spotify": "https://open.spotify.com/track/497qmwcUsCv5hmMU0K8Hik",
         "appleMusic": "https://music.apple.com/ph/album/ill-show-you-feat-annika-wells-league-of-legends-music/1832012000",
@@ -2426,7 +2533,7 @@
       "tracks": [
         {
           "title": "I'll Show You",
-          "artist": "K/DA",
+          "artist": "K/DA feat. Bekuh Boom & Annika Wells",
           "videos": []
         }
       ]
@@ -2516,6 +2623,57 @@
               "official": true
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "sotsugyou-cover",
+      "title": "Sotsugyou",
+      "artist": "Sana",
+      "category": "solo",
+      "seq": "Cover Single",
+      "type": "Single",
+      "released": "2021-02-19",
+      "cover": "assets/img/covers/sotsugyou-kobukuro.jpg",
+      "note": "The first solo single by a Twice member — Sana's cover of Kobukuro's 2020 song, on Warner Music Japan. An a cappella version was included. Cover art shared with the Kobukuro version.",
+      "links": {
+        "spotify": "https://open.spotify.com/album/2FwthxpO3gpK6r29ClzlVR",
+        "appleMusic": "https://music.apple.com/us/album/sotsugyou-cover-single/1552734917",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Sotsugyou",
+          "titleKo": "卒業",
+          "titleTrack": true,
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "sotsugyou-kobukuro",
+      "title": "Sotsugyou",
+      "artist": "Sana with Kobukuro",
+      "category": "solo",
+      "seq": "Collaboration",
+      "type": "Single",
+      "released": "2021-02-21",
+      "cover": "assets/img/covers/sotsugyou-kobukuro.jpg",
+      "note": "The version recorded with Kobukuro, two days after Sana's cover. Wikipedia dates this to March 2021; the release itself is dated 21 February.",
+      "links": {
+        "spotify": "https://open.spotify.com/album/2FwthxpO3gpK6r29ClzlVR",
+        "appleMusic": "https://music.apple.com/ph/album/sotsugyou-single/1557916793",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Sotsugyou",
+          "titleKo": "卒業",
+          "artist": "with Kobukuro",
+          "titleTrack": true,
+          "videos": []
         }
       ]
     },
@@ -2622,7 +2780,7 @@
       "id": "perfect-world-single",
       "title": "Perfect World",
       "category": "japanese",
-      "seq": "Digital Single",
+      "seq": "Advance Release",
       "type": "Single",
       "released": "2021-06-29",
       "cover": "assets/img/covers/perfect-world.jpg",
@@ -2964,6 +3122,30 @@
       ]
     },
     {
+      "id": "stardust-love-song",
+      "title": "Stardust Love Song",
+      "artist": "Jihyo",
+      "category": "solo",
+      "seq": "OST",
+      "type": "Single",
+      "released": "2022-03-06",
+      "cover": "assets/img/covers/stardust-love-song.jpg",
+      "note": "Jihyo's first soundtrack release, for tvN's Twenty-Five Twenty-One.",
+      "links": {
+        "spotify": "https://open.spotify.com/track/01Evjih77HRm4aG3YeGcX7",
+        "appleMusic": "https://music.apple.com/ph/album/stardust-love-song/1612615877",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Stardust Love Song",
+          "titleTrack": true,
+          "videos": []
+        }
+      ]
+    },
+    {
       "id": "hash-twice4",
       "title": "#Twice4",
       "category": "japanese",
@@ -3005,7 +3187,7 @@
       "id": "just-be-yourself",
       "title": "Just Be Yourself",
       "category": "japanese",
-      "seq": "Digital Single",
+      "seq": "3rd Digital Single",
       "type": "Single",
       "released": "2022-03-22",
       "cover": "assets/img/covers/celebrate.jpg",
@@ -3025,10 +3207,61 @@
       ]
     },
     {
+      "id": "im-nayeon",
+      "title": "IM NAYEON",
+      "artist": "Nayeon",
+      "category": "solo",
+      "seq": "1st Mini Album",
+      "type": "EP",
+      "released": "2022-06-24",
+      "cover": "assets/img/covers/im-nayeon.jpg",
+      "note": "",
+      "links": {
+        "spotify": "https://open.spotify.com/album/0wqjfojWuTcbEvwaizvTMw",
+        "appleMusic": "https://music.apple.com/ph/album/im-nayeon/1624932642",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Pop!",
+          "titleTrack": true,
+          "videos": []
+        },
+        {
+          "title": "No Problem",
+          "artist": "feat. Felix of Stray Kids",
+          "videos": []
+        },
+        {
+          "title": "Love Countdown",
+          "artist": "feat. Wonstein",
+          "videos": []
+        },
+        {
+          "title": "Candyfloss",
+          "videos": []
+        },
+        {
+          "title": "All or Nothing",
+          "videos": []
+        },
+        {
+          "title": "Happy Birthday to You",
+          "videos": []
+        },
+        {
+          "title": "Sunset",
+          "titleKo": "노을만 예쁘다",
+          "videos": []
+        }
+      ]
+    },
+    {
       "id": "celebrate-single",
       "title": "Celebrate",
       "category": "japanese",
-      "seq": "Digital Single",
+      "seq": "Advance Release",
       "type": "Single",
       "released": "2022-07-15",
       "cover": "assets/img/covers/celebrate.jpg",
@@ -3191,6 +3424,31 @@
         },
         {
           "title": "When We Were Kids",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "a-strange-day",
+      "title": "A Strange Day",
+      "artist": "Jihyo",
+      "category": "solo",
+      "seq": "OST",
+      "type": "Single",
+      "released": "2022-11-14",
+      "cover": "assets/img/covers/a-strange-day.jpg",
+      "note": "Jihyo's third soundtrack release, for Genie TV.",
+      "links": {
+        "spotify": "https://open.spotify.com/track/1haYZ64GiDq3vU36S4BZEN",
+        "appleMusic": "https://music.apple.com/ph/album/a-strange-day/1654094710",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "A Strange Day",
+          "titleKo": "이상한 하루",
+          "titleTrack": true,
           "videos": []
         }
       ]
@@ -3449,10 +3707,162 @@
       ]
     },
     {
+      "id": "zone",
+      "title": "ZONE",
+      "artist": "Jihyo",
+      "category": "solo",
+      "seq": "1st Mini Album",
+      "type": "EP",
+      "released": "2023-08-18",
+      "cover": "assets/img/covers/zone.jpg",
+      "note": "",
+      "links": {
+        "spotify": "https://open.spotify.com/album/1GIkapvyAw5lwdNw66hI44",
+        "appleMusic": "https://music.apple.com/ph/album/zone/1697360122",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Killin' Me Good",
+          "titleTrack": true,
+          "videos": []
+        },
+        {
+          "title": "Talkin' About It",
+          "artist": "feat. 24kGoldn",
+          "videos": []
+        },
+        {
+          "title": "Closer",
+          "videos": []
+        },
+        {
+          "title": "Wishing on You",
+          "videos": []
+        },
+        {
+          "title": "Don't Wanna Go Back",
+          "artist": "duet with Heize",
+          "videos": []
+        },
+        {
+          "title": "Room",
+          "videos": []
+        },
+        {
+          "title": "Nightmare",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "pop-star-remix",
+      "title": "Pop Star",
+      "artist": "Coco & Clair Clair · Chaeyoung remix",
+      "category": "solo",
+      "seq": "Collaboration",
+      "type": "Single",
+      "released": "2023-10-25",
+      "cover": "assets/img/covers/pop-star-remix.jpg",
+      "note": "",
+      "links": {
+        "spotify": "https://open.spotify.com/album/6r0xsy4FAx4p2Fc2WZxVR0",
+        "appleMusic": "https://music.apple.com/ph/album/pop-star-chaeyoung-remix/1706576821",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Pop Star",
+          "artist": "Coco & Clair Clair, Chaeyoung remix",
+          "titleTrack": true,
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "o-christmas-tree",
+      "title": "O Christmas Tree",
+      "artist": "Jeongyeon",
+      "category": "solo",
+      "seq": "Promotional Single",
+      "type": "Single",
+      "released": "2023-11-01",
+      "cover": "assets/img/covers/o-christmas-tree.jpg",
+      "note": "Non-album promotional single.",
+      "links": {
+        "spotify": "https://open.spotify.com/album/1t8NqMfJbvcUXmt0kVPxEp",
+        "appleMusic": "https://music.apple.com/ph/album/o-christmas-tree-single/1712732447",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "O Christmas Tree",
+          "titleTrack": true,
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "the-remixes",
+      "title": "The Remixes",
+      "category": "korean",
+      "seq": "Remix Album",
+      "type": "Full Album",
+      "released": "2023-11-22",
+      "cover": "assets/img/covers/the-remixes.jpg",
+      "note": "Digital-only remix album — remixes and English versions of earlier singles.",
+      "links": {
+        "spotify": "https://open.spotify.com/album/37WsLE5Eny9CTmF9CPzWIq",
+        "appleMusic": "https://music.apple.com/ph/album/the-remixes/1716428392",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Moonlight Sunrise",
+          "note": "Jonas Blue remix",
+          "videos": []
+        },
+        {
+          "title": "The Feels",
+          "note": "Ian Asher remix",
+          "videos": []
+        },
+        {
+          "title": "Set Me Free",
+          "note": "Carneyval remix",
+          "videos": []
+        },
+        {
+          "title": "Alcohol-Free",
+          "note": "English version",
+          "videos": []
+        },
+        {
+          "title": "Cry for Me",
+          "note": "English version",
+          "videos": []
+        },
+        {
+          "title": "I Can't Stop Me",
+          "artist": "with Boys Like Girls",
+          "videos": []
+        },
+        {
+          "title": "More & More",
+          "note": "Lee Hae Sol sped-up remix",
+          "videos": []
+        }
+      ]
+    },
+    {
       "id": "dance-again",
       "title": "Dance Again",
       "category": "japanese",
-      "seq": "Digital Single",
+      "seq": "4th Digital Single",
       "type": "Single",
       "released": "2023-12-12",
       "cover": "assets/img/covers/dive.jpg",
@@ -3582,10 +3992,60 @@
       ]
     },
     {
+      "id": "na",
+      "title": "NA",
+      "artist": "Nayeon",
+      "category": "solo",
+      "seq": "2nd Mini Album",
+      "type": "EP",
+      "released": "2024-06-14",
+      "cover": "assets/img/covers/na.jpg",
+      "note": "",
+      "links": {
+        "spotify": "https://open.spotify.com/album/7HlFpFOBYIGz5bPXz7pUWz",
+        "appleMusic": "https://music.apple.com/ph/album/na/1745594617",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "ABCD",
+          "titleTrack": true,
+          "videos": []
+        },
+        {
+          "title": "Butterflies",
+          "videos": []
+        },
+        {
+          "title": "Heaven",
+          "artist": "duet with Sam Kim",
+          "videos": []
+        },
+        {
+          "title": "Magic",
+          "artist": "feat. Julie of Kiss of Life",
+          "videos": []
+        },
+        {
+          "title": "HalliGalli",
+          "videos": []
+        },
+        {
+          "title": "Something",
+          "videos": []
+        },
+        {
+          "title": "Count It",
+          "videos": []
+        }
+      ]
+    },
+    {
       "id": "dive-single",
       "title": "Dive",
       "category": "japanese",
-      "seq": "Digital Single",
+      "seq": "Advance Release",
       "type": "Single",
       "released": "2024-07-10",
       "cover": "assets/img/covers/dive.jpg",
@@ -3699,6 +4159,52 @@
       ]
     },
     {
+      "id": "aboutzu",
+      "title": "abouTZU",
+      "artist": "Tzuyu",
+      "category": "solo",
+      "seq": "1st Mini Album",
+      "type": "EP",
+      "released": "2024-09-06",
+      "cover": "assets/img/covers/aboutzu.jpg",
+      "note": "",
+      "links": {
+        "spotify": "https://open.spotify.com/album/0Xj4fXPKV0h6KhGQbUkDvy",
+        "appleMusic": "https://music.apple.com/ph/album/aboutzu-ep/1760441613",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Run Away",
+          "titleTrack": true,
+          "videos": []
+        },
+        {
+          "title": "Heartbreak in Heaven",
+          "artist": "feat. Peniel of BtoB",
+          "videos": []
+        },
+        {
+          "title": "Lazy Baby",
+          "artist": "feat. pH-1",
+          "videos": []
+        },
+        {
+          "title": "Losing Sleep",
+          "videos": []
+        },
+        {
+          "title": "One Love",
+          "videos": []
+        },
+        {
+          "title": "Fly",
+          "videos": []
+        }
+      ]
+    },
+    {
       "id": "mamushi-remix",
       "title": "Mamushi (Remix)",
       "artist": "Megan Thee Stallion feat. Twice",
@@ -3798,6 +4304,32 @@
       ]
     },
     {
+      "id": "beyond-moana",
+      "title": "Beyond",
+      "artist": "Nayeon feat. Te Vaka",
+      "category": "solo",
+      "seq": "OST",
+      "type": "Single",
+      "released": "2024-11-20",
+      "cover": "assets/img/covers/beyond-moana.jpg",
+      "note": "End credit version, from the Moana 2 Korean soundtrack.",
+      "links": {
+        "spotify": "https://open.spotify.com/album/1sPZK9lKZnd6WEZsO1Zt5f",
+        "appleMusic": "https://music.apple.com/jp/album/beyond-end-credit-version-from-moana-2-korean-soundtrack/1780598081",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Beyond",
+          "titleKo": "저 너머로",
+          "artist": "feat. Te Vaka",
+          "titleTrack": true,
+          "videos": []
+        }
+      ]
+    },
+    {
       "id": "strategy",
       "title": "Strategy",
       "category": "korean",
@@ -3867,7 +4399,7 @@
       "id": "the-wish",
       "title": "The Wish",
       "category": "japanese",
-      "seq": "Digital Single",
+      "seq": "5th Digital Single",
       "type": "Single",
       "released": "2024-12-15",
       "cover": "assets/img/covers/enemy.jpg",
@@ -3890,6 +4422,31 @@
               "label": "Making Movie"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "apple-of-my-eye",
+      "title": "You Are the Apple of My Eye",
+      "artist": "Dahyun with Jinyoung",
+      "category": "solo",
+      "seq": "OST",
+      "type": "Single",
+      "released": "2025-02-20",
+      "cover": "assets/img/covers/apple-of-my-eye.jpg",
+      "note": "From the You Are the Apple of My Eye soundtrack.",
+      "links": {
+        "spotify": "https://open.spotify.com/album/0QVjQYG5cMiQ0r7LH1E6sm",
+        "appleMusic": "https://music.apple.com/ph/album/you-are-the-apple-of-my-eye-from-you-are-the-apple/1796792917",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "You Are the Apple of My Eye",
+          "artist": "with Jinyoung",
+          "titleTrack": true,
+          "videos": []
         }
       ]
     },
@@ -3983,6 +4540,31 @@
       ]
     },
     {
+      "id": "kimagure-romantic",
+      "title": "Kimagure Romantic",
+      "artist": "Nayeon",
+      "category": "solo",
+      "seq": "Japanese Single",
+      "type": "Single",
+      "released": "2025-05-30",
+      "cover": "assets/img/covers/kimagure-romantic.jpg",
+      "note": "Japanese solo single.",
+      "links": {
+        "spotify": "https://open.spotify.com/album/2OMNHN1KbJ97isNRSnRL7C",
+        "appleMusic": "https://music.apple.com/ph/album/kimagure-romantic-single/1816715925",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Kimagure Romantic",
+          "titleKo": "気まぐれロマンティック",
+          "titleTrack": true,
+          "videos": []
+        }
+      ]
+    },
+    {
       "id": "takedown",
       "title": "Takedown",
       "category": "korean",
@@ -4016,6 +4598,31 @@
               "official": true
             }
           ]
+        }
+      ],
+      "artist": "Jeongyeon, Jihyo, Chaeyoung"
+    },
+    {
+      "id": "new-days",
+      "title": "New Days",
+      "artist": "Jihyo",
+      "category": "solo",
+      "seq": "OST",
+      "type": "Single",
+      "released": "2025-06-28",
+      "cover": "assets/img/covers/new-days.jpg",
+      "note": "",
+      "links": {
+        "spotify": "https://open.spotify.com/track/57IkzikcfW2fDApWZ232Qj",
+        "appleMusic": "https://music.apple.com/ph/album/new-days/1896018815",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "New Days",
+          "titleTrack": true,
+          "videos": []
         }
       ]
     },
@@ -4144,7 +4751,7 @@
       "id": "enemy-single",
       "title": "Enemy",
       "category": "japanese",
-      "seq": "Digital Single",
+      "seq": "Advance Release",
       "type": "Single",
       "released": "2025-07-30",
       "cover": "assets/img/covers/enemy.jpg",
@@ -4204,7 +4811,7 @@
       "id": "like-1",
       "title": "Like 1",
       "category": "japanese",
-      "seq": "Digital Single",
+      "seq": "Advance Release",
       "type": "Single",
       "released": "2025-08-20",
       "cover": "assets/img/covers/enemy.jpg",
@@ -4315,6 +4922,92 @@
               "label": "Animation Movie"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "lil-fantasy-vol-1",
+      "title": "Lil Fantasy Vol. 1",
+      "artist": "Chaeyoung",
+      "category": "solo",
+      "seq": "1st Studio Album",
+      "type": "Full Album",
+      "released": "2025-09-12",
+      "cover": "assets/img/covers/lil-fantasy-vol-1.jpg",
+      "note": "",
+      "links": {
+        "spotify": "https://open.spotify.com/album/5j07H7jnOu2gYRj1ZrPoak",
+        "appleMusic": "https://music.apple.com/ph/album/lil-fantasy-vol-1/1832584198",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Avocado",
+          "artist": "feat. Gliiico",
+          "videos": []
+        },
+        {
+          "title": "Band-Aid",
+          "videos": []
+        },
+        {
+          "title": "Shoot (Firecracker)",
+          "titleTrack": true,
+          "videos": []
+        },
+        {
+          "title": "Girl",
+          "videos": []
+        },
+        {
+          "title": "Ribbons",
+          "artist": "feat. Sumin, Jibin of Y2K92",
+          "videos": []
+        },
+        {
+          "title": "Downpour",
+          "artist": "with Kai",
+          "videos": []
+        },
+        {
+          "title": "BF",
+          "videos": []
+        },
+        {
+          "title": "Shadow Puppet",
+          "titleKo": "그림자놀이",
+          "videos": []
+        },
+        {
+          "title": "My Guitar",
+          "titleKo": "내 기타",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "blink",
+      "title": "Blink",
+      "artist": "Tzuyu with Corbyn Besson",
+      "category": "solo",
+      "seq": "Collaboration",
+      "type": "Single",
+      "released": "2025-09-26",
+      "cover": "assets/img/covers/blink.jpg",
+      "note": "",
+      "links": {
+        "spotify": "https://open.spotify.com/album/2IRzuqfgRW9UojuEaDPZoB",
+        "appleMusic": "https://music.apple.com/ph/album/blink/1838563413?i=1838563679",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Blink",
+          "artist": "with Corbyn Besson",
+          "titleTrack": true,
+          "videos": []
         }
       ]
     },
@@ -4561,6 +5254,81 @@
         },
         {
           "title": "Message",
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "hvnly",
+      "title": "Hvnly",
+      "artist": "Jenevieve feat. Jihyo",
+      "category": "solo",
+      "seq": "Collaboration",
+      "type": "Single",
+      "released": "2026-05-08",
+      "cover": "assets/img/covers/hvnly.jpg",
+      "note": "From Jenevieve's album Crysalis (Coda).",
+      "links": {
+        "spotify": "https://open.spotify.com/album/7CcoolNe3O1CbJbqha3DXz",
+        "appleMusic": "https://music.apple.com/ph/album/hvnly/1895985987",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Hvnly",
+          "artist": "Jenevieve feat. Jihyo",
+          "titleTrack": true,
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "follow-me",
+      "title": "Follow Me",
+      "artist": "Jihyo with French Montana, Ludmilla, Adriana C & RedOne",
+      "category": "solo",
+      "seq": "Collaboration",
+      "type": "Single",
+      "released": "2026-06-12",
+      "cover": "assets/img/covers/follow-me.jpg",
+      "note": "",
+      "links": {
+        "spotify": "https://open.spotify.com/album/06RhYSAgH9jdM6j1iaDcv0",
+        "appleMusic": "https://music.apple.com/ph/album/follow-me-feat-redone/6776000316",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Follow Me",
+          "artist": "with French Montana, Ludmilla, Adriana C & RedOne",
+          "titleTrack": true,
+          "videos": []
+        }
+      ]
+    },
+    {
+      "id": "distant-lover",
+      "title": "Distant Lover",
+      "artist": "Jihyo with Shenseea",
+      "category": "solo",
+      "seq": "Collaboration",
+      "type": "Single",
+      "released": "2026-07-10",
+      "cover": "assets/img/covers/distant-lover.jpg",
+      "note": "",
+      "links": {
+        "spotify": "https://open.spotify.com/track/5GXyaAB474gIHxHtGdqsSF",
+        "appleMusic": "https://music.apple.com/ph/album/distant-lover-feat-shenseea-single/6785601184",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Distant Lover",
+          "artist": "with Shenseea",
+          "titleTrack": true,
           "videos": []
         }
       ]
