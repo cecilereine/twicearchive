@@ -86,6 +86,19 @@ function writtenByStyle(names) {
   return `background:${bg};color:${readableOn(cols[0])};`;
 }
 
+/* Member credits under a track: lyrics (writtenBy) and music (composedBy).
+   When the same member did both it reads as one chip rather than two. */
+function creditRow(track) {
+  const w = track.writtenBy, c = track.composedBy;
+  if (!w && !c) return '';
+  const chip = (who, text) =>
+    `<span class="written" style="${writtenByStyle(who)}">${text} ${escapeHtml(who)}</span>`;
+  const chips = w && c && w === c
+    ? [chip(w, '✎ Written &amp; composed by')]
+    : [w && chip(w, '✎ Written by'), c && chip(c, '♪ Composed by')].filter(Boolean);
+  return `<p class="written-row">${chips.join(' ')}</p>`;
+}
+
 /* Dark text on a pale chip, light text on a deep one, so the credit stays
    readable whatever colours are chosen. */
 function readableOn(hex) {
@@ -101,7 +114,7 @@ function readableOn(hex) {
 function matchesQuery(album, q) {
   if (!q) return true;
   const hay = [album.title, album.seq, album.type,
-               ...album.tracks.flatMap(t => [t.title, t.titleKo, t.artist, t.note, t.writtenBy])]
+               ...album.tracks.flatMap(t => [t.title, t.titleKo, t.artist, t.note, t.writtenBy, t.composedBy])]
     .filter(Boolean).join(' ').toLowerCase();
   return hay.includes(q);
 }
@@ -248,10 +261,7 @@ function trackRow(track, no) {
         ${track.titleTrack ? `<span class="star">Title</span>` : ''}
         ${track.note ? `<span class="track-ko">· ${escapeHtml(track.note)}</span>` : ''}
       </div>
-      ${track.writtenBy
-        ? `<p class="written-row"><span class="written"
-             style="${writtenByStyle(track.writtenBy)}">✎ Written by ${escapeHtml(track.writtenBy)}</span></p>`
-        : ''}
+      ${creditRow(track)}
       ${body}
     </div>`;
 }

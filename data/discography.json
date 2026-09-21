@@ -280,7 +280,8 @@
               "kind": "live",
               "url": "sTGeDgdUNK8",
               "label": "Yonsei AKARAKA Fancam",
-              "official": false
+              "official": false,
+              "fancam": true
             },
             {
               "kind": "lyric",
@@ -288,7 +289,8 @@
               "label": "Color Coded Lyrics",
               "official": false
             }
-          ]
+          ],
+          "writtenBy": "Chaeyoung"
         },
         {
           "title": "Touchdown",
@@ -379,7 +381,8 @@
               "kind": "live",
               "url": "rFlJ6mSjlMA",
               "label": "Once Again Fanmeeting Fancam",
-              "official": false
+              "official": false,
+              "fancam": true
             },
             {
               "kind": "lyric",
@@ -821,7 +824,8 @@
               "label": "Color Coded Lyrics",
               "official": false
             }
-          ]
+          ],
+          "writtenBy": "Jihyo, Chaeyoung"
         },
         {
           "title": "Someone Like Me",
@@ -890,6 +894,13 @@
               "label": "181221 Music Station Super Live - BDZ + TT (Japanese Ver.) + What Is Love? (Japanese Ver.)",
               "official": false,
               "thumb": "https://p.bstarstatic.com/ugc/0ffbd51a429e50852fcb5358602e0b69.jpg@640w_360h.webp"
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2049226334",
+              "label": "211224 Music Station Super Live - TT (Japanese Ver.)",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/3b233acbd084675a499630f3e5555f85.jpg@640w_360h.webp"
             }
           ]
         },
@@ -2889,7 +2900,8 @@
               "kind": "live",
               "url": "SUJm3rvXPE4",
               "label": "[FANCAM] 191020 트와이스 TWICE 21:29 (Live) ONCE HALLOWEEN 2 (1st Show)",
-              "official": false
+              "official": false,
+              "fancam": true
             },
             {
               "kind": "live",
@@ -3093,7 +3105,8 @@
               "kind": "live",
               "url": "2i-6pDHjOnk",
               "label": "191029 TWICELIGHTS in Japan What you waiting for",
-              "official": false
+              "official": false,
+              "fancam": true
             },
             {
               "kind": "lyric",
@@ -3135,7 +3148,8 @@
               "official": false
             }
           ],
-          "writtenBy": "Chaeyoung"
+          "writtenBy": "Chaeyoung",
+          "composedBy": "Chaeyoung"
         },
         {
           "title": "The Reason Why",
@@ -3441,7 +3455,8 @@
         {
           "title": "21:29",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [],
+          "writtenBy": "all members"
         }
       ]
     },
@@ -3632,6 +3647,12 @@
               "kind": "live",
               "url": "SZCvFZFXTww",
               "label": "GO HARD | TWICE 5TH WORLD TOUR READY TO BE in JAPAN Fukuoka Day (FHDX6",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "LIKZVP5FXI8",
+              "label": "GO HARD - TWICE 5TH WORLD TOUR READY TO BE in JAPAN, TOKYO",
               "official": false
             },
             {
@@ -4179,7 +4200,8 @@
               "kind": "live",
               "url": "SmaEhtM0ENE",
               "label": "220222 SOS (Encore) Twice - Twice 4th World Tour III - State Farm Aren",
-              "official": false
+              "official": false,
+              "fancam": true
             },
             {
               "kind": "lyric",
@@ -4731,7 +4753,8 @@
               "kind": "live",
               "url": "M4U15qbEtGU",
               "label": "Last Waltz | 2022.02.24 Atlanta | 4th World Tour III",
-              "official": false
+              "official": false,
+              "fancam": true
             },
             {
               "kind": "lyric",
@@ -4793,7 +4816,8 @@
               "official": false
             }
           ],
-          "writtenBy": "Jihyo"
+          "writtenBy": "Jihyo",
+          "composedBy": "Jihyo"
         },
         {
           "title": "Push & Pull",
@@ -4960,6 +4984,13 @@
               "url": "BDxYzVzzw2M",
               "official": true,
               "label": "Special Stage"
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2041582898",
+              "label": "211203 Music Station - Doughnut",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/f3532d487d65ed21be8f5738195eabba.jpg@640w_360h.webp"
             },
             {
               "kind": "live",
@@ -5134,9 +5165,57 @@
           "titleTrack": true,
           "videos": [
             {
+              "kind": "mv",
+              "url": "f6YDKF0LVWw",
+              "label": "NAYEON POP! M/V",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "L9iJJEooqjI",
+              "label": "NAYEON POP! Recording Behind the Scenes",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "_c4cKLYD28o",
+              "label": "NAYEON POP! Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "knF9VZk8g0o",
+              "label": "NAYEON POP! Choreography Video (Moving Ver.)",
+              "official": true
+            },
+            {
               "kind": "dance-performance",
               "url": "OH8qMMHhH_M",
               "label": "[릴레이댄스] 나연(NAYEON) - POP! (4K)",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "Igo8pUqvFMc",
+              "label": "[BE ORIGINAL] NAYEON(나연) POP! (4K)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "y09NxUvG2x0",
+              "label": "NAYEON POP! Performance Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "M8KTK1YJQaQ",
+              "label": "POP! - NAYEON(TWICE) [Music Bank] | KBS WORLD TV 220624",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "Xe3YBFGKXlk",
+              "label": "NAYEON POP! Live @ 2024 WATERBOMB SEOUL",
               "official": true
             }
           ]
@@ -5144,29 +5223,110 @@
         {
           "title": "No Problem",
           "artist": "feat. Felix of Stray Kids",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "XRQxpx4NGUk",
+              "label": "NAYEON NO PROBLEM (Feat. Felix of Stray Kids) Band Live Clip",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "veYhE7E7bxU",
+              "label": "NO PROBLEM (with HARU of NEXZ) @ Beat AX Vol.5",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Love Countdown",
           "artist": "feat. Wonstein",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "ibLoofIhgsI",
+              "label": "LOVE COUNTDOWN (with HYUI & YUKI of NEXZ) @ Beat AX Vol.5",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "xl9A5Qa_MLs",
+              "label": "NAYEON (나연) - Love Countdown (feat. Wonstein (원슈타인)) Lyrics (Color Cod",
+              "official": false
+            }
+          ],
+          "writtenBy": "Nayeon"
         },
         {
           "title": "Candyfloss",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "bSgaNUf58CE",
+              "label": "260829 NAYEON 娜璉 - CANDYFLOSS @ 2026 RAKUTEN MONKEYS SINGDOME 音樂電台",
+              "official": false,
+              "fancam": true
+            },
+            {
+              "kind": "live",
+              "url": "EXCgoFM5bh0",
+              "label": "ALL OR NOTHING / CANDYFLOSS @ Beat AX Vol.5",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "BnhwE6bPOx8",
+              "label": "NAYEON (나연) - Candyfloss Lyrics (Color Coded_Han_Rom_Eng)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "All or Nothing",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "EXCgoFM5bh0",
+              "label": "ALL OR NOTHING / CANDYFLOSS @ Beat AX Vol.5",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "6N6nMfxemO8",
+              "label": "NAYEON - All Or Nothing Lyrics Color Coded (Han/Rom/Eng) | @HansaGame",
+              "official": false
+            }
+          ],
+          "writtenBy": "Nayeon"
         },
         {
           "title": "Happy Birthday to You",
-          "videos": []
+          "videos": [
+            {
+              "kind": "special",
+              "url": "zcGiqEAyhXk",
+              "label": "NAYEON HAPPY BIRTHDAY TO YOU Recording Behind the Scenes",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "b6hr2Sk5LVA",
+              "label": "NAYEON - Happy Birthday To You Lyrics Color Coded (Han/Rom/Eng) | @Han",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Sunset",
           "titleKo": "노을만 예쁘다",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "38Q2zRuSmkQ",
+              "label": "NAYEON - Sunset Lyrics Color Coded (Han/Rom/Eng) | @HansaGame",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -5201,8 +5361,15 @@
               "url": "lSQMiBTBUOI",
               "official": true,
               "label": "ONCE DAY Stage Ver."
+            },
+            {
+              "kind": "live",
+              "url": "kbWLxCOYYIU",
+              "label": "「Celebrate」@ Nissan Stadium",
+              "official": false
             }
-          ]
+          ],
+          "writtenBy": "all members"
         }
       ]
     },
@@ -5237,32 +5404,107 @@
               "url": "lSQMiBTBUOI",
               "official": true,
               "label": "ONCE DAY Stage Ver."
+            },
+            {
+              "kind": "live",
+              "url": "kbWLxCOYYIU",
+              "label": "「Celebrate」@ Nissan Stadium",
+              "official": false
+            }
+          ],
+          "writtenBy": "all members"
+        },
+        {
+          "title": "Voices of Delight",
+          "videos": [
+            {
+              "kind": "live",
+              "url": "1I-Qv9EWpa0",
+              "label": "Voices Of Delight (READY TO BE Version) @ READY TO BE SPECIAL in YOKOHAMA",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "_O6j-yaw2bk",
+              "label": "[4K] TWICE Voices of delight OnceDay JAPAN in OSAKA FanMeeting",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "pNJydytINOg",
+              "label": "Voices of Delight Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
             }
           ]
         },
         {
-          "title": "Voices of Delight",
-          "videos": []
-        },
-        {
           "title": "Tick Tock",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "kLEmzHeCn8Q",
+              "label": "TICK TOCK Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Dahyun"
         },
         {
           "title": "Flow Like Waves",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "9FO2-DlW_Yk",
+              "label": "Flow like Waves Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "That's All I'm Saying",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "lbfoEKqbxRU",
+              "label": "220723 That's all I'm saying (live, ENG SUB)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "oMAbWQNqWoA",
+              "label": "Thats all Im saying Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Dahyun"
         },
         {
           "title": "Bitter Sweet",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "EDKfk1igHRE",
+              "label": "Bitter Sweet Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Sandcastle",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "__uAskAs9MA",
+              "label": "[4K] TWICE SandCastle OnceDay Japan FanMeeting",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "K4XWd1nndgg",
+              "label": "Sandcastle Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Just Be Yourself",
@@ -5298,6 +5540,13 @@
               "label": "Special Stage"
             },
             {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2041582898",
+              "label": "211203 Music Station - Doughnut",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/f3532d487d65ed21be8f5738195eabba.jpg@640w_360h.webp"
+            },
+            {
               "kind": "live",
               "url": "2-nTLguyjPI",
               "label": "JAPAN FAN MEETING ONCE DAY TOKYO 「Doughnut」4K (Mediocre Upscaled)",
@@ -5327,7 +5576,26 @@
         {
           "title": "I Fly",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "KgsZw90OuFw",
+              "label": "OST video with Today's Webtoon scenes",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "l4qYo13TSdY",
+              "label": "Recording making film",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "hufQ-AO7Wxs",
+              "label": "I FLY Lyrics (Han/Rom/Eng)",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -5356,10 +5624,54 @@
               "official": true
             },
             {
+              "kind": "dance",
+              "url": "_hiR58brDz4",
+              "label": "Talk that Talk Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "AkMYPuIWtSo",
+              "label": "Talk that Talk Choreography Video (Moving Ver.)",
+              "official": true
+            },
+            {
               "kind": "performance",
               "url": "pmkWBgayoUk",
               "label": "Performance Video",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "a91l68GJK4w",
+              "label": "Talk That Talk @ MTV Fresh Out",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "byUX1UKi4j0",
+              "label": "Talk that Talk | Show! MusicCore | MBC220827방송",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "sON1smkF6_4",
+              "label": "Talk That Talk - TWICE トゥワイス [Music Bank] | KBS WORLD TV 220826",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "p31cVLrrQdE",
+              "label": "TALK THAT TALK | 5TH WORLD TOUR READY TO BE SOFI STADIUM LA 2023",
+              "official": false,
+              "fancam": true
+            },
+            {
+              "kind": "live",
+              "url": "VOuLsiXkUTc",
+              "label": "Talk That Talk Live New York MetLife Stadium July 6 2023",
+              "official": false,
+              "fancam": true
             }
           ]
         },
@@ -5371,28 +5683,110 @@
               "url": "Q4Rb5_kjS2M",
               "label": "Live Clip",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "qZmngjMUQ0U",
+              "label": "Queen Of Hearts - TWICE 5TH WORLD TOUR READY TO BE in JAPAN, TOKYO",
+              "official": false
             }
           ]
         },
         {
           "title": "Basics",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "9hyfGIUPUkg",
+              "label": "Basics (live, Portuguese subtitles)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "ECuo_lWeo1c",
+              "label": "Basics Lyrics (트와이스 Basics 가사) (Color Coded Lyrics)",
+              "official": false
+            }
+          ],
+          "writtenBy": "Chaeyoung"
         },
         {
           "title": "Trouble",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "EfW0UDWrcLA",
+              "label": "TROUBLE Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Jihyo",
+          "composedBy": "Jihyo"
         },
         {
           "title": "Brave",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "Yd3iLk1as4U",
+              "label": "Brave - TWICE 5TH WORLD TOUR READY TO BE in SEOUL",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "iNGTUW9nYaI",
+              "label": "Brave | TWICE 5TH WORLD TOUR READY TO BE in JAPAN Fukuoka Day (FHDX60)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "JMnZ73NnyC0",
+              "label": "BRAVE Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Gone",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "s6PrgT5NLx8",
+              "label": "GONE @Inspire Arena THIS IS FOR WORLD TOUR IN INCHEON",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "U_NmlByqhj4",
+              "label": "Gone in JAPAN MUFG STADIUM THIS IS FOR WORLD TOUR #twice",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "Wy-dGhQr4p8",
+              "label": "Gone Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ],
+          "writtenBy": "Dahyun"
         },
         {
           "title": "When We Were Kids",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "zP9JUjDgfBs",
+              "label": "When We Were Kids - TWICE 5TH WORLD TOUR READY TO BE in JAPAN, TOKYO",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "lHnMxG75Si0",
+              "label": "When We Were Kids Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Dahyun"
         }
       ]
     },
@@ -5417,7 +5811,20 @@
           "title": "A Strange Day",
           "titleKo": "이상한 하루",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "eREbRbw2MJc",
+              "label": "Music Video",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "vlZ3o8smPjQ",
+              "label": "Jihyo - A Strange Day (이상한 하루) [Summer Strike OST] Lyrics [Color Coded",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -5453,10 +5860,34 @@
               "official": true
             },
             {
+              "kind": "dance",
+              "url": "E1bGxyNLIdQ",
+              "label": "MOONLIGHT SUNRISE Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "jjcRl8Jgd7U",
+              "label": "MOONLIGHT SUNRISE @ Billboard Women In Music Awards 2023",
+              "official": true
+            },
+            {
               "kind": "live",
               "url": "LXfS5gTXMOY",
               "label": "@ Amazon Music Live",
               "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "cEx2M447BJw",
+              "label": "MOONLIGHT SUNRISE Lyric Video",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "bjAnqI7ekIw",
+              "label": "「MOONLIGHT SUNRISE」5TH WORLD TOUR READY TO BE IN JAPAN Fukuoka PayPay ",
+              "official": false
             }
           ]
         }
@@ -5488,6 +5919,18 @@
               "url": "c64_lZErcOQ",
               "official": true,
               "label": "Making Music Video (short ver.)"
+            },
+            {
+              "kind": "live",
+              "url": "LxVEYDGmNiM",
+              "label": "MISAMO Bouquet LivePerformance Showcase tour in Tokyo",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "MSGk1BuBLOM",
+              "label": "MISAMO - BOUQUET Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
             }
           ]
         }
@@ -5518,10 +5961,52 @@
               "official": true
             },
             {
+              "kind": "dance",
+              "url": "mBJ-_US37fI",
+              "label": "SET ME FREE Choreography Video (Moving Ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "sXM5GwksZIY",
+              "label": "SET ME FREE Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "-pbis-MYgcQ",
+              "label": "SET ME FREE Frame Dance",
+              "official": true
+            },
+            {
               "kind": "performance",
               "url": "qSnlTld85yc",
               "label": "Performance Video",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "DGF4AKopPck",
+              "label": "SET ME FREE @ M COUNTDOWN 230316 (first stage)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "CADI2ngpZAk",
+              "label": "SET ME FREE One Take Stage @ Inkigayo 230319",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "o_X-gtP-pxs",
+              "label": "SET ME FREE @ The Tonight Show Starring Jimmy Fallon",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "nMOoxHSe-yM",
+              "label": "Set Me Free @ NBC TODAY Show",
+              "official": false
             }
           ]
         },
@@ -5542,33 +6027,119 @@
               "official": true
             },
             {
+              "kind": "dance",
+              "url": "E1bGxyNLIdQ",
+              "label": "MOONLIGHT SUNRISE Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "jjcRl8Jgd7U",
+              "label": "MOONLIGHT SUNRISE @ Billboard Women In Music Awards 2023",
+              "official": true
+            },
+            {
               "kind": "live",
               "url": "LXfS5gTXMOY",
               "label": "@ Amazon Music Live",
               "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "cEx2M447BJw",
+              "label": "MOONLIGHT SUNRISE Lyric Video",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "bjAnqI7ekIw",
+              "label": "「MOONLIGHT SUNRISE」5TH WORLD TOUR READY TO BE IN JAPAN Fukuoka PayPay ",
+              "official": false
             }
           ]
         },
         {
           "title": "Got the Thrills",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "dLOGVJlslfk",
+              "label": "Got The Thrills @ READY TO BE in Seoul",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "OWGWZT58sx4",
+              "label": "GOT THE THRILLS Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Blame It on Me",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "bF9j3jCVBgM",
+              "label": "「BLAME IT ON ME」5th World Tour in Seoul (multi-language subs)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "ykh75U1O0cw",
+              "label": "BLAME IT ON ME Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Dahyun"
         },
         {
           "title": "Wallflower",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "u-OUlug99_M",
+              "label": "Wallflower @ READY TO BE in Sydney",
+              "official": false,
+              "fancam": true
+            },
+            {
+              "kind": "lyric",
+              "url": "_bUEMEHe2-w",
+              "label": "WALLFLOWER Lyrics [Color Coded_Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Crazy Stupid Love",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "HPmldiVmigw",
+              "label": "CRAZY STUPID LOVE at 5th World Tour Ready To Be in Fukuoka , Japan [20",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "4d1jsLtUTX4",
+              "label": "CRAZY STUPID LOVE Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ],
+          "writtenBy": "Dahyun"
         },
         {
           "title": "Set Me Free",
           "note": "English ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "TKUZwzmRNvI",
+              "label": "SET ME FREE [English Ver.] - 5TH WORLD TOUR READY TO BE in JAPAN, FUKUOKA",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -5603,12 +6174,25 @@
               "url": "zkcNMhqJBok",
               "official": true,
               "label": "@ Nissan Stadium"
+            },
+            {
+              "kind": "live",
+              "url": "pnG-FJGWlVk",
+              "label": "「Hare Hare」＠味の素スタジアム",
+              "official": true
             }
           ]
         },
         {
           "title": "Catch a Wave",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "lt4C-WqRxZ4",
+              "label": "Catch a Wave Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -5638,12 +6222,50 @@
               "url": "woKq2sD8xho",
               "official": true,
               "label": "M/V"
+            },
+            {
+              "kind": "dance",
+              "url": "mtnCK6NlM3k",
+              "label": "「Do not touch」 Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "uU2j_ZDB_As",
+              "label": "「Do not touch」@PIA ARENA MM",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/4787899482510848",
+              "label": "230721 Music Station - Interview + Do Not Touch",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/7d98fe69d1e072da94bd275b8ef78bcd.jpg@640w_360h.webp"
+            },
+            {
+              "kind": "live",
+              "url": "7vhWpwLYZc8",
+              "label": "INTRO + DO NOT TOUCH @ HAUTE COUTURE, Tokyo Dome",
+              "official": false
             }
           ]
         },
         {
           "title": "Behind the Curtain",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "DM7zYgZux1s",
+              "label": "「Behind The Curtain」@PIA ARENA MM",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "PjQnQEQe83I",
+              "label": "Behind the curtain Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Marshmallow",
@@ -5653,20 +6275,74 @@
               "url": "gAFgaI5D3Gc",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "live",
+              "url": "XRXG0jplUCw",
+              "label": "Marshmallow @ MISAMO showcase tour in Tokyo",
+              "official": false
             }
           ]
         },
         {
           "title": "Funny Valentine",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "Iz3sGVNPO64",
+              "label": "「Funny Valentine」| HAUTE COUTURE | Japan Dome Tour | 250116",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "xQ3es-_44-4",
+              "label": "Funny Valentine (live)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "A9qgbf7Hc3s",
+              "label": "Funny Valentine Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ],
+          "writtenBy": "Momo"
         },
         {
           "title": "It's Not Easy for You",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "b2leRGgnlVQ",
+              "label": "IT'S NOT EASY FOR YOU @ HAUTE COUTURE, Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "yYZ3MMdKoE4",
+              "label": "Its not easy for you Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Mina"
         },
         {
           "title": "Rewind You",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "KgObqEiwwMo",
+              "label": "(4K)MISAMO- REWIND YOU - LIVE FROM HAUTE COUTURE TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "0WIdxf5Iqw0",
+              "label": "Rewind You Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Sana"
         },
         {
           "title": "Bouquet",
@@ -5676,6 +6352,18 @@
               "url": "c64_lZErcOQ",
               "official": true,
               "label": "Making Music Video (short ver.)"
+            },
+            {
+              "kind": "live",
+              "url": "LxVEYDGmNiM",
+              "label": "MISAMO Bouquet LivePerformance Showcase tour in Tokyo",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "MSGk1BuBLOM",
+              "label": "MISAMO - BOUQUET Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
             }
           ]
         }
@@ -5703,9 +6391,51 @@
           "titleTrack": true,
           "videos": [
             {
+              "kind": "mv",
+              "url": "jyw_vrI4ySg",
+              "label": "JIHYO Killin Me Good M/V",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "TtRBKXZbGsU",
+              "label": "JIHYO Killin Me Good Choreography Video (One take Ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "4qSurTRbk_M",
+              "label": "JIHYO Killin Me Good Choreography Video",
+              "official": true
+            },
+            {
               "kind": "dance-performance",
               "url": "_bJ2Xq7nRTQ",
               "label": "[릴레이댄스] 지효(JIHYO) - Killin Me Good (4K)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "RqqjuBLDXKk",
+              "label": "JIHYO Killin Me Good Performance Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "B0wkN21HFGo",
+              "label": "Killin Me Good - JIHYO(TWICE トゥワイス) [Music Bank] | KBS WORLD TV 230818",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "QN5WVzX4Yvg",
+              "label": "JIHYO(지효) - Killin Me Good @인기가요 inkigayo 20230820",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "4vbgbWXylZw",
+              "label": "Killin' Me Good & Room (One Take ver.) - it's Live band session",
               "official": true
             }
           ]
@@ -5713,28 +6443,123 @@
         {
           "title": "Talkin' About It",
           "artist": "feat. 24kGoldn",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "mFyAItymIBg",
+              "label": "Talkin' About It (Feat. 24kGoldn) Lyric Video",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "iSGbL3Qvp3M",
+              "label": "Talkin' About It (Feat. 24kGoldn) Lyric Video (Clean Ver.)",
+              "official": true
+            }
+          ],
+          "composedBy": "Jihyo"
         },
         {
           "title": "Closer",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "nq4rAGVW-cw",
+              "label": "Closer - 지효(TWICE) [뮤직뱅크/Music Bank] | KBS 230818 방송",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "wEvGlParxwM",
+              "label": "JIHYO(지효) - Closer @인기가요 inkigayo 20230820",
+              "official": true
+            }
+          ],
+          "writtenBy": "Jihyo"
         },
         {
           "title": "Wishing on You",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "kJkTRR8kw-0",
+              "label": "Wishing On You @ WATERBOMB Kaohsiung 2026",
+              "official": false,
+              "fancam": true
+            },
+            {
+              "kind": "lyric",
+              "url": "5GGHVjsg4oA",
+              "label": "JIHYO Wishing On You Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ],
+          "writtenBy": "Jihyo"
         },
         {
           "title": "Don't Wanna Go Back",
           "artist": "duet with Heize",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "mzLvOhw234Y",
+              "label": "Snippet with Heize on Heize's Volume Up",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "2yaFFeJQpIQ",
+              "label": "JIHYO Dont Wanna Go Back (Duet With Heize) Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ],
+          "writtenBy": "Jihyo",
+          "composedBy": "Jihyo"
         },
         {
           "title": "Room",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "4vbgbWXylZw",
+              "label": "Killin' Me Good & Room (One Take ver.) - it's Live band session",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "znecosjX_yk",
+              "label": "Room @ WATERBOMB Kaohsiung 2026",
+              "official": false,
+              "fancam": true
+            },
+            {
+              "kind": "lyric",
+              "url": "UJYp846lLqE",
+              "label": "JIHYO Room Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ],
+          "writtenBy": "Jihyo",
+          "composedBy": "Jihyo"
         },
         {
           "title": "Nightmare",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "TjoHwrBbjKA",
+              "label": "Nightmare @ Nissan Stadium",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "K-mT4rNAmXE",
+              "label": "JIHYO Nightmare Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ],
+          "writtenBy": "Jihyo",
+          "composedBy": "Jihyo"
         }
       ]
     },
@@ -5759,7 +6584,20 @@
           "title": "Pop Star",
           "artist": "Coco & Clair Clair, Chaeyoung remix",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "cj9BHZr5RZY",
+              "label": "Official Visualizer",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "LX32qH_Pk-w",
+              "label": "Coco & Clair Clair & CHAEYOUNG Pop Star (CHAEYOUNG Remix) Lyrics (Colo",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -5783,7 +6621,14 @@
         {
           "title": "O Christmas Tree",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "KykWvu8T7n0",
+              "label": "JEONGYEON O Christmas Tree Lyric Video",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -5821,17 +6666,44 @@
         {
           "title": "Alcohol-Free",
           "note": "English version",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "AO9pfUpxxtM",
+              "label": "Alcohol-Free [English ver] (Color Coded Lyrics Eng/Pt-Br)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Cry for Me",
           "note": "English version",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "8sSvOeKhWDc",
+              "label": "Cry For Me (English Ver.) (Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "I Can't Stop Me",
           "artist": "with Boys Like Girls",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "hlrGwcig7Xc",
+              "label": "240430 Boys Like Girls - I Can't Stop Me @ Live in Seoul, YES24 Hall",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "nOodN3rF7TI",
+              "label": "I CAN'T STOP ME (feat. BOYS LIKE GIRLS) Color Coded Lyrics",
+              "official": false
+            }
+          ]
         },
         {
           "title": "More & More",
@@ -5847,7 +6719,7 @@
       "seq": "4th Digital Single",
       "type": "Single",
       "released": "2023-12-12",
-      "cover": "assets/img/covers/dive.jpg",
+      "cover": "assets/img/covers/dance-again.jpg",
       "note": "Digital release from Dive. Cover art shared with the album.",
       "links": {
         "spotify": "https://open.spotify.com/album/1Z7QoKOpqAWfiHnurlsiti",
@@ -5861,10 +6733,22 @@
           "titleTrack": true,
           "videos": [
             {
-              "kind": "performance",
+              "kind": "special",
               "url": "OzmnjIca8LU",
               "official": true,
               "label": "Special Video"
+            },
+            {
+              "kind": "live",
+              "url": "TfmpQc4G5cg",
+              "label": "「Dance Again」Encore 5TH WORLD TOUR READY TO BE IN JAPAN Fukuoka PayPay",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "U5RqrSMOwb4",
+              "label": "Dance Again Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
             }
           ]
         }
@@ -5896,10 +6780,40 @@
               "official": true
             },
             {
+              "kind": "performance",
+              "url": "CQJwo_zguKU",
+              "label": "I GOT YOU - TWICE [Music Bank] | KBS WORLD TV 240301",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "0r14sdOtdFg",
+              "label": "I GOT YOU 인기가요 inkigayo 20240303",
+              "official": true
+            },
+            {
               "kind": "live",
               "url": "NhmzKgaoLX0",
               "label": "Live Clip",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "rlic9qU9avw",
+              "label": "I GOT YOU Live Stage @ TWICE 5TH WORLD TOUR READY TO BE IN MEXICO CITY",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "lB8XI1PCjFQ",
+              "label": "I GOT YOU @ Amazon Music Live",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "blmxjsWUQkI",
+              "label": "[4K] TWICE 「I GOT YOU」 @ Nissan Stadium",
+              "official": false
             }
           ]
         }
@@ -5931,10 +6845,40 @@
               "official": true
             },
             {
+              "kind": "performance",
+              "url": "CQJwo_zguKU",
+              "label": "I GOT YOU - TWICE [Music Bank] | KBS WORLD TV 240301",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "0r14sdOtdFg",
+              "label": "I GOT YOU 인기가요 inkigayo 20240303",
+              "official": true
+            },
+            {
               "kind": "live",
               "url": "NhmzKgaoLX0",
               "label": "Live Clip",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "rlic9qU9avw",
+              "label": "I GOT YOU Live Stage @ TWICE 5TH WORLD TOUR READY TO BE IN MEXICO CITY",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "lB8XI1PCjFQ",
+              "label": "I GOT YOU @ Amazon Music Live",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "blmxjsWUQkI",
+              "label": "[4K] TWICE 「I GOT YOU」 @ Nissan Stadium",
+              "official": false
             }
           ]
         },
@@ -5948,6 +6892,18 @@
               "official": true
             },
             {
+              "kind": "dance",
+              "url": "hY-ZMaSlEvg",
+              "label": "ONE SPARK Choreography Video (Moving Ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "67Oe2LWddss",
+              "label": "ONE SPARK Choreography Video",
+              "official": true
+            },
+            {
               "kind": "dance-performance",
               "url": "4sOiP27Ka9g",
               "label": "[릴레이댄스] TWICE (트와이스) - ONE SPARK (4K)",
@@ -5958,24 +6914,92 @@
               "url": "XiwY-syjwm4",
               "label": "Performance Video",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "7lUMngFhhdw",
+              "label": "ONE SPARK - TWICE [Music Bank] | KBS WORLD TV 240301",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "OaxfQOLjDiw",
+              "label": "ONE SPARK One Take (4K Bonus Ver.) @ Music Bank 240301",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "wLdpR7guKy8",
+              "label": "ONE SPARK Live Stage @ TWICE 5TH WORLD TOUR READY TO BE ONCE MORE IN L",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "OSKP3RJwoik",
+              "label": "ONE SPARK @ Amazon Music Live",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "1FPBqHdXNrY",
+              "label": "ONE SPARK @ NBC TODAY Show",
+              "official": false
             }
           ]
         },
         {
           "title": "Rush",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "KCjfUEGQWRg",
+              "label": "RUSH live @ Allegiant Stadium Las Vegas, NV 3/16/24",
+              "official": false,
+              "fancam": true
+            },
+            {
+              "kind": "lyric",
+              "url": "JuHZdlpwg3k",
+              "label": "RUSH Lyrics [Color Coded Han_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Chaeyoung"
         },
         {
           "title": "New New",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "Zv8iKJsmBtE",
+              "label": "NEW NEW Lyrics [Color Coded Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Bloom",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "6EjuuYi4bXQ",
+              "label": "BLOOM Lyrics [Color Coded Han_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Jeongyeon"
         },
         {
           "title": "You Get Me",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "Sl49KGkWk1M",
+              "label": "YOU GET ME Lyrics [Color Coded Han_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Dahyun"
         }
       ]
     },
@@ -5999,33 +7023,161 @@
         {
           "title": "ABCD",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "oUZttxRcPZw",
+              "label": "NAYEON ABCD M/V",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "wuOMVslfIRo",
+              "label": "NAYEON(나연) ABCD (4K) | STUDIO CHOOM ORIGINAL",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "uglrQCWtLUg",
+              "label": "NAYEON ABCD Performance Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "VAI6gEqUmn0",
+              "label": "NAYEON (나연) – ABCD @인기가요 inkigayo 20240616",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "3VRZ2DUfitY",
+              "label": "NAYEON (나연) - ABCD | Show! MusicCore | MBC240615방송",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "XCv4Y_JGqJE",
+              "label": "ABCD - NAYEON(TWICE) ナヨン 나연 [Music Bank] | KBS WORLD TV 240614",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "3GNeR22mhPI",
+              "label": "NAYEON ABCD Live @ 2024 WATERBOMB SEOUL",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "GDw9_kIEDaY",
+              "label": "ABCD - it's Live band session",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "EwRBjpNH8mY",
+              "label": "[4K] NAYEON 「ABCD」 @ Nissan Stadium",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Butterflies",
-          "videos": []
+          "videos": [
+            {
+              "kind": "special",
+              "url": "jeiVwBCwvhA",
+              "label": "\"NA\" Special Live Clip — Butterflies",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "z4LkRKNhtUU",
+              "label": "NAYEON Butterflies Lyrics (나연 Butterflies 가사) [Color Coded Han_Rom_Eng",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Heaven",
           "artist": "duet with Sam Kim",
-          "videos": []
+          "videos": [
+            {
+              "kind": "special",
+              "url": "https://www.youtube.com/watch?v=jeiVwBCwvhA&t=96",
+              "label": "\"NA\" Special Live Clip — Heaven (from 1:36)",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "OrhH8Vgr_U0",
+              "label": "NAYEON Heaven (feat. Sam Kim) Lyrics (나연 Heaven 가사) [Color Coded_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Magic",
           "artist": "feat. Julie of Kiss of Life",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "vMGabEEcr1o",
+              "label": "MAGIC (feat. JULIE of KISS OF LIFE) Live @ 2024 WATERBOMB SEOUL",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "ptVBzKEyZ6o",
+              "label": "NAYEON Magic (feat. Julie of KISS OF LIFE) Lyrics (나연 Magic 가사) [Color",
+              "official": false
+            }
+          ]
         },
         {
           "title": "HalliGalli",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "CW6Y92UpmhA",
+              "label": "NAYEON HalliGalli Lyrics [Prod. LEE CHANHYUK of AKMU] [Color Coded Han",
+              "official": false
+            }
+          ],
+          "note": "Produced by Lee Chan-hyuk of AKMU"
         },
         {
           "title": "Something",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "mBggQYDXcuU",
+              "label": "SOMETHING @ Beat AX Vol.5",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "IGPm9GLyiHw",
+              "label": "NAYEON Something Lyrics (나연 Something 가사) [Color Coded Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Count It",
-          "videos": []
+          "videos": [
+            {
+              "kind": "special",
+              "url": "https://www.youtube.com/watch?v=jeiVwBCwvhA&t=178",
+              "label": "\"NA\" Special Live Clip — Count It (from 2:58)",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "6BPWzc-myNA",
+              "label": "NAYEON Count It Lyrics (나연 Count It 가사) [Color Coded Han_Rom_Eng]",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -6054,6 +7206,12 @@
               "url": "QGCkDOkpWf8",
               "official": true,
               "label": "Music Video"
+            },
+            {
+              "kind": "live",
+              "url": "Rm6cN89LFW8",
+              "label": "Live Stage @ Nissan Stadium",
+              "official": true
             }
           ]
         }
@@ -6099,36 +7257,96 @@
         },
         {
           "title": "Ocean Deep",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "J6lqPx_2PJ0",
+              "label": "Ocean Deep Lyrics (트와이스 Ocean Deep 가사) (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Love Warning",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "g1BZK-MdHWk",
+              "label": "LOVE WARNING Lyrics (트와이스 LOVE WARNING 가사) (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Here I Am",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "3bd0iqK2hoQ",
+              "label": "「Here I am」 Live Stage @Nissan Stadium",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "WcvDvYtHTAk",
+              "label": "Here I am Lyrics (트와이스 Here I am 가사) (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Inside of Me",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "hcVAbSNMNik",
+              "label": "Inside of me Lyrics (트와이스 Inside of me 가사) (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Peach Soda",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "_O0_0M3qA6E",
+              "label": "Peach Soda Lyrics (트와이스 Peach Soda 가사) (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Echoes of Heart",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "q8y5Gun5DOw",
+              "label": "Echoes of Heart Lyrics (트와이스 Echoes of Heart 가사) (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Dance Again",
           "videos": [
             {
-              "kind": "performance",
+              "kind": "special",
               "url": "OzmnjIca8LU",
               "official": true,
               "label": "Special Video"
+            },
+            {
+              "kind": "live",
+              "url": "TfmpQc4G5cg",
+              "label": "「Dance Again」Encore 5TH WORLD TOUR READY TO BE IN JAPAN Fukuoka PayPay",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "U5RqrSMOwb4",
+              "label": "Dance Again Lyrics [Color Coded_Kan_Rom_Eng]",
+              "official": false
             }
           ]
         },
@@ -6147,6 +7365,12 @@
               "url": "zkcNMhqJBok",
               "official": true,
               "label": "@ Nissan Stadium"
+            },
+            {
+              "kind": "live",
+              "url": "pnG-FJGWlVk",
+              "label": "「Hare Hare」＠味の素スタジアム",
+              "official": true
             }
           ]
         }
@@ -6174,34 +7398,187 @@
           "titleTrack": true,
           "videos": [
             {
+              "kind": "mv",
+              "url": "IIrCrGAX03Y",
+              "label": "TZUYU Run Away M/V",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "X1kZHwInJEY",
+              "label": "TZUYU Run Away Choreography Video (Moving Ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "Yc03VXxpeaQ",
+              "label": "TZUYU Run Away Choreography Video (Puppy Ver.)",
+              "official": true
+            },
+            {
               "kind": "dance-performance",
               "url": "OktFPNjFfAk",
               "label": "[릴레이댄스] 쯔위(TZUYU) - Run Away (4K)",
               "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "cMzGuRieo-8",
+              "label": "TZUYU(쯔위) Run Away (4K) | STUDIO CHOOM ORIGINAL",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "l0wZE_x1-zs",
+              "label": "TZUYU (쯔위) - Run Away | Show! MusicCore | MBC240907방송",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "xcrZ0KDQJM4",
+              "label": "TZUYU (쯔위) - Run Away @인기가요 inkigayo 20240908",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "eRl2VK2ESPs",
+              "label": "Run Away @ M COUNTDOWN 240912 (solo debut stage)",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "Nvm5zqf88xQ",
+              "label": "Run Away - Cool Look LIVE @ KBS Cool FM (240910)",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "JfuKiMG3rpo",
+              "label": "260321 Run Away (TWICE Ver., encore) @ THIS IS FOR World Tour in Taipei",
+              "official": false,
+              "fancam": true
             }
           ]
         },
         {
           "title": "Heartbreak in Heaven",
           "artist": "feat. Peniel of BtoB",
-          "videos": []
+          "videos": [
+            {
+              "kind": "special",
+              "url": "EV-SV9YzRdQ",
+              "label": "\"abouTZU\" Special Live Clip (Heartbreak In Heaven, Lazy Baby, Fly)",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "Lt6FsDX3TKk",
+              "label": "TZUYU (TWICE) Heartbreak In Heaven (feat. PENIEL of BTOB) Lyrics [Colo",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Lazy Baby",
           "artist": "feat. pH-1",
-          "videos": []
+          "videos": [
+            {
+              "kind": "special",
+              "url": "EV-SV9YzRdQ",
+              "label": "\"abouTZU\" Special Live Clip (Heartbreak In Heaven, Lazy Baby, Fly)",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "R78PApCQ1q4",
+              "label": "TZUYU (TWICE) Lazy Baby (feat. pH-1) Lyrics (쯔위 lazy baby 가사) [Color C",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Losing Sleep",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "PviBm-FbLKo",
+              "label": "TZUYU (TWICE) Losing Sleep Lyrics (쯔위 Losing Sleep 가사) [Color Coded Ha",
+              "official": false
+            }
+          ]
         },
         {
           "title": "One Love",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "rc5jCPkr8CY",
+              "label": "TZUYU (TWICE) One Love Lyrics (쯔위 One Love 가사) [Color Coded Han_Rom_En",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Fly",
-          "videos": []
+          "videos": [
+            {
+              "kind": "special",
+              "url": "EV-SV9YzRdQ",
+              "label": "\"abouTZU\" Special Live Clip (Heartbreak In Heaven, Lazy Baby, Fly)",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "nJqcIskNREA",
+              "label": "260703 周子瑜 TZUYU - Fly | 2026 BEER ROCK FESTIVAL 高雄啤酒音樂節",
+              "official": false,
+              "fancam": true
+            },
+            {
+              "kind": "lyric",
+              "url": "TCmXDWWhqtw",
+              "label": "TZUYU (TWICE) Fly Lyrics (쯔위 Fly 가사) [Color Coded Han_Rom_Eng]",
+              "official": false
+            }
+          ],
+          "writtenBy": "Tzuyu"
+        }
+      ]
+    },
+    {
+      "id": "new-look",
+      "title": "New Look",
+      "artist": "MISAMO",
+      "category": "solo",
+      "seq": "Pre-release Single",
+      "type": "Single",
+      "released": "2024-10-09",
+      "cover": "assets/img/covers/haute-couture.jpg",
+      "note": "Pre-release single for Haute Couture, a cover of Namie Amuro's 2008 song. Cover art shared with the EP.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "https://music.apple.com/ph/album/new-look/1772136984?i=1772137001",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "New Look",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "FJWLj1-kGC0",
+              "official": true,
+              "label": "Music Video"
+            },
+            {
+              "kind": "live",
+              "url": "-ckbS1e8Is0",
+              "label": "NEW LOOK & IDENTITY @ HAUTE COUTURE, Tokyo Dome 250115",
+              "official": false
+            }
+          ],
+          "titleTrack": true
         }
       ]
     },
@@ -6225,7 +7602,69 @@
         {
           "title": "Mamushi (Remix)",
           "artist": "Megan Thee Stallion feat. Twice",
-          "videos": []
+          "videos": [
+            {
+              "kind": "lyric",
+              "url": "bl8wdsOAWxU",
+              "label": "Megan Thee Stallion Mamushi (Remix) (feat. TWICE) (Color Coded Lyrics ",
+              "official": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "identity",
+      "title": "Identity",
+      "artist": "MISAMO",
+      "category": "solo",
+      "seq": "Pre-release Single",
+      "type": "Single",
+      "released": "2024-10-28",
+      "cover": "assets/img/covers/haute-couture.jpg",
+      "note": "Pre-release single for Haute Couture. Cover art shared with the EP.",
+      "links": {
+        "spotify": "",
+        "appleMusic": "https://music.apple.com/ph/album/identity/1772136984?i=1772136985",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Identity",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "-J_w9K6DgRo",
+              "official": true,
+              "label": "M/V"
+            },
+            {
+              "kind": "special",
+              "url": "OSY46bbB87I",
+              "label": "Identity Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "L47hgb9x5t4",
+              "label": "Identity Cheering Guide (Tokyo Dome ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "LyQJhpkEw6A",
+              "label": "Identity (4K) | STUDIO CHOOM ORIGINAL",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "-ckbS1e8Is0",
+              "label": "NEW LOOK & IDENTITY @ HAUTE COUTURE, Tokyo Dome 250115",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -6255,6 +7694,30 @@
               "url": "-J_w9K6DgRo",
               "official": true,
               "label": "M/V"
+            },
+            {
+              "kind": "special",
+              "url": "OSY46bbB87I",
+              "label": "Identity Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "L47hgb9x5t4",
+              "label": "Identity Cheering Guide (Tokyo Dome ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "LyQJhpkEw6A",
+              "label": "Identity (4K) | STUDIO CHOOM ORIGINAL",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "-ckbS1e8Is0",
+              "label": "NEW LOOK & IDENTITY @ HAUTE COUTURE, Tokyo Dome 250115",
+              "official": false
             }
           ]
         },
@@ -6266,20 +7729,65 @@
               "url": "c3tiv65f8fQ",
               "official": true,
               "label": "@ Tokyo Dome"
+            },
+            {
+              "kind": "lyric",
+              "url": "gwRFce-stL4",
+              "label": "RUNWAY Lyrics (Color Coded Lyrics)",
+              "official": false
             }
           ]
         },
         {
           "title": "Wah Wah Wah",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "oli6OzZr8uk",
+              "label": "Wah Wah Wah + Do Not Touch + Behind The Curtain @ HAUTE COUTURE, Tokyo Dome 250115",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "uKyLD2EUAHA",
+              "label": "Wah Wah Wah Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Baby, I'm Good",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "U503zFLht-0",
+              "label": "BABY I'M GOOD @ HAUTE COUTURE, Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "6E6BiwI-URU",
+              "label": "Baby, Im Good Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Daydream",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "oDUFlFKsqpA",
+              "label": "Daydream (live)",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "avEGN3KuObM",
+              "label": "Daydream Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         },
         {
           "title": "New Look",
@@ -6291,16 +7799,90 @@
               "label": "Music Video"
             },
             {
-              "kind": "other",
-              "url": "l1J0uBVWQsM",
-              "official": true,
-              "label": "MV Story Teaser"
+              "kind": "live",
+              "url": "-ckbS1e8Is0",
+              "label": "NEW LOOK & IDENTITY @ HAUTE COUTURE, Tokyo Dome 250115",
+              "official": false
+            }
+          ],
+          "titleTrack": true
+        },
+        {
+          "title": "Jealousy",
+          "videos": [
+            {
+              "kind": "live",
+              "url": "8xo_-PE0rw8",
+              "label": "JEALOUSY @ HAUTE COUTURE, Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "XhmzH339p-s",
+              "label": "Jealousy Lyrics (Color Coded Lyrics)",
+              "official": false
             }
           ]
         },
         {
-          "title": "Jealousy",
-          "videos": []
+          "title": "Misty",
+          "artist": "Mina",
+          "note": "Bonus track",
+          "videos": [
+            {
+              "kind": "live",
+              "url": "ay3oKFL29gU",
+              "label": "Misty (Mina solo) @ HAUTE COUTURE, Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "76eu3Io0Jkg",
+              "label": "MINA (TWICE) Misty Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ],
+          "writtenBy": "Mina"
+        },
+        {
+          "title": "Money in My Pocket",
+          "artist": "Momo",
+          "note": "Bonus track",
+          "videos": [
+            {
+              "kind": "live",
+              "url": "nL8DE2CZ_2w",
+              "label": "Money in My Pocket (Momo solo) @ HAUTE COUTURE, Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "mpr0ZD0vG_w",
+              "label": "MOMO (TWICE) Money In My Pocket Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ],
+          "writtenBy": "Momo"
+        },
+        {
+          "title": "Mirage",
+          "artist": "Sana",
+          "note": "Bonus track",
+          "videos": [
+            {
+              "kind": "live",
+              "url": "UBlykFtdduo",
+              "label": "Mirage (Sana solo) @ HAUTE COUTURE, Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "_HKk4vQp6yw",
+              "label": "SANA (TWICE) Mirage Lyrics (Color Coded Lyrics)",
+              "official": false
+            }
+          ],
+          "writtenBy": "Sana"
         }
       ]
     },
@@ -6389,7 +7971,8 @@
         },
         {
           "title": "Keeper",
-          "videos": []
+          "videos": [],
+          "writtenBy": "Dahyun"
         },
         {
           "title": "Magical",
@@ -6846,7 +8429,8 @@
               "official": true,
               "label": "Cheering Guide"
             }
-          ]
+          ],
+          "writtenBy": "Jihyo"
         }
       ]
     },
@@ -6868,7 +8452,8 @@
       "tracks": [
         {
           "title": "Up to You",
-          "videos": []
+          "videos": [],
+          "writtenBy": "Dahyun"
         },
         {
           "title": "Enemy",
@@ -6917,7 +8502,8 @@
         },
         {
           "title": "Glow",
-          "videos": []
+          "videos": [],
+          "writtenBy": "Dahyun"
         },
         {
           "title": "Like 1",
@@ -6934,7 +8520,8 @@
               "official": true,
               "label": "Cheering Guide"
             }
-          ]
+          ],
+          "writtenBy": "Jihyo"
         }
       ]
     },
@@ -6958,44 +8545,61 @@
         {
           "title": "Avocado",
           "artist": "feat. Gliiico",
-          "videos": []
+          "videos": [],
+          "writtenBy": "Chaeyoung",
+          "composedBy": "Chaeyoung"
         },
         {
           "title": "Band-Aid",
-          "videos": []
+          "videos": [],
+          "writtenBy": "Chaeyoung",
+          "composedBy": "Chaeyoung"
         },
         {
           "title": "Shoot (Firecracker)",
           "titleTrack": true,
-          "videos": []
+          "videos": [],
+          "writtenBy": "Chaeyoung",
+          "composedBy": "Chaeyoung"
         },
         {
           "title": "Girl",
-          "videos": []
+          "videos": [],
+          "writtenBy": "Chaeyoung",
+          "composedBy": "Chaeyoung"
         },
         {
           "title": "Ribbons",
           "artist": "feat. Sumin, Jibin of Y2K92",
-          "videos": []
+          "videos": [],
+          "writtenBy": "Chaeyoung",
+          "composedBy": "Chaeyoung"
         },
         {
           "title": "Downpour",
           "artist": "with Kai",
-          "videos": []
+          "videos": [],
+          "writtenBy": "Chaeyoung",
+          "composedBy": "Chaeyoung"
         },
         {
           "title": "BF",
-          "videos": []
+          "videos": [],
+          "writtenBy": "Chaeyoung"
         },
         {
           "title": "Shadow Puppet",
           "titleKo": "그림자놀이",
-          "videos": []
+          "videos": [],
+          "writtenBy": "Chaeyoung",
+          "composedBy": "Chaeyoung"
         },
         {
           "title": "My Guitar",
           "titleKo": "내 기타",
-          "videos": []
+          "videos": [],
+          "writtenBy": "Chaeyoung",
+          "composedBy": "Chaeyoung"
         }
       ]
     },
@@ -7055,7 +8659,8 @@
               "label": "Live Stage @ 2025 FANMEETING",
               "official": true
             }
-          ]
+          ],
+          "writtenBy": "all members"
         },
         {
           "title": "Meeeeee",
@@ -7073,7 +8678,9 @@
               "label": "Lyric Video",
               "official": true
             }
-          ]
+          ],
+          "writtenBy": "Nayeon",
+          "composedBy": "Nayeon"
         },
         {
           "title": "Fix a Drink",
@@ -7145,7 +8752,8 @@
               "label": "Lyric Video",
               "official": true
             }
-          ]
+          ],
+          "writtenBy": "Dahyun"
         },
         {
           "title": "In My Room",
@@ -7251,6 +8859,30 @@
               "url": "-J_w9K6DgRo",
               "official": true,
               "label": "M/V"
+            },
+            {
+              "kind": "special",
+              "url": "OSY46bbB87I",
+              "label": "Identity Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "L47hgb9x5t4",
+              "label": "Identity Cheering Guide (Tokyo Dome ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "LyQJhpkEw6A",
+              "label": "Identity (4K) | STUDIO CHOOM ORIGINAL",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "-ckbS1e8Is0",
+              "label": "NEW LOOK & IDENTITY @ HAUTE COUTURE, Tokyo Dome 250115",
+              "official": false
             }
           ]
         },
@@ -7262,6 +8894,31 @@
               "url": "woKq2sD8xho",
               "official": true,
               "label": "M/V"
+            },
+            {
+              "kind": "dance",
+              "url": "mtnCK6NlM3k",
+              "label": "「Do not touch」 Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "uU2j_ZDB_As",
+              "label": "「Do not touch」@PIA ARENA MM",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/4787899482510848",
+              "label": "230721 Music Station - Interview + Do Not Touch",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/7d98fe69d1e072da94bd275b8ef78bcd.jpg@640w_360h.webp"
+            },
+            {
+              "kind": "live",
+              "url": "7vhWpwLYZc8",
+              "label": "INTRO + DO NOT TOUCH @ HAUTE COUTURE, Tokyo Dome",
+              "official": false
             }
           ]
         },

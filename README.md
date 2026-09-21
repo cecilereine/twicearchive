@@ -39,9 +39,9 @@ Open `data/discography.json`, find the track, and add an entry to its `videos` a
 
 **`url`** — paste whatever YouTube gives you. All of these work:
 `youtube.com/watch?v=ID`, `youtu.be/ID`, `youtube.com/shorts/ID`, or the bare `ID`.
-A `?t=90` on the end makes the player start there. Anything that isn't YouTube
-(Naver, Weverse, a Drive file) still works — it becomes a link-out card instead of
-an embed, and you can give it a `"thumb": "assets/img/whatever.jpg"`.
+A `?t=90` on the end opens the video at that point. Every card opens its video in a
+new tab. Anything that isn't YouTube (Vimeo, Bilibili, Naver, a Drive file) works
+too — give it a `"thumb"` image, or it shows a coloured placeholder.
 
 **`kind`** — sets the coloured badge. One of:
 
@@ -58,6 +58,9 @@ an embed, and you can give it a `"thumb": "assets/img/whatever.jpg"`.
 
 **`official`** — `true` shows a green ✓ Official, `false` shows an amber ✦ Fan.
 Leave it out and it's treated as official.
+
+**`fancam`** — optional; `true` adds a ◉ Fancam tag. Independent of `official`:
+M COUNTDOWN's MPD fancams are official fancams.
 
 **`label`** — optional; overrides the badge text as the card's caption, e.g.
 `"Choreography Video (Moving Ver.)"`.
@@ -102,7 +105,8 @@ in the rest itself:
 | `kind` | keywords in the title — "Comeback Stage", "Dance Practice", "Lyrics"… |
 | `official` | **the channel**, never the title |
 | `label` | the video title, tidied up |
-| `noEmbed` | set when the uploader has disabled embedding |
+| `noEmbed` | set when the uploader has disabled embedding (informational) |
+| `fancam` | set when the title says fancam or 직캠 |
 
 Lines that aren't links are treated as headings and ignored, so you can paste a
 song name above each group. Pass a release id instead of `auto` to confine it to
@@ -114,9 +118,9 @@ filed, is listed at the end and left alone.
 Two things it gets right that are easy to get wrong by hand. A channel called
 "TWICE World" is *not* official, and fan reuploads regularly title themselves
 "Official MV" — so official status comes from the channel only. And a few
-uploads (SBS Inkigayo stages, for instance) have embedding disabled; those would
-show a dead player, so they're flagged `noEmbed` and the card links out to
-YouTube instead, keeping its thumbnail.
+uploads (SBS Inkigayo stages, for instance) have embedding disabled; oEmbed
+won't describe those, so the tool reads the watch page instead and flags them
+`noEmbed`.
 
 ## Adding streaming links
 

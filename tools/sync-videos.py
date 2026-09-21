@@ -44,12 +44,12 @@ def main():
             continue
         best = min((v for _, _, v in rows), key=rank)
         for album, track, v in rows:
-            diff = {k: (v.get(k), best.get(k)) for k in ("kind", "label", "official", "pin", "noEmbed")
+            diff = {k: (v.get(k), best.get(k)) for k in ("kind", "label", "official", "pin", "noEmbed", "fancam")
                     if v.get(k) != best.get(k)}
             if not diff:
                 continue
             changed.append((album["title"], album["seq"], track["title"], url, diff))
-            for k in ("kind", "label", "official", "noEmbed", "pin"):
+            for k in ("kind", "label", "official", "noEmbed", "pin", "fancam"):
                 if k in best:
                     v[k] = best[k]
                 else:

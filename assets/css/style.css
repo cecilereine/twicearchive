@@ -263,7 +263,7 @@ a { color: inherit; }
 
 /* A member writing credit. On its own line under the title rather than lost
    among the pills on the title row. */
-.written-row { margin: 6px 0 0 28px; }
+.written-row { margin: 6px 0 0 28px; display: flex; flex-wrap: wrap; gap: 6px; }
 .written {
   display: inline-block;
   font-size: 11.5px; font-weight: 700; letter-spacing: .01em;
@@ -442,6 +442,7 @@ a { color: inherit; }
 }
 .official.yes { color: var(--ok); }
 .official.no  { color: var(--warn); }
+.official.fancam { color: var(--accent); }
 
 .watch-btn {
   font: inherit; font-size: 11.5px; font-weight: 600; cursor: pointer;

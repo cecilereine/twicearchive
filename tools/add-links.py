@@ -27,21 +27,26 @@ DATA = os.path.join(os.path.dirname(__file__), "..", "data", "discography.json")
 
 # Uploads from these channels are official: the label, the group, the
 # broadcasters and outlets whose shows the stages come from (KOCOWA is KBS,
-# MBC and SBS's own streaming service; Genius for Open Mic), CJ ENM's own
-# channels (STUDIO CHOOM, and STONE MUSIC for drama OSTs), YG PLUS's SEOUL
-# MUSIC for OSTs too, Netflix for the KPop Demon Hunters material, and the
-# other artist's own channel on a collaboration (Riot's League of Legends
-# for K/DA, Kobukuro for Sotsugyou). Everything else is treated as fan-made.
+# MBC and SBS's own streaming service; it's Live is MBC's band-live series;
+# Genius for Open Mic; Billboard for its awards; Prime Video for Amazon Music
+# Live), CJ ENM's own channels (STUDIO CHOOM, and STONE MUSIC for drama
+# OSTs), YG PLUS's SEOUL MUSIC and KT's GENIE MUSIC for OSTs too, Netflix for
+# the KPop Demon Hunters material, and the other artist's own channel on a
+# collaboration (Riot's League of Legends for K/DA, Kobukuro for Sotsugyou,
+# Coco & Clair Clair for Pop Star). Everything else is fan-made.
 OFFICIAL = re.compile(r"""^(
     JYP\ Entertainment | TWICE | TWICE\ JAPAN\ OFFICIAL\ YouTube\ Channel |
-    .*\ -\ Topic | Mnet\ K-POP | KBS\ Kpop | KBS\ WORLD\ TV | SBS\ KPOP |
+    .*\ -\ Topic | Mnet\ K-POP | KBS\ Kpop | KBS\ WORLD\ TV | KBS\ CoolFM | SBS\ KPOP |
     SBSKPOP.* | SBS\ Entertainment | MBCentertainment |
     MBCkpop | MBC\ every1 | Mwave | M2 | 1theK.* | Netflix.* |
     Still\ Watching\ Netflix | Arirang\ K-Pop | 東宝MOVIEチャンネル | TOHO.*|
     JTBC\ Entertainment | JTBC.* | tvN\ D.* | Golden\ Disc | MAMA\ AWARDS | Melon\ Music\ Awards | The\ Fact\ Music\ Awards |
     SBS\ Awards | KBS\ Song\ Festival | MBC\ Music\ Festival | STUDIO\ CHOOM.* |
+    it's\ Live |
     League\ of\ Legends | コブクロ\ 公式チャンネル | Genius | STONE\ MUSIC |
-    KOCOWA\ TV | SEOUL\ MUSIC.*
+    coco\ &\ clair\ clair |
+    KOCOWA\ TV | SEOUL\ MUSIC.* | SBS\ Catch | MTV | GENIE\ MUSIC |
+    Billboard | The\ Tonight\ Show.* | Prime\ Video.*
 )$""", re.I | re.X)
 
 RULES = [
@@ -50,9 +55,9 @@ RULES = [
     # a live performance at an anniversary event is still a live performance
     ("live",        r"special live"),
     ("special",     r"anniversary|\bspecial video\b|document video|기념|주년|cheering guide|응원법"
-                    r"|selfie (?:movie|mv)"),
+                    r"|selfie (?:movie|mv)|behind the scenes|recording (?:video|film)|レコーディング|메이킹"),
     ("lyric",       r"lyric"),
-    ("dance-performance", r"relay ?dance|릴레이 ?댄스|be original"),
+    ("dance-performance", r"relay ?dance|릴레이 ?댄스|be original|studio choom original|frame dance"),
     ("dance",       r"dance (practice|video)|choreography|dance ver"),
     ("performance", r"comeback stage|music bank|show champion|inkigayo|music ?core"
                     r"|m ?countdown|show! ?music|special stage|debut stage|kpop tv show"
@@ -60,8 +65,9 @@ RULES = [
                     r"|golden ?disc|골든디스크|mama|awards|가요대전|가요대축제|시상식"
                     r"|song festival|music festival|late show|tonight show|kimmel"
                     r"|good morning america|\bgma\d?\b|time ?100|ellen degeneres"
-                    r"|ellen show|open mic|music day|music station|\bmtv\b"
-                    r"|\b(?:MBC|KBS|SBS) \d{6} 방송"),
+                    r"|ellen show|open mic|music day|music station|\bmtv\b|performance video"
+                    r"|today ?show"
+                    r"|엠카운트다운|\b(?:MBC|KBS|SBS|Mnet) ?\d{6} ?방송"),
     ("live",        r"live|fancam|concert|tour|encore|fanmeet|showcase|begins"
                     r"|stadium|dome|직캠|@ |^\d{6}\b"
                     r"|twiceland|twicelights|fantasy park|ready to be|이지리스닝|fan ?meeting"),
@@ -147,17 +153,20 @@ def classify(title, channel, handle=""):
     return kind, official
 
 
-def caption(title, kind):
+def caption(title, kind, channel=""):
     """A short caption. Strips the group name, then tidies up what that leaves
        behind — an empty "()" where "(트와이스)" used to be, stray quote marks
        and the ♪ that music shows put on the end."""
     t = re.sub(r"^\s*(?:\bTWICE\b\s*\((?:트와이스|トゥワイス)\)|트와이스\s*\(TWICE\)"
-               r"|\bTWICE\b\s*트와이스|\bTWICE\b|트와이스|\bMISAMO\b)\s*",
+               r"|\bTWICE\b\s*트와이스|\bTWICE\b|트와이스|\bMISAMO\b\s*\(미사모\)|\bMISAMO\b)\s*",
                "", title, flags=re.I)
     t = re.sub(r"[\"\u201c\u201d'\u2018\u2019\u2032]", "", t)
     t = re.sub(r"\(\s*\)|\[\s*\]", "", t)
     t = re.sub(r"\s{2,}", " ", t).strip(" -\u2013\u2014|\u00b7,\u266a")
     t = re.sub(r"^[-\u2013\u2014|\u00b7,\s]+", "", t)
+    # lyric channels often sign the title: "… Lyrics [Color Coded] | ShadowByYoongi"
+    if channel and t.lower().endswith("| " + channel.lower()):
+        t = t[: -len(channel) - 2].rstrip(" |")
     return t[:70] or {"mv": "M/V", "lyric": "Lyric Video", "dance": "Dance Practice",
                       "dance-performance": "Dance Performance",
                       "performance": "Performance", "live": "Live",
@@ -216,7 +225,9 @@ def main():
             ln = ln.split("#")[0].strip()
             if not ln:
                 continue
-            if video_id(ln):
+            # Only a real YouTube address counts as a link here: an 11-letter
+            # heading ("Marshmallow") is otherwise indistinguishable from a bare id.
+            if "youtu" in ln and video_id(ln):
                 urls.append((ln, heading))
             else:
                 heading = ln.rstrip(":").strip()
@@ -262,9 +273,11 @@ def main():
         t = start_at(url)
         entry = {"kind": kind,
                  "url": f"https://www.youtube.com/watch?v={vid}&t={t}" if t else vid,
-                 "label": caption(title, kind), "official": official}
+                 "label": caption(title, kind, channel), "official": official}
         if not embeddable:
             entry["noEmbed"] = True
+        if re.search(r"fancam|fan cam|직캠", title, re.I):
+            entry["fancam"] = True
         track["videos"].append(entry)
         # pinned first, then official before fan, then by kind
         track["videos"].sort(key=lambda v: (0 if v.get("pin") else 1,

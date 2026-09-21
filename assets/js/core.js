@@ -179,6 +179,9 @@ function videoCard(v) {
   const official = v.official === false
     ? '<span class="official no" title="Not from an official channel">✦ Fan</span>'
     : '<span class="official yes" title="Official upload">✓ Official</span>';
+  /* A fancam is shot from one spot or on one member; official or not is separate
+     (M COUNTDOWN's MPD fancams are official). */
+  const fancam = v.fancam ? '<span class="official fancam" title="Fancam">◉ Fancam</span>' : '';
 
   const durTag = v.duration ? `<span class="dur">${escapeHtml(v.duration)}</span>` : '';
 
@@ -196,7 +199,7 @@ function videoCard(v) {
         <span class="vlabel">${escapeHtml(label)}</span>
         <div class="vtags">
           <span class="badge" data-kind="${kind}">${escapeHtml(KIND_LABEL[kind])}</span>
-          ${official}
+          ${official}${fancam}
           <a class="ext" href="${escapeHtml(watchUrl(v))}"
              target="_blank" rel="noopener" title="Open in a new tab">↗</a>
         </div>
