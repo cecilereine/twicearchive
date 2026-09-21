@@ -1,5 +1,5 @@
 {
-  "section": "Melody Project & Covers",
+  "section": "Melody Project & Cover Project",
   "note": "Members covering other artists' songs: the Melody Project videos on TWICE's channel, and every other cover. One entry per cover, with its videos (the cover itself, a behind-the-scenes, a live clip).",
   "updated": "2026-09-22",
   "memberColors": {
@@ -28,7 +28,7 @@
     },
     {
       "key": "cover",
-      "label": "Other Covers"
+      "label": "Cover Project"
     }
   ],
   "covers": [
@@ -457,6 +457,24 @@
         {
           "kind": "mv",
           "url": "7123DLSc9FA",
+          "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "running-through-the-dawn-sky-dahyun",
+      "song": "Running Through the Dawn Sky",
+      "songKo": "새벽 하늘을 달리다",
+      "originalArtist": "Ha Eun-jee (하은지)",
+      "members": "Dahyun",
+      "series": "cover",
+      "released": "2023-01-21",
+      "note": "Piano cover; video editing by Dahyun.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "2R7NzCOXOoM",
           "label": "Cover",
           "official": true
         }

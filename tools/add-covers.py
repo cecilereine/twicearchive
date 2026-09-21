@@ -50,7 +50,9 @@ _links = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_links)
 lookup, video_id, is_official, norm = _links.lookup, _links.video_id, _links.is_official, _links.norm
 
-QUOTED = re.compile(r"[“\"「『](.+?)[”\"」』]")
+# Either curly quote can open or close: titles have been typed with the pair
+# the wrong way round ("…“).
+QUOTED = re.compile(r"[“”\"「『](.+?)[“”\"」』]")
 FEAT   = re.compile(r"\((?:feat|ft)\.?\s*([^)]+)\)", re.I)
 SLUG   = lambda s: re.sub(r"-+", "-", re.sub(r"[^a-z0-9가-힣]+", "-", s.lower())).strip("-")
 

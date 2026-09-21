@@ -207,11 +207,11 @@ group's Hospital Playlist single sit together; an OST track on a regular album
 To add releases, copy a block from `data/release-template.json`, which documents
 every field and has worked examples for a Japanese album and a solo release.
 
-## Melody Project & Covers
+## Melody Project & Cover Project
 
 `covers.html` lists members' covers of other artists' songs by year, from
 `data/covers.json`. One entry per cover — the song, who originally sang it, the
-members, the series (Melody Project, Performance Project or an ordinary cover),
+members, the series (Melody Project, Performance Project or Cover Project),
 the date — and its videos: the cover itself, a behind-the-scenes, a live clip.
 On the page every video is a card in a grid, carrying its cover's details, so a
 cover with a behind-the-scenes takes two cards side by side.
