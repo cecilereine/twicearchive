@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" data-accent="live">
+<html lang="en" data-accent="twicetv">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Concerts &amp; Live · TWICE Content Archive</title>
-<meta name="description" content="Full TWICE shows — concerts, festival sets, broadcast specials, fanmeetings and award shows, each in one video.">
+<title>TWICE TV · TWICE Content Archive</title>
+<meta name="description" content="TWICE TV, season by season — every episode, with the V LIVE seasons linked to their archived copies.">
 <link rel="icon" href="assets/img/favicon.svg?v=158">
 <link rel="stylesheet" href="assets/css/style.css?v=158">
 <script>try{var t=localStorage.getItem('twice-archive:theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
@@ -19,25 +19,25 @@
       <a href="index.html">Home</a>
       <a href="discography.html">Discography</a>
       <a href="covers.html">Melody Project</a>
-      <a href="live.html" class="on">Concerts &amp; Live</a>
+      <a href="live.html">Concerts &amp; Live</a>
       <a href="vlogs.html">Vlogs</a>
-      <a href="twicetv.html">TWICE TV</a>
+      <a href="twicetv.html" class="on">TWICE TV</a>
       <a href="variety.html">TV Variety &amp; Reality</a>
       <a href="donate.html">Donate</a>
       <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch theme">🌙</button>
     </nav>
-    <h1>Concerts &amp; Live</h1>
-    <p>Full shows — a whole concert, festival set, broadcast special, fanmeeting or award show in one video — plus one-off stage covers and collabs. Per-song cuts of TWICE songs stay filed under their track in the Discography.</p>
+    <h1>TWICE TV</h1>
+    <p>TWICE TV, season by season, episode by episode. The early seasons aired on V LIVE, which shut down in 2022 — those link to their archived copies on vlivearchive.com.</p>
   </header>
 
   <div class="toolbar">
     <div class="row">
       <input type="text" class="search" id="search"
-             placeholder="🔍  Search a show, a venue or a year — “Lollapalooza”, “Tokyo Dome”, “Amazon”…">
+             placeholder="🔍  Search a season, an episode or a year — “TV6”, “Singapore”, “2017”…">
       <span class="progress-pill" id="progress"></span>
     </div>
-    <div class="row tabs" id="series"><!-- Tours / Festivals / Broadcast / Fanmeetings / Awards / Stage chips, built by live.js --></div>
-    <div class="row" id="members" hidden><!-- member chips, built by live.js — hidden until a solo show exists --></div>
+    <div class="row tabs" id="series"><!-- series chips, built by live.js --></div>
+    <div class="row" id="members" hidden><!-- member chips, built by live.js --></div>
     <div class="row" id="years"><!-- year chips, built by live.js --></div>
   </div>
 
@@ -55,7 +55,7 @@
 </div>
 
 <script src="assets/js/core.js?v=158"></script>
-<script src="assets/js/live.js?v=158"></script>
+<script src="assets/js/live.js?v=158" data-src="data/twicetv.json" data-progress="twice-archive:twicetv-progress" data-noun="episode"></script>
 <script src="assets/js/theme.js?v=158"></script>
 </body>
 </html>

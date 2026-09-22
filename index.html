@@ -9,8 +9,8 @@
      data/ changes, so a browser can't pair new HTML with a stale script or stale
      data the way GitHub Pages' ten minute cache otherwise allows. The scripts
      pass their own ?v= through to the data file they fetch. -->
-<link rel="icon" href="assets/img/favicon.svg?v=156">
-<link rel="stylesheet" href="assets/css/style.css?v=156">
+<link rel="icon" href="assets/img/favicon.svg?v=158">
+<link rel="stylesheet" href="assets/css/style.css?v=158">
 <script>try{var t=localStorage.getItem('twice-archive:theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 </head>
 <body>
@@ -25,6 +25,7 @@
       <a href="covers.html">Melody Project</a>
       <a href="live.html">Concerts &amp; Live</a>
       <a href="vlogs.html">Vlogs</a>
+      <a href="twicetv.html">TWICE TV</a>
       <a href="variety.html">TV Variety &amp; Reality</a>
       <a href="donate.html">Donate</a>
       <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch theme">🌙</button>
@@ -74,12 +75,13 @@
       <span class="tag">Coming soon</span>
     </div>
 
-    <div class="hub-card soon">
+    <a class="hub-card" href="twicetv.html">
       <span class="emoji">📼</span>
       <h2>TWICE TV</h2>
-      <p>The TWICE TV series.</p>
-      <span class="tag">Coming soon</span>
-    </div>
+      <p>TWICE TV, season by season, every episode.</p>
+      <span class="tag">TV5 · TV6 · more seasons coming</span>
+      <span class="hub-progress" data-key="twice-archive:twicetv-progress" data-noun="episodes" hidden></span>
+    </a>
 
     <a class="hub-card" href="variety.html">
       <span class="emoji">🎬</span>
@@ -91,8 +93,15 @@
 
     <div class="hub-card soon">
       <span class="emoji">📱</span>
-      <h2>YouTube Variety</h2>
-      <p>Web variety shows TWICE appeared on.</p>
+      <h2>Streaming Variety</h2>
+      <p>Variety shows made for YouTube, Netflix and other streaming platforms.</p>
+      <span class="tag">Coming soon</span>
+    </div>
+
+    <div class="hub-card soon">
+      <span class="emoji">🍿</span>
+      <h2>Movies</h2>
+      <p>Members' films, TWICE's documentaries and concert movies.</p>
       <span class="tag">Coming soon</span>
     </div>
   </div>
@@ -103,7 +112,7 @@
   </footer>
 
 </div>
-<script src="assets/js/theme.js?v=156"></script>
+<script src="assets/js/theme.js?v=158"></script>
 <script>
 /* Watched progress on the Discography card. The discography page leaves its
    totals in localStorage each time it counts them, so the hub can show them

@@ -15,6 +15,7 @@
 
   --accent:     var(--peach);
   --accent-2:   var(--candy);
+  --accent-ink: var(--accent);   /* accent used as text; pages with a pale accent point it at --accent-2 */
 
   --bg:         #fff7f3;
   --surface:    #ffffff;
@@ -41,10 +42,22 @@
 /* Section tints. Each page sets one on <html>. */
 :root[data-accent="discography"] { --accent: var(--candy);  --accent-2: var(--peach); }
 :root[data-accent="shows"]       { --accent: var(--grape);  --accent-2: var(--candy); }
-:root[data-accent="live"]        { --accent: var(--mint);   --accent-2: var(--grape); }
-:root[data-accent="covers"]      { --accent: var(--grape);  --accent-2: var(--mint); }
-:root[data-accent="vlogs"]       { --accent: var(--peach);  --accent-2: var(--candy); }
-:root[data-accent="variety"]     { --accent: var(--candy);  --accent-2: var(--mint); }
+/* Melody Project through TV Variety each wear one member's colour, fading
+   into a deeper shade of it (the member hex matches memberColors in data/). */
+:root[data-accent="covers"]      { --accent: #49c0ec; --accent-2: #1f7fb8; } /* Nayeon */
+:root[data-accent="live"]        { --accent: #a3cc54; --accent-2: #5e8f24; } /* Jeongyeon */
+:root[data-accent="vlogs"]       { --accent: #e67ea3; --accent-2: #c2457e; } /* Momo */
+:root[data-accent="twicetv"]     { --accent: #8c79b4; --accent-2: #5b4596; } /* Sana */
+:root[data-accent="variety"]     { --accent: #f9cc85; --accent-2: #e0913a; } /* Jihyo */
+:root:is([data-accent="covers"], [data-accent="live"], [data-accent="vlogs"],
+      [data-accent="twicetv"], [data-accent="variety"]) { --accent-ink: var(--accent-2); }
+/* …but on the dark background it's the bright member colour that reads. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --accent-ink: var(--accent); }
+}
+:root[data-theme="dark"] { --accent-ink: var(--accent); }
+/* Jihyo's apricot is too pale for white text on a selected chip. */
+:root[data-accent="variety"] .chip.on { color: #2a1b22; }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -166,7 +179,7 @@ a { color: inherit; }
 .hub-card p { margin: 0; font-size: 13px; color: var(--text-soft); }
 .hub-card .tag {
   display: inline-block; margin-top: 12px; font-size: 11px; font-weight: 700;
-  text-transform: uppercase; letter-spacing: .05em; color: var(--accent);
+  text-transform: uppercase; letter-spacing: .05em; color: var(--accent-ink);
 }
 /* Watched totals under the Discography card's tag, filled in by index.html
    from what discography.js last counted. */
@@ -179,7 +192,7 @@ a { color: inherit; }
   display: block; height: 100%;
   background: linear-gradient(90deg, var(--accent), var(--accent-2));
 }
-.hub-progress > b { color: var(--accent); }
+.hub-progress > b { color: var(--accent-ink); }
 .hub-progress.done { color: var(--ok); font-weight: 600; }
 .hub-progress.done .bar b { background: var(--ok); }
 
@@ -233,7 +246,7 @@ a { color: inherit; }
   border: 0; background: transparent;
 }
 .tabs .chip.on {
-  color: var(--accent); background: var(--surface);
+  color: var(--accent-ink); background: var(--surface);
   box-shadow: 0 1px 2px rgba(80,40,50,.10), 0 2px 8px rgba(80,40,50,.08);
 }
 /* In the dark the surface is darker than the track, so a white-card lift
@@ -286,7 +299,7 @@ a { color: inherit; }
   background: var(--surface-2); border: 1px solid var(--line);
   white-space: nowrap;
 }
-.progress-pill b { color: var(--accent); }
+.progress-pill b { color: var(--accent-ink); }
 
 /* ---------- album grid ---------- */
 
@@ -374,10 +387,10 @@ a { color: inherit; }
    artist on a collaboration. */
 .card-artist {
   margin: 0 0 6px; font-size: 11.5px; font-weight: 600;
-  color: var(--accent); line-height: 1.3;
+  color: var(--accent-ink); line-height: 1.3;
 }
 .panel-artist {
-  margin: 0 0 5px; font-size: 13px; font-weight: 600; color: var(--accent);
+  margin: 0 0 5px; font-size: 13px; font-weight: 600; color: var(--accent-ink);
 }
 
 /* Release type, shown under the title on the card and in the panel head. */
@@ -519,7 +532,7 @@ a { color: inherit; }
   margin-top: 8px; font-size: 12.5px; color: var(--text-faint);
   display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
 }
-.no-video a { color: var(--accent); font-weight: 600; }
+.no-video a { color: var(--accent-ink); font-weight: 600; }
 
 /* ---------- video card ---------- */
 
@@ -607,7 +620,7 @@ a { color: inherit; }
 }
 .official.yes { color: var(--ok); }
 .official.no  { color: var(--warn); }
-.official.fancam { color: var(--accent); }
+.official.fancam { color: var(--accent-ink); }
 
 .watch-btn {
   font: inherit; font-size: 11.5px; font-weight: 600; cursor: pointer;
@@ -625,7 +638,7 @@ a { color: inherit; }
   font-size: 11.5px; color: var(--text-faint); text-decoration: none;
   margin-left: auto;
 }
-.ext:hover { color: var(--accent); }
+.ext:hover { color: var(--accent-ink); }
 /* When a video has a freely watchable copy, the card opens that and the
    official release moves to this button — still one click away, just no longer
    the thing you land on. A pill rather than a bare ↗ so it reads as a choice. */
@@ -635,7 +648,7 @@ a { color: inherit; }
   border: 1px solid var(--line); border-radius: 999px;
   padding: 2.5px 8px; white-space: nowrap;
 }
-.ext.orig:hover { color: var(--accent); border-color: var(--accent); }
+.ext.orig:hover { color: var(--accent-ink); border-color: var(--accent); }
 
 /* ---------- misc ---------- */
 
@@ -691,7 +704,8 @@ a { color: inherit; }
 :root[data-accent="vlogs"] .series-badge[data-series="twlog"]  { color: #123; background: var(--peach); border-color: transparent; }
 :root[data-accent="vlogs"] .series-badge[data-series="behind"] { color: #fff; background: var(--grape); border-color: transparent; }
 /* TV Variety: one look for every show; the section heading already says which. */
-:root[data-accent="variety"] .series-badge { color: #fff; background: var(--candy); border-color: transparent; }
+:root[data-accent="variety"] .series-badge { color: #2a1b22; background: linear-gradient(120deg, var(--accent), var(--accent-2)); border-color: transparent; }
+:root[data-accent="twicetv"] .series-badge { color: #fff; background: linear-gradient(120deg, var(--accent), var(--accent-2)); border-color: transparent; }
 /* A member chip in the filter row carries a dot in that member's colour. */
 .chip .dot {
   display: inline-block; width: 8px; height: 8px; border-radius: 999px;

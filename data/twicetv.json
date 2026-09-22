@@ -1,0 +1,773 @@
+{
+  "section": "TWICE TV",
+  "note": "TWICE TV, season by season. Each season is one tab and one section; a season can carry \"mustWatch\" and a \"summary\" on its heading. The early seasons aired on V LIVE, which shut down in 2022, so those link to vlivearchive.com's copy (marked unofficial, as a fan-run mirror).",
+  "updated": "2026-09-23",
+  "groupBy": "series",
+  "memberColors": {
+    "Nayeon": "#49c0ec",
+    "Jeongyeon": "#a3cc54",
+    "Momo": "#e67ea3",
+    "Sana": "#8c79b4",
+    "Jihyo": "#f9cc85",
+    "Mina": "#71c7d4",
+    "Dahyun": "#fefefe",
+    "Chaeyoung": "#e62722",
+    "Tzuyu": "#2253a3"
+  },
+  "groupColors": [
+    "#f9c596",
+    "#fc5d9d"
+  ],
+  "series": [
+    {
+      "key": "tv5",
+      "label": "TWICE TV5 — TWICE in SWITZERLAND",
+      "mustWatch": true,
+      "summary": "Twenty-four episodes of TWICE on a trip to Switzerland, released three times a week on V LIVE."
+    },
+    {
+      "key": "tv6",
+      "label": "TWICE TV6 — TWICE in SINGAPORE",
+      "mustWatch": true,
+      "summary": "Twelve episodes of TWICE on a trip to Singapore, released twice a week on V LIVE."
+    }
+  ],
+  "events": [
+    {
+      "id": "twice-tv5-trailer",
+      "title": "Trailer",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-05-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "https://vlivearchive.com/post/1-18238453",
+          "label": "Trailer",
+          "official": false,
+          "duration": "1:34",
+          "thumb": "https://v-phinf.pstatic.net/20170515_170/1494819034616eG1AE_JPEG/1494808953276.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-knock-knock-mv",
+      "title": "\"KNOCK KNOCK\" Special M/V",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-05-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "https://vlivearchive.com/post/0-18228723",
+          "label": "Special M/V",
+          "official": false,
+          "duration": "3:24",
+          "thumb": "https://v-phinf.pstatic.net/20170519_32/1495163608213lbADH_JPEG/1495084775560.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep1",
+      "title": "Episode 1",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-05-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238434",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "12:19",
+          "thumb": "https://v-phinf.pstatic.net/20170522_240/1495420841993PfL5c_PNG/1495419522788.PNG?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep2",
+      "title": "Episode 2",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-05-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238432",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "10:26",
+          "thumb": "https://v-phinf.pstatic.net/20170524_171/1495587832847HBbJa_JPEG/1495586671465.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep3",
+      "title": "Episode 3",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-05-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238426",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "11:58",
+          "thumb": "https://v-phinf.pstatic.net/20170526_276/1495783768547mYzmn_JPEG/1495782354051.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep4",
+      "title": "Episode 4",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-05-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/0-18228702",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "13:22",
+          "thumb": "https://v-phinf.pstatic.net/20170529_298/1496039541760lHVLT_JPEG/1496037929700.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep5",
+      "title": "Episode 5",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-05-31",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238414",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "12:14",
+          "thumb": "https://v-phinf.pstatic.net/20170531_100/1496208415948gEcWs_JPEG/1496198784069.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep6",
+      "title": "Episode 6",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-06-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/0-18228701",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "11:53",
+          "thumb": "https://v-phinf.pstatic.net/20170602_106/1496380414566h5QTa_JPEG/1496379345791.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep7",
+      "title": "Episode 7",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-06-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238407",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "14:07",
+          "thumb": "https://v-phinf.pstatic.net/20170605_21/1496643457168mKkFV_JPEG/1496642229385.JPG?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep8",
+      "title": "Episode 8",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-06-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/0-18228699",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "11:39",
+          "thumb": "https://v-phinf.pstatic.net/20170607_50/1496815162293KnakN_JPEG/1496814450325.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep9",
+      "title": "Episode 9",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-06-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238404",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "13:26",
+          "thumb": "https://v-phinf.pstatic.net/20170609_118/14969893275099SHHi_JPEG/1496988362012.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep10",
+      "title": "Episode 10",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-06-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238402",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "10:37",
+          "thumb": "https://v-phinf.pstatic.net/20170612_214/1497252212528gWPcL_JPEG/1497250732328.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep11",
+      "title": "Episode 11",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-06-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/0-18228689",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "13:18",
+          "thumb": "https://v-phinf.pstatic.net/20170614_251/1497425811544MjG2M_JPEG/1497424835829.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep12",
+      "title": "Episode 12",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-06-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238394",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "12:19",
+          "thumb": "https://v-phinf.pstatic.net/20170616_176/1497590259582oLvAk_JPEG/1497587998175.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep13",
+      "title": "Episode 13",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-06-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238392",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "12:37",
+          "thumb": "https://v-phinf.pstatic.net/20170619_226/1497851526132GGpdo_JPEG/1497849379163.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep14",
+      "title": "Episode 14",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-06-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/0-18228685",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "12:23",
+          "thumb": "https://v-phinf.pstatic.net/20170621_240/1498023961499WkFH8_JPEG/1498013066732.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep15",
+      "title": "Episode 15",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-06-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238388",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "12:50",
+          "thumb": "https://v-phinf.pstatic.net/20170623_138/1498196528078LFsru_JPEG/1498191249330.JPG?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep16",
+      "title": "Episode 16",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-06-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238385",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "11:31",
+          "thumb": "https://v-phinf.pstatic.net/20170626_28/1498456585867RmvCj_JPEG/1498453682899.JPG?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep17",
+      "title": "Episode 17",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-06-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238383",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "12:44",
+          "thumb": "https://v-phinf.pstatic.net/20170628_120/1498631433399LvXCT_JPEG/1498631399009.JPG?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep18",
+      "title": "Episode 18",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-06-30",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/0-18228681",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "12:33",
+          "thumb": "https://v-phinf.pstatic.net/20170630_276/1498800905707nQLSN_JPEG/1498798240107.JPG?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep19",
+      "title": "Episode 19",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-07-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238379",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "12:41",
+          "thumb": "https://v-phinf.pstatic.net/20170703_170/1499059492473Ymlj0_JPEG/1499058413909.JPG?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep20",
+      "title": "Episode 20",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-07-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/0-18228679",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "13:17",
+          "thumb": "https://v-phinf.pstatic.net/20170705_95/1499227461865R6yrl_JPEG/1499227173259.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep21",
+      "title": "Episode 21",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-07-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/0-18228676",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "13:16",
+          "thumb": "https://v-phinf.pstatic.net/20170707_111/1499407507261njhwb_JPEG/cff5xFTwdjiWDQ6Iwa0VV38nCQ_rmcvideo_144P_256_100_32_logo.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep22",
+      "title": "Episode 22",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-07-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238367",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "13:06",
+          "thumb": "https://v-phinf.pstatic.net/20170710_165/1499671120476DlgWG_JPEG/1499671019694.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep23",
+      "title": "Episode 23",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-07-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/0-18228667",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "12:54",
+          "thumb": "https://v-phinf.pstatic.net/20170712_268/1499841966033G1bz8_JPEG/1499840358097.JPG?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-ep24",
+      "title": "Episode 24 (Last Episode)",
+      "series": "tv5",
+      "venue": "V LIVE",
+      "date": "2017-07-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/0-18228664",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "17:11",
+          "thumb": "https://v-phinf.pstatic.net/20170714_175/1500017005912Qt0xO_JPEG/1500014945074.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-dvd-special",
+      "title": "Special Film (DVD only)",
+      "series": "tv5",
+      "venue": "TWICE TV5: TWICE in SWITZERLAND DVD",
+      "date": "2018-01-31",
+      "note": "Extra footage that was never on V LIVE — only on the 3-disc DVD set released in January 2018.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "PBGWQ46Z6Lk",
+          "label": "Special Film",
+          "official": false,
+          "duration": "43:04"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv6-teaser",
+      "title": "Teaser",
+      "series": "tv6",
+      "venue": "V LIVE",
+      "date": "2017-11-01",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "https://vlivearchive.com/post/1-18238302",
+          "label": "Teaser",
+          "official": false,
+          "duration": "1:19",
+          "thumb": "https://v-phinf.pstatic.net/20171101_196/1509468114881nGQEQ_JPEG/upload_%C6%AE%BF%CD%C0%CC%BD%BATV6_%C6%BC%C0%FA.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv6-ep1",
+      "title": "Episode 1",
+      "series": "tv6",
+      "venue": "V LIVE",
+      "date": "2017-11-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238297",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "16:04",
+          "thumb": "https://v-phinf.pstatic.net/20171108_286/1510069572986OIoOA_JPEG/upload_%C6%AE%BF%CD%C0%CC%BD%BATV6_EP01_A_0000943703ms.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv6-ep2",
+      "title": "Episode 2",
+      "series": "tv6",
+      "venue": "V LIVE",
+      "date": "2017-11-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/0-18228582",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "16:11",
+          "thumb": "https://v-phinf.pstatic.net/20171111_243/1510364958206f9eVN_PNG/upload_%C6%AE%BF%CD%C0%CC%BD%BATV6_EP02_A_0000641224ms.png?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv6-ep3",
+      "title": "Episode 3",
+      "series": "tv6",
+      "venue": "V LIVE",
+      "date": "2017-11-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238289",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "16:02",
+          "thumb": "https://v-phinf.pstatic.net/20171115_45/15107024799416BgEK_PNG/upload_%C6%AE%BF%CD%C0%CC%BD%BATV6_EP03_A_0000385544ms.png?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv6-ep4",
+      "title": "Episode 4",
+      "series": "tv6",
+      "venue": "V LIVE",
+      "date": "2017-11-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/0-18228579",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "16:56",
+          "thumb": "https://v-phinf.pstatic.net/20171118_207/1510950531778MXL2q_PNG/upload_%C6%AE%BF%CD%C0%CC%BD%BATV6_EP04_A_0000598137ms.png?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv6-ep5",
+      "title": "Episode 5",
+      "series": "tv6",
+      "venue": "V LIVE",
+      "date": "2017-11-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/0-18228577",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "16:48",
+          "thumb": "https://v-phinf.pstatic.net/20171122_249/15113116128828bIJz_JPEG/upload_%C6%AE%BF%CD%C0%CC%BD%BATV6_EP05_A_0000301041ms.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv6-ep6",
+      "title": "Episode 6",
+      "series": "tv6",
+      "venue": "V LIVE",
+      "date": "2017-11-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238281",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "16:37",
+          "thumb": "https://v-phinf.pstatic.net/20171125_173/1511578628035zWaVo_PNG/upload_%C6%AE%BF%CD%C0%CC%BD%BATV6_EP06_B_0000719206ms.png?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv6-ep7",
+      "title": "Episode 7",
+      "series": "tv6",
+      "venue": "V LIVE",
+      "date": "2017-11-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/0-18228569",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "15:33",
+          "thumb": "https://v-phinf.pstatic.net/20171129_266/1511912001208y9I2F_PNG/upload_%C6%AE%BF%CD%C0%CC%BD%BATV6_EP07_A_0000649398ms.png?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv6-ep8",
+      "title": "Episode 8",
+      "series": "tv6",
+      "venue": "V LIVE",
+      "date": "2017-12-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238276",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "16:55",
+          "thumb": "https://v-phinf.pstatic.net/20171202_4/1512156184045aujhQ_PNG/upload_%C6%AE%BF%CD%C0%CC%BD%BATV6_EP08_A_0000073240ms.png?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv6-ep9",
+      "title": "Episode 9",
+      "series": "tv6",
+      "venue": "V LIVE",
+      "date": "2017-12-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/0-18228564",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "17:10",
+          "thumb": "https://v-phinf.pstatic.net/20171206_232/1512525001851sodBw_PNG/upload_%C6%AE%BF%CD%C0%CC%BD%BATV6_EP09_A_0000526210ms.png?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv6-ep10",
+      "title": "Episode 10",
+      "series": "tv6",
+      "venue": "V LIVE",
+      "date": "2017-12-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/0-18228560",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "17:25",
+          "thumb": "https://v-phinf.pstatic.net/20171209_138/1512783283378VH0pf_JPEG/upload_%C6%AE%BF%CD%C0%CC%BD%BATV6_EP10%28%29.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv6-ep11",
+      "title": "Episode 11",
+      "series": "tv6",
+      "venue": "V LIVE",
+      "date": "2017-12-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/1-18238261",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "17:21",
+          "thumb": "https://v-phinf.pstatic.net/20171213_149/1513134281264tr0TM_JPEG/upload_%C6%AE%BF%CD%C0%CC%BD%BATV6_EP11.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv6-ep12",
+      "title": "Episode 12 (Last Episode)",
+      "series": "tv6",
+      "venue": "V LIVE",
+      "date": "2017-12-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://vlivearchive.com/post/0-18228545",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "18:23",
+          "thumb": "https://v-phinf.pstatic.net/20171216_168/1513393552393b6PvD_JPEG/upload_%C6%AE%BF%CD%C0%CC%BD%BATV6_EP12.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv6-dvd-special",
+      "title": "Special Film (DVD only)",
+      "series": "tv6",
+      "venue": "TWICE TV6: TWICE in SINGAPORE DVD",
+      "date": "2018-09-11",
+      "note": "Extra footage that was never on V LIVE — only on the 3-disc DVD set released in September 2018.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "20z6hg2-u3E",
+          "label": "Special Film",
+          "official": false,
+          "duration": "42:32"
+        }
+      ]
+    }
+  ]
+}
