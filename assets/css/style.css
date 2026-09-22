@@ -87,26 +87,30 @@ a { color: inherit; }
 
 .site-head { padding: 34px 0 22px; }
 
+/* Site navigation reads as a menu bar — plain links on a rule, the current
+   page underlined — so it can't be mistaken for the filter pills below it. */
 .site-nav {
-  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
-  margin-bottom: 22px;
+  display: flex; flex-wrap: wrap; gap: 0 20px; align-items: center;
+  margin-bottom: 26px;
+  border-bottom: 1px solid var(--line);
 }
 .site-nav a {
-  text-decoration: none; font-size: 13px; font-weight: 600;
+  position: relative;
+  text-decoration: none; font-size: 14px; font-weight: 600;
   color: var(--text-soft);
-  padding: 7px 13px; border-radius: 999px;
-  border: 1px solid var(--line);
-  background: var(--surface);
+  padding: 11px 0;
 }
-.site-nav a:hover { color: var(--text); border-color: var(--accent); }
-.site-nav a.on {
-  color: #fff; border-color: transparent;
-  background: linear-gradient(120deg, var(--accent), var(--accent-2));
+.site-nav a:hover { color: var(--text); }
+.site-nav a.on { color: var(--text); }
+.site-nav a.on::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: -1px;
+  height: 3px; border-radius: 3px 3px 0 0;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
 }
 
 /* Light / dark toggle, pushed to the right end of the nav row. */
 .theme-toggle {
-  margin-left: auto;
+  margin: 5px 0 5px auto;
   width: 36px; height: 36px; border-radius: 999px;
   display: inline-grid; place-items: center;
   font-size: 16px; line-height: 1; cursor: pointer;
@@ -199,6 +203,39 @@ a { color: inherit; }
   color: #fff; border-color: transparent;
   background: linear-gradient(120deg, var(--accent), var(--accent-2));
 }
+
+/* The page's main split (Melody Project / Cover Project…, Tours / Festivals…)
+   is a segmented control rather than more pills: one tinted track, the chosen
+   segment lifted out of it. It scrolls sideways on a phone instead of wrapping. */
+.toolbar .row.tabs {
+  display: inline-flex; flex-wrap: nowrap; gap: 2px;
+  max-width: 100%; overflow-x: auto; scrollbar-width: none;
+  padding: 4px; border-radius: 12px;
+  background: var(--surface-2); border: 1px solid var(--line);
+}
+.toolbar .row.tabs::-webkit-scrollbar { display: none; }
+.tabs .chip {
+  flex: none; white-space: nowrap;
+  font-size: 13.5px; padding: 8px 14px; border-radius: 9px;
+  border: 0; background: transparent;
+}
+.tabs .chip.on {
+  color: var(--accent); background: var(--surface);
+  box-shadow: 0 1px 2px rgba(80,40,50,.10), 0 2px 8px rgba(80,40,50,.08);
+}
+/* In the dark the surface is darker than the track, so a white-card lift
+   would read as sunken — tint the chosen segment with the accent instead. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .tabs .chip.on {
+    color: var(--text); box-shadow: none;
+    background: color-mix(in srgb, var(--accent) 32%, var(--surface-2));
+  }
+}
+:root[data-theme="dark"] .tabs .chip.on {
+  color: var(--text); box-shadow: none;
+  background: color-mix(in srgb, var(--accent) 32%, var(--surface-2));
+}
+.toolbar .row.tabs + .row { margin-top: 12px; }
 
 /* Count beside a filter chip's label. */
 .chip-n {
@@ -592,13 +629,14 @@ a { color: inherit; }
 }
 .series-badge[data-series="melody-project"] { color: #fff; background: var(--accent); border-color: transparent; }
 .series-badge[data-series="performance-project"] { color: #123; background: var(--accent-2); border-color: transparent; }
-/* The live page's five buckets, scoped so they can't collide with a covers
-   series of the same name. Four brand colours for five buckets, so award shows
-   keep the neutral chip — they're the odd one out anyway. */
+/* The live page's buckets, scoped so they can't collide with a covers series
+   of the same name. Four brand colours for six buckets: award shows keep the
+   neutral chip, and stage covers & collabs blend two of the brand colours. */
 :root[data-accent="live"] .series-badge[data-series="tour"]       { color: #123; background: var(--mint);  border-color: transparent; }
 :root[data-accent="live"] .series-badge[data-series="festival"]   { color: #fff; background: var(--grape); border-color: transparent; }
 :root[data-accent="live"] .series-badge[data-series="special"]    { color: #fff; background: var(--candy); border-color: transparent; }
 :root[data-accent="live"] .series-badge[data-series="fanmeeting"] { color: #123; background: var(--peach); border-color: transparent; }
+:root[data-accent="live"] .series-badge[data-series="stage"]      { color: #fff; background: linear-gradient(120deg, var(--candy), var(--grape)); border-color: transparent; }
 /* A member chip in the filter row carries a dot in that member's colour. */
 .chip .dot {
   display: inline-block; width: 8px; height: 8px; border-radius: 999px;

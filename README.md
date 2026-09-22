@@ -226,6 +226,11 @@ cover with a behind-the-scenes takes two cards side by side.
 member chips and the member filter. `series` is one of the keys in the file's
 `series` list. Videos use the same fields as the discography.
 
+Covers and joint stages performed live at a show — an award-show or year-end
+special stage, KCON, a joint JYP stage — aren't here: they're in `live.json`
+under Stage Covers & Collabs, next to the full shows. A special stage of a TWICE
+song stays in the discography under its track.
+
 Paste links and let `tools/add-covers.py` fill the entry in from the video's own
 title, channel and publish date:
 

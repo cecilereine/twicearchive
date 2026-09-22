@@ -21,6 +21,7 @@ const state = {
   query: '',
   era: 'all',
   category: 'all',
+  member: 'all',
   openId: null,
 };
 
@@ -69,10 +70,33 @@ function matchesQuery(album, q) {
   return hay.includes(q);
 }
 
+/* Artists are credited in free text — "Jihyo with Shenseea", "MISAMO",
+   "Jeongyeon, Jihyo, Chaeyoung" — so a release belongs to a member when their
+   name appears in the release's own artist line. Only the release's main
+   artist counts: a unit or solo track inside a group album doesn't put that
+   album under the member. Group releases credit TWICE rather than the nine
+   names, so they stay under Everyone. Named units are choices of their own,
+   next to the members, rather than folded into each of theirs. */
+const UNITS = { MISAMO: ['Mina', 'Sana', 'Momo'] };
+
+const memberCache = new Map();
+function albumMembers(album) {
+  if (!memberCache.has(album.id)) {
+    const text = album.artist || '';
+    memberCache.set(album.id, new Set(
+      [...Object.keys(state.data.memberColors || {}), ...Object.keys(UNITS)]
+        .filter(name => new RegExp(`\\b${name}\\b`).test(text))));
+  }
+  return memberCache.get(album.id);
+}
+
+const inCategory = a => state.category === 'all' || a.category === state.category;
+const hasMember  = a => state.member === 'all' || albumMembers(a).has(state.member);
+
 function visibleAlbums() {
   const q = state.query.trim().toLowerCase();
   return state.data.albums.filter(a => {
-    if (state.category !== 'all' && a.category !== state.category) return false;
+    if (!inCategory(a) || !hasMember(a)) return false;
     if (state.era !== 'all' && albumYear(a) !== state.era) return false;
     if (!matchesQuery(a, q)) return false;
     return true;
@@ -285,11 +309,9 @@ function renderProgress() {
 /* ---------- filters ---------- */
 
 function renderEraChips() {
-  const pool = state.category === 'all'
-    ? state.data.albums
-    : state.data.albums.filter(a => a.category === state.category);
+  const pool = state.data.albums.filter(a => inCategory(a) && hasMember(a));
   const years = [...new Set(pool.map(albumYear))].filter(Boolean).sort();
-  if (!years.includes(state.era)) state.era = 'all';   /* year gone with the category */
+  if (!years.includes(state.era)) state.era = 'all';   /* year gone with the category or member */
   el('eras').innerHTML = [
     `<button type="button" class="chip${state.era === 'all' ? ' on' : ''}" data-era="all">All years</button>`,
     ...years.map(y => `<button type="button" class="chip${state.era === y ? ' on' : ''}" data-era="${y}">${y}</button>`),
@@ -308,9 +330,38 @@ function renderCategoryChips() {
   ].join('');
 }
 
+/* Members in the data file's colour order, then units, each counted within the
+   chosen category, and only those with something to show there. A unit's dot
+   blends its members' colours. */
+function renderMemberChips() {
+  const memberColors = state.data.memberColors || {};
+  const colors = { ...memberColors };
+  for (const [unit, members] of Object.entries(UNITS))
+    colors[unit] = `linear-gradient(135deg, ${members.map(m => memberColors[m]).join(', ')})`;
+  const pool = state.data.albums.filter(inCategory);
+  const counts = Object.keys(colors)
+    .map(m => [m, pool.filter(a => albumMembers(a).has(m)).length])
+    .filter(([, n]) => n);
+  if (state.member !== 'all' && !counts.some(([m]) => m === state.member)) state.member = 'all';
+  el('members').innerHTML = [
+    `<button type="button" class="chip${state.member === 'all' ? ' on' : ''}" data-member="all">Everyone</button>`,
+    ...counts.map(([m, n]) =>
+      `<button type="button" class="chip${state.member === m ? ' on' : ''}" data-member="${escapeHtml(m)}"><span class="dot" style="background:${escapeHtml(colors[m])}"></span>${escapeHtml(m)} <span class="chip-n">${n}</span></button>`),
+  ].join('');
+}
+
 function wireFilters() {
   el('search').addEventListener('input', e => {
     state.query = e.target.value;
+    renderGrid();
+  });
+
+  el('members').addEventListener('click', e => {
+    const chip = e.target.closest('[data-member]');
+    if (!chip) return;
+    state.member = chip.dataset.member;
+    [...el('members').children].forEach(c => c.classList.toggle('on', c === chip));
+    renderEraChips();
     renderGrid();
   });
 
@@ -319,6 +370,7 @@ function wireFilters() {
     if (!chip) return;
     state.category = chip.dataset.category;
     [...el('categories').children].forEach(c => c.classList.toggle('on', c === chip));
+    renderMemberChips();
     renderEraChips();
     renderGrid();
   });
@@ -379,6 +431,7 @@ async function init() {
 
   state.data = data;
   renderCategoryChips();
+  renderMemberChips();
   renderEraChips();
   wireFilters();
   paintReset = resetButton(el('resetProgress'), () => state.data.albums.flatMap(allVideos), () => {

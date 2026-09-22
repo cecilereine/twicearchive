@@ -1,6 +1,6 @@
 {
   "section": "Concerts & Live",
-  "note": "Full shows — a whole concert, festival set, broadcast special, fanmeeting or award show, in one video. Per-song cuts from these shows stay filed under their track in discography.json; this file is for the video you'd watch end to end.",
+  "note": "Full shows — a whole concert, festival set, broadcast special, fanmeeting or award show, in one video. Per-song cuts from these shows stay filed under their track in discography.json; this file is for the video you'd watch end to end. The one exception is Stage Covers & Collabs: a one-off stage of a song that isn't TWICE's own — a cover, or a joint stage with other artists — which has no track to file under.",
   "updated": "2026-09-23",
   "memberColors": {
     "Nayeon": "#49c0ec",
@@ -37,9 +37,30 @@
     {
       "key": "awards",
       "label": "Award Shows"
+    },
+    {
+      "key": "stage",
+      "label": "Stage Covers & Collabs"
     }
   ],
   "events": [
+    {
+      "id": "jyp-special-kbs-song-festival-2018",
+      "title": "JYP Special",
+      "series": "stage",
+      "venue": "2018 KBS Song Festival",
+      "date": "2018-12-28",
+      "note": "Joint JYP Entertainment stage with GOT7, DAY6 and Stray Kids.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "cccwMzYZbRc",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "8:21"
+        }
+      ]
+    },
     {
       "id": "lollapalooza-chicago-2025",
       "title": "Lollapalooza Chicago 2025",
@@ -61,7 +82,7 @@
       "id": "tima-2025",
       "title": "2025 TMElive International Music Awards",
       "series": "awards",
-      "venue": "",
+      "venue": "Galaxy Arena, Macau",
       "date": "2025-08-22",
       "note": "Day 1. Broadcast on Beyond LIVE, Weverse and YouTube.",
       "videos": [
@@ -144,7 +165,7 @@
     {
       "id": "world-in-a-day",
       "title": "Beyond LIVE — TWICE: World in a Day",
-      "series": "special",
+      "series": "tour",
       "venue": "",
       "date": "2020-08-09",
       "note": "Online-only concert, streamed on Beyond LIVE.",
@@ -348,7 +369,7 @@
     {
       "id": "twice-in-wonderland",
       "title": "TWICE IN WONDERLAND",
-      "series": "special",
+      "series": "tour",
       "venue": "",
       "date": "2021-03-06",
       "note": "Online-only concert.",
@@ -675,7 +696,7 @@
       "title": "2020 Golden Disc Awards",
       "series": "awards",
       "venue": "Gocheok Sky Dome, Seoul",
-      "date": "2020-01",
+      "date": "2020-01-04",
       "note": "The 34th, a two-night run on Jan 4–5 2020. This cut spans both: Intro and “녹아요” plus Feel Special from night 2, YES or YES and FANCY from night 1.",
       "videos": [
         {
