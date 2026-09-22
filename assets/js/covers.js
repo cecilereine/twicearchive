@@ -94,8 +94,8 @@ function coverCards(c) {
     <h3 class="song">${escapeHtml(c.song)}${c.songKo ? ` <span class="track-ko">${escapeHtml(c.songKo)}</span>` : ''}</h3>
     ${c.originalArtist ? `<span class="orig">originally by ${escapeHtml(c.originalArtist)}</span>` : ''}
     <div class="cover-meta">
-      ${members}
       <span class="series-badge" data-series="${escapeHtml(c.series)}">${escapeHtml(seriesLabel(c.series))}</span>
+      ${members}
       <span class="date">${escapeHtml(prettyDate(c.released))}</span>
     </div>
     ${c.note ? `<p class="cover-note">${escapeHtml(c.note)}</p>` : ''}`;

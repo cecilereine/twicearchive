@@ -9,12 +9,14 @@
      data/ changes, so a browser can't pair new HTML with a stale script or stale
      data the way GitHub Pages' ten minute cache otherwise allows. The scripts
      pass their own ?v= through to the data file they fetch. -->
-<link rel="icon" href="assets/img/favicon.svg?v=89">
-<link rel="stylesheet" href="assets/css/style.css?v=89">
+<link rel="icon" href="assets/img/favicon.svg?v=156">
+<link rel="stylesheet" href="assets/css/style.css?v=156">
 <script>try{var t=localStorage.getItem('twice-archive:theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 </head>
 <body>
 <div class="wrap">
+
+  <p class="wip-banner" role="status">🚧 <b>Still in progress.</b> The archive is being filled in — some sections are incomplete, and dates and details may still change.</p>
 
   <header class="site-head">
     <nav class="site-nav">
@@ -22,6 +24,8 @@
       <a href="discography.html">Discography</a>
       <a href="covers.html">Melody Project</a>
       <a href="live.html">Concerts &amp; Live</a>
+      <a href="vlogs.html">Vlogs</a>
+      <a href="variety.html">TV Variety &amp; Reality</a>
       <a href="donate.html">Donate</a>
       <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch theme">🌙</button>
     </nav>
@@ -54,6 +58,14 @@
       <span class="hub-progress" data-key="twice-archive:live-progress" data-noun="shows" hidden></span>
     </a>
 
+    <a class="hub-card" href="vlogs.html">
+      <span class="emoji">🎥</span>
+      <h2>Vlogs</h2>
+      <p>TWICE's own vlogs and behind-the-scenes, episode by episode.</p>
+      <span class="tag">TW-LOG · Behind the Scenes</span>
+      <span class="hub-progress" data-key="twice-archive:vlogs-progress" data-noun="episodes" hidden></span>
+    </a>
+
     <!-- Copy discography.html + its data file to add one of these. -->
     <div class="hub-card soon">
       <span class="emoji">📺</span>
@@ -63,9 +75,24 @@
     </div>
 
     <div class="hub-card soon">
+      <span class="emoji">📼</span>
+      <h2>TWICE TV</h2>
+      <p>The TWICE TV series.</p>
+      <span class="tag">Coming soon</span>
+    </div>
+
+    <a class="hub-card" href="variety.html">
       <span class="emoji">🎬</span>
-      <h2>Reality &amp; Variety</h2>
-      <p>Sixteen, TWICE TV, guest appearances.</p>
+      <h2>TV Variety &amp; Reality</h2>
+      <p>SIXTEEN and TWICE's runs on TV variety and reality shows, episode by episode.</p>
+      <span class="tag">SIXTEEN · Guest appearances</span>
+      <span class="hub-progress" data-key="twice-archive:variety-progress" data-noun="episodes" hidden></span>
+    </a>
+
+    <div class="hub-card soon">
+      <span class="emoji">📱</span>
+      <h2>YouTube Variety</h2>
+      <p>Web variety shows TWICE appeared on.</p>
       <span class="tag">Coming soon</span>
     </div>
   </div>
@@ -76,7 +103,7 @@
   </footer>
 
 </div>
-<script src="assets/js/theme.js?v=89"></script>
+<script src="assets/js/theme.js?v=156"></script>
 <script>
 /* Watched progress on the Discography card. The discography page leaves its
    totals in localStorage each time it counts them, so the hub can show them

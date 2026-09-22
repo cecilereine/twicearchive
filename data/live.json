@@ -45,6 +45,25 @@
   ],
   "events": [
     {
+      "id": "domino-cover-the-seasons-2024",
+      "title": "Domino",
+      "series": "stage",
+      "members": "Nayeon, Jeongyeon, Jihyo",
+      "venue": "The Seasons: Lee Young-ji's Rainbow",
+      "date": "2024-12-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "Yh4lPnlsjUM",
+          "label": "Special Stage",
+          "official": true,
+          "mustWatch": true,
+          "duration": "1:25"
+        }
+      ]
+    },
+    {
       "id": "jyp-special-kbs-song-festival-2018",
       "title": "JYP Special",
       "series": "stage",
@@ -58,6 +77,801 @@
           "label": "Special Stage",
           "official": true,
           "duration": "8:21"
+        }
+      ]
+    },
+    {
+      "id": "come-to-me-collab-kbs-song-festival-2019",
+      "title": "Come To Me — with Chorong, Irene and Arin",
+      "series": "stage",
+      "members": "Nayeon",
+      "venue": "2019 KBS Song Festival",
+      "date": "2019-12-27",
+      "note": "Collab stage: Nayeon with Park Chorong (Apink), Irene (Red Velvet) and Arin (Oh My Girl).",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "bHreEWWGGZ8",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "3:51"
+        }
+      ]
+    },
+    {
+      "id": "do-you-seolhyun-tzuyu-sbs-gayo-daejeon-2019",
+      "title": "Do You? — with Seolhyun",
+      "series": "stage",
+      "members": "Tzuyu",
+      "venue": "2019 SBS Gayo Daejeon",
+      "date": "2019-12-25",
+      "note": "Collab stage: Tzuyu with Seolhyun (AOA).",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "lDVG4-ozV5E",
+          "label": "Full Cam",
+          "official": true,
+          "fancam": true,
+          "duration": "1:10"
+        }
+      ]
+    },
+    {
+      "id": "goodbye-taemin-mbc-gayo-daejejeon-2019",
+      "title": "Goodbye — with Taemin",
+      "series": "stage",
+      "members": "Momo, Jihyo",
+      "venue": "2019 MBC Gayo Daejejeon: The Live",
+      "date": "2019-12-31",
+      "note": "Collab stage: Jihyo and Momo join Taemin on his song.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "mcoeCX5OHFg",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "4:04"
+        }
+      ]
+    },
+    {
+      "id": "born-this-way-cover-twicelights-seoul-2019",
+      "title": "Born This Way — Lady Gaga cover",
+      "series": "stage",
+      "members": "Nayeon, Jeongyeon, Mina, Chaeyoung",
+      "venue": "TWICELIGHTS in Seoul, KSPO Dome",
+      "date": "2019-05-25",
+      "note": "Unit stage.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "bpHu4Z6l9H0",
+          "label": "Fancam",
+          "official": false,
+          "fancam": true,
+          "duration": "4:24"
+        }
+      ]
+    },
+    {
+      "id": "dance-for-you-cover-twicelights-seoul-2019",
+      "title": "Dance for You — Beyoncé cover",
+      "series": "stage",
+      "members": "Sana, Dahyun, Tzuyu",
+      "venue": "TWICELIGHTS in Seoul, KSPO Dome",
+      "date": "2019-05-25",
+      "note": "Unit stage.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "uzYYP9tTFDk",
+          "label": "Fancam",
+          "official": false,
+          "fancam": true,
+          "duration": "2:36"
+        }
+      ]
+    },
+    {
+      "id": "goodbye-cover-twicelights-seoul-2019",
+      "title": "Goodbye — Taemin cover",
+      "series": "stage",
+      "members": "Momo, Jihyo",
+      "venue": "TWICELIGHTS in Seoul, KSPO Dome",
+      "date": "2019-05-25",
+      "note": "Unit stage.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "ZKdyDe3PImY",
+          "label": "Fancam",
+          "official": false,
+          "fancam": true,
+          "duration": "3:36"
+        }
+      ]
+    },
+    {
+      "id": "so-hot-cover-music-bank-2018",
+      "title": "So Hot — Wonder Girls cover",
+      "series": "stage",
+      "members": "Jeongyeon, Jihyo, Mina, Chaeyoung, Tzuyu",
+      "venue": "Music Bank",
+      "date": "2018-06-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "KTAT945C0ek",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "2:09"
+        }
+      ]
+    },
+    {
+      "id": "dreams-come-true-red-velvet-sbs-gayo-daejeon-2018",
+      "title": "Dreams Come True — S.E.S. cover, with Red Velvet",
+      "series": "stage",
+      "members": "Momo, Chaeyoung, Tzuyu",
+      "venue": "2018 SBS Gayo Daejeon",
+      "date": "2018-12-25",
+      "note": "Collab stage with Red Velvet.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "C7BJJSfJrlg",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "3:08"
+        }
+      ]
+    },
+    {
+      "id": "flower-road-collab-sbs-gayo-daejeon-2018",
+      "title": "Flower Road — BIGBANG cover",
+      "series": "stage",
+      "members": "Dahyun",
+      "venue": "2018 SBS Gayo Daejeon",
+      "date": "2018-12-25",
+      "note": "Collab stage: Dahyun with Eunha (GFRIEND), Bomi (Apink) and Moonbyul (MAMAMOO).",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "XrkjVRRkk00",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "4:12"
+        }
+      ]
+    },
+    {
+      "id": "kissing-you-collab-kbs-song-festival-2018",
+      "title": "Kissing You — Girls' Generation cover",
+      "series": "stage",
+      "members": "Dahyun",
+      "venue": "2018 KBS Song Festival",
+      "date": "2018-12-28",
+      "note": "Collab stage: Dahyun with Yeri (Red Velvet), Kei (Lovelyz), Umji (GFRIEND), Arin (Oh My Girl) and Yuqi ((G)I-DLE).",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "wyo7ufOVQng",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "3:35"
+        }
+      ]
+    },
+    {
+      "id": "hush-collab-kbs-song-festival-2018",
+      "title": "Hush — miss A cover",
+      "series": "stage",
+      "members": "Tzuyu",
+      "venue": "2018 KBS Song Festival",
+      "date": "2018-12-28",
+      "note": "Collab stage: Tzuyu with Joy (Red Velvet), Yeonwoo (MOMOLAND), Mijoo (Lovelyz), Sowon (GFRIEND) and Jiho (Oh My Girl).",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "UJmirzDr3n8",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "3:42"
+        }
+      ]
+    },
+    {
+      "id": "my-name-boa-seventeen-mama-2017",
+      "title": "Girls On Top + No.1 + My Name — with BoA and SEVENTEEN",
+      "series": "stage",
+      "alsoSeries": [
+        "awards"
+      ],
+      "venue": "2017 MAMA in Japan, Yokohama Arena",
+      "date": "2017-11-29",
+      "note": "Joint stage with BoA and SEVENTEEN: BoA's Girls On Top and No.1, then TWICE's cover of My Name.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "omhTTlHG3dk",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "4:43"
+        }
+      ]
+    },
+    {
+      "id": "mama-2018-cover-stages",
+      "title": "Bad Girl Good Girl + My Name — miss A & BoA covers",
+      "series": "stage",
+      "alsoSeries": [
+        "awards"
+      ],
+      "venue": "2017 & 2018 MAMA in Japan",
+      "date": "2018-12-12",
+      "note": "Mnet's compilation of TWICE's MAMA cover stages: My Name from 2017, Bad Girl Good Girl from 2018.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "1Yr_Uz5OcCc",
+          "label": "Cover Stage Compilation",
+          "official": true,
+          "duration": "3:04"
+        }
+      ]
+    },
+    {
+      "id": "genie-cover-once-begins-2017",
+      "title": "Genie — Girls' Generation cover",
+      "series": "stage",
+      "venue": "ONCE BEGINS fanmeeting",
+      "date": "2017-10-14",
+      "note": "Performed in suits.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "7JKM6JLy2sY",
+          "label": "Fancam",
+          "official": false,
+          "fancam": true,
+          "duration": "3:27"
+        }
+      ]
+    },
+    {
+      "id": "flying-butterfly-97-line-kbs-song-festival-2016",
+      "title": "I'm a Flying Butterfly (나는 나비) — YB cover, 97-line idols",
+      "series": "stage",
+      "members": "Jihyo, Mina",
+      "venue": "2016 KBS Song Festival",
+      "date": "2016-12-29",
+      "note": "Collab stage of idols born in 1997.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "3KkQ-mxpHXE",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "3:34"
+        }
+      ]
+    },
+    {
+      "id": "be-mine-collab-kbs-song-festival-2016",
+      "title": "Be Mine — INFINITE cover",
+      "series": "stage",
+      "members": "Momo",
+      "venue": "2016 KBS Song Festival",
+      "date": "2016-12-29",
+      "note": "Collab stage: Momo with Seulgi (Red Velvet), SinB (GFRIEND), Youjung (WJSN) and Chungha.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "x3PZH8dWakM",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "2:59"
+        }
+      ]
+    },
+    {
+      "id": "uptown-funk-cover-kcon-la-2016",
+      "title": "Uptown Funk — Mark Ronson ft. Bruno Mars cover",
+      "series": "stage",
+      "venue": "KCON 2016 LA, Staples Center",
+      "date": "2016-07-31",
+      "note": "Their first KCON and first US stage.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "n6OdG6-nNbA",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "1:51"
+        }
+      ]
+    },
+    {
+      "id": "loving-u-sistar-special-music-bank-2016",
+      "title": "Loving U — SISTAR cover, with SISTAR",
+      "series": "stage",
+      "members": "Jihyo, Tzuyu",
+      "venue": "Music Bank",
+      "date": "2016-06-24",
+      "note": "SISTAR special stage: Jihyo and Tzuyu with SinB (GFRIEND) and Elkie (CLC) on Loving U, then SISTAR on Shake It.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "puBAuwHV1_M",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "4:42"
+        }
+      ]
+    },
+    {
+      "id": "dream-chanyeol-nayeon-music-bank-2016",
+      "title": "Dream — Suzy & Baekhyun cover, with Chanyeol",
+      "series": "stage",
+      "members": "Nayeon",
+      "venue": "Music Bank",
+      "date": "2016-06-24",
+      "note": "Duet with Chanyeol (EXO).",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "l1P-Wo09wOo",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "2:24"
+        }
+      ]
+    },
+    {
+      "id": "u-go-girl-g4-inkigayo-2016",
+      "title": "U-Go-Girl — Lee Hyori cover, G4 vocal unit",
+      "series": "stage",
+      "members": "Jihyo",
+      "venue": "Inkigayo, Ep. 878",
+      "date": "2016-08-28",
+      "note": "Collab stage: Jihyo with Baek A-yeon, Lee Su-hyun (AKMU) and Yuju (GFRIEND), for Inkigayo's 'Voice of Inkigayo' follow-up to the Ultra Dance Festival stage.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "GtK_hU9c4PI",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "3:30"
+        }
+      ]
+    },
+    {
+      "id": "mc-special-stage-inkigayo-2016",
+      "title": "Cheer Up + Who's Your Mama? — Inkigayo MC special stage",
+      "series": "stage",
+      "members": "Jeongyeon",
+      "venue": "Inkigayo, Ep. 870",
+      "date": "2016-07-03",
+      "note": "Collab stage: Jeongyeon with her fellow Inkigayo MCs Gong Seung-yeon and Kim Min-seok, with the rest of TWICE joining in.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "akHBCu1eNTA",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "3:43"
+        }
+      ]
+    },
+    {
+      "id": "five-ws-udf-inkigayo-2016",
+      "title": "Ultra Dance Festival (UDF) — Five Ws girl group stage",
+      "series": "stage",
+      "members": "Mina",
+      "venue": "Inkigayo, Ep. 871",
+      "date": "2016-07-10",
+      "note": "Collab stage: Mina in the Five Ws girl group dance unit.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "xz265TaBcA4",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "2:37"
+        }
+      ]
+    },
+    {
+      "id": "all-for-you-doyoung-jihyo-music-bank-2016",
+      "title": "All For You — Seo In-guk & Jung Eun-ji cover, with Doyoung",
+      "series": "stage",
+      "members": "Jihyo",
+      "venue": "Music Bank",
+      "date": "2016-04-29",
+      "note": "Duet with Doyoung (NCT). From the Reply 1997 soundtrack.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "mX9ZCZOSPes",
+          "label": "Special Stage · Eng Sub",
+          "official": false,
+          "duration": "1:23"
+        }
+      ]
+    },
+    {
+      "id": "me-gustas-tu-cover-music-core-2016",
+      "title": "Me Gustas Tu (오늘부터 우리는) — GFRIEND cover",
+      "series": "stage",
+      "venue": "Show! Music Core",
+      "date": "2016-04-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "BAM_swBFUSM",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "3:01"
+        }
+      ]
+    },
+    {
+      "id": "gee-gfriend-inkigayo-2016",
+      "title": "Gee — Girls' Generation cover, with GFRIEND",
+      "series": "stage",
+      "members": "Nayeon, Jeongyeon, Jihyo, Dahyun, Tzuyu",
+      "venue": "Inkigayo, Ep. 854",
+      "date": "2016-03-13",
+      "note": "Collab stage with GFRIEND.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "3kva3820DDw",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "3:21"
+        }
+      ]
+    },
+    {
+      "id": "tell-me-nobody-collab-dmc-festival-2016",
+      "title": "Tell Me + Nobody — Wonder Girls cover, with Hani and Seolhyun",
+      "series": "stage",
+      "members": "Tzuyu",
+      "venue": "DMC Festival: Korean Music Wave",
+      "date": "2016-10-09",
+      "note": "Collab stage: Tzuyu with Hani (EXID) and Seolhyun (AOA).",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "ToFvleHGP84",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "1:51"
+        }
+      ]
+    },
+    {
+      "id": "gee-cover-dmc-festival-2016",
+      "title": "Gee — Girls' Generation cover",
+      "series": "stage",
+      "venue": "DMC Festival: Korean Music Wave",
+      "date": "2016-10-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "ZbXkPMM9Ql4",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "1:38"
+        }
+      ]
+    },
+    {
+      "id": "to-my-boyfriend-collab-mbc-gayo-daejejeon-2016",
+      "title": "To My Boyfriend (내 남자친구에게) — Fin.K.L cover, with Hani and Seolhyun",
+      "series": "stage",
+      "members": "Tzuyu",
+      "venue": "2016 MBC Gayo Daejejeon",
+      "date": "2016-12-31",
+      "note": "Collab stage: Tzuyu with Hani (EXID) and Seolhyun (AOA).",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "TwiDH1ReCBo",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "3:13"
+        }
+      ]
+    },
+    {
+      "id": "so-hot-cover-m-countdown-2016",
+      "title": "So Hot — Wonder Girls cover",
+      "series": "stage",
+      "venue": "M COUNTDOWN, Ep. 500",
+      "date": "2016-11-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "hhCbrsROnv0",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "3:00"
+        }
+      ]
+    },
+    {
+      "id": "windy-day-a-ing-cover-music-bank-2016",
+      "title": "Windy Day + A-ing (내 얘길 들어봐) — Oh My Girl cover",
+      "series": "stage",
+      "venue": "Music Bank",
+      "date": "2016-12-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "WIHXgPLknJc",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "3:04"
+        }
+      ]
+    },
+    {
+      "id": "girls-present-kbs-song-festival-2016",
+      "title": "Girl's Present — with Red Velvet, GFRIEND and I.O.I",
+      "series": "stage",
+      "venue": "2016 KBS Song Festival",
+      "date": "2016-12-29",
+      "note": "Joint stage: each group's hit (TWICE's Like OOH-AHH), then all four on Girls' Generation's Into the New World.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "-P3rZOmau-g",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "4:56"
+        }
+      ]
+    },
+    {
+      "id": "whistle-tt-monster-collab-sbs-gayo-daejeon-2016",
+      "title": "Whistle + TT + Monster — with Rosé, Chanyeol and 10cm",
+      "series": "stage",
+      "members": "Jihyo",
+      "venue": "2016 SAF SBS Gayo Daejeon",
+      "date": "2016-12-26",
+      "note": "Collab stage: Jihyo with Rosé (BLACKPINK), Chanyeol (EXO) and 10cm, on a medley of BLACKPINK's Whistle, TWICE's TT and EXO's Monster.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "-aMvq42DWO4",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "4:28"
+        }
+      ]
+    },
+    {
+      "id": "modern-dance-team-sbs-gayo-daejeon-2016",
+      "title": "Classical Intro + Modern Dance Team — opening show",
+      "series": "stage",
+      "members": "Momo, Mina",
+      "venue": "2016 SAF SBS Gayo Daejeon",
+      "date": "2016-12-26",
+      "note": "Collab stage: Momo and Mina in the joint dance team that opened the show.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "4XiSDnxlufQ",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "2:58"
+        }
+      ]
+    },
+    {
+      "id": "jyp-dance-stage-sbs-gayo-daejeon-2016",
+      "title": "JYP Dance Stage — with GFRIEND, SEVENTEEN and GOT7",
+      "series": "stage",
+      "members": "Nayeon, Jeongyeon, Momo, Mina",
+      "venue": "2016 SAF SBS Gayo Daejeon",
+      "date": "2016-12-26",
+      "note": "Joint dance stage to J.Y. Park songs.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "QHxgjpIkssM",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "3:24"
+        }
+      ]
+    },
+    {
+      "id": "butterfly-collab-sbs-gayo-daejeon-2017",
+      "title": "Butterfly — Loveholics cover",
+      "series": "stage",
+      "members": "Jihyo",
+      "venue": "2017 SBS Gayo Daejeon",
+      "date": "2017-12-25",
+      "note": "Collab stage: Jihyo with Rosé (BLACKPINK), Yook Sung-jae (BTOB), Yuju (GFRIEND) and Kim Jae-hwan (Wanna One).",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "mZVqcRjVEVc",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "4:54"
+        }
+      ]
+    },
+    {
+      "id": "4-minutes-cover-kbs-song-festival-2017",
+      "title": "4 Minutes — Madonna cover",
+      "series": "stage",
+      "members": "Jeongyeon, Sana, Mina, Dahyun, Tzuyu",
+      "venue": "2017 KBS Song Festival",
+      "date": "2017-12-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "fswAkXsjxEk",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "2:23"
+        }
+      ]
+    },
+    {
+      "id": "greedy-cover-kbs-song-festival-2017",
+      "title": "Greedy — Ariana Grande cover",
+      "series": "stage",
+      "members": "Nayeon, Momo, Jihyo, Chaeyoung",
+      "venue": "2017 KBS Song Festival",
+      "date": "2017-12-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "e2MW0_0apc4",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "2:29"
+        }
+      ]
+    },
+    {
+      "id": "saturday-night-u-go-girl-m-countdown-2016",
+      "title": "Saturday Night + U-Go-Girl — Son Dam-bi & Lee Hyori cover",
+      "series": "stage",
+      "venue": "M COUNTDOWN, Ep. 465",
+      "date": "2016-03-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "yKkpNUT0UA0",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "4:25"
+        }
+      ]
+    },
+    {
+      "id": "move-cover-music-bank-hong-kong-2019",
+      "title": "MOVE — Taemin cover",
+      "series": "stage",
+      "members": "Momo, Mina, Dahyun, Chaeyoung",
+      "venue": "Music Bank in Hong Kong, AsiaWorld-Expo",
+      "date": "2019-02-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "QTfzryUBlO0",
+          "label": "Special Stage",
+          "official": true,
+          "mustWatch": true,
+          "duration": "3:45"
+        }
+      ]
+    },
+    {
+      "id": "valenti-cover-kmf-2018",
+      "title": "Valenti — BoA cover",
+      "series": "stage",
+      "venue": "Korea Music Festival 2018, Gocheok Sky Dome",
+      "date": "2018-08-01",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "d69H77oqtFQ",
+          "label": "Special Stage",
+          "official": false,
+          "duration": "2:28"
+        }
+      ]
+    },
+    {
+      "id": "end-of-time-cover-kcon-la-2018",
+      "title": "End of Time — Beyoncé cover",
+      "series": "stage",
+      "members": "Jihyo, Momo, Tzuyu",
+      "venue": "KCON 2018 LA, Staples Center",
+      "date": "2018-08-10",
+      "note": "Carried over from the TWICELAND tour.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "CxQKaEGrQ38",
+          "label": "Special Stage",
+          "official": true,
+          "mustWatch": true,
+          "duration": "2:42"
+        }
+      ]
+    },
+    {
+      "id": "gashina-cover-music-bank-chile-2018",
+      "title": "Gashina (가시나) — Sunmi cover",
+      "series": "stage",
+      "members": "Nayeon, Momo, Mina, Chaeyoung",
+      "venue": "Music Bank in Chile, Santiago",
+      "date": "2018-04-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "FfjsmKvMDJk",
+          "label": "Special Stage",
+          "official": true,
+          "mustWatch": true,
+          "duration": "2:19"
+        }
+      ]
+    },
+    {
+      "id": "pretty-u-cover-twiceland-2017",
+      "title": "Pretty U (예쁘다) — SEVENTEEN cover",
+      "series": "stage",
+      "venue": "TWICELAND: The Opening, Seoul",
+      "date": "2017-02-17",
+      "note": "Performed at their first concert.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "yAa5MAbecc4",
+          "label": "Fancam",
+          "official": false,
+          "fancam": true,
+          "duration": "3:29"
+        }
+      ]
+    },
+    {
+      "id": "overdose-cover-twiceland-2017",
+      "title": "Overdose (중독) — EXO cover",
+      "series": "stage",
+      "venue": "TWICELAND: The Opening, Seoul",
+      "date": "2017-02-17",
+      "note": "Performed at their first concert.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "tCpkvLJfP5c",
+          "label": "Fancam",
+          "official": false,
+          "fancam": true,
+          "duration": "1:20"
         }
       ]
     },
@@ -317,7 +1131,7 @@
     },
     {
       "id": "mama-2018",
-      "title": "2018 MAMA",
+      "title": "2018 MAMA — YES or YES + What is Love? + Dance the Night Away",
       "series": "awards",
       "venue": "",
       "date": "2018-12",
@@ -328,7 +1142,8 @@
           "url": "U75dV7Gn438",
           "label": "Full Performance",
           "official": true,
-          "duration": "10:26"
+          "duration": "10:26",
+          "mustWatch": true
         }
       ]
     },
@@ -692,6 +1507,91 @@
       ]
     },
     {
+      "id": "mama-2020",
+      "title": "2020 MAMA",
+      "series": "awards",
+      "venue": "CJ ENM Contents World, Paju",
+      "date": "2020-12-06",
+      "note": "Held without an audience. Mnet's compilation of every TWICE moment on the night.",
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "fouFeK13kE8",
+          "label": "All Moments",
+          "official": true,
+          "duration": "14:30"
+        }
+      ]
+    },
+    {
+      "id": "golden-disc-2021",
+      "title": "2021 Golden Disc Awards",
+      "series": "awards",
+      "venue": "",
+      "date": "2021-01-10",
+      "note": "The 35th, album night. Intro + CRY FOR ME, then Intro + MORE & MORE.",
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "AW0eHUT-MCI",
+          "label": "Full Performance",
+          "official": true,
+          "duration": "8:04"
+        }
+      ]
+    },
+    {
+      "id": "mama-2017-japan",
+      "title": "2017 MAMA in Japan — Intro + TT + SIGNAL",
+      "series": "awards",
+      "venue": "Yokohama Arena",
+      "date": "2017-11-29",
+      "note": "First of their two stages that night.",
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "4c4ShjoGAXA",
+          "label": "Full Performance",
+          "official": true,
+          "duration": "4:14"
+        }
+      ]
+    },
+    {
+      "id": "mama-2017-japan-likey",
+      "title": "2017 MAMA in Japan — Dance Perf. + LIKEY",
+      "series": "awards",
+      "venue": "Yokohama Arena",
+      "date": "2017-11-29",
+      "note": "Second of their two stages that night.",
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "7-XVJhw2brw",
+          "label": "Full Performance",
+          "official": true,
+          "duration": "4:03"
+        }
+      ]
+    },
+    {
+      "id": "mama-2016",
+      "title": "2016 MAMA — CHEER UP + TT",
+      "series": "awards",
+      "venue": "AsiaWorld-Expo, Hong Kong",
+      "date": "2016-12-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "KkNfEQgYUgA",
+          "label": "Full Performance",
+          "official": true,
+          "duration": "5:47"
+        }
+      ]
+    },
+    {
       "id": "golden-disc-2020",
       "title": "2020 Golden Disc Awards",
       "series": "awards",
@@ -722,6 +1622,40 @@
           "label": "Full Segment",
           "official": true,
           "duration": "7:40"
+        }
+      ]
+    },
+    {
+      "id": "10ve-universe-2025",
+      "title": "10VE UNIVERSE",
+      "series": "fanmeeting",
+      "venue": "Hwajeong Tiger Dome, Korea University, Seoul",
+      "date": "2025-10-18",
+      "note": "10th-anniversary fanmeeting, also streamed on Beyond LIVE.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/4797188455142912",
+          "label": "Full Fanmeeting",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/f02cd55085a0d6e5df67ea7c0539547f.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "once-again-2023",
+      "title": "ONCE AGAIN",
+      "series": "fanmeeting",
+      "venue": "Olympic Hall, Seoul",
+      "date": "2023-10-21",
+      "note": "8th-anniversary fanmeeting. Two shows that day; the evening one was also streamed on Beyond LIVE.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/4788947155031552",
+          "label": "Full Fanmeeting",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/53c0b9ec19e383845953e2a67ac07002.jpg@640w_360h.webp"
         }
       ]
     }

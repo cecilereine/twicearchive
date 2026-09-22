@@ -46,7 +46,8 @@
           "kind": "mv",
           "url": "https://vlivearchive.com/post/1-18238875",
           "label": "Cover",
-          "official": false
+          "official": false,
+          "thumb": "https://v-phinf.pstatic.net/20151219_99/1450534621930GEnJV_PNG/upload_%C7%CF%B4%CF%BB%D3.png?type=w640"
         }
       ]
     },
@@ -64,7 +65,8 @@
           "kind": "mv",
           "url": "https://vlivearchive.com/post/0-18229174",
           "label": "Cover",
-          "official": false
+          "official": false,
+          "thumb": "https://v-phinf.pstatic.net/20151219_38/1450534801787AWtgc_PNG/upload_%B0%ED%B9%E9%BC%DB.png?type=w640"
         }
       ]
     },

@@ -1,0 +1,260 @@
+{
+  "section": "Vlogs",
+  "note": "TWICE's own vlogs and behind-the-scenes, from their official channels. One entry per episode. The page groups by series, not by year: a series is one tab and one section, and a series with \"seasons\" (TW-LOG) keeps every season inside that section, each under its own sub-heading, set on the entry by \"season\". A season can also carry a \"summary\" and \"mustWatch\", shown on its sub-heading. TIME TO TWICE and TWICE TV are separate sections, not here.",
+  "updated": "2026-09-23",
+  "groupBy": "series",
+  "memberColors": {
+    "Nayeon": "#49c0ec",
+    "Jeongyeon": "#a3cc54",
+    "Momo": "#e67ea3",
+    "Sana": "#8c79b4",
+    "Jihyo": "#f9cc85",
+    "Mina": "#71c7d4",
+    "Dahyun": "#fefefe",
+    "Chaeyoung": "#e62722",
+    "Tzuyu": "#2253a3"
+  },
+  "groupColors": [
+    "#f9c596",
+    "#fc5d9d"
+  ],
+  "series": [
+    {
+      "key": "twlog",
+      "label": "TW-LOG",
+      "seasons": [
+        {
+          "key": "secret-friend",
+          "label": "Secret Friend",
+          "mustWatch": true,
+          "summary": "Each member secretly prepares a gift for another member, one episode each, without the others finding out who has whom. The finale brings all nine together."
+        },
+        {
+          "key": "4th-tour",
+          "label": "4th World Tour 'Ⅲ'"
+        },
+        {
+          "key": "5th-tour",
+          "label": "5th World Tour 'READY TO BE'"
+        },
+        {
+          "key": "6th-tour",
+          "label": "6th World Tour 'THIS IS FOR'"
+        }
+      ]
+    },
+    {
+      "key": "behind",
+      "label": "Behind the Scenes"
+    }
+  ],
+  "events": [
+    {
+      "id": "secret-friend-jeongyeon",
+      "title": "Jeongyeon's TW-LOG with Secret Friend",
+      "series": "twlog",
+      "season": "secret-friend",
+      "members": "Jeongyeon",
+      "venue": "Episode 1",
+      "date": "2021-03-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "P26u6EUJL7k",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "7:54"
+        }
+      ]
+    },
+    {
+      "id": "secret-friend-tzuyu",
+      "title": "Tzuyu's TW-LOG with Secret Friend",
+      "series": "twlog",
+      "season": "secret-friend",
+      "members": "Tzuyu",
+      "venue": "Episode 2",
+      "date": "2021-03-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "V8Ap4s8Xc9Y",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "12:18"
+        }
+      ]
+    },
+    {
+      "id": "secret-friend-mina",
+      "title": "Mina's TW-LOG with Secret Friend",
+      "series": "twlog",
+      "season": "secret-friend",
+      "members": "Mina",
+      "venue": "Episode 3",
+      "date": "2021-03-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "JEtqTMnc5wI",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "10:47"
+        }
+      ]
+    },
+    {
+      "id": "secret-friend-momo",
+      "title": "Momo's TW-LOG with Secret Friend",
+      "series": "twlog",
+      "season": "secret-friend",
+      "members": "Momo",
+      "venue": "Episode 4",
+      "date": "2021-03-30",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "r-6m5phkCcM",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "16:25"
+        }
+      ]
+    },
+    {
+      "id": "secret-friend-jihyo",
+      "title": "Jihyo's TW-LOG with Secret Friend",
+      "series": "twlog",
+      "season": "secret-friend",
+      "members": "Jihyo",
+      "venue": "Episode 5",
+      "date": "2021-04-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "JPeXvgywr14",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "9:19"
+        }
+      ]
+    },
+    {
+      "id": "secret-friend-dahyun",
+      "title": "Dahyun's TW-LOG with Secret Friend",
+      "series": "twlog",
+      "season": "secret-friend",
+      "members": "Dahyun",
+      "venue": "Episode 6",
+      "date": "2021-04-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "uBqnWtJ4ZJ8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:40"
+        }
+      ]
+    },
+    {
+      "id": "secret-friend-chaeyoung",
+      "title": "Chaeyoung's TW-LOG with Secret Friend",
+      "series": "twlog",
+      "season": "secret-friend",
+      "members": "Chaeyoung",
+      "venue": "Episode 7",
+      "date": "2021-04-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "dKj-q57lYh0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "9:22"
+        }
+      ]
+    },
+    {
+      "id": "secret-friend-nayeon",
+      "title": "Nayeon's TW-LOG with Secret Friend",
+      "series": "twlog",
+      "season": "secret-friend",
+      "members": "Nayeon",
+      "venue": "Episode 8",
+      "date": "2021-04-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "CZF9rOURmSM",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "16:45"
+        }
+      ]
+    },
+    {
+      "id": "secret-friend-sana",
+      "title": "Sana's TW-LOG with Secret Friend",
+      "series": "twlog",
+      "season": "secret-friend",
+      "members": "Sana",
+      "venue": "Episode 9",
+      "date": "2021-05-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "yCKXAM1MMy8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "12:59"
+        }
+      ]
+    },
+    {
+      "id": "secret-friend-finale",
+      "title": "TW-LOG with Secret Friend",
+      "series": "twlog",
+      "season": "secret-friend",
+      "venue": "Episode 10 · Finale",
+      "date": "2021-05-11",
+      "note": "All nine together.",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "qYVpoPAHX9Y",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "33:26"
+        }
+      ]
+    },
+    {
+      "id": "secret-friend-secret-cut",
+      "title": "Chaotic TWICE Secret Friend Detectives",
+      "series": "twlog",
+      "season": "secret-friend",
+      "venue": "Secret Cut",
+      "date": "2025-11-09",
+      "note": "Unseen footage, posted years later in TWICE's Secret Cut series.",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "sEPMFwTAeZk",
+          "label": "Secret Cut",
+          "official": true,
+          "duration": "3:11"
+        }
+      ]
+    }
+  ]
+}

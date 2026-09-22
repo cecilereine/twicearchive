@@ -43,6 +43,8 @@
 :root[data-accent="shows"]       { --accent: var(--grape);  --accent-2: var(--candy); }
 :root[data-accent="live"]        { --accent: var(--mint);   --accent-2: var(--grape); }
 :root[data-accent="covers"]      { --accent: var(--grape);  --accent-2: var(--mint); }
+:root[data-accent="vlogs"]       { --accent: var(--peach);  --accent-2: var(--candy); }
+:root[data-accent="variety"]     { --accent: var(--candy);  --accent-2: var(--mint); }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -86,6 +88,17 @@ a { color: inherit; }
 /* ---------- header ---------- */
 
 .site-head { padding: 34px 0 22px; }
+
+/* Site-wide notice while the archive is being filled in. Remove the <p> from
+   each page when it's done. */
+.wip-banner {
+  margin: 14px 0 0; padding: 9px 14px;
+  border: 1px solid color-mix(in srgb, #f0980d 45%, transparent);
+  border-radius: 10px;
+  background: color-mix(in srgb, #ffc224 14%, var(--surface));
+  color: var(--text); font-size: 13px; line-height: 1.45;
+}
+.wip-banner b { color: #d9820a; }
 
 /* Site navigation reads as a menu bar — plain links on a rule, the current
    page underlined — so it can't be mistaken for the filter pills below it. */
@@ -206,7 +219,7 @@ a { color: inherit; }
 
 /* The page's main split (Melody Project / Cover Project…, Tours / Festivals…)
    is a segmented control rather than more pills: one tinted track, the chosen
-   segment lifted out of it. It scrolls sideways on a phone instead of wrapping. */
+   segment lifted out of it. On a phone it wraps inside the track (see below). */
 .toolbar .row.tabs {
   display: inline-flex; flex-wrap: nowrap; gap: 2px;
   max-width: 100%; overflow-x: auto; scrollbar-width: none;
@@ -237,6 +250,27 @@ a { color: inherit; }
 }
 .toolbar .row.tabs + .row { margin-top: 12px; }
 
+/* On a phone the nav doesn't fit one line, and wrapping it leaves the first
+   row's underline floating off the rule. Keep it one row that swipes sideways,
+   with the theme toggle pinned at the right end over a fade. The main tabs wrap
+   inside their track instead, so no category hides off the edge. A mouse
+   has no swipe, so theme.js turns the wheel sideways on the nav row. */
+@media (max-width: 640px) {
+  .site-nav {
+    flex-wrap: nowrap; gap: 0 18px;
+    overflow-x: auto; scrollbar-width: none;
+  }
+  .site-nav::-webkit-scrollbar { display: none; }
+  .site-nav a { flex: none; white-space: nowrap; }
+  .site-nav a.on::after { bottom: 0; }       /* the scroller clips anything below its edge */
+  .theme-toggle {
+    position: sticky; right: 0; flex: none;
+    /* a solid ring, then a fade, so links slide out of sight under it */
+    box-shadow: 0 0 0 6px var(--bg), -26px 0 16px 2px var(--bg);
+  }
+  .toolbar .row.tabs { display: flex; flex-wrap: wrap; }
+}
+
 /* Count beside a filter chip's label. */
 .chip-n {
   font-size: 10.5px; font-weight: 700; opacity: .6;
@@ -263,6 +297,20 @@ a { color: inherit; }
 .era-head h2 { margin: 0; font-size: 19px; letter-spacing: -.01em; }
 .era-head .rule { flex: 1; height: 1px; background: var(--line); }
 .era-head .count { font-size: 12px; color: var(--text-faint); }
+.era-head .era-years { margin-left: 4px; font-size: 14px; font-weight: 600; color: var(--text-faint); }
+
+/* A season inside a series section (Vlogs: TW-LOG's Secret Friend, its tours). */
+.season-head {
+  display: flex; align-items: baseline; gap: 10px;
+  margin: 22px 0 10px; padding-left: 10px;
+  border-left: 3px solid var(--accent);
+}
+.season-head h3 { margin: 0; font-size: 15px; }
+.season-head .count { font-size: 12px; color: var(--text-faint); }
+.season-summary {
+  margin: -4px 0 12px; padding-left: 13px; max-width: 70ch;
+  font-size: 13px; line-height: 1.5; color: var(--text-soft);
+}
 
 .album-grid {
   display: grid; gap: 16px;
@@ -518,7 +566,7 @@ a { color: inherit; }
    white rim and the drop shadow are what make it read as a sticker, and it
    keeps the site's own pink rather than the per-section accent so it looks the
    same on every page. */
-.vthumb .must {
+.vthumb .must, .season-head .must, .era-head .must {
   position: absolute; z-index: 2; top: 7px; left: 7px;
   font-size: 9.5px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase;
   padding: 3px 8px; border-radius: 999px; white-space: nowrap;
@@ -530,6 +578,8 @@ a { color: inherit; }
   border: 1.5px solid #fff;
   box-shadow: 0 2px 8px rgba(0,0,0,.4);
 }
+/* On a season heading it sits in line after the title, not over a thumbnail. */
+.season-head .must, .era-head .must { position: static; align-self: center; box-shadow: none; }
 
 .vmeta { padding: 8px 10px 9px; display: flex; flex-direction: column; gap: 6px; }
 .vlabel { font-size: 12.5px; font-weight: 600; line-height: 1.35; }
@@ -637,6 +687,11 @@ a { color: inherit; }
 :root[data-accent="live"] .series-badge[data-series="special"]    { color: #fff; background: var(--candy); border-color: transparent; }
 :root[data-accent="live"] .series-badge[data-series="fanmeeting"] { color: #123; background: var(--peach); border-color: transparent; }
 :root[data-accent="live"] .series-badge[data-series="stage"]      { color: #fff; background: linear-gradient(120deg, var(--candy), var(--grape)); border-color: transparent; }
+/* Vlogs: every TW-LOG season shares one look, behind-the-scenes another. */
+:root[data-accent="vlogs"] .series-badge[data-series="twlog"]  { color: #123; background: var(--peach); border-color: transparent; }
+:root[data-accent="vlogs"] .series-badge[data-series="behind"] { color: #fff; background: var(--grape); border-color: transparent; }
+/* TV Variety: one look for every show; the section heading already says which. */
+:root[data-accent="variety"] .series-badge { color: #fff; background: var(--candy); border-color: transparent; }
 /* A member chip in the filter row carries a dot in that member's colour. */
 .chip .dot {
   display: inline-block; width: 8px; height: 8px; border-radius: 999px;

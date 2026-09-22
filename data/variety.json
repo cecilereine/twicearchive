@@ -1,0 +1,457 @@
+{
+  "section": "TV Variety & Reality",
+  "note": "TWICE on TV variety and reality shows — their own series (SIXTEEN) and guest runs on others, one entry per episode. Grouped by show, not by year: each show is one tab and one section. YouTube variety (TIME TO TWICE and the rest) is a separate section. A show can carry \"mustWatch\" and a \"summary\", shown on its heading.",
+  "updated": "2026-09-23",
+  "groupBy": "series",
+  "memberColors": {
+    "Nayeon": "#49c0ec",
+    "Jeongyeon": "#a3cc54",
+    "Momo": "#e67ea3",
+    "Sana": "#8c79b4",
+    "Jihyo": "#f9cc85",
+    "Mina": "#71c7d4",
+    "Dahyun": "#fefefe",
+    "Chaeyoung": "#e62722",
+    "Tzuyu": "#2253a3"
+  },
+  "groupColors": [
+    "#f9c596",
+    "#fc5d9d"
+  ],
+  "series": [
+    {
+      "key": "sixteen",
+      "label": "SIXTEEN",
+      "mustWatch": true
+    },
+    {
+      "key": "elegant-private-life",
+      "label": "TWICE's Elegant Private Life",
+      "mustWatch": true,
+      "summary": "Their first reality show after debut: the members' everyday lives off stage."
+    },
+    {
+      "key": "carefree-travelers",
+      "label": "Carefree Travelers"
+    },
+    {
+      "key": "snl-korea",
+      "label": "SNL Korea"
+    },
+    {
+      "key": "oppa-thinking",
+      "label": "Oppa Thinking"
+    }
+  ],
+  "events": [
+    {
+      "id": "sixteen-ep1",
+      "title": "SIXTEEN Episode 1",
+      "series": "sixteen",
+      "venue": "Mnet",
+      "date": "2015-05-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4787582431271424",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "55:20",
+          "thumb": "https://p.bstarstatic.com/ugc/735319313e8d6b2da787b2866949c025.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "sixteen-ep2",
+      "title": "SIXTEEN Episode 2",
+      "series": "sixteen",
+      "venue": "Mnet",
+      "date": "2015-05-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4787582439396864",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:07:23",
+          "thumb": "https://p.bstarstatic.com/ugc/1be34fcd76c1ffdd12c2fa2b9214a337.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "sixteen-ep3",
+      "title": "SIXTEEN Episode 3",
+      "series": "sixteen",
+      "venue": "Mnet",
+      "date": "2015-05-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4787582447655424",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:10:25",
+          "thumb": "https://p.bstarstatic.com/ugc/021e2b063cd5412ca0d41e2ba95f1bf3.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "sixteen-ep4",
+      "title": "SIXTEEN Episode 4",
+      "series": "sixteen",
+      "venue": "Mnet",
+      "date": "2015-05-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4787582456174080",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:10:41",
+          "thumb": "https://p.bstarstatic.com/ugc/957e6a9065372f1c21ce3581bf217bd2.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "sixteen-ep5",
+      "title": "SIXTEEN Episode 5",
+      "series": "sixteen",
+      "venue": "Mnet",
+      "date": "2015-06-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4787582464955904",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:05:18",
+          "thumb": "https://p.bstarstatic.com/ugc/4fbc9c3a33f6dbbb28fa389606965b97.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "sixteen-ep6",
+      "title": "SIXTEEN Episode 6",
+      "series": "sixteen",
+      "venue": "Mnet",
+      "date": "2015-06-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4787582474917376",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:08:20",
+          "thumb": "https://p.bstarstatic.com/ugc/ab264a3ba3d7f2899acc8324e8661569.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "sixteen-ep7",
+      "title": "SIXTEEN Episode 7",
+      "series": "sixteen",
+      "venue": "Mnet",
+      "date": "2015-06-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4787582483961344",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:02:24",
+          "thumb": "https://p.bstarstatic.com/ugc/85da998e1c2a47cfc8c05e81047bcb26.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "sixteen-ep8",
+      "title": "SIXTEEN Episode 8",
+      "series": "sixteen",
+      "venue": "Mnet",
+      "date": "2015-06-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4787582493661696",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:04:30",
+          "thumb": "https://p.bstarstatic.com/ugc/8fda4f6dd43dde2cd8a607ddea517ea8.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "sixteen-ep9",
+      "title": "SIXTEEN Episode 9",
+      "series": "sixteen",
+      "venue": "Mnet",
+      "date": "2015-06-30",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4787582505981440",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:08:01",
+          "thumb": "https://p.bstarstatic.com/ugc/d454dc5da1b05eaae10245a5b613488a.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "sixteen-ep10",
+      "title": "SIXTEEN Episode 10",
+      "series": "sixteen",
+      "venue": "Mnet",
+      "date": "2015-07-07",
+      "note": "The finale: the final nine are announced.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4787582516468224",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:16:01",
+          "thumb": "https://p.bstarstatic.com/ugc/705b82ea0eb813289ed7ced1ff816f60.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "carefree-travelers-twice-1",
+      "title": "Carefree Travelers with TWICE, Part 1",
+      "series": "carefree-travelers",
+      "venue": "JTBC · Ep. 44",
+      "date": "2017-10-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2041418811",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/8cfb759afcfb8648eae060a3867938fc.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "carefree-travelers-twice-2",
+      "title": "Carefree Travelers with TWICE, Part 2",
+      "series": "carefree-travelers",
+      "venue": "JTBC · Ep. 45",
+      "date": "2017-10-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2049241728",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/b096e73dbda173c84d52c05f611412bf.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "carefree-travelers-twice-3",
+      "title": "Carefree Travelers with TWICE, Part 3 (Final)",
+      "series": "carefree-travelers",
+      "venue": "JTBC · Ep. 46",
+      "date": "2017-10-31",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2043343796",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/8b6e2aefb67c7da7ac0ef5c1727544d5.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "snl-korea-twice-2016",
+      "title": "SNL Korea — TWICE as hosts",
+      "series": "snl-korea",
+      "venue": "tvN",
+      "date": "2016-10-29",
+      "note": "TWICE hosted the episode. This is every TWICE segment from it.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "p4XmF5958SU",
+          "label": "TWICE Cut · Eng Sub",
+          "official": false,
+          "duration": "1:40:59"
+        }
+      ]
+    },
+    {
+      "id": "oppa-thinking-twice-song",
+      "title": "TWICE Song (트와이스송)",
+      "series": "oppa-thinking",
+      "venue": "MBC",
+      "date": "2017-06-01",
+      "note": "A song written for TWICE on the show that runs through all nine names. It became a fan favourite.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "YdeeXDO--cs",
+          "label": "Clip",
+          "official": true,
+          "duration": "2:05"
+        }
+      ]
+    },
+    {
+      "id": "elegant-private-life-ep1",
+      "title": "Elegant Private Life Episode 1",
+      "series": "elegant-private-life",
+      "venue": "Mnet",
+      "date": "2016-03-01",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2047102719",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "44:59",
+          "thumb": "https://p.bstarstatic.com/ugc/f636512d362392f1838ea84fc5d32011.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "elegant-private-life-ep2",
+      "title": "Elegant Private Life Episode 2",
+      "series": "elegant-private-life",
+      "venue": "Mnet",
+      "date": "2016-03-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2041981767",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "46:19",
+          "thumb": "https://p.bstarstatic.com/ugc/99e0e737e305466289ee20e75c52823d.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "elegant-private-life-ep3",
+      "title": "Elegant Private Life Episode 3",
+      "series": "elegant-private-life",
+      "venue": "Mnet",
+      "date": "2016-03-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2046927836",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "48:13",
+          "thumb": "https://p.bstarstatic.com/ugc/82559c53d2eebade908cb21a1b6439f5.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "elegant-private-life-ep4",
+      "title": "Elegant Private Life Episode 4",
+      "series": "elegant-private-life",
+      "venue": "Mnet",
+      "date": "2016-03-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2048313457",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "46:37",
+          "thumb": "https://p.bstarstatic.com/ugc/9cee983c454fe4793b40bb32bdc28d7a.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "elegant-private-life-ep5",
+      "title": "Elegant Private Life Episode 5",
+      "series": "elegant-private-life",
+      "venue": "Mnet",
+      "date": "2016-03-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2043689300",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "44:16",
+          "thumb": "https://p.bstarstatic.com/ugc/b545565458a59eebcd18a0bf0f8273ad.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "elegant-private-life-ep6",
+      "title": "Elegant Private Life Episode 6",
+      "series": "elegant-private-life",
+      "venue": "Mnet",
+      "date": "2016-04-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2044307887",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "45:56",
+          "thumb": "https://p.bstarstatic.com/ugc/57f69d4d4fda87e2915f1d3dab349147.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "elegant-private-life-ep7",
+      "title": "Elegant Private Life Episode 7",
+      "series": "elegant-private-life",
+      "venue": "Mnet",
+      "date": "2016-04-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2044722560",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "46:01",
+          "thumb": "https://p.bstarstatic.com/ugc/7360c2bf42d6fe2fb624ebfb41f8ede6.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "elegant-private-life-ep8",
+      "title": "Elegant Private Life Episode 8",
+      "series": "elegant-private-life",
+      "venue": "Mnet",
+      "date": "2016-04-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2041088250",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "45:34",
+          "thumb": "https://p.bstarstatic.com/ugc/72c3b267081eba862d0a1d12a2d9253b.jpg@640w_360h.webp"
+        }
+      ]
+    }
+  ]
+}

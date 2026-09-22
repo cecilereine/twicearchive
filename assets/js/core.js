@@ -237,6 +237,8 @@ const KIND_LABEL = {
   dance:       'Dance Practice',
   'dance-performance': 'Dance Performance',
   live:        'Live',
+  vlog:        'Vlog',
+  episode:     'Episode',
   audio:       'Audio',
   other:       'Video',
 };

@@ -306,6 +306,12 @@
             },
             {
               "kind": "live",
+              "url": "cYC6kQFHz2A",
+              "label": "Radio Live @ Park Ji-yoon's FM Date",
+              "official": true
+            },
+            {
+              "kind": "live",
               "url": "sTGeDgdUNK8",
               "label": "Yonsei AKARAKA Fancam",
               "official": false,
@@ -8283,7 +8289,7 @@
       "seq": "Digital Single",
       "type": "Single",
       "released": "2025-04-28",
-      "cover": "assets/img/covers/play.jpg",
+      "cover": "assets/img/covers/message.jpg",
       "note": "Theme song for the film Kakukaku Shikajika. Cover art shared with Play.",
       "links": {
         "spotify": "https://open.spotify.com/album/46CtRn5cgpV5xkTQ7xIb5u",

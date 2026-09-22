@@ -13,9 +13,17 @@
 --------------------------------------------------------------------------- */
 
 /* Same cache-busting as the other sections: the ?v= on this script tag is
-   passed through to the data file, so one bump in the HTML covers everything. */
-const ASSET_V  = (document.currentScript?.src.match(/[?&]v=([^&]+)/) || ['', ''])[1];
-const DATA_URL = 'data/live.json' + (ASSET_V ? '?v=' + ASSET_V : '');
+   passed through to the data file, so one bump in the HTML covers everything.
+
+   The Vlogs page runs this same script against its own file: the script tag's
+   data-src, data-progress and data-noun point it there. Left off, it's the
+   Concerts & Live page. */
+const SCRIPT       = document.currentScript;
+const ASSET_V      = (SCRIPT?.src.match(/[?&]v=([^&]+)/) || ['', ''])[1];
+const DATA_FILE    = SCRIPT?.dataset.src || 'data/live.json';
+const DATA_URL     = DATA_FILE + (ASSET_V ? '?v=' + ASSET_V : '');
+const PROGRESS_KEY = SCRIPT?.dataset.progress || 'twice-archive:live-progress';
+const NOUN         = SCRIPT?.dataset.noun || 'show';
 
 const el = id => document.getElementById(id);
 let paintReset = () => {};          /* set once the reset button is wired */
@@ -37,8 +45,18 @@ const eventYear = e => (e.date || '').slice(0, 4);
    the chip read MISAMO while the filter still finds it under Mina. */
 const membersOf = e => String(e.members || e.artist || '').split(',').map(a => a.trim()).filter(Boolean);
 const allVideos = () => state.data.events.flatMap(e => e.videos || []);
-const seriesLabel = key =>
-  (state.data.series || []).find(s => s.key === key)?.label || key || '';
+const seriesOf  = key => (state.data.series || []).find(s => s.key === key);
+const seriesLabel = key => seriesOf(key)?.label || key || '';
+/* An entry can sit in a second series too — a special stage at an award show
+   is both Stage Covers & Collabs and Award Shows. "series" is its home (where
+   it's grouped, and its badge comes first); "alsoSeries" adds more tags, and
+   the tabs find it under each of them. */
+const seriesKeys = e => [e.series, ...(e.alsoSeries || [])].filter(Boolean);
+const inSeries = (e, key) => seriesKeys(e).includes(key);
+/* A series can hold seasons (TW-LOG's Secret Friend, its tour runs); the
+   entry names its own with "season". */
+const seasonLabel = e =>
+  (seriesOf(e.series)?.seasons || []).find(s => s.key === e.season)?.label || e.season || '';
 
 const chipStyle = m => memberStyle(m, state.data.memberColors, state.data.groupColors);
 
@@ -51,11 +69,11 @@ const byDate = (a, b) => String(a.date || '').localeCompare(String(b.date || '')
 function visibleEvents() {
   const q = state.query.trim().toLowerCase();
   return state.data.events.filter(e => {
-    if (state.series !== 'all' && e.series !== state.series) return false;
+    if (state.series !== 'all' && !inSeries(e, state.series)) return false;
     if (state.member !== 'all' && !membersOf(e).includes(state.member)) return false;
     if (state.year !== 'all' && eventYear(e) !== state.year) return false;
     if (!q) return true;
-    return [e.title, e.venue, e.artist, e.members, e.note, seriesLabel(e.series), e.date,
+    return [e.title, e.venue, e.artist, e.members, e.note, ...seriesKeys(e).map(seriesLabel), seasonLabel(e), e.date,
             ...(e.videos || []).map(v => v.label)]
       .filter(Boolean).join(' ').toLowerCase().includes(q);
   }).sort(byDate);
@@ -67,12 +85,17 @@ function renderList() {
   const host = el('list');
   if (!state.data.events.length) {
     host.innerHTML = `<p class="empty-state">Nothing filed yet — paste shows into
-      <code>data/live.json</code>. <code>data/event-template.json</code> has a block to copy.</p>`;
+      <code>${escapeHtml(DATA_FILE)}</code>. <code>data/event-template.json</code> has a block to copy.</p>`;
     return;
   }
   const events = visibleEvents();
   if (!events.length) {
     host.innerHTML = `<p class="empty-state">Nothing matches those filters.</p>`;
+    return;
+  }
+
+  if (state.data.groupBy === 'series') {
+    host.innerHTML = seriesSections(events);
     return;
   }
 
@@ -85,15 +108,69 @@ function renderList() {
 
   host.innerHTML = [...groups].map(([year, list]) => `
     <section>
-      <div class="era-head">
-        <h2>${escapeHtml(year)}</h2>
-        <span class="rule"></span>
-        <span class="count">${list.length} show${list.length === 1 ? '' : 's'}</span>
-      </div>
+      ${sectionHead(year, list.length)}
       <div class="live-grid">
         ${list.flatMap(eventCards).join('')}
       </div>
     </section>`).join('');
+}
+
+const countOf = n => `${n} ${NOUN}${n === 1 ? '' : 's'}`;
+/* "2015", or "2021–2025" when the entries span more than one year. */
+const yearSpan = list => {
+  const years = [...new Set(list.map(eventYear).filter(Boolean))].sort();
+  return years.length > 1 ? `${years[0]}–${years.at(-1)}` : years[0] || '';
+};
+const sectionHead = (title, n, years = '', must = false) => `
+      <div class="era-head">
+        <h2>${escapeHtml(title)}${years ? ` <span class="era-years">${escapeHtml(years)}</span>` : ''}</h2>
+        ${must ? '<span class="must">★ Must watch</span>' : ''}
+        <span class="rule"></span>
+        <span class="count">${countOf(n)}</span>
+      </div>`;
+
+/* The Vlogs page ("groupBy": "series") keeps each series in one section in the
+   data file's order instead of splitting it across years, so an umbrella like
+   TW-LOG stays together however its dates fall against everything else. Its
+   seasons, in the order the series lists them, get a sub-heading each, with
+   the years they span. A series without seasons shows its years on its own
+   heading instead (SIXTEEN 2015). A series, like a season, can carry
+   "mustWatch" and a "summary". */
+function seriesSections(events) {
+  const listed = (state.data.series || []).map(s => s.key);
+  const keys = [...listed, ...new Set(events.map(e => e.series).filter(k => !listed.includes(k)))];
+
+  return keys.map(key => {
+    const mine = events.filter(e => e.series === key);
+    if (!mine.length) return '';
+    const seasons = seriesOf(key)?.seasons || [];
+    const parts = [
+      ...seasons.map(ss => [ss, mine.filter(e => e.season === ss.key)]),
+      [null, mine.filter(e => !seasons.some(ss => ss.key === e.season))],
+    ].filter(([, list]) => list.length);
+
+    return `
+    <section>
+      ${sectionHead(seriesLabel(key), mine.length, seasons.length ? '' : yearSpan(mine),
+                    seriesOf(key)?.mustWatch)}
+      ${seriesOf(key)?.summary ? `<p class="season-summary">${escapeHtml(seriesOf(key).summary)}</p>` : ''}
+      ${parts.map(([season, list]) => {
+        const span = yearSpan(list);
+        /* A season can be flagged as the one to start with, and say in a line
+           what it's about, since the episode cards only name who it follows. */
+        return `${season ? `
+      <div class="season-head">
+        <h3>${escapeHtml(season.label)}</h3>
+        ${season.mustWatch ? '<span class="must">★ Must watch</span>' : ''}
+        <span class="count">${escapeHtml(span)} · ${countOf(list.length)}</span>
+      </div>
+      ${season.summary ? `<p class="season-summary">${escapeHtml(season.summary)}</p>` : ''}` : ''}
+      <div class="live-grid">
+        ${list.flatMap(eventCards).join('')}
+      </div>`;
+      }).join('')}
+    </section>`;
+  }).join('');
 }
 
 function eventCards(e) {
@@ -108,8 +185,11 @@ function eventCards(e) {
     <h3 class="song">${escapeHtml(e.title)}</h3>
     ${e.venue ? `<span class="orig">${escapeHtml(e.venue)}</span>` : ''}
     <div class="live-meta">
+      <span class="series-badge" data-series="${escapeHtml(e.series)}">${escapeHtml(
+        [seriesLabel(e.series), seasonLabel(e)].filter(Boolean).join(': '))}</span>
+      ${(e.alsoSeries || []).map(k =>
+        `<span class="series-badge" data-series="${escapeHtml(k)}">${escapeHtml(seriesLabel(k))}</span>`).join('')}
       ${artists}
-      <span class="series-badge" data-series="${escapeHtml(e.series)}">${escapeHtml(seriesLabel(e.series))}</span>
       <span class="date">${escapeHtml(prettyDate(e.date))}</span>
     </div>
     ${e.note ? `<p class="live-note">${escapeHtml(e.note)}</p>` : ''}`;
@@ -139,7 +219,7 @@ function renderProgress() {
   const entries = state.data.events.filter(e => (e.videos || []).length);
   const done = entries.filter(e => e.videos.every(isWatched)).length;
   try {
-    localStorage.setItem('twice-archive:live-progress', JSON.stringify(
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(
       { seen, total: all.length, done, entries: entries.length }));
   } catch { /* nothing to remember */ }
 }
@@ -159,7 +239,7 @@ function renderChips() {
 
   chips('series', 'series', [
     ['all', 'All', events.length],
-    ...(state.data.series || []).map(s => [s.key, s.label, count(e => e.series === s.key)]),
+    ...(state.data.series || []).map(s => [s.key, s.label, count(e => inSeries(e, s.key))]),
   ].filter(([v, , n]) => v === 'all' || n), state.series);
 
   /* Members in the data file's colour order, only those with a show of their
@@ -180,7 +260,7 @@ function renderChips() {
 
   /* Years narrow to what the chosen series and member actually have. */
   const pool = events.filter(e =>
-    (state.series === 'all' || e.series === state.series) &&
+    (state.series === 'all' || inSeries(e, state.series)) &&
     (state.member === 'all' || membersOf(e).includes(state.member)));
   const years = [...new Set(pool.map(eventYear))].filter(Boolean).sort();
   if (!years.includes(state.year)) state.year = 'all';
