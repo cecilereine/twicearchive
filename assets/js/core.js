@@ -252,6 +252,14 @@ const escapeHtml = s => String(s ?? '').replace(/[&<>"']/g,
 function videoCard(v, opts = {}) {
   const kind   = KIND_LABEL[v.kind] ? v.kind : 'other';
   const id     = youtubeId(v.url);
+  /* A freely watchable copy of the same video, for when the official link is
+     region-locked or behind a subscription. It rides on this card instead of
+     taking one of its own: same show, so one thumbnail and one watched mark.
+     When there is one it becomes what the card opens — the official link is
+     the canonical record, but the free copy is the one that actually plays. */
+  const altId  = youtubeId(v.alt);
+  const freeUrl = v.alt ? watchUrl({ url: v.alt }) : null;
+  const mainUrl = freeUrl || watchUrl(v);
   const label  = opts.caption === undefined ? (v.label || KIND_LABEL[kind]) : opts.caption;
   const seen   = isWatched(v);
   const key    = escapeHtml(videoKey(v));
@@ -270,6 +278,15 @@ function videoCard(v, opts = {}) {
        came from another site. */
     thumbInner = `<img src="${escapeHtml(v.thumb)}" alt="" loading="lazy" decoding="async"
                        referrerpolicy="no-referrer">`;
+  } else if (altId) {
+    /* An official link that isn't on YouTube — Amazon, Weverse, Beyond LIVE —
+       has no thumbnail to borrow, and those pages are JS shells with no
+       preview image either. The mirror is the same show, so use its. */
+    thumbInner =
+      `<span class="fallback">${escapeHtml(KIND_LABEL[kind])}</span>
+       <img src="${ytThumb(altId)}" alt="" loading="lazy" decoding="async"
+            data-yt-id="${altId}" data-yt-step="0"
+            onload="ytThumbFallback(this)" onerror="ytThumbFallback(this)">`;
   } else {
     thumbInner = `<span class="fallback">${escapeHtml(KIND_LABEL[kind])}</span>`;
   }
@@ -281,13 +298,20 @@ function videoCard(v, opts = {}) {
      (M COUNTDOWN's MPD fancams are official). */
   const fancam = v.fancam ? '<span class="official fancam" title="Fancam">◉ Fancam</span>' : '';
 
+  /* A hand-picked highlight: the one to start with when an entry, or a whole
+     section, has more than you can sit through. It rides on the thumbnail as a
+     sticker rather than in the tag row, so it reads at a glance down a long
+     grid. Nothing else keys off it — it doesn't reorder the card. */
+  const must = v.mustWatch
+    ? '<span class="must">★ Must watch</span>' : '';
+
   const durTag = v.duration ? `<span class="dur">${escapeHtml(v.duration)}</span>` : '';
 
   const thumbTag =
-    `<a class="vthumb" href="${escapeHtml(watchUrl(v))}"
+    `<a class="vthumb" href="${escapeHtml(mainUrl)}"
         target="_blank" rel="noopener"
-        aria-label="Open ${escapeHtml(label || KIND_LABEL[kind])} ${id ? 'on YouTube' : 'in a new tab'}">
-       ${thumbInner}<span class="play">${id ? '▶' : '↗'}</span>${durTag}
+        aria-label="Watch ${escapeHtml(label || KIND_LABEL[kind])}${freeUrl ? '' : id ? ' on YouTube' : ' in a new tab'}">
+       ${thumbInner}<span class="play">${id ? '▶' : '↗'}</span>${durTag}${must}
      </a>`;
 
   return `
@@ -300,8 +324,12 @@ function videoCard(v, opts = {}) {
         <div class="vtags">
           ${opts.badge === false ? '' : `<span class="badge" data-kind="${kind}">${escapeHtml(KIND_LABEL[kind])}</span>`}
           ${official}${fancam}
-          <a class="ext" href="${escapeHtml(watchUrl(v))}"
-             target="_blank" rel="noopener" title="Open in a new tab">↗</a>
+          ${freeUrl
+            ? `<a class="ext orig" href="${escapeHtml(watchUrl(v))}"
+                  target="_blank" rel="noopener"
+                  title="The official release — may be region-locked or need a subscription">Original ↗</a>`
+            : `<a class="ext" href="${escapeHtml(watchUrl(v))}"
+                  target="_blank" rel="noopener" title="Open in a new tab">↗</a>`}
         </div>
         <button type="button" class="watch-btn${seen ? ' on' : ''}" data-watch="${key}">
           ${seen ? '✓ Watched' : 'Mark watched'}

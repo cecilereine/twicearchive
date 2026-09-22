@@ -1,0 +1,105 @@
+{
+  "_README": [
+    "Template for adding shows to data/live.json.",
+    "One entry per EVENT — a whole concert, festival set, broadcast special,",
+    "fanmeeting or award show. The unit is the show, not the song.",
+    "",
+    "Copy a block below into the \"events\" array. Order in the file doesn't",
+    "matter: live.js sorts by \"date\" and groups by year on its own.",
+    "",
+    "Set \"series\" so the filter chips pick it up:",
+    "  tour | festival | special | fanmeeting | awards",
+    "",
+    "A per-song cut from one of these shows does NOT go here — it stays on its",
+    "track in data/discography.json. This file is for the video you'd watch",
+    "end to end.",
+    "",
+    "Validate before committing:  python3 -m json.tool data/live.json"
+  ],
+  "_FIELDS": {
+    "id": "REQUIRED. kebab-case, unique in this file. Used in the #deep-link.",
+    "title": "REQUIRED. As it should display. 'Lollapalooza Chicago 2022'.",
+    "series": "REQUIRED. tour | festival | special | fanmeeting | awards",
+    "artist": "OPTIONAL. Leave out for TWICE. A member's name for a solo show, or the unit's name for a sub-unit (MISAMO) — same as the discography credits it. It becomes the chip.",
+    "venue": "OPTIONAL. 'Grant Park, Chicago'. Shown under the title.",
+    "date": "REQUIRED. YYYY-MM-DD. A partial '2022-07' or '2022' also renders.",
+    "note": "OPTIONAL. One line of context. Leave \"\" for none.",
+    "videos": "The links. Same shape as discography.json — see _VIDEO below.",
+    "members": "OPTIONAL, only for a sub-unit: who's in it, e.g. \"Mina, Sana, Momo\". The chip still reads the \"artist\" name but takes a blend of their colours, and the member filter finds the show under each of them."
+  },
+  "_VIDEO": {
+    "kind": "live for a concert/festival set, performance for an award-show or broadcast set. Also: special, other.",
+    "url": "Full YouTube URL, youtu.be link or bare 11-char id. A ?t= is kept and opens at that time.",
+    "label": "What this particular upload is: 'Full Set', 'Full Set (4K reupload)', 'Day 1'.",
+    "official": "true when the channel itself is official (the channel, never the title). false otherwise.",
+    "fancam": "OPTIONAL true — adds the ◉ Fancam tag. Independent of official.",
+    "mustWatch": "OPTIONAL true — adds the ★ Must watch pill. A hand-picked highlight; it doesn't reorder anything, use \"pin\" for that.",
+    "pin": "OPTIONAL true — sorts this video first within its event, ahead of the official-before-fan rule.",
+    "thumb": "OPTIONAL. Needed only for non-YouTube links (Vimeo, Bilibili).",
+    "duration": "OPTIONAL. '1:02:14' — shown on the thumbnail.",
+    "alt": "OPTIONAL. A freely watchable copy of the SAME show, for when \"url\" is region-locked or behind a subscription (Amazon, Weverse, Beyond LIVE). The card opens this copy and moves \"url\" to an 'Original ↗' pill — one thumbnail, one watched mark, counted once. If \"url\" isn't a YouTube link the card borrows this one's thumbnail."
+  },
+  "festival": {
+    "id": "lollapalooza-2022",
+    "title": "Lollapalooza Chicago 2022",
+    "series": "festival",
+    "venue": "Grant Park, Chicago",
+    "date": "2022-07-31",
+    "note": "",
+    "videos": [
+      {
+        "kind": "live",
+        "url": "",
+        "label": "Full Set",
+        "official": true
+      }
+    ]
+  },
+  "tour": {
+    "id": "",
+    "title": "",
+    "series": "tour",
+    "venue": "",
+    "date": "",
+    "note": "",
+    "videos": []
+  },
+  "solo-show": {
+    "id": "",
+    "title": "",
+    "series": "tour",
+    "artist": "Nayeon",
+    "venue": "",
+    "date": "",
+    "note": "",
+    "videos": []
+  },
+  "broadcast-with-free-mirror": {
+    "id": "",
+    "title": "",
+    "series": "special",
+    "venue": "",
+    "date": "",
+    "note": "",
+    "videos": [
+      {
+        "kind": "performance",
+        "url": "https://music.amazon.com/live/events/XXXX",
+        "label": "Full Show",
+        "official": true,
+        "alt": "<youtube id of the free mirror>"
+      }
+    ]
+  },
+  "sub-unit": {
+    "id": "",
+    "title": "",
+    "series": "fanmeeting",
+    "artist": "MISAMO",
+    "members": "Mina, Sana, Momo",
+    "venue": "",
+    "date": "",
+    "note": "",
+    "videos": []
+  }
+}

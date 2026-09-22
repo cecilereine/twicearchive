@@ -1,7 +1,7 @@
 {
   "section": "Melody Project & Cover Project",
   "note": "Members covering other artists' songs: the Melody Project videos on TWICE's channel, and every other cover. One entry per cover, with its videos (the cover itself, a behind-the-scenes, a live clip).",
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "memberColors": {
     "Nayeon": "#49c0ec",
     "Jeongyeon": "#a3cc54",
@@ -99,6 +99,25 @@
           "url": "K_wlWUtbyAY",
           "label": "Cover",
           "official": true
+        }
+      ]
+    },
+    {
+      "id": "jihyos-serenade-jihyo",
+      "song": "Jihyo's Serenade",
+      "songKo": "지효의 세레나데",
+      "originalArtist": "",
+      "members": "Jihyo",
+      "series": "melody-project",
+      "released": "2017-08-21",
+      "note": "Performed live with a band for about 100 people. Fan-filmed — not the full setlist.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "qxYiDfyeXdU",
+          "label": "Full Session (ENG SUB)",
+          "official": false,
+          "fancam": true
         }
       ]
     },

@@ -31,25 +31,27 @@ DATA = os.path.join(os.path.dirname(__file__), "..", "data", "discography.json")
 #     (incl. Cool FM), SBS, MBC (incl. MBC WORLD and it's Live), JTBC, tvN,
 #     KOCOWA (the three networks' streaming service), Genius (Open Mic),
 #     Billboard, MTV, The Tonight Show, Prime Video (Amazon Music Live), IU's
-#     own channel (IU's Palette), dingo japan (MOVE REC.), MUSIC AWARDS JAPAN
+#     own channel (IU's Palette), dingo japan (MOVE REC.) and dingo music
+#     (Korea, @DingoMusic — the Killing Voice studio sessions), MUSIC AWARDS JAPAN
 #     and Cinema Today (film studios' promos)
 #   - CJ ENM's STUDIO CHOOM and STONE MUSIC, YG PLUS's SEOUL MUSIC, KT's GENIE
 #     MUSIC, MOSTCONTENTS, VLENDING and YAMYAM Entertainment, which put out OSTs
 #   - Netflix and Sony Pictures Animation for KPop Demon Hunters
+#   - a member's own channel (Nayeon's IM NAYEON, @IM_NAYEON_0922)
 #   - the other artist's own channel on a collaboration (League of Legends for
 #     K/DA, Kobukuro, Coco & Clair Clair, Coldplay, Saweetie, Corbyn Besson, RedOne,
 #     FANDOM)
 #   - any VEVO channel: VEVO only hosts labels' own uploads (Disney's Beyond)
 # Everything else is treated as fan-made.
 OFFICIAL = re.compile(r"""^(
-    JYP\ Entertainment | TWICE | TWICE\ JAPAN\ OFFICIAL\ YouTube\ Channel |
+    JYP\ Entertainment | TWICE | TWICE\ JAPAN\ OFFICIAL\ YouTube\ Channel | IM\ NAYEON |
     .*\ -\ Topic | Mnet\ K-POP | KBS\ Kpop | KBS\ WORLD\ TV | KBS\ CoolFM | SBS\ KPOP |
-    SBSKPOP.* | SBS\ Entertainment | MBCentertainment |
+    SBSKPOP.* | SBS\ Entertainment | MBCentertainment | KBS\ StarTV.* |
     MBCkpop | MBC\ every1 | MBC\ WORLD | Mwave | M2 | 1theK.* | Netflix.* | Sony\ Pictures.* | 이지금.* |
     Still\ Watching\ Netflix | Arirang\ K-Pop | 東宝MOVIEチャンネル | TOHO.*|
     JTBC\ Entertainment | JTBC.* | tvN\ D.* | Golden\ Disc | MAMA\ AWARDS | Melon\ Music\ Awards | The\ Fact\ Music\ Awards |
     SBS\ Awards | KBS\ Song\ Festival | MBC\ Music\ Festival | STUDIO\ CHOOM.* |
-    it's\ Live | dingo\ japan | MUSIC\ AWARDS\ JAPAN.* |
+    it's\ Live | dingo\ japan | 딩고\ 뮤직\ /\ dingo\ music | MUSIC\ AWARDS\ JAPAN.* |
     League\ of\ Legends | コブクロ\ 公式チャンネル | Genius | STONE\ MUSIC |
     coco\ &\ clair\ clair | Coldplay | Official\ Saweetie | Corbyn\ Besson | RedOne | FANDOM | .*VEVO | 모스트콘텐츠.* | シネマトゥデイ | VLENDING.* |
     KOCOWA\ TV | SEOUL\ MUSIC.* | SBS\ Catch | MTV | GENIE\ MUSIC | .*YAMYAM\ ENTERTAINMENT |
@@ -58,6 +60,9 @@ OFFICIAL = re.compile(r"""^(
 
 RULES = [
     ("audio",       r"official audio"),
+    # Dingo's studio sessions — they really are singing, so these file as
+    # performances rather than the "special" bucket that holds making-ofs.
+    ("performance", r"killing ?voice|킬링\s*보이스"),
     ("mv",          r"\bM/V\b|Music Video|\bMV\b"),
     # a live performance at an anniversary event is still a live performance
     ("live",        r"special live"),
@@ -140,7 +145,8 @@ def handle(url):
 
 # A fan channel can give itself one of these names too (@twice2379 calls itself
 # "TWICE"), so for them the handle decides rather than the name.
-OFFICIAL_HANDLE = {"twice": "@twice"}
+OFFICIAL_HANDLE = {"twice": "@twice", "im nayeon": "@im_nayeon_0922",
+                   "딩고 뮤직 / dingo music": "@dingomusic"}
 
 
 def is_official(channel, handle):

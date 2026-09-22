@@ -475,6 +475,24 @@ a { color: inherit; }
   font-size: 10.5px; font-weight: 600; color: #fff;
   background: rgba(0,0,0,.75); padding: 1px 5px; border-radius: 3px;
 }
+/* A hand-picked highlight, stuck on the thumbnail itself rather than filed in
+   the tag row, so it carries at a glance down a long grid. Top-left is the
+   free corner: the play button owns the centre and .dur the bottom-right. The
+   white rim and the drop shadow are what make it read as a sticker, and it
+   keeps the site's own pink rather than the per-section accent so it looks the
+   same on every page. */
+.vthumb .must {
+  position: absolute; z-index: 2; top: 7px; left: 7px;
+  font-size: 9.5px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase;
+  padding: 3px 8px; border-radius: 999px; white-space: nowrap;
+  background: linear-gradient(100deg, #ffc224, #f0980d);
+  color: #fff;
+  /* White on yellow is thin at this size, so the fill runs to the deep end of
+     yellow and the text carries a shadow — the same trick .fallback uses. */
+  text-shadow: 0 1px 2px rgba(120,70,0,.55);
+  border: 1.5px solid #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,.4);
+}
 
 .vmeta { padding: 8px 10px 9px; display: flex; flex-direction: column; gap: 6px; }
 .vlabel { font-size: 12.5px; font-weight: 600; line-height: 1.35; }
@@ -521,6 +539,16 @@ a { color: inherit; }
   margin-left: auto;
 }
 .ext:hover { color: var(--accent); }
+/* When a video has a freely watchable copy, the card opens that and the
+   official release moves to this button — still one click away, just no longer
+   the thing you land on. A pill rather than a bare ↗ so it reads as a choice. */
+.ext.orig {
+  font-size: 10.5px; font-weight: 600; letter-spacing: .01em;
+  color: var(--text-soft); background: var(--surface-2);
+  border: 1px solid var(--line); border-radius: 999px;
+  padding: 2.5px 8px; white-space: nowrap;
+}
+.ext.orig:hover { color: var(--accent); border-color: var(--accent); }
 
 /* ---------- misc ---------- */
 
@@ -528,24 +556,35 @@ a { color: inherit; }
   text-align: center; padding: 60px 20px; color: var(--text-faint); font-size: 14px;
 }
 
-/* ---------- covers page ---------- */
+/* ---------- covers and live pages ---------- */
 
-/* Every video is a card, laid out like the album grid; the song, original
-   artist, members and series sit on the card above the usual video tags. */
-.cover-grid {
+/* Both sections lay their videos out as one card grid, with the entry's own
+   details above the usual video tags — the song, original artist and members
+   on a cover, the show, venue and date on a concert. Same rules, two names. */
+.cover-grid,
+.live-grid {
   display: grid; gap: 14px;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
 }
-.cover-card .vmeta { gap: 5px; padding-bottom: 11px; }
-.cover-card .song { margin: 0; font-size: 14.5px; line-height: 1.3; }
+.cover-card .vmeta,
+.live-card .vmeta { gap: 5px; padding-bottom: 11px; }
+.cover-card .song,
+.live-card .song { margin: 0; font-size: 14.5px; line-height: 1.3; }
 .cover-card .song .track-ko { font-weight: 500; }
-.cover-card .orig { font-size: 12px; color: var(--text-soft); }
-.cover-card .vlabel { font-size: 12px; color: var(--text-soft); }
-.cover-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; margin: 2px 0; }
-.cover-meta .date { font-size: 11.5px; color: var(--text-faint); }
-.cover-card .member { font-size: 10.5px; padding: 2px 8px; }
-.cover-note { margin: 0; font-size: 12px; color: var(--text-soft); line-height: 1.4; }
-.cover-card .no-video { margin-top: 4px; }
+.cover-card .orig,
+.live-card .orig { font-size: 12px; color: var(--text-soft); }
+.cover-card .vlabel,
+.live-card .vlabel { font-size: 12px; color: var(--text-soft); }
+.cover-meta,
+.live-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; margin: 2px 0; }
+.cover-meta .date,
+.live-meta .date { font-size: 11.5px; color: var(--text-faint); }
+.cover-card .member,
+.live-card .member { font-size: 10.5px; padding: 2px 8px; }
+.cover-note,
+.live-note { margin: 0; font-size: 12px; color: var(--text-soft); line-height: 1.4; }
+.cover-card .no-video,
+.live-card .no-video { margin-top: 4px; }
 .series-badge {
   font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em;
   padding: 2.5px 7px; border-radius: 999px;
@@ -553,16 +592,23 @@ a { color: inherit; }
 }
 .series-badge[data-series="melody-project"] { color: #fff; background: var(--accent); border-color: transparent; }
 .series-badge[data-series="performance-project"] { color: #123; background: var(--accent-2); border-color: transparent; }
+/* The live page's five buckets, scoped so they can't collide with a covers
+   series of the same name. Four brand colours for five buckets, so award shows
+   keep the neutral chip — they're the odd one out anyway. */
+:root[data-accent="live"] .series-badge[data-series="tour"]       { color: #123; background: var(--mint);  border-color: transparent; }
+:root[data-accent="live"] .series-badge[data-series="festival"]   { color: #fff; background: var(--grape); border-color: transparent; }
+:root[data-accent="live"] .series-badge[data-series="special"]    { color: #fff; background: var(--candy); border-color: transparent; }
+:root[data-accent="live"] .series-badge[data-series="fanmeeting"] { color: #123; background: var(--peach); border-color: transparent; }
 /* A member chip in the filter row carries a dot in that member's colour. */
 .chip .dot {
   display: inline-block; width: 8px; height: 8px; border-radius: 999px;
   margin-right: 6px; border: 1px solid rgba(0,0,0,.14);
 }
 @media (max-width: 560px) {
-  .cover-grid { grid-template-columns: 1fr 1fr; }
+  .cover-grid, .live-grid { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 400px) {
-  .cover-grid { grid-template-columns: 1fr; }
+  .cover-grid, .live-grid { grid-template-columns: 1fr; }
 }
 
 /* ---------- donate page ---------- */

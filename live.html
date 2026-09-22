@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" data-accent="covers">
+<html lang="en" data-accent="live">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Melody Project &amp; Cover Project · TWICE Content Archive</title>
-<meta name="description" content="TWICE members' Melody Project videos and every other cover, filed by year.">
+<title>Concerts &amp; Live · TWICE Content Archive</title>
+<meta name="description" content="Full TWICE shows — concerts, festival sets, broadcast specials, fanmeetings and award shows, each in one video.">
 <link rel="icon" href="assets/img/favicon.svg?v=81">
 <link rel="stylesheet" href="assets/css/style.css?v=81">
 <script>try{var t=localStorage.getItem('twice-archive:theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
@@ -16,24 +16,24 @@
     <nav class="site-nav">
       <a href="index.html">Home</a>
       <a href="discography.html">Discography</a>
-      <a href="covers.html" class="on">Melody Project</a>
-      <a href="live.html">Concerts &amp; Live</a>
+      <a href="covers.html">Melody Project</a>
+      <a href="live.html" class="on">Concerts &amp; Live</a>
       <a href="donate.html">Donate</a>
       <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch theme">🌙</button>
     </nav>
-    <h1>Melody Project &amp; Cover Project</h1>
-    <p>Members covering other artists' songs — the Melody Project videos, and every other cover, by year.</p>
+    <h1>Concerts &amp; Live</h1>
+    <p>Full shows — a whole concert, festival set, broadcast special, fanmeeting or award show in one video. Per-song cuts stay filed under their track in the Discography.</p>
   </header>
 
   <div class="toolbar">
     <div class="row">
       <input type="text" class="search" id="search"
-             placeholder="🔍  Search a song, an artist or a member — “Snowman”, “Sia”, “Mina”…">
+             placeholder="🔍  Search a show, a venue or a year — “Lollapalooza”, “Tokyo Dome”, “Amazon”…">
       <span class="progress-pill" id="progress"></span>
     </div>
-    <div class="row" id="series"><!-- Melody Project / Performance Project / Cover Project chips, built by covers.js --></div>
-    <div class="row" id="members"><!-- member chips, built by covers.js --></div>
-    <div class="row" id="years"><!-- year chips, built by covers.js --></div>
+    <div class="row" id="series"><!-- Tours / Festivals / Broadcast / Fanmeetings / Awards chips, built by live.js --></div>
+    <div class="row" id="members" hidden><!-- member chips, built by live.js — hidden until a solo show exists --></div>
+    <div class="row" id="years"><!-- year chips, built by live.js --></div>
   </div>
 
   <div id="list"></div>
@@ -50,7 +50,7 @@
 </div>
 
 <script src="assets/js/core.js?v=81"></script>
-<script src="assets/js/covers.js?v=81"></script>
+<script src="assets/js/live.js?v=81"></script>
 <script src="assets/js/theme.js?v=81"></script>
 </body>
 </html>

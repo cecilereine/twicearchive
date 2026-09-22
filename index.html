@@ -9,8 +9,8 @@
      data/ changes, so a browser can't pair new HTML with a stale script or stale
      data the way GitHub Pages' ten minute cache otherwise allows. The scripts
      pass their own ?v= through to the data file they fetch. -->
-<link rel="icon" href="assets/img/favicon.svg?v=67">
-<link rel="stylesheet" href="assets/css/style.css?v=67">
+<link rel="icon" href="assets/img/favicon.svg?v=81">
+<link rel="stylesheet" href="assets/css/style.css?v=81">
 <script>try{var t=localStorage.getItem('twice-archive:theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 </head>
 <body>
@@ -21,6 +21,7 @@
       <a href="index.html" class="on">Home</a>
       <a href="discography.html">Discography</a>
       <a href="covers.html">Melody Project</a>
+      <a href="live.html">Concerts &amp; Live</a>
       <a href="donate.html">Donate</a>
       <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch theme">🌙</button>
     </nav>
@@ -45,18 +46,19 @@
       <span class="hub-progress" data-key="twice-archive:covers-progress" data-noun="covers" hidden></span>
     </a>
 
+    <a class="hub-card" href="live.html">
+      <span class="emoji">🎤</span>
+      <h2>Concerts &amp; Live</h2>
+      <p>Full shows — concerts, festival sets, broadcast specials, fanmeetings and award shows, each in one video.</p>
+      <span class="tag">Tours · Festivals · Broadcast · Fanmeetings · Awards</span>
+      <span class="hub-progress" data-key="twice-archive:live-progress" data-noun="shows" hidden></span>
+    </a>
+
     <!-- Copy discography.html + its data file to add one of these. -->
     <div class="hub-card soon">
       <span class="emoji">📺</span>
       <h2>Time to Twice</h2>
       <p>TDOONG, Healing Camp, Yes or No and the rest of the series.</p>
-      <span class="tag">Coming soon</span>
-    </div>
-
-    <div class="hub-card soon">
-      <span class="emoji">🎤</span>
-      <h2>Concerts &amp; Tours</h2>
-      <p>Tour VODs, encore stages and fancams.</p>
       <span class="tag">Coming soon</span>
     </div>
 
@@ -74,7 +76,7 @@
   </footer>
 
 </div>
-<script src="assets/js/theme.js?v=67"></script>
+<script src="assets/js/theme.js?v=81"></script>
 <script>
 /* Watched progress on the Discography card. The discography page leaves its
    totals in localStorage each time it counts them, so the hub can show them

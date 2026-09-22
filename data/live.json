@@ -1,0 +1,708 @@
+{
+  "section": "Concerts & Live",
+  "note": "Full shows — a whole concert, festival set, broadcast special, fanmeeting or award show, in one video. Per-song cuts from these shows stay filed under their track in discography.json; this file is for the video you'd watch end to end.",
+  "updated": "2026-09-23",
+  "memberColors": {
+    "Nayeon": "#49c0ec",
+    "Jeongyeon": "#a3cc54",
+    "Momo": "#e67ea3",
+    "Sana": "#8c79b4",
+    "Jihyo": "#f9cc85",
+    "Mina": "#71c7d4",
+    "Dahyun": "#fefefe",
+    "Chaeyoung": "#e62722",
+    "Tzuyu": "#2253a3"
+  },
+  "groupColors": [
+    "#f9c596",
+    "#fc5d9d"
+  ],
+  "series": [
+    {
+      "key": "tour",
+      "label": "Tours & Concerts"
+    },
+    {
+      "key": "festival",
+      "label": "Festivals"
+    },
+    {
+      "key": "special",
+      "label": "Broadcast & Streaming"
+    },
+    {
+      "key": "fanmeeting",
+      "label": "Fanmeetings & Showcases"
+    },
+    {
+      "key": "awards",
+      "label": "Award Shows"
+    }
+  ],
+  "events": [
+    {
+      "id": "lollapalooza-chicago-2025",
+      "title": "Lollapalooza Chicago 2025",
+      "series": "festival",
+      "venue": "Grant Park, Chicago",
+      "date": "2025-08-02",
+      "note": "Headlined day 3.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "ay1wB-2npMQ",
+          "label": "Full Performance",
+          "official": true,
+          "mustWatch": true
+        }
+      ]
+    },
+    {
+      "id": "tima-2025",
+      "title": "2025 TMElive International Music Awards",
+      "series": "awards",
+      "venue": "",
+      "date": "2025-08-22",
+      "note": "Day 1. Broadcast on Beyond LIVE, Weverse and YouTube.",
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "lXJVfqcKpdA",
+          "label": "Full Performance",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "twicelights-in-seoul",
+      "title": "TWICELIGHTS in Seoul",
+      "series": "tour",
+      "venue": "Jamsil Arena, Seoul",
+      "date": "2019-05-18",
+      "note": "Opening run of the TWICELIGHTS world tour, May 18–19 2019.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "FgjqpUMzufM",
+          "label": "Full Concert (ENG SUB)",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "amazon-music-live-2024",
+      "title": "Amazon Music Live",
+      "series": "special",
+      "venue": "",
+      "date": "2024-11-21",
+      "note": "First K-pop act to headline the series.",
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "https://music.amazon.com/live/events/L04XER9VUL",
+          "label": "Full Show",
+          "official": true,
+          "alt": "es-w2ViUcAA"
+        }
+      ]
+    },
+    {
+      "id": "victorias-secret-2025",
+      "title": "Victoria's Secret Fashion Show 2025",
+      "series": "special",
+      "members": "Nayeon, Momo, Jihyo, Tzuyu",
+      "venue": "Steiner Studios, New York City",
+      "date": "2025-10-15",
+      "note": "Nayeon, Momo, Jihyo and Tzuyu performed; not the full group.",
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "xMJ45IzhSzg",
+          "label": "Full Performance",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "killing-voice",
+      "title": "Killing Voice",
+      "series": "special",
+      "venue": "",
+      "date": "2024-03-12",
+      "note": "Dingo Music studio session — 19 songs sung live, back to back.",
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "q9J0Ieu1xU8",
+          "label": "Full Session",
+          "official": true,
+          "duration": "31:33",
+          "mustWatch": true
+        }
+      ]
+    },
+    {
+      "id": "world-in-a-day",
+      "title": "Beyond LIVE — TWICE: World in a Day",
+      "series": "special",
+      "venue": "",
+      "date": "2020-08-09",
+      "note": "Online-only concert, streamed on Beyond LIVE.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/2041404551",
+          "label": "Full Concert (ENG SUB)",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/3b8c7b2a75c09551ecaff8075be38d11.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "ready-to-be-fukuoka",
+      "title": "READY TO BE in Fukuoka",
+      "series": "tour",
+      "venue": "Fukuoka PayPay Dome",
+      "date": "2023-12-28",
+      "note": "Night 2 of the Fukuoka run, Dec 27–28 2023.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/4789709493240320",
+          "label": "Full Concert",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/239fe9f63b46e5dfdfac1cb31d0a4c6b.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "nhk-venue101-2022",
+      "title": "NHK Venue101 — Japan Debut 5th Anniversary Special",
+      "series": "special",
+      "venue": "",
+      "date": "2022-07-23",
+      "note": "Japanese debut 5th anniversary special.",
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "https://drive.google.com/file/d/1iwuAVmyPWMt6vEXMUdJoiCWLd-_bYqDY/view",
+          "label": "Full Appearance",
+          "official": false,
+          "thumb": "https://drive.google.com/thumbnail?id=1iwuAVmyPWMt6vEXMUdJoiCWLd-_bYqDY&sz=w640"
+        }
+      ]
+    },
+    {
+      "id": "twiceland-fantasy-park",
+      "title": "TWICELAND ZONE 2: Fantasy Park",
+      "series": "tour",
+      "venue": "Seoul",
+      "date": "2018-05-18",
+      "note": "Opening night of the Seoul run.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/2041107517",
+          "label": "Full Concert",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/63608200174db32aa720a4bde824173f.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "dreamday-tokyo",
+      "title": "DOME TOUR 2019 #Dreamday",
+      "series": "tour",
+      "venue": "Tokyo Dome",
+      "date": "2019-03-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/2041471630",
+          "label": "Full Concert",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/04ea7775c5e2e76beac4faab871ba57b.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "world-tour-iii-tokyo",
+      "title": "WORLD TOUR III in Japan",
+      "series": "tour",
+      "venue": "Tokyo Dome",
+      "date": "2022-04-23",
+      "note": "Night 1 of the Tokyo run, Apr 23–25 2022.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/2043748658",
+          "label": "Full Concert",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/0b5ccf777bbd6a9296a4b3d560bd51ad.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "twiceland-the-opening",
+      "title": "TWICELAND: The Opening",
+      "series": "tour",
+      "venue": "Seoul",
+      "date": "2017-02-17",
+      "note": "Their first tour.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/2049977506",
+          "label": "Full Concert",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/d7a7a73e5531f760de41f323d4b5d00d.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "twiceland-the-opening-encore",
+      "title": "TWICELAND: The Opening Encore",
+      "series": "tour",
+      "venue": "Seoul",
+      "date": "2017-06-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/2048821460",
+          "label": "Full Concert",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/7427cd86d3e8d0ae2e2f549aa2dc2b7e.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "this-is-for-japan-mufg",
+      "title": "THIS IS FOR in Japan",
+      "series": "tour",
+      "venue": "MUFG Stadium",
+      "date": "2026-04-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/4799381213027328",
+          "label": "Full Concert",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/0b27bd0e2a31509b371e22701c611127.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "mama-2018",
+      "title": "2018 MAMA",
+      "series": "awards",
+      "venue": "",
+      "date": "2018-12",
+      "note": "Mnet compilation of their 2018 MAMA stages. The awards ran as three shows; TWICE performed at the Japan (Dec 12) and Hong Kong (Dec 14) legs.",
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "U75dV7Gn438",
+          "label": "Full Performance",
+          "official": true,
+          "duration": "10:26"
+        }
+      ]
+    },
+    {
+      "id": "kbs-jyp-30th-2024",
+      "title": "KBS 딴따라 JYP — JYP 30th Anniversary Special",
+      "series": "special",
+      "venue": "",
+      "date": "2024-09-17",
+      "note": "TWICE's full segment: Feel Special, a talk, and What Is Love?",
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "AmlzCa2kA9s",
+          "label": "Full Segment",
+          "official": true,
+          "duration": "11:15"
+        }
+      ]
+    },
+    {
+      "id": "bdz-arena-tour-tokyo",
+      "title": "1st ARENA TOUR 2018 BDZ",
+      "series": "tour",
+      "venue": "Musashino Forest Sport Plaza, Tokyo",
+      "date": "2018-10-16",
+      "note": "Night 1 of the Tokyo run, Oct 16–17 2018 — the tour's final two shows.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/2043582209",
+          "label": "Full Concert",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/c87ab1189fbcb75a58d8d846684a2e21.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "twice-in-wonderland",
+      "title": "TWICE IN WONDERLAND",
+      "series": "special",
+      "venue": "",
+      "date": "2021-03-06",
+      "note": "Online-only concert.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/2044528900",
+          "label": "Full Concert",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/21d9ff5bfb12fb4bdadb652bde58751b.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "ready-to-be-tokyo",
+      "title": "READY TO BE in Tokyo",
+      "series": "tour",
+      "venue": "Ajinomoto Stadium, Tokyo",
+      "date": "2023-05-21",
+      "note": "Night 2 of the Tokyo run, May 20–21 2023.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/4787210595867136",
+          "label": "Full Concert",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/d036628578696e9ea2468470c8b07485.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "misamo-japan-showcase",
+      "title": "MISAMO Japan Showcase",
+      "series": "fanmeeting",
+      "artist": "MISAMO",
+      "members": "Mina, Sana, Momo",
+      "venue": "",
+      "date": "2023-07-27",
+      "note": "Showcase for Masterpiece, released 2023-07-26.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/4787975419467264",
+          "label": "Full Showcase",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/bbe6661c7fabe338a8dca4642e48f9bf.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "this-is-for-finale-seoul",
+      "title": "THIS IS FOR Finale in Seoul",
+      "series": "tour",
+      "venue": "Seoul",
+      "date": "2026-07-12",
+      "note": "Tour finale.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/4800343941061120",
+          "label": "Full Concert",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/1cf154808a8fa426fa2dd75dd1a0f844.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "misamo-haute-couture-osaka",
+      "title": "Haute Couture in Osaka",
+      "series": "tour",
+      "artist": "MISAMO",
+      "members": "Mina, Sana, Momo",
+      "venue": "Kyocera Dome Osaka",
+      "date": "2024-11-17",
+      "note": "Night 2 of the Osaka run, Nov 16–17 2024.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/4793449402208769",
+          "label": "Full Concert",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/b689e5ec19dd57aa0d4dc1988edb5def.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "misamo-haute-couture-dome",
+      "title": "Haute Couture in Tokyo",
+      "series": "tour",
+      "artist": "MISAMO",
+      "members": "Mina, Sana, Momo",
+      "venue": "Tokyo Dome",
+      "date": "2025-01-16",
+      "note": "Tokyo Dome, Jan 15–16 2025 — the tour finale. It opened at Belluna Dome Nov 2–3 and played Kyocera Dome Osaka Nov 16–17 2024. Concert plus the tour documentary.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/4794091112894464",
+          "label": "Full Concert — Night 2",
+          "official": false,
+          "pin": true,
+          "thumb": "https://p.bstarstatic.com/ugc/09b40e19a1199a449228638c8cce6b28.jpg@640w_360h.webp"
+        },
+        {
+          "kind": "special",
+          "url": "https://www.bilibili.tv/en/video/4796495977781248",
+          "label": "Tour Documentary",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/9d2b950dfd57d497688cffbbd9b211c9.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "this-is-for-incheon",
+      "title": "THIS IS FOR in Incheon",
+      "series": "tour",
+      "venue": "Incheon",
+      "date": "2025-07-20",
+      "note": "Night 2 of the Incheon run, Jul 19–20 2025 — the tour opener.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/4796169150273024",
+          "label": "Full Concert",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/f3dd648916f505b3cd6c5c69d23911bd.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "touchdown-in-japan",
+      "title": "Debut Showcase “Touchdown in Japan”",
+      "series": "fanmeeting",
+      "venue": "",
+      "date": "2017-07-02",
+      "note": "Their Japanese debut showcase.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/2049294709",
+          "label": "Full Showcase",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/6fe7f0f5b2886bf7547d43a704e0221a.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "once-begins",
+      "title": "Fanmeeting “ONCE BEGINS”",
+      "series": "fanmeeting",
+      "venue": "",
+      "date": "2017-10-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/2046959197",
+          "label": "Full Fanmeeting",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/0722daf1578c3020f8180b416ce876c9.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "once-day-2022",
+      "title": "Japan Fan Meeting “ONCE DAY”",
+      "series": "fanmeeting",
+      "venue": "",
+      "date": "2022-10-01",
+      "note": "",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/2047313196",
+          "label": "Full Fanmeeting",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/898a10b59c682c71e8c6e5f4c5fee70c.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "home-ground-2024",
+      "title": "2024 Fanmeeting “Home 9round”",
+      "series": "fanmeeting",
+      "venue": "",
+      "date": "2024-10-20",
+      "note": "Home Ground, styled “Home 9round” for the nine members.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/4793098700328960",
+          "label": "Full Fanmeeting",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/4e0e40743d2847e920563ae3591c9c63.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "beat-ax-vol5",
+      "title": "BEAT AX Vol.5",
+      "series": "festival",
+      "artist": "Nayeon × NEXZ",
+      "members": "Nayeon",
+      "venue": "",
+      "date": "2025-02-02",
+      "note": "Joint stage with NEXZ at the Japanese live event.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/4797278763882496",
+          "label": "Full Performance",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/5700781eba59f903288cd0fc0288d777.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "ready-to-be-seoul-part-1",
+      "title": "READY TO BE in Seoul Part 1",
+      "series": "tour",
+      "venue": "Olympic Gymnastics Arena, Seoul",
+      "date": "2023-04-16",
+      "note": "Day 2 of the Seoul run, Apr 15–16 2023 — the tour opener.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/2046605289",
+          "label": "Day 2",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/c33ed2cb2dd8a26a62625fa2e4468b94.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "ready-to-be-seoul-part-2",
+      "title": "READY TO BE in Seoul Part 2",
+      "series": "tour",
+      "venue": "Olympic Gymnastics Arena, Seoul",
+      "date": "2023-04-16",
+      "note": "Day 2 of the Seoul run, Apr 15–16 2023 — the tour opener.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://www.bilibili.tv/en/video/4786827388392448",
+          "label": "Day 2",
+          "official": false,
+          "thumb": "https://p.bstarstatic.com/ugc/c33ed2cb2dd8a26a62625fa2e4468b94.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "kaohsiung-beer-rock-2026",
+      "title": "7-Eleven Kaohsiung Beer Rock Festival 2026",
+      "series": "festival",
+      "artist": "Tzuyu",
+      "members": "Tzuyu",
+      "venue": "Kaohsiung, Taiwan",
+      "date": "2026-07-03",
+      "note": "Tzuyu's solo stage, announced May 5 2026. Fan-filmed in 4K, the full set end to end.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "m9D6B8NV40U",
+          "label": "Full Performance (4K)",
+          "official": false,
+          "fancam": true
+        }
+      ]
+    },
+    {
+      "id": "waterbomb-seoul-2024",
+      "title": "WATERBOMB Seoul 2024",
+      "series": "festival",
+      "artist": "Nayeon",
+      "members": "Nayeon",
+      "venue": "Seoul",
+      "date": "2024-07-07",
+      "note": "Nayeon's solo stage at the Seoul edition of the water festival.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "M2mzoDjMAlc",
+          "label": "Full Performance",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "debut-showcase-2015",
+      "title": "Debut Showcase — THE STORY BEGINS",
+      "series": "fanmeeting",
+      "venue": "Seoul",
+      "date": "2015-10-20",
+      "note": "Debut day. The mini album live, including the first ever “Like OOH-AHH”. Originally streamed on V LIVE.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "https://vlivearchive.com/post/0-18229248",
+          "label": "Full Showcase",
+          "official": false,
+          "thumb": "https://thumbs.vlivearchive.com/2415.jpg"
+        }
+      ]
+    },
+    {
+      "id": "mama-2019",
+      "title": "2019 MAMA",
+      "series": "awards",
+      "venue": "",
+      "date": "2019-12-04",
+      "note": "Mnet's “All Moments” cut — their stages, wins and reactions across the show.",
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "NgYoIBTyJxc",
+          "label": "Full Segment",
+          "official": true,
+          "duration": "15:42"
+        }
+      ]
+    },
+    {
+      "id": "golden-disc-2020",
+      "title": "2020 Golden Disc Awards",
+      "series": "awards",
+      "venue": "Gocheok Sky Dome, Seoul",
+      "date": "2020-01",
+      "note": "The 34th, a two-night run on Jan 4–5 2020. This cut spans both: Intro and “녹아요” plus Feel Special from night 2, YES or YES and FANCY from night 1.",
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "p0HIe55iMEs",
+          "label": "Full Performance",
+          "official": false,
+          "duration": "15:30"
+        }
+      ]
+    },
+    {
+      "id": "yu-huiyeol-sketchbook-2016",
+      "title": "Yu Huiyeol's Sketchbook",
+      "series": "special",
+      "venue": "",
+      "date": "2016-01-22",
+      "note": "KBS2. “Like OOH-AHH” plus two JYP labelmate covers — miss A's “Bad Girl Good Girl” and Wonder Girls' “So Hot”.",
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "ln-Eg35rVsw",
+          "label": "Full Segment",
+          "official": true,
+          "duration": "7:40"
+        }
+      ]
+    }
+  ]
+}
