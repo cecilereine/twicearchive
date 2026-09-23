@@ -55,3 +55,29 @@ if (siteNav) {
   const current = siteNav.querySelector('a.on');
   if (current && overflows()) current.scrollIntoView({ block: 'nearest', inline: 'center' });
 }
+
+/* ---------- filter toolbar on a phone ----------
+
+   The toolbar is sticky so the filters stay at hand, but on a phone it covers
+   a good part of the screen. Once it's stuck to the top, slide it away while
+   the list scrolls down and bring it back on any scroll up. Not while the
+   search box has focus, so it can't slide out from under the keyboard. */
+
+const toolbar = document.querySelector('.toolbar');
+if (toolbar) {
+  const narrow = window.matchMedia('(max-width: 640px)');
+  const above = toolbar.previousElementSibling;
+  let lastY = window.scrollY;
+
+  window.addEventListener('scroll', () => {
+    const y = window.scrollY;
+    const dy = y - lastY;
+    if (Math.abs(dy) < 6) return;           // ignore jitter
+    lastY = y;
+    const stuck = !above || above.getBoundingClientRect().bottom < 0;
+    const typing = toolbar.contains(document.activeElement) && document.activeElement.matches('input');
+    toolbar.classList.toggle('tucked', narrow.matches && stuck && dy > 0 && !typing);
+  }, { passive: true });
+
+  narrow.addEventListener('change', () => toolbar.classList.remove('tucked'));
+}

@@ -155,6 +155,39 @@ a { color: inherit; }
   -webkit-text-fill-color: transparent;
 }
 .site-head p { margin: 0; color: var(--text-soft); font-size: 15px; }
+/* ---------- Get to Know TWICE (home page) ---------- */
+
+/* A rule under the section sets it apart from the archive cards below. */
+.intro {
+  margin: 8px 0 30px; padding-bottom: 32px;
+  border-bottom: 1px solid var(--line);
+}
+.intro-title { margin: 0 0 4px; font-size: 20px; }
+.intro-lede { margin: 0 0 14px; font-size: 14px; color: var(--text-soft); }
+.intro-grid {
+  display: grid; gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+.intro-card {
+  display: flex; flex-direction: column; text-decoration: none;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: transform .15s ease, border-color .15s ease;
+}
+.intro-card:hover { transform: translateY(-3px); border-color: var(--accent); }
+.intro-card .thumb { position: relative; display: block; aspect-ratio: 16 / 9; background: var(--surface-2); }
+.intro-card .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.intro-card .thumb i {
+  position: absolute; right: 8px; bottom: 8px;
+  font-style: normal; font-size: 11.5px; font-weight: 700; color: #fff;
+  padding: 2px 6px; border-radius: 5px; background: rgba(0,0,0,.72);
+}
+.intro-card .body { display: block; padding: 12px 14px 14px; }
+.intro-card b { display: block; font-size: 15px; margin-bottom: 3px; }
+.intro-card small { display: block; font-size: 12.5px; color: var(--text-soft); }
 
 /* ---------- hub cards ---------- */
 
@@ -282,6 +315,23 @@ a { color: inherit; }
     box-shadow: 0 0 0 6px var(--bg), -26px 0 16px 2px var(--bg);
   }
   .toolbar .row.tabs { display: flex; flex-wrap: wrap; }
+  .toolbar .row:first-child { flex-wrap: nowrap; }   /* search and progress share one line */
+  .search { flex-basis: 0; }
+
+  /* Wrapped member and year chips stacked up to fill most of a phone screen,
+     and the toolbar is sticky, so they stayed there. Give each row one line
+     that swipes sideways and runs to the screen edges. */
+  .toolbar .row:not(.tabs):not(:first-child) {
+    flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none;
+    margin-inline: -16px; padding-inline: 16px;
+  }
+  .toolbar .row:not(.tabs):not(:first-child)::-webkit-scrollbar { display: none; }
+  .toolbar .row:not(.tabs):not(:first-child) > * { flex: none; white-space: nowrap; }
+
+  /* theme.js tucks the toolbar away while you scroll down the list and
+     brings it back as soon as you scroll up. */
+  .toolbar { transition: transform .25s ease; }
+  .toolbar.tucked { transform: translateY(calc(-100% - 1px)); }
 }
 
 /* Count beside a filter chip's label. */

@@ -1,7 +1,7 @@
 {
   "section": "Concerts & Live",
   "note": "Full shows — a whole concert, festival set, broadcast special, fanmeeting or award show, in one video. Per-song cuts from these shows stay filed under their track in discography.json; this file is for the video you'd watch end to end. The one exception is Stage Covers & Collabs: a one-off stage of a song that isn't TWICE's own — a cover, or a joint stage with other artists — which has no track to file under.",
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "memberColors": {
     "Nayeon": "#49c0ec",
     "Jeongyeon": "#a3cc54",
@@ -60,6 +60,24 @@
           "official": true,
           "mustWatch": true,
           "duration": "1:25"
+        }
+      ]
+    },
+    {
+      "id": "comet-kangnam-nayeon-jihyo",
+      "title": "Comet — with Kangnam",
+      "series": "stage",
+      "members": "Nayeon, Jihyo",
+      "venue": "Kangnam's YouTube channel",
+      "date": "2024-11-25",
+      "note": "Younha cover (혜성), sung with Kangnam.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "i-ww_fiL368",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "3:32"
         }
       ]
     },

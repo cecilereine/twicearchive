@@ -9,8 +9,8 @@
      data/ changes, so a browser can't pair new HTML with a stale script or stale
      data the way GitHub Pages' ten minute cache otherwise allows. The scripts
      pass their own ?v= through to the data file they fetch. -->
-<link rel="icon" href="assets/img/favicon.svg?v=158">
-<link rel="stylesheet" href="assets/css/style.css?v=158">
+<link rel="icon" href="assets/img/favicon.svg?v=163">
+<link rel="stylesheet" href="assets/css/style.css?v=163">
 <script>try{var t=localStorage.getItem('twice-archive:theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 </head>
 <body>
@@ -33,6 +33,29 @@
     <h1>TWICE Content Archive</h1>
     <p>Videos and audio, gathered by era and category. Fan-made — every link points to its original source.</p>
   </header>
+
+  <!-- Starting points for someone new to TWICE. Each card links straight to the
+       video; the thumbnail comes from YouTube. -->
+  <section class="intro">
+    <h2 class="intro-title">Get to Know TWICE</h2>
+    <p class="intro-lede">New here? Start with these two, then dive into the sections below.</p>
+    <div class="intro-grid">
+      <a class="intro-card" href="https://www.youtube.com/watch?v=TJn3g9sWeDY" target="_blank" rel="noopener">
+        <span class="thumb"><img src="https://i.ytimg.com/vi/TJn3g9sWeDY/hqdefault.jpg" alt="" loading="lazy"><i>1:19:05</i></span>
+        <span class="body">
+          <b>A Helpful &amp; Entertaining Guide to TWICE</b>
+          <small>Fan-made guide by buse · 2025 update · Unofficial</small>
+        </span>
+      </a>
+      <a class="intro-card" href="https://www.youtube.com/watch?v=YdeeXDO--cs" target="_blank" rel="noopener">
+        <span class="thumb"><img src="https://i.ytimg.com/vi/YdeeXDO--cs/hqdefault.jpg" alt="" loading="lazy"><i>2:05</i></span>
+        <span class="body">
+          <b>TWICE Song (트와이스송)</b>
+          <small>Oppa Thinking, MBC · 2017 · the song that runs through all nine names</small>
+        </span>
+      </a>
+    </div>
+  </section>
 
   <div class="hub-grid">
     <a class="hub-card" href="discography.html">
@@ -100,7 +123,7 @@
 
     <div class="hub-card soon">
       <span class="emoji">🍿</span>
-      <h2>Movies</h2>
+      <h2>Movies &amp; Documentaries</h2>
       <p>Members' films, TWICE's documentaries and concert movies.</p>
       <span class="tag">Coming soon</span>
     </div>
@@ -112,7 +135,7 @@
   </footer>
 
 </div>
-<script src="assets/js/theme.js?v=158"></script>
+<script src="assets/js/theme.js?v=163"></script>
 <script>
 /* Watched progress on the Discography card. The discography page leaves its
    totals in localStorage each time it counts them, so the hub can show them
