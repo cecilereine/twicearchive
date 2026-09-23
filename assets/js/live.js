@@ -155,7 +155,9 @@ function seriesSections(events) {
                     seriesOf(key)?.mustWatch)}
       ${seriesOf(key)?.summary ? `<p class="season-summary">${escapeHtml(seriesOf(key).summary)}</p>` : ''}
       ${parts.map(([season, list]) => {
-        const span = yearSpan(list);
+        /* A season can pin its "years" when a late upload (a Secret Cut clip
+           posted years on) would otherwise stretch the span. */
+        const span = season?.years || yearSpan(list);
         /* A season can be flagged as the one to start with, and say in a line
            what it's about, since the episode cards only name who it follows. */
         return `${season ? `

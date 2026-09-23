@@ -1,7 +1,7 @@
 {
   "section": "Vlogs",
-  "note": "TWICE's own vlogs and behind-the-scenes, from their official channels. One entry per episode. The page groups by series, not by year: a series is one tab and one section, and a series with \"seasons\" (TW-LOG) keeps every season inside that section, each under its own sub-heading, set on the entry by \"season\". A season can also carry a \"summary\" and \"mustWatch\", shown on its sub-heading. TIME TO TWICE and TWICE TV are separate sections, not here.",
-  "updated": "2026-09-23",
+  "note": "TWICE's own vlogs and behind-the-scenes, from their official channels. One entry per episode. The page groups by series, not by year: a series is one tab and one section, and a series with \"seasons\" (TW-LOG) keeps every season inside that section, each under its own sub-heading, set on the entry by \"season\". A season can also carry a \"summary\" and \"mustWatch\", shown on its sub-heading, and \"years\" to override the span its dates give (a late upload shouldn't stretch it). TIME TO TWICE and TWICE TV are separate sections, not here.",
+  "updated": "2026-09-24",
   "groupBy": "series",
   "memberColors": {
     "Nayeon": "#49c0ec",
@@ -26,8 +26,9 @@
         {
           "key": "secret-friend",
           "label": "Secret Friend",
+          "years": "2021",
           "mustWatch": true,
-          "summary": "Each member secretly prepares a gift for another member, one episode each, without the others finding out who has whom. The finale brings all nine together."
+          "summary": "Each member secretly prepares a gift for another member without the others finding out who has whom."
         },
         {
           "key": "4th-tour",
@@ -40,6 +41,29 @@
         {
           "key": "6th-tour",
           "label": "6th World Tour 'THIS IS FOR'"
+        }
+      ]
+    },
+    {
+      "key": "2wice-date",
+      "label": "2WICE's DATE",
+      "summary": "Watch the chemistry between two TWICE members as they spend a day out together.",
+      "seasons": [
+        {
+          "key": "2wice-date-s1",
+          "label": "Season 1"
+        },
+        {
+          "key": "2wice-date-s2",
+          "label": "Season 2"
+        },
+        {
+          "key": "2wice-date-s3",
+          "label": "Season 3"
+        },
+        {
+          "key": "2wice-date-s4",
+          "label": "Season 4"
         }
       ]
     },
@@ -253,6 +277,1142 @@
           "label": "Secret Cut",
           "official": true,
           "duration": "3:11"
+        }
+      ]
+    },
+    {
+      "id": "twlog-4th-tour-tzuyu",
+      "title": "Tzuyu's TW-LOG @ 4th World Tour 'Ⅲ'",
+      "series": "twlog",
+      "season": "4th-tour",
+      "members": "Tzuyu",
+      "venue": "Episode 1",
+      "date": "2022-03-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "XNqi7Q8AGqA",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "11:57"
+        }
+      ]
+    },
+    {
+      "id": "twlog-4th-tour-jeongyeon",
+      "title": "Jeongyeon's TW-LOG @ 4th World Tour 'Ⅲ'",
+      "series": "twlog",
+      "season": "4th-tour",
+      "members": "Jeongyeon",
+      "venue": "Episode 2",
+      "date": "2022-04-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "7BIuSRTMoHQ",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "23:23"
+        }
+      ]
+    },
+    {
+      "id": "twlog-4th-tour-nayeon",
+      "title": "Nayeon's TW-LOG @ 4th World Tour 'Ⅲ'",
+      "series": "twlog",
+      "season": "4th-tour",
+      "members": "Nayeon",
+      "venue": "Episode 3",
+      "date": "2022-04-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "S1IoKc_6zEU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:01"
+        }
+      ]
+    },
+    {
+      "id": "twlog-4th-tour-sana",
+      "title": "Sana's TW-LOG @ 4th World Tour 'Ⅲ'",
+      "series": "twlog",
+      "season": "4th-tour",
+      "members": "Sana",
+      "venue": "Episode 4",
+      "date": "2022-04-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "L40EFeYQmv8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:57"
+        }
+      ]
+    },
+    {
+      "id": "twlog-4th-tour-jihyo",
+      "title": "Jihyo's TW-LOG @ 4th World Tour 'Ⅲ'",
+      "series": "twlog",
+      "season": "4th-tour",
+      "members": "Jihyo",
+      "venue": "Episode 5",
+      "date": "2022-04-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "ueaGjpweu38",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "31:00"
+        }
+      ]
+    },
+    {
+      "id": "twlog-4th-tour-chaeyoung",
+      "title": "Chaeyoung's TW-LOG @ 4th World Tour 'Ⅲ'",
+      "series": "twlog",
+      "season": "4th-tour",
+      "members": "Chaeyoung",
+      "venue": "Episode 6",
+      "date": "2022-05-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "w97554m4S4A",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "24:32"
+        }
+      ]
+    },
+    {
+      "id": "twlog-4th-tour-momo",
+      "title": "Momo's TW-LOG @ 4th World Tour 'Ⅲ'",
+      "series": "twlog",
+      "season": "4th-tour",
+      "members": "Momo",
+      "venue": "Episode 7",
+      "date": "2022-05-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "8ugolDEswY8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "23:24"
+        }
+      ]
+    },
+    {
+      "id": "twlog-4th-tour-dahyun",
+      "title": "Dahyun's TW-LOG @ 4th World Tour 'Ⅲ'",
+      "series": "twlog",
+      "season": "4th-tour",
+      "members": "Dahyun",
+      "venue": "Episode 8",
+      "date": "2022-05-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "WehelEvPafk",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:55"
+        }
+      ]
+    },
+    {
+      "id": "twlog-4th-tour-mina",
+      "title": "Mina's TW-LOG @ 4th World Tour 'Ⅲ'",
+      "series": "twlog",
+      "season": "4th-tour",
+      "members": "Mina",
+      "venue": "Episode 9",
+      "date": "2022-05-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "l90o6m86-IQ",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "16:26"
+        }
+      ]
+    },
+    {
+      "id": "twlog-4th-tour-twice",
+      "title": "TW-LOG @ 4th World Tour 'Ⅲ'",
+      "series": "twlog",
+      "season": "4th-tour",
+      "venue": "Episode 10",
+      "date": "2022-05-31",
+      "note": "All nine together.",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "XXj8vGjpU3Q",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "27:31"
+        }
+      ]
+    },
+    {
+      "id": "twlog-5th-tour-nayeon",
+      "title": "Nayeon's TW-LOG @ 5th World Tour 'READY TO BE'",
+      "series": "twlog",
+      "season": "5th-tour",
+      "members": "Nayeon",
+      "venue": "Episode 1",
+      "date": "2023-10-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "v0YkOcnsCAA",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:07"
+        }
+      ]
+    },
+    {
+      "id": "twlog-5th-tour-momo",
+      "title": "Momo's TW-LOG @ 5th World Tour 'READY TO BE'",
+      "series": "twlog",
+      "season": "5th-tour",
+      "members": "Momo",
+      "venue": "Episode 2",
+      "date": "2023-10-31",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "nFogoqvSq3s",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:17"
+        }
+      ]
+    },
+    {
+      "id": "twlog-5th-tour-chaeyoung",
+      "title": "Chaeyoung's TW-LOG @ 5th World Tour 'READY TO BE'",
+      "series": "twlog",
+      "season": "5th-tour",
+      "members": "Chaeyoung",
+      "venue": "Episode 3",
+      "date": "2023-11-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "HSDJFrAxDng",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "16:41"
+        }
+      ]
+    },
+    {
+      "id": "twlog-5th-tour-sana",
+      "title": "Sana's TW-LOG @ 5th World Tour 'READY TO BE'",
+      "series": "twlog",
+      "season": "5th-tour",
+      "members": "Sana",
+      "venue": "Episode 4",
+      "date": "2023-11-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "o38Lckz2Duo",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:39"
+        }
+      ]
+    },
+    {
+      "id": "twlog-5th-tour-dahyun",
+      "title": "Dahyun's TW-LOG @ 5th World Tour 'READY TO BE'",
+      "series": "twlog",
+      "season": "5th-tour",
+      "members": "Dahyun",
+      "venue": "Episode 5",
+      "date": "2023-11-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "1ku8Gh4ZaN0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:17"
+        }
+      ]
+    },
+    {
+      "id": "twlog-5th-tour-jeongyeon",
+      "title": "Jeongyeon's TW-LOG @ 5th World Tour 'READY TO BE'",
+      "series": "twlog",
+      "season": "5th-tour",
+      "members": "Jeongyeon",
+      "venue": "Episode 6",
+      "date": "2023-11-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "9deDUNwhEy4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:31"
+        }
+      ]
+    },
+    {
+      "id": "twlog-5th-tour-mina",
+      "title": "Mina's TW-LOG @ 5th World Tour 'READY TO BE'",
+      "series": "twlog",
+      "season": "5th-tour",
+      "members": "Mina",
+      "venue": "Episode 7",
+      "date": "2023-12-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "wMG653VH8NM",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:58"
+        }
+      ]
+    },
+    {
+      "id": "twlog-5th-tour-jihyo",
+      "title": "Jihyo's TW-LOG @ 5th World Tour 'READY TO BE'",
+      "series": "twlog",
+      "season": "5th-tour",
+      "members": "Jihyo",
+      "venue": "Episode 8",
+      "date": "2023-12-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "Hc6pRQPVFKY",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "16:31"
+        }
+      ]
+    },
+    {
+      "id": "twlog-5th-tour-tzuyu",
+      "title": "Tzuyu's TW-LOG @ 5th World Tour 'READY TO BE'",
+      "series": "twlog",
+      "season": "5th-tour",
+      "members": "Tzuyu",
+      "venue": "Episode 9",
+      "date": "2023-12-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "0bPO8HKI_3I",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "10:07"
+        }
+      ]
+    },
+    {
+      "id": "twlog-5th-tour-wrap-up-mission-reveal",
+      "title": "TW-LOG @ 5th World Tour 'READY TO BE' — Wrap Up & Mission Reveal",
+      "series": "twlog",
+      "season": "5th-tour",
+      "venue": "Episode 10",
+      "date": "2023-12-26",
+      "note": "All nine together.",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "7BFhKTftsoY",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "30:09"
+        }
+      ]
+    },
+    {
+      "id": "twlog-5th-tour-tour-finale",
+      "title": "TW-LOG @ 5th World Tour 'READY TO BE' — Tour Finale",
+      "series": "twlog",
+      "season": "5th-tour",
+      "venue": "Episode 11",
+      "date": "2024-04-16",
+      "note": "All nine together.",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "__dU6L3z6vo",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:31"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-mina",
+      "title": "Mina's TW-LOG @ 6th World Tour 'THIS IS FOR'",
+      "series": "twlog",
+      "season": "6th-tour",
+      "members": "Mina",
+      "venue": "Episode 1",
+      "date": "2026-03-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "KX3p0qpU-VA",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "24:01"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-dahyun",
+      "title": "Dahyun's TW-LOG @ 6th World Tour 'THIS IS FOR'",
+      "series": "twlog",
+      "season": "6th-tour",
+      "members": "Dahyun",
+      "venue": "Episode 2",
+      "date": "2026-03-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "3Eq1Z18VJCw",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "16:47"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-momo",
+      "title": "Momo's TW-LOG @ 6th World Tour 'THIS IS FOR'",
+      "series": "twlog",
+      "season": "6th-tour",
+      "members": "Momo",
+      "venue": "Episode 3",
+      "date": "2026-03-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "0mtBljcJny4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "30:18"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-jeongyeon",
+      "title": "Jeongyeon's TW-LOG @ 6th World Tour 'THIS IS FOR'",
+      "series": "twlog",
+      "season": "6th-tour",
+      "members": "Jeongyeon",
+      "venue": "Episode 4",
+      "date": "2026-04-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "nV3_iD7_zS8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "40:45"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-tzuyu",
+      "title": "Tzuyu's TW-LOG @ 6th World Tour 'THIS IS FOR'",
+      "series": "twlog",
+      "season": "6th-tour",
+      "members": "Tzuyu",
+      "venue": "Episode 5",
+      "date": "2026-04-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "gD-tB-y_7Ns",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "13:27"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-sana",
+      "title": "Sana's TW-LOG @ 6th World Tour 'THIS IS FOR'",
+      "series": "twlog",
+      "season": "6th-tour",
+      "members": "Sana",
+      "venue": "Episode 6",
+      "date": "2026-04-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "8hbTzQa98fI",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:16"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-nayeon",
+      "title": "Nayeon's TW-LOG @ 6th World Tour 'THIS IS FOR'",
+      "series": "twlog",
+      "season": "6th-tour",
+      "members": "Nayeon",
+      "venue": "Episode 7",
+      "date": "2026-04-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "xey8a5T5grY",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "30:16"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-chaeyoung",
+      "title": "Chaeyoung's TW-LOG @ 6th World Tour 'THIS IS FOR'",
+      "series": "twlog",
+      "season": "6th-tour",
+      "members": "Chaeyoung",
+      "venue": "Episode 8",
+      "date": "2026-04-30",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "b07IWU1zjog",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "29:29"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-jihyo",
+      "title": "Jihyo's TW-LOG @ 6th World Tour 'THIS IS FOR'",
+      "series": "twlog",
+      "season": "6th-tour",
+      "members": "Jihyo",
+      "venue": "Episode 9",
+      "date": "2026-05-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "W6-ZNCRuBuA",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "52:14"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-momo-part-2",
+      "title": "Momo's TW-LOG @ 6th World Tour 'THIS IS FOR' — Part 2",
+      "series": "twlog",
+      "season": "6th-tour",
+      "members": "Momo",
+      "venue": "Episode 10",
+      "date": "2026-06-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "pWdxKjfM97Q",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:51"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-tzuyu-part-2",
+      "title": "Tzuyu's TW-LOG @ 6th World Tour 'THIS IS FOR' — Part 2",
+      "series": "twlog",
+      "season": "6th-tour",
+      "members": "Tzuyu",
+      "venue": "Episode 11",
+      "date": "2026-06-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "6WX4WTNOoEw",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "14:22"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-sana-part-2",
+      "title": "Sana's TW-LOG @ 6th World Tour 'THIS IS FOR' — Part 2",
+      "series": "twlog",
+      "season": "6th-tour",
+      "members": "Sana",
+      "venue": "Episode 12",
+      "date": "2026-06-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "epSAhvItTdQ",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:00"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-jeongyeon-part-2",
+      "title": "Jeongyeon's TW-LOG @ 6th World Tour 'THIS IS FOR' — Part 2",
+      "series": "twlog",
+      "season": "6th-tour",
+      "members": "Jeongyeon",
+      "venue": "Episode 13",
+      "date": "2026-07-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "Nb6EaVtS1Aw",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "41:21"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-chaeyoung-part-2",
+      "title": "Chaeyoung's TW-LOG @ 6th World Tour 'THIS IS FOR' — Part 2",
+      "series": "twlog",
+      "season": "6th-tour",
+      "members": "Chaeyoung",
+      "venue": "Episode 14",
+      "date": "2026-07-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "yIcsqn50v3w",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "33:59"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-nayeon-part-2",
+      "title": "Nayeon's TW-LOG @ 6th World Tour 'THIS IS FOR' — Part 2",
+      "series": "twlog",
+      "season": "6th-tour",
+      "members": "Nayeon",
+      "venue": "Episode 15",
+      "date": "2026-07-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "8X6Kzb6NvBs",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "29:10"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-mina-part-2",
+      "title": "Mina's TW-LOG @ 6th World Tour 'THIS IS FOR' — Part 2",
+      "series": "twlog",
+      "season": "6th-tour",
+      "members": "Mina",
+      "venue": "Episode 16",
+      "date": "2026-07-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "tRGj-9aqXg4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "46:11"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-jihyo-part-2",
+      "title": "Jihyo's TW-LOG @ 6th World Tour 'THIS IS FOR' — Part 2",
+      "series": "twlog",
+      "season": "6th-tour",
+      "members": "Jihyo",
+      "venue": "Episode 17",
+      "date": "2026-07-30",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "DYo0LYySde4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "1:20:26"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-dahyun-part-2",
+      "title": "Dahyun's TW-LOG @ 6th World Tour 'THIS IS FOR' — Part 2",
+      "series": "twlog",
+      "season": "6th-tour",
+      "members": "Dahyun",
+      "venue": "Episode 18",
+      "date": "2026-08-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "tO6tvHGrYQI",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "30:21"
+        }
+      ]
+    },
+    {
+      "id": "twlog-6th-tour-finale-seoul-behind",
+      "title": "World Tour Finale in Seoul — Behind",
+      "series": "twlog",
+      "season": "6th-tour",
+      "venue": "Tour Finale · Seoul",
+      "date": "2026-08-13",
+      "note": "Behind the scenes of the last shows of the tour, all nine together.",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "h_5NFu_UmRA",
+          "label": "Behind",
+          "official": true,
+          "duration": "50:57"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s1-nayeon-tzuyu",
+      "title": "Nayeon & Tzuyu (NATZU)",
+      "series": "2wice-date",
+      "season": "2wice-date-s1",
+      "members": "Nayeon, Tzuyu",
+      "venue": "Episode 1",
+      "date": "2022-03-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "YgXc7hfD2Tc",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:31"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s1-sana-chaeyoung",
+      "title": "Sana & Chaeyoung (SACHAENG)",
+      "series": "2wice-date",
+      "season": "2wice-date-s1",
+      "members": "Sana, Chaeyoung",
+      "venue": "Episode 2",
+      "date": "2022-04-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "kh4S0lU4SX4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:35"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s1-jeongyeon-dahyun",
+      "title": "Jeongyeon & Dahyun (JEONGDA)",
+      "series": "2wice-date",
+      "season": "2wice-date-s1",
+      "members": "Jeongyeon, Dahyun",
+      "venue": "Episode 3",
+      "date": "2022-05-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "1VhjGSHXGP4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "24:28"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s1-momo-jihyo",
+      "title": "Momo & Jihyo (MOJI)",
+      "series": "2wice-date",
+      "season": "2wice-date-s1",
+      "members": "Momo, Jihyo",
+      "venue": "Episode 4",
+      "date": "2022-06-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "el2Q2nBpBzc",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "24:25"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s1-mina-chaeyoung",
+      "title": "Mina & Chaeyoung (MICHAENG)",
+      "series": "2wice-date",
+      "season": "2wice-date-s1",
+      "members": "Mina, Chaeyoung",
+      "venue": "Episode 5",
+      "date": "2022-07-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "OysJcXJt4BA",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:00"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s2-jeongyeon-mina",
+      "title": "Jeongyeon & Mina (JEONGMI)",
+      "series": "2wice-date",
+      "season": "2wice-date-s2",
+      "members": "Jeongyeon, Mina",
+      "venue": "Episode 1",
+      "date": "2024-03-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "bKpX-6g1iB0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "24:59"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s2-nayeon-momo",
+      "title": "Nayeon & Momo (NAMO)",
+      "series": "2wice-date",
+      "season": "2wice-date-s2",
+      "members": "Nayeon, Momo",
+      "venue": "Episode 2",
+      "date": "2024-03-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "SBGLrCx-YsY",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:38"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s2-dahyun-tzuyu",
+      "title": "Dahyun & Tzuyu (DATZU)",
+      "series": "2wice-date",
+      "season": "2wice-date-s2",
+      "members": "Dahyun, Tzuyu",
+      "venue": "Episode 3",
+      "date": "2024-04-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "4n-OUsyFoAY",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:27"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s2-jihyo-chaeyoung",
+      "title": "Jihyo & Chaeyoung (JICHAENG)",
+      "series": "2wice-date",
+      "season": "2wice-date-s2",
+      "members": "Jihyo, Chaeyoung",
+      "venue": "Episode 4",
+      "date": "2024-04-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "6PYj6QOrfSk",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "23:45"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s2-jeongyeon-sana",
+      "title": "Jeongyeon & Sana (JEONGSA)",
+      "series": "2wice-date",
+      "season": "2wice-date-s2",
+      "members": "Jeongyeon, Sana",
+      "venue": "Episode 5",
+      "date": "2024-04-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "YLFqAlSyfmU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "28:11"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s3-jihyo-tzuyu",
+      "title": "Jihyo & Tzuyu (JITZU)",
+      "series": "2wice-date",
+      "season": "2wice-date-s3",
+      "members": "Jihyo, Tzuyu",
+      "venue": "Episode 1",
+      "date": "2024-08-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "JCxZnJW-bb8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:49"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s3-nayeon-dahyun",
+      "title": "Nayeon & Dahyun (NADA)",
+      "series": "2wice-date",
+      "season": "2wice-date-s3",
+      "members": "Nayeon, Dahyun",
+      "venue": "Episode 2",
+      "date": "2024-08-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "tpnzP5Ky1V0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:37"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s3-sana-mina",
+      "title": "Sana & Mina (SAMI)",
+      "series": "2wice-date",
+      "season": "2wice-date-s3",
+      "members": "Sana, Mina",
+      "venue": "Episode 3",
+      "date": "2024-08-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "gIOMQNnn2KI",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:46"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s3-momo-chaeyoung",
+      "title": "Momo & Chaeyoung (MOCHAENG)",
+      "series": "2wice-date",
+      "season": "2wice-date-s3",
+      "members": "Momo, Chaeyoung",
+      "venue": "Episode 4",
+      "date": "2024-08-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "VOgjnMV-axY",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "28:44"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s3-jeongyeon-jihyo",
+      "title": "Jeongyeon & Jihyo (JEONGJI)",
+      "series": "2wice-date",
+      "season": "2wice-date-s3",
+      "members": "Jeongyeon, Jihyo",
+      "venue": "Episode 5",
+      "date": "2024-08-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "aSFJJ3psQmI",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "29:18"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s4-nayeon-mina",
+      "title": "Nayeon & Mina",
+      "series": "2wice-date",
+      "season": "2wice-date-s4",
+      "members": "Nayeon, Mina",
+      "venue": "Episode 1",
+      "date": "2025-05-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "SnbxCJo3svg",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "27:12"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s4-jeongyeon-tzuyu",
+      "title": "Jeongyeon & Tzuyu",
+      "series": "2wice-date",
+      "season": "2wice-date-s4",
+      "members": "Jeongyeon, Tzuyu",
+      "venue": "Episode 2",
+      "date": "2025-05-30",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "OyPu73_lcVM",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:09"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s4-dahyun-chaeyoung",
+      "title": "Dahyun & Chaeyoung",
+      "series": "2wice-date",
+      "season": "2wice-date-s4",
+      "members": "Dahyun, Chaeyoung",
+      "venue": "Episode 3",
+      "date": "2025-06-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "NyJewFe9df8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "27:22"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s4-sana-jihyo",
+      "title": "Sana & Jihyo",
+      "series": "2wice-date",
+      "season": "2wice-date-s4",
+      "members": "Sana, Jihyo",
+      "venue": "Episode 4",
+      "date": "2025-06-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "HGSZK_SJJ-s",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "29:10"
+        }
+      ]
+    },
+    {
+      "id": "2wice-date-s4-momo-tzuyu",
+      "title": "Momo & Tzuyu",
+      "series": "2wice-date",
+      "season": "2wice-date-s4",
+      "members": "Momo, Tzuyu",
+      "venue": "Episode 5",
+      "date": "2025-06-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "vlog",
+          "url": "R7oV7rqkTU0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "29:17"
         }
       ]
     }
