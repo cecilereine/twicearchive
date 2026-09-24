@@ -1,6 +1,6 @@
 {
   "section": "Melody Project & Cover Project",
-  "note": "Members covering other artists' songs: the Melody Project videos on TWICE's channel, and every other cover. One entry per cover, with its videos (the cover itself, a behind-the-scenes, a live clip). Covers and joint stages performed live at a show are in live.json, under Stage Covers & Collabs.",
+  "note": "Members covering other artists' songs: the Melody Project videos on TWICE's channel, and every other cover. One entry per cover, with its videos (the cover itself, a behind-the-scenes, a live clip). Covers and joint stages performed live at a show are in live.json, under Stage Covers & Collabs. MV Appearances holds members appearing in other artists' music videos; \"originalArtist\" is then the MV's artist.",
   "updated": "2026-09-23",
   "memberColors": {
     "Nayeon": "#49c0ec",
@@ -29,6 +29,10 @@
     {
       "key": "cover",
       "label": "Cover Project"
+    },
+    {
+      "key": "mv-appearance",
+      "label": "MV Appearances"
     }
   ],
   "covers": [
@@ -689,6 +693,268 @@
           "kind": "mv",
           "url": "y5fRzW5uFlQ",
           "label": "Cover",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "dont-go-san-e",
+      "song": "Don't Go",
+      "songKo": "가면 안돼",
+      "originalArtist": "San E",
+      "members": "Nayeon",
+      "series": "mv-appearance",
+      "released": "2011-04-29",
+      "note": "Pre-debut, as a JYP trainee.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "KyhNRnABBCM",
+          "label": "M/V",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "girls-girls-girls-got7",
+      "song": "Girls Girls Girls",
+      "originalArtist": "GOT7",
+      "members": "Nayeon, Jeongyeon",
+      "series": "mv-appearance",
+      "released": "2014-01-15",
+      "note": "Pre-debut. Nayeon plays the girl the members chase; Jeongyeon is the club bouncer.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "2sAoKmg7qPI",
+          "label": "M/V",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "no-love-jun-k",
+      "song": "NO LOVE (Korean ver.)",
+      "originalArtist": "Jun. K",
+      "members": "Nayeon",
+      "series": "mv-appearance",
+      "released": "2014-06-12",
+      "note": "Pre-debut.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "5rAfyWWP2Ps",
+          "label": "M/V",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "a-got7",
+      "song": "A",
+      "originalArtist": "GOT7",
+      "members": "Sana",
+      "series": "mv-appearance",
+      "released": "2014-06-23",
+      "note": "Pre-debut, as the female lead.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "eISomx-VMow",
+          "label": "M/V",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "feel-junho",
+      "song": "FEEL (Korean ver.)",
+      "originalArtist": "Junho",
+      "members": "Momo, Sana, Mina",
+      "series": "mv-appearance",
+      "released": "2014-08-14",
+      "note": "Pre-debut.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "QHOePrycK8g",
+          "label": "M/V",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "stop-stop-it-got7",
+      "song": "Stop Stop It",
+      "songKo": "하지하지마",
+      "originalArtist": "GOT7",
+      "members": "Momo, Dahyun, Chaeyoung, Tzuyu",
+      "series": "mv-appearance",
+      "released": "2014-11-17",
+      "note": "Pre-debut. Dahyun plays the main female character.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "R_DX64EwH9M",
+          "label": "M/V",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "only-you-miss-a",
+      "song": "Only You",
+      "songKo": "다른 남자 말고 너",
+      "originalArtist": "miss A",
+      "members": "Nayeon, Momo, Mina, Chaeyoung, Tzuyu",
+      "series": "mv-appearance",
+      "released": "2015-03-30",
+      "note": "Pre-debut.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "zO9RzrhYR-I",
+          "label": "M/V",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "fire-jyp-conan",
+      "song": "Fire",
+      "originalArtist": "J.Y. Park feat. Conan O'Brien, Steven Yeun & Jimin Park",
+      "members": "Nayeon, Jeongyeon, Momo, Sana, Jihyo, Mina, Chaeyoung, Tzuyu",
+      "series": "mv-appearance",
+      "released": "2016-04-10",
+      "note": "Filmed for CONAN's Korea special: TWICE cameo alongside Wonder Girls. Dahyun doesn't appear.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "X2mqrzKHb3w",
+          "label": "M/V",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "sweet-dream-heechul-min-kyung-hoon",
+      "song": "Sweet Dream",
+      "songKo": "나비잠",
+      "originalArtist": "Heechul x Min Kyung-hoon",
+      "members": "Momo",
+      "series": "mv-appearance",
+      "released": "2016-11-19",
+      "note": "SM STATION. Momo plays the female lead; the Knowing Bros cast cameo.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "5JbVVlqrreE",
+          "label": "M/V",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "your-wedding-jun-k",
+      "song": "Your Wedding",
+      "songKo": "결혼식",
+      "originalArtist": "JUN. K",
+      "members": "Nayeon",
+      "series": "mv-appearance",
+      "released": "2017-01-04",
+      "note": "Nayeon plays the bride, opposite Nichkhun.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "ykLspPsNYtY",
+          "label": "M/V",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "instant-love-junho",
+      "song": "Instant Love",
+      "originalArtist": "JUNHO",
+      "members": "Sana",
+      "series": "mv-appearance",
+      "released": "2017-09-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "eVvg3O2wBJ4",
+          "label": "M/V",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "superhero-yukadd",
+      "song": "Superhero (Special Version)",
+      "originalArtist": "yukaDD",
+      "members": "Momo",
+      "series": "mv-appearance",
+      "released": "2021-01-21",
+      "note": "Special version of the MV, with Momo dancing.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "95HxqXOUytI",
+          "label": "M/V",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "nothing-but-young-k",
+      "song": "nothing but",
+      "songKo": "이것밖에는 없다",
+      "originalArtist": "Young K",
+      "members": "Dahyun",
+      "series": "mv-appearance",
+      "released": "2023-09-04",
+      "note": "Dahyun plays the female lead.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "on2HSs_uXSw",
+          "label": "M/V",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "rose-wooyoung",
+      "song": "R.O.S.E",
+      "originalArtist": "WOOYOUNG",
+      "members": "Momo, Mina, Dahyun",
+      "series": "mv-appearance",
+      "released": "2015-03-04",
+      "note": "Pre-debut. WOOYOUNG's Japanese debut single; the full MV went up on YouTube for its 10th anniversary, Mar 4, 2025.",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "cmPYt8462mw",
+          "label": "M/V",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": "hando-chogua-daesung",
+      "song": "HANDO-CHOGUA",
+      "songKo": "한도초과",
+      "originalArtist": "DAESUNG",
+      "members": "Sana",
+      "series": "mv-appearance",
+      "released": "2025-12-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "mv",
+          "url": "80uru6rQWgc",
+          "label": "M/V",
           "official": true
         }
       ]

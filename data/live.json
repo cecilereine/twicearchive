@@ -45,6 +45,212 @@
   ],
   "events": [
     {
+      "id": "really-really-cover-fantasy-park-2018",
+      "title": "Really Really — WINNER cover",
+      "series": "stage",
+      "venue": "TWICELAND ZONE 2: Fantasy Park, Seoul",
+      "date": "2018-05-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "BFuTQJ4Ip64",
+          "label": "Full Stage",
+          "official": false,
+          "duration": "2:50"
+        }
+      ]
+    },
+    {
+      "id": "just-right-got7-jyp-nation-2016",
+      "title": "Just Right (딱 좋아) — GOT7 cover, with GOT7",
+      "series": "stage",
+      "venue": "2016 JYP NATION CONCERT: MIX & MATCH, Seoul",
+      "date": "2016-08-07",
+      "note": "Collab stage: TWICE and GOT7 perform GOT7's Just Right together.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "LRteK3nXpxE",
+          "label": "Fancam",
+          "official": false,
+          "fancam": true,
+          "duration": "3:44"
+        }
+      ]
+    },
+    {
+      "id": "planetarium-cover-tzuyu-ready-to-be-japan-special-2024",
+      "title": "Planetarium — Ai Otsuka cover",
+      "series": "stage",
+      "members": "Tzuyu",
+      "venue": "READY TO BE in JAPAN SPECIAL, Yanmar Stadium Nagai, Osaka",
+      "date": "2024-07-14",
+      "note": "Solo stage.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "XX4rHT56ank",
+          "label": "Fancam",
+          "official": false,
+          "fancam": true,
+          "duration": "2:55"
+        }
+      ]
+    },
+    {
+      "id": "wherever-you-are-cover-jeongyeon-ready-to-be-japan-special-2024",
+      "title": "Wherever You Are — ONE OK ROCK cover",
+      "series": "stage",
+      "members": "Jeongyeon",
+      "venue": "READY TO BE in JAPAN SPECIAL, Yanmar Stadium Nagai, Osaka",
+      "date": "2024-07-14",
+      "note": "Solo stage from the July 2024 Japan Special stadium shows; the upload doesn't say which night.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "87XqEWPvFiU",
+          "label": "Fancam",
+          "official": false,
+          "fancam": true,
+          "duration": "3:53"
+        }
+      ]
+    },
+    {
+      "id": "cant-stop-the-feeling-cover-jeongyeon-ready-to-be-fukuoka-2023",
+      "title": "Can't Stop the Feeling! — Justin Timberlake cover",
+      "series": "stage",
+      "members": "Jeongyeon",
+      "venue": "READY TO BE in Fukuoka, Fukuoka PayPay Dome",
+      "date": "2023-12-28",
+      "note": "Solo stage.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "P_ZJG3uvMDc",
+          "label": "Fancam",
+          "official": false,
+          "fancam": true,
+          "duration": "2:51"
+        }
+      ]
+    },
+    {
+      "id": "try-cover-dahyun-ready-to-be-fukuoka-2023",
+      "title": "Try — Colbie Caillat cover",
+      "series": "stage",
+      "members": "Dahyun",
+      "venue": "READY TO BE in Fukuoka, Fukuoka PayPay Dome",
+      "date": "2023-12-28",
+      "note": "Solo stage.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "ScxF0N-xwIk",
+          "label": "Fancam",
+          "official": false,
+          "fancam": true,
+          "duration": "2:11"
+        }
+      ]
+    },
+    {
+      "id": "new-rules-cover-sana-ready-to-be-fukuoka-2023",
+      "title": "New Rules — Dua Lipa cover",
+      "series": "stage",
+      "members": "Sana",
+      "venue": "READY TO BE in Fukuoka, Fukuoka PayPay Dome",
+      "date": "2023-12-28",
+      "note": "Solo stage.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "5Aun2Vtre7E",
+          "label": "Fancam",
+          "official": false,
+          "fancam": true,
+          "duration": "1:45"
+        }
+      ]
+    },
+    {
+      "id": "move-cover-momo-ready-to-be-fukuoka-2023",
+      "title": "MOVE — Beyoncé cover",
+      "series": "stage",
+      "members": "Momo",
+      "venue": "READY TO BE in Fukuoka, Fukuoka PayPay Dome",
+      "date": "2023-12-28",
+      "note": "Solo stage.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "NEq8GLy_5B4",
+          "label": "Fancam",
+          "official": false,
+          "fancam": true,
+          "duration": "2:17"
+        }
+      ]
+    },
+    {
+      "id": "7-rings-cover-mina-ready-to-be-fukuoka-2023",
+      "title": "7 rings — Ariana Grande cover",
+      "series": "stage",
+      "members": "Mina",
+      "venue": "READY TO BE in Fukuoka, Fukuoka PayPay Dome",
+      "date": "2023-12-28",
+      "note": "Solo stage, with a new dance break.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "u1qSEDcDZtE",
+          "label": "Fancam",
+          "official": false,
+          "fancam": true,
+          "duration": "2:39"
+        }
+      ]
+    },
+    {
+      "id": "done-for-me-cover-tzuyu-ready-to-be-fukuoka-2023",
+      "title": "Done for Me — Charlie Puth cover",
+      "series": "stage",
+      "members": "Tzuyu",
+      "venue": "READY TO BE in Fukuoka, Fukuoka PayPay Dome",
+      "date": "2023-12-28",
+      "note": "Solo stage.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "qOjQTPBKAsc",
+          "label": "Fancam",
+          "official": false,
+          "fancam": true,
+          "duration": "2:15"
+        }
+      ]
+    },
+    {
+      "id": "squid-game-recorder-jeongyeon-ready-to-be-seoul-2023",
+      "title": "Squid Game theme — on recorder",
+      "series": "stage",
+      "members": "Jeongyeon",
+      "venue": "READY TO BE in Seoul, Olympic Gymnastics Arena",
+      "date": "2023-04-15",
+      "note": "Solo stage: Jeongyeon plays the Squid Game theme on a recorder.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "jpqRO_S81EI",
+          "label": "Fancam",
+          "official": false,
+          "fancam": true,
+          "duration": "2:50"
+        }
+      ]
+    },
+    {
       "id": "domino-cover-the-seasons-2024",
       "title": "Domino",
       "series": "stage",
@@ -871,7 +1077,8 @@
           "label": "Fancam",
           "official": false,
           "fancam": true,
-          "duration": "3:29"
+          "duration": "3:29",
+          "mustWatch": true
         }
       ]
     },

@@ -32,7 +32,8 @@
     },
     {
       "key": "carefree-travelers",
-      "label": "Carefree Travelers"
+      "label": "Carefree Travelers",
+      "summary": "Eight members (Dahyun was absent) join JTBC's package-tour show for a group package tour to Da Nang, Vietnam, travelling alongside the regular cast."
     },
     {
       "key": "snl-korea",
@@ -41,6 +42,21 @@
     {
       "key": "oppa-thinking",
       "label": "Oppa Thinking"
+    },
+    {
+      "key": "idol-room",
+      "label": "Idol Room",
+      "summary": "JTBC's idol variety show hosted by Jeong Hyeong-don and Defconn. TWICE guested five times."
+    },
+    {
+      "key": "knowing-bros",
+      "label": "Knowing Bros",
+      "summary": "JTBC's school-themed talk show: guests arrive as transfer students and trade games and questions with the brothers."
+    },
+    {
+      "key": "running-man",
+      "label": "Running Man",
+      "summary": "SBS's long-running race variety show: missions at landmarks, capped by the name-tag elimination game."
     }
   ],
   "events": [
@@ -450,6 +466,347 @@
           "official": false,
           "duration": "45:34",
           "thumb": "https://p.bstarstatic.com/ugc/72c3b267081eba862d0a1d12a2d9253b.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "idol-room-ep10",
+      "title": "Idol Room Episode 10",
+      "series": "idol-room",
+      "venue": "JTBC",
+      "date": "2018-07-10",
+      "note": "Summer Nights promotion. Pick-dol: Jeongyeon.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4791433894822400",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "1:03:45",
+          "thumb": "https://p.bstarstatic.com/ugc/2e7293f29a8679f02c38635a9c28d633.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "idol-room-ep10-vlive",
+      "title": "TWICE V LIVE after filming Idol Room",
+      "series": "idol-room",
+      "venue": "V LIVE",
+      "date": "2018-06-24",
+      "note": "Broadcast from the set right after recording Episode 10.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "https://vlivearchive.com/post/0-18353861",
+          "label": "V LIVE",
+          "official": false,
+          "duration": "5:40",
+          "thumb": "https://v-phinf.pstatic.net/20180624_104/1529844960092g9FRC_PNG/upload_EC9584EC9DB4EB8F8CEBA3B8.png?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "idol-room-ep26",
+      "title": "Idol Room Episode 26",
+      "series": "idol-room",
+      "venue": "JTBC",
+      "date": "2018-11-06",
+      "note": "YES or YES promotion. Pick-dol: Sana; Seunghee (Oh My Girl) joins by video call.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2043126625",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "1:04:33",
+          "thumb": "https://p.bstarstatic.com/ugc/8f1d6063c066445bed6de6d02a275dd9.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "idol-room-ep26-vlive",
+      "title": "TWICE surprise V LIVE while filming Idol Room",
+      "series": "idol-room",
+      "venue": "V LIVE",
+      "date": "2018-10-25",
+      "note": "A surprise broadcast from the set during recording of Episode 26.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "https://vlivearchive.com/post/0-18353266",
+          "label": "V LIVE",
+          "official": false,
+          "duration": "10:15",
+          "thumb": "https://v-phinf.pstatic.net/20181025_71/1540452707877NOVF9_PNG/upload_EC9584EC9DB4EB8F8CEBA3B8_VEC8DB8EB84A4EC9DBC.png?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "idol-room-ep47",
+      "title": "Idol Room Episode 47",
+      "series": "idol-room",
+      "venue": "JTBC",
+      "date": "2019-04-23",
+      "note": "FANCY promotion and the show's 1st anniversary special, part 1. Pick-dol: Tzuyu; IZ*ONE appear by video.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2046604563",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "55:36",
+          "thumb": "https://p.bstarstatic.com/ugc/d2d3fd9ca31799cc327f43624794f1e0.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "idol-room-ep48",
+      "title": "Idol Room Episode 48",
+      "series": "idol-room",
+      "venue": "JTBC",
+      "date": "2019-04-30",
+      "note": "1st anniversary special, part 2.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2041484750",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "1:00:05",
+          "thumb": "https://p.bstarstatic.com/ugc/126454227d5b00ba0270d85c684e097f.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "idol-room-ep69",
+      "title": "Idol Room Episode 69",
+      "series": "idol-room",
+      "venue": "JTBC",
+      "date": "2019-09-24",
+      "note": "Feel Special promotion. Pick-dol: Jihyo. Mina absent.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2041384389",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "1:03:44",
+          "thumb": "https://p.bstarstatic.com/ugc/d6f9be0221f30fb06df9ca7b65b3ab7d.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "knowing-bros-ep27",
+      "title": "Knowing Bros Episode 27",
+      "series": "knowing-bros",
+      "venue": "JTBC",
+      "date": "2016-06-04",
+      "note": "Cheer Up era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2046909665",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:20:04",
+          "thumb": "https://p.bstarstatic.com/ugc/04be0476a8edb77b8498438b84ee725b.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "knowing-bros-ep76",
+      "title": "Knowing Bros Episode 76",
+      "series": "knowing-bros",
+      "venue": "JTBC",
+      "date": "2017-05-20",
+      "note": "Signal era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2045693365",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:33:28",
+          "thumb": "https://p.bstarstatic.com/ugc/b04eec892e0c94840c2cb3fdc1c683d9.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "knowing-bros-ep207",
+      "title": "Knowing Bros Episode 207",
+      "series": "knowing-bros",
+      "venue": "JTBC",
+      "date": "2019-11-30",
+      "note": "Nayeon and Dahyun, with J.Y. Park.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2045555402",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:31:42",
+          "thumb": "https://p.bstarstatic.com/ugc/0c1ee09fac64066f294b5a60a8d71633.jpg@640w_360h.webp"
+        }
+      ],
+      "members": "Nayeon, Dahyun"
+    },
+    {
+      "id": "knowing-bros-ep51",
+      "title": "Knowing Bros Episode 51",
+      "series": "knowing-bros",
+      "venue": "JTBC",
+      "date": "2016-11-19",
+      "note": "Momo only.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2047078568",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:20:02",
+          "thumb": "https://p.bstarstatic.com/ugc/7e9d4a3d8c1f36c898df954a16c1ab46.jpg@640w_360h.webp"
+        }
+      ],
+      "members": "Momo"
+    },
+    {
+      "id": "knowing-bros-ep152",
+      "title": "Knowing Bros Episode 152",
+      "series": "knowing-bros",
+      "venue": "JTBC",
+      "date": "2018-11-03",
+      "note": "YES or YES era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2043991386",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:38:47",
+          "thumb": "https://p.bstarstatic.com/ugc/fe7d1250188222625752f81e60480cfa.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "running-man-ep302",
+      "title": "Running Man Episode 302: Dangerous Table",
+      "series": "running-man",
+      "venue": "SBS",
+      "date": "2016-06-05",
+      "note": "Yeo Jin-goo guests; all nine members join for the name-tag elimination round.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.myrunningman.com/ep/302",
+          "label": "Full Episode",
+          "official": false,
+          "thumb": "https://www.myrunningman.com/assets/epimg/302.jpg"
+        }
+      ]
+    },
+    {
+      "id": "running-man-ep328",
+      "title": "Running Man Episode 328: Suspicious Vacation",
+      "series": "running-man",
+      "venue": "SBS",
+      "date": "2016-12-04",
+      "note": "All nine members as the episode's guests, filmed in Busan.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.myrunningman.com/ep/328",
+          "label": "Full Episode",
+          "official": false,
+          "thumb": "https://www.myrunningman.com/assets/epimg/328.jpg"
+        }
+      ]
+    },
+    {
+      "id": "running-man-ep398",
+      "title": "Running Man Episode 398: Yang Se-chan and Jeon So-min One Year Anniversary",
+      "series": "running-man",
+      "venue": "SBS",
+      "date": "2018-04-29",
+      "note": "All nine members join the 'Running 365 Retreat' marking Se-chan and So-min's first year on the show. What Is Love? era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.myrunningman.com/ep/398",
+          "label": "Full Episode",
+          "official": false,
+          "mustWatch": true,
+          "thumb": "https://www.myrunningman.com/assets/epimg/398_temp.jpg"
+        }
+      ]
+    },
+    {
+      "id": "running-man-ep399",
+      "title": "Running Man Episode 399: Family Project Final: A Secret Door",
+      "series": "running-man",
+      "venue": "SBS",
+      "date": "2018-05-06",
+      "note": "Continues Episode 398: TWICE appear in the first part, through the badge handout and their farewells.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.myrunningman.com/ep/399",
+          "label": "Full Episode",
+          "official": false,
+          "thumb": "https://www.myrunningman.com/assets/epimg/399_temp.jpg"
+        }
+      ]
+    },
+    {
+      "id": "running-man-ep428",
+      "title": "Running Man Episode 428: Everyone Has a Secret",
+      "series": "running-man",
+      "venue": "SBS",
+      "date": "2018-12-02",
+      "note": "All nine members team up with the cast in a race to find the best food to pair with kimchi.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://wetv.vip/en/play/7yubdomdwl95ryh/l0035rukqe2-Running_Man_428",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "1:31:00",
+          "thumb": "https://newpic.wetvinfo.com/vpic_cover/l0035rukqe2/l0035rukqe2_hz.jpg/640"
+        }
+      ]
+    },
+    {
+      "id": "running-man-ep506",
+      "title": "Running Man Episode 506: Captains of Running Man",
+      "series": "running-man",
+      "venue": "SBS",
+      "date": "2020-06-07",
+      "note": "MORE & MORE promotion: all nine members split into four teams with the cast to win the most money, with a penalty for the poorest.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://wetv.vip/en/play/7yubdomdwl95ryh/l00352i7mgr-Running_Man_506",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "1:19:03",
+          "thumb": "https://newpic.wetvinfo.com/vpic_cover/l00352i7mgr/l00352i7mgr_hz.jpg/640"
+        }
+      ]
+    },
+    {
+      "id": "running-man-ep730",
+      "title": "Running Man Episode 730: The Wise Odd and Even Choices",
+      "series": "running-man",
+      "members": "Dahyun",
+      "venue": "SBS",
+      "date": "2024-12-01",
+      "note": "Dahyun only, guesting alongside Kyuhyun (Super Junior).",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.myrunningman.com/ep/730",
+          "label": "Full Episode",
+          "official": false,
+          "thumb": "https://www.myrunningman.com/assets/epimg/730_temp.jpg"
         }
       ]
     }

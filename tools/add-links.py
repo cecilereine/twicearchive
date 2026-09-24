@@ -63,10 +63,13 @@ RULES = [
     # Dingo's studio sessions — they really are singing, so these file as
     # performances rather than the "special" bucket that holds making-ofs.
     ("performance", r"killing ?voice|킬링\s*보이스"),
-    ("mv",          r"\bM/V\b|Music Video|\bMV\b"),
+    # "M/V Reaction" is the members watching the video, not the video itself
+    ("special",     r"reaction"),
+    ("mv",        r"\bM/V\b|Music Video|\bMV\b"),
     # a live performance at an anniversary event is still a live performance
     ("live",        r"special live"),
     ("special",     r"anniversary|\bspecial video\b|document video|기념|주년|cheering guide|응원법"
+                    r"|fan ?chant|掛け声"
                     r"|selfie (?:movie|mv)|behind the scenes|recording (?:video|film)|レコーディング|메이킹"
                     r"|happy holidays"),
     ("lyric",       r"lyric"),

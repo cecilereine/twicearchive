@@ -25,6 +25,7 @@ const state = {
 
 /* ---------- small helpers ---------- */
 
+const MV_SERIES = 'mv-appearance';
 const coverYear = c => (c.released || '').slice(0, 4);
 const membersOf = c => String(c.members || '').split(',').map(m => m.trim()).filter(Boolean);
 const allVideos = () => state.data.covers.flatMap(c => c.videos || []);
@@ -62,25 +63,32 @@ function renderList() {
     return;
   }
 
-  /* Year headings, keeping the order the data file is written in. */
+  /* Year headings, keeping the order the data file is written in. MV
+     appearances aren't covers, so they skip the years and share one section
+     of their own, oldest first; each card's note carries its date instead. */
   const groups = new Map();
-  for (const c of covers) {
+  for (const c of covers.filter(c => c.series !== MV_SERIES)) {
     const y = coverYear(c) || '—';
     if (!groups.has(y)) groups.set(y, []);
     groups.get(y).push(c);
   }
+  const mvs = covers.filter(c => c.series === MV_SERIES)
+    .sort((a, b) => String(a.released || '').localeCompare(String(b.released || '')));
 
-  host.innerHTML = [...groups].map(([year, list]) => `
+  const section = (title, list, noun) => `
     <section>
       <div class="era-head">
-        <h2>${escapeHtml(year)}</h2>
+        <h2>${escapeHtml(title)}</h2>
         <span class="rule"></span>
-        <span class="count">${list.length} cover${list.length === 1 ? '' : 's'}</span>
+        <span class="count">${list.length} ${noun}${list.length === 1 ? '' : 's'}</span>
       </div>
       <div class="cover-grid">
         ${list.flatMap(coverCards).join('')}
       </div>
-    </section>`).join('');
+    </section>`;
+
+  host.innerHTML = [...groups].map(([year, list]) => section(year, list, 'cover')).join('')
+    + (mvs.length ? section(seriesLabel(MV_SERIES), mvs, 'MV') : '');
 }
 
 /* One card per video, each carrying its cover's song, original artist and
@@ -92,13 +100,17 @@ function coverCards(c) {
     `<span class="member" style="${chipStyle(m)}">${escapeHtml(m)}</span>`).join('');
   const head = `
     <h3 class="song">${escapeHtml(c.song)}${c.songKo ? ` <span class="track-ko">${escapeHtml(c.songKo)}</span>` : ''}</h3>
-    ${c.originalArtist ? `<span class="orig">originally by ${escapeHtml(c.originalArtist)}</span>` : ''}
+    ${c.originalArtist ? `<span class="orig">${c.series === MV_SERIES ? 'MV by' : 'originally by'} ${escapeHtml(c.originalArtist)}</span>` : ''}
     <div class="cover-meta">
       <span class="series-badge" data-series="${escapeHtml(c.series)}">${escapeHtml(seriesLabel(c.series))}</span>
       ${members}
       <span class="date">${escapeHtml(prettyDate(c.released))}</span>
     </div>
-    ${c.note ? `<p class="cover-note">${escapeHtml(c.note)}</p>` : ''}`;
+    ${(() => {
+      const note = c.series === MV_SERIES
+        ? [prettyDate(c.released), c.note].filter(Boolean).join(' · ') : c.note;
+      return note ? `<p class="cover-note">${escapeHtml(note)}</p>` : '';
+    })()}`;
 
   const vids = orderVideos(c.videos);
   if (!vids.length) {

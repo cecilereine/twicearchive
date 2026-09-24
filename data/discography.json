@@ -96,6 +96,12 @@
               "url": "904UMBcnaC4",
               "label": "Live Stage @ 2025 FANMEETING [10VE UNIVERSE]",
               "official": true
+            },
+            {
+              "kind": "special",
+              "url": "ane_LCWTvF8",
+              "label": "Fan Chant Guide",
+              "official": false
             }
           ]
         },
@@ -251,6 +257,18 @@
               "official": true
             },
             {
+              "kind": "special",
+              "url": "kATqAHOIOSw",
+              "label": "Avengers Ver.",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "t9ETveuWsaU",
+              "label": "요술봉 Ver. (Magic Wand)",
+              "official": true
+            },
+            {
               "kind": "dance",
               "url": "L7_i-r9mo9w",
               "label": "@ STADIUM",
@@ -269,22 +287,22 @@
               "official": true
             },
             {
-              "kind": "special",
-              "url": "kATqAHOIOSw",
-              "label": "Avengers Ver.",
-              "official": true
-            },
-            {
-              "kind": "special",
-              "url": "t9ETveuWsaU",
-              "label": "요술봉 Ver. (Magic Wand)",
-              "official": true
-            },
-            {
               "kind": "live",
               "url": "W0Ryc34rNe8",
               "label": "Akaraka 2019",
               "official": true
+            },
+            {
+              "kind": "special",
+              "url": "MmEqSLf4o9c",
+              "label": "Fan Chant Guide",
+              "official": false
+            },
+            {
+              "kind": "special",
+              "url": "yeSGjeM3PXQ",
+              "label": "Fanchant",
+              "official": false
             },
             {
               "kind": "live",
@@ -419,6 +437,12 @@
               "fancam": true
             },
             {
+              "kind": "audio",
+              "url": "uqySM2cTU8Q",
+              "label": "CD Audio",
+              "official": false
+            },
+            {
               "kind": "lyric",
               "url": "ioiaRU4YNy0",
               "label": "Color Coded Lyrics",
@@ -466,9 +490,21 @@
               "official": true
             },
             {
+              "kind": "special",
+              "url": "LwnV0CCbpWg",
+              "label": "Fan Chant Guide",
+              "official": false
+            },
+            {
               "kind": "performance",
               "url": "0kFysgVv9ZQ",
               "label": "【TVPP】 – TT, – 티티 @Show Music Core",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "M9x1QlOgv7A",
+              "label": "@ Nissan Stadium (4K)",
               "official": false
             }
           ]
@@ -666,6 +702,12 @@
               "url": "PVpMNQVE8dQ",
               "label": "Comeback Stage @ M COUNTDOWN",
               "official": true
+            },
+            {
+              "kind": "special",
+              "url": "d1H9MXkbSuM",
+              "label": "Fanchant",
+              "official": false
             }
           ]
         },
@@ -701,7 +743,51 @@
         },
         {
           "title": "TT (Tak Remix)",
-          "videos": []
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "pdEOg9a6M0U",
+              "label": "CD Audio",
+              "official": false
+            }
+          ],
+          "note": "Physical edition only"
+        },
+        {
+          "title": "TT",
+          "note": "Instrumental, physical edition only",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "Yr80loldqcU",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Cheer Up",
+          "note": "Instrumental, physical edition only",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "hnFDQtmrap0",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Like Ooh-Ahh",
+          "note": "Instrumental, physical edition only",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "9NIifagF-n4",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -723,19 +809,164 @@
       "tracks": [
         {
           "title": "Like Ooh-Ahh",
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "https://www.youtube.com/watch?v=0rtV5esQT6I",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "CtE2MauDkrs",
+              "label": "M/V Dance Ver.",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "vYkGpOeqp4g",
+              "label": "Debut Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "904UMBcnaC4",
+              "label": "Live Stage @ 2025 FANMEETING [10VE UNIVERSE]",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "ane_LCWTvF8",
+              "label": "Fan Chant Guide",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Cheer Up",
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "c7rCyll5AeY",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "kATqAHOIOSw",
+              "label": "Avengers Ver.",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "t9ETveuWsaU",
+              "label": "요술봉 Ver. (Magic Wand)",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "L7_i-r9mo9w",
+              "label": "@ STADIUM",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "7T4wxA2BGTo",
+              "label": "Dance Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "1Kg4yomNEgs",
+              "label": "Comeback Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "W0Ryc34rNe8",
+              "label": "Akaraka 2019",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "MmEqSLf4o9c",
+              "label": "Fan Chant Guide",
+              "official": false
+            },
+            {
+              "kind": "special",
+              "url": "yeSGjeM3PXQ",
+              "label": "Fanchant",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "m3o_jC6sObE",
+              "label": "Akaraka 2016 · crowd sing-along",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Touchdown",
-          "videos": []
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "9YnlX1lSWHg",
+              "label": "Comeback Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "P0wYetVMwUg",
+              "label": "TWICELIGHTS in Seoul",
+              "official": false
+            },
+            {
+              "kind": "lyric",
+              "url": "6lA1VTTxC1w",
+              "label": "Color Coded Lyrics",
+              "official": false
+            }
+          ]
         },
         {
           "title": "TT",
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "ePpPVE-GGJw",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "9uypQGzzhns",
+              "label": "Dance Practice Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "aIotMK_TxWk",
+              "label": "Comeback Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "LwnV0CCbpWg",
+              "label": "Fan Chant Guide",
+              "official": false
+            },
+            {
+              "kind": "performance",
+              "url": "0kFysgVv9ZQ",
+              "label": "【TVPP】 – TT, – 티티 @Show Music Core",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "M9x1QlOgv7A",
+              "label": "@ Nissan Stadium (4K)",
+              "official": false
+            }
+          ]
         }
       ],
       "regionLocked": "Japan only"
@@ -781,6 +1012,18 @@
               "url": "8e8g_arMluI",
               "label": "2017 KBS가요대축제 Music Festival - - Intro+SIGNAL (Intro+SIGNAL - ). 20171",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "uuJOMyCMhtI",
+              "label": "170530 Tei's Dreaming Radio - Radio Live",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "U85I52U0AhM",
+              "label": "Fanchant",
+              "official": false
             }
           ]
         },
@@ -911,13 +1154,38 @@
               "url": "1iLF3zr5mUM",
               "label": "「Like OOH-AHH -Japanese ver.-」Making Music Video （short ver.）",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "luawx3A_2bw",
+              "label": "「LIKE OOH-AHH -Japanese ver.-」DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "0o35IXQHVHs",
+              "label": "CD Audio",
+              "official": false
             }
           ]
         },
         {
           "title": "Cheer Up",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "Dni44Qhjf50",
+              "label": "DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "GdD7fexnPNA",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
         },
         {
           "title": "TT",
@@ -942,13 +1210,44 @@
               "label": "211224 Music Station Super Live - TT (Japanese Ver.)",
               "official": false,
               "thumb": "https://p.bstarstatic.com/ugc/3b233acbd084675a499630f3e5555f85.jpg@640w_360h.webp"
+            },
+            {
+              "kind": "live",
+              "url": "dIbQNJxSAr4",
+              "label": "DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "GPbWEl6-oWA",
+              "label": "CD Audio",
+              "official": false
             }
           ]
         },
         {
           "title": "Knock Knock",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "Y4gBtOKozRs",
+              "label": "180912 BDZ Showcase Live Tour 2018",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "i8IXlO357UM",
+              "label": "DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "M5TTmnniNQ8",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Signal",
@@ -959,6 +1258,18 @@
               "url": "nrNWpxFflr4",
               "label": "「SIGNAL -Japanese ver.-」Music Video（Short ver.）",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "NdN5miwhrbc",
+              "label": "DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "9LhPt80mXBY",
+              "label": "CD Audio",
+              "official": false
             }
           ]
         }
@@ -1070,6 +1381,12 @@
               "url": "GoLvhh89law",
               "label": "LIKEY, - LIKEY (Part Changed Ver.) @2017 MBC Music Festival",
               "official": true
+            },
+            {
+              "kind": "special",
+              "url": "cEP_o68RBv8",
+              "label": "Fan Chant Guide",
+              "official": false
             }
           ]
         },
@@ -1290,6 +1607,12 @@
               "official": true
             },
             {
+              "kind": "special",
+              "url": "o2PHqq19ufM",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
               "kind": "dance",
               "url": "bRveOotrnFA",
               "label": "Heart Shaker Dance Video (Practice Room Ver.)",
@@ -1328,6 +1651,12 @@
               "kind": "mv",
               "url": "gfKPzQN_9ng",
               "label": "Merry & Happy 2022ver. - Mini M/V",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "TtJuizOLRTY",
+              "label": "Cheering Guide",
               "official": true
             },
             {
@@ -1377,6 +1706,12 @@
               "url": "76-KTVPm7XA",
               "official": true,
               "label": "Dance Practice ver."
+            },
+            {
+              "kind": "special",
+              "url": "PeqQrz1nedc",
+              "label": "Cheering Guide (Japanese subs)",
+              "official": false
             },
             {
               "kind": "live",
@@ -1442,12 +1777,6 @@
               "official": true
             },
             {
-              "kind": "special",
-              "url": "3X4Izhcszcg",
-              "label": "Fan Chant Guide",
-              "official": false
-            },
-            {
               "kind": "dance",
               "url": "WhHEQ-W3x5Y",
               "label": "Dance Video",
@@ -1476,6 +1805,18 @@
               "url": "M83nVWOlQ0k",
               "label": "＜THIS IS FOR＞ WORLD TOUR IN JAPAN 「What is Love?」@ TOKYO DOME",
               "official": true
+            },
+            {
+              "kind": "special",
+              "url": "3X4Izhcszcg",
+              "label": "Fan Chant Guide",
+              "official": false
+            },
+            {
+              "kind": "special",
+              "url": "d3fDe8RSpzk",
+              "label": "Fanchant Lyrics",
+              "official": false
             },
             {
               "kind": "performance",
@@ -1624,7 +1965,8 @@
               "kind": "live",
               "url": "PAh3xTo4TQo",
               "label": "「Wake me up」 FHD। DreamDay concert at Tokyo Dome",
-              "official": false
+              "official": false,
+              "mustWatch": true
             },
             {
               "kind": "live",
@@ -1969,6 +2311,12 @@
               "label": "Dance Practice ver."
             },
             {
+              "kind": "special",
+              "url": "PeqQrz1nedc",
+              "label": "Cheering Guide (Japanese subs)",
+              "official": false
+            },
+            {
               "kind": "live",
               "url": "eI5U-bMhVpc",
               "label": "「Candy pop」 FHD। 1st ARENA TOUR 2018 BDZ",
@@ -2032,6 +2380,12 @@
               "official": false
             },
             {
+              "kind": "live",
+              "url": "wFpinRKPYnw",
+              "label": "1st ARENA TOUR 2018 BDZ",
+              "official": false
+            },
+            {
               "kind": "lyric",
               "url": "NVUZ3uD4xDw",
               "label": "『トゥワイス』- Say it again (Color coded Kan/Rom/Eng lyrics)",
@@ -2060,7 +2414,8 @@
               "kind": "live",
               "url": "PAh3xTo4TQo",
               "label": "「Wake me up」 FHD। DreamDay concert at Tokyo Dome",
-              "official": false
+              "official": false,
+              "mustWatch": true
             },
             {
               "kind": "live",
@@ -2560,13 +2915,38 @@
               "url": "N7MKlhS2ysU",
               "label": "「LIKEY -Japanese ver.-」Music Video",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "y7GZQM0PEec",
+              "label": "DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "kCeVcrBW_qU",
+              "label": "CD Audio",
+              "official": false
             }
           ]
         },
         {
           "title": "Heart Shaker",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "8bxzEM607To",
+              "label": "DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "rnmnsiyhClE",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
         },
         {
           "title": "What Is Love?",
@@ -2584,18 +2964,56 @@
               "label": "181221 Music Station Super Live - BDZ + TT (Japanese Ver.) + What Is Love? (Japanese Ver.)",
               "official": false,
               "thumb": "https://p.bstarstatic.com/ugc/0ffbd51a429e50852fcb5358602e0b69.jpg@640w_360h.webp"
+            },
+            {
+              "kind": "live",
+              "url": "-q4c6r-Rmj4",
+              "label": "DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "uFzararaxow",
+              "label": "CD Audio",
+              "official": false
             }
           ]
         },
         {
           "title": "Dance the Night Away",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "UbyIql_a_5M",
+              "label": "DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "viG5M8kEbfs",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Yes or Yes",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "live",
+              "url": "sCW-N6qOlTU",
+              "label": "DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "vvDGO56tnQg",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -3315,6 +3733,12 @@
               "official": true
             },
             {
+              "kind": "special",
+              "url": "vnkqgoiDRpI",
+              "label": "M/V Reaction",
+              "official": true
+            },
+            {
               "kind": "dance",
               "url": "xiMNWJr8J1w",
               "label": "MORE & MORE Dance Practice Video",
@@ -3486,6 +3910,12 @@
               "label": "Special Stage"
             },
             {
+              "kind": "special",
+              "url": "9-z8n6h_Jfk",
+              "label": "Cheering Guide (Japanese)",
+              "official": false
+            },
+            {
               "kind": "live",
               "url": "sbtLf7emcYE",
               "label": "[4K] TWICE 「Fanfare」 @ Nissan Stadium",
@@ -3514,7 +3944,14 @@
         {
           "title": "The Best Thing I Ever Did",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "J1ZTTljP_fA",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Fancy",
@@ -3525,13 +3962,26 @@
               "url": "6LbWN3FVfqI",
               "label": "「FANCY -Japanese ver.-」Music Video",
               "official": true
+            },
+            {
+              "kind": "audio",
+              "url": "M3RF_aZCGhk",
+              "label": "CD Audio",
+              "official": false
             }
           ]
         },
         {
           "title": "Feel Special",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "Q5lnR14V39Y",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
         },
         {
           "title": "More & More",
@@ -3542,18 +3992,38 @@
               "url": "PPZ3qFIOp_c",
               "label": "「MORE & MORE -Japanese ver.-」Music Video（Short ver.）",
               "official": true
+            },
+            {
+              "kind": "audio",
+              "url": "3GRxyQsV3CM",
+              "label": "CD Audio",
+              "official": false
             }
           ]
         },
         {
           "title": "Stuck in My Head",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "jKkT6YuhICc",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
         },
         {
           "title": "21:29",
           "note": "Japanese ver.",
-          "videos": [],
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "JJRhCOHu3CY",
+              "label": "CD Audio",
+              "official": false
+            }
+          ],
           "writtenBy": "all members"
         }
       ]
@@ -3671,9 +4141,21 @@
               "official": true
             },
             {
+              "kind": "performance",
+              "url": "BhC-VylUEK8",
+              "label": "UP NO MORE @ Show! Music Core | MBC 201031",
+              "official": true
+            },
+            {
               "kind": "live",
               "url": "-w7DTBNisFA",
               "label": "「UP NO MORE」4TH WORLD TOUR III IN JAPAN (OT9)",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "6lhCxvi0h3Y",
+              "label": "4TH WORLD TOUR III in Seoul",
               "official": false
             },
             {
@@ -4194,6 +4676,12 @@
               "official": true
             },
             {
+              "kind": "special",
+              "url": "0FALBzRyod0",
+              "label": "M/V Reaction",
+              "official": true
+            },
+            {
               "kind": "dance-performance",
               "url": "VEwqQ5Z-rsQ",
               "label": "[릴레이댄스] TWICE (트와이스) - Alcohol-Free (4K)",
@@ -4321,9 +4809,27 @@
           "note": "English ver.",
           "videos": [
             {
+              "kind": "audio",
+              "url": "bD9tdXCq3mk",
+              "label": "CD Audio",
+              "official": false
+            },
+            {
               "kind": "lyric",
               "url": "8sSvOeKhWDc",
               "label": "Cry For Me (English Ver.) (Lyrics)",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Alcohol-Free",
+          "note": "Instrumental, physical edition only",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "d5XHagt3wQs",
+              "label": "CD Audio",
               "official": false
             }
           ]
@@ -4539,6 +5045,12 @@
               "label": "Special Stage"
             },
             {
+              "kind": "special",
+              "url": "9-z8n6h_Jfk",
+              "label": "Cheering Guide (Japanese)",
+              "official": false
+            },
+            {
               "kind": "live",
               "url": "sbtLf7emcYE",
               "label": "[4K] TWICE 「Fanfare」 @ Nissan Stadium",
@@ -4734,6 +5246,12 @@
             {
               "kind": "mv",
               "url": "vPwaXytZcgI",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "xFBvfk4Ul-Q",
+              "label": "Cheering Guide",
               "official": true
             },
             {
@@ -5047,6 +5565,12 @@
           "note": "Korean ver., physical edition only",
           "videos": [
             {
+              "kind": "audio",
+              "url": "FHAtgUP_DEc",
+              "label": "CD Audio",
+              "official": false
+            },
+            {
               "kind": "lyric",
               "url": "rIP1l6JFEts",
               "label": "THE FEELS (Korean Ver.) Lyrics [Color Coded_Han_Rom_Eng]",
@@ -5185,17 +5709,38 @@
         {
           "title": "I Can't Stop Me",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "NJFdCXaKBAQ",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Cry for Me",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "JZXvmYwe7fc",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Alcohol-Free",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "i6Nt8-X1VQY",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Scientist",
@@ -5206,6 +5751,12 @@
               "url": "7MHlhHaLcTA",
               "label": "「SCIENTIST -Japanese ver.-」Music Video",
               "official": true
+            },
+            {
+              "kind": "audio",
+              "url": "90j8jN3HfB8",
+              "label": "CD Audio",
+              "official": false
             }
           ]
         }
@@ -5281,6 +5832,12 @@
               "official": true
             },
             {
+              "kind": "special",
+              "url": "6lvYvZQQ6hU",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
               "kind": "dance",
               "url": "_c4cKLYD28o",
               "label": "NAYEON POP! Choreography Video",
@@ -5321,6 +5878,12 @@
               "url": "Xe3YBFGKXlk",
               "label": "NAYEON POP! Live @ 2024 WATERBOMB SEOUL",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "n03Vpulrb1Y",
+              "label": "READY TO BE in Fukuoka, Fukuoka PayPay Dome",
+              "official": false
             }
           ]
         },
@@ -5731,6 +6294,12 @@
               "kind": "special",
               "url": "ulopgxJASwI",
               "label": "Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "NnnVBSV0u94",
+              "label": "M/V Reaction",
               "official": true
             },
             {
@@ -6519,6 +7088,12 @@
               "official": true
             },
             {
+              "kind": "special",
+              "url": "0M2bZCiwnKI",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
               "kind": "dance",
               "url": "TtRBKXZbGsU",
               "label": "JIHYO Killin Me Good Choreography Video (One take Ver.)",
@@ -6559,6 +7134,12 @@
               "url": "4vbgbWXylZw",
               "label": "Killin' Me Good & Room (One Take ver.) - it's Live band session",
               "official": true
+            },
+            {
+              "kind": "live",
+              "url": "55DT7qIWs0Q",
+              "label": "READY TO BE in Fukuoka, Fukuoka PayPay Dome",
+              "official": false
             }
           ]
         },
@@ -7208,6 +7789,12 @@
               "kind": "mv",
               "url": "oUZttxRcPZw",
               "label": "NAYEON ABCD M/V",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "aBiSoLKFPnc",
+              "label": "Cheering Guide",
               "official": true
             },
             {
@@ -8487,17 +9074,186 @@
         {
           "title": "Talk That Talk",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "hfSWZC5oB_Y",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
         },
         {
           "title": "Set Me Free",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "n43pWSQWP1o",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
         },
         {
           "title": "One Spark",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "tSyFUsnBEcQ",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Strategy",
+          "note": "Physical edition only, English",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "Sz_wWzgh-vQ",
+              "official": true
+            },
+            {
+              "kind": "mv",
+              "url": "bpiyH00cqS8",
+              "label": "M/V (TWICE-TRATEGY ver.)",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "Z6Fc5TYih3M",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "h5CwaVjF_78",
+              "label": "Strategy Choreography Video (Moving ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "SboYuhJZYK4",
+              "label": "Strategy Choreography Video (Fix ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "1I0lzeXajzI",
+              "label": "[릴레이댄스] TWICE(트와이스) - Strategy (4K)",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "LcV0eAgCSgw",
+              "label": "Strategy (4K) | STUDIO CHOOM ORIGINAL",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "f4VCRBWNvms",
+              "label": "Strategy (with Lee Young-ji) @ The Seasons: Lee Young-ji's Rainbow 241206",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "qgHlUeOkAo4",
+              "label": "Music Bank One-Take 4K",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "zHqxnAttDJA",
+              "label": "Strategy @ The Tonight Show Starring Jimmy Fallon",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "PrkNZRd9G88",
+              "label": "Strategy Special Stage",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "uOUGjkXFXEY",
+              "label": "Strategy @ Show! Music Core 241215",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.youtube.com/watch?v=2rwrOtpQCl4&t=1554",
+              "label": "Strategy @ IU's Palette Ep.30 (from 25:54)",
+              "official": true
+            },
+            {
+              "kind": "audio",
+              "url": "CtffR2sMk28",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "I Got You",
+          "note": "Physical edition only, English",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "haf67eKF0uo",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "fwPjD-jFsls",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "CQJwo_zguKU",
+              "label": "I GOT YOU - TWICE [Music Bank] | KBS WORLD TV 240301",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "0r14sdOtdFg",
+              "label": "I GOT YOU 인기가요 inkigayo 20240303",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "NhmzKgaoLX0",
+              "label": "Live Clip",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "rlic9qU9avw",
+              "label": "I GOT YOU Live Stage @ TWICE 5TH WORLD TOUR READY TO BE IN MEXICO CITY",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "lB8XI1PCjFQ",
+              "label": "I GOT YOU @ Amazon Music Live",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "blmxjsWUQkI",
+              "label": "[4K] TWICE 「I GOT YOU」 @ Nissan Stadium",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "rQhP2u9Sx8E",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
         }
       ]
     },
@@ -9427,6 +10183,12 @@
               "official": false
             },
             {
+              "kind": "live",
+              "url": "nYdHNYr-UFU",
+              "label": "READY TO BE in Fukuoka, Fukuoka PayPay Dome",
+              "official": false
+            },
+            {
               "kind": "lyric",
               "url": "YT3XSzybI84",
               "label": "CHAEYOUNG (TWICE) My Guitar Lyrics (채영 내 기타 가사) [Color Coded Han_Rom_E",
@@ -9439,7 +10201,14 @@
         {
           "title": "Lonely Doll Waltz",
           "note": "Physical edition only",
-          "videos": [],
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "LPW5w_EnZNk",
+              "label": "CD Audio",
+              "official": false
+            }
+          ],
           "composedBy": "Chaeyoung"
         }
       ]
@@ -10239,14 +11008,1752 @@
       "type": "Compilation",
       "released": "2026-08-26",
       "cover": "assets/img/covers/hash-best-2015-2025.jpg",
-      "note": "10th anniversary best album. Tracklist still to be filled in.",
+      "note": "10th anniversary best album. Discs 1–2 collect the Korean title tracks, discs 3–4 the Japanese versions from #TWICE to #TWICE5.",
       "links": {
         "spotify": "https://open.spotify.com/album/0xX14LV8P8ZI2GZZNjHsqx",
         "appleMusic": "https://music.apple.com/ph/album/twice-best-album-best-2015-2025-japanese-ver/6803033398",
         "youtubeMusic": "",
         "melon": ""
       },
-      "tracks": []
+      "tracks": [
+        {
+          "title": "Like Ooh-Ahh",
+          "titleKo": "OOH-AHH하게",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "https://www.youtube.com/watch?v=0rtV5esQT6I",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "CtE2MauDkrs",
+              "label": "M/V Dance Ver.",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "vYkGpOeqp4g",
+              "label": "Debut Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "904UMBcnaC4",
+              "label": "Live Stage @ 2025 FANMEETING [10VE UNIVERSE]",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "ane_LCWTvF8",
+              "label": "Fan Chant Guide",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Cheer Up",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "c7rCyll5AeY",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "kATqAHOIOSw",
+              "label": "Avengers Ver.",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "t9ETveuWsaU",
+              "label": "요술봉 Ver. (Magic Wand)",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "L7_i-r9mo9w",
+              "label": "@ STADIUM",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "7T4wxA2BGTo",
+              "label": "Dance Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "1Kg4yomNEgs",
+              "label": "Comeback Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "W0Ryc34rNe8",
+              "label": "Akaraka 2019",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "MmEqSLf4o9c",
+              "label": "Fan Chant Guide",
+              "official": false
+            },
+            {
+              "kind": "special",
+              "url": "yeSGjeM3PXQ",
+              "label": "Fanchant",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "m3o_jC6sObE",
+              "label": "Akaraka 2016 · crowd sing-along",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "TT",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "ePpPVE-GGJw",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "9uypQGzzhns",
+              "label": "Dance Practice Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "aIotMK_TxWk",
+              "label": "Comeback Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "LwnV0CCbpWg",
+              "label": "Fan Chant Guide",
+              "official": false
+            },
+            {
+              "kind": "performance",
+              "url": "0kFysgVv9ZQ",
+              "label": "【TVPP】 – TT, – 티티 @Show Music Core",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "M9x1QlOgv7A",
+              "label": "@ Nissan Stadium (4K)",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Knock Knock",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "8A2t_tAjMz8",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "idOQFSu_4Ok",
+              "label": "Dance Practice Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "PVpMNQVE8dQ",
+              "label": "Comeback Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "d1H9MXkbSuM",
+              "label": "Fanchant",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Signal",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "VQtonf1fv_s",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "EpMwiqW8k8o",
+              "label": "Dance Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "TRijPlol9D8",
+              "label": "Comeback Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "8e8g_arMluI",
+              "label": "2017 KBS가요대축제 Music Festival - - Intro+SIGNAL (Intro+SIGNAL - ). 20171",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "uuJOMyCMhtI",
+              "label": "170530 Tei's Dreaming Radio - Radio Live",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "U85I52U0AhM",
+              "label": "Fanchant",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Likey",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "V2hlQkVJZhE",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "aHN1dK2UxE4",
+              "label": "Dance Video (NO CG Ver.)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "bUrQbt1jR4A",
+              "label": "Comeback Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "GoLvhh89law",
+              "label": "LIKEY, - LIKEY (Part Changed Ver.) @2017 MBC Music Festival",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "cEP_o68RBv8",
+              "label": "Fan Chant Guide",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Heart Shaker",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "rRzxEiBLQCA",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "o2PHqq19ufM",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "bRveOotrnFA",
+              "label": "Heart Shaker Dance Video (Practice Room Ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "mtoZRqCvucc",
+              "label": "Heart Shaker Dance Video (Studio Ver.)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "Tw9TPoToEvw",
+              "label": "Music Bank Stage",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "jH2l1CLSh9I",
+              "label": "Heart shaker /remix cut ver./ (Twicelights In Seoul)",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "What Is Love?",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "i0p1bmr0EmE",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "WhHEQ-W3x5Y",
+              "label": "Dance Video",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "JPPqAw4q95A",
+              "label": "What is Love? Dance Video (for ONCE Ver.)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "y9DxUmPM8pQ",
+              "label": "Comeback Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "r0g3wa9cJPs",
+              "label": "What is Love? [Music Bank HOT Stage / 2018.04.13]",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "M83nVWOlQ0k",
+              "label": "＜THIS IS FOR＞ WORLD TOUR IN JAPAN 「What is Love?」@ TOKYO DOME",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "3X4Izhcszcg",
+              "label": "Fan Chant Guide",
+              "official": false
+            },
+            {
+              "kind": "special",
+              "url": "d3fDe8RSpzk",
+              "label": "Fanchant Lyrics",
+              "official": false
+            },
+            {
+              "kind": "performance",
+              "url": "qY22HPfafSQ",
+              "label": "Stage Mix (교차편집)",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Dance the Night Away",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "Fm5iP0S1z9w",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "e5Cq0jGvNpw",
+              "label": "Fan Chant Guide",
+              "official": false
+            },
+            {
+              "kind": "dance",
+              "url": "mr5bu2cxdzU",
+              "label": "Dance Video (NEW JYP Practice Room Ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "6bT2CA9DS6o",
+              "label": "Dance The Night Away Dance Video (Studio Ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "R3Mrl-rthso",
+              "label": "[릴레이댄스] TWICE (트와이스) - Dance The Night Away @KCON18LA",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "_eQmGhvr5U4",
+              "label": "Music Bank Stage",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "i9zVakPBcGM",
+              "label": "[TWICE - Dance The Night Away] KPOP TV Show | M COUNTDOWN 180719 EP.579",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "_A0vSZCpzhc",
+              "label": "「Dance The Night Away (Remix)」WORLD TOUR 2019 TWICELIGHTS in SEOUL",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Yes or Yes",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "mAKsZ26SabQ",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "M0iKJBocXEQ",
+              "label": "Lyrics + Fanchant",
+              "official": false
+            },
+            {
+              "kind": "dance",
+              "url": "Nl4BJ2TDmWE",
+              "label": "Dance Video",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "2z5-BPnYmiE",
+              "label": "[릴레이댄스] TWICE (트와이스) - YES or YES",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "r-vLGzfFKVA",
+              "label": "Music Bank Stage",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "xxq4VeSB2yM",
+              "label": "[TWICE - YES or YES] KPOP TV Show | M COUNTDOWN 181115 EP.596",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "The Best Thing I Ever Did",
+          "titleKo": "올해 제일 잘한 일",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "CfUGjK6gGgs",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "Vt-OlpYtXbc",
+              "label": "「The best thing I ever did」 FHD। Dream Day concert at Tokyo Dome",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "c-CMdhojphc",
+              "label": "[4K60] The Best Thing I Ever Did ENCORE 4TH WORLD TOUR III (Bluray)",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Fancy",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "kOHB85vDuow",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "QRTB4hUJNbI",
+              "label": "Lyrics + Fanchant",
+              "official": false
+            },
+            {
+              "kind": "dance",
+              "url": "iRw4kL1CMI8",
+              "label": "Dance Practice Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "Jvhq3JAV_c8",
+              "label": "Comeback Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "AhUkH5p114s",
+              "label": "[TWICE - FANCY] 2019 MAMA Nominees Special│ M COUNTDOWN 191128 EP.644",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "QsV25Q6VldA",
+              "label": "FANCY @인기가요 Inkigayo 20190428",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Feel Special",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "3ymwOvzhwHs",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "mocGxuUoy_Y",
+              "label": "ONCE & TWICE Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "yChy1KRIWAY",
+              "label": "Dance Practice Video (COMPLETE Ver.)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "1K_FbN_8UqU",
+              "label": "Music Bank Stage",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "2iM33mGY8cw",
+              "label": "Feel Special [Music Bank COMEBACK / 2019.09.27]",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "WEiyz8rUuEQ",
+              "label": "[TWICE - Feel Special] 2019 MAMA Nominees Special│ M COUNTDOWN 191121 ",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "7e7JQPTSxPk",
+              "label": "Feel Special in Marine Messe Fukuoka",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "More & More",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "mH0_XpSHkZo",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "vnkqgoiDRpI",
+              "label": "M/V Reaction",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "xiMNWJr8J1w",
+              "label": "MORE & MORE Dance Practice Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "gWpoYFYGwL4",
+              "label": "[TWICE - MORE & MORE] KPOP TV Show | M COUNTDOWN 200611 EP.669",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "DdGANagiCPM",
+              "label": "INTRO(Feel Special) + MORE & MORE - TWICE(트와이스) [뮤직뱅크/Music Bank] 2020",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "AW0eHUT-MCI",
+              "label": "[제35회 골든디스크] 트와이스 - CRY FOR ME + MORE & MORE♪｜JTBC 210110 방송",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "MHbm4TvQGwg",
+              "label": "SPECIAL LIVE MORE & MORE",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "I Can't Stop Me",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "CM4CkVFmTds",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "rhMm79NZQTw",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "pMQjg5b-3gE",
+              "label": "Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "TPpmOzpHiE0",
+              "label": "I CANT STOP ME Dance Practice Video",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "i9pJx9aaDfM",
+              "label": "[릴레이댄스] TWICE (트와이스) - I CANT STOP ME (4K)",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "vWAC8Wkt9ok",
+              "label": "[BE ORIGINAL] TWICE(트와이스) I CANT STOP ME (4K)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "TjPGouR4FzQ",
+              "label": "Comeback Stage @ M COUNTDOWN",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "I9nYSumuaLA",
+              "label": "[4K] I CANT STOP ME Colbert Late Show #PlayAtHome Performance",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "E50QmZyX3zI",
+              "label": "I CANT STOP ME(DISCO Ver.), MBC 201231 방송",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "qNlMt1eV03w",
+              "label": "20210131 TWICE (트와이스) OT9 I CANT STOP ME; ALL MEMBERS PERFORM LIVE!@20",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Cry for Me",
+          "videos": [
+            {
+              "kind": "dance",
+              "url": "nUP0SLPtQgU",
+              "label": "Choreography - 1",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "bkQw-F1QTq4",
+              "label": "Choreography - 2",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "AW0eHUT-MCI",
+              "label": "[제35회 골든디스크] 트와이스 - CRY FOR ME + MORE & MORE♪｜JTBC 210110 방송",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "9KW7hojmoaI",
+              "label": "The Kelly Clarkson Show Performance",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "kI_ocJs88Cw",
+              "label": "201206 TWICE(트와이스) CRY FOR ME [2020 MAMA] [4k 60fps]",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "UuSvyumSnkM",
+              "label": "CRY FOR ME - TWICE 5TH WORLD TOUR READY TO BE in JAPAN, TOKYO (OT9)",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Alcohol-Free",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "XA2YEHn-A8Q",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "t0hYMtM4ZKg",
+              "label": "Alcohol-Free Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "0FALBzRyod0",
+              "label": "M/V Reaction",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "VEwqQ5Z-rsQ",
+              "label": "[릴레이댄스] TWICE (트와이스) - Alcohol-Free (4K)",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "3de64yKeElM",
+              "label": "[BE ORIGINAL] TWICE (트와이스) Alcohol-Free (4K)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "zzUpUEzG_68",
+              "label": "Music Bank Stage",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "FRvPXtvfg1w",
+              "label": "[4K] Alcohol-Free The Ellen DeGeneres Show Full Performance",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "YgaFZsBT9Ls",
+              "label": "Alcohol-Free (Live Performance) | Open Mic",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "71cKKiQUqxE",
+              "label": "Alcohol-Free Lyrics Video",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "The Feels",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "f5_wn8mexmM",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "9j6_KM-uzfY",
+              "label": "Choreography Video (Moving Ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "90mwhuwIQco",
+              "label": "The Feels Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "AWu9aCHZxqY",
+              "label": "[4K] The Feels The Tonight Show Starring Jimmy Fallon Full Performance",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "We3r4OAz_VA",
+              "label": "[4K] The Feels GMA3: What You Need to Know Full Performance",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "2CRISIrpObg",
+              "label": "@ Amazon Music Live",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "MKU_lJI0t40",
+              "label": "The Feels Official Lyrics Video",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Scientist",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "vPwaXytZcgI",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "xFBvfk4Ul-Q",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "hUSqTW21Xl8",
+              "label": "Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "FWjMQ-XY2XY",
+              "label": "SCIENTIST Choreography Video (Moving Ver.)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "sxGpVqn-u1E",
+              "label": "[4K] SCIENTIST MTV Fresh Out Live Full Performance",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "QxnIEg5M0cA",
+              "label": "SCIENTIST [SBS Inkigayo Ep 1117]",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "aO_QjSRVyTE",
+              "label": "SCIENTIST [SBS Inkigayo Ep 1118]",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "o95EyN5LnK8",
+              "label": "[LIVE] TWICE (트와이스) _ SCIENTIST | 사이언티스트 | The Booth | 더 부스 | 라이브 | 4K",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Talk That Talk",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "k6jqx9kZgPM",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "ulopgxJASwI",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "NnnVBSV0u94",
+              "label": "M/V Reaction",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "_hiR58brDz4",
+              "label": "Talk that Talk Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "AkMYPuIWtSo",
+              "label": "Talk that Talk Choreography Video (Moving Ver.)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "pmkWBgayoUk",
+              "label": "Performance Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "a91l68GJK4w",
+              "label": "Talk That Talk @ MTV Fresh Out",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "byUX1UKi4j0",
+              "label": "Talk that Talk | Show! MusicCore | MBC220827방송",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "sON1smkF6_4",
+              "label": "Talk That Talk - TWICE トゥワイス [Music Bank] | KBS WORLD TV 220826",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "p31cVLrrQdE",
+              "label": "TALK THAT TALK | 5TH WORLD TOUR READY TO BE SOFI STADIUM LA 2023",
+              "official": false,
+              "fancam": true
+            },
+            {
+              "kind": "live",
+              "url": "VOuLsiXkUTc",
+              "label": "Talk That Talk Live New York MetLife Stadium July 6 2023",
+              "official": false,
+              "fancam": true
+            }
+          ]
+        },
+        {
+          "title": "Moonlight Sunrise",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "cKlEE_EYuNM",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "-38PwJvhDN0",
+              "label": "Choreography Video (Moving Ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "E1bGxyNLIdQ",
+              "label": "MOONLIGHT SUNRISE Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "jjcRl8Jgd7U",
+              "label": "MOONLIGHT SUNRISE @ Billboard Women In Music Awards 2023",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "LXfS5gTXMOY",
+              "label": "@ Amazon Music Live",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "cEx2M447BJw",
+              "label": "MOONLIGHT SUNRISE Lyric Video",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "bjAnqI7ekIw",
+              "label": "「MOONLIGHT SUNRISE」5TH WORLD TOUR READY TO BE IN JAPAN Fukuoka PayPay ",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Set Me Free",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "w4cTYnOPdNk",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "Elp13qgVgHI",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "mBJ-_US37fI",
+              "label": "SET ME FREE Choreography Video (Moving Ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "sXM5GwksZIY",
+              "label": "SET ME FREE Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "-pbis-MYgcQ",
+              "label": "SET ME FREE Frame Dance",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "qSnlTld85yc",
+              "label": "Performance Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "DGF4AKopPck",
+              "label": "SET ME FREE @ M COUNTDOWN 230316 (first stage)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "CADI2ngpZAk",
+              "label": "SET ME FREE One Take Stage @ Inkigayo 230319",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "o_X-gtP-pxs",
+              "label": "SET ME FREE @ The Tonight Show Starring Jimmy Fallon",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "nMOoxHSe-yM",
+              "label": "Set Me Free @ NBC TODAY Show",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "I Got You",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "haf67eKF0uo",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "fwPjD-jFsls",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "CQJwo_zguKU",
+              "label": "I GOT YOU - TWICE [Music Bank] | KBS WORLD TV 240301",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "0r14sdOtdFg",
+              "label": "I GOT YOU 인기가요 inkigayo 20240303",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "NhmzKgaoLX0",
+              "label": "Live Clip",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "rlic9qU9avw",
+              "label": "I GOT YOU Live Stage @ TWICE 5TH WORLD TOUR READY TO BE IN MEXICO CITY",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "lB8XI1PCjFQ",
+              "label": "I GOT YOU @ Amazon Music Live",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "blmxjsWUQkI",
+              "label": "[4K] TWICE 「I GOT YOU」 @ Nissan Stadium",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "One Spark",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "jCzez_q8si0",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "ChvAoD3-hXA",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "hY-ZMaSlEvg",
+              "label": "ONE SPARK Choreography Video (Moving Ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "67Oe2LWddss",
+              "label": "ONE SPARK Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "4sOiP27Ka9g",
+              "label": "[릴레이댄스] TWICE (트와이스) - ONE SPARK (4K)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "XiwY-syjwm4",
+              "label": "Performance Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "7lUMngFhhdw",
+              "label": "ONE SPARK - TWICE [Music Bank] | KBS WORLD TV 240301",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "OaxfQOLjDiw",
+              "label": "ONE SPARK One Take (4K Bonus Ver.) @ Music Bank 240301",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "wLdpR7guKy8",
+              "label": "ONE SPARK Live Stage @ TWICE 5TH WORLD TOUR READY TO BE ONCE MORE IN L",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "OSKP3RJwoik",
+              "label": "ONE SPARK @ Amazon Music Live",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "1FPBqHdXNrY",
+              "label": "ONE SPARK @ NBC TODAY Show",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Strategy",
+          "artist": "feat. Megan Thee Stallion",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "Sz_wWzgh-vQ",
+              "official": true
+            },
+            {
+              "kind": "mv",
+              "url": "bpiyH00cqS8",
+              "label": "M/V (TWICE-TRATEGY ver.)",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "Z6Fc5TYih3M",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "h5CwaVjF_78",
+              "label": "Strategy Choreography Video (Moving ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "SboYuhJZYK4",
+              "label": "Strategy Choreography Video (Fix ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "1I0lzeXajzI",
+              "label": "[릴레이댄스] TWICE(트와이스) - Strategy (4K)",
+              "official": true
+            },
+            {
+              "kind": "dance-performance",
+              "url": "LcV0eAgCSgw",
+              "label": "Strategy (4K) | STUDIO CHOOM ORIGINAL",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "f4VCRBWNvms",
+              "label": "Strategy (with Lee Young-ji) @ The Seasons: Lee Young-ji's Rainbow 241206",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "qgHlUeOkAo4",
+              "label": "Music Bank One-Take 4K",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "zHqxnAttDJA",
+              "label": "Strategy @ The Tonight Show Starring Jimmy Fallon",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "PrkNZRd9G88",
+              "label": "Strategy Special Stage",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "uOUGjkXFXEY",
+              "label": "Strategy @ Show! Music Core 241215",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.youtube.com/watch?v=2rwrOtpQCl4&t=1554",
+              "label": "Strategy @ IU's Palette Ep.30 (from 25:54)",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "This Is For",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "eHHQaoEW30Q",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "p9spvfXou9M",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "qJVd5WZO8Ao",
+              "label": "Choreography Video (Fix ver.)",
+              "official": true
+            },
+            {
+              "kind": "dance",
+              "url": "hM6eLscqnpI",
+              "label": "THIS IS FOR Choreography Video (Moving ver.)",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "mh_4SYlP-tY",
+              "label": "Music Bank Stage",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "DnZ3O9g_zHc",
+              "label": "THIS IS FOR @ Show! Music Core 250712",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "XeyYcrs7kq8",
+              "label": "THIS IS FOR One Take Stage @ Inkigayo 250713",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "YR1mVK6nqKI",
+              "label": "THIS IS FOR @ Inkigayo 250713",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "rf_858Gcqbk",
+              "label": "THIS IS FOR Live Stage @ THIS IS FOR World Tour in Incheon",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "387tGAU9pNY",
+              "label": "THIS IS FOR @ THIS IS FOR World Tour in Japan, Tokyo Dome",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "vSzq0NxHwx4",
+              "label": "THIS IS FOR Official Lyric Video",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Me+You",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "zqorlX_5oHQ",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "4HlV_5Zof2c",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "gfQcVjbc1Vg",
+              "label": "Live Stage @ 2025 FANMEETING",
+              "official": true
+            }
+          ]
+        },
+        {
+          "title": "Like Ooh-Ahh",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "other",
+              "url": "1iLF3zr5mUM",
+              "label": "「Like OOH-AHH -Japanese ver.-」Making Music Video （short ver.）",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "luawx3A_2bw",
+              "label": "「LIKE OOH-AHH -Japanese ver.-」DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "0o35IXQHVHs",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Cheer Up",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "live",
+              "url": "Dni44Qhjf50",
+              "label": "DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "GdD7fexnPNA",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "TT",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "t35H2BVq490",
+              "label": "TT -Japanese ver.- Music Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2042880413",
+              "label": "181221 Music Station Super Live - BDZ + TT (Japanese Ver.) + What Is Love? (Japanese Ver.)",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/0ffbd51a429e50852fcb5358602e0b69.jpg@640w_360h.webp"
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2049226334",
+              "label": "211224 Music Station Super Live - TT (Japanese Ver.)",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/3b233acbd084675a499630f3e5555f85.jpg@640w_360h.webp"
+            },
+            {
+              "kind": "live",
+              "url": "dIbQNJxSAr4",
+              "label": "DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "GPbWEl6-oWA",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Knock Knock",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "live",
+              "url": "Y4gBtOKozRs",
+              "label": "180912 BDZ Showcase Live Tour 2018",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "i8IXlO357UM",
+              "label": "DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "M5TTmnniNQ8",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Signal",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "nrNWpxFflr4",
+              "label": "「SIGNAL -Japanese ver.-」Music Video（Short ver.）",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "NdN5miwhrbc",
+              "label": "DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "9LhPt80mXBY",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Likey",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "N7MKlhS2ysU",
+              "label": "「LIKEY -Japanese ver.-」Music Video",
+              "official": true
+            },
+            {
+              "kind": "live",
+              "url": "y7GZQM0PEec",
+              "label": "DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "kCeVcrBW_qU",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Heart Shaker",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "live",
+              "url": "8bxzEM607To",
+              "label": "DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "rnmnsiyhClE",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "What Is Love?",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "3zQXMPbK5jU",
+              "label": "「What is Love? -Japanese ver.-」Music Video",
+              "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "https://www.bilibili.tv/en/video/2042880413",
+              "label": "181221 Music Station Super Live - BDZ + TT (Japanese Ver.) + What Is Love? (Japanese Ver.)",
+              "official": false,
+              "thumb": "https://p.bstarstatic.com/ugc/0ffbd51a429e50852fcb5358602e0b69.jpg@640w_360h.webp"
+            },
+            {
+              "kind": "live",
+              "url": "-q4c6r-Rmj4",
+              "label": "DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "uFzararaxow",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Dance the Night Away",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "live",
+              "url": "UbyIql_a_5M",
+              "label": "DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "viG5M8kEbfs",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Yes or Yes",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "live",
+              "url": "sCW-N6qOlTU",
+              "label": "DOME TOUR 2019 Dreamday in TOKYO DOME",
+              "official": false
+            },
+            {
+              "kind": "audio",
+              "url": "vvDGO56tnQg",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "The Best Thing I Ever Did",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "J1ZTTljP_fA",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Fancy",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "6LbWN3FVfqI",
+              "label": "「FANCY -Japanese ver.-」Music Video",
+              "official": true
+            },
+            {
+              "kind": "audio",
+              "url": "M3RF_aZCGhk",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Feel Special",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "Q5lnR14V39Y",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "More & More",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "PPZ3qFIOp_c",
+              "label": "「MORE & MORE -Japanese ver.-」Music Video（Short ver.）",
+              "official": true
+            },
+            {
+              "kind": "audio",
+              "url": "3GRxyQsV3CM",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Stuck in My Head",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "jKkT6YuhICc",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "21:29",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "JJRhCOHu3CY",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "I Can't Stop Me",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "NJFdCXaKBAQ",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Cry for Me",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "JZXvmYwe7fc",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Alcohol-Free",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "i6Nt8-X1VQY",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Scientist",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "7MHlhHaLcTA",
+              "label": "「SCIENTIST -Japanese ver.-」Music Video",
+              "official": true
+            },
+            {
+              "kind": "audio",
+              "url": "90j8jN3HfB8",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Talk That Talk",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "hfSWZC5oB_Y",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "Set Me Free",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "n43pWSQWP1o",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        },
+        {
+          "title": "One Spark",
+          "note": "Japanese ver.",
+          "videos": [
+            {
+              "kind": "audio",
+              "url": "tSyFUsnBEcQ",
+              "label": "CD Audio",
+              "official": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }
