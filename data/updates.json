@@ -1,0 +1,21 @@
+{
+  "section": "Updates",
+  "note": "Posts live in one Markdown file per month, updates/<YYYY-MM>.md; each post starts with a '## YYYY-MM-DD' line (a time after the date is optional). List a month here once it has its first post. Members are tagged from the names in a post's text (a unit such as MISAMO counts as its members); to set them yourself, end the date line with '| Nayeon, Dahyun'. See updates.js for what a post can contain, including pasted Instagram / X / YouTube links.",
+  "memberColors": {
+    "Nayeon": "#49c0ec",
+    "Jeongyeon": "#a3cc54",
+    "Momo": "#e67ea3",
+    "Sana": "#8c79b4",
+    "Jihyo": "#f9cc85",
+    "Mina": "#71c7d4",
+    "Dahyun": "#fefefe",
+    "Chaeyoung": "#e62722",
+    "Tzuyu": "#2253a3"
+  },
+  "units": {
+    "MISAMO": ["Mina", "Sana", "Momo"]
+  },
+  "months": [
+    "2026-09"
+  ]
+}

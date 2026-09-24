@@ -3,25 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TWICE Content Archive</title>
-<meta name="description" content="A fan-made archive of TWICE videos and audio, sorted by era and category.">
+<title>The Candybong Vault · TWICE Archive</title>
+<meta name="description" content="An organized hub for TWICE videos and audio by era and category. Fan-curated, with every link directing to its source on the web.">
 <!-- Cache busting: bump every ?v= together whenever the CSS, JS or the JSON in
      data/ changes, so a browser can't pair new HTML with a stale script or stale
      data the way GitHub Pages' ten minute cache otherwise allows. The scripts
      pass their own ?v= through to the data file they fetch. -->
-<link rel="icon" href="assets/img/favicon.svg?v=170">
-<link rel="stylesheet" href="assets/css/style.css?v=170">
+<link rel="icon" href="assets/img/favicon.svg?v=192">
+<link rel="stylesheet" href="assets/css/style.css?v=192">
 <script>try{var t=localStorage.getItem('twice-archive:theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 </head>
 <body>
 <div class="wrap">
-
   <p class="wip-banner" role="status">🚧 <b>Still in progress.</b> The archive is being filled in — some sections are incomplete, and dates and details may still change.</p>
-
   <header class="site-head">
     <nav class="site-nav">
       <a href="index.html" class="on">Home</a>
       <a href="discography.html">Discography</a>
+      <a href="updates.html">Updates</a>
       <a href="covers.html">Melody Project</a>
       <a href="live.html">Concerts &amp; Live</a>
       <a href="vlogs.html">Vlogs</a>
@@ -30,8 +29,8 @@
       <a href="donate.html">Donate</a>
       <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch theme">🌙</button>
     </nav>
-    <h1>TWICE Content Archive</h1>
-    <p>Videos and audio, gathered by era and category. Fan-made — every link points to its original source.</p>
+    <h1 class="site-title">The Candybong Vault</h1>
+    <p>An organized hub for TWICE videos and audio by era and category. Fan-curated, with every link directing to its source on the web.</p>
   </header>
 
   <!-- Starting points for someone new to TWICE. Each card links straight to the
@@ -55,6 +54,30 @@
         </span>
       </a>
     </div>
+
+    <!-- Other fan-made sites worth a visit. Add another <a class="site-link">
+         to the row to list one more. -->
+    <div class="intro-sites">
+      <h3>More fan sites</h3>
+      <div class="site-links">
+        <a class="site-link" href="https://twflix.carrd.co/" target="_blank" rel="noopener">
+          <span class="ico">🍿</span>
+          <span class="txt">
+            <b>TWflix</b>
+            <small>Netflix-style hub for TWICE shows, concerts &amp; more · by @chaerockstar</small>
+          </span>
+          <span class="go" aria-hidden="true">↗</span>
+        </a>
+        <a class="site-link" href="https://sites.google.com/view/dahyunflix/intro" target="_blank" rel="noopener">
+          <span class="ico">🎞️</span>
+          <span class="txt">
+            <b>Dahyunflix</b>
+            <small>Dahyun's content, all in one place · EN · ES · PT</small>
+          </span>
+          <span class="go" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </div>
   </section>
 
   <div class="hub-grid">
@@ -64,6 +87,13 @@
       <p>Every release, with M/Vs, lyric videos, audio and performances filed per track.</p>
       <span class="tag">103 releases · KR · JP · Solo · OST</span>
       <span class="hub-progress" data-key="twice-archive:discography-progress" data-noun="releases" hidden></span>
+    </a>
+
+    <a class="hub-card" href="updates.html">
+      <span class="emoji">📰</span>
+      <h2>Updates</h2>
+      <p>The latest from TWICE — releases, photos, announcements and appearances, posted as they happen.</p>
+      <span class="tag">Updated as it happens</span>
     </a>
 
     <a class="hub-card" href="covers.html">
@@ -135,7 +165,7 @@
   </footer>
 
 </div>
-<script src="assets/js/theme.js?v=170"></script>
+<script src="assets/js/theme.js?v=192"></script>
 <script>
 /* Watched progress on the Discography card. The discography page leaves its
    totals in localStorage each time it counts them, so the hub can show them

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" data-accent="covers">
+<html lang="en" data-accent="updates">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Melody Project &amp; Cover Project · The Candybong Vault</title>
-<meta name="description" content="TWICE members' Melody Project videos and every other cover, filed by year.">
+<title>Updates · The Candybong Vault</title>
+<meta name="description" content="The latest from TWICE — releases, photos, announcements and appearances, posted as they happen.">
 <link rel="icon" href="assets/img/favicon.svg?v=192">
 <link rel="stylesheet" href="assets/css/style.css?v=192">
 <script>try{var t=localStorage.getItem('twice-archive:theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
@@ -18,8 +18,8 @@
     <nav class="site-nav">
       <a href="index.html">Home</a>
       <a href="discography.html">Discography</a>
-      <a href="updates.html">Updates</a>
-      <a href="covers.html" class="on">Melody Project</a>
+      <a href="updates.html" class="on">Updates</a>
+      <a href="covers.html">Melody Project</a>
       <a href="live.html">Concerts &amp; Live</a>
       <a href="vlogs.html">Vlogs</a>
       <a href="twicetv.html">TWICE TV</a>
@@ -27,36 +27,35 @@
       <a href="donate.html">Donate</a>
       <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch theme">🌙</button>
     </nav>
-    <h1>Melody Project &amp; Cover Project</h1>
-    <p>Members covering other artists' songs — the Melody Project videos, and every other cover, by year.</p>
+    <h1>Updates</h1>
+    <p>The latest from TWICE — releases, photos, announcements and appearances, posted as they happen.</p>
   </header>
 
   <div class="toolbar">
     <div class="row">
       <input type="text" class="search" id="search"
-             placeholder="🔍  Search a song, an artist or a member — “Snowman”, “Sia”, “Mina”…">
-      <span class="progress-pill" id="progress"></span>
+             placeholder="🔍  Search a member, an event or a date — “MISAMO”, “Milan”, “September 22”…">
+      <span class="progress-pill" id="count"></span>
     </div>
-    <div class="row tabs" id="series"><!-- Melody Project / Performance Project / Cover Project chips, built by covers.js --></div>
-    <div class="row" id="members"><!-- member chips, built by covers.js --></div>
-    <div class="row" id="years"><!-- year chips, built by covers.js --></div>
+    <div class="row" id="members" hidden><!-- member chips, built by updates.js --></div>
   </div>
 
-  <div id="list"></div>
+  <div class="update-stream" id="stream"></div>
+  <p class="empty-state" id="none" hidden>No posts match — try another word or member.</p>
 
-  <div class="reset-row">
-    <button type="button" class="chip danger" id="resetProgress">Reset watched progress</button>
+  <div class="more-row">
+    <button type="button" class="chip" id="more" hidden>Show older posts</button>
   </div>
 
   <footer class="site-foot">
-    “Watched” marks are stored in this browser only — they never leave your device, and
-    clearing site data resets them.
+    Embedded posts load from Instagram, X and YouTube and stay with their original accounts —
+    if a post is taken down, only its link remains here.
   </footer>
 
 </div>
 
 <script src="assets/js/core.js?v=192"></script>
-<script src="assets/js/covers.js?v=192"></script>
+<script src="assets/js/updates.js?v=192"></script>
 <script src="assets/js/theme.js?v=192"></script>
 </body>
 </html>

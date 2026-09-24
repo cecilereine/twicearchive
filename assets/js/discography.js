@@ -189,6 +189,10 @@ function renderPanel(album) {
   let trail = visibleAlbums();
   if (!trail.some(a => a.id === album.id)) trail = state.data.albums;
   const at = trail.findIndex(a => a.id === album.id);
+  /* An SVG chevron rather than ‹ ›, which sit off-centre in the circle. */
+  const chevron = d => `<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"
+      fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+      stroke-linejoin="round"><path d="${d}"/></svg>`;
   const arrow = (a, id, dir, glyph) => a
     ? `<button type="button" class="panel-arrow" id="${id}" data-go="${escapeHtml(a.id)}"
           title="${escapeHtml(a.title)}" aria-label="${dir}: ${escapeHtml(a.title)}">${glyph}</button>`
@@ -212,8 +216,6 @@ function renderPanel(album) {
         ${region}
       </div>
       <div class="panel-nav">
-        ${arrow(trail[at - 1], 'panelPrev', 'Previous release', '‹')}
-        ${arrow(trail[at + 1], 'panelNext', 'Next release', '›')}
         <button type="button" class="panel-close" id="panelClose" aria-label="Close">&times;</button>
       </div>
     </div>
@@ -221,8 +223,14 @@ function renderPanel(album) {
       ${tracks.map((t, i) => trackRow(t, i + 1)).join('')}
     </div>`;
 
+  /* The arrows float beside the panel rather than inside it, so they stay put
+     while a long tracklist scrolls. */
+  el('panelArrows').innerHTML =
+    arrow(trail[at - 1], 'panelPrev', 'Previous release', chevron('M15 18l-6-6 6-6')) +
+    arrow(trail[at + 1], 'panelNext', 'Next release', chevron('M9 18l6-6-6-6'));
+
   el('panelClose').addEventListener('click', closePanel);
-  for (const b of el('panelBody').querySelectorAll('[data-go]'))
+  for (const b of document.querySelectorAll('#panelBody [data-go], #panelArrows [data-go]'))
     b.addEventListener('click', () => goTo(b.dataset.go));
   /* One click for the whole release; once everything is watched it undoes. The
      grid's per-release counts refresh when the panel closes. */

@@ -1,7 +1,7 @@
 {
   "section": "Discography",
   "note": "Korean, Japanese and solo releases share this file; each carries a \"category\" so the page can filter between them.",
-  "updated": "2026-09-21",
+  "updated": "2026-09-25",
   "categories": [
     {
       "key": "korean",
@@ -905,7 +905,14 @@
         {
           "title": "Like Ooh-Ahh",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "other",
+              "url": "1iLF3zr5mUM",
+              "label": "「Like OOH-AHH -Japanese ver.-」Making Music Video （short ver.）",
+              "official": true
+            }
+          ]
         },
         {
           "title": "Cheer Up",
@@ -946,7 +953,14 @@
         {
           "title": "Signal",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "nrNWpxFflr4",
+              "label": "「SIGNAL -Japanese ver.-」Music Video（Short ver.）",
+              "official": true
+            }
+          ]
         }
       ]
     },
@@ -1428,6 +1442,12 @@
               "official": true
             },
             {
+              "kind": "special",
+              "url": "3X4Izhcszcg",
+              "label": "Fan Chant Guide",
+              "official": false
+            },
+            {
               "kind": "dance",
               "url": "WhHEQ-W3x5Y",
               "label": "Dance Video",
@@ -1718,6 +1738,12 @@
               "kind": "mv",
               "url": "Fm5iP0S1z9w",
               "official": true
+            },
+            {
+              "kind": "special",
+              "url": "e5Cq0jGvNpw",
+              "label": "Fan Chant Guide",
+              "official": false
             },
             {
               "kind": "dance",
@@ -2268,6 +2294,12 @@
               "official": true
             },
             {
+              "kind": "special",
+              "url": "M0iKJBocXEQ",
+              "label": "Lyrics + Fanchant",
+              "official": false
+            },
+            {
               "kind": "dance",
               "url": "Nl4BJ2TDmWE",
               "label": "Dance Video",
@@ -2522,7 +2554,14 @@
         {
           "title": "Likey",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "N7MKlhS2ysU",
+              "label": "「LIKEY -Japanese ver.-」Music Video",
+              "official": true
+            }
+          ]
         },
         {
           "title": "Heart Shaker",
@@ -2533,6 +2572,12 @@
           "title": "What Is Love?",
           "note": "Japanese ver.",
           "videos": [
+            {
+              "kind": "mv",
+              "url": "3zQXMPbK5jU",
+              "label": "「What is Love? -Japanese ver.-」Music Video",
+              "official": true
+            },
             {
               "kind": "performance",
               "url": "https://www.bilibili.tv/en/video/2042880413",
@@ -2577,6 +2622,12 @@
               "kind": "mv",
               "url": "kOHB85vDuow",
               "official": true
+            },
+            {
+              "kind": "special",
+              "url": "QRTB4hUJNbI",
+              "label": "Lyrics + Fanchant",
+              "official": false
             },
             {
               "kind": "dance",
@@ -2820,6 +2871,12 @@
             {
               "kind": "mv",
               "url": "3ymwOvzhwHs",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "mocGxuUoy_Y",
+              "label": "ONCE & TWICE Cheering Guide",
               "official": true
             },
             {
@@ -3479,7 +3536,14 @@
         {
           "title": "More & More",
           "note": "Japanese ver.",
-          "videos": []
+          "videos": [
+            {
+              "kind": "mv",
+              "url": "PPZ3qFIOp_c",
+              "label": "「MORE & MORE -Japanese ver.-」Music Video（Short ver.）",
+              "official": true
+            }
+          ]
         },
         {
           "title": "Stuck in My Head",
@@ -3516,6 +3580,12 @@
             {
               "kind": "mv",
               "url": "CM4CkVFmTds",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "rhMm79NZQTw",
+              "label": "Cheering Guide",
               "official": true
             },
             {
@@ -5658,6 +5728,12 @@
               "official": true
             },
             {
+              "kind": "special",
+              "url": "ulopgxJASwI",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
               "kind": "dance",
               "url": "_hiR58brDz4",
               "label": "Talk that Talk Choreography Video",
@@ -5995,6 +6071,12 @@
               "official": true
             },
             {
+              "kind": "special",
+              "url": "Elp13qgVgHI",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
               "kind": "dance",
               "url": "mBJ-_US37fI",
               "label": "SET ME FREE Choreography Video (Moving Ver.)",
@@ -6261,6 +6343,12 @@
               "kind": "dance",
               "url": "mtnCK6NlM3k",
               "label": "「Do not touch」 Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "H4sbvGAym4I",
+              "label": "「Do not touch」 Cheering Guide",
               "official": true
             },
             {
@@ -6755,6 +6843,38 @@
       ]
     },
     {
+      "id": "killin-me-good-handam",
+      "title": "Killin' Me Good (with JIHYO)",
+      "artist": "Park Handam with Jihyo",
+      "category": "solo",
+      "seq": "Collaboration",
+      "type": "Single",
+      "released": "2023-12-09",
+      "cover": "assets/img/covers/killin-me-good-handam.jpg",
+      "note": "Reimagined duet from Mnet's King of Karaoke: VS (초대형 노래방 서바이벌 VS), Episode 3 — the original-artist collaboration mission.",
+      "links": {
+        "spotify": "https://open.spotify.com/track/3P7PSVuhHpmRTdyrwvqCvu",
+        "appleMusic": "https://music.apple.com/ph/album/killin-me-good-with-jihyo/1720318480?i=1720318739",
+        "youtubeMusic": "",
+        "melon": ""
+      },
+      "tracks": [
+        {
+          "title": "Killin' Me Good",
+          "artist": "with Park Handam",
+          "titleTrack": true,
+          "videos": [
+            {
+              "kind": "performance",
+              "url": "bYnaWZuCC9A",
+              "label": "King of Karaoke: VS — Full Stage",
+              "official": true
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "dance-again",
       "title": "Dance Again",
       "category": "japanese",
@@ -6819,6 +6939,12 @@
             {
               "kind": "mv",
               "url": "haf67eKF0uo",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "fwPjD-jFsls",
+              "label": "Cheering Guide",
               "official": true
             },
             {
@@ -6887,6 +7013,12 @@
               "official": true
             },
             {
+              "kind": "special",
+              "url": "fwPjD-jFsls",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
               "kind": "performance",
               "url": "CQJwo_zguKU",
               "label": "I GOT YOU - TWICE [Music Bank] | KBS WORLD TV 240301",
@@ -6931,6 +7063,12 @@
             {
               "kind": "mv",
               "url": "jCzez_q8si0",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "ChvAoD3-hXA",
+              "label": "Cheering Guide",
               "official": true
             },
             {
@@ -8005,6 +8143,12 @@
               "official": true
             },
             {
+              "kind": "special",
+              "url": "Z6Fc5TYih3M",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
               "kind": "dance",
               "url": "h5CwaVjF_78",
               "label": "Strategy Choreography Video (Moving ver.)",
@@ -8548,6 +8692,12 @@
             {
               "kind": "mv",
               "url": "eHHQaoEW30Q",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "p9spvfXou9M",
+              "label": "Cheering Guide",
               "official": true
             },
             {
@@ -9354,6 +9504,12 @@
               "official": true
             },
             {
+              "kind": "special",
+              "url": "4HlV_5Zof2c",
+              "label": "Cheering Guide",
+              "official": true
+            },
+            {
               "kind": "live",
               "url": "gfQcVjbc1Vg",
               "label": "Live Stage @ 2025 FANMEETING",
@@ -9874,6 +10030,12 @@
               "kind": "dance",
               "url": "mtnCK6NlM3k",
               "label": "「Do not touch」 Choreography Video",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "H4sbvGAym4I",
+              "label": "「Do not touch」 Cheering Guide",
               "official": true
             },
             {

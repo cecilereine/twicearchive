@@ -42,22 +42,23 @@
 /* Section tints. Each page sets one on <html>. */
 :root[data-accent="discography"] { --accent: var(--candy);  --accent-2: var(--peach); }
 :root[data-accent="shows"]       { --accent: var(--grape);  --accent-2: var(--candy); }
-/* Melody Project through TV Variety each wear one member's colour, fading
-   into a deeper shade of it (the member hex matches memberColors in data/). */
-:root[data-accent="covers"]      { --accent: #49c0ec; --accent-2: #1f7fb8; } /* Nayeon */
-:root[data-accent="live"]        { --accent: #a3cc54; --accent-2: #5e8f24; } /* Jeongyeon */
-:root[data-accent="vlogs"]       { --accent: #e67ea3; --accent-2: #c2457e; } /* Momo */
-:root[data-accent="twicetv"]     { --accent: #8c79b4; --accent-2: #5b4596; } /* Sana */
-:root[data-accent="variety"]     { --accent: #f9cc85; --accent-2: #e0913a; } /* Jihyo */
+/* Updates through TV Variety each wear one member's colour, in menu order,
+   fading into a deeper shade of it (the member hex matches memberColors in data/). */
+:root[data-accent="updates"]     { --accent: #49c0ec; --accent-2: #1f7fb8; } /* Nayeon */
+:root[data-accent="covers"]      { --accent: #a3cc54; --accent-2: #5e8f24; } /* Jeongyeon */
+:root[data-accent="live"]        { --accent: #e67ea3; --accent-2: #c2457e; } /* Momo */
+:root[data-accent="vlogs"]       { --accent: #8c79b4; --accent-2: #5b4596; } /* Sana */
+:root[data-accent="twicetv"]     { --accent: #f9cc85; --accent-2: #e0913a; } /* Jihyo */
+:root[data-accent="variety"]     { --accent: #71c7d4; --accent-2: #2a8fa0; } /* Mina */
 :root:is([data-accent="covers"], [data-accent="live"], [data-accent="vlogs"],
-      [data-accent="twicetv"], [data-accent="variety"]) { --accent-ink: var(--accent-2); }
+      [data-accent="twicetv"], [data-accent="variety"], [data-accent="updates"]) { --accent-ink: var(--accent-2); }
 /* …but on the dark background it's the bright member colour that reads. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) { --accent-ink: var(--accent); }
 }
 :root[data-theme="dark"] { --accent-ink: var(--accent); }
-/* Jihyo's apricot is too pale for white text on a selected chip. */
-:root[data-accent="variety"] .chip.on { color: #2a1b22; }
+/* Jihyo's apricot and Mina's aqua are too pale for white text on a selected chip. */
+:root:is([data-accent="twicetv"], [data-accent="variety"]) .chip.on { color: #2a1b22; }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -154,6 +155,9 @@ a { color: inherit; }
   -webkit-background-clip: text; background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+/* The home page's site name: capitals from CSS rather than typed, so screen
+   readers still read it as words. Loosened, since caps crowd at -.02em. */
+.site-head h1.site-title { text-transform: uppercase; letter-spacing: .04em; }
 .site-head p { margin: 0; color: var(--text-soft); font-size: 15px; }
 /* ---------- Get to Know TWICE (home page) ---------- */
 
@@ -188,6 +192,35 @@ a { color: inherit; }
 .intro-card .body { display: block; padding: 12px 14px 14px; }
 .intro-card b { display: block; font-size: 15px; margin-bottom: 3px; }
 .intro-card small { display: block; font-size: 12.5px; color: var(--text-soft); }
+
+/* Other fan sites: a row of pill buttons under the intro cards. */
+.intro-sites { margin-top: 22px; }
+.intro-sites h3 {
+  margin: 0 0 10px; font-size: 11.5px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .06em; color: var(--text-soft);
+}
+.site-links { display: flex; flex-wrap: wrap; gap: 10px; }
+.site-link {
+  display: inline-flex; align-items: center; gap: 11px;
+  max-width: 100%; padding: 9px 16px 9px 10px;
+  text-decoration: none; color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--line); border-radius: 999px;
+  box-shadow: var(--shadow);
+  transition: transform .15s ease, border-color .15s ease;
+}
+.site-link:hover { transform: translateY(-2px); border-color: var(--accent); }
+.site-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.site-link .ico {
+  flex: none; width: 34px; height: 34px; border-radius: 999px;
+  display: grid; place-items: center; font-size: 17px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+}
+.site-link .txt { min-width: 0; }
+.site-link b { display: block; font-size: 14px; line-height: 1.25; }
+.site-link small { display: block; font-size: 12px; color: var(--text-soft); }
+.site-link .go { flex: none; margin-left: 2px; font-size: 14px; font-weight: 700; color: var(--accent-ink); transition: transform .15s ease; }
+.site-link:hover .go { transform: translate(2px, -2px); }
 
 /* ---------- hub cards ---------- */
 
@@ -530,6 +563,21 @@ a { color: inherit; }
 .panel-arrow:hover:not(:disabled) { color: var(--text); border-color: var(--accent); }
 .panel-arrow:disabled { opacity: .35; cursor: default; }
 
+/* The arrows float at the panel's sides, vertically centred, and stay put while
+   the tracklist scrolls. They only show while the overlay is open. */
+.panel-float { display: none; }
+.overlay.open + .panel-float { display: block; }
+.panel-float .panel-arrow {
+  position: fixed; z-index: 101; top: 50%; transform: translateY(-50%);
+  width: 44px; height: 44px; padding: 0;
+  color: var(--text); background: var(--surface);
+  box-shadow: var(--shadow-lg);
+}
+/* 820px panel, 14px overlay padding: sit just outside its edges. */
+.panel-float #panelPrev { left:  max(10px, calc(50% - 410px - 58px)); }
+.panel-float #panelNext { right: max(10px, calc(50% - 410px - 58px)); }
+.panel-float .panel-arrow:disabled { opacity: 0; pointer-events: none; }
+
 .stream-links { display: flex; flex-wrap: wrap; gap: 7px; }
 .region-lock {
   margin: 7px 0 0; font-size: 11.5px; font-weight: 600; color: var(--warn);
@@ -754,8 +802,7 @@ a { color: inherit; }
 :root[data-accent="vlogs"] .series-badge[data-series="twlog"]  { color: #123; background: var(--peach); border-color: transparent; }
 :root[data-accent="vlogs"] .series-badge[data-series="behind"] { color: #fff; background: var(--grape); border-color: transparent; }
 /* TV Variety: one look for every show; the section heading already says which. */
-:root[data-accent="variety"] .series-badge { color: #2a1b22; background: linear-gradient(120deg, var(--accent), var(--accent-2)); border-color: transparent; }
-:root[data-accent="twicetv"] .series-badge { color: #fff; background: linear-gradient(120deg, var(--accent), var(--accent-2)); border-color: transparent; }
+:root:is([data-accent="twicetv"], [data-accent="variety"]) .series-badge { color: #2a1b22; background: linear-gradient(120deg, var(--accent), var(--accent-2)); border-color: transparent; }
 /* A member chip in the filter row carries a dot in that member's colour. */
 .chip .dot {
   display: inline-block; width: 8px; height: 8px; border-radius: 999px;
@@ -816,6 +863,77 @@ a { color: inherit; }
 .chip.danger.armed { color: #fff; background: var(--warn); border-color: transparent; }
 .chip:disabled { opacity: .5; cursor: default; }
 
+/* ---------- updates ---------- */
+
+/* A single column of post cards, newest first. Photos and embedded posts get
+   the column's full width. */
+.update-stream { max-width: 640px; margin: 0 auto; display: grid; gap: 16px; }
+.update {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); box-shadow: var(--shadow);
+  padding: 16px 20px 6px;
+}
+.update-top {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: 6px 10px; margin-bottom: 8px;
+}
+.update-when { font-size: 12px; font-weight: 700; letter-spacing: .02em; color: var(--accent-ink); }
+.update-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+.update-tags .member { font-size: 10.5px; padding: 2px 8px; }
+.update[hidden] { display: none; }
+.update-body { font-size: 15px; line-height: 1.6; }
+.update-body h3, .update-body h4 { margin: 18px 0 6px; line-height: 1.3; }
+.update-body h3 { font-size: 17px; }
+.update-body h4 { font-size: 15px; }
+.update-body > :first-child { margin-top: 0; }
+.update-body p, .update-body ul { margin: 0 0 14px; }
+.update-body ul { padding-left: 22px; }
+.update-body p a { color: var(--accent-ink); }
+.update-body hr { border: 0; border-top: 1px solid var(--line); margin: 18px 0; }
+.update-missing { color: var(--text-faint); font-size: 14px; }
+
+.update-single, .update-gallery, .update-embed, .update-video, .update-link { margin: 0 0 14px; }
+.update-gallery { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+.update-photo { display: block; border-radius: var(--radius-sm); overflow: hidden; background: var(--surface-2); }
+.update-photo img { display: block; width: 100%; height: auto; }
+.update-gallery .update-photo img { aspect-ratio: 4 / 5; object-fit: cover; }
+.update-photo:hover img { opacity: .92; }
+.update-video { max-width: 400px; }
+
+/* Until Instagram's or X's script swaps in the post, the blockquote is a card
+   holding the plain link. The platforms size their own embeds after that. */
+.update-embed { display: flex; justify-content: center; }
+.update-embed blockquote {
+  margin: 0; width: 100%; max-width: 540px; padding: 18px 20px;
+  background: var(--surface-2); border: 1px solid var(--line);
+  border-radius: var(--radius-sm); text-align: center; font-size: 14px;
+}
+/* Instagram's frame never goes below 326px wide: its layout inside breaks
+   (the post skews) if it's squeezed narrower, so don't override that. On a
+   phone the embed runs to the card's edges instead, which leaves 326px even
+   on a 360px-wide screen. */
+@media (max-width: 560px) {
+  .update { padding-left: 14px; padding-right: 14px; }
+  .update-embed { margin-left: -14px; margin-right: -14px; }
+}
+
+/* A link that can't be embedded: a news article, a Weverse post. */
+.update-link {
+  display: flex; align-items: center; gap: 12px;
+  padding: 10px 14px; text-decoration: none; color: var(--text);
+  background: var(--surface-2); border: 1px solid var(--line); border-radius: var(--radius-sm);
+  transition: border-color .15s ease;
+}
+.update-link:hover { border-color: var(--accent); }
+.update-link .ico { flex: none; font-size: 20px; }
+.update-link .txt { flex: 1; min-width: 0; }
+.update-link b { display: block; font-size: 14px; }
+.update-link small { display: block; font-size: 12px; color: var(--text-soft); }
+.update-link .go { flex: none; font-weight: 700; color: var(--accent-ink); }
+
+.more-row { display: flex; justify-content: center; margin-top: 24px; }
+.more-row [hidden] { display: none; }
+
 footer.site-foot {
   margin-top: 50px; padding-top: 20px;
   border-top: 1px solid var(--line);
@@ -827,8 +945,19 @@ footer.site-foot {
   .panel-head .cover { width: 76px; }
   .panel-body { padding: 4px 16px 20px; }
   .overlay { padding: 10px 8px; }
+  /* No room beside the panel on a phone: drop to the bottom corners. */
+  .panel-float .panel-arrow { top: auto; bottom: 16px; transform: none; }
+  .panel-float #panelPrev { left: 16px; }
+  .panel-float #panelNext { right: 16px; }
   .video-strip { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 400px) {
   .video-strip { grid-template-columns: 1fr; }
+}
+
+.brand-bar { background: var(--surface-2); border-bottom: 1px solid var(--line-soft); }
+.brand-bar .wrap { padding-top: 14px; padding-bottom: 14px; }
+.brand-title {
+  font-family: var(--font); font-size: 18px; font-weight: 800;
+  letter-spacing: .14em; color: var(--accent); text-decoration: none;
 }

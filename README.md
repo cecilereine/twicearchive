@@ -1,4 +1,4 @@
-# TWICE Content Archive
+# The Candybong Vault
 
 A fan-made archive that gathers links to TWICE videos and audio, sorted by era and
 category. Nothing is hosted here — every entry points at its original source.
