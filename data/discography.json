@@ -7985,6 +7985,19 @@
               "url": "Rm6cN89LFW8",
               "label": "Live Stage @ Nissan Stadium",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "LzFfFPMYMTM",
+              "label": "240719 Music Station - Dive",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "ra_ZRKucQYc",
+              "label": "Here I Am + Dive @ 2024 TWICE FANMEETING [HOME 9ROUND] Fancam",
+              "official": false,
+              "fancam": true
             }
           ]
         }
@@ -8025,6 +8038,19 @@
               "url": "Rm6cN89LFW8",
               "official": true,
               "label": "Live Stage @ Nissan Stadium"
+            },
+            {
+              "kind": "performance",
+              "url": "LzFfFPMYMTM",
+              "label": "240719 Music Station - Dive",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "ra_ZRKucQYc",
+              "label": "Here I Am + Dive @ 2024 TWICE FANMEETING [HOME 9ROUND] Fancam",
+              "official": false,
+              "fancam": true
             }
           ]
         },
@@ -8058,6 +8084,20 @@
               "url": "3bd0iqK2hoQ",
               "label": "「Here I am」 Live Stage @Nissan Stadium",
               "official": true
+            },
+            {
+              "kind": "performance",
+              "url": "https://ph.pinterest.com/pin/678988081350782287/",
+              "label": "240719 Music Station - Here I Am",
+              "official": false,
+              "thumb": "https://i.pinimg.com/736x/e6/f5/1f/e6f51f3335892599ef33463f1bae9eaa.jpg"
+            },
+            {
+              "kind": "live",
+              "url": "ra_ZRKucQYc",
+              "label": "Here I Am + Dive @ 2024 TWICE FANMEETING [HOME 9ROUND] Fancam",
+              "official": false,
+              "fancam": true
             },
             {
               "kind": "lyric",

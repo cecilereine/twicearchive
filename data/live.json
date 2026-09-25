@@ -1604,6 +1604,13 @@
           "label": "Full Fanmeeting",
           "official": false,
           "thumb": "https://p.bstarstatic.com/ugc/4e0e40743d2847e920563ae3591c9c63.jpg@640w_360h.webp"
+        },
+        {
+          "kind": "live",
+          "url": "ra_ZRKucQYc",
+          "label": "Here I Am + Dive Fancam",
+          "official": false,
+          "fancam": true
         }
       ]
     },
