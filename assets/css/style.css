@@ -50,8 +50,11 @@
 :root[data-accent="vlogs"]       { --accent: #8c79b4; --accent-2: #5b4596; } /* Sana */
 :root[data-accent="twicetv"]     { --accent: #f9cc85; --accent-2: #e0913a; } /* Jihyo */
 :root[data-accent="variety"]     { --accent: #71c7d4; --accent-2: #2a8fa0; } /* Mina */
+/* Dahyun's white can't tint a page, so TIME TO TWICE skips ahead to Chaeyoung. */
+:root[data-accent="ttt"]         { --accent: #e62722; --accent-2: #a8151a; } /* Chaeyoung */
 :root:is([data-accent="covers"], [data-accent="live"], [data-accent="vlogs"],
-      [data-accent="twicetv"], [data-accent="variety"], [data-accent="updates"]) { --accent-ink: var(--accent-2); }
+      [data-accent="twicetv"], [data-accent="variety"], [data-accent="updates"],
+      [data-accent="ttt"]) { --accent-ink: var(--accent-2); }
 /* …but on the dark background it's the bright member colour that reads. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) { --accent-ink: var(--accent); }
@@ -272,6 +275,10 @@ a { color: inherit; }
   padding: 12px 0;
   margin-bottom: 20px;
 }
+/* theme.js tucks the toolbar away while you scroll down the list and
+   brings it back as soon as you scroll up. */
+.toolbar { transition: transform .25s ease; }
+.toolbar.tucked { transform: translateY(calc(-100% - 1px)); }
 .toolbar .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 .toolbar .row + .row { margin-top: 9px; }
 
@@ -362,10 +369,6 @@ a { color: inherit; }
   .toolbar .row:not(.tabs):not(:first-child)::-webkit-scrollbar { display: none; }
   .toolbar .row:not(.tabs):not(:first-child) > * { flex: none; white-space: nowrap; }
 
-  /* theme.js tucks the toolbar away while you scroll down the list and
-     brings it back as soon as you scroll up. */
-  .toolbar { transition: transform .25s ease; }
-  .toolbar.tucked { transform: translateY(calc(-100% - 1px)); }
 }
 
 /* Count beside a filter chip's label. */

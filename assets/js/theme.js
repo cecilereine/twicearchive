@@ -56,16 +56,16 @@ if (siteNav) {
   if (current && overflows()) current.scrollIntoView({ block: 'nearest', inline: 'center' });
 }
 
-/* ---------- filter toolbar on a phone ----------
+/* ---------- sticky filter toolbar ----------
 
-   The toolbar is sticky so the filters stay at hand, but on a phone it covers
-   a good part of the screen. Once it's stuck to the top, slide it away while
-   the list scrolls down and bring it back on any scroll up. Not while the
-   search box has focus, so it can't slide out from under the keyboard. */
+   The toolbar is sticky so the filters stay at hand, but it covers a good part
+   of the screen — on a phone, and on a desktop too once a page has many series
+   tabs (TIME TO TWICE). Once it's stuck to the top, slide it away while the
+   list scrolls down and bring it back on any scroll up. Not while the search
+   box has focus, so it can't slide out from under the keyboard. */
 
 const toolbar = document.querySelector('.toolbar');
 if (toolbar) {
-  const narrow = window.matchMedia('(max-width: 640px)');
   const above = toolbar.previousElementSibling;
   let lastY = window.scrollY;
 
@@ -76,8 +76,6 @@ if (toolbar) {
     lastY = y;
     const stuck = !above || above.getBoundingClientRect().bottom < 0;
     const typing = toolbar.contains(document.activeElement) && document.activeElement.matches('input');
-    toolbar.classList.toggle('tucked', narrow.matches && stuck && dy > 0 && !typing);
+    toolbar.classList.toggle('tucked', stuck && dy > 0 && !typing);
   }, { passive: true });
-
-  narrow.addEventListener('change', () => toolbar.classList.remove('tucked'));
 }
