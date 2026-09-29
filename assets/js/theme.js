@@ -8,6 +8,37 @@
    wrong theme; this file only wires up the button.
 --------------------------------------------------------------------------- */
 
+/* ---------- site nav ----------
+
+   The one list of pages, in the homepage cards' order. Each page's <nav> holds
+   only the theme button; the links go in front of it here, and the page being
+   viewed is marked "on". Add a page here, not in the HTML. */
+
+const NAV_PAGES = [
+  ['index.html',       'Home'],
+  ['discography.html', 'Discography'],
+  ['updates.html',     'Updates'],
+  ['covers.html',      'Melody Project'],
+  ['live.html',        'Concerts & Live'],
+  ['vlogs.html',       'Vlogs'],
+  ['timetotwice.html', 'TIME TO TWICE'],
+  ['twicetv.html',     'TWICE TV'],
+  ['variety.html',     'TV Variety & Reality'],
+  ['donate.html',      'Donate'],
+];
+
+{
+  const nav = document.querySelector('.site-nav');
+  const here = location.pathname.split('/').pop() || 'index.html';
+  if (nav) nav.prepend(...NAV_PAGES.map(([href, label]) => {
+    const a = document.createElement('a');
+    a.href = href;
+    a.textContent = label;
+    if (href === here) a.className = 'on';
+    return a;
+  }));
+}
+
 const THEME_KEY = 'twice-archive:theme';
 const darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
