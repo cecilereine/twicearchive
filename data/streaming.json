@@ -1,0 +1,2701 @@
+{
+  "section": "Streaming Variety",
+  "note": "Variety shows made for YouTube, Netflix and other streaming platforms, one entry per episode. Grouped by show, like TV Variety: each show is one tab and one section, and a show that ran in seasons keeps each under its own sub-heading. Teasers and Shorts are left out. TWICE's own TIME TO TWICE has its own page.",
+  "updated": "2026-10-02",
+  "groupBy": "series",
+  "memberColors": {
+    "Nayeon": "#49c0ec",
+    "Jeongyeon": "#a3cc54",
+    "Momo": "#e67ea3",
+    "Sana": "#8c79b4",
+    "Jihyo": "#f9cc85",
+    "Mina": "#71c7d4",
+    "Dahyun": "#fefefe",
+    "Chaeyoung": "#e62722",
+    "Tzuyu": "#2253a3"
+  },
+  "groupColors": [
+    "#f9c596",
+    "#fc5d9d"
+  ],
+  "series": [
+    {
+      "key": "1thek",
+      "label": "1theK Originals",
+      "summary": "Short variety shows on 1theK (원더케이), Kakao's K-pop YouTube channel, each built around a comeback.",
+      "seasons": [
+        {
+          "key": "1thek-lets-dance",
+          "label": "Let's Dance"
+        },
+        {
+          "key": "1thek-idol-arcade",
+          "label": "Idol Arcade (대기실 옆 오락실)"
+        },
+        {
+          "key": "1thek-ask-in-a-box",
+          "label": "Ask In A Box"
+        },
+        {
+          "key": "1thek-iddp",
+          "label": "IDDP (아이돌등판)"
+        }
+      ]
+    },
+    {
+      "key": "mwave-meet-greet",
+      "label": "Mwave MEET&GREET",
+      "summary": "Mwave's live online fan meeting: stars chat live with fans worldwide, play games and sign gifts, with real-time translation."
+    },
+    {
+      "key": "mv-commentary",
+      "label": "MV Commentary (뮤비 코멘터리)",
+      "summary": "M2's show where artists watch their own music video and tell the stories behind it."
+    },
+    {
+      "key": "giant-peng-tv",
+      "label": "Giant Peng TV (자이언트 펭TV)",
+      "summary": "EBS's YouTube show starring Pengsoo, the giant penguin."
+    },
+    {
+      "key": "boatta",
+      "label": "BOATTA (보았다)",
+      "summary": "Studio K's game and party show on KBS's K-pop YouTube channel. TWICE came back three times."
+    },
+    {
+      "key": "season-b-season",
+      "label": "Season B Season (시즌비시즌)",
+      "summary": "Rain's variety show on his own YouTube channel. TWICE guested across two episodes."
+    },
+    {
+      "key": "mmtg",
+      "label": "MMTG (문명특급)",
+      "summary": "SBS's YouTube talk show hosted by Jaejae (Lee Eun-jae)."
+    },
+    {
+      "key": "showterview",
+      "label": "Jessi's Showterview (제시의 쇼!터뷰)",
+      "summary": "Jessi's no-holds-barred interview show on the Mobidic YouTube channel."
+    },
+    {
+      "key": "idol-human-theater",
+      "label": "Idol Human Theater (아이돌 인간극장)",
+      "summary": "Studio K's unscripted \"real (?) documentary\" web series on KBS's K-pop YouTube channel. TWICE have been on four times."
+    },
+    {
+      "key": "pixid",
+      "label": "PIXID (픽시드)",
+      "summary": "A YouTube channel of hidden-identity games, where a star hides among others and has to stay undiscovered."
+    },
+    {
+      "key": "hal-myungsoo",
+      "label": "Hal Myung-soo (할명수)",
+      "summary": "Park Myung-soo's YouTube variety show, made by JTBC."
+    },
+    {
+      "key": "no-prepare",
+      "label": "No Prepare (차린건 쥐뿔도 없지만)",
+      "summary": "Lee Young-ji's one-on-one drinking talk show on her YouTube channel."
+    },
+    {
+      "key": "k-star-next-door",
+      "label": "K-Star Next Door (동네스타K)",
+      "summary": "Jonathan's YouTube talk and K-pop show with the \"stars next door\".",
+      "seasons": [
+        {
+          "key": "ksn-s2",
+          "label": "Season 2"
+        },
+        {
+          "key": "ksn-s4",
+          "label": "Season 4"
+        }
+      ]
+    },
+    {
+      "key": "fridge-interview",
+      "label": "Sana's Fridge Interview",
+      "summary": "Sana hosts 117's talk show Fridge Interview (냉터뷰), one guest per episode. Her run followed her 2023 guest spot on Dex's season.",
+      "seasons": [
+        {
+          "key": "fridge-dex",
+          "label": "Dex's Fridge Interview (Sana as guest)"
+        },
+        {
+          "key": "fridge-s1",
+          "label": "Season 1"
+        },
+        {
+          "key": "fridge-s2",
+          "label": "Season 2"
+        },
+        {
+          "key": "fridge-s3",
+          "label": "Season 3"
+        }
+      ]
+    },
+    {
+      "key": "seibja",
+      "label": "Seibja (세입자)",
+      "summary": "Jihyo checks into guesthouses around Korea and abroad and reviews them, from Jeju to Bangkok, on ootb STUDIO.",
+      "seasons": [
+        {
+          "key": "seibja-s1",
+          "label": "Season 1"
+        },
+        {
+          "key": "seibja-s2",
+          "label": "Season 2"
+        }
+      ]
+    },
+    {
+      "key": "inspector",
+      "label": "Inspector (감별사)",
+      "summary": "Jeongyeon hosts Inspector, visiting a guest each episode to go through the prized possessions they donate for charity.",
+      "seasons": [
+        {
+          "key": "inspector-s1",
+          "label": "Season 1"
+        },
+        {
+          "key": "inspector-s2",
+          "label": "Season 2"
+        }
+      ]
+    },
+    {
+      "key": "trick-kode",
+      "label": "Trick KODE (트릭KODE)",
+      "summary": "Nayeon's first show as host, on the KODE channel: a blind guessing game where she works out who the hidden guest is from their smartphone."
+    },
+    {
+      "key": "iu-palette",
+      "label": "IU's Palette (아이유의 팔레트)",
+      "summary": "IU's talk and live music show on her official YouTube channel."
+    },
+    {
+      "key": "zip-daesung",
+      "label": "Zip Daesung (집대성)",
+      "summary": "BIGBANG Daesung's YouTube talk show."
+    },
+    {
+      "key": "pinggyego",
+      "label": "Pinggyego (핑계고)",
+      "summary": "Yoo Jae-suk's talk show on the DdeunDdeun (뜬뜬) YouTube channel."
+    },
+    {
+      "key": "yoo-got-a-minute",
+      "label": "YOO Got a Minute?",
+      "summary": "Comedian Yoo Byung-jae's Disney+ talk show (고독한 인터뷰, The Quiet Interview)."
+    },
+    {
+      "key": "choo-sung-hoon",
+      "label": "Choo Sung-hoon's Channel (추성훈)",
+      "summary": "The fighter and entertainer Choo Sung-hoon's YouTube channel."
+    }
+  ],
+  "events": [
+    {
+      "id": "fridge-dex-ep8",
+      "title": "Episode 8: TWICE Sana",
+      "series": "fridge-interview",
+      "season": "fridge-dex",
+      "venue": "117 (YouTube)",
+      "date": "2023-09-21",
+      "note": "Sana as Dex's guest — the episode that led to her own run.",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "6-sCxviQdo8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "32:54"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s1-ep1",
+      "title": "Episode 1: (G)I-DLE Miyeon",
+      "series": "fridge-interview",
+      "season": "fridge-s1",
+      "venue": "117 (YouTube)",
+      "date": "2024-03-28",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "6mtKI_b_DgY",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "46:38"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s1-ep2",
+      "title": "Episode 2: Shin Ye-eun",
+      "series": "fridge-interview",
+      "season": "fridge-s1",
+      "venue": "117 (YouTube)",
+      "date": "2024-04-11",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "8ppdHF_YWZ4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "39:43"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s1-ep3",
+      "title": "Episode 3: Byun Yo-han",
+      "series": "fridge-interview",
+      "season": "fridge-s1",
+      "venue": "117 (YouTube)",
+      "date": "2024-04-25",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "_wsvRv4gQdg",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "33:47"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s1-ep4",
+      "title": "Episode 4: NMIXX Sullyoon",
+      "series": "fridge-interview",
+      "season": "fridge-s1",
+      "venue": "117 (YouTube)",
+      "date": "2024-05-09",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "sNhBwwA2CVg",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "37:33"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s1-ep5",
+      "title": "Episode 5: Dex",
+      "series": "fridge-interview",
+      "season": "fridge-s1",
+      "venue": "117 (YouTube)",
+      "date": "2024-05-23",
+      "note": "Dex and Sana meet again, marking 10 million views on her guest episode.",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "amjCFD-32zc",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "41:57"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s1-ep6",
+      "title": "Episode 6: TWICE Nayeon",
+      "series": "fridge-interview",
+      "season": "fridge-s1",
+      "venue": "117 (YouTube)",
+      "date": "2024-06-06",
+      "note": "",
+      "members": "Sana, Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "tVEmTTMcLI4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "52:29"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s2-ep7",
+      "title": "Episode 7: LE SSERAFIM Sakura",
+      "series": "fridge-interview",
+      "season": "fridge-s2",
+      "venue": "117 (YouTube)",
+      "date": "2025-03-13",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "sgNMuSPbUj0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "45:38"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s2-ep8",
+      "title": "Episode 8: Choo Sung-hoon",
+      "series": "fridge-interview",
+      "season": "fridge-s2",
+      "venue": "117 (YouTube)",
+      "date": "2025-03-27",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "3rCPK9vG9D4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "47:24"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s2-ep9",
+      "title": "Episode 9: Yoon Doo-joon",
+      "series": "fridge-interview",
+      "season": "fridge-s2",
+      "venue": "117 (YouTube)",
+      "date": "2025-04-10",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "-958Me1jIKQ",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "51:40"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s2-ep10",
+      "title": "Episode 10: SEVENTEEN Hoshi & Woozi",
+      "series": "fridge-interview",
+      "season": "fridge-s2",
+      "venue": "117 (YouTube)",
+      "date": "2025-04-24",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "17dRPQJaA2k",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "50:29"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s2-ep11",
+      "title": "Episode 11: aespa Ningning",
+      "series": "fridge-interview",
+      "season": "fridge-s2",
+      "venue": "117 (YouTube)",
+      "date": "2025-05-08",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "MZ6rR5XRmWg",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "49:50"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s2-ep12",
+      "title": "Episode 12: RIIZE Shotaro",
+      "series": "fridge-interview",
+      "season": "fridge-s2",
+      "venue": "117 (YouTube)",
+      "date": "2025-05-22",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "MaflAuTnXGs",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "48:00"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s2-ep13",
+      "title": "Episode 13: G-DRAGON",
+      "series": "fridge-interview",
+      "season": "fridge-s2",
+      "venue": "117 (YouTube)",
+      "date": "2025-06-05",
+      "note": "Co-hosted with Dex.",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "58gb5Mc6zIQ",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "1:01:35"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s2-ep14",
+      "title": "Episode 14: BTS j-hope",
+      "series": "fridge-interview",
+      "season": "fridge-s2",
+      "venue": "117 (YouTube)",
+      "date": "2025-06-19",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "JIDlDA4mc78",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "1:08:52"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s2-ep15",
+      "title": "Episode 15: Park Jeong-min",
+      "series": "fridge-interview",
+      "season": "fridge-s2",
+      "venue": "117 (YouTube)",
+      "date": "2025-06-26",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "qNR7Kg5k_q0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "51:25"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s2-ep16",
+      "title": "Episode 16: IVE Rei",
+      "series": "fridge-interview",
+      "season": "fridge-s2",
+      "venue": "117 (YouTube)",
+      "date": "2025-07-17",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "n21jwP5HzxU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "55:10"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s2-ep17",
+      "title": "Episode 17: LE SSERAFIM Eunchae",
+      "series": "fridge-interview",
+      "season": "fridge-s2",
+      "venue": "117 (YouTube)",
+      "date": "2025-07-31",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "P17UvPGm3Ls",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "51:53"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s2-ep18",
+      "title": "Episode 18: Reading Your Comments",
+      "series": "fridge-interview",
+      "season": "fridge-s2",
+      "venue": "117 (YouTube)",
+      "date": "2025-08-07",
+      "note": "Sana on her own, reading viewers' comments on Season 2.",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "JLmjwDd7Zxw",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "35:34"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s3-ep19",
+      "title": "Episode 19: RIIZE Wonbin",
+      "series": "fridge-interview",
+      "season": "fridge-s3",
+      "venue": "117 (YouTube)",
+      "date": "2026-07-23",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "1zjrfvQQJXw",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "45:27"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s3-ep20",
+      "title": "Episode 20: Hearts2Hearts Jiwoo",
+      "series": "fridge-interview",
+      "season": "fridge-s3",
+      "venue": "117 (YouTube)",
+      "date": "2026-08-06",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "s0mYJkEBlqo",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "44:01"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s3-ep21",
+      "title": "Episode 21: Stray Kids Bang Chan",
+      "series": "fridge-interview",
+      "season": "fridge-s3",
+      "venue": "117 (YouTube)",
+      "date": "2026-08-20",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "DJtvljmdGd0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "52:16"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s3-ep22",
+      "title": "Episode 22: RESCENE Minami",
+      "series": "fridge-interview",
+      "season": "fridge-s3",
+      "venue": "117 (YouTube)",
+      "date": "2026-09-03",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "QMyViznjVlE",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "54:24"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s3-ep23",
+      "title": "Episode 23: Chun Woo-hee",
+      "series": "fridge-interview",
+      "season": "fridge-s3",
+      "venue": "117 (YouTube)",
+      "date": "2026-09-17",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "GqadHJZ_T1A",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "46:22"
+        }
+      ]
+    },
+    {
+      "id": "fridge-s3-ep24",
+      "title": "Episode 24: Lee Junho",
+      "series": "fridge-interview",
+      "season": "fridge-s3",
+      "venue": "117 (YouTube)",
+      "date": "2026-10-01",
+      "note": "",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "oYuO7YjyufY",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "54:08"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep1",
+      "title": "Episode 1: Kim Jae-joong",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-07-19",
+      "note": "A tour of his agency building, basement to rooftop.",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "hs1RgGjwq4U",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "17:26"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep2",
+      "title": "Episode 2: SHINee Onew",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-07-26",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "3PgqIIIggT0",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "16:40"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep3",
+      "title": "Episode 3: Hanhae",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-08-02",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "W1KF2L39AAo",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "20:19"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep4",
+      "title": "Episode 4: GOT7 BamBam",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-08-09",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "2Q9EU6ZdStY",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "24:54"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep5",
+      "title": "Episode 5: Kim Jun-ho",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-08-16",
+      "note": "The Olympic fencer, with his son Eun-woo.",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "LHap-BAH31w",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "24:49"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep6",
+      "title": "Episode 6: Son Ho-jun",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-08-23",
+      "note": "With Yoo Seung-ho and Lee Tae-bin.",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ia6X2LST5e0",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "24:15"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep7",
+      "title": "Episode 7: Kangnam & Lee Sang-hwa",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-08-30",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "JX1n0AEw26k",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "25:56"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep8",
+      "title": "Episode 8: TWICE Jihyo",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-09-06",
+      "note": "",
+      "members": "Jeongyeon, Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ajQAZ9-XMog",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "23:13"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep9",
+      "title": "Episode 9: Stray Kids Han",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-09-13",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "pxCpNFJCOJc",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "26:41"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep10",
+      "title": "Episode 10: Jung Hyung-don",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-09-20",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "LDoX7g6qsQE",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "23:47"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep11",
+      "title": "Episode 11: Kwon Eun-bi",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-09-27",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "d-d6Eg2V0_8",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "25:22"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep12",
+      "title": "Episode 12: OH MY GIRL Hyojung & Seunghee",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-10-04",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "HADfLH5VJy4",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "26:19"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep13",
+      "title": "Episode 13: John Park & Jukjae",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-10-11",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "pl1F_H2PN2Y",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "26:27"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep14",
+      "title": "Episode 14: STAYC",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-10-18",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "uFPx5f0eQOs",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "33:13"
+        },
+        {
+          "kind": "special",
+          "url": "zIgCXfjjK0A",
+          "label": "Behind: a first listen to STAYC's \"GPT\"",
+          "official": true,
+          "duration": "6:59"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep15",
+      "title": "Episode 15: Kim Junsu",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-10-25",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "KHw-AnyPaTw",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "30:13"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep16",
+      "title": "Episode 16: Chungha",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-11-01",
+      "note": "Fellow JYP trainees.",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "OnNg9A-4Qc0",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "25:47"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep17",
+      "title": "Episode 17: Heize",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-11-08",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "rrmoahUz-8U",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "24:15"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep18",
+      "title": "Episode 18: ITZY Yeji",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-11-15",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "V5VcgQKoFCE",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "26:05"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep19",
+      "title": "Episode 19: ATEEZ",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-11-22",
+      "note": "ATEEZ join as one-day MCs.",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "W8LiQvsrhv8",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "28:00"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-ep20",
+      "title": "Episode 20: Gong Seung-yeon",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-11-29",
+      "note": "Season 1 finale: Jeongyeon's sister, at their parents' home.",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "cQ0g6RHB4wA",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "37:30"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s2-ep1",
+      "title": "Episode 1: MONSTA X Joohoney",
+      "series": "inspector",
+      "season": "inspector-s2",
+      "venue": "감별사 (YouTube)",
+      "date": "2025-04-02",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "zzYX5Na8zWs",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "25:35"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s2-ep2",
+      "title": "Episode 2: Mimiminu",
+      "series": "inspector",
+      "season": "inspector-s2",
+      "venue": "감별사 (YouTube)",
+      "date": "2025-04-16",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "wHh3T46k60Y",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "26:59"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s2-ep3",
+      "title": "Episode 3: Kyung Soo-jin & Jung Ji-so",
+      "series": "inspector",
+      "season": "inspector-s2",
+      "venue": "감별사 (YouTube)",
+      "date": "2025-04-30",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "uMbuF0UwRLM",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "27:12"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s2-ep4",
+      "title": "Episode 4: Lee Chang-ho & Kwak Bum",
+      "series": "inspector",
+      "season": "inspector-s2",
+      "venue": "감별사 (YouTube)",
+      "date": "2025-05-14",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ZfOTTmsgDl8",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "32:51"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s2-ep5",
+      "title": "Episode 5: BIGBANG Daesung",
+      "series": "inspector",
+      "season": "inspector-s2",
+      "venue": "감별사 (YouTube)",
+      "date": "2025-05-28",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "a3rpvF784j0",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "24:56"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s2-ep6",
+      "title": "Episode 6: KISS OF LIFE Belle & Haneul",
+      "series": "inspector",
+      "season": "inspector-s2",
+      "venue": "감별사 (YouTube)",
+      "date": "2025-06-11",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "hQG0OfokDgY",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "25:32"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s2-ep7",
+      "title": "Episode 7: KiiiKiii",
+      "series": "inspector",
+      "season": "inspector-s2",
+      "venue": "감별사 (YouTube)",
+      "date": "2025-06-25",
+      "note": "A party for their 100th day since debut.",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "S8saqCPdeWw",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "27:13"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s2-ep8",
+      "title": "Episode 8: TWICE Mina, Sana & Momo",
+      "series": "inspector",
+      "season": "inspector-s2",
+      "venue": "감별사 (YouTube)",
+      "date": "2025-07-09",
+      "note": "",
+      "members": "Jeongyeon, Mina, Sana, Momo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "j8OlebPfmA4",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "28:46"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s2-ep9",
+      "title": "Episode 9: Gong Seung-yeon, Yoo Jun-sang & Kim Jae-young",
+      "series": "inspector",
+      "season": "inspector-s2",
+      "venue": "감별사 (YouTube)",
+      "date": "2025-07-16",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Pz5UmNYHJFU",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "25:29"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s2-ep10",
+      "title": "Episode 10: Season 2 Finale",
+      "series": "inspector",
+      "season": "inspector-s2",
+      "venue": "감별사 (YouTube)",
+      "date": "2025-07-23",
+      "note": "",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "JsyiqekaOso",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "20:11"
+        }
+      ]
+    },
+    {
+      "id": "inspector-s1-special-somi",
+      "title": "Special: Jeon Somi",
+      "series": "inspector",
+      "season": "inspector-s1",
+      "venue": "감별사 (YouTube)",
+      "date": "2024-10-17",
+      "extra": true,
+      "note": "An unnumbered special episode.",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "RSJoNiTw-vk",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "20:53"
+        }
+      ]
+    },
+    {
+      "id": "yoo-got-a-minute-ep11",
+      "title": "Episode 11: TWICE Nayeon, Jeongyeon & Jihyo",
+      "series": "yoo-got-a-minute",
+      "venue": "Disney+",
+      "date": "2025-10-27",
+      "note": "Laugh and you're out: Nayeon, Jeongyeon and Jihyo try to survive an unfriendly interview.",
+      "members": "Nayeon, Jeongyeon, Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.disneyplus.com/en-hk/browse/entity-2e770d39-5291-4990-9654-8ab2470b298b",
+          "alt": "https://x.com/WithPJihyo/status/1983122993212756463",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "27:57",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/1983121714004533248/img/shnhcZJ8ORUbVin5.jpg"
+        }
+      ]
+    },
+    {
+      "id": "trick-kode-ep1",
+      "title": "Episode 1: Lee Chan-hyuk",
+      "series": "trick-kode",
+      "venue": "KODE (YouTube)",
+      "date": "2024-09-30",
+      "note": "AKMU's Lee Chan-hyuk, who also produced the show's theme song.",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Iv038cGsG7w",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:15"
+        }
+      ]
+    },
+    {
+      "id": "trick-kode-ep2",
+      "title": "Episode 2: Kang Hoon",
+      "series": "trick-kode",
+      "venue": "KODE (YouTube)",
+      "date": "2024-10-14",
+      "note": "",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "canIn_8MOZc",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:57"
+        }
+      ]
+    },
+    {
+      "id": "trick-kode-ep3",
+      "title": "Episode 3: VIVIZ Eunha",
+      "series": "trick-kode",
+      "venue": "KODE (YouTube)",
+      "date": "2024-10-28",
+      "note": "",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "WdqijMbCmzQ",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:21"
+        }
+      ]
+    },
+    {
+      "id": "trick-kode-ep4",
+      "title": "Episode 4: KISS OF LIFE Julie",
+      "series": "trick-kode",
+      "venue": "KODE (YouTube)",
+      "date": "2024-11-11",
+      "note": "",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "8U8M7JuGhcs",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:23"
+        }
+      ]
+    },
+    {
+      "id": "trick-kode-ep5",
+      "title": "Episode 5: TXT Hueningkai",
+      "series": "trick-kode",
+      "venue": "KODE (YouTube)",
+      "date": "2024-11-18",
+      "note": "",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "L6MsxmCSZlo",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:03"
+        }
+      ]
+    },
+    {
+      "id": "trick-kode-ep6",
+      "title": "Episode 6: TWICE Jeongyeon",
+      "series": "trick-kode",
+      "venue": "KODE (YouTube)",
+      "date": "2024-12-02",
+      "note": "",
+      "members": "Nayeon, Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "LVUglurMRB8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "33:20"
+        }
+      ]
+    },
+    {
+      "id": "trick-kode-ep7",
+      "title": "Episode 7: BTOB Seo Eun-kwang",
+      "series": "trick-kode",
+      "venue": "KODE (YouTube)",
+      "date": "2024-12-23",
+      "note": "",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "9k9ZabRio34",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:09"
+        }
+      ]
+    },
+    {
+      "id": "trick-kode-ep8",
+      "title": "Episode 8: Red Velvet Yeri",
+      "series": "trick-kode",
+      "venue": "KODE (YouTube)",
+      "date": "2025-01-06",
+      "note": "",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "czHvMmoWxh8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "27:43"
+        }
+      ]
+    },
+    {
+      "id": "trick-kode-ep9",
+      "title": "Episode 9: GOT7 Yugyeom",
+      "series": "trick-kode",
+      "venue": "KODE (YouTube)",
+      "date": "2025-01-27",
+      "note": "",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "y3eXbNkigr4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "23:39"
+        }
+      ]
+    },
+    {
+      "id": "trick-kode-ep10",
+      "title": "Episode 10: Mimiminu",
+      "series": "trick-kode",
+      "venue": "KODE (YouTube)",
+      "date": "2025-02-10",
+      "note": "",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Rvsi_H73XvQ",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "28:53"
+        }
+      ]
+    },
+    {
+      "id": "trick-kode-ep11",
+      "title": "Episode 11: Park Hyung-sik",
+      "series": "trick-kode",
+      "venue": "KODE (YouTube)",
+      "date": "2025-02-26",
+      "note": "",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "3bxuD4UPeGQ",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:10"
+        }
+      ]
+    },
+    {
+      "id": "trick-kode-ep12",
+      "title": "Episode 12: THE BOYZ Younghoon",
+      "series": "trick-kode",
+      "venue": "KODE (YouTube)",
+      "date": "2025-03-10",
+      "note": "",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "K32G2hmN8UU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "30:07"
+        }
+      ]
+    },
+    {
+      "id": "trick-kode-ep13",
+      "title": "Episode 13: ITZY Lia",
+      "series": "trick-kode",
+      "venue": "KODE (YouTube)",
+      "date": "2025-03-24",
+      "note": "",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "8sxkKwhp4to",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:37"
+        }
+      ]
+    },
+    {
+      "id": "trick-kode-ep14",
+      "title": "Episode 14: Gong Myung",
+      "series": "trick-kode",
+      "venue": "KODE (YouTube)",
+      "date": "2025-04-07",
+      "note": "",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "v-9WCNDEPc0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "33:24"
+        }
+      ]
+    },
+    {
+      "id": "trick-kode-ep15",
+      "title": "Episode 15: Joo Hyun-young",
+      "series": "trick-kode",
+      "venue": "KODE (YouTube)",
+      "date": "2025-04-23",
+      "note": "",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "gKgi5QSr8u0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "27:56"
+        }
+      ]
+    },
+    {
+      "id": "trick-kode-ep16",
+      "title": "Episode 16: aespa Giselle",
+      "series": "trick-kode",
+      "venue": "KODE (YouTube)",
+      "date": "2025-05-07",
+      "note": "",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "lG2XV-uTaAc",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "28:51"
+        }
+      ]
+    },
+    {
+      "id": "seibja-s1-ep0",
+      "title": "Episode 0: Prologue",
+      "series": "seibja",
+      "season": "seibja-s1",
+      "venue": "ootb STUDIO (YouTube)",
+      "date": "2024-05-07",
+      "extra": true,
+      "note": "A short opener before the first guesthouse.",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "RFi7QPg1g6Q",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "5:10"
+        }
+      ]
+    },
+    {
+      "id": "seibja-s1-ep1",
+      "title": "Episode 1: Jeju",
+      "series": "seibja",
+      "season": "seibja-s1",
+      "venue": "ootb STUDIO (YouTube)",
+      "date": "2024-05-14",
+      "note": "Her first guesthouse ever.",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ze8tMShh-YI",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "37:47"
+        }
+      ]
+    },
+    {
+      "id": "seibja-s1-ep2",
+      "title": "Episode 2: Jeju Omakase Guesthouse",
+      "series": "seibja",
+      "season": "seibja-s1",
+      "venue": "ootb STUDIO (YouTube)",
+      "date": "2024-05-21",
+      "note": "",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "aQV7VUPZBmw",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "30:33"
+        }
+      ]
+    },
+    {
+      "id": "seibja-s1-ep3",
+      "title": "Episode 3: Sokcho Music Guesthouse",
+      "series": "seibja",
+      "season": "seibja-s1",
+      "venue": "ootb STUDIO (YouTube)",
+      "date": "2024-05-28",
+      "note": "",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "UKSqfl4Wvbk",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "31:53"
+        }
+      ]
+    },
+    {
+      "id": "seibja-s1-ep4",
+      "title": "Episode 4: Countryside Guesthouse",
+      "series": "seibja",
+      "season": "seibja-s1",
+      "venue": "ootb STUDIO (YouTube)",
+      "date": "2024-06-04",
+      "note": "",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "7A4rB5HBWSo",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "38:06"
+        }
+      ]
+    },
+    {
+      "id": "seibja-s1-ep5",
+      "title": "Episode 5: Water Sports Guesthouse",
+      "series": "seibja",
+      "season": "seibja-s1",
+      "venue": "ootb STUDIO (YouTube)",
+      "date": "2024-06-18",
+      "note": "The first guest: BamBam, her friend of 15 years.",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "zWIVGhYvVuY",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "35:41"
+        }
+      ]
+    },
+    {
+      "id": "seibja-s1-ep6",
+      "title": "Episode 6: Busan 100-Person Party",
+      "series": "seibja",
+      "season": "seibja-s1",
+      "venue": "ootb STUDIO (YouTube)",
+      "date": "2024-06-25",
+      "note": "",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "5dgDBRptpDY",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "27:54"
+        }
+      ]
+    },
+    {
+      "id": "seibja-s1-ep7",
+      "title": "Episode 7: Fukui, Japan",
+      "series": "seibja",
+      "season": "seibja-s1",
+      "venue": "ootb STUDIO (YouTube)",
+      "date": "2024-07-02",
+      "note": "The first guesthouse abroad.",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "y_6OYqs_jgU",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "39:39"
+        }
+      ]
+    },
+    {
+      "id": "seibja-s2-ep8",
+      "title": "Episode 8: Yeosu",
+      "series": "seibja",
+      "season": "seibja-s2",
+      "venue": "ootb STUDIO (YouTube)",
+      "date": "2024-10-08",
+      "note": "",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "wk13_aNr1IY",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "33:43"
+        }
+      ]
+    },
+    {
+      "id": "seibja-s2-ep9",
+      "title": "Episode 9: Danyang",
+      "series": "seibja",
+      "season": "seibja-s2",
+      "venue": "ootb STUDIO (YouTube)",
+      "date": "2024-10-22",
+      "note": "",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "heCb2k0P61c",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "29:22"
+        }
+      ]
+    },
+    {
+      "id": "seibja-s2-ep10",
+      "title": "Episode 10: Jeongseon",
+      "series": "seibja",
+      "season": "seibja-s2",
+      "venue": "ootb STUDIO (YouTube)",
+      "date": "2024-11-05",
+      "note": "",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "tAZAVB6Ll44",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "29:59"
+        }
+      ]
+    },
+    {
+      "id": "seibja-s2-ep11",
+      "title": "Episode 11: Seoul (Hongdae)",
+      "series": "seibja",
+      "season": "seibja-s2",
+      "venue": "ootb STUDIO (YouTube)",
+      "date": "2024-11-19",
+      "note": "",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "GJoHhvfOU4Y",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "31:45"
+        }
+      ]
+    },
+    {
+      "id": "seibja-s2-ep12",
+      "title": "Episode 12: Bangkok, Part 1",
+      "series": "seibja",
+      "season": "seibja-s2",
+      "venue": "ootb STUDIO (YouTube)",
+      "date": "2024-12-06",
+      "note": "Khao San Road.",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "GyNsN_RgbXE",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "29:56"
+        }
+      ]
+    },
+    {
+      "id": "seibja-s2-ep13",
+      "title": "Episode 13: Bangkok, Part 2",
+      "series": "seibja",
+      "season": "seibja-s2",
+      "venue": "ootb STUDIO (YouTube)",
+      "date": "2024-12-20",
+      "note": "",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "MsX_DE3Y4LM",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "32:07"
+        }
+      ]
+    },
+    {
+      "id": "seibja-s2-ep14",
+      "title": "Episode 14: Chungju",
+      "series": "seibja",
+      "season": "seibja-s2",
+      "venue": "ootb STUDIO (YouTube)",
+      "date": "2025-01-10",
+      "note": "",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "0iadCcDKiv0",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "35:15"
+        }
+      ]
+    },
+    {
+      "id": "hal-myungsoo-ep93",
+      "title": "Episode 93: TWICE",
+      "series": "hal-myungsoo",
+      "venue": "할명수 (YouTube)",
+      "date": "2022-08-26",
+      "note": "A ghost-themed mafia game with Park Myung-soo and Nam Chang-hee, and the first reveal of \"Talk that Talk\".",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Haq4Jh8yxec",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "27:39"
+        }
+      ]
+    },
+    {
+      "id": "iu-palette-ep30",
+      "title": "Episode 30: TWICE",
+      "series": "iu-palette",
+      "venue": "IU Official (YouTube)",
+      "date": "2024-12-16",
+      "note": "A Christmas special: \"Merry TWICEmas to U ahead\".",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "2rwrOtpQCl4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "59:38"
+        }
+      ]
+    },
+    {
+      "id": "iht-6th-anniversary",
+      "title": "TWICE's 6th Anniversary Party",
+      "series": "idol-human-theater",
+      "venue": "KBS Kpop (YouTube)",
+      "date": "2021-11-13",
+      "note": "A party set up for their sixth anniversary, where something seems a little off.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "EVsWP8xzcLs",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "28:27"
+        }
+      ]
+    },
+    {
+      "id": "iht-clock-out-party",
+      "title": "The Clock-Out Party",
+      "series": "idol-human-theater",
+      "venue": "KBS Kpop (YouTube)",
+      "date": "2022-08-27",
+      "note": "TWICE, desperate to finish work and go home, throw a chaotic party.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "MRCM7AZXW2w",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "34:26",
+          "mustWatch": true
+        }
+      ]
+    },
+    {
+      "id": "iht-year-end-behind",
+      "title": "Year-End Behind the Scenes",
+      "series": "idol-human-theater",
+      "venue": "KBS Kpop (YouTube)",
+      "date": "2022-11-26",
+      "extra": true,
+      "note": "Saved-up behind-the-scenes footage released for the year end, shared with THE BOYZ.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "MZgPxV_6gso",
+          "label": "Behind the Scenes · Eng Sub",
+          "official": true,
+          "duration": "31:36"
+        }
+      ]
+    },
+    {
+      "id": "iht-skipping-practice",
+      "title": "Skipping Practice for the First Time in 8 Years",
+      "series": "idol-human-theater",
+      "venue": "아이돌 인간극장 (YouTube)",
+      "date": "2023-03-11",
+      "note": "TWICE sneak out of the company behind their manager's back for a day off.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "OJSJrD78_Oo",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "35:10",
+          "mustWatch": true
+        },
+        {
+          "kind": "special",
+          "url": "0ijsI-zxyNw",
+          "label": "Unaired Behind the Scenes · Eng Sub",
+          "official": true,
+          "duration": "20:24"
+        }
+      ]
+    },
+    {
+      "id": "iht-game-hell",
+      "title": "Game Hell",
+      "series": "idol-human-theater",
+      "venue": "아이돌 인간극장 (YouTube)",
+      "date": "2024-12-07",
+      "note": "TWICE asked for games, so the crew built a \"game hell\". Strategy era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "9baeH0hHnD0",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "50:23"
+        }
+      ]
+    },
+    {
+      "id": "boatta-ep16",
+      "title": "Episode 16: The Apple Battle",
+      "series": "boatta",
+      "venue": "KBS Kpop (YouTube)",
+      "date": "2020-06-20",
+      "note": "Games to win the apple. MORE & MORE era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "rnYe5TqXtSM",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "15:58"
+        }
+      ]
+    },
+    {
+      "id": "boatta-ep24",
+      "title": "Episode 24: 5th Anniversary Party",
+      "series": "boatta",
+      "venue": "KBS Kpop (YouTube)",
+      "date": "2020-11-07",
+      "note": "A debut anniversary and comeback party, with bingo for gifts. I CAN'T STOP ME era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "3HjKwVbSOz8",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "16:20"
+        }
+      ]
+    },
+    {
+      "id": "boatta-ep28",
+      "title": "Episode 28: Alcohol-Free Summer Vacation",
+      "series": "boatta",
+      "venue": "KBS Kpop (YouTube)",
+      "date": "2021-06-19",
+      "note": "A summer getaway on \"BOATTA Island\". Alcohol-Free era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "n1_BxkYcaN8",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "23:07",
+          "mustWatch": true
+        }
+      ]
+    },
+    {
+      "id": "1thek-ld-like-ooh-ahh",
+      "title": "Let's Dance: Like OOH-AHH",
+      "series": "1thek",
+      "season": "1thek-lets-dance",
+      "venue": "1theK (YouTube)",
+      "date": "2015-10-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "2ampM_S-19E",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "10:32"
+        }
+      ]
+    },
+    {
+      "id": "1thek-ld-cheer-up",
+      "title": "Let's Dance: CHEER UP",
+      "series": "1thek",
+      "season": "1thek-lets-dance",
+      "venue": "1theK (YouTube)",
+      "date": "2016-05-02",
+      "note": "TWICE teach K Man the dance.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "_q1wSPgP9pU",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "11:24"
+        }
+      ]
+    },
+    {
+      "id": "1thek-ld-tt",
+      "title": "Let's Dance: TT",
+      "series": "1thek",
+      "season": "1thek-lets-dance",
+      "venue": "1theK (YouTube)",
+      "date": "2016-10-28",
+      "note": "TWICE try to become the first \"Know-All-the-Beat\" idol.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "CbZdTF9CTWA",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "7:38"
+        }
+      ]
+    },
+    {
+      "id": "1thek-ld-heart-shaker",
+      "title": "Let's Dance: Heart Shaker",
+      "series": "1thek",
+      "season": "1thek-lets-dance",
+      "venue": "1theK (YouTube)",
+      "date": "2017-12-15",
+      "note": "The crew does everything it can to distract TWICE mid-dance.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "3Jg2HGDvpcs",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "8:03"
+        },
+        {
+          "kind": "dance",
+          "url": "PDK5KrxMMcw",
+          "label": "Mirrored Choreography",
+          "official": true,
+          "duration": "3:35"
+        }
+      ]
+    },
+    {
+      "id": "1thek-ia-cheer-up",
+      "title": "Idol Arcade: CHEER UP",
+      "series": "1thek",
+      "season": "1thek-idol-arcade",
+      "venue": "1theK (YouTube)",
+      "date": "2016-05-05",
+      "note": "Tzuyu, queen of games?",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "XojbvDJdfkU",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "3:54"
+        }
+      ]
+    },
+    {
+      "id": "1thek-ia-tt",
+      "title": "Idol Arcade: TT",
+      "series": "1thek",
+      "season": "1thek-idol-arcade",
+      "venue": "1theK (YouTube)",
+      "date": "2016-10-26",
+      "note": "A grand plan to save the dolls from the claw machine.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "kUl61JDK1Ig",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "4:26"
+        },
+        {
+          "kind": "special",
+          "url": "cYb-76RQWd4",
+          "label": "Penalty: \"TT\" Crazy Ver.",
+          "official": true,
+          "duration": "1:53"
+        }
+      ]
+    },
+    {
+      "id": "1thek-ia-signal",
+      "title": "Idol Arcade: SIGNAL",
+      "series": "1thek",
+      "season": "1thek-idol-arcade",
+      "venue": "1theK (YouTube)",
+      "date": "2017-05-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "cjykIaOPOug",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "5:45"
+        },
+        {
+          "kind": "special",
+          "url": "lb-qRKEDWWU",
+          "label": "Behind: \"SIGNAL\" Comic Ver.",
+          "official": true,
+          "duration": "1:46"
+        }
+      ]
+    },
+    {
+      "id": "1thek-aiab-what-is-love",
+      "title": "Ask In A Box: What is Love?",
+      "series": "1thek",
+      "season": "1thek-ask-in-a-box",
+      "venue": "1theK (YouTube)",
+      "date": "2018-04-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "dgAX__IxiPo",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "15:50",
+          "mustWatch": true
+        },
+        {
+          "kind": "special",
+          "url": "RuLUCGI-J-8",
+          "label": "Bonus Clip · \"What is Love?\" Danced on the Spot",
+          "official": true,
+          "duration": "1:12"
+        }
+      ]
+    },
+    {
+      "id": "1thek-aiab-dtna",
+      "title": "Ask In A Box: Dance The Night Away",
+      "series": "1thek",
+      "season": "1thek-ask-in-a-box",
+      "venue": "1theK (YouTube)",
+      "date": "2018-07-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "c4_9e0y1Brk",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "14:21",
+          "mustWatch": true
+        },
+        {
+          "kind": "special",
+          "url": "a92m49aChKs",
+          "label": "Bonus Clip · \"Dance The Night Away\" Danced on the Spot",
+          "official": true,
+          "duration": "1:34"
+        }
+      ]
+    },
+    {
+      "id": "season-b-season-ep10",
+      "title": "Episode 10: TWICE, Part 1",
+      "series": "season-b-season",
+      "venue": "시즌비시즌 (YouTube)",
+      "date": "2020-10-29",
+      "note": "A dance mafia game with Rain, plus two versions of the \"I CAN'T STOP ME\" choreography.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "3cuoX0JFhKc",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "14:36",
+          "mustWatch": true
+        }
+      ]
+    },
+    {
+      "id": "season-b-season-ep11",
+      "title": "Episode 11: TWICE, Part 2",
+      "series": "season-b-season",
+      "venue": "시즌비시즌 (YouTube)",
+      "date": "2020-11-05",
+      "note": "Among Us-style tag and a Korean beef feast. Momo, a longtime Rain fan, sings \"The Song to Hold You\" with him.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "PjHLPihQq2w",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "13:49"
+        }
+      ]
+    },
+    {
+      "id": "mmtg-ep151",
+      "title": "Episode 151: TWICE",
+      "series": "mmtg",
+      "venue": "MMTG 문명특급 (YouTube)",
+      "date": "2020-10-29",
+      "note": "All nine members for a comeback interview. I CAN'T STOP ME era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "-PZPD-kJC-0",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "24:22"
+        }
+      ]
+    },
+    {
+      "id": "pinggyego-ep82",
+      "title": "Episode 82: Home-cation",
+      "series": "pinggyego",
+      "venue": "뜬뜬 DdeunDdeun (YouTube)",
+      "date": "2025-07-11",
+      "note": "A summer \"home-cation\" with Yoo Jae-suk and Ji Suk-jin.",
+      "members": "Nayeon, Jeongyeon, Sana, Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "uxEa_VhvfIs",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "1:07:51"
+        }
+      ]
+    },
+    {
+      "id": "no-prepare-ep10",
+      "title": "Episode 10: Nayeon & Chaeyoung",
+      "series": "no-prepare",
+      "venue": "차린건 쥐뿔도 없지만 (YouTube)",
+      "date": "2022-09-02",
+      "note": "The show's first episode with two guests: drinking games, and TWICE drinking on camera for the first time in seven years since debut.",
+      "members": "Nayeon, Chaeyoung",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "6HEF4zBqbH8",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "36:10"
+        }
+      ]
+    },
+    {
+      "id": "no-prepare-ep34",
+      "title": "Episode 34: Season 2 Wrap Party, Part 1",
+      "series": "no-prepare",
+      "venue": "차린건 쥐뿔도 없지만 (YouTube)",
+      "date": "2024-11-15",
+      "note": "A wrap party with past guests including TXT: MBTI talk and classic drinking games.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ceGXF7zTk1Y",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "40:40"
+        }
+      ]
+    },
+    {
+      "id": "no-prepare-ep35",
+      "title": "Episode 35: Season 2 Wrap Party, Part 2",
+      "series": "no-prepare",
+      "venue": "차린건 쥐뿔도 없지만 (YouTube)",
+      "date": "2024-11-22",
+      "note": "Park Bo-young joins the party, with a lucky draw and awards to close Season 2.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "oybYZZwTnsM",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "45:03"
+        }
+      ]
+    },
+    {
+      "id": "mv-commentary-cheer-up",
+      "title": "MV Commentary: CHEER UP",
+      "series": "mv-commentary",
+      "venue": "M2 (YouTube)",
+      "date": "2016-05-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "lt1agdP9YKs",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "11:58"
+        },
+        {
+          "kind": "special",
+          "url": "W0No94nVcPM",
+          "label": "Bonus: Behind the Commentary",
+          "official": true,
+          "duration": "2:52"
+        }
+      ]
+    },
+    {
+      "id": "mv-commentary-tt",
+      "title": "MV Commentary: TT",
+      "series": "mv-commentary",
+      "venue": "M2 (YouTube)",
+      "date": "2016-11-10",
+      "note": "Includes a group \"PPAP\" and the \"TT\" choreography.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "vcXs1i7AAF0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:19"
+        },
+        {
+          "kind": "special",
+          "url": "ExOLcXyPK-A",
+          "label": "Bonus: Cute Cuts",
+          "official": true,
+          "duration": "3:01"
+        },
+        {
+          "kind": "special",
+          "url": "NQVv5CmQqwI",
+          "label": "Bonus: Behind the Commentary",
+          "official": true,
+          "duration": "5:02"
+        }
+      ]
+    },
+    {
+      "id": "mv-commentary-signal",
+      "title": "MV Commentary: SIGNAL",
+      "series": "mv-commentary",
+      "venue": "M2 (YouTube)",
+      "date": "2017-06-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "MBdewVunKuA",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:48"
+        },
+        {
+          "kind": "special",
+          "url": "9ukc0Q49jfQ",
+          "label": "Bonus: \"SIGNAL\" Self-Cam MV",
+          "official": true,
+          "duration": "3:30"
+        }
+      ]
+    },
+    {
+      "id": "mv-commentary-likey",
+      "title": "MV Commentary: LIKEY",
+      "series": "mv-commentary",
+      "venue": "M2 (YouTube)",
+      "date": "2017-11-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "-eZKij6byqQ",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:42"
+        }
+      ]
+    },
+    {
+      "id": "mv-commentary-what-is-love",
+      "title": "MV Commentary: What is Love?",
+      "series": "mv-commentary",
+      "venue": "M2 (YouTube)",
+      "date": "2018-05-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "7zdIgwJ7hZw",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:53"
+        }
+      ]
+    },
+    {
+      "id": "mv-commentary-dtna",
+      "title": "MV Commentary: Dance The Night Away",
+      "series": "mv-commentary",
+      "venue": "M2 (YouTube)",
+      "date": "2018-07-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "bV3oON0nIfE",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "24:51"
+        }
+      ]
+    },
+    {
+      "id": "mv-commentary-yes-or-yes",
+      "title": "MV Commentary: YES or YES",
+      "series": "mv-commentary",
+      "venue": "M2 (YouTube)",
+      "date": "2018-11-23",
+      "note": "Sana on the outfit concepts.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "R4jWPUk333A",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "19:05"
+        }
+      ]
+    },
+    {
+      "id": "1thek-iddp-scientist",
+      "title": "IDDP: SCIENTIST",
+      "series": "1thek",
+      "season": "1thek-iddp",
+      "venue": "1theK (YouTube)",
+      "date": "2021-11-15",
+      "note": "SCIENTIST era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "D9xiYXseGS0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "26:01"
+        }
+      ]
+    },
+    {
+      "id": "giant-peng-tv-ep103",
+      "title": "Episode 103: A New TWICE Member?",
+      "series": "giant-peng-tv",
+      "venue": "자이언트 펭TV (YouTube)",
+      "date": "2020-04-13",
+      "note": "Pengsoo visits TWICE for tips on becoming an idol and making it to Billboard.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "V4Ryk370T3A",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "13:39"
+        },
+        {
+          "kind": "special",
+          "url": "1gm-boiV0L4",
+          "label": "Behind: Pengsoo's New Greeting",
+          "official": true,
+          "duration": "6:47"
+        }
+      ]
+    },
+    {
+      "id": "giant-peng-tv-ep210",
+      "title": "Episode 210: Becoming a TWICE Fan Is Science?",
+      "series": "giant-peng-tv",
+      "venue": "자이언트 펭TV (YouTube)",
+      "date": "2021-11-12",
+      "note": "SCIENTIST era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "61_15wh4-gY",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "14:18"
+        }
+      ]
+    },
+    {
+      "id": "mwave-meet-greet-2015-11-25",
+      "title": "MEET&GREET: 'THE STORY BEGINS'",
+      "series": "mwave-meet-greet",
+      "venue": "Mwave (YouTube)",
+      "date": "2015-11-25",
+      "note": "Their debut mini album, a month after debut.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "as3Bn9nPH1Y",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "58:21"
+        }
+      ]
+    },
+    {
+      "id": "pixid-nayeon-2022",
+      "title": "Find Nayeon in the Rookie Idol Group Chat",
+      "series": "pixid",
+      "venue": "Pixid (YouTube)",
+      "date": "2022-06-24",
+      "note": "Nayeon, seven years in, hides among rookie idols NANA, Moon Sua, Huening Bahiyyih and Haewon. POP! era.",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "6rj3RJPk8F4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "14:26"
+        }
+      ]
+    },
+    {
+      "id": "ksn-s2-ep1",
+      "title": "Season 2, Episode 1: Nayeon, Momo & Sana",
+      "series": "k-star-next-door",
+      "season": "ksn-s2",
+      "venue": "Diggle (YouTube)",
+      "date": "2022-09-03",
+      "note": "The season opener, with SEVENTEEN's Boo Seungkwan.",
+      "members": "Nayeon, Momo, Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "n7LBoQWExDE",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "16:05"
+        }
+      ]
+    },
+    {
+      "id": "ksn-s4-ep14",
+      "title": "Season 4, Episode 14: Nayeon",
+      "series": "k-star-next-door",
+      "season": "ksn-s4",
+      "venue": "동네스타K (YouTube)",
+      "date": "2024-06-18",
+      "note": "",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Y9fJ0zxqPiM",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "26:02"
+        }
+      ]
+    },
+    {
+      "id": "showterview-ep55",
+      "title": "Episode 55: TWICE",
+      "series": "showterview",
+      "venue": "Mobidic (YouTube)",
+      "date": "2021-06-17",
+      "note": "All nine members, the biggest line-up in the show's history: a group interview, then one-on-ones. Alcohol-Free era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "5LGPm58E8qA",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "34:31"
+        }
+      ]
+    },
+    {
+      "id": "zip-daesung-ep37",
+      "title": "Episode 37: TWICE",
+      "series": "zip-daesung",
+      "venue": "집대성 (YouTube)",
+      "date": "2024-12-27",
+      "note": "Daesung looks for what he has in common with TWICE. Strategy era.",
+      "members": "Jeongyeon, Mina, Dahyun, Tzuyu",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "msQODCttRvk",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "25:09"
+        }
+      ]
+    },
+    {
+      "id": "choo-sung-hoon-2026-08-20",
+      "title": "A Day Out with Nayeon & Momo",
+      "series": "choo-sung-hoon",
+      "venue": "추성훈 ChooSungHoon (YouTube)",
+      "date": "2026-08-20",
+      "note": "Nayeon and Momo eat and drink their way around a small town near Tokyo with Choo Sung-hoon, and the three become sworn siblings.",
+      "members": "Nayeon, Momo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "RWiCG9M03yU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "32:16"
+        }
+      ]
+    }
+  ]
+}

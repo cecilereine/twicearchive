@@ -52,14 +52,20 @@
 :root[data-accent="variety"]     { --accent: #71c7d4; --accent-2: #2a8fa0; } /* Mina */
 /* Dahyun's white can't tint a page, so TIME TO TWICE skips ahead to Chaeyoung. */
 :root[data-accent="ttt"]         { --accent: #e62722; --accent-2: #a8151a; } /* Chaeyoung */
+:root[data-accent="streaming"]   { --accent: #2253a3; --accent-2: #163a78; } /* Tzuyu */
 :root:is([data-accent="covers"], [data-accent="live"], [data-accent="vlogs"],
       [data-accent="twicetv"], [data-accent="variety"], [data-accent="updates"],
-      [data-accent="ttt"]) { --accent-ink: var(--accent-2); }
+      [data-accent="ttt"], [data-accent="streaming"]) { --accent-ink: var(--accent-2); }
 /* …but on the dark background it's the bright member colour that reads. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) { --accent-ink: var(--accent); }
 }
 :root[data-theme="dark"] { --accent-ink: var(--accent); }
+/* Tzuyu's navy is too dark to read on the dark background; lift it. */
+@media (prefers-color-scheme: dark) {
+  :root[data-accent="streaming"]:not([data-theme="light"]) { --accent-ink: #7fa6ea; }
+}
+:root[data-accent="streaming"][data-theme="dark"] { --accent-ink: #7fa6ea; }
 /* Jihyo's apricot and Mina's aqua are too pale for white text on a selected chip. */
 :root:is([data-accent="twicetv"], [data-accent="variety"]) .chip.on { color: #2a1b22; }
 

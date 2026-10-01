@@ -1925,6 +1925,26 @@
           "thumb": "https://p.bstarstatic.com/ugc/53c0b9ec19e383845953e2a67ac07002.jpg@640w_360h.webp"
         }
       ]
+    },
+    {
+      "id": "singdome-rakuten-monkeys-2026",
+      "title": "Rakuten Monkeys SINGDOME 2026",
+      "series": "festival",
+      "artist": "Nayeon",
+      "members": "Nayeon",
+      "venue": "Taoyuan, Taiwan",
+      "date": "2026-08-29",
+      "note": "Nayeon's post-game concert for the Rakuten Monkeys baseball team. Fan-filmed, the full set end to end.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "igwaW20EoQM",
+          "label": "Full Performance",
+          "official": false,
+          "fancam": true,
+          "duration": "24:25"
+        }
+      ]
     }
   ]
 }

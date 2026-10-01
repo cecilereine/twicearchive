@@ -1,7 +1,7 @@
 {
   "section": "TV Variety & Reality",
   "note": "TWICE on TV variety and reality shows — their own series (SIXTEEN) and guest runs on others, one entry per episode. Grouped by show, not by year: each show is one tab and one section. YouTube variety (TIME TO TWICE and the rest) is a separate section. A show can carry \"mustWatch\" and a \"summary\", shown on its heading.",
-  "updated": "2026-09-23",
+  "updated": "2026-10-02",
   "groupBy": "series",
   "memberColors": {
     "Nayeon": "#49c0ec",
@@ -25,28 +25,25 @@
       "mustWatch": true
     },
     {
+      "key": "after-school-club",
+      "label": "After School Club",
+      "summary": "Arirang TV's live K-pop show for international fans, with live video chats and tweets from viewers."
+    },
+    {
+      "key": "pops-in-seoul",
+      "label": "Pops in Seoul",
+      "summary": "Arirang TV's long-running K-pop show for international viewers."
+    },
+    {
+      "key": "weekly-idol",
+      "label": "Weekly Idol",
+      "summary": "MBC every1's idol variety show, hosted in TWICE's years on it by Jung Hyung-don and Defconn."
+    },
+    {
       "key": "elegant-private-life",
       "label": "TWICE's Elegant Private Life",
       "mustWatch": true,
       "summary": "Their first reality show after debut: the members' everyday lives off stage."
-    },
-    {
-      "key": "carefree-travelers",
-      "label": "Carefree Travelers",
-      "summary": "Eight members (Dahyun was absent) join JTBC's package-tour show for a group package tour to Da Nang, Vietnam, travelling alongside the regular cast."
-    },
-    {
-      "key": "snl-korea",
-      "label": "SNL Korea"
-    },
-    {
-      "key": "oppa-thinking",
-      "label": "Oppa Thinking"
-    },
-    {
-      "key": "idol-room",
-      "label": "Idol Room",
-      "summary": "JTBC's idol variety show hosted by Jeong Hyeong-don and Defconn. TWICE guested five times."
     },
     {
       "key": "knowing-bros",
@@ -57,6 +54,49 @@
       "key": "running-man",
       "label": "Running Man",
       "summary": "SBS's long-running race variety show: missions at landmarks, capped by the name-tag elimination game."
+    },
+    {
+      "key": "sister-slam-dunk",
+      "label": "Sister's Slam Dunk",
+      "summary": "KBS2 variety show where celebrity women chase their dreams; its first season formed the project girl group Unnies."
+    },
+    {
+      "key": "return-of-superman",
+      "label": "The Return of Superman",
+      "summary": "KBS2's reality show following celebrity dads raising their children."
+    },
+    {
+      "key": "snl-korea",
+      "label": "SNL Korea"
+    },
+    {
+      "key": "lost-time",
+      "label": "Lost Time",
+      "summary": "JTBC variety show made with Nextmove's mobile game Lost Tale: TWICE get 300 minutes to complete missions and recover items lost from fairy tales, with actor Kwak Si-yang as MC. It ran as web clips on Naver TV first, then aired on JTBC as two episodes."
+    },
+    {
+      "key": "k-rush",
+      "label": "K-RUSH",
+      "summary": "KBS World's idol show for international fans. TWICE guested in each of its first three seasons."
+    },
+    {
+      "key": "oppa-thinking",
+      "label": "Oppa Thinking"
+    },
+    {
+      "key": "carefree-travelers",
+      "label": "Carefree Travelers",
+      "summary": "Eight members (Dahyun was absent) join JTBC's package-tour show for a group package tour to Da Nang, Vietnam, travelling alongside the regular cast."
+    },
+    {
+      "key": "idol-room",
+      "label": "Idol Room",
+      "summary": "JTBC's idol variety show hosted by Jeong Hyeong-don and Defconn. TWICE guested five times."
+    },
+    {
+      "key": "kpop-next-chapter",
+      "label": "K-pop: The Next Chapter",
+      "summary": "Arirang TV's one-hour special panel on where K-pop and Korean culture go next."
     }
   ],
   "events": [
@@ -470,6 +510,109 @@
       ]
     },
     {
+      "id": "lost-time-ep1",
+      "title": "Lost Time Episode 1",
+      "series": "lost-time",
+      "venue": "JTBC",
+      "date": "2017-01-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "eQVk4bEtjbs",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "50:09",
+          "mustWatch": true
+        }
+      ]
+    },
+    {
+      "id": "lost-time-ep2",
+      "title": "Lost Time Episode 2",
+      "series": "lost-time",
+      "venue": "JTBC",
+      "date": "2017-01-30",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "1FyGysbnMgg",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "49:39",
+          "mustWatch": true
+        }
+      ]
+    },
+    {
+      "id": "lost-time-special-clips",
+      "title": "Lost Time Special Clips",
+      "series": "lost-time",
+      "venue": "V LIVE",
+      "date": "2017-02-05",
+      "extra": true,
+      "note": "Eight short clips posted between January 21 and February 5, 2017, alongside the web episodes.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "VqSKQCP40M4",
+          "label": "Chaeyoung's Mission",
+          "official": false,
+          "duration": "2:48"
+        },
+        {
+          "kind": "special",
+          "url": "DXu2oZMyBVs",
+          "label": "The Truth Behind the Missions",
+          "official": false,
+          "duration": "2:50"
+        },
+        {
+          "kind": "special",
+          "url": "d6jB-rruQ_Q",
+          "label": "TWICE's Creative Deductions: TDOONG Detective Agency",
+          "official": false,
+          "duration": "2:43"
+        },
+        {
+          "kind": "special",
+          "url": "pxhiAXQeBGc",
+          "label": "Dark Knight Rise, Part 1",
+          "official": false,
+          "duration": "8:30"
+        },
+        {
+          "kind": "special",
+          "url": "Wrae3zP2UFE",
+          "label": "Dark Knight Rise, Part 2",
+          "official": false,
+          "duration": "8:33"
+        },
+        {
+          "kind": "special",
+          "url": "ImhnBxd9fQE",
+          "label": "Foul King TWICE! What's Your Pick?",
+          "official": false,
+          "duration": "2:49"
+        },
+        {
+          "kind": "special",
+          "url": "xMLIM4ydeEM",
+          "label": "Friendship Over Love: TWICE Getting Along",
+          "official": false,
+          "duration": "2:38"
+        },
+        {
+          "kind": "special",
+          "url": "vsjpcVOgH3E",
+          "label": "Adios TWICE! Thank You",
+          "official": false,
+          "duration": "2:26"
+        }
+      ]
+    },
+    {
       "id": "idol-room-ep10",
       "title": "Idol Room Episode 10",
       "series": "idol-room",
@@ -807,6 +950,366 @@
           "label": "Full Episode",
           "official": false,
           "thumb": "https://www.myrunningman.com/assets/epimg/730_temp.jpg"
+        }
+      ]
+    },
+    {
+      "id": "k-rush-ep12",
+      "title": "K-RUSH Episode 12",
+      "series": "k-rush",
+      "venue": "KBS World",
+      "date": "2017-05-26",
+      "note": "With The EastLight and SONAMOO. Signal era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "yfIegp3K3ro",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "32:57"
+        }
+      ]
+    },
+    {
+      "id": "k-rush2-twice",
+      "title": "K-RUSH2: TWICE",
+      "series": "k-rush",
+      "venue": "KBS World",
+      "date": "2017-11-17",
+      "note": "With UP10TION. Likey era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "BVhynC3Ew-M",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "30:30"
+        }
+      ]
+    },
+    {
+      "id": "k-rush3-twice-1",
+      "title": "K-RUSH3: TWICE, Part 1",
+      "series": "k-rush",
+      "venue": "KBS World",
+      "date": "2018-04-27",
+      "note": "What is Love? era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "MhSlSeJnVic",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "36:50"
+        }
+      ]
+    },
+    {
+      "id": "k-rush3-twice-2",
+      "title": "K-RUSH3: TWICE, Part 2",
+      "series": "k-rush",
+      "venue": "KBS World",
+      "date": "2018-05-04",
+      "note": "What is Love? era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "wgQVC1Gut2E",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "36:18"
+        }
+      ]
+    },
+    {
+      "id": "asc-ep184",
+      "title": "After School Club Episode 184",
+      "series": "after-school-club",
+      "venue": "Arirang TV",
+      "date": "2015-11-03",
+      "note": "Their first visit, as rookies promoting debut single \"Like OOH-AHH\".",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "iC24iM0QmL4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "54:13"
+        }
+      ]
+    },
+    {
+      "id": "asc-tt",
+      "title": "After School Club: TWICE",
+      "series": "after-school-club",
+      "venue": "Arirang TV",
+      "date": "2016-11-01",
+      "note": "Back for \"TT\", after \"Like OOH-AHH\" and \"CHEER UP\".",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "o7Pvt8W-xlI",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "54:00"
+        }
+      ]
+    },
+    {
+      "id": "sister-slam-dunk-2016-08-12",
+      "title": "Sister's Slam Dunk: Meeting a Senior Girl Group",
+      "series": "sister-slam-dunk",
+      "venue": "KBS2",
+      "date": "2016-08-12",
+      "note": "The cast, preparing to debut as Unnies, meet TWICE as their girl group seniors.",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "iwyXOVnv_9k",
+          "label": "TWICE's Segment · Eng Sub",
+          "official": true,
+          "duration": "14:01"
+        }
+      ]
+    },
+    {
+      "id": "pops-in-seoul-pick-talk-2015",
+      "title": "Pops in Seoul: Pick & Talk",
+      "series": "pops-in-seoul",
+      "venue": "Arirang TV",
+      "date": "2015-11-17",
+      "note": "An interview from their debut era.",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "_waVsjcEMP8",
+          "label": "Pick & Talk Segment",
+          "official": true,
+          "duration": "9:42"
+        }
+      ]
+    },
+    {
+      "id": "weekly-idol-ep228",
+      "title": "Weekly Idol Episode 228",
+      "series": "weekly-idol",
+      "venue": "MBC every1",
+      "date": "2015-12-09",
+      "note": "Like OOH-AHH era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "EAoOjgKjoDE",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "33:37"
+        }
+      ]
+    },
+    {
+      "id": "weekly-idol-ep230",
+      "title": "Weekly Idol Episode 230: Christmas Special",
+      "series": "weekly-idol",
+      "venue": "MBC every1",
+      "date": "2015-12-23",
+      "note": "Nayeon, Dahyun and Tzuyu face off with GFRIEND and Lovelyz. Nayeon and Dahyun dance to Super Junior's \"Rokkugo\", and Dahyun brings back her eagle dance.",
+      "members": "Nayeon, Dahyun, Tzuyu",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "_hopu7j0rgs",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "53:55"
+        }
+      ]
+    },
+    {
+      "id": "weekly-idol-ep246",
+      "title": "Weekly Idol Episode 246",
+      "series": "weekly-idol",
+      "venue": "MBC every1",
+      "date": "2016-04-13",
+      "note": "Dahyun, with Heechul, EXID's Hani, GOT7's Jackson and MONSTA X's Joohoney. Only Part 1 is linked; a full upload hasn't turned up.",
+      "members": "Dahyun",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "IMRtUE4tSRk",
+          "label": "Part 1 Only · Eng Sub",
+          "official": false,
+          "duration": "10:30"
+        }
+      ]
+    },
+    {
+      "id": "weekly-idol-ep249",
+      "title": "Weekly Idol Episode 249",
+      "series": "weekly-idol",
+      "venue": "MBC every1",
+      "date": "2016-05-04",
+      "note": "CHEER UP era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "yd0FOIkxpDk",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "32:59"
+        }
+      ]
+    },
+    {
+      "id": "weekly-idol-ep261",
+      "title": "Weekly Idol Episode 261: 5th Anniversary Special",
+      "series": "weekly-idol",
+      "venue": "MBC every1",
+      "date": "2016-07-27",
+      "note": "The show's 5th anniversary special, with GFRIEND, GOT7 and BTOB.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "J2IC29gUsao",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "50:48"
+        }
+      ]
+    },
+    {
+      "id": "weekly-idol-ep262",
+      "title": "Weekly Idol Episode 262: 5th Anniversary Special",
+      "series": "weekly-idol",
+      "venue": "MBC every1",
+      "date": "2016-08-03",
+      "note": "The 5th anniversary special continues, with GFRIEND, GOT7 and BTOB.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "rBiuFn_UI5M",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "50:51"
+        }
+      ]
+    },
+    {
+      "id": "weekly-idol-ep274",
+      "title": "Weekly Idol Episode 274",
+      "series": "weekly-idol",
+      "venue": "MBC every1",
+      "date": "2016-10-26",
+      "note": "TT era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "VZcW7ZHY4RU",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "51:08"
+        }
+      ]
+    },
+    {
+      "id": "weekly-idol-ep303",
+      "title": "Weekly Idol Episode 303",
+      "series": "weekly-idol",
+      "venue": "MBC every1",
+      "date": "2017-05-17",
+      "note": "SIGNAL era, part 1 of 2.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "gQRsU4JZV-0",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "47:58"
+        }
+      ]
+    },
+    {
+      "id": "weekly-idol-ep304",
+      "title": "Weekly Idol Episode 304",
+      "series": "weekly-idol",
+      "venue": "MBC every1",
+      "date": "2017-05-24",
+      "note": "SIGNAL era, part 2 of 2, continuing Episode 303.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "esTrdkHtu78",
+          "label": "Full Episode · Eng & Spanish Sub",
+          "official": false,
+          "duration": "55:33"
+        }
+      ]
+    },
+    {
+      "id": "weekly-idol-ep327",
+      "title": "Weekly Idol Episode 327",
+      "series": "weekly-idol",
+      "venue": "MBC every1",
+      "date": "2017-11-01",
+      "note": "LIKEY era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "CsggO4eGgNs",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "50:55"
+        }
+      ]
+    },
+    {
+      "id": "return-of-superman-2016-08-14",
+      "title": "The Return of Superman: Twins' House",
+      "series": "return-of-superman",
+      "venue": "KBS2",
+      "date": "2016-08-14",
+      "note": "The twins meet the TWICE members.",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "To386cLoUjo",
+          "label": "TWICE's Segment · Eng Sub",
+          "official": true,
+          "duration": "9:50"
+        }
+      ]
+    },
+    {
+      "id": "return-of-superman-2017-01-22",
+      "title": "The Return of Superman: The Waiting Room",
+      "series": "return-of-superman",
+      "venue": "KBS2",
+      "date": "2017-01-22",
+      "note": "TWICE drop in on the Superman kids' waiting room.",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "uc1lU3VLtSU",
+          "label": "TWICE's Segment · Eng Sub",
+          "official": true,
+          "duration": "11:01"
+        }
+      ]
+    },
+    {
+      "id": "kpop-next-chapter-2025",
+      "title": "K-pop: The Next Chapter",
+      "series": "kpop-next-chapter",
+      "venue": "Arirang TV",
+      "date": "2025-08-20",
+      "note": "Jeongyeon and Jihyo on a panel with President Lee Jae-myung, KPop Demon Hunters director Maggie Kang, producer R.Tee and critic Kim Young-dae, hosted by Jang Sung-kyu.",
+      "members": "Jeongyeon, Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "tqjzhFQG_VQ",
+          "label": "Full Program · English Dub",
+          "official": false,
+          "duration": "58:47"
         }
       ]
     }

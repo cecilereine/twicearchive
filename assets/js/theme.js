@@ -24,6 +24,7 @@ const NAV_PAGES = [
   ['timetotwice.html', 'TIME TO TWICE'],
   ['twicetv.html',     'TWICE TV'],
   ['variety.html',     'TV Variety & Reality'],
+  ['streaming.html',   'Streaming Variety'],
   ['donate.html',      'Donate'],
 ];
 

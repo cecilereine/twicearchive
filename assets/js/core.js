@@ -212,9 +212,10 @@ function memberStyle(names, colors, groupColors) {
 
 /* A pinned video leads, then every official upload ahead of every fan one, and
    within each of those the kinds in VIDEO_ORDER, so lyric videos read as a
-   footnote. Sorting here rather than only in the data means a hand-edited
+   footnote. A show's full episode leads its own extras (behind clips,
+   specials). Sorting here rather than only in the data means a hand-edited
    entry can't show up out of place. */
-const VIDEO_ORDER = { mv: 0, special: 1, dance: 2, 'dance-performance': 2.5, performance: 3,
+const VIDEO_ORDER = { episode: -1, mv: 0, special: 1, dance: 2, 'dance-performance': 2.5, performance: 3,
                       live: 4, other: 5, lyric: 6 };
 const orderVideos = list =>
   [...(list || [])].sort((a, b) =>

@@ -108,7 +108,7 @@ function renderList() {
 
   host.innerHTML = [...groups].map(([year, list]) => `
     <section>
-      ${sectionHead(year, list.length)}
+      ${sectionHead(year, countable(list))}
       <div class="live-grid">
         ${list.flatMap(eventCards).join('')}
       </div>
@@ -116,6 +116,9 @@ function renderList() {
 }
 
 const countOf = n => `${n} ${NOUN}${n === 1 ? '' : 's'}`;
+/* An entry marked "extra" (a show's special clips, say) is listed with the
+   show but isn't one of its episodes, so the heading's count leaves it out. */
+const countable = list => list.filter(e => !e.extra).length;
 /* "2015", or "2021–2025" when the entries span more than one year. */
 const yearSpan = list => {
   const years = [...new Set(list.map(eventYear).filter(Boolean))].sort();
@@ -151,7 +154,7 @@ function seriesSections(events) {
 
     return `
     <section>
-      ${sectionHead(seriesLabel(key), mine.length, seasons.length ? '' : yearSpan(mine),
+      ${sectionHead(seriesLabel(key), countable(mine), seasons.length ? '' : yearSpan(mine),
                     seriesOf(key)?.mustWatch)}
       ${seriesOf(key)?.summary ? `<p class="season-summary">${escapeHtml(seriesOf(key).summary)}</p>` : ''}
       ${parts.map(([season, list]) => {

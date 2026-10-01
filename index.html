@@ -9,9 +9,9 @@
      data/ changes, so a browser can't pair new HTML with a stale script or stale
      data the way GitHub Pages' ten minute cache otherwise allows. The scripts
      pass their own ?v= through to the data file they fetch. -->
-<link rel="icon" type="image/png" href="assets/img/favicon.png?v=229">
-<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png?v=229">
-<link rel="stylesheet" href="assets/css/style.css?v=229">
+<link rel="icon" type="image/png" href="assets/img/favicon.png?v=231">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png?v=231">
+<link rel="stylesheet" href="assets/css/style.css?v=231">
 <script>try{var t=localStorage.getItem('twice-archive:theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 </head>
 <body>
@@ -65,6 +65,14 @@
           <span class="txt">
             <b>Dahyunflix</b>
             <small>Dahyun's content, all in one place · EN · ES · PT</small>
+          </span>
+          <span class="go" aria-hidden="true">↗</span>
+        </a>
+        <a class="site-link" href="https://twicehub.com/twice" target="_blank" rel="noopener">
+          <span class="ico">📅</span>
+          <span class="txt">
+            <b>Twicehub</b>
+            <small>TWICE's schedule: past and upcoming events, concerts &amp; promotions</small>
           </span>
           <span class="go" aria-hidden="true">↗</span>
         </a>
@@ -136,14 +144,15 @@
       <span class="hub-progress" data-key="twice-archive:variety-progress" data-noun="episodes" hidden></span>
     </a>
 
-    <!-- Copy discography.html + its data file to add one of these. -->
-    <div class="hub-card soon">
+    <a class="hub-card" href="streaming.html">
       <span class="emoji">📱</span>
       <h2>Streaming Variety</h2>
       <p>Variety shows made for YouTube, Netflix and other streaming platforms.</p>
-      <span class="tag">Coming soon</span>
-    </div>
+      <span class="tag">Sana's Fridge Interview · Jeongyeon's Inspector · Nayeon's Trick KODE · Jihyo's Seibja · and more</span>
+      <span class="hub-progress" data-key="twice-archive:streaming-progress" data-noun="episodes" hidden></span>
+    </a>
 
+    <!-- Copy discography.html + its data file to add one of these. -->
     <div class="hub-card soon">
       <span class="emoji">🍿</span>
       <h2>Movies &amp; Documentaries</h2>
@@ -158,7 +167,7 @@
   </footer>
 
 </div>
-<script src="assets/js/theme.js?v=229"></script>
+<script src="assets/js/theme.js?v=231"></script>
 <script>
 /* Watched progress on the Discography card. The discography page leaves its
    totals in localStorage each time it counts them, so the hub can show them
