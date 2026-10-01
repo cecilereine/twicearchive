@@ -40,6 +40,11 @@
       "summary": "MBC every1's idol variety show, hosted in TWICE's years on it by Jung Hyung-don and Defconn."
     },
     {
+      "key": "yu-huiyeol-sketchbook",
+      "label": "Yu Huiyeol's Sketchbook",
+      "summary": "KBS2's late-night live music talk show, hosted by Yu Hee-yeol."
+    },
+    {
       "key": "elegant-private-life",
       "label": "TWICE's Elegant Private Life",
       "mustWatch": true,
@@ -92,6 +97,11 @@
       "key": "idol-room",
       "label": "Idol Room",
       "summary": "JTBC's idol variety show hosted by Jeong Hyeong-don and Defconn. TWICE guested five times."
+    },
+    {
+      "key": "the-seasons",
+      "label": "The Seasons",
+      "summary": "KBS2's late-night music talk show, hosted by a new host each season."
     },
     {
       "key": "kpop-next-chapter",
@@ -1308,6 +1318,57 @@
           "label": "Full Program · English Dub",
           "official": false,
           "duration": "58:47"
+        }
+      ]
+    },
+    {
+      "id": "yu-huiyeol-sketchbook-2016",
+      "title": "Yu Huiyeol's Sketchbook",
+      "series": "yu-huiyeol-sketchbook",
+      "venue": "KBS2",
+      "date": "2016-01-22",
+      "note": "“Like OOH-AHH” plus two JYP labelmate covers — miss A's “Bad Girl Good Girl” and Wonder Girls' “So Hot”.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "cfLTO_HSISo",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "1:15:06"
+        }
+      ]
+    },
+    {
+      "id": "yu-huiyeol-sketchbook-2018",
+      "title": "Yu Huiyeol's Sketchbook",
+      "series": "yu-huiyeol-sketchbook",
+      "venue": "KBS2",
+      "date": "2018-04-14",
+      "note": "A \"Game of Thrones\" special with Shin Yong-jae and Bong Tae-gyu. What is Love? era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "XoR_NhpuAWM",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "1:12:35"
+        }
+      ]
+    },
+    {
+      "id": "the-seasons-2024",
+      "title": "The Seasons: Lee Young-ji's Rainbow",
+      "series": "the-seasons",
+      "venue": "KBS2",
+      "date": "2024-12-06",
+      "note": "TWICE's talk and stage segment. Their \"Domino\" cover from the same episode is on the Concerts & Live page, under Stage Covers & Collabs.",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "Peybrm0z_8Y",
+          "label": "Talk & Stage · Eng Sub",
+          "official": true,
+          "duration": "24:06"
         }
       ]
     }
