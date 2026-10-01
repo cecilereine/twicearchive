@@ -110,11 +110,10 @@
       "videos": [
         {
           "kind": "episode",
-          "url": "https://www.bilibili.tv/en/video/4787582431271424",
-          "label": "Full Episode · Eng Sub",
+          "url": "Rq46gh3NYWk",
+          "label": "Full Episode · 1080p · No Subs",
           "official": false,
-          "duration": "55:20",
-          "thumb": "https://p.bstarstatic.com/ugc/735319313e8d6b2da787b2866949c025.jpg@640w_360h.webp"
+          "duration": "55:20"
         }
       ]
     },
@@ -128,11 +127,10 @@
       "videos": [
         {
           "kind": "episode",
-          "url": "https://www.bilibili.tv/en/video/4787582439396864",
-          "label": "Full Episode · Eng Sub",
+          "url": "25rSujhFquk",
+          "label": "Full Episode · 720p · No Subs",
           "official": false,
-          "duration": "1:07:23",
-          "thumb": "https://p.bstarstatic.com/ugc/1be34fcd76c1ffdd12c2fa2b9214a337.jpg@640w_360h.webp"
+          "duration": "1:07:33"
         }
       ]
     },
