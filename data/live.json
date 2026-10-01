@@ -1,7 +1,7 @@
 {
   "section": "Concerts & Live",
   "note": "Full shows — a whole concert, festival set, broadcast special, fanmeeting or award show, in one video. Per-song cuts from these shows stay filed under their track in discography.json; this file is for the video you'd watch end to end. The one exception is Stage Covers & Collabs: a one-off stage of a song that isn't TWICE's own — a cover, or a joint stage with other artists — which has no track to file under.",
-  "updated": "2026-09-24",
+  "updated": "2026-09-27",
   "memberColors": {
     "Nayeon": "#49c0ec",
     "Jeongyeon": "#a3cc54",
@@ -618,6 +618,23 @@
       ]
     },
     {
+      "id": "bggg-nobody-honey-cover-kcon-ny-2017",
+      "title": "Bad Girl Good Girl + Nobody + Honey — miss A, Wonder Girls & J.Y. Park covers",
+      "series": "stage",
+      "venue": "KCON 2017 NY, Prudential Center",
+      "date": "2017-07-06",
+      "note": "JYP medley. Aired on M COUNTDOWN EP.531 (KCON 2017 NY × M COUNTDOWN).",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "wmXlymC8HOQ",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "4:39"
+        }
+      ]
+    },
+    {
       "id": "loving-u-sistar-special-music-bank-2016",
       "title": "Loving U — SISTAR cover, with SISTAR",
       "series": "stage",
@@ -1022,6 +1039,24 @@
           "label": "Special Stage",
           "official": false,
           "duration": "2:28"
+        }
+      ]
+    },
+    {
+      "id": "bounce-collab-mama-japan-2018",
+      "title": "Bounce (Dubstep Ver.) — Cho Yong-pil cover, with Wanna One, IZ*ONE, MONSTA X & GOT7",
+      "series": "stage",
+      "members": "Momo, Mina",
+      "venue": "2018 MAMA Fans' Choice in Japan, Saitama Super Arena",
+      "date": "2018-12-12",
+      "note": "Dance collab: Choi Yena, Honda Hitomi & Shownu, Hyungwon & Momo, Mina & JB, Yugyeom.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "jSuGBLdL28c",
+          "label": "Special Stage",
+          "official": true,
+          "duration": "1:25"
         }
       ]
     },

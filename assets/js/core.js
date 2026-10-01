@@ -1,5 +1,5 @@
 /* ---------------------------------------------------------------------------
-   The Candybong Vault — shared helpers.
+   Candybong Vault — shared helpers.
 
    Four things live here because every section page needs them:
      1. YouTube link handling  — turn whatever you pasted into a video id.

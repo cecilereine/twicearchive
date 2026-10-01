@@ -1,7 +1,7 @@
 {
   "section": "Discography",
   "note": "Korean, Japanese and solo releases share this file; each carries a \"category\" so the page can filter between them.",
-  "updated": "2026-09-25",
+  "updated": "2026-10-02",
   "categories": [
     {
       "key": "korean",
@@ -1309,6 +1309,12 @@
             },
             {
               "kind": "live",
+              "url": "EtfrY9GZMa4",
+              "label": "171017 TWICE - ONE MORE TIME (live)",
+              "official": false
+            },
+            {
+              "kind": "live",
               "url": "VgVEfd-dLgU",
               "label": "「One More Time」1st Arena Tour 2018 BDZ",
               "official": false
@@ -2278,6 +2284,12 @@
               "kind": "performance",
               "url": "4XwyHPrFPCA",
               "label": "NHK Shibuya Note",
+              "official": false
+            },
+            {
+              "kind": "live",
+              "url": "EtfrY9GZMa4",
+              "label": "171017 TWICE - ONE MORE TIME (live)",
               "official": false
             },
             {
@@ -12792,6 +12804,31 @@
               "official": false
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "bye-bye-inhibitions",
+      "title": "Bye Bye Inhibitions",
+      "artist": "Alok & Nayeon",
+      "category": "solo",
+      "seq": "Collaboration",
+      "type": "Single",
+      "released": "2026-10-02",
+      "cover": "assets/img/covers/bye-bye-inhibitions.jpg",
+      "note": "Nayeon on vocals over Alok's production. Alok debuted it live at Rock in Rio on 11 September; the two are set to perform it together for the first time at EDC Korea on 4 October.",
+      "links": {
+        "spotify": "https://open.spotify.com/album/39DwtUa6MsygEQAFlyExSq",
+        "appleMusic": "https://music.apple.com/kr/album/bye-bye-inhibitions-single/6812633056",
+        "youtubeMusic": "",
+        "melon": "https://www.melon.com/album/detail.htm?albumId=14600557"
+      },
+      "tracks": [
+        {
+          "title": "Bye Bye Inhibitions",
+          "artist": "with Alok",
+          "titleTrack": true,
+          "videos": []
         }
       ]
     }

@@ -492,6 +492,14 @@ a { color: inherit; }
 .type-badge[data-type="Compilation"] { background:#e2b93b; border-color:transparent; color:#2a1b22; }
 .type-badge[data-type="Remix Album"] { background:#8b6fd1; border-color:transparent; color:#fff; }
 
+/* Recently released — set by isNew() in discography.js, expires on its own. */
+.new-badge {
+  display: inline-block; margin-left: 4px;
+  font-size: 10px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase;
+  padding: 2.5px 8px; border-radius: 999px;
+  background: var(--accent); color: #fff;
+}
+
 /* A member writing credit. On its own line under the title rather than lost
    among the pills on the title row. */
 .written-row { margin: 6px 0 0 28px; display: flex; flex-wrap: wrap; gap: 6px; }

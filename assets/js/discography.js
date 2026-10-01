@@ -31,6 +31,18 @@ const allVideos = album => album.tracks.flatMap(t => t.videos || []);
 
 const albumYear = album => (album.released || '').slice(0, 4);
 
+/* A release counts as new for NEW_DAYS after its full YYYY-MM-DD date, so the
+   tag drops off on its own with no data edit. Month- or year-only dates and
+   releases still in the future never get it. */
+const NEW_DAYS = 30;
+function isNew(album) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(album.released || '');
+  if (!m) return false;
+  const age = (Date.now() - new Date(+m[1], m[2] - 1, +m[3])) / 864e5;
+  return age >= 0 && age < NEW_DAYS;
+}
+const newBadge = album => isNew(album) ? ' <span class="new-badge">New</span>' : '';
+
 /* Two-letter stand-in drawn on the cover tile until real art is dropped into
    assets/img/covers/ and named in the data file. */
 const initials = title => title.replace(/[^A-Za-z0-9가-힣 ]/g, '')
@@ -155,7 +167,7 @@ function albumCard(album) {
         <h3>${escapeHtml(album.title)}</h3>
         ${album.artist ? `<p class="card-artist">${escapeHtml(album.artist)}</p>` : ''}
         <p class="type-row"><span class="type-badge"
-           data-type="${escapeHtml(album.type)}">${escapeHtml(album.type)}</span></p>
+           data-type="${escapeHtml(album.type)}">${escapeHtml(album.type)}</span>${newBadge(album)}</p>
         <p class="meta">${escapeHtml(album.seq)} · ${escapeHtml(prettyDate(album.released))}</p>
       </div>
     </button>`;
@@ -206,7 +218,7 @@ function renderPanel(album) {
         ${album.artist ? `<p class="panel-artist">${escapeHtml(album.artist)}</p>` : ''}
         ${album.note ? `<p class="ko">${escapeHtml(album.note)}</p>` : ''}
         <p class="type-row"><span class="type-badge"
-           data-type="${escapeHtml(album.type)}">${escapeHtml(album.type)}</span></p>
+           data-type="${escapeHtml(album.type)}">${escapeHtml(album.type)}</span>${newBadge(album)}</p>
         <p class="meta">${escapeHtml(album.seq)} ·
            ${escapeHtml(prettyDate(album.released))} ·
            ${seen}/${vids.length} watched</p>
