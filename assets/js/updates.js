@@ -95,6 +95,7 @@ const SITE_NAMES = {
   'allkpop.com':         'allkpop',
   'biaf.or.kr':          'BIAF — official site',
   'bcwoori.com':         'Bucheon Woori News',
+  'williamsf1.com':      'Atlassian Williams F1 Team',
 };
 
 /* A pasted post link. The inline style on Instagram's blockquote is what its

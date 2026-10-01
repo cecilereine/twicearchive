@@ -1,0 +1,2495 @@
+{
+  "section": "TIME TO TWICE",
+  "note": "TWICE's own reality series on their YouTube channel, one entry per episode, from the official TIME TO TWICE playlist. Each run (Crime Scene, TDOONG Forest…) is one tab and one section, in airing order; a run that came back (TDOONG High School, Crime Scene, TWICE New Year) keeps every season in its section under its own sub-heading. The playlist's Shorts (the ~1-minute Highlight clips) and teasers are left out. The first run (Apr 2020) is titled only \"TIME TO TWICE\" EP.01–04 on YouTube, so it is filed under that name.",
+  "updated": "2026-09-29",
+  "groupBy": "series",
+  "memberColors": {
+    "Nayeon": "#49c0ec",
+    "Jeongyeon": "#a3cc54",
+    "Momo": "#e67ea3",
+    "Sana": "#8c79b4",
+    "Jihyo": "#f9cc85",
+    "Mina": "#71c7d4",
+    "Dahyun": "#fefefe",
+    "Chaeyoung": "#e62722",
+    "Tzuyu": "#2253a3"
+  },
+  "groupColors": [
+    "#f9c596",
+    "#fc5d9d"
+  ],
+  "series": [
+    {
+      "key": "ttt-2020",
+      "label": "TIME TO TWICE"
+    },
+    {
+      "key": "noraebang",
+      "label": "Noraebang Battle"
+    },
+    {
+      "key": "great-escape",
+      "label": "The Great Escape"
+    },
+    {
+      "key": "healing-camping",
+      "label": "Healing Camping",
+      "mustWatch": true
+    },
+    {
+      "key": "tdoong-hs",
+      "label": "TDOONG High School",
+      "seasons": [
+        {
+          "key": "tdoong-hs-s1",
+          "label": "Season 1"
+        },
+        {
+          "key": "tdoong-hs-s2",
+          "label": "Season 2"
+        },
+        {
+          "key": "tdoong-hs-s3",
+          "label": "Season 3"
+        }
+      ]
+    },
+    {
+      "key": "crime-scene",
+      "label": "Crime Scene",
+      "seasons": [
+        {
+          "key": "crime-scene-s1",
+          "label": "Season 1"
+        },
+        {
+          "key": "crime-scene-s2",
+          "label": "Season 2"
+        }
+      ]
+    },
+    {
+      "key": "new-year",
+      "label": "TWICE New Year",
+      "seasons": [
+        {
+          "key": "new-year-2021",
+          "label": "2021"
+        },
+        {
+          "key": "new-year-2022",
+          "label": "2022"
+        },
+        {
+          "key": "new-year-2023",
+          "label": "2023"
+        }
+      ]
+    },
+    {
+      "key": "chocolate-factory",
+      "label": "TWICE and the Chocolate Factory"
+    },
+    {
+      "key": "tdoong-ent",
+      "label": "TDOONG Entertainment Season 2",
+      "summary": "Season 1 was fan club concept content, so it isn't here — you don't need to have seen it to follow Season 2."
+    },
+    {
+      "key": "yes-or-no",
+      "label": "YES or NO"
+    },
+    {
+      "key": "tdoong-forest",
+      "label": "TDOONG Forest"
+    },
+    {
+      "key": "tdoong-tour",
+      "label": "TDOONG Tour"
+    },
+    {
+      "key": "soulmate",
+      "label": "Soulmate",
+      "mustWatch": true
+    },
+    {
+      "key": "spring-picnic",
+      "label": "Spring Picnic"
+    },
+    {
+      "key": "behind",
+      "label": "Behind the Scenes"
+    },
+    {
+      "key": "cooking-battle",
+      "label": "TDOONG Cooking Battle"
+    },
+    {
+      "key": "y2k",
+      "label": "Y2K TDOONG SHOW"
+    },
+    {
+      "key": "healing-december",
+      "label": "Healing December"
+    },
+    {
+      "key": "fake-squid-game",
+      "label": "Fake Squid Game"
+    },
+    {
+      "key": "death-note",
+      "label": "Death Note"
+    },
+    {
+      "key": "tdoong-workshop",
+      "label": "TDOONG Workshop"
+    },
+    {
+      "key": "tdoong-pocha",
+      "label": "TDOONG Pocha",
+      "mustWatch": true
+    },
+    {
+      "key": "part-timer",
+      "label": "The Part-Timer (알바트둥)"
+    },
+    {
+      "key": "ttt-again",
+      "label": "T.T.T. AGAIN (초심 찾기 프로젝트)"
+    },
+    {
+      "key": "rank-battle",
+      "label": "Rank Battle (계급 눈치 싸움)"
+    },
+    {
+      "key": "zzimbangz",
+      "label": "TIME TO ZZIMBANGZ (찜방즈)",
+      "summary": "With Nayeon, Jeongyeon and Jihyo."
+    },
+    {
+      "key": "anniversary",
+      "label": "10th Anniversary Eve: Girls' Night",
+      "mustWatch": true
+    }
+  ],
+  "events": [
+    {
+      "id": "ttt-2020-ep1",
+      "title": "Episode 1",
+      "series": "ttt-2020",
+      "venue": "YouTube",
+      "date": "2020-04-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "7RIbfPbxu8M",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:45"
+        }
+      ]
+    },
+    {
+      "id": "ttt-2020-ep2",
+      "title": "Episode 2",
+      "series": "ttt-2020",
+      "venue": "YouTube",
+      "date": "2020-04-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "UXo6dHLNqSA",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:05"
+        }
+      ]
+    },
+    {
+      "id": "ttt-2020-ep3",
+      "title": "Episode 3",
+      "series": "ttt-2020",
+      "venue": "YouTube",
+      "date": "2020-04-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "M93CnAMdqFc",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:58"
+        }
+      ]
+    },
+    {
+      "id": "ttt-2020-ep4",
+      "title": "Episode 4",
+      "series": "ttt-2020",
+      "venue": "YouTube",
+      "date": "2020-04-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "pYthm_qWzPY",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:26"
+        }
+      ]
+    },
+    {
+      "id": "ttt-2020-bonus",
+      "title": "Bonus Clip",
+      "series": "ttt-2020",
+      "venue": "YouTube",
+      "date": "2020-05-01",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "-uOzjTuQ_Xo",
+          "label": "Bonus Clip",
+          "official": true,
+          "duration": "3:05"
+        }
+      ]
+    },
+    {
+      "id": "ttt-noraebang-ep1",
+      "title": "Episode 1",
+      "series": "noraebang",
+      "venue": "YouTube",
+      "date": "2020-05-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "xou0q9SVnk4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:16"
+        }
+      ]
+    },
+    {
+      "id": "ttt-noraebang-ep2",
+      "title": "Episode 2",
+      "series": "noraebang",
+      "venue": "YouTube",
+      "date": "2020-05-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "7dMIsmM9xjw",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:47"
+        }
+      ]
+    },
+    {
+      "id": "ttt-noraebang-ep3",
+      "title": "Episode 3",
+      "series": "noraebang",
+      "venue": "YouTube",
+      "date": "2020-05-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "cQo2KlYz2PU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:50"
+        }
+      ]
+    },
+    {
+      "id": "ttt-noraebang-ep4",
+      "title": "Episode 4",
+      "series": "noraebang",
+      "venue": "YouTube",
+      "date": "2020-06-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "cPh8I8fmtQo",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:04"
+        }
+      ]
+    },
+    {
+      "id": "ttt-noraebang-bonus",
+      "title": "Bonus Clip",
+      "series": "noraebang",
+      "venue": "YouTube",
+      "date": "2020-06-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "iLBWWsglXZQ",
+          "label": "Bonus Clip",
+          "official": true,
+          "duration": "3:25"
+        }
+      ]
+    },
+    {
+      "id": "ttt-great-escape-ep1",
+      "title": "Episode 1",
+      "series": "great-escape",
+      "venue": "YouTube",
+      "date": "2020-06-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "1LkGBM7pfWs",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:57"
+        }
+      ]
+    },
+    {
+      "id": "ttt-great-escape-ep2",
+      "title": "Episode 2",
+      "series": "great-escape",
+      "venue": "YouTube",
+      "date": "2020-07-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "SWqPa-pnbq4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:05"
+        }
+      ]
+    },
+    {
+      "id": "ttt-great-escape-ep3",
+      "title": "Episode 3",
+      "series": "great-escape",
+      "venue": "YouTube",
+      "date": "2020-07-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "zivM2FA-fLI",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:03"
+        }
+      ]
+    },
+    {
+      "id": "ttt-great-escape-bonus",
+      "title": "Bonus Clip",
+      "series": "great-escape",
+      "venue": "YouTube",
+      "date": "2020-07-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "uClu3e8FAgw",
+          "label": "Bonus Clip",
+          "official": true,
+          "duration": "4:34"
+        }
+      ]
+    },
+    {
+      "id": "ttt-healing-camping-ep1",
+      "title": "Episode 1",
+      "series": "healing-camping",
+      "venue": "YouTube",
+      "date": "2020-08-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "PS5rtWdxn3A",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "23:49"
+        }
+      ]
+    },
+    {
+      "id": "ttt-healing-camping-ep2",
+      "title": "Episode 2",
+      "series": "healing-camping",
+      "venue": "YouTube",
+      "date": "2020-08-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "A82qwvmsbps",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:56"
+        }
+      ]
+    },
+    {
+      "id": "ttt-healing-camping-ep3",
+      "title": "Episode 3",
+      "series": "healing-camping",
+      "venue": "YouTube",
+      "date": "2020-08-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "o1aV-bWzVx8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:32"
+        }
+      ]
+    },
+    {
+      "id": "ttt-healing-camping-ep4",
+      "title": "Episode 4",
+      "series": "healing-camping",
+      "venue": "YouTube",
+      "date": "2020-08-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "zdgBd4bQxuk",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "23:47"
+        }
+      ]
+    },
+    {
+      "id": "ttt-healing-camping-ep5",
+      "title": "Episode 5",
+      "series": "healing-camping",
+      "venue": "YouTube",
+      "date": "2020-09-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "vaghTg4Cpls",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "24:49"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-hs-s1-ep1",
+      "title": "Episode 1",
+      "series": "tdoong-hs",
+      "season": "tdoong-hs-s1",
+      "venue": "YouTube",
+      "date": "2020-09-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "P1LFWVEGpSk",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:23"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-hs-s1-ep2",
+      "title": "Episode 2",
+      "series": "tdoong-hs",
+      "season": "tdoong-hs-s1",
+      "venue": "YouTube",
+      "date": "2020-09-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "e0bBkeZHFuI",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:52"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-hs-s1-ep3",
+      "title": "Episode 3",
+      "series": "tdoong-hs",
+      "season": "tdoong-hs-s1",
+      "venue": "YouTube",
+      "date": "2020-10-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "UEPTZwViWIc",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:32"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-hs-s1-ep4",
+      "title": "Episode 4",
+      "series": "tdoong-hs",
+      "season": "tdoong-hs-s1",
+      "venue": "YouTube",
+      "date": "2020-10-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "wy_Q6swTzMk",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:54"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-hs-s1-ep5",
+      "title": "Episode 5",
+      "series": "tdoong-hs",
+      "season": "tdoong-hs-s1",
+      "venue": "YouTube",
+      "date": "2020-10-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ol7ubQnFAW8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:01"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-hs-s1-ep6",
+      "title": "Episode 6",
+      "series": "tdoong-hs",
+      "season": "tdoong-hs-s1",
+      "venue": "YouTube",
+      "date": "2020-10-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "EbK11sbp2FQ",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:33"
+        }
+      ]
+    },
+    {
+      "id": "ttt-crime-scene-s1-ep1",
+      "title": "Episode 1",
+      "series": "crime-scene",
+      "season": "crime-scene-s1",
+      "venue": "YouTube",
+      "date": "2020-11-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "eZtB1PJ1Dtc",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:32"
+        }
+      ]
+    },
+    {
+      "id": "ttt-crime-scene-s1-ep2",
+      "title": "Episode 2",
+      "series": "crime-scene",
+      "season": "crime-scene-s1",
+      "venue": "YouTube",
+      "date": "2020-11-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "MHNthD09BOQ",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:12"
+        }
+      ]
+    },
+    {
+      "id": "ttt-crime-scene-s1-ep3",
+      "title": "Episode 3",
+      "series": "crime-scene",
+      "season": "crime-scene-s1",
+      "venue": "YouTube",
+      "date": "2020-12-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "oBjtlQ9Vciw",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:10"
+        }
+      ]
+    },
+    {
+      "id": "ttt-crime-scene-s1-ep4",
+      "title": "Episode 4",
+      "series": "crime-scene",
+      "season": "crime-scene-s1",
+      "venue": "YouTube",
+      "date": "2020-12-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "tg2QbvLqJwU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:56"
+        }
+      ]
+    },
+    {
+      "id": "ttt-crime-scene-s1-ep5",
+      "title": "Episode 5",
+      "series": "crime-scene",
+      "season": "crime-scene-s1",
+      "venue": "YouTube",
+      "date": "2020-12-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "gsl98YBaAAI",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:34"
+        }
+      ]
+    },
+    {
+      "id": "ttt-crime-scene-s1-ep6",
+      "title": "Episode 6",
+      "series": "crime-scene",
+      "season": "crime-scene-s1",
+      "venue": "YouTube",
+      "date": "2020-12-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "EeYz1zJlDeE",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:31"
+        }
+      ]
+    },
+    {
+      "id": "ttt-new-year-2021-ep1",
+      "title": "Episode 1",
+      "series": "new-year",
+      "season": "new-year-2021",
+      "venue": "YouTube",
+      "date": "2021-01-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "p-RTqHLBygs",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:22"
+        }
+      ]
+    },
+    {
+      "id": "ttt-new-year-2021-ep2",
+      "title": "Episode 2",
+      "series": "new-year",
+      "season": "new-year-2021",
+      "venue": "YouTube",
+      "date": "2021-01-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "H3eMOHtHsyg",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:15"
+        }
+      ]
+    },
+    {
+      "id": "ttt-new-year-2021-ep3",
+      "title": "Episode 3",
+      "series": "new-year",
+      "season": "new-year-2021",
+      "venue": "YouTube",
+      "date": "2021-01-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "kQ8l-HZhlXQ",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:10"
+        }
+      ]
+    },
+    {
+      "id": "ttt-new-year-2021-ep4",
+      "title": "Episode 4",
+      "series": "new-year",
+      "season": "new-year-2021",
+      "venue": "YouTube",
+      "date": "2021-01-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "I_lcIkWy_MM",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:09"
+        }
+      ]
+    },
+    {
+      "id": "ttt-new-year-2021-ep5",
+      "title": "Episode 5",
+      "series": "new-year",
+      "season": "new-year-2021",
+      "venue": "YouTube",
+      "date": "2021-02-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "gfBDWwYVljw",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:23"
+        }
+      ]
+    },
+    {
+      "id": "ttt-chocolate-factory-ep1",
+      "title": "Episode 1",
+      "series": "chocolate-factory",
+      "venue": "YouTube",
+      "date": "2021-02-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "pF9PPTLUcLE",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "16:19"
+        }
+      ]
+    },
+    {
+      "id": "ttt-chocolate-factory-ep2",
+      "title": "Episode 2",
+      "series": "chocolate-factory",
+      "venue": "YouTube",
+      "date": "2021-03-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "aB-rN_v3tsU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:19"
+        }
+      ]
+    },
+    {
+      "id": "ttt-chocolate-factory-ep3",
+      "title": "Episode 3",
+      "series": "chocolate-factory",
+      "venue": "YouTube",
+      "date": "2021-03-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "NVirYw9avPc",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "16:55"
+        }
+      ]
+    },
+    {
+      "id": "ttt-chocolate-factory-ep4",
+      "title": "Episode 4",
+      "series": "chocolate-factory",
+      "venue": "YouTube",
+      "date": "2021-03-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "rOAu2iUY1fA",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:20"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-ent-s2-ep1",
+      "title": "Episode 1",
+      "series": "tdoong-ent",
+      "venue": "YouTube",
+      "date": "2021-04-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "4dYEgvnowzc",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:46"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-ent-s2-ep2",
+      "title": "Episode 2",
+      "series": "tdoong-ent",
+      "venue": "YouTube",
+      "date": "2021-04-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "sqC80KJh9Y4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:10"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-ent-s2-ep3",
+      "title": "Episode 3",
+      "series": "tdoong-ent",
+      "venue": "YouTube",
+      "date": "2021-04-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "c-4DVsm90U8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:28"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-ent-s2-ep4",
+      "title": "Episode 4",
+      "series": "tdoong-ent",
+      "venue": "YouTube",
+      "date": "2021-04-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "t5qyovKxJtc",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:47"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-ent-s2-ep5",
+      "title": "Episode 5",
+      "series": "tdoong-ent",
+      "venue": "YouTube",
+      "date": "2021-04-30",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "a_ckiw3vNeQ",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "26:50"
+        }
+      ]
+    },
+    {
+      "id": "ttt-yes-or-no-ep1",
+      "title": "Episode 1",
+      "series": "yes-or-no",
+      "venue": "YouTube",
+      "date": "2021-05-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "YksyltO96N0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:08"
+        }
+      ]
+    },
+    {
+      "id": "ttt-yes-or-no-ep2",
+      "title": "Episode 2",
+      "series": "yes-or-no",
+      "venue": "YouTube",
+      "date": "2021-05-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "pDr0dt2E0bI",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:36"
+        }
+      ]
+    },
+    {
+      "id": "ttt-yes-or-no-ep3",
+      "title": "Episode 3",
+      "series": "yes-or-no",
+      "venue": "YouTube",
+      "date": "2021-05-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "34PemolBuFg",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "16:24"
+        }
+      ]
+    },
+    {
+      "id": "ttt-yes-or-no-ep4",
+      "title": "Episode 4",
+      "series": "yes-or-no",
+      "venue": "YouTube",
+      "date": "2021-06-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "OzlhLNfiS9c",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:25"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-forest-ep1",
+      "title": "Episode 1",
+      "series": "tdoong-forest",
+      "venue": "YouTube",
+      "date": "2021-07-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "3rQLZi67myg",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:27"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-forest-ep2",
+      "title": "Episode 2",
+      "series": "tdoong-forest",
+      "venue": "YouTube",
+      "date": "2021-07-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "E7CHp_yC2mg",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:18"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-forest-ep3",
+      "title": "Episode 3",
+      "series": "tdoong-forest",
+      "venue": "YouTube",
+      "date": "2021-07-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "9-0JlD02-WY",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:51"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-forest-ep4",
+      "title": "Episode 4",
+      "series": "tdoong-forest",
+      "venue": "YouTube",
+      "date": "2021-07-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "-doNjrWnV2w",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:28"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-forest-ep5",
+      "title": "Episode 5",
+      "series": "tdoong-forest",
+      "venue": "YouTube",
+      "date": "2021-07-30",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "gKY1gq092GQ",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:24"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-forest-ep6",
+      "title": "Episode 6",
+      "series": "tdoong-forest",
+      "venue": "YouTube",
+      "date": "2021-08-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "civscM36oB4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "24:04"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-hs-s2-ep1",
+      "title": "Episode 1",
+      "series": "tdoong-hs",
+      "season": "tdoong-hs-s2",
+      "venue": "YouTube",
+      "date": "2021-08-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "aVSEKLta8-Q",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:19"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-hs-s2-ep2",
+      "title": "Episode 2",
+      "series": "tdoong-hs",
+      "season": "tdoong-hs-s2",
+      "venue": "YouTube",
+      "date": "2021-08-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "u0pCshpVF7g",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:05"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-hs-s2-ep3",
+      "title": "Episode 3",
+      "series": "tdoong-hs",
+      "season": "tdoong-hs-s2",
+      "venue": "YouTube",
+      "date": "2021-09-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "-L-jG5KwG_w",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:11"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-hs-s2-ep4",
+      "title": "Episode 4",
+      "series": "tdoong-hs",
+      "season": "tdoong-hs-s2",
+      "venue": "YouTube",
+      "date": "2021-09-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "IhYRLYjhmPM",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:27"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-hs-s2-ep5",
+      "title": "Episode 5",
+      "series": "tdoong-hs",
+      "season": "tdoong-hs-s2",
+      "venue": "YouTube",
+      "date": "2021-09-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "f4SQnCxoRII",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:34"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-hs-s2-bonus",
+      "title": "Bonus Clip",
+      "series": "tdoong-hs",
+      "season": "tdoong-hs-s2",
+      "venue": "YouTube",
+      "date": "2021-09-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "HjKC3AxoDqQ",
+          "label": "Bonus Clip",
+          "official": true,
+          "duration": "10:26"
+        }
+      ]
+    },
+    {
+      "id": "ttt-crime-scene-s2-ep1",
+      "title": "Episode 1",
+      "series": "crime-scene",
+      "season": "crime-scene-s2",
+      "venue": "YouTube",
+      "date": "2021-12-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "M2fDbYeYHtE",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:11"
+        }
+      ]
+    },
+    {
+      "id": "ttt-crime-scene-s2-ep2",
+      "title": "Episode 2",
+      "series": "crime-scene",
+      "season": "crime-scene-s2",
+      "venue": "YouTube",
+      "date": "2021-12-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "5tjeHv9jW5w",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:53"
+        }
+      ]
+    },
+    {
+      "id": "ttt-crime-scene-s2-ep3",
+      "title": "Episode 3",
+      "series": "crime-scene",
+      "season": "crime-scene-s2",
+      "venue": "YouTube",
+      "date": "2021-12-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "dIDrN5TyJdM",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:49"
+        }
+      ]
+    },
+    {
+      "id": "ttt-crime-scene-s2-ep4",
+      "title": "Episode 4",
+      "series": "crime-scene",
+      "season": "crime-scene-s2",
+      "venue": "YouTube",
+      "date": "2021-12-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "LicN6flRYaI",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "24:13"
+        }
+      ]
+    },
+    {
+      "id": "ttt-new-year-2022-ep1",
+      "title": "Episode 1",
+      "series": "new-year",
+      "season": "new-year-2022",
+      "venue": "YouTube",
+      "date": "2022-01-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "96eldR2DdQk",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:34"
+        }
+      ]
+    },
+    {
+      "id": "ttt-new-year-2022-ep2",
+      "title": "Episode 2",
+      "series": "new-year",
+      "season": "new-year-2022",
+      "venue": "YouTube",
+      "date": "2022-01-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "hb-R4h9docA",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:12"
+        }
+      ]
+    },
+    {
+      "id": "ttt-new-year-2022-ep3",
+      "title": "Episode 3",
+      "series": "new-year",
+      "season": "new-year-2022",
+      "venue": "YouTube",
+      "date": "2022-01-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "glKuDdKYlqs",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:40"
+        }
+      ]
+    },
+    {
+      "id": "ttt-new-year-2022-ep4",
+      "title": "Episode 4",
+      "series": "new-year",
+      "season": "new-year-2022",
+      "venue": "YouTube",
+      "date": "2022-01-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "dEbSV51Os80",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:25"
+        }
+      ]
+    },
+    {
+      "id": "ttt-new-year-2022-ep5",
+      "title": "Episode 5",
+      "series": "new-year",
+      "season": "new-year-2022",
+      "venue": "YouTube",
+      "date": "2022-02-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "EkfE-ok0pso",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:07"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-tour-ep1",
+      "title": "Episode 1",
+      "series": "tdoong-tour",
+      "venue": "YouTube",
+      "date": "2022-02-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Smr_1LfNu0E",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:00"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-tour-ep2",
+      "title": "Episode 2",
+      "series": "tdoong-tour",
+      "venue": "YouTube",
+      "date": "2022-02-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "OZOBTUoPafE",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:03"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-tour-ep3",
+      "title": "Episode 3",
+      "series": "tdoong-tour",
+      "venue": "YouTube",
+      "date": "2022-03-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "cDzDBNXmu5s",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:17"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-tour-ep4",
+      "title": "Episode 4",
+      "series": "tdoong-tour",
+      "venue": "YouTube",
+      "date": "2022-03-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "xX64CUG8Bp8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:12"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-tour-ep5",
+      "title": "Episode 5",
+      "series": "tdoong-tour",
+      "venue": "YouTube",
+      "date": "2022-03-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "cUf2VORZhB4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:45"
+        }
+      ]
+    },
+    {
+      "id": "ttt-soulmate-ep1",
+      "title": "Episode 1",
+      "series": "soulmate",
+      "venue": "YouTube",
+      "date": "2022-04-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "sSVw3InbGSs",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:14"
+        }
+      ]
+    },
+    {
+      "id": "ttt-soulmate-ep2",
+      "title": "Episode 2",
+      "series": "soulmate",
+      "venue": "YouTube",
+      "date": "2022-04-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "-L1PrZf6OTU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "24:51"
+        }
+      ]
+    },
+    {
+      "id": "ttt-soulmate-ep3",
+      "title": "Episode 3",
+      "series": "soulmate",
+      "venue": "YouTube",
+      "date": "2022-04-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "DCsSb7CxIgs",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:31"
+        }
+      ]
+    },
+    {
+      "id": "ttt-soulmate-ep4",
+      "title": "Episode 4",
+      "series": "soulmate",
+      "venue": "YouTube",
+      "date": "2022-04-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "4uDnN0NvMY8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "30:59"
+        }
+      ]
+    },
+    {
+      "id": "ttt-spring-picnic-ep1",
+      "title": "Episode 1",
+      "series": "spring-picnic",
+      "venue": "YouTube",
+      "date": "2022-05-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "I_zPlJ765s0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:10"
+        }
+      ]
+    },
+    {
+      "id": "ttt-spring-picnic-ep2",
+      "title": "Episode 2",
+      "series": "spring-picnic",
+      "venue": "YouTube",
+      "date": "2022-05-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "fMHkmPgOwlI",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:25"
+        }
+      ]
+    },
+    {
+      "id": "ttt-spring-picnic-ep3",
+      "title": "Episode 3",
+      "series": "spring-picnic",
+      "venue": "YouTube",
+      "date": "2022-05-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ZNttdb8953c",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:20"
+        }
+      ]
+    },
+    {
+      "id": "ttt-spring-picnic-ep4",
+      "title": "Episode 4",
+      "series": "spring-picnic",
+      "venue": "YouTube",
+      "date": "2022-06-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "qg5rZU8Q668",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:01"
+        }
+      ]
+    },
+    {
+      "id": "ttt-spring-picnic-ep5",
+      "title": "Episode 5",
+      "series": "spring-picnic",
+      "venue": "YouTube",
+      "date": "2022-06-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "QVB44rV2wLU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:18"
+        }
+      ]
+    },
+    {
+      "id": "ttt-behind-special",
+      "title": "Behind the Scenes",
+      "series": "behind",
+      "venue": "YouTube",
+      "date": "2022-06-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "i-qxdGeelFk",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "24:32"
+        }
+      ]
+    },
+    {
+      "id": "ttt-cooking-battle-ep1",
+      "title": "Episode 1",
+      "series": "cooking-battle",
+      "venue": "YouTube",
+      "date": "2022-09-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "_QcbfSSloWE",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:33"
+        }
+      ]
+    },
+    {
+      "id": "ttt-cooking-battle-ep2",
+      "title": "Episode 2",
+      "series": "cooking-battle",
+      "venue": "YouTube",
+      "date": "2022-09-30",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "lhOErk5X4FA",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:35"
+        }
+      ]
+    },
+    {
+      "id": "ttt-cooking-battle-ep3",
+      "title": "Episode 3",
+      "series": "cooking-battle",
+      "venue": "YouTube",
+      "date": "2022-10-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "_NrNVmzlbF8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:13"
+        }
+      ]
+    },
+    {
+      "id": "ttt-cooking-battle-ep4",
+      "title": "Episode 4",
+      "series": "cooking-battle",
+      "venue": "YouTube",
+      "date": "2022-10-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "nLZhSNgi5Y4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:06"
+        }
+      ]
+    },
+    {
+      "id": "ttt-y2k-ep1",
+      "title": "Episode 1",
+      "series": "y2k",
+      "venue": "YouTube",
+      "date": "2022-11-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "5lTnuK17xE4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:59"
+        }
+      ]
+    },
+    {
+      "id": "ttt-y2k-ep2",
+      "title": "Episode 2",
+      "series": "y2k",
+      "venue": "YouTube",
+      "date": "2022-11-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "GZcMPFfWzTc",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:23"
+        }
+      ]
+    },
+    {
+      "id": "ttt-y2k-ep3",
+      "title": "Episode 3",
+      "series": "y2k",
+      "venue": "YouTube",
+      "date": "2022-11-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "drUVN1f-8K0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "24:54"
+        }
+      ]
+    },
+    {
+      "id": "ttt-healing-december-ep1",
+      "title": "Episode 1",
+      "series": "healing-december",
+      "venue": "YouTube",
+      "date": "2022-12-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "M08eg0YrpVY",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "24:45"
+        }
+      ]
+    },
+    {
+      "id": "ttt-healing-december-ep2",
+      "title": "Episode 2",
+      "series": "healing-december",
+      "venue": "YouTube",
+      "date": "2022-12-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "z7RCBCMMJ6c",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "24:31"
+        }
+      ]
+    },
+    {
+      "id": "ttt-healing-december-ep3",
+      "title": "Episode 3",
+      "series": "healing-december",
+      "venue": "YouTube",
+      "date": "2022-12-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "G5Ex2JU8grI",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:46"
+        }
+      ]
+    },
+    {
+      "id": "ttt-healing-december-ep4",
+      "title": "Episode 4",
+      "series": "healing-december",
+      "venue": "YouTube",
+      "date": "2022-12-30",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "4KuuCM1FcAY",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "35:25"
+        }
+      ]
+    },
+    {
+      "id": "ttt-new-year-2023-ep1",
+      "title": "Episode 1",
+      "series": "new-year",
+      "season": "new-year-2023",
+      "venue": "YouTube",
+      "date": "2023-01-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ngWV3R5xHZo",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:06"
+        }
+      ]
+    },
+    {
+      "id": "ttt-new-year-2023-ep2",
+      "title": "Episode 2",
+      "series": "new-year",
+      "season": "new-year-2023",
+      "venue": "YouTube",
+      "date": "2023-01-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "6bWwRybfN0M",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:00"
+        }
+      ]
+    },
+    {
+      "id": "ttt-new-year-2023-ep3",
+      "title": "Episode 3",
+      "series": "new-year",
+      "season": "new-year-2023",
+      "venue": "YouTube",
+      "date": "2023-02-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "cSdhay_tNm4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:15"
+        }
+      ]
+    },
+    {
+      "id": "ttt-new-year-2023-ep4",
+      "title": "Episode 4",
+      "series": "new-year",
+      "season": "new-year-2023",
+      "venue": "YouTube",
+      "date": "2023-02-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "evuKUqLjwN8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "23:29"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-hs-s3-ep1",
+      "title": "Episode 1",
+      "series": "tdoong-hs",
+      "season": "tdoong-hs-s3",
+      "venue": "YouTube",
+      "date": "2023-06-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "8eGoPXPUEg8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:07"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-hs-s3-ep2",
+      "title": "Episode 2",
+      "series": "tdoong-hs",
+      "season": "tdoong-hs-s3",
+      "venue": "YouTube",
+      "date": "2023-06-30",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "FR7f3U90nO4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:17"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-hs-s3-ep3",
+      "title": "Episode 3",
+      "series": "tdoong-hs",
+      "season": "tdoong-hs-s3",
+      "venue": "YouTube",
+      "date": "2023-07-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "I8RZ3ggJjaY",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:44"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-hs-s3-ep4",
+      "title": "Episode 4",
+      "series": "tdoong-hs",
+      "season": "tdoong-hs-s3",
+      "venue": "YouTube",
+      "date": "2023-07-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Zr-TZHpRgBY",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:13"
+        }
+      ]
+    },
+    {
+      "id": "ttt-fake-squid-game-ep1",
+      "title": "Episode 1",
+      "series": "fake-squid-game",
+      "venue": "YouTube",
+      "date": "2023-12-01",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ON-yu_gD6-Y",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:48"
+        }
+      ]
+    },
+    {
+      "id": "ttt-fake-squid-game-ep2",
+      "title": "Episode 2",
+      "series": "fake-squid-game",
+      "venue": "YouTube",
+      "date": "2023-12-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "VXVnhNrSBEA",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:46"
+        }
+      ]
+    },
+    {
+      "id": "ttt-fake-squid-game-ep3",
+      "title": "Episode 3",
+      "series": "fake-squid-game",
+      "venue": "YouTube",
+      "date": "2023-12-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "oPCR7zYIDzE",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:58"
+        }
+      ]
+    },
+    {
+      "id": "ttt-fake-squid-game-ep4",
+      "title": "Episode 4",
+      "series": "fake-squid-game",
+      "venue": "YouTube",
+      "date": "2023-12-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "cbjVzwgZdNM",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:44"
+        }
+      ]
+    },
+    {
+      "id": "ttt-death-note-ep1",
+      "title": "Episode 1",
+      "series": "death-note",
+      "venue": "YouTube",
+      "date": "2024-05-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "rIA0N1ESW50",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:00"
+        }
+      ]
+    },
+    {
+      "id": "ttt-death-note-ep2",
+      "title": "Episode 2",
+      "series": "death-note",
+      "venue": "YouTube",
+      "date": "2024-05-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "NoJinIXWNWI",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:20"
+        }
+      ]
+    },
+    {
+      "id": "ttt-death-note-ep3",
+      "title": "Episode 3",
+      "series": "death-note",
+      "venue": "YouTube",
+      "date": "2024-05-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "pk4GA_WiHtk",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:04"
+        }
+      ]
+    },
+    {
+      "id": "ttt-death-note-ep4",
+      "title": "Episode 4",
+      "series": "death-note",
+      "venue": "YouTube",
+      "date": "2024-05-31",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "_X3mCLWxSSk",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "31:44"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-workshop-ep1",
+      "title": "Episode 1",
+      "series": "tdoong-workshop",
+      "venue": "YouTube",
+      "date": "2024-07-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "_pSg1grIspg",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:28"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-workshop-ep2",
+      "title": "Episode 2",
+      "series": "tdoong-workshop",
+      "venue": "YouTube",
+      "date": "2024-07-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "PcN76h0en4I",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:44"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-workshop-ep3",
+      "title": "Episode 3",
+      "series": "tdoong-workshop",
+      "venue": "YouTube",
+      "date": "2024-07-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "zEVsfLQe9r8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:43"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-workshop-ep4",
+      "title": "Episode 4",
+      "series": "tdoong-workshop",
+      "venue": "YouTube",
+      "date": "2024-08-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "RFx3ba9J9BY",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "23:56"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-pocha-ep1",
+      "title": "Episode 1",
+      "series": "tdoong-pocha",
+      "venue": "YouTube",
+      "date": "2024-10-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ahh_W6RlDeU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "30:37"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-pocha-ep2",
+      "title": "Episode 2",
+      "series": "tdoong-pocha",
+      "venue": "YouTube",
+      "date": "2024-10-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ZXpo2vqbfCA",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "30:34"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-pocha-ep3",
+      "title": "Episode 3",
+      "series": "tdoong-pocha",
+      "venue": "YouTube",
+      "date": "2024-10-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "aHpnD4JeNWA",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "29:59"
+        }
+      ]
+    },
+    {
+      "id": "ttt-part-timer-ep1",
+      "title": "Episode 1",
+      "series": "part-timer",
+      "venue": "YouTube",
+      "date": "2024-11-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ceX3huxNqso",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "29:41"
+        }
+      ]
+    },
+    {
+      "id": "ttt-part-timer-ep2",
+      "title": "Episode 2",
+      "series": "part-timer",
+      "venue": "YouTube",
+      "date": "2024-11-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "aw4quiPm57I",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "30:01"
+        }
+      ]
+    },
+    {
+      "id": "ttt-part-timer-ep3",
+      "title": "Episode 3",
+      "series": "part-timer",
+      "venue": "YouTube",
+      "date": "2024-11-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Gne_uc8AKbg",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "31:44"
+        }
+      ]
+    },
+    {
+      "id": "ttt-ttt-again-ep1",
+      "title": "Episode 1",
+      "series": "ttt-again",
+      "venue": "YouTube",
+      "date": "2025-02-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "mFx0xyfD6aU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:24"
+        }
+      ]
+    },
+    {
+      "id": "ttt-ttt-again-ep2",
+      "title": "Episode 2",
+      "series": "ttt-again",
+      "venue": "YouTube",
+      "date": "2025-02-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "FcNjNWI7hz4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:25"
+        }
+      ]
+    },
+    {
+      "id": "ttt-ttt-again-ep3",
+      "title": "Episode 3",
+      "series": "ttt-again",
+      "venue": "YouTube",
+      "date": "2025-02-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "bBqbeAMcOa8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:38"
+        }
+      ]
+    },
+    {
+      "id": "ttt-ttt-again-ep4",
+      "title": "Episode 4",
+      "series": "ttt-again",
+      "venue": "YouTube",
+      "date": "2025-03-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "F9RnO4mcLco",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "23:10"
+        }
+      ]
+    },
+    {
+      "id": "ttt-rank-battle-ep1",
+      "title": "Episode 1",
+      "series": "rank-battle",
+      "venue": "YouTube",
+      "date": "2025-03-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "NtQhb3EJcOM",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:18"
+        }
+      ]
+    },
+    {
+      "id": "ttt-rank-battle-ep2",
+      "title": "Episode 2",
+      "series": "rank-battle",
+      "venue": "YouTube",
+      "date": "2025-03-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "oFo8uZ83ylU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:58"
+        }
+      ]
+    },
+    {
+      "id": "ttt-rank-battle-ep3",
+      "title": "Episode 3",
+      "series": "rank-battle",
+      "venue": "YouTube",
+      "date": "2025-04-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "oHZO7jNw1vg",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:30"
+        }
+      ]
+    },
+    {
+      "id": "ttt-rank-battle-ep4",
+      "title": "Episode 4",
+      "series": "rank-battle",
+      "venue": "YouTube",
+      "date": "2025-04-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "CgM67qNMMH0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:03"
+        }
+      ]
+    },
+    {
+      "id": "ttt-zzimbangz-ep1",
+      "title": "Episode 1",
+      "series": "zzimbangz",
+      "venue": "YouTube",
+      "date": "2025-04-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "2Xuf9x4bXpM",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:13"
+        }
+      ]
+    },
+    {
+      "id": "ttt-zzimbangz-ep2",
+      "title": "Episode 2",
+      "series": "zzimbangz",
+      "venue": "YouTube",
+      "date": "2025-05-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Pb9-Xg14NKI",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:28"
+        }
+      ]
+    },
+    {
+      "id": "ttt-zzimbangz-ep3",
+      "title": "Episode 3",
+      "series": "zzimbangz",
+      "venue": "YouTube",
+      "date": "2025-05-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "xxllVrQhsZU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:31"
+        }
+      ]
+    },
+    {
+      "id": "ttt-anniversary-special",
+      "title": "10th Anniversary Eve: Girls' Night",
+      "series": "anniversary",
+      "venue": "YouTube",
+      "date": "2025-10-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "VCV2odQunsQ",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "1:00:22"
+        }
+      ]
+    }
+  ]
+}
