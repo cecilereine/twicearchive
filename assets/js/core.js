@@ -354,7 +354,31 @@ function videoCard(v, opts = {}) {
 
 /* One delegated listener covers every card on the page, however many get
    rendered or re-rendered by the filters. */
+/* Each video opened from a card is counted in GoatCounter as an event, so its
+   dashboard can rank the most-clicked videos. The path is the video (its
+   YouTube id, or its URL elsewhere); the title says what it is: page, series,
+   entry and caption, e.g. "TWICE TV — TW-DAY — #13 … — Full Episode". The
+   counter only loads on the live site (theme.js), so local clicks count nowhere. */
+function countVideoClick(link) {
+  const card = link.closest('.vcard');
+  if (!card || !window.goatcounter?.count) return;
+  const text = node => node?.textContent.replace(/\s+/g, ' ').trim();
+  const name = text(card.querySelector('.song')) || text(card.closest('.track')?.querySelector('.track-title'));
+  const title = [document.title.split(' · ')[0], text(card.querySelector('.series-badge')), name,
+                 text(card.querySelector('.vlabel'))]
+    .filter((part, i, all) => part && all.indexOf(part) === i).join(' — ');
+  window.goatcounter.count({ path: `video/${card.dataset.key}`.slice(0, 500), title, event: true });
+}
+
 function wireVideoCards(root, onWatchChange) {
+  /* auxclick catches a middle-click open-in-new-tab, which fires no click. */
+  const opened = event => {
+    const link = event.target.closest('.vcard a[href]');
+    if (link && (event.type === 'click' || event.button === 1)) countVideoClick(link);
+  };
+  root.addEventListener('click', opened);
+  root.addEventListener('auxclick', opened);
+
   root.addEventListener('click', event => {
     const mark = event.target.closest('[data-watch]');
     if (mark) {
