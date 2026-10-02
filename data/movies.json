@@ -11,6 +11,21 @@
       "summary": "YouTube Originals' docuseries: TWICE from their trainee days to the TWICELIGHTS world tour, in eight episodes, with a special ninth added in June 2020."
     },
     {
+      "key": "one-in-a-million",
+      "label": "TWICE: ONE IN A MILL10N",
+      "summary": "TWICE's 10th anniversary documentary film: the members preparing their anniversary celebration and what TWICE has meant to each other and to ONCE. In cinemas worldwide from October 20, 2025, then on Prime Video."
+    },
+    {
+      "key": "member-films",
+      "label": "Members' Films",
+      "summary": "Feature films starring a TWICE member."
+    },
+    {
+      "key": "love-me",
+      "label": "LOVE ME (JTBC drama)",
+      "summary": "Dahyun's 2025 JTBC drama, with Seo Hyun-jin as Jun-kyung, an obstetrician whose perfect-looking single life hides a deep loneliness, and her family after a loss. Twelve episodes, two each Friday from December 19, 2025. It's on Viki officially; these episodes are DahyunFlix's copies with English, Spanish, Portuguese, French, Thai, Malay, Indonesian and Arabic subtitles."
+    },
+    {
       "key": "specials",
       "label": "Documentary Specials"
     }
@@ -170,6 +185,52 @@
       ]
     },
     {
+      "id": "you-are-the-apple-of-my-eye-2025",
+      "title": "YOU ARE THE APPLE OF MY EYE (그 시절, 우리가 좋아했던 소녀)",
+      "series": "member-films",
+      "artist": "Dahyun",
+      "venue": "Cinemas",
+      "date": "2025-02-21",
+      "note": "Dahyun's film debut, opposite Jung Jin-young: the Korean remake of the 2011 Taiwanese film about a boy and his high-school first love. In Korean cinemas from February 21, 2025. Korean, Spanish or Portuguese audio, with subtitles in English, Spanish, Portuguese, French, Chinese, Japanese and Thai.",
+      "credit": {
+        "name": "Dahyunflix",
+        "url": "https://sites.google.com/view/dahyunflix"
+      },
+      "videos": [
+        {
+          "kind": "special",
+          "url": "https://sites.google.com/view/dahyunflix/en-you-are-the-apple-of-my-eye-2024/all-subs-you-are-the-apple-of-my-eyes",
+          "label": "Full Film · All Subs",
+          "official": false,
+          "thumb": "https://upload.wikimedia.org/wikipedia/en/9/90/You_Are_the_Apple_of_My_Eye_2024_film_poster.jpg",
+          "poster": true
+        }
+      ]
+    },
+    {
+      "id": "run-to-you-2025",
+      "title": "RUN TO YOU",
+      "series": "member-films",
+      "artist": "Dahyun",
+      "venue": "Cinemas",
+      "date": "2025-09-10",
+      "note": "Dahyun with Ha Seok-jin and Lee Shin-young in a running drama: a man running in the present and one in the future, racing through time toward love. Korean audio, with English, Chinese and Spanish subtitles.",
+      "credit": {
+        "name": "Dahyunflix",
+        "url": "https://sites.google.com/view/dahyunflix"
+      },
+      "videos": [
+        {
+          "kind": "special",
+          "url": "https://sites.google.com/view/dahyunflix/es-run-to-you-2025/all-subs-run-to-you",
+          "label": "Full Film · All Subs",
+          "official": false,
+          "thumb": "https://upload.wikimedia.org/wikipedia/en/d/d6/Run_to_You_film_poster.jpg",
+          "poster": true
+        }
+      ]
+    },
+    {
       "id": "up-next-lollapalooza-2025",
       "title": "TWICE : UP NEXT — LOLLAPALOOZA CHICAGO 2025 Special",
       "series": "specials",
@@ -183,6 +244,303 @@
           "label": "Full Special",
           "official": true,
           "duration": "41:06"
+        }
+      ]
+    },
+    {
+      "id": "one-in-a-million",
+      "title": "TWICE: ONE IN A MILL10N",
+      "series": "one-in-a-million",
+      "venue": "Cinemas · Prime Video",
+      "date": "2025-10-20",
+      "note": "A fan upload on Google Drive. The official release is on Prime Video.",
+      "credit": {
+        "name": "@TwiceEngSub",
+        "url": "https://x.com/TwiceEngSub"
+      },
+      "videos": [
+        {
+          "kind": "special",
+          "url": "https://drive.google.com/file/d/1hxmbQ0FOXTXyIqU6Sjyk2PqOniMskwEK/view",
+          "label": "Full Film",
+          "official": false,
+          "thumb": "assets/img/movies/one-in-a-million.jpg"
+        }
+      ]
+    },
+    {
+      "id": "love-me-ep1",
+      "title": "Episode 1: The Family",
+      "series": "love-me",
+      "artist": "Dahyun",
+      "venue": "JTBC",
+      "date": "2025-12-19",
+      "note": "",
+      "credit": {
+        "name": "Dahyunflix",
+        "url": "https://sites.google.com/view/dahyunflix"
+      },
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://sites.google.com/view/dahyunflix/es-love-me-2025/all-subs-love-me-1",
+          "label": "Full Episode · All Subs",
+          "official": false,
+          "thumb": "assets/img/movies/love-me.jpg",
+          "poster": true
+        }
+      ]
+    },
+    {
+      "id": "love-me-ep2",
+      "title": "Episode 2: Life Goes On",
+      "series": "love-me",
+      "artist": "Dahyun",
+      "venue": "JTBC",
+      "date": "2025-12-19",
+      "note": "",
+      "credit": {
+        "name": "Dahyunflix",
+        "url": "https://sites.google.com/view/dahyunflix"
+      },
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://sites.google.com/view/dahyunflix/es-love-me-2025/all-subs-love-me-2",
+          "label": "Full Episode · All Subs",
+          "official": false,
+          "thumb": "assets/img/movies/love-me.jpg",
+          "poster": true
+        }
+      ]
+    },
+    {
+      "id": "love-me-ep3",
+      "title": "Episode 3: The Sorrow",
+      "series": "love-me",
+      "artist": "Dahyun",
+      "venue": "JTBC",
+      "date": "2025-12-26",
+      "note": "",
+      "credit": {
+        "name": "Dahyunflix",
+        "url": "https://sites.google.com/view/dahyunflix"
+      },
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://sites.google.com/view/dahyunflix/es-love-me-2025/all-subs-love-me-3",
+          "label": "Full Episode · All Subs",
+          "official": false,
+          "thumb": "assets/img/movies/love-me.jpg",
+          "poster": true
+        }
+      ]
+    },
+    {
+      "id": "love-me-ep4",
+      "title": "Episode 4: New Relationships",
+      "series": "love-me",
+      "artist": "Dahyun",
+      "venue": "JTBC",
+      "date": "2025-12-26",
+      "note": "",
+      "credit": {
+        "name": "Dahyunflix",
+        "url": "https://sites.google.com/view/dahyunflix"
+      },
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://sites.google.com/view/dahyunflix/es-love-me-2025/all-subs-love-me-4",
+          "label": "Full Episode · All Subs",
+          "official": false,
+          "thumb": "assets/img/movies/love-me.jpg",
+          "poster": true
+        }
+      ]
+    },
+    {
+      "id": "love-me-ep5",
+      "title": "Episode 5: Thinking About Happiness",
+      "series": "love-me",
+      "artist": "Dahyun",
+      "venue": "JTBC",
+      "date": "2026-01-02",
+      "note": "",
+      "credit": {
+        "name": "Dahyunflix",
+        "url": "https://sites.google.com/view/dahyunflix"
+      },
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://sites.google.com/view/dahyunflix/es-love-me-2025/all-subs-love-me-5",
+          "label": "Full Episode · All Subs",
+          "official": false,
+          "thumb": "assets/img/movies/love-me.jpg",
+          "poster": true
+        }
+      ]
+    },
+    {
+      "id": "love-me-ep6",
+      "title": "Episode 6: Telling The Truth",
+      "series": "love-me",
+      "artist": "Dahyun",
+      "venue": "JTBC",
+      "date": "2026-01-02",
+      "note": "",
+      "credit": {
+        "name": "Dahyunflix",
+        "url": "https://sites.google.com/view/dahyunflix"
+      },
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://sites.google.com/view/dahyunflix/es-love-me-2025/all-subs-love-me-6",
+          "label": "Full Episode · All Subs",
+          "official": false,
+          "thumb": "assets/img/movies/love-me.jpg",
+          "poster": true
+        }
+      ]
+    },
+    {
+      "id": "love-me-ep7",
+      "title": "Episode 7: Meeting the Family",
+      "series": "love-me",
+      "artist": "Dahyun",
+      "venue": "JTBC",
+      "date": "2026-01-09",
+      "note": "",
+      "credit": {
+        "name": "Dahyunflix",
+        "url": "https://sites.google.com/view/dahyunflix"
+      },
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://sites.google.com/view/dahyunflix/es-love-me-2025/all-subs-love-me-7",
+          "label": "Full Episode · All Subs",
+          "official": false,
+          "thumb": "assets/img/movies/love-me.jpg",
+          "poster": true
+        }
+      ]
+    },
+    {
+      "id": "love-me-ep8",
+      "title": "Episode 8: Moments of Coincidence",
+      "series": "love-me",
+      "artist": "Dahyun",
+      "venue": "JTBC",
+      "date": "2026-01-09",
+      "note": "",
+      "credit": {
+        "name": "Dahyunflix",
+        "url": "https://sites.google.com/view/dahyunflix"
+      },
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://sites.google.com/view/dahyunflix/es-love-me-2025/all-subs-love-me-8",
+          "label": "Full Episode · All Subs",
+          "official": false,
+          "thumb": "assets/img/movies/love-me.jpg",
+          "poster": true
+        }
+      ]
+    },
+    {
+      "id": "love-me-ep9",
+      "title": "Episode 9: What Spring Means",
+      "series": "love-me",
+      "artist": "Dahyun",
+      "venue": "JTBC",
+      "date": "2026-01-16",
+      "note": "",
+      "credit": {
+        "name": "Dahyunflix",
+        "url": "https://sites.google.com/view/dahyunflix"
+      },
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://sites.google.com/view/dahyunflix/es-love-me-2025/all-subs-love-me-9",
+          "label": "Full Episode · All Subs",
+          "official": false,
+          "thumb": "assets/img/movies/love-me.jpg",
+          "poster": true
+        }
+      ]
+    },
+    {
+      "id": "love-me-ep10",
+      "title": "Episode 10: Finding Your Own Way Out",
+      "series": "love-me",
+      "artist": "Dahyun",
+      "venue": "JTBC",
+      "date": "2026-01-16",
+      "note": "",
+      "credit": {
+        "name": "Dahyunflix",
+        "url": "https://sites.google.com/view/dahyunflix"
+      },
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://sites.google.com/view/dahyunflix/es-love-me-2025/all-subs-love-me-10",
+          "label": "Full Episode · All Subs",
+          "official": false,
+          "thumb": "assets/img/movies/love-me.jpg",
+          "poster": true
+        }
+      ]
+    },
+    {
+      "id": "love-me-ep11",
+      "title": "Episode 11: When Life Tests You",
+      "series": "love-me",
+      "artist": "Dahyun",
+      "venue": "JTBC",
+      "date": "2026-01-23",
+      "note": "",
+      "credit": {
+        "name": "Dahyunflix",
+        "url": "https://sites.google.com/view/dahyunflix"
+      },
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://sites.google.com/view/dahyunflix/es-love-me-2025/all-subs-love-me-11",
+          "label": "Full Episode · All Subs",
+          "official": false,
+          "thumb": "assets/img/movies/love-me.jpg",
+          "poster": true
+        }
+      ]
+    },
+    {
+      "id": "love-me-ep12",
+      "title": "Episode 12: Learning To Be Brave In Love",
+      "series": "love-me",
+      "artist": "Dahyun",
+      "venue": "JTBC",
+      "date": "2026-01-23",
+      "note": "",
+      "credit": {
+        "name": "Dahyunflix",
+        "url": "https://sites.google.com/view/dahyunflix"
+      },
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://sites.google.com/view/dahyunflix/es-love-me-2025/all-subs-love-me-12",
+          "label": "Full Episode · All Subs",
+          "official": false,
+          "thumb": "assets/img/movies/love-me.jpg",
+          "poster": true
         }
       ]
     }
