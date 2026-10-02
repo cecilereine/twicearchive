@@ -343,6 +343,35 @@ a { color: inherit; }
 }
 .toolbar .row.tabs + .row { margin-top: 12px; }
 
+/* Past a handful of series, live.js swaps the tabs for one dropdown: a pill
+   the size of the search box, with its own chevron in place of the browser's. */
+.series-picker {
+  position: relative; display: inline-flex; align-items: center; gap: 10px;
+  max-width: 100%;
+}
+.picker-label {
+  font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+  color: var(--text-soft);
+}
+.series-picker select {
+  appearance: none; -webkit-appearance: none;
+  min-width: 260px; max-width: 100%; min-height: 40px;
+  padding: 9px 40px 9px 16px;
+  font: inherit; font-size: 14px; font-weight: 600; color: var(--text);
+  background: var(--surface-2); cursor: pointer;
+  border: 1px solid var(--line); border-radius: 12px;
+  text-overflow: ellipsis;
+}
+.series-picker select:hover { border-color: var(--accent); }
+.series-picker select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.series-picker::after {
+  content: ''; position: absolute; right: 16px; top: 50%;
+  width: 7px; height: 7px; margin-top: -5px; pointer-events: none;
+  border-right: 2px solid var(--text-soft); border-bottom: 2px solid var(--text-soft);
+  transform: rotate(45deg);
+}
+.toolbar .row.picker + .row { margin-top: 12px; }
+
 /* On a phone the nav doesn't fit one line, and wrapping it leaves the first
    row's underline floating off the rule. Keep it one row that swipes sideways,
    with the theme toggle pinned at the right end over a fade. The main tabs wrap
@@ -368,12 +397,16 @@ a { color: inherit; }
   /* Wrapped member and year chips stacked up to fill most of a phone screen,
      and the toolbar is sticky, so they stayed there. Give each row one line
      that swipes sideways and runs to the screen edges. */
-  .toolbar .row:not(.tabs):not(:first-child) {
+  .toolbar .row:not(.tabs):not(.picker):not(:first-child) {
     flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none;
     margin-inline: -16px; padding-inline: 16px;
   }
-  .toolbar .row:not(.tabs):not(:first-child)::-webkit-scrollbar { display: none; }
-  .toolbar .row:not(.tabs):not(:first-child) > * { flex: none; white-space: nowrap; }
+  .toolbar .row:not(.tabs):not(.picker):not(:first-child)::-webkit-scrollbar { display: none; }
+  .toolbar .row:not(.tabs):not(.picker):not(:first-child) > * { flex: none; white-space: nowrap; }
+
+  /* The dropdown stretches to the full width beside its label. */
+  .series-picker { display: flex; flex: 1; }
+  .series-picker select { flex: 1; min-width: 0; }
 
 }
 

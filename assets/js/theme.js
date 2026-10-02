@@ -40,6 +40,20 @@ const NAV_PAGES = [
   }));
 }
 
+/* ---------- visit counter ----------
+
+   GoatCounter (jeongsatzu.goatcounter.com): visits, pages and countries, no
+   cookies. Loaded here so every page counts without its own tag. Only on the
+   live site, so local previews don't show up as visits. */
+
+if (location.hostname.endsWith('candybongvault.com')) {
+  const gc = document.createElement('script');
+  gc.async = true;
+  gc.src = 'https://gc.zgo.at/count.js';
+  gc.dataset.goatcounter = 'https://jeongsatzu.goatcounter.com/count';
+  document.head.append(gc);
+}
+
 const THEME_KEY = 'twice-archive:theme';
 const darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
 

@@ -24,6 +24,8 @@ const DATA_FILE    = SCRIPT?.dataset.src || 'data/live.json';
 const DATA_URL     = DATA_FILE + (ASSET_V ? '?v=' + ASSET_V : '');
 const PROGRESS_KEY = SCRIPT?.dataset.progress || 'twice-archive:live-progress';
 const NOUN         = SCRIPT?.dataset.noun || 'show';
+/* More series than this and the tabs turn into a dropdown. */
+const TAB_LIMIT    = 8;
 
 const el = id => document.getElementById(id);
 let paintReset = () => {};          /* set once the reset button is wired */
@@ -242,10 +244,29 @@ function renderChips() {
   const events = state.data.events;
   const count = pred => events.filter(pred).length;
 
-  chips('series', 'series', [
+  const seriesItems = [
     ['all', 'All', events.length],
     ...(state.data.series || []).map(s => [s.key, s.label, count(e => inSeries(e, s.key))]),
-  ].filter(([v, , n]) => v === 'all' || n), state.series);
+  ].filter(([v, , n]) => v === 'all' || n);
+
+  /* A handful of series reads well as tabs (Vlogs, Concerts & Live). Past
+     that the tabs wrap into a wall of buttons (TWICE TV has dozens of runs),
+     so the series become one dropdown instead, in the same order. */
+  const host = el('series');
+  const asPicker = seriesItems.length - 1 > TAB_LIMIT;
+  host.classList.toggle('tabs', !asPicker);
+  host.classList.toggle('picker', asPicker);
+  if (asPicker) {
+    host.innerHTML = `<label class="series-picker">
+        <span class="picker-label">Show</span>
+        <select data-series-select aria-label="Show">${seriesItems.map(([value, label, n]) =>
+          `<option value="${escapeHtml(value)}"${state.series === value ? ' selected' : ''}>${
+            escapeHtml(value === 'all' ? `All ${NOUN}s` : label)} (${n})</option>`).join('')}
+        </select>
+      </label>`;
+  } else {
+    chips('series', 'series', seriesItems, state.series);
+  }
 
   /* Members in the data file's colour order, only those with a show of their
      own. Most shows are the whole group, so the row stays hidden until a solo
@@ -275,6 +296,12 @@ function renderChips() {
 function wireFilters() {
   el('search').addEventListener('input', e => {
     state.query = e.target.value;
+    renderList();
+  });
+  el('series').addEventListener('change', e => {
+    if (!e.target.matches('[data-series-select]')) return;
+    state.series = e.target.value;
+    renderChips();
     renderList();
   });
   for (const [hostId, key] of [['series', 'series'], ['members', 'member'], ['years', 'year']]) {
