@@ -1,23 +1,8 @@
 {
   "section": "TIME TO TWICE",
   "note": "TWICE's own reality series on their YouTube channel, one entry per episode, from the official TIME TO TWICE playlist. Each run (Crime Scene, TDOONG Forest…) is one tab and one section, in airing order; a run that came back (TDOONG High School, Crime Scene, TWICE New Year) keeps every season in its section under its own sub-heading. The playlist's Shorts (the ~1-minute Highlight clips) and teasers are left out. The first run (Apr 2020) is titled only \"TIME TO TWICE\" EP.01–04 on YouTube, so it is filed under that name.",
-  "updated": "2026-09-29",
+  "updated": "2026-10-02",
   "groupBy": "series",
-  "memberColors": {
-    "Nayeon": "#49c0ec",
-    "Jeongyeon": "#a3cc54",
-    "Momo": "#e67ea3",
-    "Sana": "#8c79b4",
-    "Jihyo": "#f9cc85",
-    "Mina": "#71c7d4",
-    "Dahyun": "#fefefe",
-    "Chaeyoung": "#e62722",
-    "Tzuyu": "#2253a3"
-  },
-  "groupColors": [
-    "#f9c596",
-    "#fc5d9d"
-  ],
   "series": [
     {
       "key": "ttt-2020",
@@ -143,6 +128,11 @@
     {
       "key": "tdoong-workshop",
       "label": "TDOONG Workshop"
+    },
+    {
+      "key": "tdoong-baseball",
+      "label": "TDOONG Baseball Team",
+      "summary": "TWICE's 9th anniversary content, not a TIME TO TWICE run, but the same kind of show, so it's filed here with them. Three episodes posted in October 2024."
     },
     {
       "key": "tdoong-pocha",
@@ -2186,6 +2176,23 @@
       ]
     },
     {
+      "id": "ttt-tdoong-baseball-ep1",
+      "title": "Episode 1",
+      "series": "tdoong-baseball",
+      "venue": "YouTube",
+      "date": "2024-10-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Nji6UpK1f0Y",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:56"
+        }
+      ]
+    },
+    {
       "id": "ttt-tdoong-pocha-ep1",
       "title": "Episode 1",
       "series": "tdoong-pocha",
@@ -2203,6 +2210,23 @@
       ]
     },
     {
+      "id": "ttt-tdoong-baseball-ep2",
+      "title": "Episode 2",
+      "series": "tdoong-baseball",
+      "venue": "YouTube",
+      "date": "2024-10-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "vzwphAiq1uY",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "16:30"
+        }
+      ]
+    },
+    {
       "id": "ttt-tdoong-pocha-ep2",
       "title": "Episode 2",
       "series": "tdoong-pocha",
@@ -2216,6 +2240,23 @@
           "label": "Full Episode",
           "official": true,
           "duration": "30:34"
+        }
+      ]
+    },
+    {
+      "id": "ttt-tdoong-baseball-ep3",
+      "title": "Episode 3",
+      "series": "tdoong-baseball",
+      "venue": "YouTube",
+      "date": "2024-10-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "St_AWbo9H98",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "14:37"
         }
       ]
     },

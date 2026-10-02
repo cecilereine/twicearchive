@@ -3,21 +3,6 @@
   "note": "TWICE on TV variety and reality shows — their own series (SIXTEEN) and guest runs on others, one entry per episode. Grouped by show, not by year: each show is one tab and one section. YouTube variety (TIME TO TWICE and the rest) is a separate section. A show can carry \"mustWatch\" and a \"summary\", shown on its heading.",
   "updated": "2026-10-02",
   "groupBy": "series",
-  "memberColors": {
-    "Nayeon": "#49c0ec",
-    "Jeongyeon": "#a3cc54",
-    "Momo": "#e67ea3",
-    "Sana": "#8c79b4",
-    "Jihyo": "#f9cc85",
-    "Mina": "#71c7d4",
-    "Dahyun": "#fefefe",
-    "Chaeyoung": "#e62722",
-    "Tzuyu": "#2253a3"
-  },
-  "groupColors": [
-    "#f9c596",
-    "#fc5d9d"
-  ],
   "series": [
     {
       "key": "sixteen",

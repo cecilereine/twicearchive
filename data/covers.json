@@ -2,21 +2,6 @@
   "section": "Melody Project & Cover Project",
   "note": "Members covering other artists' songs: the Melody Project videos on TWICE's channel, and every other cover. One entry per cover, with its videos (the cover itself, a behind-the-scenes, a live clip). Covers and joint stages performed live at a show are in live.json, under Stage Covers & Collabs. MV Appearances holds members appearing in other artists' music videos; \"originalArtist\" is then the MV's artist.",
   "updated": "2026-10-02",
-  "memberColors": {
-    "Nayeon": "#49c0ec",
-    "Jeongyeon": "#a3cc54",
-    "Momo": "#e67ea3",
-    "Sana": "#8c79b4",
-    "Jihyo": "#f9cc85",
-    "Mina": "#71c7d4",
-    "Dahyun": "#fefefe",
-    "Chaeyoung": "#e62722",
-    "Tzuyu": "#2253a3"
-  },
-  "groupColors": [
-    "#f9c596",
-    "#fc5d9d"
-  ],
   "series": [
     {
       "key": "melody-project",
@@ -106,7 +91,8 @@
           "kind": "mv",
           "url": "IG-ykt57E-U",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "10:49"
         }
       ]
     },
@@ -123,7 +109,8 @@
           "kind": "mv",
           "url": "62ZIJpt0wz8",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "10:18"
         }
       ]
     },
@@ -141,7 +128,8 @@
           "kind": "mv",
           "url": "uK16TLBzWYo",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "3:59"
         }
       ]
     },
@@ -158,7 +146,8 @@
           "kind": "mv",
           "url": "K_wlWUtbyAY",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "3:05"
         }
       ]
     },
@@ -177,6 +166,7 @@
           "url": "qxYiDfyeXdU",
           "label": "Full Session (ENG SUB)",
           "official": false,
+          "duration": "17:04",
           "fancam": true
         }
       ]
@@ -194,7 +184,8 @@
           "kind": "mv",
           "url": "bBgEs40MdFQ",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "1:48"
         }
       ]
     },
@@ -211,13 +202,15 @@
           "kind": "mv",
           "url": "XO9GiPOLd3I",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "3:33"
         },
         {
           "kind": "special",
           "url": "sNQfqRSrGMo",
           "label": "Behind the Scenes",
-          "official": true
+          "official": true,
+          "duration": "12:21"
         }
       ]
     },
@@ -235,7 +228,8 @@
           "kind": "mv",
           "url": "djjbl7J6ZmU",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "4:01"
         }
       ]
     },
@@ -252,7 +246,8 @@
           "kind": "mv",
           "url": "J3KA6WDAYPM",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "1:53"
         }
       ]
     },
@@ -269,7 +264,8 @@
           "kind": "mv",
           "url": "zKdT6KHT1jM",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "3:56"
         }
       ]
     },
@@ -286,7 +282,8 @@
           "kind": "mv",
           "url": "e54YjIvHV8k",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "4:39"
         }
       ]
     },
@@ -303,7 +300,8 @@
           "kind": "mv",
           "url": "hJBN4Ff8-pY",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "2:19"
         }
       ]
     },
@@ -320,13 +318,15 @@
           "kind": "mv",
           "url": "K4I2bTD7Fh0",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "3:35"
         },
         {
           "kind": "special",
           "url": "cQFLaxhnHqc",
           "label": "Behind the Scenes",
-          "official": true
+          "official": true,
+          "duration": "14:21"
         }
       ]
     },
@@ -344,13 +344,15 @@
           "kind": "mv",
           "url": "5UMgw3V-Q5I",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "3:23"
         },
         {
           "kind": "special",
           "url": "rjWC0Sl1ga0",
           "label": "Behind the Scenes",
-          "official": true
+          "official": true,
+          "duration": "22:58"
         }
       ]
     },
@@ -367,13 +369,15 @@
           "kind": "dance-performance",
           "url": "7Xv09ZURWQE",
           "label": "Performance Video",
-          "official": true
+          "official": true,
+          "duration": "2:21"
         },
         {
           "kind": "special",
           "url": "tl6JHVtleQE",
           "label": "Behind the Scenes",
-          "official": true
+          "official": true,
+          "duration": "18:06"
         }
       ]
     },
@@ -390,13 +394,15 @@
           "kind": "mv",
           "url": "nAW4uqc-7T4",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "2:12"
         },
         {
           "kind": "special",
           "url": "W14TmFy861I",
           "label": "Behind the Scenes",
-          "official": true
+          "official": true,
+          "duration": "15:30"
         }
       ]
     },
@@ -414,7 +420,8 @@
           "kind": "mv",
           "url": "RZQO_e3KVTE",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "1:36"
         }
       ]
     },
@@ -431,13 +438,15 @@
           "kind": "mv",
           "url": "IO1Nl9ErTsI",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "3:12"
         },
         {
           "kind": "special",
           "url": "pAtk3DOskUU",
           "label": "Behind the Scenes",
-          "official": true
+          "official": true,
+          "duration": "13:18"
         }
       ]
     },
@@ -454,13 +463,15 @@
           "kind": "mv",
           "url": "8vhhTUvRSZM",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "2:37"
         },
         {
           "kind": "special",
           "url": "2fbyr1NkHwA",
           "label": "Behind the Scenes",
-          "official": true
+          "official": true,
+          "duration": "13:45"
         }
       ]
     },
@@ -477,7 +488,8 @@
           "kind": "mv",
           "url": "I0o_OqZ4FjM",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "2:39"
         }
       ]
     },
@@ -494,13 +506,15 @@
           "kind": "mv",
           "url": "cAvMGWLZCHA",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "2:46"
         },
         {
           "kind": "special",
           "url": "V7GEAVW6FJg",
           "label": "Behind the Scenes",
-          "official": true
+          "official": true,
+          "duration": "18:25"
         }
       ]
     },
@@ -517,7 +531,8 @@
           "kind": "mv",
           "url": "_YIOiI8IA5A",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "2:42"
         }
       ]
     },
@@ -534,7 +549,8 @@
           "kind": "dance-performance",
           "url": "bLbKhXfxuD0",
           "label": "Dance Video",
-          "official": true
+          "official": true,
+          "duration": "1:07"
         }
       ]
     },
@@ -551,7 +567,8 @@
           "kind": "dance-performance",
           "url": "pK78DiqQ74I",
           "label": "Dance Video",
-          "official": true
+          "official": true,
+          "duration": "1:36"
         }
       ]
     },
@@ -568,13 +585,15 @@
           "kind": "mv",
           "url": "SY2kZjVEd54",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "2:46"
         },
         {
           "kind": "special",
           "url": "vylFZZ7MkvA",
           "label": "Behind the Scenes",
-          "official": true
+          "official": true,
+          "duration": "12:26"
         }
       ]
     },
@@ -591,7 +610,8 @@
           "kind": "mv",
           "url": "yExVG3ebaEs",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "2:13"
         }
       ]
     },
@@ -608,7 +628,8 @@
           "kind": "mv",
           "url": "lxchSHUVS5w",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "3:00"
         }
       ]
     },
@@ -625,13 +646,15 @@
           "kind": "mv",
           "url": "7123DLSc9FA",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "2:50"
         },
         {
           "kind": "special",
           "url": "yEFWz8KEvSE",
           "label": "Behind the Scenes",
-          "official": true
+          "official": true,
+          "duration": "11:50"
         }
       ]
     },
@@ -649,7 +672,8 @@
           "kind": "mv",
           "url": "2R7NzCOXOoM",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "2:00"
         }
       ]
     },
@@ -666,13 +690,15 @@
           "kind": "mv",
           "url": "1S-4d1nRUis",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "2:05"
         },
         {
           "kind": "special",
           "url": "sxanmYeHM94",
           "label": "Behind the Scenes",
-          "official": true
+          "official": true,
+          "duration": "15:05"
         }
       ]
     },
@@ -689,7 +715,8 @@
           "kind": "mv",
           "url": "tKItcpOutpg",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "2:36"
         }
       ]
     },
@@ -706,7 +733,8 @@
           "kind": "mv",
           "url": "jU3rJWVIPRI",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "3:36"
         }
       ]
     },
@@ -724,7 +752,8 @@
           "kind": "mv",
           "url": "aXGpDv5JYzI",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "2:10"
         }
       ]
     },
@@ -741,7 +770,8 @@
           "kind": "mv",
           "url": "rq8qBb4B7CA",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "3:01"
         }
       ]
     },
@@ -759,7 +789,8 @@
           "kind": "mv",
           "url": "y5fRzW5uFlQ",
           "label": "Cover",
-          "official": true
+          "official": true,
+          "duration": "3:17"
         }
       ]
     },
@@ -777,7 +808,8 @@
           "kind": "mv",
           "url": "KyhNRnABBCM",
           "label": "M/V",
-          "official": true
+          "official": true,
+          "duration": "4:06"
         }
       ]
     },
@@ -794,7 +826,8 @@
           "kind": "mv",
           "url": "2sAoKmg7qPI",
           "label": "M/V",
-          "official": true
+          "official": true,
+          "duration": "5:23"
         }
       ]
     },
@@ -811,7 +844,8 @@
           "kind": "mv",
           "url": "5rAfyWWP2Ps",
           "label": "M/V",
-          "official": true
+          "official": true,
+          "duration": "4:39"
         }
       ]
     },
@@ -828,7 +862,8 @@
           "kind": "mv",
           "url": "eISomx-VMow",
           "label": "M/V",
-          "official": true
+          "official": true,
+          "duration": "3:27"
         }
       ]
     },
@@ -845,7 +880,8 @@
           "kind": "mv",
           "url": "QHOePrycK8g",
           "label": "M/V",
-          "official": true
+          "official": true,
+          "duration": "3:46"
         }
       ]
     },
@@ -863,7 +899,8 @@
           "kind": "mv",
           "url": "R_DX64EwH9M",
           "label": "M/V",
-          "official": true
+          "official": true,
+          "duration": "5:29"
         }
       ]
     },
@@ -881,7 +918,8 @@
           "kind": "mv",
           "url": "zO9RzrhYR-I",
           "label": "M/V",
-          "official": true
+          "official": true,
+          "duration": "3:21"
         }
       ]
     },
@@ -898,7 +936,8 @@
           "kind": "mv",
           "url": "X2mqrzKHb3w",
           "label": "M/V",
-          "official": true
+          "official": true,
+          "duration": "3:16"
         }
       ]
     },
@@ -916,7 +955,8 @@
           "kind": "mv",
           "url": "5JbVVlqrreE",
           "label": "M/V",
-          "official": true
+          "official": true,
+          "duration": "5:21"
         }
       ]
     },
@@ -934,7 +974,8 @@
           "kind": "mv",
           "url": "ykLspPsNYtY",
           "label": "M/V",
-          "official": true
+          "official": true,
+          "duration": "4:45"
         }
       ]
     },
@@ -951,7 +992,8 @@
           "kind": "mv",
           "url": "eVvg3O2wBJ4",
           "label": "M/V",
-          "official": true
+          "official": true,
+          "duration": "3:15"
         }
       ]
     },
@@ -968,7 +1010,8 @@
           "kind": "mv",
           "url": "95HxqXOUytI",
           "label": "M/V",
-          "official": true
+          "official": true,
+          "duration": "3:14"
         }
       ]
     },
@@ -986,7 +1029,8 @@
           "kind": "mv",
           "url": "on2HSs_uXSw",
           "label": "M/V",
-          "official": true
+          "official": true,
+          "duration": "3:40"
         }
       ]
     },
@@ -1003,7 +1047,8 @@
           "kind": "mv",
           "url": "cmPYt8462mw",
           "label": "M/V",
-          "official": true
+          "official": true,
+          "duration": "4:09"
         }
       ]
     },
@@ -1021,7 +1066,8 @@
           "kind": "mv",
           "url": "80uru6rQWgc",
           "label": "M/V",
-          "official": true
+          "official": true,
+          "duration": "4:55"
         }
       ]
     }

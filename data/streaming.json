@@ -3,21 +3,6 @@
   "note": "Variety shows made for YouTube, Netflix and other streaming platforms, one entry per episode. Grouped by show, like TV Variety: each show is one tab and one section, and a show that ran in seasons keeps each under its own sub-heading. Teasers and Shorts are left out. TWICE's own TIME TO TWICE has its own page.",
   "updated": "2026-10-02",
   "groupBy": "series",
-  "memberColors": {
-    "Nayeon": "#49c0ec",
-    "Jeongyeon": "#a3cc54",
-    "Momo": "#e67ea3",
-    "Sana": "#8c79b4",
-    "Jihyo": "#f9cc85",
-    "Mina": "#71c7d4",
-    "Dahyun": "#fefefe",
-    "Chaeyoung": "#e62722",
-    "Tzuyu": "#2253a3"
-  },
-  "groupColors": [
-    "#f9c596",
-    "#fc5d9d"
-  ],
   "series": [
     {
       "key": "1thek",

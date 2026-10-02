@@ -3,21 +3,6 @@
   "note": "TWICE's own vlogs and behind-the-scenes, from their official channels. One entry per episode. The page groups by series, not by year: a series is one tab and one section, and a series with \"seasons\" (TW-LOG) keeps every season inside that section, each under its own sub-heading, set on the entry by \"season\". A season can also carry a \"summary\" and \"mustWatch\", shown on its sub-heading, and \"years\" to override the span its dates give (a late upload shouldn't stretch it). TIME TO TWICE and TWICE TV (with its member TVs) are separate sections, not here.",
   "updated": "2026-10-02",
   "groupBy": "series",
-  "memberColors": {
-    "Nayeon": "#49c0ec",
-    "Jeongyeon": "#a3cc54",
-    "Momo": "#e67ea3",
-    "Sana": "#8c79b4",
-    "Jihyo": "#f9cc85",
-    "Mina": "#71c7d4",
-    "Dahyun": "#fefefe",
-    "Chaeyoung": "#e62722",
-    "Tzuyu": "#2253a3"
-  },
-  "groupColors": [
-    "#f9c596",
-    "#fc5d9d"
-  ],
   "series": [
     {
       "key": "twlog",

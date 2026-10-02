@@ -2,21 +2,6 @@
   "section": "Concerts & Live",
   "note": "Full shows — a whole concert, festival set, broadcast special, fanmeeting or award show, in one video. Per-song cuts from these shows stay filed under their track in discography.json; this file is for the video you'd watch end to end. The one exception is Stage Covers & Collabs: a one-off stage of a song that isn't TWICE's own — a cover, or a joint stage with other artists — which has no track to file under.",
   "updated": "2026-09-27",
-  "memberColors": {
-    "Nayeon": "#49c0ec",
-    "Jeongyeon": "#a3cc54",
-    "Momo": "#e67ea3",
-    "Sana": "#8c79b4",
-    "Jihyo": "#f9cc85",
-    "Mina": "#71c7d4",
-    "Dahyun": "#fefefe",
-    "Chaeyoung": "#e62722",
-    "Tzuyu": "#2253a3"
-  },
-  "groupColors": [
-    "#f9c596",
-    "#fc5d9d"
-  ],
   "series": [
     {
       "key": "tour",
@@ -1148,6 +1133,7 @@
           "url": "ay1wB-2npMQ",
           "label": "Full Performance",
           "official": true,
+          "duration": "1:28:04",
           "mustWatch": true
         }
       ]
@@ -1164,7 +1150,8 @@
           "kind": "performance",
           "url": "lXJVfqcKpdA",
           "label": "Full Performance",
-          "official": true
+          "official": true,
+          "duration": "21:36"
         }
       ]
     },
@@ -1180,7 +1167,8 @@
           "kind": "live",
           "url": "FgjqpUMzufM",
           "label": "Full Concert (ENG SUB)",
-          "official": false
+          "official": false,
+          "duration": "2:56:09"
         }
       ]
     },
@@ -1214,7 +1202,8 @@
           "kind": "performance",
           "url": "xMJ45IzhSzg",
           "label": "Full Performance",
-          "official": true
+          "official": true,
+          "duration": "6:12"
         }
       ]
     },
@@ -1645,6 +1634,7 @@
           "url": "ra_ZRKucQYc",
           "label": "Here I Am + Dive Fancam",
           "official": false,
+          "duration": "5:50",
           "fancam": true
         }
       ]
@@ -1717,6 +1707,7 @@
           "url": "m9D6B8NV40U",
           "label": "Full Performance (4K)",
           "official": false,
+          "duration": "1:05:16",
           "fancam": true
         }
       ]
@@ -1735,7 +1726,8 @@
           "kind": "live",
           "url": "M2mzoDjMAlc",
           "label": "Full Performance",
-          "official": true
+          "official": true,
+          "duration": "25:51"
         }
       ]
     },

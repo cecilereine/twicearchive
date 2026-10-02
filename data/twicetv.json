@@ -3,21 +3,6 @@
   "note": "TWICE TV, season by season, plus the member and unit shows TWICE posted alongside it. Each run is one tab and one section; member shows are one tab, a show per sub-heading. A run can carry \"mustWatch\" and a \"summary\" on its heading. From 2022 the comeback runs are no longer titled TWICE TV but carry on the series. The early seasons aired on V LIVE, which shut down in 2022, so those link to vlivearchive.com or a fan re-upload (marked unofficial). Comeback behinds (jacket, M/V, dance practice, album contents) sit in their comeback's tab; the V LIVE-era ones share a tab. Teasers, previews and Shorts are left out.",
   "updated": "2026-10-02",
   "groupBy": "series",
-  "memberColors": {
-    "Nayeon": "#49c0ec",
-    "Jeongyeon": "#a3cc54",
-    "Momo": "#e67ea3",
-    "Sana": "#8c79b4",
-    "Jihyo": "#f9cc85",
-    "Mina": "#71c7d4",
-    "Dahyun": "#fefefe",
-    "Chaeyoung": "#e62722",
-    "Tzuyu": "#2253a3"
-  },
-  "groupColors": [
-    "#f9c596",
-    "#fc5d9d"
-  ],
   "series": [
     {
       "key": "tv1",
@@ -254,6 +239,11 @@
     {
       "key": "strategy",
       "label": "TWICE — Strategy Behind the Scenes"
+    },
+    {
+      "key": "tw-day",
+      "label": "TW-DAY",
+      "summary": "Short day-in-the-life clips from TWICE's schedule (shoots, challenges, trips and the 10th anniversary), posted since December 2024."
     },
     {
       "key": "this-is-for",
@@ -6899,6 +6889,23 @@
       ]
     },
     {
+      "id": "twice-tw-day-1",
+      "title": "#1 — Boots on, Done. Who wants to feel the fluttering height difference?",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2024-12-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "I1Hx13AdQ1k",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "1:31"
+        }
+      ]
+    },
+    {
       "id": "twice-strategy-m-v-behind-ep-01",
       "title": "M/V Behind EP.01",
       "series": "strategy",
@@ -6912,6 +6919,23 @@
           "label": "Full Episode",
           "official": true,
           "duration": "16:02"
+        }
+      ]
+    },
+    {
+      "id": "twice-tw-day-2",
+      "title": "#2 — Hello, Konnichiwa, Bonjour! The 2nd Album Presentation",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2024-12-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "5spxgd07DNE",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "2:35"
         }
       ]
     },
@@ -6933,6 +6957,40 @@
       ]
     },
     {
+      "id": "twice-tw-day-3",
+      "title": "#3 — Another day, Another Chaotic TWICE (positive)",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2024-12-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "uLm3iEq284Q",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "2:27"
+        }
+      ]
+    },
+    {
+      "id": "twice-tw-day-4",
+      "title": "#4 — Charm Explosion: STRATEGY REVEAL. What’s ONCE's Choice?",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2024-12-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "OGk7mVwU8nE",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "4:03"
+        }
+      ]
+    },
+    {
       "id": "twice-strategy-strategy-la-promotion-days-behind",
       "title": "STRATEGY LA Promotion Days Behind",
       "series": "strategy",
@@ -6946,6 +7004,40 @@
           "label": "Full Episode",
           "official": true,
           "duration": "25:48"
+        }
+      ]
+    },
+    {
+      "id": "twice-tw-day-5",
+      "title": "#5 — Let’s Be Friends Forever (Don’t leave first…)",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2025-01-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ooeD_LOpci4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "5:54"
+        }
+      ]
+    },
+    {
+      "id": "twice-tw-day-6",
+      "title": "#6 — Get Ready For The Ultimate Challenge. Time to STYLE",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2025-01-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "21MFIW4myQc",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "3:02"
         }
       ]
     },
@@ -6967,6 +7059,74 @@
       ]
     },
     {
+      "id": "twice-tw-day-7",
+      "title": "#7 — Wait, This Is Pure? STEP 1,2,3,4 Dance Challenge Reaction Cam",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2025-01-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "wzapU2onxuM",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "2:59"
+        }
+      ]
+    },
+    {
+      "id": "twice-tw-day-8",
+      "title": "#8 — Left Right ×2, Unstoppable Hot Girl Energy",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2025-01-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Q0tJsaS_7R8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "4:17"
+        }
+      ]
+    },
+    {
+      "id": "twice-tw-day-9",
+      "title": "#9 — This is what we call Ctrl+C, Ctrl+V… Who’s who?",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2025-07-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Ibe7bobeAGE",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "5:22"
+        }
+      ]
+    },
+    {
+      "id": "twice-tw-day-10",
+      "title": "#10 — New styles, a giant dog, and TWICE in full chaos mode - this shoot had everything",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2025-07-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "FaCN5K8J4wE",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "3:56"
+        }
+      ]
+    },
+    {
       "id": "twice-this-is-for-dance-practice-behind",
       "title": "Dance Practice Behind",
       "series": "this-is-for",
@@ -6980,6 +7140,23 @@
           "label": "Behind the Scenes",
           "official": true,
           "duration": "25:59"
+        }
+      ]
+    },
+    {
+      "id": "twice-tw-day-11",
+      "title": "#11 — Spin! Drop down! and TURN IT UP! (with. BAMBAM, MINGYU, SEUNGKWAN, SUNGJIN)",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2025-07-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "nYilX_6I3W0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "5:34"
         }
       ]
     },
@@ -7035,6 +7212,91 @@
       ]
     },
     {
+      "id": "twice-tw-day-12",
+      "title": "#12 — Saweetie & TWICE, superstars. I know das right",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2025-08-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "IQu-PG2hsHU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "3:04"
+        }
+      ]
+    },
+    {
+      "id": "twice-tw-day-13",
+      "title": "#13 — MoSaJi’s Lovely Day @Lollapalooza Chicago 2025",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2025-08-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "JlgT56YU8gc",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "8:59"
+        }
+      ]
+    },
+    {
+      "id": "twice-tw-day-14",
+      "title": "#14 — First ever CHAEYOUNG’s foot makeup show. Who’s watching?",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2025-09-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "_X1njTWMbiA",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "2:25"
+        }
+      ]
+    },
+    {
+      "id": "twice-tw-day-15",
+      "title": "#15 — CHAEYOUNG’s LIL FANTASY comes true",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2025-09-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Ax246asGPcs",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "3:06"
+        }
+      ]
+    },
+    {
+      "id": "twice-tw-day-16",
+      "title": "#16 — So proud of CHAEYOUNG! The members got the first listen to LIL FANTASY vol.1",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2025-09-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "YpHtQw7qwT0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "5:15"
+        }
+      ]
+    },
+    {
       "id": "twice-oneoffs-2025-tima-behind",
       "title": "2025 TIMA — Behind",
       "series": "oneoffs",
@@ -7052,19 +7314,36 @@
       ]
     },
     {
-      "id": "twice-oneoffs-up-next-lollapalooza-chicago-2025-special",
-      "title": "UP NEXT — LOLLAPALOOZA CHICAGO 2025 Special",
-      "series": "oneoffs",
+      "id": "twice-tw-day-17",
+      "title": "#17 — Off we go, racing toward 9WICE’s 10th anniversary",
+      "series": "tw-day",
       "venue": "YouTube",
-      "date": "2025-10-02",
+      "date": "2025-10-13",
       "note": "",
       "videos": [
         {
           "kind": "episode",
-          "url": "VsfZFA_KgTk",
+          "url": "xYXNtfakKqY",
           "label": "Full Episode",
           "official": true,
-          "duration": "41:06"
+          "duration": "6:16"
+        }
+      ]
+    },
+    {
+      "id": "twice-tw-day-18",
+      "title": "#18 — What does 10th-anniv TWICE do on break?",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2025-10-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "at7PDfQTnMk",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "2:22"
         }
       ]
     },
@@ -7082,6 +7361,57 @@
           "label": "Full Episode",
           "official": true,
           "duration": "15:34"
+        }
+      ]
+    },
+    {
+      "id": "twice-tw-day-19",
+      "title": "#19 — This moment with JIHYO feels so hvnly",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2026-05-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "OyvJdWFo-aU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "6:50"
+        }
+      ]
+    },
+    {
+      "id": "twice-tw-day-20",
+      "title": "#20 — Weather Fairy JIHYO in London",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2026-06-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Wn728i3rvwM",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "5:29"
+        }
+      ]
+    },
+    {
+      "id": "twice-tw-day-21",
+      "title": "#21 — Guess who's back from Miami? JIHYO's chaotic shoot begins!",
+      "series": "tw-day",
+      "venue": "YouTube",
+      "date": "2026-07-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "yqRozxU-Bqw",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "5:05"
         }
       ]
     }
