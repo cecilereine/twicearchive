@@ -120,8 +120,12 @@ function coverCards(c) {
   }
   /* "Cover" is the plain case and goes without saying on a single card; it's
      only worth a line next to a behind-the-scenes or a live clip. */
+  /* A behind-the-scenes shares the cover's song, members and often its
+     thumbnail look, so it gets a sticker and a muted card to tell it apart. */
   return vids.map((v, i) => videoCard(v, {
-    head, className: 'cover-card', id: i === 0 ? c.id : '', badge: false,
+    head, className: v.kind === 'special' ? 'cover-card bts' : 'cover-card',
+    sticker: v.kind === 'special' ? '🎬 Behind the scenes' : null,
+    id: i === 0 ? c.id : '', badge: false,
     caption: vids.length > 1 || v.label !== 'Cover' ? v.label : null,
   }));
 }

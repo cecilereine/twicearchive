@@ -324,12 +324,15 @@ function videoCard(v, opts = {}) {
     ? '<span class="must">★ Must watch</span>' : '';
 
   const durTag = v.duration ? `<span class="dur">${escapeHtml(v.duration)}</span>` : '';
+  /* opts.sticker names what kind of extra a card is, on the thumbnail itself —
+     a behind-the-scenes otherwise looks just like the video it goes with. */
+  const sticker = opts.sticker ? `<span class="sticker">${escapeHtml(opts.sticker)}</span>` : '';
 
   const thumbTag =
     `<a class="vthumb" href="${escapeHtml(mainUrl)}"
         target="_blank" rel="noopener"
         aria-label="Watch ${escapeHtml(label || KIND_LABEL[kind])}${freeUrl ? '' : id ? ' on YouTube' : ' in a new tab'}">
-       ${thumbInner}<span class="play">${id ? '▶' : '↗'}</span>${durTag}${must}
+       ${thumbInner}<span class="play">${id ? '▶' : '↗'}</span>${durTag}${must}${sticker}
      </a>`;
 
   return `
