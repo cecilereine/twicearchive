@@ -1077,3 +1077,17 @@ footer.site-foot {
   /* the h1 paints its gradient through its text; keep that off the icon */
   -webkit-text-fill-color: initial;
 }
+
+/* "Shared by …" under a card's note, crediting a fan copy's uploader (live.js). */
+.live-credit { margin: 4px 0 0; font-size: 12px; color: var(--text-faint); }
+.live-credit a { color: var(--accent-ink); font-weight: 600; text-decoration: none; }
+.live-credit a:hover { text-decoration: underline; }
+
+/* A film poster on a card (core.js "poster"): the whole poster, centred, over
+   a blurred, dimmed copy of itself filling the 16:9 frame. */
+.vthumb img.poster { object-fit: contain; }
+.vthumb .poster-bg {
+  position: absolute; inset: -12px; z-index: 0;
+  background: center / cover no-repeat;
+  filter: blur(14px) brightness(.55);
+}

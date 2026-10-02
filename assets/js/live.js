@@ -180,6 +180,8 @@ function seriesSections(events) {
   }).join('');
 }
 
+/* An entry can thank whoever shared its copy ("credit": {name, url}), shown
+   under the note as a link to their page. */
 function eventCards(e) {
   /* An act with a name of its own gets one chip wearing it, coloured by blending
      its members' colours; anything else gets a chip per member. */
@@ -199,7 +201,9 @@ function eventCards(e) {
       ${artists}
       <span class="date">${escapeHtml(prettyDate(e.date))}</span>
     </div>
-    ${e.note ? `<p class="live-note">${escapeHtml(e.note)}</p>` : ''}`;
+    ${e.note ? `<p class="live-note">${escapeHtml(e.note)}</p>` : ''}
+    ${e.credit ? `<p class="live-credit">Shared by <a href="${escapeHtml(e.credit.url)}" target="_blank"
+        rel="noopener">${escapeHtml(e.credit.name)} ↗</a></p>` : ''}`;
 
   const vids = orderVideos(e.videos);
   if (!vids.length) {

@@ -292,6 +292,10 @@ function videoCard(v, opts = {}) {
        came from another site. */
     thumbInner = `<img src="${escapeHtml(v.thumb)}" alt="" loading="lazy" decoding="async"
                        referrerpolicy="no-referrer">`;
+    /* A portrait poster ("poster": true) would lose most of itself to the
+       16:9 crop, so it's shown whole over a blurred copy of itself. */
+    if (v.poster) thumbInner = `<span class="poster-bg" style="background-image:url('${escapeHtml(v.thumb)}')"></span>`
+      + thumbInner.replace('<img ', '<img class="poster" ');
   } else if (altId) {
     /* An official link that isn't on YouTube — Amazon, Weverse, Beyond LIVE —
        has no thumbnail to borrow, and those pages are JS shells with no
