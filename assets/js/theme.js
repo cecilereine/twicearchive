@@ -25,6 +25,7 @@ const NAV_PAGES = [
   ['twicetv.html',     'TWICE TV'],
   ['variety.html',     'TV Variety & Reality'],
   ['streaming.html',   'Streaming Variety'],
+  ['movies.html',      'Movies & Documentaries'],
   ['donate.html',      'Donate'],
 ];
 
@@ -124,4 +125,28 @@ if (toolbar) {
     const typing = toolbar.contains(document.activeElement) && document.activeElement.matches('input');
     toolbar.classList.toggle('tucked', stuck && dy > 0 && !typing);
   }, { passive: true });
+}
+
+/* ---------- back to top ----------
+
+   A round button in the bottom-right corner, there once you're a couple of
+   screens down a long list. It sits under the discography's release panel
+   (z-index below the overlay), so it never covers the panel's own arrows. */
+
+{
+  const top = document.createElement('button');
+  top.type = 'button';
+  top.className = 'to-top';
+  top.setAttribute('aria-label', 'Back to top');
+  top.title = 'Back to top';
+  top.textContent = '↑';
+  document.body.append(top);
+
+  const still = window.matchMedia('(prefers-reduced-motion: reduce)');
+  top.addEventListener('click', () =>
+    window.scrollTo({ top: 0, behavior: still.matches ? 'auto' : 'smooth' }));
+
+  const paint = () => top.classList.toggle('shown', window.scrollY > window.innerHeight * 1.5);
+  window.addEventListener('scroll', paint, { passive: true });
+  paint();
 }

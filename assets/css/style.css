@@ -42,20 +42,24 @@
 /* Section tints. Each page sets one on <html>. */
 :root[data-accent="discography"] { --accent: var(--candy);  --accent-2: var(--peach); }
 :root[data-accent="shows"]       { --accent: var(--grape);  --accent-2: var(--candy); }
-/* Updates through TV Variety each wear one member's colour, in menu order,
-   fading into a deeper shade of it (the member hex matches memberColors in data/). */
+/* Updates through Movies & Documentaries each wear one member's colour, in menu
+   order, fading into a deeper shade of it (the member hex matches MEMBER_COLORS in core.js). */
 :root[data-accent="updates"]     { --accent: #49c0ec; --accent-2: #1f7fb8; } /* Nayeon */
-:root[data-accent="covers"]      { --accent: #a3cc54; --accent-2: #5e8f24; } /* Jeongyeon */
+:root[data-accent="covers"]      { --accent: #c4cc63; --accent-2: #737d1c; } /* Jeongyeon (her Lovely's green) */
 :root[data-accent="live"]        { --accent: #e67ea3; --accent-2: #c2457e; } /* Momo */
 :root[data-accent="vlogs"]       { --accent: #8c79b4; --accent-2: #5b4596; } /* Sana */
-:root[data-accent="twicetv"]     { --accent: #f9cc85; --accent-2: #e0913a; } /* Jihyo */
-:root[data-accent="variety"]     { --accent: #71c7d4; --accent-2: #2a8fa0; } /* Mina */
-/* Dahyun's white can't tint a page, so TIME TO TWICE skips ahead to Chaeyoung. */
-:root[data-accent="ttt"]         { --accent: #e62722; --accent-2: #a8151a; } /* Chaeyoung */
-:root[data-accent="streaming"]   { --accent: #2253a3; --accent-2: #163a78; } /* Tzuyu */
+:root[data-accent="ttt"]         { --accent: #f9cc85; --accent-2: #e0913a; } /* Jihyo */
+:root[data-accent="twicetv"]     { --accent: #62dab4; --accent-2: #1f9a76; } /* Mina (her Lovely's mint) */
+/* Dahyun's white. White vanishes on the light page, so there it's silver;
+   the dark page gets the pearl white itself (set below, with the dark inks). */
+:root[data-accent="variety"]     { --accent: #c9c4ce; --accent-2: #8a8490; } /* Dahyun */
+:root[data-accent="streaming"]   { --accent: #e62722; --accent-2: #a8151a; } /* Chaeyoung */
+:root[data-accent="movies"]      { --accent: #2253a3; --accent-2: #163a78; } /* Tzuyu */
 :root:is([data-accent="covers"], [data-accent="live"], [data-accent="vlogs"],
       [data-accent="twicetv"], [data-accent="variety"], [data-accent="updates"],
-      [data-accent="ttt"], [data-accent="streaming"]) { --accent-ink: var(--accent-2); }
+      [data-accent="ttt"], [data-accent="streaming"], [data-accent="movies"]) { --accent-ink: var(--accent-2); }
+/* Silver is too light to read as text on the light page; a deeper grey does. */
+:root[data-accent="variety"] { --accent-ink: #6d6772; }
 /* …but on the dark background it's the bright member colour that reads. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) { --accent-ink: var(--accent); }
@@ -63,11 +67,15 @@
 :root[data-theme="dark"] { --accent-ink: var(--accent); }
 /* Tzuyu's navy is too dark to read on the dark background; lift it. */
 @media (prefers-color-scheme: dark) {
-  :root[data-accent="streaming"]:not([data-theme="light"]) { --accent-ink: #7fa6ea; }
+  :root[data-accent="movies"]:not([data-theme="light"]) { --accent-ink: #7fa6ea; }
 }
-:root[data-accent="streaming"][data-theme="dark"] { --accent-ink: #7fa6ea; }
-/* Jihyo's apricot and Mina's aqua are too pale for white text on a selected chip. */
-:root:is([data-accent="twicetv"], [data-accent="variety"]) .chip.on { color: #2a1b22; }
+:root[data-accent="movies"][data-theme="dark"] { --accent-ink: #7fa6ea; }
+@media (prefers-color-scheme: dark) {
+  :root[data-accent="variety"]:not([data-theme="light"]) { --accent: #f4f2f6; --accent-2: #bcb7c1; --accent-ink: #f4f2f6; }
+}
+:root[data-accent="variety"][data-theme="dark"] { --accent: #f4f2f6; --accent-2: #bcb7c1; --accent-ink: #f4f2f6; }
+/* Jeongyeon's green, Jihyo's apricot, Mina's mint and Dahyun's white are too pale for white text on a selected chip. */
+:root:is([data-accent="covers"], [data-accent="ttt"], [data-accent="twicetv"], [data-accent="variety"]) .chip.on { color: #2a1b22; }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -839,7 +847,7 @@ a { color: inherit; }
   padding: 2.5px 7px; border-radius: 999px;
   color: var(--text-soft); background: var(--surface-2); border: 1px solid var(--line);
 }
-.series-badge[data-series="melody-project"] { color: #fff; background: var(--accent); border-color: transparent; }
+.series-badge[data-series="melody-project"] { color: #2a1b22; background: var(--accent); border-color: transparent; }
 .series-badge[data-series="performance-project"] { color: #123; background: var(--accent-2); border-color: transparent; }
 /* The live page's buckets, scoped so they can't collide with a covers series
    of the same name. Four brand colours for six buckets: award shows keep the
@@ -853,7 +861,7 @@ a { color: inherit; }
 :root[data-accent="vlogs"] .series-badge[data-series="twlog"]  { color: #123; background: var(--peach); border-color: transparent; }
 :root[data-accent="vlogs"] .series-badge[data-series="behind"] { color: #fff; background: var(--grape); border-color: transparent; }
 /* TV Variety: one look for every show; the section heading already says which. */
-:root:is([data-accent="twicetv"], [data-accent="variety"]) .series-badge { color: #2a1b22; background: linear-gradient(120deg, var(--accent), var(--accent-2)); border-color: transparent; }
+:root:is([data-accent="ttt"], [data-accent="twicetv"], [data-accent="variety"]) .series-badge { color: #2a1b22; background: linear-gradient(120deg, var(--accent), var(--accent-2)); border-color: transparent; }
 /* A member chip in the filter row carries a dot in that member's colour. */
 .chip .dot {
   display: inline-block; width: 8px; height: 8px; border-radius: 999px;
@@ -1011,4 +1019,61 @@ footer.site-foot {
 .brand-title {
   font-family: var(--font); font-size: 18px; font-weight: 800;
   letter-spacing: .14em; color: var(--accent); text-decoration: none;
+}
+/* ---------- back to top (theme.js) ---------- */
+
+.to-top {
+  position: fixed; z-index: 50;
+  right: max(16px, env(safe-area-inset-right)); bottom: max(16px, env(safe-area-inset-bottom));
+  width: 46px; height: 46px; padding: 0;
+  display: grid; place-items: center;
+  font: inherit; font-size: 20px; font-weight: 700; line-height: 1;
+  color: #fff; cursor: pointer;
+  border: 0; border-radius: 50%;
+  background: linear-gradient(120deg, var(--accent), var(--accent-2));
+  box-shadow: 0 4px 14px rgba(40, 20, 30, .28);
+  opacity: 0; transform: translateY(12px); pointer-events: none;
+  transition: opacity .2s ease, transform .2s ease;
+}
+.to-top.shown { opacity: 1; transform: none; pointer-events: auto; }
+.to-top:hover { transform: translateY(-2px); }
+.to-top:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+/* Same pale accents that need dark text on a selected chip. */
+:root:is([data-accent="covers"], [data-accent="ttt"], [data-accent="twicetv"], [data-accent="variety"]) .to-top { color: #2a1b22; }
+@media (prefers-reduced-motion: reduce) { .to-top { transition: none; } }
+
+/* A page that's only just started says so under its intro (Movies & Documentaries). */
+.more-to-come {
+  display: inline-block; margin-top: 10px;
+  font-size: 13px; font-weight: 600; color: var(--accent-ink);
+  padding: 6px 12px; border-radius: 999px;
+  background: var(--surface-2); border: 1px dashed var(--line);
+}
+
+/* ---------- Lovelys on the member-coloured pages ----------
+
+   Each page that wears a member's colour shows that member's Lovely just after
+   its title, about the height of the text. Set here per accent, so the pages
+   themselves carry no extra markup. */
+
+:root[data-accent="updates"]   { --lovely: url("../img/lovelys/nayeon.png"); }
+:root[data-accent="covers"]    { --lovely: url("../img/lovelys/jeongyeon.png"); }
+:root[data-accent="live"]      { --lovely: url("../img/lovelys/momo.png"); }
+:root[data-accent="vlogs"]     { --lovely: url("../img/lovelys/sana.png"); }
+:root[data-accent="ttt"]       { --lovely: url("../img/lovelys/jihyo.png"); }
+:root[data-accent="twicetv"]   { --lovely: url("../img/lovelys/mina.png"); }
+:root[data-accent="variety"]   { --lovely: url("../img/lovelys/dahyun.png"); }
+:root[data-accent="streaming"] { --lovely: url("../img/lovelys/chaeyoung.png"); }
+:root[data-accent="movies"]    { --lovely: url("../img/lovelys/tzuyu.png"); }
+
+:root:is([data-accent="updates"], [data-accent="covers"], [data-accent="live"], [data-accent="vlogs"],
+      [data-accent="ttt"], [data-accent="twicetv"], [data-accent="variety"], [data-accent="streaming"],
+      [data-accent="movies"]) .site-head h1::after {
+  content: "";
+  display: inline-block;
+  width: 1.1em; height: 1.1em;
+  margin-left: .3em; vertical-align: -.18em;
+  background: var(--lovely) center / contain no-repeat;
+  /* the h1 paints its gradient through its text; keep that off the icon */
+  -webkit-text-fill-color: initial;
 }

@@ -440,7 +440,7 @@ async function init() {
   try {
     const res = await fetch(DATA_URL);
     if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
-    data = await res.json();
+    data = withColors(await res.json());
   } catch (err) {
     el('grid').innerHTML =
       `<p class="empty-state">Couldn't load ${DATA_URL} — ${escapeHtml(err.message)}.<br>

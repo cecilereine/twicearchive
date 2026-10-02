@@ -121,10 +121,14 @@ def parse_heading(text, members):
     return song, artist, who
 
 
+# The members, in the group's order. Their colours live in assets/js/core.js.
+MEMBERS = ["Nayeon", "Jeongyeon", "Momo", "Sana", "Jihyo", "Mina", "Dahyun", "Chaeyoung", "Tzuyu"]
+
+
 def main():
     dry = "--dry-run" in sys.argv
     data = json.load(open(DATA))
-    members = list((data.get("memberColors") or {}).keys())
+    members = MEMBERS
 
     # Links, each with the heading above it (if any).
     urls, heading = [], None

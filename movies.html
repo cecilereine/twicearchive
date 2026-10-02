@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" data-accent="movies">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movies &amp; Documentaries · Candybong Vault</title>
+<meta name="description" content="TWICE's documentaries, concert movies and members' films.">
+<link rel="icon" type="image/png" href="assets/img/favicon.png?v=258">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png?v=258">
+<link rel="stylesheet" href="assets/css/style.css?v=258">
+<script>try{var t=localStorage.getItem('twice-archive:theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="wip-banner" role="status">🚧 <b>Still in progress.</b> The archive is being filled in — some sections are incomplete, and dates and details may still change.</p>
+
+  <header class="site-head">
+    <nav class="site-nav">
+      <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch theme">🌙</button>
+    </nav>
+    <h1>Movies &amp; Documentaries</h1>
+    <p>TWICE's documentaries, concert movies and members' films. Each title is its own tab.</p>
+    <p class="more-to-come">🎬 More to come — concert movies and the members' films are on their way.</p>
+  </header>
+
+  <div class="toolbar">
+    <div class="row">
+      <input type="text" class="search" id="search"
+             placeholder="🔍  Search a title, an episode or a year — “Seize the Light”, “Lollapalooza”, “2020”…">
+      <span class="progress-pill" id="progress"></span>
+    </div>
+    <div class="row tabs" id="series"><!-- series chips, built by live.js --></div>
+    <div class="row" id="members" hidden><!-- member chips, built by live.js --></div>
+    <div class="row" id="years"><!-- year chips, built by live.js --></div>
+  </div>
+
+  <div id="list"></div>
+
+  <div class="reset-row">
+    <button type="button" class="chip danger" id="resetProgress">Reset watched progress</button>
+  </div>
+
+  <footer class="site-foot">
+    “Watched” marks are stored in this browser only — they never leave your device, and
+    clearing site data resets them.
+  </footer>
+
+</div>
+
+<script src="assets/js/core.js?v=258"></script>
+<script src="assets/js/live.js?v=258" data-src="data/movies.json" data-progress="twice-archive:movies-progress" data-noun="video"></script>
+<script src="assets/js/theme.js?v=258"></script>
+</body>
+</html>

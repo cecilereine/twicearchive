@@ -333,7 +333,7 @@ async function init() {
   try {
     const res = await fresh(DATA_URL);
     if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
-    state.data = await res.json();
+    state.data = withColors(await res.json());
   } catch (err) {
     el('stream').innerHTML =
       `<p class="empty-state">Couldn't load ${DATA_URL} — ${escapeHtml(err.message)}.<br>

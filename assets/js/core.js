@@ -195,10 +195,21 @@ function readableOn(hex) {
   return (0.2126 * r + 0.7152 * g + 0.0722 * b) > 0.45 ? '#2a1b22' : '#fff';
 }
 
+/* The members' colours, in the group's order — the one place they live. Each
+   member's is her Lovely's colour (Jeongyeon's green and Mina's mint were
+   matched to theirs). The page tints in style.css use the same hexes. Every
+   section script hands them to its data with withColors() as it loads. */
+const MEMBER_COLORS = {
+  Nayeon: '#49c0ec', Jeongyeon: '#c4cc63', Momo: '#e67ea3', Sana: '#8c79b4', Jihyo: '#f9cc85',
+  Mina: '#62dab4', Dahyun: '#fefefe', Chaeyoung: '#e62722', Tzuyu: '#2253a3',
+};
+/* TWICE's official apricot → neon magenta, for a credit to the whole group. */
+const GROUP_COLORS = ['#f9c596', '#fc5d9d'];
+const withColors = data => Object.assign(data, { memberColors: MEMBER_COLORS, groupColors: GROUP_COLORS });
+
 /* Inline style for a chip in a member's colour. "Dahyun, Chaeyoung" blends
    into a gradient across both; a name that matches nobody ("all members")
-   falls back to the group colours. The colours come from the data file, so
-   changing one is an edit there rather than here. */
+   falls back to the group colours. */
 function memberStyle(names, colors, groupColors) {
   const cols = String(names || '').split(',').map(n => (colors || {})[n.trim()]).filter(Boolean);
   if (!cols.length) {

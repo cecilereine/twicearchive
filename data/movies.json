@@ -1,0 +1,190 @@
+{
+  "section": "Movies & Documentaries",
+  "note": "TWICE's documentaries, concert movies and members' films. Grouped by title: each series or film is one tab and one section, and a title can carry \"mustWatch\" and a \"summary\" on its heading.",
+  "updated": "2026-10-02",
+  "groupBy": "series",
+  "series": [
+    {
+      "key": "seize-the-light",
+      "label": "TWICE: Seize the Light",
+      "mustWatch": true,
+      "summary": "YouTube Originals' docuseries: TWICE from their trainee days to the TWICELIGHTS world tour, in eight episodes, with a special ninth added in June 2020."
+    },
+    {
+      "key": "specials",
+      "label": "Documentary Specials"
+    }
+  ],
+  "events": [
+    {
+      "id": "seize-the-light-ep1",
+      "title": "Ep 1. First Step Towards Our Dream",
+      "series": "seize-the-light",
+      "venue": "YouTube Originals",
+      "date": "2020-04-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "mEtUkIDqbog",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "15:47"
+        }
+      ]
+    },
+    {
+      "id": "seize-the-light-ep2",
+      "title": "Ep 2. Fierce Days of 9 Trainees",
+      "series": "seize-the-light",
+      "venue": "YouTube Originals",
+      "date": "2020-04-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "LG_dTjivZx8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:39"
+        }
+      ]
+    },
+    {
+      "id": "seize-the-light-ep3",
+      "title": "Ep 3. From Sweat to Stronger 'Us'",
+      "series": "seize-the-light",
+      "venue": "YouTube Originals",
+      "date": "2020-04-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "VdAQzDu5A_Y",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "15:55"
+        }
+      ]
+    },
+    {
+      "id": "seize-the-light-ep4",
+      "title": "Ep 4. TWICE is TWICE",
+      "series": "seize-the-light",
+      "venue": "YouTube Originals",
+      "date": "2020-04-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "rFxaGZ9xMPg",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:03"
+        }
+      ]
+    },
+    {
+      "id": "seize-the-light-ep5",
+      "title": "Ep 5. Breathless but Unstoppable",
+      "series": "seize-the-light",
+      "venue": "YouTube Originals",
+      "date": "2020-04-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ot9-jK4suUk",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "14:01"
+        }
+      ]
+    },
+    {
+      "id": "seize-the-light-ep6",
+      "title": "Ep 6. Siren",
+      "series": "seize-the-light",
+      "venue": "YouTube Originals",
+      "date": "2020-04-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "iwGHfj20Gv8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "15:22"
+        }
+      ]
+    },
+    {
+      "id": "seize-the-light-ep7",
+      "title": "Ep 7. Everlasting Light",
+      "series": "seize-the-light",
+      "venue": "YouTube Originals",
+      "date": "2020-04-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "_nHhba1F8KQ",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "15:49"
+        }
+      ]
+    },
+    {
+      "id": "seize-the-light-ep8",
+      "title": "Ep 8. TWICE 'LIGHTS' to Everyone",
+      "series": "seize-the-light",
+      "venue": "YouTube Originals",
+      "date": "2020-04-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "3jrLxnPf_sk",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "14:35"
+        }
+      ]
+    },
+    {
+      "id": "seize-the-light-ep9",
+      "title": "Special Ep 9. Together, With the Lights",
+      "series": "seize-the-light",
+      "venue": "YouTube Originals",
+      "date": "2020-06-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "8mkYWAuo-2M",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:03"
+        }
+      ]
+    },
+    {
+      "id": "up-next-lollapalooza-2025",
+      "title": "TWICE : UP NEXT — LOLLAPALOOZA CHICAGO 2025 Special",
+      "series": "specials",
+      "venue": "YouTube",
+      "date": "2025-10-02",
+      "note": "Behind TWICE's Lollapalooza Chicago 2025 set. The full set is on the Concerts & Live page.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "VsfZFA_KgTk",
+          "label": "Full Special",
+          "official": true,
+          "duration": "41:06"
+        }
+      ]
+    }
+  ]
+}
