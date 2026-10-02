@@ -89,6 +89,11 @@
       "label": "Oppa Thinking"
     },
     {
+      "key": "we-like-zines",
+      "label": "We Like Zines! (냄비받침)",
+      "summary": "KBS2's book-publishing show: celebrities each write a small book of their own. TWICE wrote \"Exposing TWICE\" across three episodes; the rest of each episode follows the other authors, so the TWICE parts are listed on each card."
+    },
+    {
       "key": "carefree-travelers",
       "label": "Carefree Travelers",
       "summary": "Eight members (Dahyun was absent) join JTBC's package-tour show for a group package tour to Da Nang, Vietnam, travelling alongside the regular cast."
@@ -1369,6 +1374,57 @@
           "label": "Talk & Stage · Eng Sub",
           "official": true,
           "duration": "24:06"
+        }
+      ]
+    },
+    {
+      "id": "we-like-zines-ep1",
+      "title": "We Like Zines! Episode 1",
+      "series": "we-like-zines",
+      "venue": "KBS2",
+      "date": "2017-06-13",
+      "note": "TWICE's parts: 0:00–4:50 opening and introductions · 9:12–18:10 in the studio, with a TWICE quiz from 16:54 · 39:32–48:52 their book pitch, \"Exposing TWICE?\" · 53:58–54:20 toast talk.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "1ff8gSUjTV0",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "1:14:45"
+        }
+      ]
+    },
+    {
+      "id": "we-like-zines-ep3",
+      "title": "We Like Zines! Episode 3",
+      "series": "we-like-zines",
+      "venue": "KBS2",
+      "date": "2017-06-27",
+      "note": "TWICE's parts: 34:52–46:37 \"Exposing TWICE\": Jeongyeon's essential goods, tried at the dorm · 1:10:36–1:19:31 the top items, tested by the members. Opens at 34:52.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.youtube.com/watch?v=xdYPTBHp95k&t=2092",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "1:21:32"
+        }
+      ]
+    },
+    {
+      "id": "we-like-zines-ep13",
+      "title": "We Like Zines! Episode 13 (Final)",
+      "series": "we-like-zines",
+      "venue": "KBS2",
+      "date": "2017-09-12",
+      "note": "TWICE's parts: 0:00–11:47 their rabokki recipe, cooked by Jeongyeon's father, and the finished book · 52:36 and 57:08–58:48 \"Exposing TWICE\" in the book review.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "YbhNmM8QoD0",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "1:20:07"
         }
       ]
     }

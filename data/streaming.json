@@ -171,6 +171,10 @@
       "summary": "Nayeon's first show as host, on the KODE channel: a blind guessing game where she works out who the hidden guest is from their smartphone."
     },
     {
+      "key": "hyeris-club",
+      "label": "Hyeri's Club (혤's club)"
+    },
+    {
       "key": "iu-palette",
       "label": "IU's Palette (아이유의 팔레트)",
       "summary": "IU's talk and live music show on her official YouTube channel."
@@ -2694,6 +2698,42 @@
           "label": "Full Episode",
           "official": true,
           "duration": "32:16"
+        }
+      ]
+    },
+    {
+      "id": "hyeris-club-ep34",
+      "title": "Episode 34: Jihyo, Jeongyeon, Tzuyu",
+      "series": "hyeris-club",
+      "venue": "Hyeri (YouTube)",
+      "date": "2024-11-29",
+      "note": "",
+      "members": "Jihyo, Jeongyeon, Tzuyu",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "rCti3Z12WgU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "32:35"
+        }
+      ]
+    },
+    {
+      "id": "hyeris-club-ep66",
+      "title": "Episode 66: Dahyun",
+      "series": "hyeris-club",
+      "venue": "Hyeri (YouTube)",
+      "date": "2025-12-19",
+      "note": "",
+      "members": "Dahyun",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "iW2w33_LBTI",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "28:44"
         }
       ]
     }

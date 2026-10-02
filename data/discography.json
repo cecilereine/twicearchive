@@ -3779,6 +3779,12 @@
               "url": "MHbm4TvQGwg",
               "label": "SPECIAL LIVE MORE & MORE",
               "official": true
+            },
+            {
+              "kind": "special",
+              "url": "SUCNse5JoO4",
+              "label": "Cheering Guide",
+              "official": true
             }
           ]
         },
@@ -4117,6 +4123,12 @@
               "url": "qNlMt1eV03w",
               "label": "20210131 TWICE (트와이스) OT9 I CANT STOP ME; ALL MEMBERS PERFORM LIVE!@20",
               "official": false
+            },
+            {
+              "kind": "special",
+              "url": "Lei4HUduRPg",
+              "label": "M/V Reaction",
+              "official": true
             }
           ]
         },
@@ -5231,6 +5243,36 @@
               "url": "MKU_lJI0t40",
               "label": "The Feels Official Lyrics Video",
               "official": true
+            },
+            {
+              "kind": "special",
+              "url": "KPd7fKJFwHE",
+              "label": "M/V Reaction",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "GB72OOZz5sU",
+              "label": "Jacket Film",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "laO_MQY6u8s",
+              "label": "Pre-Feels: \"The Feels\" by TWICE",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "Bp9MNnIa6tY",
+              "label": "Pre-Feels: How do TWICE \"Feel\"?",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "4RmQcTJsJH8",
+              "label": "Pre-Feels: Catching \"The Feels\"",
+              "official": true
             }
           ]
         }
@@ -5568,6 +5610,36 @@
               "url": "MKU_lJI0t40",
               "label": "The Feels Official Lyrics Video",
               "official": true
+            },
+            {
+              "kind": "special",
+              "url": "KPd7fKJFwHE",
+              "label": "M/V Reaction",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "GB72OOZz5sU",
+              "label": "Jacket Film",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "laO_MQY6u8s",
+              "label": "Pre-Feels: \"The Feels\" by TWICE",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "Bp9MNnIa6tY",
+              "label": "Pre-Feels: How do TWICE \"Feel\"?",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "4RmQcTJsJH8",
+              "label": "Pre-Feels: Catching \"The Feels\"",
+              "official": true
             }
           ],
           "note": "Pre-release single"
@@ -5896,6 +5968,12 @@
               "url": "n03Vpulrb1Y",
               "label": "READY TO BE in Fukuoka, Fukuoka PayPay Dome",
               "official": false
+            },
+            {
+              "kind": "special",
+              "url": "igzQMg7Qt0Q",
+              "label": "M/V Reaction with JEONGYEON, CHAEYOUNG",
+              "official": true
             }
           ]
         },
@@ -11008,6 +11086,12 @@
               "url": "RlY3SMoPUoY",
               "label": "Music Video (World Cup 2026)",
               "official": true
+            },
+            {
+              "kind": "special",
+              "url": "P7PpBtPU-ZQ",
+              "label": "JIHYO \"Follow Me\" Recording Behind",
+              "official": true
             }
           ]
         }
@@ -11651,6 +11735,12 @@
               "url": "MHbm4TvQGwg",
               "label": "SPECIAL LIVE MORE & MORE",
               "official": true
+            },
+            {
+              "kind": "special",
+              "url": "SUCNse5JoO4",
+              "label": "Cheering Guide",
+              "official": true
             }
           ]
         },
@@ -11715,6 +11805,12 @@
               "url": "qNlMt1eV03w",
               "label": "20210131 TWICE (트와이스) OT9 I CANT STOP ME; ALL MEMBERS PERFORM LIVE!@20",
               "official": false
+            },
+            {
+              "kind": "special",
+              "url": "Lei4HUduRPg",
+              "label": "M/V Reaction",
+              "official": true
             }
           ]
         },
@@ -11859,6 +11955,36 @@
               "kind": "lyric",
               "url": "MKU_lJI0t40",
               "label": "The Feels Official Lyrics Video",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "KPd7fKJFwHE",
+              "label": "M/V Reaction",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "GB72OOZz5sU",
+              "label": "Jacket Film",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "laO_MQY6u8s",
+              "label": "Pre-Feels: \"The Feels\" by TWICE",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "Bp9MNnIa6tY",
+              "label": "Pre-Feels: How do TWICE \"Feel\"?",
+              "official": true
+            },
+            {
+              "kind": "special",
+              "url": "4RmQcTJsJH8",
+              "label": "Pre-Feels: Catching \"The Feels\"",
               "official": true
             }
           ]
@@ -12828,7 +12954,20 @@
           "title": "Bye Bye Inhibitions",
           "artist": "with Alok",
           "titleTrack": true,
-          "videos": []
+          "videos": [
+            {
+              "kind": "special",
+              "url": "U6p_IBuNgG4",
+              "label": "NAYEON x Alok Bye Bye Inhibitions Recording",
+              "official": true
+            },
+            {
+              "kind": "lyric",
+              "url": "IUQ3zAsq2-0",
+              "label": "NAYEON (나연) x Alok Bye Bye Inhibitions (Color Coded Lyrics)",
+              "official": false
+            }
+          ]
         }
       ]
     }

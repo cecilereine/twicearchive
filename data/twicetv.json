@@ -1,7 +1,7 @@
 {
   "section": "TWICE TV",
-  "note": "TWICE TV, season by season. Each season is one tab and one section; a season can carry \"mustWatch\" and a \"summary\" on its heading. The early seasons aired on V LIVE, which shut down in 2022, so those link to vlivearchive.com's copy (marked unofficial, as a fan-run mirror).",
-  "updated": "2026-09-23",
+  "note": "TWICE TV, season by season, plus the member and unit shows TWICE posted alongside it. Each run is one tab and one section; member shows are one tab, a show per sub-heading. A run can carry \"mustWatch\" and a \"summary\" on its heading. From 2022 the comeback runs are no longer titled TWICE TV but carry on the series. The early seasons aired on V LIVE, which shut down in 2022, so those link to vlivearchive.com or a fan re-upload (marked unofficial). Comeback behinds (jacket, M/V, dance practice, album contents) sit in their comeback's tab; the V LIVE-era ones share a tab. Teasers, previews and Shorts are left out.",
+  "updated": "2026-10-02",
   "groupBy": "series",
   "memberColors": {
     "Nayeon": "#49c0ec",
@@ -20,6 +20,30 @@
   ],
   "series": [
     {
+      "key": "tv1",
+      "label": "TWICE TV",
+      "summary": "Filmed right after SIXTEEN, before debut: interviews with each member and a dinner with JYP."
+    },
+    {
+      "key": "begins",
+      "label": "TWICE TV BEGINS",
+      "summary": "Filmed while TWICE were preparing to debut in 2015, but not released until mid-2016."
+    },
+    {
+      "key": "tv2",
+      "label": "TWICE TV2"
+    },
+    {
+      "key": "tv3",
+      "label": "TWICE TV3",
+      "mustWatch": true,
+      "summary": "Eight episodes of TWICE's first trip together as a group: two nights and three days on Jeju Island, released weekly on V LIVE."
+    },
+    {
+      "key": "tv4",
+      "label": "TWICE TV4"
+    },
+    {
       "key": "tv5",
       "label": "TWICE TV5 — TWICE in SWITZERLAND",
       "mustWatch": true,
@@ -30,9 +54,1183 @@
       "label": "TWICE TV6 — TWICE in SINGAPORE",
       "mustWatch": true,
       "summary": "Twelve episodes of TWICE on a trip to Singapore, released twice a week on V LIVE."
+    },
+    {
+      "key": "vlive-behind",
+      "label": "Comeback Behinds (V LIVE era)",
+      "summary": "Jacket, M/V and showcase behind films from the V LIVE years, one sub-heading per album. The later ones sit in each comeback's own tab.",
+      "seasons": [
+        {
+          "key": "vb-the-story-begins",
+          "label": "THE STORY BEGINS"
+        },
+        {
+          "key": "vb-page-two",
+          "label": "PAGE TWO"
+        },
+        {
+          "key": "vb-lane1",
+          "label": "TWICEcoaster : LANE 1"
+        },
+        {
+          "key": "vb-signal",
+          "label": "SIGNAL"
+        },
+        {
+          "key": "vb-twicetagram",
+          "label": "twicetagram"
+        },
+        {
+          "key": "vb-merry-happy",
+          "label": "Merry & Happy"
+        }
+      ]
+    },
+    {
+      "key": "school-meal",
+      "label": "TWICE TV 급식단의 대모험 (School Meal Club's Great Adventure)"
+    },
+    {
+      "key": "special",
+      "label": "TWICE TV SPECIAL"
+    },
+    {
+      "key": "mini",
+      "label": "TWICE TV mini"
+    },
+    {
+      "key": "member-tv",
+      "label": "Member TVs",
+      "summary": "Shows starring one or two members, in the order they began. TWICE's own channel posted them alongside TWICE TV.",
+      "seasons": [
+        {
+          "key": "mochaeng-1",
+          "label": "모챙 TV (MOCHAENG TV)"
+        },
+        {
+          "key": "mochaeng-2",
+          "label": "모챙 TV2 (MOCHAENG TV2)"
+        },
+        {
+          "key": "nayeon-2018",
+          "label": "나연 TV (NAYEON TV)"
+        },
+        {
+          "key": "chaeyoung-tv",
+          "label": "CHAEYOUNG TV"
+        },
+        {
+          "key": "tzuyu-tv",
+          "label": "TZUYU TV"
+        },
+        {
+          "key": "nayeon-2019",
+          "label": "NAYEON TV"
+        },
+        {
+          "key": "jayeon-tv",
+          "label": "MOMO & SANA's Jayeon TV (모사의 자연 TV)"
+        },
+        {
+          "key": "peach",
+          "label": "Peach Sisters"
+        },
+        {
+          "key": "jeongyeon-tv",
+          "label": "JEONGYEON TV"
+        },
+        {
+          "key": "mina-tv",
+          "label": "MINA TV"
+        },
+        {
+          "key": "sana-tv",
+          "label": "SANA TV"
+        }
+      ]
+    },
+    {
+      "key": "tv2018",
+      "label": "TWICE TV 2018"
+    },
+    {
+      "key": "wil",
+      "label": "TWICE TV — What is Love?"
+    },
+    {
+      "key": "dtna",
+      "label": "TWICE TV — Dance The Night Away"
+    },
+    {
+      "key": "yoy",
+      "label": "TWICE TV — YES or YES"
+    },
+    {
+      "key": "btied",
+      "label": "TWICE TV — The Best Thing I Ever Did"
+    },
+    {
+      "key": "oneoffs",
+      "label": "TWICE TV — Award Shows & Events",
+      "summary": "Single TWICE TV episodes behind an award show, year-end festival, fan event, ad shoot, promotion trip or talk show."
+    },
+    {
+      "key": "fancy",
+      "label": "TWICE TV — FANCY"
+    },
+    {
+      "key": "tdoong-ent",
+      "label": "TWICE TV — TDOONG Entertainment",
+      "summary": "Season 1 of TDOONG Entertainment, posted as TWICE TV in 2019. Season 2 is on the TIME TO TWICE page."
+    },
+    {
+      "key": "feel-special",
+      "label": "TWICE TV — Feel Special"
+    },
+    {
+      "key": "tmt",
+      "label": "TMT — TOO MUCH TWICE"
+    },
+    {
+      "key": "school-meal-reloaded",
+      "label": "School Meal Club Reloaded"
+    },
+    {
+      "key": "mbti",
+      "label": "TWICE TV — Finding TWICE's MBTI"
+    },
+    {
+      "key": "more-more",
+      "label": "TWICE TV — MORE & MORE"
+    },
+    {
+      "key": "gardening",
+      "label": "TWICE TV — Home Gardening"
+    },
+    {
+      "key": "icsm",
+      "label": "TWICE TV — I CAN'T STOP ME"
+    },
+    {
+      "key": "alcohol-free",
+      "label": "TWICE TV — Alcohol-Free Behind the Scenes"
+    },
+    {
+      "key": "anniversary",
+      "label": "Anniversary Specials"
+    },
+    {
+      "key": "the-feels",
+      "label": "TWICE TV — The Feels Behind the Scenes"
+    },
+    {
+      "key": "scientist",
+      "label": "TWICE TV — SCIENTIST Behind the Scenes"
+    },
+    {
+      "key": "pop",
+      "label": "NAYEON — POP! Behind the Scenes"
+    },
+    {
+      "key": "ttt",
+      "label": "TWICE — Talk that Talk Behind the Scenes"
+    },
+    {
+      "key": "moonlight",
+      "label": "TWICE — MOONLIGHT SUNRISE M/V Behind the Scenes"
+    },
+    {
+      "key": "set-me-free",
+      "label": "TWICE — SET ME FREE Behind the Scenes"
+    },
+    {
+      "key": "i-got-you",
+      "label": "TWICE — I GOT YOU M/V Behind"
+    },
+    {
+      "key": "one-spark",
+      "label": "TWICE — ONE SPARK Behind the Scenes"
+    },
+    {
+      "key": "strategy",
+      "label": "TWICE — Strategy Behind the Scenes"
+    },
+    {
+      "key": "this-is-for",
+      "label": "TWICE — THIS IS FOR Behind the Scenes"
     }
   ],
   "events": [
+    {
+      "id": "twice-tv1-prologue",
+      "title": "Prologue",
+      "series": "tv1",
+      "venue": "",
+      "date": "2015-07-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "label": "Prologue",
+          "url": "aVqb77sZjws",
+          "official": false,
+          "duration": "1:25"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv1-episode-1",
+      "title": "Episode 1",
+      "series": "tv1",
+      "venue": "",
+      "date": "2015-07-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "WcioimcxYAQ",
+          "official": false,
+          "duration": "9:59"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv1-episode-2",
+      "title": "Episode 2",
+      "series": "tv1",
+      "venue": "",
+      "date": "2015-07-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "SivKMEvl4Gk",
+          "official": false,
+          "duration": "15:52"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv1-episode-3",
+      "title": "Episode 3",
+      "series": "tv1",
+      "venue": "",
+      "date": "2015-08-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "fxHgHuS_cEs",
+          "official": false,
+          "duration": "12:54"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv1-episode-4",
+      "title": "Episode 4",
+      "series": "tv1",
+      "venue": "",
+      "date": "2015-08-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "KKp3O-hGIeI",
+          "official": false,
+          "duration": "27:55"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv1-episode-5",
+      "title": "Episode 5",
+      "series": "tv1",
+      "venue": "",
+      "date": "2015-08-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "5MOkzbDFvRk",
+          "official": false,
+          "duration": "15:25"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2-episode-1",
+      "title": "Episode 1",
+      "series": "tv2",
+      "venue": "V LIVE",
+      "date": "2015-10-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "https://vlivearchive.com/post/1-18238921",
+          "official": false,
+          "duration": "14:30",
+          "thumb": "https://v-phinf.pstatic.net/20151023_234/1445585510020xFkQP_PNG/upload_%C6%AE%BF%CD%C0%CC%BD%BATV2_1%C8%B8_02_1_0000007030ms.png?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-vlive-behind-the-story-begins-showcase-vehind",
+      "title": "Showcase VEHIND",
+      "series": "vlive-behind",
+      "season": "vb-the-story-begins",
+      "venue": "V LIVE",
+      "date": "2015-10-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "-KmbyAUcN40",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "6:05"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2-episode-2",
+      "title": "Episode 2",
+      "series": "tv2",
+      "venue": "V LIVE",
+      "date": "2015-10-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "https://vlivearchive.com/post/1-18238909",
+          "official": false,
+          "duration": "19:12",
+          "thumb": "https://v-phinf.pstatic.net/20151030_269/1446167556020b0o8H_JPEG/upload_KakaoTalk_20151029_171750818.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2-episode-3",
+      "title": "Episode 3",
+      "series": "tv2",
+      "venue": "V LIVE",
+      "date": "2015-11-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "https://vlivearchive.com/post/0-18229204",
+          "official": false,
+          "duration": "15:38",
+          "thumb": "https://v-phinf.pstatic.net/20151106_79/1446806169097J1odw_JPEG/b1b4j7sAUNZpexT764E993DG3w_rmcvideo_144P_256_100_32_logo.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2-episode-4",
+      "title": "Episode 4",
+      "series": "tv2",
+      "venue": "V LIVE",
+      "date": "2015-11-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "https://vlivearchive.com/post/1-18238887",
+          "official": false,
+          "duration": "17:25",
+          "thumb": "https://v-phinf.pstatic.net/20151113_27/1447395299744LEqQO_PNG/upload_Screenshot_2015-11-13-15-12-56.png?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2-episode-5",
+      "title": "Episode 5",
+      "series": "tv2",
+      "venue": "V LIVE",
+      "date": "2015-11-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "https://www.dailymotion.com/video/x584zer",
+          "official": false,
+          "duration": "21:03",
+          "thumb": "https://s1.dmcdn.net/v/IrSX31enHroUG1P2a/x720"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2-episode-6",
+      "title": "Episode 6",
+      "series": "tv2",
+      "venue": "V LIVE",
+      "date": "2015-11-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "https://vlivearchive.com/post/0-18229182",
+          "official": false,
+          "duration": "20:14",
+          "thumb": "https://v-phinf.pstatic.net/20151127_185/14486017502720Jc3U_JPEG/ed78rP_xliBffaXYENzF2v3b6w_rmcvideo_144P_256_100_32_logo.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2-episode-7",
+      "title": "Episode 7",
+      "series": "tv2",
+      "venue": "V LIVE",
+      "date": "2015-12-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "https://vlivearchive.com/post/1-18238879",
+          "official": false,
+          "duration": "20:04",
+          "thumb": "https://v-phinf.pstatic.net/20151204_174/1449208100362pmUqa_JPEG/28ebrQXYTgQkVnyHcU4vbIRS0A_rmcvideo_144P_256_100_32_logo.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2-episode-8",
+      "title": "Episode 8",
+      "series": "tv2",
+      "venue": "V LIVE",
+      "date": "2015-12-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "https://vlivearchive.com/post/0-18229180",
+          "official": false,
+          "duration": "20:17",
+          "thumb": "https://v-phinf.pstatic.net/20151211_235/1449814508932h8aYN_JPEG/9966IsBttyHFFyZbr2oEdyudaQ_rmcvideo_144P_256_100_32_logo.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2-episode-9",
+      "title": "Episode 9",
+      "series": "tv2",
+      "venue": "V LIVE",
+      "date": "2015-12-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "https://vlivearchive.com/post/0-18229178",
+          "official": false,
+          "duration": "20:39",
+          "thumb": "https://v-phinf.pstatic.net/20151218_111/1450425896782kSbBU_PNG/upload_ep09.png?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2-episode-10-last-episode",
+      "title": "Episode 10 (Last Episode)",
+      "series": "tv2",
+      "venue": "V LIVE",
+      "date": "2015-12-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "https://vlivearchive.com/post/0-18229173",
+          "official": false,
+          "duration": "23:24",
+          "thumb": "https://v-phinf.pstatic.net/20151225_158/1451028704613U9GDo_PNG/upload_tv2.png?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-vlive-behind-page-two-cheer-up-m-v-making-film",
+      "title": "\"CHEER UP\" M/V Making Film",
+      "series": "vlive-behind",
+      "season": "vb-page-two",
+      "venue": "V LIVE",
+      "date": "2016-04-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "b7S4lWHV15w",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "5:10"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv3-episode-1",
+      "title": "Episode 1",
+      "series": "tv3",
+      "venue": "V LIVE",
+      "date": "2016-04-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "NqJJNAIagX8",
+          "official": false,
+          "duration": "18:47"
+        }
+      ]
+    },
+    {
+      "id": "twice-vlive-behind-page-two-showcase-vehind",
+      "title": "Showcase VEHIND",
+      "series": "vlive-behind",
+      "season": "vb-page-two",
+      "venue": "V LIVE",
+      "date": "2016-05-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "dAXE77a-2j0",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "7:33"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv3-episode-2",
+      "title": "Episode 2",
+      "series": "tv3",
+      "venue": "V LIVE",
+      "date": "2016-05-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "2p8Zumdouhk",
+          "official": false,
+          "duration": "20:18"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv3-episode-3",
+      "title": "Episode 3",
+      "series": "tv3",
+      "venue": "V LIVE",
+      "date": "2016-05-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "zRmyRWM6EhQ",
+          "official": false,
+          "duration": "30:40"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv3-episode-4",
+      "title": "Episode 4",
+      "series": "tv3",
+      "venue": "V LIVE",
+      "date": "2016-05-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "FqwXwWYHJKI",
+          "official": false,
+          "duration": "29:37"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv3-episode-5",
+      "title": "Episode 5",
+      "series": "tv3",
+      "venue": "V LIVE",
+      "date": "2016-05-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "wnzm0wPwH1Y",
+          "official": false,
+          "duration": "28:59"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv3-episode-6",
+      "title": "Episode 6",
+      "series": "tv3",
+      "venue": "V LIVE",
+      "date": "2016-06-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "FeHLtZklzYQ",
+          "official": false,
+          "duration": "27:35"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv3-episode-7",
+      "title": "Episode 7",
+      "series": "tv3",
+      "venue": "V LIVE",
+      "date": "2016-06-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "oizK1yYXSkw",
+          "official": false,
+          "duration": "27:43"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv3-last-episode",
+      "title": "Last Episode",
+      "series": "tv3",
+      "venue": "V LIVE",
+      "date": "2016-06-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "Dtne_bM-iAw",
+          "official": false,
+          "duration": "34:19"
+        }
+      ]
+    },
+    {
+      "id": "twice-begins-episode-1",
+      "title": "Episode 1",
+      "series": "begins",
+      "venue": "V LIVE",
+      "date": "2016-06-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "FfxVf2uYQdc",
+          "official": false,
+          "duration": "8:43"
+        }
+      ]
+    },
+    {
+      "id": "twice-begins-episode-2",
+      "title": "Episode 2",
+      "series": "begins",
+      "venue": "V LIVE",
+      "date": "2016-07-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "yWkL778YZa0",
+          "official": false,
+          "duration": "7:29"
+        }
+      ]
+    },
+    {
+      "id": "twice-begins-episode-3",
+      "title": "Episode 3",
+      "series": "begins",
+      "venue": "V LIVE",
+      "date": "2016-07-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "32GqCUUuXiQ",
+          "official": false,
+          "duration": "10:30"
+        }
+      ]
+    },
+    {
+      "id": "twice-begins-episode-4",
+      "title": "Episode 4",
+      "series": "begins",
+      "venue": "V LIVE",
+      "date": "2016-07-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "7uC-UoKi8Mo",
+          "official": false,
+          "duration": "7:48"
+        }
+      ]
+    },
+    {
+      "id": "twice-begins-episode-5",
+      "title": "Episode 5",
+      "series": "begins",
+      "venue": "V LIVE",
+      "date": "2016-07-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "fz7cuuhGkBs",
+          "official": false,
+          "duration": "13:48"
+        }
+      ]
+    },
+    {
+      "id": "twice-begins-episode-6",
+      "title": "Episode 6",
+      "series": "begins",
+      "venue": "V LIVE",
+      "date": "2016-08-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "SP_1WbNBt7c",
+          "official": false,
+          "duration": "15:55"
+        }
+      ]
+    },
+    {
+      "id": "twice-begins-episode-7",
+      "title": "Episode 7",
+      "series": "begins",
+      "venue": "V LIVE",
+      "date": "2016-08-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "hDM_AaPHXnw",
+          "official": false,
+          "duration": "13:49"
+        }
+      ]
+    },
+    {
+      "id": "twice-begins-episode-8",
+      "title": "Episode 8",
+      "series": "begins",
+      "venue": "V LIVE",
+      "date": "2016-08-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "8nnkWzs53YY",
+          "official": false,
+          "duration": "10:04"
+        }
+      ]
+    },
+    {
+      "id": "twice-school-meal-episode-1",
+      "title": "Episode 1",
+      "series": "school-meal",
+      "venue": "V LIVE",
+      "date": "2016-08-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "HgFh5QYLSgw",
+          "official": false,
+          "duration": "31:28"
+        }
+      ]
+    },
+    {
+      "id": "twice-school-meal-episode-2",
+      "title": "Episode 2",
+      "series": "school-meal",
+      "venue": "V LIVE",
+      "date": "2016-09-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "g-dOh2W8N5I",
+          "official": false,
+          "duration": "40:02"
+        }
+      ]
+    },
+    {
+      "id": "twice-vlive-behind-lane1-tt-jacket-behind",
+      "title": "\"TT\" Jacket Behind",
+      "series": "vlive-behind",
+      "season": "vb-lane1",
+      "venue": "V LIVE",
+      "date": "2016-10-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "aBZZPrAdU78",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "5:00"
+        }
+      ]
+    },
+    {
+      "id": "twice-vlive-behind-lane1-tt-film-behind",
+      "title": "\"TT\" Film Behind",
+      "series": "vlive-behind",
+      "season": "vb-lane1",
+      "venue": "V LIVE",
+      "date": "2016-10-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "iz-6fC_gXBQ",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "5:00"
+        }
+      ]
+    },
+    {
+      "id": "twice-vlive-behind-lane1-showcase-vehind-3",
+      "title": "Showcase VEHIND #3",
+      "series": "vlive-behind",
+      "season": "vb-lane1",
+      "venue": "V LIVE",
+      "date": "2016-10-30",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "owJg5eNeMOI",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "10:29"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv4-episode-1-2017-season-s-greetings-shoot",
+      "title": "Episode 1 — 2017 Season's Greetings shoot",
+      "series": "tv4",
+      "venue": "V LIVE",
+      "date": "2016-10-31",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "TycMZ5MXpfc",
+          "official": false,
+          "duration": "16:19"
+        }
+      ]
+    },
+    {
+      "id": "twice-vlive-behind-lane1-tt-m-v-behind",
+      "title": "\"TT\" M/V Behind",
+      "series": "vlive-behind",
+      "season": "vb-lane1",
+      "venue": "V LIVE",
+      "date": "2016-11-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "nLBpKmmnfmY",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "5:49"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv4-episode-2-tt-comeback-week",
+      "title": "Episode 2 — TT Comeback Week",
+      "series": "tv4",
+      "venue": "V LIVE",
+      "date": "2016-11-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "EWoM1NbFs0I",
+          "official": false,
+          "duration": "16:45"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv4-episode-3-school-uniform-ad-shoot",
+      "title": "Episode 3 — School uniform ad shoot",
+      "series": "tv4",
+      "venue": "V LIVE",
+      "date": "2016-11-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "leFrmVoJ89I",
+          "official": false,
+          "duration": "14:50"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv4-episode-4-star-card-photo-shoot",
+      "title": "Episode 4 — Star card photo shoot",
+      "series": "tv4",
+      "venue": "V LIVE",
+      "date": "2016-11-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "MhttzVCtnLc",
+          "official": false,
+          "duration": "9:23"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv4-episode-5-backstage-at-the-aaa",
+      "title": "Episode 5 — Backstage at the AAA",
+      "series": "tv4",
+      "venue": "V LIVE",
+      "date": "2016-11-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "ug4BH8fzMYI",
+          "official": false,
+          "duration": "9:47"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv4-episode-6-snacks-for-dahyun-s-exam",
+      "title": "Episode 6 — Snacks for Dahyun's exam",
+      "series": "tv4",
+      "venue": "V LIVE",
+      "date": "2016-12-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "lhvm79UM6B4",
+          "official": false,
+          "duration": "13:45"
+        }
+      ]
+    },
+    {
+      "id": "twice-vlive-behind-lane1-christmas-edition-behind-film",
+      "title": "Christmas Edition Behind Film",
+      "series": "vlive-behind",
+      "season": "vb-lane1",
+      "venue": "YouTube",
+      "date": "2016-12-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "4qjvWgE7bZw",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "3:39"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv4-episode-7-twice-s-cooktime",
+      "title": "Episode 7 — TWICE's COOKTIME",
+      "series": "tv4",
+      "venue": "V LIVE",
+      "date": "2016-12-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "9NFZ7jAibC4",
+          "official": false,
+          "duration": "14:59"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv4-last-episode-twice-s-cooktime-2",
+      "title": "Last Episode — TWICE's COOKTIME 2",
+      "series": "tv4",
+      "venue": "V LIVE",
+      "date": "2016-12-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "a_RgyuOs0Fw",
+          "official": false,
+          "duration": "18:10"
+        }
+      ]
+    },
+    {
+      "id": "twice-special-episode-1",
+      "title": "Episode 1",
+      "series": "special",
+      "venue": "V LIVE",
+      "date": "2017-02-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "enfz_x1zUs0",
+          "official": false,
+          "duration": "15:51"
+        }
+      ]
+    },
+    {
+      "id": "twice-special-episode-2",
+      "title": "Episode 2",
+      "series": "special",
+      "venue": "V LIVE",
+      "date": "2017-03-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "S2suliekrkw",
+          "official": false,
+          "duration": "11:20"
+        }
+      ]
+    },
+    {
+      "id": "twice-special-episode-3",
+      "title": "Episode 3",
+      "series": "special",
+      "venue": "V LIVE",
+      "date": "2017-04-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "rEaf78rOe2g",
+          "official": true,
+          "duration": "12:01"
+        }
+      ]
+    },
+    {
+      "id": "twice-special-episode-4",
+      "title": "Episode 4",
+      "series": "special",
+      "venue": "V LIVE",
+      "date": "2017-04-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "X8w-sxdTQGI",
+          "official": true,
+          "duration": "11:51"
+        }
+      ]
+    },
+    {
+      "id": "twice-special-episode-5",
+      "title": "Episode 5",
+      "series": "special",
+      "venue": "V LIVE",
+      "date": "2017-05-01",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "CYeBWrLUPtQ",
+          "official": true,
+          "duration": "15:39"
+        }
+      ]
+    },
+    {
+      "id": "twice-special-episode-6",
+      "title": "Episode 6",
+      "series": "special",
+      "venue": "V LIVE",
+      "date": "2017-05-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "CwtokYGYTwY",
+          "official": true,
+          "duration": "13:08"
+        }
+      ]
+    },
     {
       "id": "twice-tv5-trailer",
       "title": "Trailer",
@@ -48,6 +1246,24 @@
           "official": false,
           "duration": "1:34",
           "thumb": "https://v-phinf.pstatic.net/20170515_170/1494819034616eG1AE_JPEG/1494808953276.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-vlive-behind-signal-signal-behind-film-1",
+      "title": "\"SIGNAL\" Behind Film #1",
+      "series": "vlive-behind",
+      "season": "vb-signal",
+      "venue": "V LIVE",
+      "date": "2017-05-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "P1DQtq5724I",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "5:00"
         }
       ]
     },
@@ -102,6 +1318,24 @@
           "official": false,
           "duration": "10:26",
           "thumb": "https://v-phinf.pstatic.net/20170524_171/1495587832847HBbJa_JPEG/1495586671465.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-vlive-behind-signal-signal-behind-film-3",
+      "title": "\"SIGNAL\" Behind Film #3",
+      "series": "vlive-behind",
+      "season": "vb-signal",
+      "venue": "V LIVE",
+      "date": "2017-05-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "wvAA12DHR2k",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "5:00"
         }
       ]
     },
@@ -448,6 +1682,23 @@
       ]
     },
     {
+      "id": "twice-mini-twice-jypstore",
+      "title": "TWICE @ JYPstore",
+      "series": "mini",
+      "venue": "V LIVE",
+      "date": "2017-07-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "eEspkp2k6Zs",
+          "official": true,
+          "duration": "2:12"
+        }
+      ]
+    },
+    {
       "id": "twice-tv5-ep22",
       "title": "Episode 22",
       "series": "tv5",
@@ -502,19 +1753,126 @@
       ]
     },
     {
-      "id": "twice-tv5-dvd-special",
-      "title": "Special Film (DVD only)",
-      "series": "tv5",
-      "venue": "TWICE TV5: TWICE in SWITZERLAND DVD",
-      "date": "2018-01-31",
-      "note": "Extra footage that was never on V LIVE — only on the 3-disc DVD set released in January 2018.",
+      "id": "twice-mini-twice-debut-showcase-touchdown-in-japan",
+      "title": "TWICE DEBUT SHOWCASE \"Touchdown in JAPAN\"",
+      "series": "mini",
+      "venue": "V LIVE",
+      "date": "2017-07-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "PfkrxaL_qeM",
+          "official": true,
+          "duration": "4:36"
+        }
+      ]
+    },
+    {
+      "id": "twice-mini-dubdahyun",
+      "title": "우취요정 둡다현",
+      "series": "mini",
+      "venue": "V LIVE",
+      "date": "2017-07-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "x9Ce2ogf8HU",
+          "official": true,
+          "duration": "3:55"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-mochaeng-1-episode-1",
+      "title": "Episode 1",
+      "series": "member-tv",
+      "season": "mochaeng-1",
+      "venue": "V LIVE",
+      "date": "2017-09-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "85HIB8X3qDU",
+          "official": true,
+          "duration": "2:05"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-mochaeng-1-episode-2",
+      "title": "Episode 2",
+      "series": "member-tv",
+      "season": "mochaeng-1",
+      "venue": "V LIVE",
+      "date": "2017-09-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "HgQxEuajSg0",
+          "official": true,
+          "duration": "1:20"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-mochaeng-1-episode-3",
+      "title": "Episode 3",
+      "series": "member-tv",
+      "season": "mochaeng-1",
+      "venue": "V LIVE",
+      "date": "2017-10-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "xSjIEMivkvU",
+          "official": true,
+          "duration": "4:34"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-mochaeng-1-episode-4",
+      "title": "Episode 4",
+      "series": "member-tv",
+      "season": "mochaeng-1",
+      "venue": "V LIVE",
+      "date": "2017-10-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "SGPhgFgdX9w",
+          "official": true,
+          "duration": "7:31"
+        }
+      ]
+    },
+    {
+      "id": "twice-vlive-behind-twicetagram-twicetagram-jacket-behind",
+      "title": "twicetagram Jacket Behind",
+      "series": "vlive-behind",
+      "season": "vb-twicetagram",
+      "venue": "V LIVE",
+      "date": "2017-10-31",
+      "note": "",
       "videos": [
         {
           "kind": "special",
-          "url": "PBGWQ46Z6Lk",
-          "label": "Special Film",
+          "url": "kwXNk43reDY",
+          "label": "Behind the Scenes",
           "official": false,
-          "duration": "43:04"
+          "duration": "5:17"
         }
       ]
     },
@@ -537,6 +1895,24 @@
       ]
     },
     {
+      "id": "twice-vlive-behind-twicetagram-showcase-vehind-5",
+      "title": "Showcase VEHIND #5",
+      "series": "vlive-behind",
+      "season": "vb-twicetagram",
+      "venue": "V LIVE",
+      "date": "2017-11-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "r3zwl0wZhUc",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "9:40"
+        }
+      ]
+    },
+    {
       "id": "twice-tv6-ep1",
       "title": "Episode 1",
       "series": "tv6",
@@ -551,6 +1927,24 @@
           "official": false,
           "duration": "16:04",
           "thumb": "https://v-phinf.pstatic.net/20171108_286/1510069572986OIoOA_JPEG/upload_%C6%AE%BF%CD%C0%CC%BD%BATV6_EP01_A_0000943703ms.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-vlive-behind-twicetagram-likey-m-v-behind",
+      "title": "\"LIKEY\" M/V Behind",
+      "series": "vlive-behind",
+      "season": "vb-twicetagram",
+      "venue": "V LIVE",
+      "date": "2017-11-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "1w6GFxRXvTg",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "5:59"
         }
       ]
     },
@@ -605,6 +1999,24 @@
           "official": false,
           "duration": "16:56",
           "thumb": "https://v-phinf.pstatic.net/20171118_207/1510950531778MXL2q_PNG/upload_%C6%AE%BF%CD%C0%CC%BD%BATV6_EP04_A_0000598137ms.png?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-mochaeng-1-episode-5",
+      "title": "Episode 5",
+      "series": "member-tv",
+      "season": "mochaeng-1",
+      "venue": "V LIVE",
+      "date": "2017-11-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "PV8RSQr0TI4",
+          "official": true,
+          "duration": "5:54"
         }
       ]
     },
@@ -699,6 +2111,24 @@
       ]
     },
     {
+      "id": "twice-vlive-behind-merry-happy-heart-shaker-m-v-behind",
+      "title": "\"Heart Shaker\" M/V Behind",
+      "series": "vlive-behind",
+      "season": "vb-merry-happy",
+      "venue": "V LIVE",
+      "date": "2017-12-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "HY-T9Pqa73w",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "4:15"
+        }
+      ]
+    },
+    {
       "id": "twice-tv6-ep10",
       "title": "Episode 10",
       "series": "tv6",
@@ -713,6 +2143,42 @@
           "official": false,
           "duration": "17:25",
           "thumb": "https://v-phinf.pstatic.net/20171209_138/1512783283378VH0pf_JPEG/upload_%C6%AE%BF%CD%C0%CC%BD%BATV6_EP10%28%29.jpg?type=w640"
+        }
+      ]
+    },
+    {
+      "id": "twice-vlive-behind-merry-happy-heart-shaker-jacket-behind",
+      "title": "\"Heart Shaker\" Jacket Behind",
+      "series": "vlive-behind",
+      "season": "vb-merry-happy",
+      "venue": "V LIVE",
+      "date": "2017-12-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "oaK5SfH1e-M",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "4:21"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-mochaeng-1-episode-6",
+      "title": "Episode 6",
+      "series": "member-tv",
+      "season": "mochaeng-1",
+      "venue": "V LIVE",
+      "date": "2017-12-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "-5uwT61BzAE",
+          "official": true,
+          "duration": "15:12"
         }
       ]
     },
@@ -753,6 +2219,643 @@
       ]
     },
     {
+      "id": "twice-vlive-behind-merry-happy-merry-happy-m-v-behind",
+      "title": "\"Merry & Happy\" M/V Behind",
+      "series": "vlive-behind",
+      "season": "vb-merry-happy",
+      "venue": "V LIVE",
+      "date": "2017-12-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "2oeMRrdBQWU",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "10:12"
+        }
+      ]
+    },
+    {
+      "id": "twice-vlive-behind-merry-happy-merry-happy-m-v-gift-behind",
+      "title": "\"Merry & Happy\" M/V 선물 (Gift) Behind",
+      "series": "vlive-behind",
+      "season": "vb-merry-happy",
+      "venue": "V LIVE",
+      "date": "2017-12-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "VHr5v90eiJo",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "8:24"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-mochaeng-1-episode-7",
+      "title": "Episode 7",
+      "series": "member-tv",
+      "season": "mochaeng-1",
+      "venue": "V LIVE",
+      "date": "2018-01-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "AbO_Q2QdAE0",
+          "official": true,
+          "duration": "7:48"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2018-episode-1-last-likey-fansign",
+      "title": "Episode 1 — Last LIKEY fansign",
+      "series": "tv2018",
+      "venue": "V LIVE",
+      "date": "2018-01-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "0VOwyau5aGs",
+          "official": true,
+          "duration": "4:10"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-mochaeng-1-episode-8",
+      "title": "Episode 8",
+      "series": "member-tv",
+      "season": "mochaeng-1",
+      "venue": "V LIVE",
+      "date": "2018-01-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "PLi597ntQgE",
+          "official": true,
+          "duration": "3:53"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2018-episode-2",
+      "title": "Episode 2",
+      "series": "tv2018",
+      "venue": "V LIVE",
+      "date": "2018-01-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "rCFskIAI2P0",
+          "official": true,
+          "duration": "6:38"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv5-dvd-special",
+      "title": "Special Film (DVD only)",
+      "series": "tv5",
+      "venue": "TWICE TV5: TWICE in SWITZERLAND DVD",
+      "date": "2018-01-31",
+      "note": "Extra footage that was never on V LIVE — only on the 3-disc DVD set released in January 2018.",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "PBGWQ46Z6Lk",
+          "label": "Special Film",
+          "official": false,
+          "duration": "43:04"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2018-episode-3",
+      "title": "Episode 3",
+      "series": "tv2018",
+      "venue": "V LIVE",
+      "date": "2018-02-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "Tqyf-rqq6IQ",
+          "official": true,
+          "duration": "5:20"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2018-episode-4",
+      "title": "Episode 4",
+      "series": "tv2018",
+      "venue": "V LIVE",
+      "date": "2018-02-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "eui8sTj7fg8",
+          "official": true,
+          "duration": "7:25"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-mochaeng-2-episode-1",
+      "title": "Episode 1",
+      "series": "member-tv",
+      "season": "mochaeng-2",
+      "venue": "V LIVE",
+      "date": "2018-03-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "OhKpW2I1W6E",
+          "official": true,
+          "duration": "6:50"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2018-episode-5",
+      "title": "Episode 5",
+      "series": "tv2018",
+      "venue": "V LIVE",
+      "date": "2018-03-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "0HD6c6UXxWs",
+          "official": true,
+          "duration": "7:37"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2018-episode-6",
+      "title": "Episode 6",
+      "series": "tv2018",
+      "venue": "V LIVE",
+      "date": "2018-03-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "QA7qoe0pNuw",
+          "official": true,
+          "duration": "5:58"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2018-episode-7",
+      "title": "Episode 7",
+      "series": "tv2018",
+      "venue": "V LIVE",
+      "date": "2018-04-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "Hq_2nCARm1s",
+          "official": true,
+          "duration": "5:08"
+        }
+      ]
+    },
+    {
+      "id": "twice-wil-jacket-behind-a",
+      "title": "Jacket Behind A",
+      "series": "wil",
+      "venue": "V LIVE",
+      "date": "2018-04-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "_t9QwkxR1yc",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "5:55"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2018-episode-8",
+      "title": "Episode 8",
+      "series": "tv2018",
+      "venue": "V LIVE",
+      "date": "2018-04-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "zVfchE6-NDY",
+          "official": true,
+          "duration": "5:49"
+        }
+      ]
+    },
+    {
+      "id": "twice-wil-episode-1",
+      "title": "Episode 1",
+      "series": "wil",
+      "venue": "V LIVE",
+      "date": "2018-04-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "aPKBpCbgqw0",
+          "official": true,
+          "duration": "10:42"
+        }
+      ]
+    },
+    {
+      "id": "twice-wil-episode-2",
+      "title": "Episode 2",
+      "series": "wil",
+      "venue": "V LIVE",
+      "date": "2018-04-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "Wc5A3wjjSZA",
+          "official": true,
+          "duration": "10:35"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2018-episode-9",
+      "title": "Episode 9",
+      "series": "tv2018",
+      "venue": "V LIVE",
+      "date": "2018-04-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "u4Vw5eV1PSI",
+          "official": true,
+          "duration": "7:30"
+        }
+      ]
+    },
+    {
+      "id": "twice-wil-jacket-behind-b",
+      "title": "Jacket Behind B",
+      "series": "wil",
+      "venue": "V LIVE",
+      "date": "2018-04-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "2TCybEEZX20",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "5:00"
+        }
+      ]
+    },
+    {
+      "id": "twice-wil-episode-3",
+      "title": "Episode 3",
+      "series": "wil",
+      "venue": "V LIVE",
+      "date": "2018-04-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "RgG0UNQoNIs",
+          "official": true,
+          "duration": "9:06"
+        }
+      ]
+    },
+    {
+      "id": "twice-wil-episode-4",
+      "title": "Episode 4",
+      "series": "wil",
+      "venue": "V LIVE",
+      "date": "2018-04-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "5DwX8OZ3ngw",
+          "official": true,
+          "duration": "10:25"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-mochaeng-2-episode-2",
+      "title": "Episode 2",
+      "series": "member-tv",
+      "season": "mochaeng-2",
+      "venue": "V LIVE",
+      "date": "2018-04-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "itQRW7UhsEM",
+          "official": true,
+          "duration": "16:59"
+        }
+      ]
+    },
+    {
+      "id": "twice-wil-episode-5",
+      "title": "Episode 5",
+      "series": "wil",
+      "venue": "V LIVE",
+      "date": "2018-05-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "6Ko-W2kNCYc",
+          "official": true,
+          "duration": "10:13"
+        }
+      ]
+    },
+    {
+      "id": "twice-wil-episode-6",
+      "title": "Episode 6",
+      "series": "wil",
+      "venue": "V LIVE",
+      "date": "2018-05-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "Hb42FoxACxc",
+          "official": true,
+          "duration": "10:36"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2018-episode-10",
+      "title": "Episode 10",
+      "series": "tv2018",
+      "venue": "V LIVE",
+      "date": "2018-05-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "vkFgDEn6Gbs",
+          "official": true,
+          "duration": "7:23"
+        }
+      ]
+    },
+    {
+      "id": "twice-wil-episode-7",
+      "title": "Episode 7",
+      "series": "wil",
+      "venue": "V LIVE",
+      "date": "2018-05-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "2LzW_ZcgSGA",
+          "official": true,
+          "duration": "10:47"
+        }
+      ]
+    },
+    {
+      "id": "twice-wil-episode-8",
+      "title": "Episode 8",
+      "series": "wil",
+      "venue": "V LIVE",
+      "date": "2018-05-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "yDboTRdnYKM",
+          "official": true,
+          "duration": "10:34"
+        }
+      ]
+    },
+    {
+      "id": "twice-wil-episode-9",
+      "title": "Episode 9",
+      "series": "wil",
+      "venue": "V LIVE",
+      "date": "2018-05-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "G6q_eMGFyCE",
+          "official": true,
+          "duration": "10:13"
+        }
+      ]
+    },
+    {
+      "id": "twice-wil-last-episode",
+      "title": "Last Episode",
+      "series": "wil",
+      "venue": "V LIVE",
+      "date": "2018-05-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "CSOq1TjnCxE",
+          "official": true,
+          "duration": "9:52"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-mochaeng-2-episode-3",
+      "title": "Episode 3",
+      "series": "member-tv",
+      "season": "mochaeng-2",
+      "venue": "V LIVE",
+      "date": "2018-05-30",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "uK-Yx4FxGM8",
+          "official": true,
+          "duration": "5:34"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2018-episode-11",
+      "title": "Episode 11",
+      "series": "tv2018",
+      "venue": "V LIVE",
+      "date": "2018-06-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "8ZP5OCdDcH8",
+          "official": true,
+          "duration": "11:22"
+        }
+      ]
+    },
+    {
+      "id": "twice-dtna-episode-1",
+      "title": "Episode 1",
+      "series": "dtna",
+      "venue": "V LIVE",
+      "date": "2018-07-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "kfyl-PK7UUo",
+          "official": true,
+          "duration": "8:27"
+        }
+      ]
+    },
+    {
+      "id": "twice-dtna-episode-2",
+      "title": "Episode 2",
+      "series": "dtna",
+      "venue": "V LIVE",
+      "date": "2018-07-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "FgarMyybXS0",
+          "official": true,
+          "duration": "8:34"
+        }
+      ]
+    },
+    {
+      "id": "twice-dtna-episode-3",
+      "title": "Episode 3",
+      "series": "dtna",
+      "venue": "V LIVE",
+      "date": "2018-07-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "EDCAWjXHhZM",
+          "official": true,
+          "duration": "14:45"
+        }
+      ]
+    },
+    {
+      "id": "twice-dtna-episode-4",
+      "title": "Episode 4",
+      "series": "dtna",
+      "venue": "V LIVE",
+      "date": "2018-07-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "pmd5-svgzUw",
+          "official": true,
+          "duration": "14:33"
+        }
+      ]
+    },
+    {
+      "id": "twice-dtna-last-episode",
+      "title": "Last Episode",
+      "series": "dtna",
+      "venue": "V LIVE",
+      "date": "2018-07-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "55IdBgjQyVo",
+          "official": true,
+          "duration": "14:46"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-mochaeng-2-episode-4",
+      "title": "Episode 4",
+      "series": "member-tv",
+      "season": "mochaeng-2",
+      "venue": "V LIVE",
+      "date": "2018-09-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "PqGraRH0Tps",
+          "official": true,
+          "duration": "3:19"
+        }
+      ]
+    },
+    {
       "id": "twice-tv6-dvd-special",
       "title": "Special Film (DVD only)",
       "series": "tv6",
@@ -766,6 +2869,4219 @@
           "label": "Special Film",
           "official": false,
           "duration": "42:32"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-nayeon-2018-episode-1",
+      "title": "Episode 1",
+      "series": "member-tv",
+      "season": "nayeon-2018",
+      "venue": "V LIVE",
+      "date": "2018-09-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "H-p-vX1EMJY",
+          "official": true,
+          "duration": "5:17"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2018-episode-12",
+      "title": "Episode 12",
+      "series": "tv2018",
+      "venue": "V LIVE",
+      "date": "2018-09-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "X4BlhheQJXE",
+          "official": true,
+          "duration": "10:27"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-nayeon-2018-episode-1-04",
+      "title": "Episode 1.04",
+      "series": "member-tv",
+      "season": "nayeon-2018",
+      "venue": "V LIVE",
+      "date": "2018-09-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "f70ATmp4Ges",
+          "official": true,
+          "duration": "1:31"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-nayeon-2018-episode-2",
+      "title": "Episode 2",
+      "series": "member-tv",
+      "season": "nayeon-2018",
+      "venue": "V LIVE",
+      "date": "2018-10-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "rW7Ok02Buck",
+          "official": true,
+          "duration": "2:19"
+        }
+      ]
+    },
+    {
+      "id": "twice-yoy-jacket-video",
+      "title": "Jacket Video",
+      "series": "yoy",
+      "venue": "V LIVE",
+      "date": "2018-11-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "lAtv6krZnQk",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "5:12"
+        }
+      ]
+    },
+    {
+      "id": "twice-yoy-episode-1",
+      "title": "Episode 1",
+      "series": "yoy",
+      "venue": "V LIVE",
+      "date": "2018-11-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "gb4JFBaDzuA",
+          "official": true,
+          "duration": "12:05"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2018-episode-13",
+      "title": "Episode 13",
+      "series": "tv2018",
+      "venue": "V LIVE",
+      "date": "2018-11-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "7OxkIQ4f1o8",
+          "official": true,
+          "duration": "4:54"
+        }
+      ]
+    },
+    {
+      "id": "twice-yoy-episode-2",
+      "title": "Episode 2",
+      "series": "yoy",
+      "venue": "V LIVE",
+      "date": "2018-11-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "JmiaX5Pr8Uw",
+          "official": true,
+          "duration": "11:13"
+        }
+      ]
+    },
+    {
+      "id": "twice-yoy-episode-3",
+      "title": "Episode 3",
+      "series": "yoy",
+      "venue": "V LIVE",
+      "date": "2018-11-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "O7lgxRPTnDM",
+          "official": true,
+          "duration": "10:48"
+        }
+      ]
+    },
+    {
+      "id": "twice-yoy-episode-4",
+      "title": "Episode 4",
+      "series": "yoy",
+      "venue": "V LIVE",
+      "date": "2018-11-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "2Y56tNT4fT4",
+          "official": true,
+          "duration": "11:33"
+        }
+      ]
+    },
+    {
+      "id": "twice-yoy-episode-5",
+      "title": "Episode 5",
+      "series": "yoy",
+      "venue": "V LIVE",
+      "date": "2018-11-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "g-97qubTW30",
+          "official": true,
+          "duration": "9:39"
+        }
+      ]
+    },
+    {
+      "id": "twice-yoy-episode-6",
+      "title": "Episode 6",
+      "series": "yoy",
+      "venue": "V LIVE",
+      "date": "2018-11-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "tnOlipQ69Us",
+          "official": true,
+          "duration": "10:44"
+        }
+      ]
+    },
+    {
+      "id": "twice-yoy-episode-7",
+      "title": "Episode 7",
+      "series": "yoy",
+      "venue": "V LIVE",
+      "date": "2018-12-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "q_5xLIvDogo",
+          "official": true,
+          "duration": "11:39"
+        }
+      ]
+    },
+    {
+      "id": "twice-yoy-episode-8",
+      "title": "Episode 8",
+      "series": "yoy",
+      "venue": "V LIVE",
+      "date": "2018-12-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "lFea4V0vg5Q",
+          "official": true,
+          "duration": "9:53"
+        }
+      ]
+    },
+    {
+      "id": "twice-yoy-episode-9",
+      "title": "Episode 9",
+      "series": "yoy",
+      "venue": "V LIVE",
+      "date": "2018-12-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "DxCG-TRtfRw",
+          "official": true,
+          "duration": "8:40"
+        }
+      ]
+    },
+    {
+      "id": "twice-btied-jacket-video",
+      "title": "Jacket Video",
+      "series": "btied",
+      "venue": "V LIVE",
+      "date": "2018-12-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "ygmTSgl40Y0",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "9:05"
+        }
+      ]
+    },
+    {
+      "id": "twice-tv2018-episode-14",
+      "title": "Episode 14",
+      "series": "tv2018",
+      "venue": "V LIVE",
+      "date": "2018-12-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "AcAAx5XM24E",
+          "official": true,
+          "duration": "12:58"
+        }
+      ]
+    },
+    {
+      "id": "twice-btied-episode-1",
+      "title": "Episode 1",
+      "series": "btied",
+      "venue": "V LIVE",
+      "date": "2018-12-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "DdpQO8OB2bM",
+          "official": true,
+          "duration": "10:08"
+        }
+      ]
+    },
+    {
+      "id": "twice-btied-episode-2",
+      "title": "Episode 2",
+      "series": "btied",
+      "venue": "V LIVE",
+      "date": "2018-12-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "t0lLRJuwAh4",
+          "official": true,
+          "duration": "11:29"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-nayeon-2018-doenjang-jjigae",
+      "title": "된장찌개 (Doenjang-jjigae)",
+      "series": "member-tv",
+      "season": "nayeon-2018",
+      "venue": "V LIVE",
+      "date": "2018-12-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "v98bbwe1cjE",
+          "official": true,
+          "duration": "9:19"
+        }
+      ]
+    },
+    {
+      "id": "twice-yoy-special-episode-1",
+      "title": "Special Episode 1",
+      "series": "yoy",
+      "venue": "V LIVE",
+      "date": "2019-01-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "YmXYzTv15zA",
+          "official": true,
+          "duration": "10:02"
+        }
+      ]
+    },
+    {
+      "id": "twice-yoy-special-episode-2",
+      "title": "Special Episode 2",
+      "series": "yoy",
+      "venue": "V LIVE",
+      "date": "2019-01-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "2v4TQxrAMZ4",
+          "official": true,
+          "duration": "8:16"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-chaeyoung-tv-chaeng-s-strawberry-farm",
+      "title": "챙의 딸기농장 (Chaeng's Strawberry Farm)",
+      "series": "member-tv",
+      "season": "chaeyoung-tv",
+      "venue": "V LIVE",
+      "date": "2019-01-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "vg3OiHpZI70",
+          "official": true,
+          "duration": "21:42"
+        }
+      ]
+    },
+    {
+      "id": "twice-yoy-special-episode-3",
+      "title": "Special Episode 3",
+      "series": "yoy",
+      "venue": "V LIVE",
+      "date": "2019-01-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "eeeWClX3TrE",
+          "official": true,
+          "duration": "13:40"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-mbc",
+      "title": "MBC 가요대제전 (MBC Music Festival)",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-02-01",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "P6oWJrjRSmM",
+          "official": true,
+          "duration": "9:27"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-sbs",
+      "title": "SBS 가요대전 (SBS Gayo Daejeon)",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-02-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "8KWXezxTrmc",
+          "official": true,
+          "duration": "10:50"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-kbs",
+      "title": "KBS 가요대축제 (KBS Song Festival)",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-02-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "L8u_gENhxEQ",
+          "official": true,
+          "duration": "14:52"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-tzuyu-tv-kimtzuyu",
+      "title": "KimTZUYU",
+      "series": "member-tv",
+      "season": "tzuyu-tv",
+      "venue": "YouTube",
+      "date": "2019-02-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "oy7CV6CNFmc",
+          "official": true,
+          "duration": "8:25"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-33rd-golden-disc-awards",
+      "title": "33rd Golden Disc Awards",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-02-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "_DOgCZCFjqs",
+          "official": true,
+          "duration": "13:57"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-33rd-golden-disc-awards-ii",
+      "title": "33rd Golden Disc Awards II",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-02-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "tigO2ITDLCA",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "11:29"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-28th-seoul-music-awards",
+      "title": "28th Seoul Music Awards",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-03-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "h6zVuCC_c0s",
+          "official": true,
+          "duration": "11:24"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-once-twice-family",
+      "title": "ONCE & TWICE FAMILY",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-03-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "hpVn9NRa6Rw",
+          "official": true,
+          "duration": "9:09"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-8th-gaonchart-music-awards",
+      "title": "8th Gaonchart Music Awards",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-03-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "opK_4ZLuxX0",
+          "official": true,
+          "duration": "9:48"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-pocari-sweat",
+      "title": "Pocari Sweat",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-03-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "G3dbeojdRcs",
+          "official": true,
+          "duration": "16:54"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-chaeyoung-tv-ohchaeyoung",
+      "title": "OhChaeyoung!",
+      "series": "member-tv",
+      "season": "chaeyoung-tv",
+      "venue": "YouTube",
+      "date": "2019-04-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "sVQ5XEV4r0c",
+          "official": true,
+          "duration": "4:13"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-pocari-sweat-in-thailand",
+      "title": "Pocari Sweat in Thailand",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-04-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "AGHu7dxlq8k",
+          "official": true,
+          "duration": "12:32"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-v-re-memver-party",
+      "title": "V re:memVer PARTY",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-04-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "cYIS7uqwdcc",
+          "official": true,
+          "duration": "9:19"
+        }
+      ]
+    },
+    {
+      "id": "twice-fancy-teaser-jacket-making-film",
+      "title": "Teaser & Jacket Making Film",
+      "series": "fancy",
+      "venue": "V LIVE",
+      "date": "2019-04-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "6u3isk-jNng",
+          "label": "Behind the Scenes",
+          "official": false,
+          "duration": "4:51"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-tokyo-dome",
+      "title": "TOKYO DOME",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-04-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "tVLiyd7Gsec",
+          "official": true,
+          "duration": "5:21"
+        }
+      ]
+    },
+    {
+      "id": "twice-fancy-episode-1",
+      "title": "Episode 1",
+      "series": "fancy",
+      "venue": "YouTube",
+      "date": "2019-04-30",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "UY3mT-jKW6c",
+          "official": true,
+          "duration": "12:29"
+        }
+      ]
+    },
+    {
+      "id": "twice-fancy-episode-2",
+      "title": "Episode 2",
+      "series": "fancy",
+      "venue": "YouTube",
+      "date": "2019-05-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "n1Qm8qvD1G8",
+          "official": true,
+          "duration": "11:14"
+        }
+      ]
+    },
+    {
+      "id": "twice-fancy-episode-3",
+      "title": "Episode 3",
+      "series": "fancy",
+      "venue": "YouTube",
+      "date": "2019-05-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "FigAKQQagao",
+          "official": true,
+          "duration": "13:08"
+        }
+      ]
+    },
+    {
+      "id": "twice-fancy-episode-4",
+      "title": "Episode 4",
+      "series": "fancy",
+      "venue": "YouTube",
+      "date": "2019-05-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "WizylneIkXE",
+          "official": true,
+          "duration": "11:01"
+        }
+      ]
+    },
+    {
+      "id": "twice-fancy-episode-5",
+      "title": "Episode 5",
+      "series": "fancy",
+      "venue": "YouTube",
+      "date": "2019-05-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "3DwzKgU8Aq4",
+          "official": true,
+          "duration": "11:16"
+        }
+      ]
+    },
+    {
+      "id": "twice-fancy-episode-6",
+      "title": "Episode 6",
+      "series": "fancy",
+      "venue": "YouTube",
+      "date": "2019-05-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "4498U9wx5Tg",
+          "official": true,
+          "duration": "11:11"
+        }
+      ]
+    },
+    {
+      "id": "twice-fancy-episode-7",
+      "title": "Episode 7",
+      "series": "fancy",
+      "venue": "YouTube",
+      "date": "2019-05-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "IC86exfLhQo",
+          "official": true,
+          "duration": "10:33"
+        }
+      ]
+    },
+    {
+      "id": "twice-fancy-episode-8",
+      "title": "Episode 8",
+      "series": "fancy",
+      "venue": "YouTube",
+      "date": "2019-05-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "Q1pLXAR6aHI",
+          "official": true,
+          "duration": "11:06"
+        }
+      ]
+    },
+    {
+      "id": "twice-fancy-episode-9",
+      "title": "Episode 9",
+      "series": "fancy",
+      "venue": "YouTube",
+      "date": "2019-05-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "bTkK4arg-OY",
+          "official": true,
+          "duration": "11:12"
+        }
+      ]
+    },
+    {
+      "id": "twice-fancy-fancy-showcase",
+      "title": "FANCY SHOWCASE",
+      "series": "fancy",
+      "venue": "YouTube",
+      "date": "2019-05-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "c979yiOnLPM",
+          "official": true,
+          "duration": "10:45"
+        }
+      ]
+    },
+    {
+      "id": "twice-fancy-comeback-week-1",
+      "title": "Comeback Week #1",
+      "series": "fancy",
+      "venue": "YouTube",
+      "date": "2019-05-31",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "qnP4hHb1PN4",
+          "official": true,
+          "duration": "9:09"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-the-fact-music-awards",
+      "title": "THE FACT MUSIC AWARDS",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-06-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "4fzbDY9aGXs",
+          "official": true,
+          "duration": "11:17"
+        }
+      ]
+    },
+    {
+      "id": "twice-fancy-comeback-week-2",
+      "title": "Comeback Week #2",
+      "series": "fancy",
+      "venue": "YouTube",
+      "date": "2019-06-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "E4v3maNSp-4",
+          "official": true,
+          "duration": "13:05"
+        }
+      ]
+    },
+    {
+      "id": "twice-fancy-comeback-week-3",
+      "title": "Comeback Week #3",
+      "series": "fancy",
+      "venue": "YouTube",
+      "date": "2019-06-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "zERnTFaRZwQ",
+          "official": true,
+          "duration": "12:11"
+        }
+      ]
+    },
+    {
+      "id": "twice-fancy-comeback-week-4",
+      "title": "Comeback Week #4",
+      "series": "fancy",
+      "venue": "YouTube",
+      "date": "2019-06-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "c9S0nUWTTrc",
+          "official": true,
+          "duration": "12:13"
+        }
+      ]
+    },
+    {
+      "id": "twice-fancy-comeback-week-5",
+      "title": "Comeback Week #5",
+      "series": "fancy",
+      "venue": "YouTube",
+      "date": "2019-07-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "yC4olkjMDao",
+          "official": true,
+          "duration": "15:35"
+        }
+      ]
+    },
+    {
+      "id": "twice-tdoong-ent-marketing-team",
+      "title": "Marketing Team",
+      "series": "tdoong-ent",
+      "venue": "YouTube",
+      "date": "2019-07-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "6Mq2clHVAbo",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "3:17"
+        }
+      ]
+    },
+    {
+      "id": "twice-tdoong-ent-a-r-team",
+      "title": "A&R Team",
+      "series": "tdoong-ent",
+      "venue": "YouTube",
+      "date": "2019-07-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "a7CWMSToygA",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "3:03"
+        }
+      ]
+    },
+    {
+      "id": "twice-tdoong-ent-business-planning-team",
+      "title": "Business Planning Team",
+      "series": "tdoong-ent",
+      "venue": "YouTube",
+      "date": "2019-07-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "NOOypW6oYs0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "2:46"
+        }
+      ]
+    },
+    {
+      "id": "twice-tdoong-ent-behind",
+      "title": "BEHIND",
+      "series": "tdoong-ent",
+      "venue": "YouTube",
+      "date": "2019-07-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "OfuTM5eDUdU",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "7:47"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-allure",
+      "title": "Allure",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-08-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "4eURlxJXIlQ",
+          "official": true,
+          "duration": "10:55"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-estee-lauder",
+      "title": "ESTEE LAUDER",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-08-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "tC1nuDxUtBo",
+          "official": true,
+          "duration": "9:44"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-akaraka",
+      "title": "AKARAKA",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-08-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "tIHT3PTeQEM",
+          "official": true,
+          "duration": "8:41"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-nayeon-2019-different-nayeon",
+      "title": "Different NAYEON",
+      "series": "member-tv",
+      "season": "nayeon-2019",
+      "venue": "YouTube",
+      "date": "2019-08-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "OhK3ZJN_iV0",
+          "official": true,
+          "duration": "3:08"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-mgma",
+      "title": "MGMA",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-08-30",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "VV2RERmnY_I",
+          "official": true,
+          "duration": "10:38"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-chaeyoung-tv-real-chaeyoung",
+      "title": "Real CHAEYOUNG",
+      "series": "member-tv",
+      "season": "chaeyoung-tv",
+      "venue": "YouTube",
+      "date": "2019-09-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "JG_CLwm65QE",
+          "official": true,
+          "duration": "2:56"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-2019-soribada-awards",
+      "title": "2019 SORIBADA AWARDS",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-09-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "8gF0Hwqt-eI",
+          "official": true,
+          "duration": "12:23"
+        }
+      ]
+    },
+    {
+      "id": "twice-feel-special-jacket-shooting-behind",
+      "title": "Jacket Shooting Behind",
+      "series": "feel-special",
+      "venue": "V LIVE",
+      "date": "2019-09-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "label": "Behind the Scenes",
+          "url": "4a2pvJIj0wk",
+          "official": true,
+          "duration": "3:39"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-jayeon-tv-1",
+      "title": "모사의 자연 TV (MOSA's Jayeon TV)",
+      "series": "member-tv",
+      "season": "jayeon-tv",
+      "venue": "V LIVE",
+      "date": "2019-09-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "9Xp3hFJE2BE",
+          "official": true,
+          "duration": "10:33"
+        }
+      ]
+    },
+    {
+      "id": "twice-feel-special-jacket-shooting-behind-2",
+      "title": "Jacket Shooting Behind 2",
+      "series": "feel-special",
+      "venue": "V LIVE",
+      "date": "2019-09-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "label": "Behind the Scenes",
+          "url": "W8MfXoNA5qc",
+          "official": true,
+          "duration": "4:41"
+        }
+      ]
+    },
+    {
+      "id": "twice-feel-special-episode-1",
+      "title": "Episode 1",
+      "series": "feel-special",
+      "venue": "YouTube",
+      "date": "2019-09-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "kE2H0KSFI9w",
+          "official": true,
+          "duration": "10:40"
+        }
+      ]
+    },
+    {
+      "id": "twice-feel-special-episode-2",
+      "title": "Episode 2",
+      "series": "feel-special",
+      "venue": "YouTube",
+      "date": "2019-10-01",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "rDcRjZYYVro",
+          "official": true,
+          "duration": "10:55"
+        }
+      ]
+    },
+    {
+      "id": "twice-feel-special-episode-3",
+      "title": "Episode 3",
+      "series": "feel-special",
+      "venue": "YouTube",
+      "date": "2019-10-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "jwigH5iIOGk",
+          "official": true,
+          "duration": "10:13"
+        }
+      ]
+    },
+    {
+      "id": "twice-feel-special-episode-4",
+      "title": "Episode 4",
+      "series": "feel-special",
+      "venue": "YouTube",
+      "date": "2019-10-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "nD6YgDyzJ5g",
+          "official": true,
+          "duration": "10:04"
+        }
+      ]
+    },
+    {
+      "id": "twice-feel-special-episode-5",
+      "title": "Episode 5",
+      "series": "feel-special",
+      "venue": "YouTube",
+      "date": "2019-10-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "saCO3DT_Sxg",
+          "official": true,
+          "duration": "10:29"
+        }
+      ]
+    },
+    {
+      "id": "twice-feel-special-episode-6",
+      "title": "Episode 6",
+      "series": "feel-special",
+      "venue": "YouTube",
+      "date": "2019-10-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "hORhrQMyEWM",
+          "official": true,
+          "duration": "10:26"
+        }
+      ]
+    },
+    {
+      "id": "twice-feel-special-episode-7",
+      "title": "Episode 7",
+      "series": "feel-special",
+      "venue": "YouTube",
+      "date": "2019-10-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "c2qGw--qIT0",
+          "official": true,
+          "duration": "10:13"
+        }
+      ]
+    },
+    {
+      "id": "twice-feel-special-episode-8",
+      "title": "Episode 8",
+      "series": "feel-special",
+      "venue": "YouTube",
+      "date": "2019-10-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "pgifqHclJFI",
+          "official": true,
+          "duration": "10:22"
+        }
+      ]
+    },
+    {
+      "id": "twice-feel-special-episode-9",
+      "title": "Episode 9",
+      "series": "feel-special",
+      "venue": "YouTube",
+      "date": "2019-10-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "XRPk-JfRr8E",
+          "official": true,
+          "duration": "10:04"
+        }
+      ]
+    },
+    {
+      "id": "twice-feel-special-comeback-week-1",
+      "title": "Comeback Week #1",
+      "series": "feel-special",
+      "venue": "YouTube",
+      "date": "2019-11-01",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "dch8Dh4bvw0",
+          "official": true,
+          "duration": "12:27"
+        }
+      ]
+    },
+    {
+      "id": "twice-feel-special-comeback-week-2",
+      "title": "Comeback Week #2",
+      "series": "feel-special",
+      "venue": "YouTube",
+      "date": "2019-11-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "fyeW2Kf-EAQ",
+          "official": true,
+          "duration": "10:47"
+        }
+      ]
+    },
+    {
+      "id": "twice-feel-special-comeback-week-3",
+      "title": "Comeback Week #3",
+      "series": "feel-special",
+      "venue": "YouTube",
+      "date": "2019-12-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "2mgfjZ8QLMc",
+          "official": true,
+          "duration": "13:47"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-twice-classic",
+      "title": "TWICE CLASSIC",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2019-12-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "-Ch41pjGsK4",
+          "official": true,
+          "duration": "3:49"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-jayeon-tv-jayeon-tv-2",
+      "title": "Jayeon TV 2",
+      "series": "member-tv",
+      "season": "jayeon-tv",
+      "venue": "YouTube",
+      "date": "2019-12-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "35S8_YW1oZ8",
+          "official": true,
+          "duration": "6:21"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-dubu-s-first-pitch",
+      "title": "두부의 첫 시구 (Dubu's first pitch)",
+      "series": "oneoffs",
+      "venue": "V LIVE",
+      "date": "2020-01-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "S0n51BIHmBk",
+          "official": true,
+          "duration": "3:08"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-peach-cookie-making",
+      "title": "Cookie Making",
+      "series": "member-tv",
+      "season": "peach",
+      "venue": "YouTube",
+      "date": "2020-01-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "hF5z2SqpN_o",
+          "official": true,
+          "duration": "10:47"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-jayeon-tv-jayeon-tv-3",
+      "title": "Jayeon TV 3",
+      "series": "member-tv",
+      "season": "jayeon-tv",
+      "venue": "YouTube",
+      "date": "2020-01-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "ra5-KH1FvZ0",
+          "official": true,
+          "duration": "6:29"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-2019-sbs",
+      "title": "2019 SBS 가요대전 (SBS Gayo Daejeon)",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2020-01-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "5bNYEN_jkcA",
+          "official": true,
+          "duration": "9:22"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-jayeon-tv-jayeon-tv-4",
+      "title": "Jayeon TV 4",
+      "series": "member-tv",
+      "season": "jayeon-tv",
+      "venue": "YouTube",
+      "date": "2020-01-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "SdOwcLnKGGA",
+          "official": true,
+          "duration": "14:40"
+        }
+      ]
+    },
+    {
+      "id": "twice-tmt-ep-01-tmi",
+      "title": "EP.01 — 사나의 TMI가 궁금하다면? (Curious about Sana's TMI?)",
+      "series": "tmt",
+      "venue": "YouTube",
+      "date": "2020-01-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Q_9Fx3zztjE",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "6:36"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-2019-kbs",
+      "title": "2019 KBS 가요대축제 (KBS Song Festival)",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2020-01-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "66lt6EydOCc",
+          "official": true,
+          "duration": "10:44"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-jayeon-tv-jayeon-tv-5",
+      "title": "Jayeon TV 5",
+      "series": "member-tv",
+      "season": "jayeon-tv",
+      "venue": "YouTube",
+      "date": "2020-01-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "YRiHqcln3qA",
+          "official": true,
+          "duration": "9:15"
+        }
+      ]
+    },
+    {
+      "id": "twice-tdoong-ent-approval-mission",
+      "title": "Approval Mission!",
+      "series": "tdoong-ent",
+      "venue": "YouTube",
+      "date": "2020-01-31",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "qx-oDhQGFzQ",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "11:23"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-nayeon-2019-nayeon-in-hawaii-ep-01",
+      "title": "NAYEON in Hawaii EP.01",
+      "series": "member-tv",
+      "season": "nayeon-2019",
+      "venue": "YouTube",
+      "date": "2020-02-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "98a1dTku9qg",
+          "official": true,
+          "duration": "12:18"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-2019-mbc",
+      "title": "2019 MBC 가요대제전 (MBC Music Festival)",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2020-02-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "fgnqOIpcKHY",
+          "official": true,
+          "duration": "20:24"
+        }
+      ]
+    },
+    {
+      "id": "twice-tmt-ep-02-feat-mbc",
+      "title": "EP.02 — 트둥이들의 미션 임파서블! (TWICE's Mission Impossible! feat. MBC Music Festival)",
+      "series": "tmt",
+      "venue": "YouTube",
+      "date": "2020-02-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "NVd3HjAStPU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "3:03"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-nayeon-2019-nayeon-in-hawaii-ep-02",
+      "title": "NAYEON in Hawaii EP.02",
+      "series": "member-tv",
+      "season": "nayeon-2019",
+      "venue": "YouTube",
+      "date": "2020-02-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "X5rRGBfyHNU",
+          "official": true,
+          "duration": "12:00"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-34th-golden-disc-awards-day-1",
+      "title": "34th Golden Disc Awards Day 1",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2020-02-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "Shjt9ZLWI8g",
+          "official": true,
+          "duration": "14:40"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-once-halloween-2",
+      "title": "ONCE HALLOWEEN 2",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2020-02-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "fulr00kpQW4",
+          "official": true,
+          "duration": "10:07"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-nayeon-2019-nayeon-in-hawaii-ep-03-feat-cosmopolitan-march",
+      "title": "NAYEON in Hawaii EP.03 (feat. Cosmopolitan March)",
+      "series": "member-tv",
+      "season": "nayeon-2019",
+      "venue": "YouTube",
+      "date": "2020-02-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "KhcTKMrM5Hc",
+          "official": true,
+          "duration": "10:01"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-34th-golden-disc-awards-day-2",
+      "title": "34th Golden Disc Awards Day 2",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2020-02-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "F8TW1AyUx0s",
+          "official": true,
+          "duration": "13:33"
+        }
+      ]
+    },
+    {
+      "id": "twice-tmt-ep-03",
+      "title": "EP.03 — 쯔뭉이가 바보가 된 사연은?! (How did Tzuyu end up a fool?!)",
+      "series": "tmt",
+      "venue": "YouTube",
+      "date": "2020-02-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "a7u2NYbBu0o",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "8:57"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-peach-challenge-asmr-ep-01",
+      "title": "Challenge! ASMR EP.01",
+      "series": "member-tv",
+      "season": "peach",
+      "venue": "YouTube",
+      "date": "2020-02-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "75ZMGfflv3s",
+          "official": true,
+          "duration": "14:05"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-29th-seoul-music-awards",
+      "title": "29th Seoul Music Awards",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2020-02-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "nHKVfEOqoR0",
+          "official": true,
+          "duration": "12:48"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-peach-challenge-asmr-ep-02",
+      "title": "Challenge! ASMR EP.02",
+      "series": "member-tv",
+      "season": "peach",
+      "venue": "YouTube",
+      "date": "2020-03-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "DU-N4C-bZLg",
+          "official": true,
+          "duration": "15:08"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-challenge-twice-fashion-club-simulation",
+      "title": "Challenge! TWICE Fashion Club Simulation",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2020-03-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "Ah6h4-5GBqA",
+          "official": true,
+          "duration": "3:25"
+        }
+      ]
+    },
+    {
+      "id": "twice-tmt-ep-04",
+      "title": "EP.04 — 놓치기 아까운 둡쯔의 담소타임 (Dahyun & Tzuyu's chat, too good to miss)",
+      "series": "tmt",
+      "venue": "YouTube",
+      "date": "2020-03-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "UyfxuI1nFIY",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "2:46"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-jeongyeon-tv-cooking-video-of-doggy-snack",
+      "title": "Cooking video of Doggy snack!",
+      "series": "member-tv",
+      "season": "jeongyeon-tv",
+      "venue": "YouTube",
+      "date": "2020-03-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "k71Cixi1dKc",
+          "official": true,
+          "duration": "12:05"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-the-first-release-twice-fashion-club-interview-video",
+      "title": "The First Release! TWICE Fashion Club interview video",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2020-03-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "PZg6Ef28edI",
+          "official": true,
+          "duration": "13:00"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-jeongyeon-tv-cooking-video-of-doggy-snack-2",
+      "title": "Cooking video of Doggy snack! 2",
+      "series": "member-tv",
+      "season": "jeongyeon-tv",
+      "venue": "YouTube",
+      "date": "2020-03-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "gseFlWwzIa8",
+          "official": true,
+          "duration": "14:10"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-twice-university-fashion-club-making-video",
+      "title": "TWICE University Fashion Club Making Video",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2020-03-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "yeq-OJ0GLps",
+          "official": true,
+          "duration": "5:39"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-mina-tv-minari-s-game-broadcast",
+      "title": "MINARI's Game broadcast",
+      "series": "member-tv",
+      "season": "mina-tv",
+      "venue": "YouTube",
+      "date": "2020-03-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "OrWa91CfXtY",
+          "official": true,
+          "duration": "20:27"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-mina-tv-minari-s-lego-asmr",
+      "title": "MINARI's LEGO ASMR",
+      "series": "member-tv",
+      "season": "mina-tv",
+      "venue": "YouTube",
+      "date": "2020-04-01",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "QnACfgYTBsA",
+          "official": true,
+          "duration": "13:07"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-jeongyeon-tv-cooking-video-of-doggy-snack-behind-self-cam",
+      "title": "Cooking video of Doggy snack! — Behind self-cam",
+      "series": "member-tv",
+      "season": "jeongyeon-tv",
+      "venue": "YouTube",
+      "date": "2020-04-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "label": "Behind Self-Cam",
+          "url": "hmaeA4UTyh0",
+          "official": true,
+          "duration": "13:59"
+        }
+      ]
+    },
+    {
+      "id": "twice-school-meal-reloaded-episode-1",
+      "title": "Episode 1",
+      "series": "school-meal-reloaded",
+      "venue": "YouTube",
+      "date": "2020-04-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "1lZvCAMCoLA",
+          "official": true,
+          "duration": "12:20"
+        }
+      ]
+    },
+    {
+      "id": "twice-tmt-ep-05-tmi",
+      "title": "EP.05 — 두부의 스윗한 반말 TMI 토크 (Dubu's sweet casual-speech TMI talk)",
+      "series": "tmt",
+      "venue": "YouTube",
+      "date": "2020-04-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "kN7bYyGIsGw",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "8:24"
+        }
+      ]
+    },
+    {
+      "id": "twice-school-meal-reloaded-episode-2",
+      "title": "Episode 2",
+      "series": "school-meal-reloaded",
+      "venue": "YouTube",
+      "date": "2020-04-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "gqAO3GEHI_M",
+          "official": true,
+          "duration": "11:10"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-sana-tv-my-dear-sana",
+      "title": "MY DEAR SANA",
+      "series": "member-tv",
+      "season": "sana-tv",
+      "venue": "YouTube",
+      "date": "2020-04-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "QMocH4BNwj4",
+          "official": true,
+          "duration": "2:39"
+        }
+      ]
+    },
+    {
+      "id": "twice-school-meal-reloaded-episode-3",
+      "title": "Episode 3",
+      "series": "school-meal-reloaded",
+      "venue": "YouTube",
+      "date": "2020-04-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "mrgDLtOLp8M",
+          "official": true,
+          "duration": "14:29"
+        }
+      ]
+    },
+    {
+      "id": "twice-mbti-jihyo",
+      "title": "JIHYO",
+      "series": "mbti",
+      "venue": "YouTube",
+      "date": "2020-05-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "W10pP-jGbpk",
+          "official": true,
+          "duration": "7:07"
+        }
+      ]
+    },
+    {
+      "id": "twice-mbti-mina",
+      "title": "MINA",
+      "series": "mbti",
+      "venue": "YouTube",
+      "date": "2020-05-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "GjRJlPFVoZ0",
+          "official": true,
+          "duration": "7:46"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-sana-tv-sana-s-sweet-candle-workroom-ep-01",
+      "title": "SANA's Sweet Candle Workroom EP.01",
+      "series": "member-tv",
+      "season": "sana-tv",
+      "venue": "YouTube",
+      "date": "2020-05-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "TlLEFQGE6e4",
+          "official": true,
+          "duration": "12:27"
+        }
+      ]
+    },
+    {
+      "id": "twice-mbti-tzuyu",
+      "title": "TZUYU",
+      "series": "mbti",
+      "venue": "YouTube",
+      "date": "2020-05-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "vagr-_RSUVg",
+          "official": true,
+          "duration": "7:26"
+        }
+      ]
+    },
+    {
+      "id": "twice-more-more-jacket-making-film",
+      "title": "Jacket Making Film",
+      "series": "more-more",
+      "venue": "YouTube",
+      "date": "2020-05-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "wzwGRRvsvVU",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "2:46"
+        }
+      ]
+    },
+    {
+      "id": "twice-mbti-sana",
+      "title": "SANA",
+      "series": "mbti",
+      "venue": "YouTube",
+      "date": "2020-05-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "1Huo9LxfAM4",
+          "official": true,
+          "duration": "7:47"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-sana-tv-sana-s-sweet-candle-workroom-ep-02",
+      "title": "SANA's Sweet Candle Workroom EP.02",
+      "series": "member-tv",
+      "season": "sana-tv",
+      "venue": "YouTube",
+      "date": "2020-05-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "fbgnl9f_DaI",
+          "official": true,
+          "duration": "11:08"
+        }
+      ]
+    },
+    {
+      "id": "twice-more-more-jacket-making-film-2",
+      "title": "Jacket Making Film 2",
+      "series": "more-more",
+      "venue": "YouTube",
+      "date": "2020-05-30",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "7ppziJqpYdE",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "3:07"
+        }
+      ]
+    },
+    {
+      "id": "twice-more-more-jacket-making-film-3",
+      "title": "Jacket Making Film 3",
+      "series": "more-more",
+      "venue": "YouTube",
+      "date": "2020-06-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "Ijbm1RC-WME",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "3:42"
+        }
+      ]
+    },
+    {
+      "id": "twice-more-more-album-unboxing-nayeon-jeongyeon-momo",
+      "title": "Album Unboxing — NAYEON, JEONGYEON, MOMO",
+      "series": "more-more",
+      "venue": "YouTube",
+      "date": "2020-06-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "Wyt9j3mq2as",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "5:26"
+        }
+      ]
+    },
+    {
+      "id": "twice-more-more-album-unboxing-sana-jihyo-mina",
+      "title": "Album Unboxing — SANA, JIHYO, MINA",
+      "series": "more-more",
+      "venue": "YouTube",
+      "date": "2020-06-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "rfPfgcjoF8c",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "5:38"
+        }
+      ]
+    },
+    {
+      "id": "twice-more-more-album-unboxing-dahyun-chaeyoung-tzuyu",
+      "title": "Album Unboxing — DAHYUN, CHAEYOUNG, TZUYU",
+      "series": "more-more",
+      "venue": "YouTube",
+      "date": "2020-06-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "FMs6JVttUWA",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "4:51"
+        }
+      ]
+    },
+    {
+      "id": "twice-mbti-momo",
+      "title": "MOMO",
+      "series": "mbti",
+      "venue": "YouTube",
+      "date": "2020-06-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "zRqnxmkS68s",
+          "official": true,
+          "duration": "7:11"
+        }
+      ]
+    },
+    {
+      "id": "twice-more-more-episode-1",
+      "title": "Episode 1",
+      "series": "more-more",
+      "venue": "YouTube",
+      "date": "2020-06-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "Q7Z5Sin1aIA",
+          "official": true,
+          "duration": "20:14"
+        }
+      ]
+    },
+    {
+      "id": "twice-more-more-episode-2",
+      "title": "Episode 2",
+      "series": "more-more",
+      "venue": "YouTube",
+      "date": "2020-06-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "yiqaarvm1Vc",
+          "official": true,
+          "duration": "20:08"
+        }
+      ]
+    },
+    {
+      "id": "twice-mbti-chaeyoung",
+      "title": "CHAEYOUNG",
+      "series": "mbti",
+      "venue": "YouTube",
+      "date": "2020-06-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "6t1-elj9f5U",
+          "official": true,
+          "duration": "7:20"
+        }
+      ]
+    },
+    {
+      "id": "twice-more-more-episode-3",
+      "title": "Episode 3",
+      "series": "more-more",
+      "venue": "YouTube",
+      "date": "2020-06-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "0IlJuX2i03s",
+          "official": true,
+          "duration": "20:03"
+        }
+      ]
+    },
+    {
+      "id": "twice-mbti-dahyun",
+      "title": "DAHYUN",
+      "series": "mbti",
+      "venue": "YouTube",
+      "date": "2020-06-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "ISau-x5qAhY",
+          "official": true,
+          "duration": "8:05"
+        }
+      ]
+    },
+    {
+      "id": "twice-more-more-episode-4",
+      "title": "Episode 4",
+      "series": "more-more",
+      "venue": "YouTube",
+      "date": "2020-06-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "kbTIOMCvISM",
+          "official": true,
+          "duration": "4:55"
+        }
+      ]
+    },
+    {
+      "id": "twice-more-more-comeback-week-1",
+      "title": "Comeback Week #1",
+      "series": "more-more",
+      "venue": "YouTube",
+      "date": "2020-06-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "QPlwqHVIHCY",
+          "official": true,
+          "duration": "13:38"
+        }
+      ]
+    },
+    {
+      "id": "twice-mbti-nayeon",
+      "title": "NAYEON",
+      "series": "mbti",
+      "venue": "YouTube",
+      "date": "2020-06-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "1eYQXLIf6d0",
+          "official": true,
+          "duration": "7:46"
+        }
+      ]
+    },
+    {
+      "id": "twice-more-more-comeback-week-2",
+      "title": "Comeback Week #2",
+      "series": "more-more",
+      "venue": "YouTube",
+      "date": "2020-07-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "SALnnvMwyFk",
+          "official": true,
+          "duration": "14:43"
+        }
+      ]
+    },
+    {
+      "id": "twice-mbti-jeongyeon",
+      "title": "JEONGYEON",
+      "series": "mbti",
+      "venue": "YouTube",
+      "date": "2020-07-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "in5_9-loKxg",
+          "official": true,
+          "duration": "7:28"
+        }
+      ]
+    },
+    {
+      "id": "twice-more-more-comeback-week-3",
+      "title": "Comeback Week #3",
+      "series": "more-more",
+      "venue": "YouTube",
+      "date": "2020-07-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "1Ngk7JwvdHM",
+          "official": true,
+          "duration": "13:16"
+        }
+      ]
+    },
+    {
+      "id": "twice-more-more-comeback-week-4",
+      "title": "Comeback Week #4",
+      "series": "more-more",
+      "venue": "YouTube",
+      "date": "2020-07-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "xbbSr15ungs",
+          "official": true,
+          "duration": "13:55"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-2020-soba-ep-01",
+      "title": "2020 SOBA EP.01",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2020-09-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "9KyRwDXoA2A",
+          "official": true,
+          "duration": "25:52"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-2020-soba-ep-02",
+      "title": "2020 SOBA EP.02",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2020-09-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "qF7exUGc8QA",
+          "official": true,
+          "duration": "22:04"
+        }
+      ]
+    },
+    {
+      "id": "twice-gardening-episode-1",
+      "title": "Episode 1",
+      "series": "gardening",
+      "venue": "YouTube",
+      "date": "2020-09-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "lyelABqd8Ls",
+          "official": true,
+          "duration": "13:35"
+        }
+      ]
+    },
+    {
+      "id": "twice-gardening-episode-2",
+      "title": "Episode 2",
+      "series": "gardening",
+      "venue": "YouTube",
+      "date": "2020-09-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "0dywsk2OjDA",
+          "official": true,
+          "duration": "13:42"
+        }
+      ]
+    },
+    {
+      "id": "twice-anniversary-from-twice-to-once-5th",
+      "title": "From TWICE, To ONCE (5th)",
+      "series": "anniversary",
+      "venue": "YouTube",
+      "date": "2020-10-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "kbxQ41aWco8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "6:44"
+        }
+      ]
+    },
+    {
+      "id": "twice-anniversary-more-than-family-9-wice-together-5th",
+      "title": "MORE THAN FAMILY = 9-WICE TOGETHER (5th)",
+      "series": "anniversary",
+      "venue": "YouTube",
+      "date": "2020-10-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ygU9ZOQvThU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "12:16"
+        }
+      ]
+    },
+    {
+      "id": "twice-anniversary-once-upon-a-twice-5-years",
+      "title": "ONCE upon a TWICE, 5 Years",
+      "series": "anniversary",
+      "venue": "YouTube",
+      "date": "2020-10-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Cm84W7NxKg4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:03"
+        }
+      ]
+    },
+    {
+      "id": "twice-icsm-eyes-wide-open-jacket-making-film",
+      "title": "\"Eyes wide open\" Jacket Making Film",
+      "series": "icsm",
+      "venue": "YouTube",
+      "date": "2020-10-23",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "1iUXtRxTR7o",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "3:56"
+        }
+      ]
+    },
+    {
+      "id": "twice-icsm-episode-1",
+      "title": "Episode 1",
+      "series": "icsm",
+      "venue": "YouTube",
+      "date": "2020-11-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "cdpetiJig9E",
+          "official": true,
+          "duration": "19:50"
+        }
+      ]
+    },
+    {
+      "id": "twice-icsm-album-unboxing-momo-mina-tzuyu",
+      "title": "Album Unboxing — MOMO, MINA, TZUYU",
+      "series": "icsm",
+      "venue": "YouTube",
+      "date": "2020-11-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "Nr-8fBA8atw",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "11:19"
+        }
+      ]
+    },
+    {
+      "id": "twice-icsm-episode-2",
+      "title": "Episode 2",
+      "series": "icsm",
+      "venue": "YouTube",
+      "date": "2020-11-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "y7i3hKN5VWw",
+          "official": true,
+          "duration": "22:27"
+        }
+      ]
+    },
+    {
+      "id": "twice-icsm-eyes-wide-open-retro-jacket-making-film",
+      "title": "\"Eyes wide open\" Retro Jacket Making Film",
+      "series": "icsm",
+      "venue": "YouTube",
+      "date": "2020-11-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "LH3TCwzcvMc",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "3:28"
+        }
+      ]
+    },
+    {
+      "id": "twice-icsm-album-commentary-nayeon-sana-jihyo-dahyun-chaeyoung",
+      "title": "Album Commentary — NAYEON, SANA, JIHYO, DAHYUN, CHAEYOUNG",
+      "series": "icsm",
+      "venue": "YouTube",
+      "date": "2020-11-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "7gaUXMoxI7c",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "13:05"
+        }
+      ]
+    },
+    {
+      "id": "twice-icsm-episode-3",
+      "title": "Episode 3",
+      "series": "icsm",
+      "venue": "YouTube",
+      "date": "2020-11-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "Hlx7VuVOrAw",
+          "official": true,
+          "duration": "20:29"
+        }
+      ]
+    },
+    {
+      "id": "twice-icsm-episode-4",
+      "title": "Episode 4",
+      "series": "icsm",
+      "venue": "YouTube",
+      "date": "2020-11-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "TlnQu2-m3yI",
+          "official": true,
+          "duration": "21:16"
+        }
+      ]
+    },
+    {
+      "id": "twice-icsm-comeback-week-1",
+      "title": "Comeback Week #1",
+      "series": "icsm",
+      "venue": "YouTube",
+      "date": "2020-11-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "vMNc6I-jnOg",
+          "official": true,
+          "duration": "19:52"
+        }
+      ]
+    },
+    {
+      "id": "twice-icsm-comeback-week-2",
+      "title": "Comeback Week #2",
+      "series": "icsm",
+      "venue": "YouTube",
+      "date": "2020-11-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "HThKic_Dn48",
+          "official": true,
+          "duration": "18:23"
+        }
+      ]
+    },
+    {
+      "id": "twice-icsm-comeback-week-3",
+      "title": "Comeback Week #3",
+      "series": "icsm",
+      "venue": "YouTube",
+      "date": "2020-12-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "dRKMpOlWTwU",
+          "official": true,
+          "duration": "16:33"
+        }
+      ]
+    },
+    {
+      "id": "twice-icsm-comeback-week-4",
+      "title": "Comeback Week #4",
+      "series": "icsm",
+      "venue": "YouTube",
+      "date": "2020-12-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "cHbpmLzlqkI",
+          "official": true,
+          "duration": "15:59"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-2020-asia-artist-awards",
+      "title": "2020 ASIA ARTIST AWARDS",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2020-12-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "apIPt5z17Q0",
+          "official": true,
+          "duration": "11:51"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-2020-mama-ep-01",
+      "title": "2020 MAMA EP.01",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2020-12-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "QE7iazsQl4U",
+          "official": true,
+          "duration": "13:35"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-2020-mama-ep-02",
+      "title": "2020 MAMA EP.02",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2020-12-31",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "Z5YzlwkU7lI",
+          "official": true,
+          "duration": "15:41"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-mina-tv-happy-children-s-day-mina-s-lego-time",
+      "title": "Happy Children's Day! MINA's Lego Time",
+      "series": "member-tv",
+      "season": "mina-tv",
+      "venue": "YouTube",
+      "date": "2021-05-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "8Vx1Wmhz8a4",
+          "official": true,
+          "duration": "25:04"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-the-kelly-clarkson-show-behind-the-scenes",
+      "title": "The Kelly Clarkson Show — Behind the Scenes",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2021-05-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "F2JZAZwZlE0",
+          "official": true,
+          "duration": "11:31"
+        }
+      ]
+    },
+    {
+      "id": "twice-alcohol-free-taste-of-love-jacket-shooting-behind-the-scenes",
+      "title": "\"Taste of Love\" Jacket Shooting Behind the Scenes",
+      "series": "alcohol-free",
+      "venue": "YouTube",
+      "date": "2021-06-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "1gcb9PAIheM",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "6:49"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-the-ellen-degeneres-show-behind-the-scenes",
+      "title": "The Ellen DeGeneres Show — Behind the Scenes",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2021-06-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "53QzUmPCLtI",
+          "official": true,
+          "duration": "10:24"
+        }
+      ]
+    },
+    {
+      "id": "twice-alcohol-free-episode-1",
+      "title": "Episode 1",
+      "series": "alcohol-free",
+      "venue": "YouTube",
+      "date": "2021-06-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "LWqz5P_yVKE",
+          "official": true,
+          "duration": "20:08"
+        }
+      ]
+    },
+    {
+      "id": "twice-alcohol-free-episode-2",
+      "title": "Episode 2",
+      "series": "alcohol-free",
+      "venue": "YouTube",
+      "date": "2021-06-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "KhSQ9NhpUQM",
+          "official": true,
+          "duration": "19:42"
+        }
+      ]
+    },
+    {
+      "id": "twice-alcohol-free-episode-3",
+      "title": "Episode 3",
+      "series": "alcohol-free",
+      "venue": "YouTube",
+      "date": "2021-06-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "iflGOwiI0Lw",
+          "official": true,
+          "duration": "18:59"
+        }
+      ]
+    },
+    {
+      "id": "twice-alcohol-free-episode-4",
+      "title": "Episode 4",
+      "series": "alcohol-free",
+      "venue": "YouTube",
+      "date": "2021-07-01",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "viGXK59dcyk",
+          "official": true,
+          "duration": "21:35"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-the-tonight-show-starring-jimmy-fallon-behind-the-scenes",
+      "title": "The Tonight Show Starring Jimmy Fallon — Behind the Scenes",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2021-10-03",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "JdPdWtFWI2E",
+          "official": true,
+          "duration": "11:25"
+        }
+      ]
+    },
+    {
+      "id": "twice-anniversary-6th-anniversary-happy-twice-once-day-behind-the-scenes",
+      "title": "6th Anniversary Happy TWICE & ONCE day! Behind the Scenes",
+      "series": "anniversary",
+      "venue": "YouTube",
+      "date": "2021-10-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "ZxzKqtO9Yqg",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "9:37"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-gma3-what-you-need-to-know-behind-the-scenes",
+      "title": "GMA3: What You Need to Know — Behind the Scenes",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2021-10-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "F-KrdkEDYaU",
+          "official": true,
+          "duration": "6:57"
+        }
+      ]
+    },
+    {
+      "id": "twice-the-feels-episode-1",
+      "title": "Episode 1",
+      "series": "the-feels",
+      "venue": "YouTube",
+      "date": "2021-10-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "Ig56OPueKVg",
+          "official": true,
+          "duration": "22:06"
+        }
+      ]
+    },
+    {
+      "id": "twice-the-feels-episode-2",
+      "title": "Episode 2",
+      "series": "the-feels",
+      "venue": "YouTube",
+      "date": "2021-10-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "UUNHEH7e-hM",
+          "official": true,
+          "duration": "18:52"
+        }
+      ]
+    },
+    {
+      "id": "twice-the-feels-episode-3",
+      "title": "Episode 3",
+      "series": "the-feels",
+      "venue": "YouTube",
+      "date": "2021-10-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "eyYhbbuHlGA",
+          "official": true,
+          "duration": "20:21"
+        }
+      ]
+    },
+    {
+      "id": "twice-anniversary-to-once-from-twice-6th",
+      "title": "To ONCE From TWICE (6th)",
+      "series": "anniversary",
+      "venue": "YouTube",
+      "date": "2021-10-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "uUoG_CvJUlM",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "6:06"
+        }
+      ]
+    },
+    {
+      "id": "twice-anniversary-for-once-by-twice-6th",
+      "title": "For ONCE by TWICE (6th)",
+      "series": "anniversary",
+      "venue": "YouTube",
+      "date": "2021-10-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "vvaRmcjJbu8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "1:26"
+        }
+      ]
+    },
+    {
+      "id": "twice-anniversary-present-for-once-6th",
+      "title": "Present For ONCE (6th)",
+      "series": "anniversary",
+      "venue": "YouTube",
+      "date": "2021-10-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "1K9I8HR4LbU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "16:31"
+        }
+      ]
+    },
+    {
+      "id": "twice-anniversary-2021-6th-anniversary-exam-tdoong-quiz-show",
+      "title": "2021 6th Anniversary Exam & TDOONG Quiz Show",
+      "series": "anniversary",
+      "venue": "YouTube",
+      "date": "2021-10-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "DisEOo13Xqg",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:56"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-mtv-fresh-out-live-behind-the-scenes",
+      "title": "MTV Fresh Out Live — Behind the Scenes",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2021-11-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "sV0B4tPRcEc",
+          "official": true,
+          "duration": "21:05"
+        }
+      ]
+    },
+    {
+      "id": "twice-scientist-formula-of-love-o-t-3-jacket-shooting-behind-the-scenes",
+      "title": "\"Formula of Love: O+T=<3\" Jacket Shooting Behind the Scenes",
+      "series": "scientist",
+      "venue": "YouTube",
+      "date": "2021-11-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "J0-d_Mc9ay0",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "20:04"
+        }
+      ]
+    },
+    {
+      "id": "twice-scientist-episode-1",
+      "title": "Episode 1",
+      "series": "scientist",
+      "venue": "YouTube",
+      "date": "2021-11-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "T2HPeZ16d2E",
+          "official": true,
+          "duration": "19:52"
+        }
+      ]
+    },
+    {
+      "id": "twice-scientist-episode-2",
+      "title": "Episode 2",
+      "series": "scientist",
+      "venue": "YouTube",
+      "date": "2021-11-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "2y5WOqaFn9s",
+          "official": true,
+          "duration": "19:56"
+        }
+      ]
+    },
+    {
+      "id": "twice-scientist-episode-3",
+      "title": "Episode 3",
+      "series": "scientist",
+      "venue": "YouTube",
+      "date": "2021-11-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "gJz74xoBpy4",
+          "official": true,
+          "duration": "19:17"
+        }
+      ]
+    },
+    {
+      "id": "twice-scientist-episode-4",
+      "title": "Episode 4",
+      "series": "scientist",
+      "venue": "YouTube",
+      "date": "2021-12-01",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "_UHTdT1r7sc",
+          "official": true,
+          "duration": "19:05"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-chaeyoung-tv-strawberry-santa-claus-chaeyoung",
+      "title": "Strawberry Santa Claus CHAEYOUNG",
+      "series": "member-tv",
+      "season": "chaeyoung-tv",
+      "venue": "YouTube",
+      "date": "2021-12-30",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "O1ACML-4m-4",
+          "official": true,
+          "duration": "17:40"
+        }
+      ]
+    },
+    {
+      "id": "twice-pop-im-nayeon-jacket-shooting-behind-the-scenes",
+      "title": "\"IM NAYEON\" Jacket Shooting Behind the Scenes",
+      "series": "pop",
+      "venue": "YouTube",
+      "date": "2022-07-01",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "Tig4o9q1NlQ",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "11:40"
+        }
+      ]
+    },
+    {
+      "id": "twice-pop-pop-dance-practice-behind-the-scenes",
+      "title": "POP! Dance Practice Behind the Scenes",
+      "series": "pop",
+      "venue": "YouTube",
+      "date": "2022-07-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "G1W0nNuLN8o",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "11:19"
+        }
+      ]
+    },
+    {
+      "id": "twice-pop-episode-1",
+      "title": "Episode 1",
+      "series": "pop",
+      "venue": "YouTube",
+      "date": "2022-07-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "a0_ihiY21iM",
+          "official": true,
+          "duration": "18:33"
+        }
+      ]
+    },
+    {
+      "id": "twice-pop-episode-2",
+      "title": "Episode 2",
+      "series": "pop",
+      "venue": "YouTube",
+      "date": "2022-07-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "VGu8OJcR8oY",
+          "official": true,
+          "duration": "19:02"
+        }
+      ]
+    },
+    {
+      "id": "twice-pop-episode-3",
+      "title": "Episode 3",
+      "series": "pop",
+      "venue": "YouTube",
+      "date": "2022-07-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "W1pgs_OprOQ",
+          "official": true,
+          "duration": "19:13"
+        }
+      ]
+    },
+    {
+      "id": "twice-pop-im-nayeon-week-ep-01",
+      "title": "IM NAYEON Week EP.01",
+      "series": "pop",
+      "venue": "YouTube",
+      "date": "2022-07-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "D0mQ3ajD5yQ",
+          "official": true,
+          "duration": "15:47"
+        }
+      ]
+    },
+    {
+      "id": "twice-pop-im-nayeon-week-ep-02",
+      "title": "IM NAYEON Week EP.02",
+      "series": "pop",
+      "venue": "YouTube",
+      "date": "2022-08-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "qPHxMnH9vns",
+          "official": true,
+          "duration": "19:04"
+        }
+      ]
+    },
+    {
+      "id": "twice-ttt-between-1-2-jacket-shooting-behind-the-scenes",
+      "title": "\"BETWEEN 1&2\" Jacket Shooting Behind the Scenes",
+      "series": "ttt",
+      "venue": "YouTube",
+      "date": "2022-08-31",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "xTwrwTBkv-c",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "19:32"
+        }
+      ]
+    },
+    {
+      "id": "twice-ttt-dance-practice-behind-the-scenes",
+      "title": "Dance Practice Behind the Scenes",
+      "series": "ttt",
+      "venue": "YouTube",
+      "date": "2022-09-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "lvcNztFK2iE",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "13:14"
+        }
+      ]
+    },
+    {
+      "id": "twice-ttt-episode-1",
+      "title": "Episode 1",
+      "series": "ttt",
+      "venue": "YouTube",
+      "date": "2022-09-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "ytDro97xqoo",
+          "official": true,
+          "duration": "18:45"
+        }
+      ]
+    },
+    {
+      "id": "twice-ttt-episode-2",
+      "title": "Episode 2",
+      "series": "ttt",
+      "venue": "YouTube",
+      "date": "2022-09-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "jzi0Dlnof0I",
+          "official": true,
+          "duration": "18:40"
+        }
+      ]
+    },
+    {
+      "id": "twice-ttt-episode-3",
+      "title": "Episode 3",
+      "series": "ttt",
+      "venue": "YouTube",
+      "date": "2022-09-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "ANY7NqHEd5c",
+          "official": true,
+          "duration": "19:10"
+        }
+      ]
+    },
+    {
+      "id": "twice-ttt-comeback-week-ep-01",
+      "title": "Comeback Week EP.01",
+      "series": "ttt",
+      "venue": "YouTube",
+      "date": "2022-10-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "gb_bMJACl1o",
+          "official": true,
+          "duration": "18:29"
+        }
+      ]
+    },
+    {
+      "id": "twice-ttt-comeback-week-ep-02",
+      "title": "Comeback Week EP.02",
+      "series": "ttt",
+      "venue": "YouTube",
+      "date": "2022-10-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "hG4xwK2GcEk",
+          "official": true,
+          "duration": "18:37"
+        }
+      ]
+    },
+    {
+      "id": "twice-anniversary-7th-anniversary-together-1-2-md-behind-the-scenes",
+      "title": "7th Anniversary \"Together 1&2\" MD Behind the Scenes",
+      "series": "anniversary",
+      "venue": "YouTube",
+      "date": "2022-10-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "OYXIPU12d-0",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "9:10"
+        }
+      ]
+    },
+    {
+      "id": "twice-anniversary-happy-7th-anniversary-cakes-for-once-twice",
+      "title": "Happy 7th Anniversary Cakes For ONCE & TWICE",
+      "series": "anniversary",
+      "venue": "YouTube",
+      "date": "2022-11-07",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "u1Mi3hlYPMg",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "12:50"
+        }
+      ]
+    },
+    {
+      "id": "twice-anniversary-7th-anniversary-together-1-2-exhibition-pop-up-store-behind-the-scenes",
+      "title": "7th Anniversary \"Together 1&2\" Exhibition & Pop-up Store Behind the Scenes",
+      "series": "anniversary",
+      "venue": "YouTube",
+      "date": "2022-11-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "W7scTT9C8p0",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "5:59"
+        }
+      ]
+    },
+    {
+      "id": "twice-anniversary-7th-anniversary-secret-box-with-once",
+      "title": "7th Anniversary SECRET BOX with ONCE",
+      "series": "anniversary",
+      "venue": "YouTube",
+      "date": "2022-11-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "1Ac7VbZETvE",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "37:25"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-peach-banana-bread-making",
+      "title": "Banana Bread Making",
+      "series": "member-tv",
+      "season": "peach",
+      "venue": "YouTube",
+      "date": "2022-12-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "sqoPQZ-Tz3I",
+          "official": true,
+          "duration": "11:49"
+        }
+      ]
+    },
+    {
+      "id": "twice-moonlight-episode-1",
+      "title": "Episode 1",
+      "series": "moonlight",
+      "venue": "YouTube",
+      "date": "2023-02-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "E1ntfT1wCQM",
+          "official": true,
+          "duration": "21:02"
+        }
+      ]
+    },
+    {
+      "id": "twice-moonlight-episode-2",
+      "title": "Episode 2",
+      "series": "moonlight",
+      "venue": "YouTube",
+      "date": "2023-02-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "P4lV2NaSrHU",
+          "official": true,
+          "duration": "19:38"
+        }
+      ]
+    },
+    {
+      "id": "twice-set-me-free-ready-to-be-jacket-shooting-behind-the-scenes",
+      "title": "\"READY TO BE\" Jacket Shooting Behind the Scenes",
+      "series": "set-me-free",
+      "venue": "YouTube",
+      "date": "2023-03-24",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "u-nwtAnXkxg",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "15:37"
+        }
+      ]
+    },
+    {
+      "id": "twice-set-me-free-dance-practice-behind-the-scenes",
+      "title": "Dance Practice Behind the Scenes",
+      "series": "set-me-free",
+      "venue": "YouTube",
+      "date": "2023-03-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "8NZHcaaUpi8",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "15:28"
+        }
+      ]
+    },
+    {
+      "id": "twice-set-me-free-ready-to-be-album-contents-behind-the-scenes",
+      "title": "\"READY TO BE\" Album Contents Behind the Scenes",
+      "series": "set-me-free",
+      "venue": "YouTube",
+      "date": "2023-03-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "E08SmD7Wa4I",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "11:40"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-2023-billboard-women-in-music-awards-behind-the-scenes",
+      "title": "2023 Billboard Women in Music Awards — Behind the Scenes",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2023-03-31",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "6vhESu1b_No",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "15:38"
+        }
+      ]
+    },
+    {
+      "id": "twice-set-me-free-m-v-behind-the-scenes-ep-01",
+      "title": "M/V Behind the Scenes EP.01",
+      "series": "set-me-free",
+      "venue": "YouTube",
+      "date": "2023-04-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "clFtWx7o81s",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:16"
+        }
+      ]
+    },
+    {
+      "id": "twice-set-me-free-m-v-behind-the-scenes-ep-02",
+      "title": "M/V Behind the Scenes EP.02",
+      "series": "set-me-free",
+      "venue": "YouTube",
+      "date": "2023-04-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "8r0M1XEHpF4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:40"
+        }
+      ]
+    },
+    {
+      "id": "twice-set-me-free-m-v-behind-the-scenes-ep-03",
+      "title": "M/V Behind the Scenes EP.03",
+      "series": "set-me-free",
+      "venue": "YouTube",
+      "date": "2023-04-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "xjIN7hJUbi8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:23"
+        }
+      ]
+    },
+    {
+      "id": "twice-set-me-free-m-v-behind-the-scenes-ep-04",
+      "title": "M/V Behind the Scenes EP.04",
+      "series": "set-me-free",
+      "venue": "YouTube",
+      "date": "2023-04-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Tuq6P-_IGKc",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:32"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-ready-to-be-pop-up-experience-behind-the-scenes",
+      "title": "READY TO BE POP-UP Experience — Behind the Scenes",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2023-04-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "W6oEt63j__I",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "11:05"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-la-promotion-days-2023-behind-the-scenes",
+      "title": "LA Promotion Days (2023) — Behind the Scenes",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2023-04-26",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "1pouA_bg13c",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "15:39"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-the-kelly-clarkson-show-the-tonight-show-starring-jimmy-fallon-behind-the-scenes",
+      "title": "The Kelly Clarkson Show & The Tonight Show Starring Jimmy Fallon — Behind the Scenes",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2023-04-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "AIHqvWq6UHo",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:16"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-empire-state-building-behind-the-scenes",
+      "title": "@Empire State Building — Behind the Scenes",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2023-05-04",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "UWfHS5NdO_s",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "8:49"
+        }
+      ]
+    },
+    {
+      "id": "twice-set-me-free-comeback-week",
+      "title": "Comeback Week",
+      "series": "set-me-free",
+      "venue": "YouTube",
+      "date": "2023-05-09",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "i_Gx959WA6w",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "15:43"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-twice-official-fanclub-once-4th-generation-behind-the-scenes",
+      "title": "TWICE OFFICIAL FANCLUB ONCE 4TH GENERATION — Behind the Scenes",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2023-07-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "fzLzzzZrfLg",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "9:17"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-2023-twice-fanmeeting-once-again-behind",
+      "title": "2023 TWICE FANMEETING ONCE AGAIN — Behind",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2023-11-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "FEFO0vbZ0b0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "21:01"
+        }
+      ]
+    },
+    {
+      "id": "twice-i-got-you-m-v-behind",
+      "title": "M/V Behind",
+      "series": "i-got-you",
+      "venue": "YouTube",
+      "date": "2024-02-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "jE3lBnYxBFs",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "23:18"
+        }
+      ]
+    },
+    {
+      "id": "twice-one-spark-dance-practice-behind",
+      "title": "Dance Practice Behind",
+      "series": "one-spark",
+      "venue": "YouTube",
+      "date": "2024-03-05",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "pgfmiRxbD9g",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "17:14"
+        }
+      ]
+    },
+    {
+      "id": "twice-one-spark-m-v-behind",
+      "title": "M/V Behind",
+      "series": "one-spark",
+      "venue": "YouTube",
+      "date": "2024-03-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "KaSPQofI8KA",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:17"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-the-today-show-behind",
+      "title": "THE TODAY SHOW — Behind",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2024-03-13",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "KJjxAznzF00",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:02"
+        }
+      ]
+    },
+    {
+      "id": "twice-one-spark-comeback-week",
+      "title": "Comeback Week",
+      "series": "one-spark",
+      "venue": "YouTube",
+      "date": "2024-03-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "6S38tNFnNUs",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "15:59"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-new-york-promotion-days-behind",
+      "title": "New York Promotion Days — Behind",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2024-03-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ck9Tz5kzCZU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "18:53"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-la-promotion-days-2024-behind",
+      "title": "LA Promotion Days (2024) — Behind",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2024-03-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "r20vhvG1Ff8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "16:18"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-halftime-show-team-k-league-vs-tottenham-hotspur-behind",
+      "title": "Halftime Show @ Team K-League vs. Tottenham Hotspur — Behind",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2024-08-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "OoC1EjeC9B0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "11:10"
+        }
+      ]
+    },
+    {
+      "id": "twice-strategy-dance-practice-behind",
+      "title": "Dance Practice Behind",
+      "series": "strategy",
+      "venue": "YouTube",
+      "date": "2024-12-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "Pku5bUeRI0I",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "21:07"
+        }
+      ]
+    },
+    {
+      "id": "twice-strategy-m-v-behind-ep-01",
+      "title": "M/V Behind EP.01",
+      "series": "strategy",
+      "venue": "YouTube",
+      "date": "2024-12-18",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "u82HNa3TJxM",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "16:02"
+        }
+      ]
+    },
+    {
+      "id": "twice-strategy-m-v-behind-ep-02",
+      "title": "M/V Behind EP.02",
+      "series": "strategy",
+      "venue": "YouTube",
+      "date": "2024-12-20",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "qlQLuf3Cnms",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:49"
+        }
+      ]
+    },
+    {
+      "id": "twice-strategy-strategy-la-promotion-days-behind",
+      "title": "STRATEGY LA Promotion Days Behind",
+      "series": "strategy",
+      "venue": "YouTube",
+      "date": "2024-12-27",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "jklTicr85KM",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "25:48"
+        }
+      ]
+    },
+    {
+      "id": "twice-strategy-comeback-week",
+      "title": "Comeback Week",
+      "series": "strategy",
+      "venue": "YouTube",
+      "date": "2025-01-10",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "nQvRT_wsB58",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:45"
+        }
+      ]
+    },
+    {
+      "id": "twice-this-is-for-dance-practice-behind",
+      "title": "Dance Practice Behind",
+      "series": "this-is-for",
+      "venue": "YouTube",
+      "date": "2025-07-21",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "hTiiQhCkPtc",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "25:59"
+        }
+      ]
+    },
+    {
+      "id": "twice-this-is-for-m-v-behind-ep-01",
+      "title": "M/V Behind EP.01",
+      "series": "this-is-for",
+      "venue": "YouTube",
+      "date": "2025-07-25",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "NTccvlbQVyE",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:57"
+        }
+      ]
+    },
+    {
+      "id": "twice-this-is-for-m-v-behind-ep-02",
+      "title": "M/V Behind EP.02",
+      "series": "this-is-for",
+      "venue": "YouTube",
+      "date": "2025-07-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "wIE-bRjopeM",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "23:51"
+        }
+      ]
+    },
+    {
+      "id": "twice-this-is-for-comeback-week",
+      "title": "Comeback Week",
+      "series": "this-is-for",
+      "venue": "YouTube",
+      "date": "2025-08-01",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "bQ3vu2pfX9E",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:57"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-2025-tima-behind",
+      "title": "2025 TIMA — Behind",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2025-10-01",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "To50CSahrHk",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "15:56"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-up-next-lollapalooza-chicago-2025-special",
+      "title": "UP NEXT — LOLLAPALOOZA CHICAGO 2025 Special",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2025-10-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "VsfZFA_KgTk",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "41:06"
+        }
+      ]
+    },
+    {
+      "id": "twice-oneoffs-victoria-s-secret-fashion-show-2025-behind-the-scenes",
+      "title": "VICTORIA'S SECRET FASHION SHOW 2025 — Behind the Scenes",
+      "series": "oneoffs",
+      "venue": "YouTube",
+      "date": "2025-12-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "3zQraeuNbK8",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "15:34"
         }
       ]
     }

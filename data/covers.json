@@ -1,7 +1,7 @@
 {
   "section": "Melody Project & Cover Project",
   "note": "Members covering other artists' songs: the Melody Project videos on TWICE's channel, and every other cover. One entry per cover, with its videos (the cover itself, a behind-the-scenes, a live clip). Covers and joint stages performed live at a show are in live.json, under Stage Covers & Collabs. MV Appearances holds members appearing in other artists' music videos; \"originalArtist\" is then the MV's artist.",
-  "updated": "2026-09-23",
+  "updated": "2026-10-02",
   "memberColors": {
     "Nayeon": "#49c0ec",
     "Jeongyeon": "#a3cc54",
@@ -212,6 +212,12 @@
           "url": "XO9GiPOLd3I",
           "label": "Cover",
           "official": true
+        },
+        {
+          "kind": "special",
+          "url": "sNQfqRSrGMo",
+          "label": "Behind the Scenes",
+          "official": true
         }
       ]
     },
@@ -315,6 +321,12 @@
           "url": "K4I2bTD7Fh0",
           "label": "Cover",
           "official": true
+        },
+        {
+          "kind": "special",
+          "url": "cQFLaxhnHqc",
+          "label": "Behind the Scenes",
+          "official": true
         }
       ]
     },
@@ -333,6 +345,12 @@
           "url": "5UMgw3V-Q5I",
           "label": "Cover",
           "official": true
+        },
+        {
+          "kind": "special",
+          "url": "rjWC0Sl1ga0",
+          "label": "Behind the Scenes",
+          "official": true
         }
       ]
     },
@@ -350,6 +368,12 @@
           "url": "7Xv09ZURWQE",
           "label": "Performance Video",
           "official": true
+        },
+        {
+          "kind": "special",
+          "url": "tl6JHVtleQE",
+          "label": "Behind the Scenes",
+          "official": true
         }
       ]
     },
@@ -366,6 +390,12 @@
           "kind": "mv",
           "url": "nAW4uqc-7T4",
           "label": "Cover",
+          "official": true
+        },
+        {
+          "kind": "special",
+          "url": "W14TmFy861I",
+          "label": "Behind the Scenes",
           "official": true
         }
       ]
@@ -402,6 +432,12 @@
           "url": "IO1Nl9ErTsI",
           "label": "Cover",
           "official": true
+        },
+        {
+          "kind": "special",
+          "url": "pAtk3DOskUU",
+          "label": "Behind the Scenes",
+          "official": true
         }
       ]
     },
@@ -418,6 +454,12 @@
           "kind": "mv",
           "url": "8vhhTUvRSZM",
           "label": "Cover",
+          "official": true
+        },
+        {
+          "kind": "special",
+          "url": "2fbyr1NkHwA",
+          "label": "Behind the Scenes",
           "official": true
         }
       ]
@@ -452,6 +494,12 @@
           "kind": "mv",
           "url": "cAvMGWLZCHA",
           "label": "Cover",
+          "official": true
+        },
+        {
+          "kind": "special",
+          "url": "V7GEAVW6FJg",
+          "label": "Behind the Scenes",
           "official": true
         }
       ]
@@ -521,6 +569,12 @@
           "url": "SY2kZjVEd54",
           "label": "Cover",
           "official": true
+        },
+        {
+          "kind": "special",
+          "url": "vylFZZ7MkvA",
+          "label": "Behind the Scenes",
+          "official": true
         }
       ]
     },
@@ -572,6 +626,12 @@
           "url": "7123DLSc9FA",
           "label": "Cover",
           "official": true
+        },
+        {
+          "kind": "special",
+          "url": "yEFWz8KEvSE",
+          "label": "Behind the Scenes",
+          "official": true
         }
       ]
     },
@@ -606,6 +666,12 @@
           "kind": "mv",
           "url": "1S-4d1nRUis",
           "label": "Cover",
+          "official": true
+        },
+        {
+          "kind": "special",
+          "url": "sxanmYeHM94",
+          "label": "Behind the Scenes",
           "official": true
         }
       ]
