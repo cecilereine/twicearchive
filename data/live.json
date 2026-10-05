@@ -1226,6 +1226,25 @@
       ]
     },
     {
+      "id": "lee-mujin-service-jihyo",
+      "title": "Lee Mujin Service (리무진서비스) — Episode 77",
+      "series": "special",
+      "artist": "Jihyo",
+      "members": "Jihyo",
+      "venue": "",
+      "date": "2023-08-22",
+      "note": "KBS Kpop's live music talk show, hosted by Lee Mujin. Killin' Me Good (0:00), then covers of John Park's \"네 생각\" (4:22), Abir's \"Tango\" (13:13) and Urban Zakapa's \"Inevitability\" (23:55).",
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "7TA9AA2GgRE",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "26:52"
+        }
+      ]
+    },
+    {
       "id": "world-in-a-day",
       "title": "Beyond LIVE — TWICE: World in a Day",
       "series": "tour",
@@ -1256,6 +1275,28 @@
           "label": "Full Concert",
           "official": false,
           "thumb": "https://p.bstarstatic.com/ugc/239fe9f63b46e5dfdfac1cb31d0a4c6b.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "nhk-shibuya-no-oto-request-live-2019",
+      "title": "NHK シブヤノオト Presents TWICE Request LIVE",
+      "series": "special",
+      "venue": "NHK Hall, Tokyo",
+      "date": "2019-09-29",
+      "note": "Songs picked by viewers' requests from 23 of their Japanese releases, filmed at NHK Hall, plus a gourmet trip with a penalty game.",
+      "credit": {
+        "name": "Twaii Subs",
+        "url": "https://www.dailymotion.com/twaiisubs"
+      },
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "https://www.dailymotion.com/video/x7lwtfz",
+          "label": "Full Show · Eng Sub",
+          "official": false,
+          "duration": "29:00",
+          "thumb": "https://s1.dmcdn.net/v/RR0uF1epEe5efeAng/x720"
         }
       ]
     },

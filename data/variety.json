@@ -3,6 +3,7 @@
   "note": "TWICE on TV variety and reality shows — their own series (SIXTEEN) and guest runs on others, one entry per episode. Grouped by show, not by year: each show is one tab and one section. YouTube variety (TIME TO TWICE and the rest) is a separate section. A show can carry \"mustWatch\" and a \"summary\", shown on its heading.",
   "updated": "2026-10-02",
   "groupBy": "series",
+  "pickerOrder": "name",
   "series": [
     {
       "key": "sixteen",
@@ -25,15 +26,30 @@
       "summary": "MBC every1's idol variety show, hosted in TWICE's years on it by Jung Hyung-don and Defconn."
     },
     {
+      "key": "a-look-at-myself",
+      "label": "A Look at Myself (나를 돌아봐)",
+      "summary": "KBS2's reality show (July 2015 – April 2016) that paired celebrities up to spend time together and look back at themselves."
+    },
+    {
       "key": "yu-huiyeol-sketchbook",
       "label": "Yu Huiyeol's Sketchbook",
       "summary": "KBS2's late-night live music talk show, hosted by Yu Hee-yeol."
+    },
+    {
+      "key": "isac",
+      "label": "Idol Star Athletics Championships (아이돌스타 선수권대회)",
+      "summary": "MBC's holiday sports special, aired at Lunar New Year and Chuseok: idols compete in athletics, archery, rhythmic gymnastics and more. Filed one card per championship, with TWICE's clips on it."
     },
     {
       "key": "elegant-private-life",
       "label": "TWICE's Elegant Private Life",
       "mustWatch": true,
       "summary": "Their first reality show after debut: the members' everyday lives off stage."
+    },
+    {
+      "key": "star-king",
+      "label": "Star King (스타킹)",
+      "summary": "SBS's talent show, where ordinary people with unusual skills perform for a celebrity panel."
     },
     {
       "key": "knowing-bros",
@@ -46,6 +62,16 @@
       "summary": "SBS's long-running race variety show: missions at landmarks, capped by the name-tag elimination game."
     },
     {
+      "key": "happy-together",
+      "label": "Happy Together (해피투게더)",
+      "summary": "KBS2's long-running Thursday-night talk show."
+    },
+    {
+      "key": "hit-the-stage",
+      "label": "Hit the Stage (힛 더 스테이지)",
+      "summary": "Mnet's 2016 dance competition for idols: each performs a solo stage on the week's theme. Momo competed in Episodes 1–4."
+    },
+    {
       "key": "sister-slam-dunk",
       "label": "Sister's Slam Dunk",
       "summary": "KBS2 variety show where celebrity women chase their dreams; its first season formed the project girl group Unnies."
@@ -56,13 +82,38 @@
       "summary": "KBS2's reality show following celebrity dads raising their children."
     },
     {
+      "key": "trick-and-true",
+      "label": "Trick & True (트릭 앤 트루)",
+      "summary": "KBS2's science-and-magic variety show, which ran from October 2016 to February 2017."
+    },
+    {
       "key": "snl-korea",
       "label": "SNL Korea"
+    },
+    {
+      "key": "entertainment-weekly",
+      "label": "Entertainment Weekly (연예가중계)",
+      "summary": "KBS2's entertainment news magazine, on air from 1984 to 2019."
     },
     {
       "key": "lost-time",
       "label": "Lost Time",
       "summary": "JTBC variety show made with Nextmove's mobile game Lost Tale: TWICE get 300 minutes to complete missions and recover items lost from fairy tales, with actor Kwak Si-yang as MC. It ran as web clips on Naver TV first, then aired on JTBC as two episodes."
+    },
+    {
+      "key": "elementary-school-teacher",
+      "label": "Elementary School Teacher (초등학쌤)",
+      "summary": "SBS's two-part Lunar New Year special, hosted by Kang Ho-dong: foreign idols learn Korean from elementary school kids acting as their teachers."
+    },
+    {
+      "key": "gag-concert",
+      "label": "Gag Concert (개그콘서트)",
+      "summary": "KBS2's long-running Sunday-night sketch comedy show."
+    },
+    {
+      "key": "i-can-see-your-voice",
+      "label": "I Can See Your Voice (너의 목소리가 보여)",
+      "summary": "Mnet's mystery music game show: the guest artists try to tell the real singers from the tone-deaf ones without hearing them sing."
     },
     {
       "key": "k-rush",
@@ -72,6 +123,11 @@
     {
       "key": "oppa-thinking",
       "label": "Oppa Thinking"
+    },
+    {
+      "key": "hello-counselor",
+      "label": "Hello Counselor (안녕하세요)",
+      "summary": "KBS2's talk show where ordinary people bring their worries to the panel and the studio audience."
     },
     {
       "key": "we-like-zines",
@@ -84,14 +140,129 @@
       "summary": "Eight members (Dahyun was absent) join JTBC's package-tour show for a group package tour to Da Nang, Vietnam, travelling alongside the regular cast."
     },
     {
+      "key": "night-of-tv-entertainment",
+      "label": "Night of TV Entertainment (본격연예 한밤)",
+      "summary": "SBS's weekly entertainment news show, with interviews and behind-the-scenes from the week's comebacks."
+    },
+    {
+      "key": "lets-eat-dinner-together",
+      "label": "Let's Eat Dinner Together (한끼줍쇼)",
+      "summary": "JTBC's show where Lee Kyung-kyu and Kang Ho-dong go door to door with their guests in one neighbourhood, hoping a family will invite them in for dinner."
+    },
+    {
       "key": "idol-room",
       "label": "Idol Room",
       "summary": "JTBC's idol variety show hosted by Jeong Hyeong-don and Defconn. TWICE guested five times."
     },
     {
+      "key": "amazing-saturday",
+      "label": "Amazing Saturday (놀라운 토요일)",
+      "summary": "tvN's Saturday music quiz show, also called DoReMi Market: the cast and guests write down a song's lyrics by ear to win food from a local market."
+    },
+    {
+      "key": "dancing-high",
+      "label": "Dancing High (댄싱하이)",
+      "summary": "KBS2's 2018 dance competition for teenage dancers from around Korea, coached by star dancers."
+    },
+    {
+      "key": "eat-in-style",
+      "label": "Eat in Style (폼나게 먹자)",
+      "summary": "SBS's food show about eating Korea's ingredients in season, where they come from."
+    },
+    {
+      "key": "2-days-1-night",
+      "label": "2 Days & 1 Night (1박 2일)",
+      "summary": "KBS2's long-running Sunday travel variety show."
+    },
+    {
+      "key": "super-intern",
+      "label": "Super Intern (슈퍼인턴)",
+      "summary": "Mnet's 2019 show where JYP Entertainment hires interns, who take on real tasks for the company and its artists."
+    },
+    {
+      "key": "300-x2",
+      "label": "300 x2 (300 엑스투)",
+      "summary": "tvN's 2019 sing-along show, hosted by Kang Ho-dong: an artist puts on a collaboration stage with 300 fans singing with them."
+    },
+    {
+      "key": "battle-trip",
+      "label": "Battle Trip (배틀트립)",
+      "summary": "KBS2's travel show where celebrity pairs plan a trip on the week's theme and the studio votes for the one they'd rather take."
+    },
+    {
+      "key": "six-oclock-my-hometown",
+      "label": "6 O'Clock My Hometown (6시 내고향)",
+      "summary": "KBS1's long-running early-evening show about life in Korea's towns and farming villages."
+    },
+    {
+      "key": "where-is-my-home",
+      "label": "Where Is My Home (구해줘! 홈즈)",
+      "summary": "MBC's real-estate show: two celebrity teams each find a home that fits a viewer's brief, and the viewer picks one."
+    },
+    {
+      "key": "dogs-are-incredible",
+      "label": "Dogs Are Incredible (개는 훌륭하다)",
+      "summary": "KBS2's show where Lee Kyung-kyu and dog trainer Kang Hyung-wook help people and their dogs live together happily."
+    },
+    {
+      "key": "idol-on-quiz",
+      "label": "Idol on Quiz (퀴즈 위의 아이돌)",
+      "summary": "KBS2's 2020 quiz show mixing Korean and global idols."
+    },
+    {
+      "key": "on-and-off",
+      "label": "On & Off (온앤오프)",
+      "summary": "tvN's show that follows celebrities through their days on and off the clock."
+    },
+    {
+      "key": "the-manager",
+      "label": "The Manager (전지적 참견 시점)",
+      "summary": "MBC's show where managers report on the stars they work for, and the studio panel watches a day of their life together. Also known as Omniscient Interfering View."
+    },
+    {
+      "key": "kelly-clarkson-show",
+      "label": "The Kelly Clarkson Show",
+      "summary": "NBC's daytime talk show hosted by Kelly Clarkson."
+    },
+    {
+      "key": "dosi-hoetjip",
+      "label": "Dosi Hoetjip (도시횟집)",
+      "summary": "Channel A's 2023 show: Lee Tae-gon and the crew catch fish at sea, and Lee Kyung-kyu serves it at their sashimi restaurant in the city."
+    },
+    {
+      "key": "today-show",
+      "label": "TODAY (NBC)",
+      "summary": "NBC's long-running morning news and talk show."
+    },
+    {
+      "key": "beat-coin",
+      "label": "Beat Coin (홍김동전)",
+      "summary": "KBS2's Thursday variety show (2022–2024), first built on leaving fate to the flip of a coin."
+    },
+    {
+      "key": "i-live-alone",
+      "label": "I Live Alone (나 혼자 산다)",
+      "summary": "MBC's long-running Friday show following celebrities who live on their own."
+    },
+    {
+      "key": "first-pitch",
+      "label": "First Pitches (시구)",
+      "summary": "Members throwing the ceremonial first pitch at baseball games."
+    },
+    {
+      "key": "tetsukos-room",
+      "label": "Tetsuko's Room (徹子の部屋)",
+      "summary": "TV Asahi's daytime talk show hosted by Tetsuko Kuroyanagi, on air since 1976."
+    },
+    {
       "key": "the-seasons",
       "label": "The Seasons",
       "summary": "KBS2's late-night music talk show, hosted by a new host each season."
+    },
+    {
+      "key": "sbs-8-news",
+      "label": "SBS 8 News (SBS 8뉴스)",
+      "summary": "SBS's main evening news; its Culture Road (컬쳐로드) corner sits down with artists."
     },
     {
       "key": "kpop-next-chapter",
@@ -1088,6 +1259,23 @@
       ]
     },
     {
+      "id": "pops-in-seoul-likey-2017",
+      "title": "Pops in Seoul: LIKEY Interview",
+      "series": "pops-in-seoul",
+      "venue": "Arirang TV",
+      "date": "2017-11-27",
+      "note": "An interview for their first full album, twicetagram, and its title track LIKEY.",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "YiKdC0m2f18",
+          "label": "Interview",
+          "official": true,
+          "duration": "11:53"
+        }
+      ]
+    },
+    {
       "id": "weekly-idol-ep228",
       "title": "Weekly Idol Episode 228",
       "series": "weekly-idol",
@@ -1410,6 +1598,1148 @@
           "label": "Full Episode · Eng Sub",
           "official": true,
           "duration": "1:20:07"
+        }
+      ]
+    },
+    {
+      "id": "tetsukos-room-misamo",
+      "title": "MISAMO",
+      "series": "tetsukos-room",
+      "venue": "TV Asahi",
+      "date": "2024-11-14",
+      "note": "Their first time on the show, aired November 14, 2024. The video is from Tetsuko's own YouTube channel, 徹子の気まぐれTV, posted the day before.",
+      "members": "Mina, Sana, Momo",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "2G0RG7gdRjU",
+          "label": "Tetsuko's YouTube · 徹子の気まぐれTV",
+          "official": true,
+          "duration": "13:05"
+        }
+      ]
+    },
+    {
+      "id": "trick-and-true-ep1",
+      "title": "Episode 1",
+      "series": "trick-and-true",
+      "venue": "KBS2",
+      "date": "2016-10-25",
+      "note": "The first episode, with Jeongyeon, Sana and Jihyo on the panel.",
+      "members": "Jeongyeon, Sana, Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "wzQmLcx2JE0",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "1:18:41"
+        }
+      ]
+    },
+    {
+      "id": "trick-and-true-ep2",
+      "title": "Episode 2",
+      "series": "trick-and-true",
+      "venue": "KBS2",
+      "date": "2016-11-01",
+      "note": "Jeongyeon, Sana and Jihyo on the panel.",
+      "members": "Jeongyeon, Sana, Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "kVHe_hgXXy0",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "1:15:13"
+        }
+      ]
+    },
+    {
+      "id": "isac-2016-lunar",
+      "title": "2016 Lunar New Year",
+      "series": "isac",
+      "venue": "MBC",
+      "date": "2016-02-09",
+      "note": "",
+      "members": "Mina",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "q-QCWbyLNe0",
+          "label": "Mina — Rhythmic Gymnastics, Hoop",
+          "official": true,
+          "duration": "2:27"
+        }
+      ]
+    },
+    {
+      "id": "isac-2016-chuseok",
+      "title": "2016 Chuseok",
+      "series": "isac",
+      "venue": "MBC",
+      "date": "2016-09-15",
+      "note": "",
+      "members": "Tzuyu",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "R-VJUSoKDGg",
+          "label": "Tzuyu — Archery",
+          "official": true,
+          "duration": "1:41"
+        }
+      ]
+    },
+    {
+      "id": "isac-2017-lunar",
+      "title": "2017 Lunar New Year",
+      "series": "isac",
+      "venue": "MBC",
+      "date": "2017-01-30",
+      "note": "",
+      "members": "Mina",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "OHZWzlv-nhs",
+          "label": "Mina — Rhythmic Gymnastics, Ball · Eng Sub",
+          "official": true,
+          "duration": "2:21"
+        }
+      ]
+    },
+    {
+      "id": "star-king-ep447",
+      "title": "Episode 447",
+      "series": "star-king",
+      "venue": "SBS",
+      "date": "2016-04-26",
+      "note": "All nine on the panel, with BTS's RM, j-hope and Jimin. Seven \"teachers\" take the stage, one of them a teenager in disguise, and one says she teaches at Dahyun's school.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://ok.ru/video/4967341361664",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "53:31",
+          "thumb": "assets/img/variety/star-king-447.jpg"
+        }
+      ]
+    },
+    {
+      "id": "elementary-school-teacher-ep1",
+      "title": "Episode 1",
+      "series": "elementary-school-teacher",
+      "venue": "SBS",
+      "date": "2017-01-27",
+      "note": "Momo with Henry, Amber, SEVENTEEN's The8 and NCT's Ten.",
+      "members": "Momo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4788144873805312",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "1:01:43",
+          "thumb": "https://p.bstarstatic.com/ugc/01d6f4f84e04ce790abdf380634b9a15.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "elementary-school-teacher-ep2",
+      "title": "Episode 2",
+      "series": "elementary-school-teacher",
+      "venue": "SBS",
+      "date": "2017-01-27",
+      "note": "The second half of the special, aired the same night.",
+      "members": "Momo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4788146907257344",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "51:55",
+          "thumb": "https://p.bstarstatic.com/ugc/01d6f4f84e04ce790abdf380634b9a15.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "happy-together-ep457",
+      "title": "Episode 457: Global Entertainers Special",
+      "series": "happy-together",
+      "venue": "KBS2",
+      "date": "2016-07-14",
+      "note": "Henry, John Park and Kangnam as the veteran foreign entertainers, with Sana, CLC's Sorn and Cosmic Girls' Cheng Xiao as the rookies.",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "su_qHCBusO8",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "1:20:58"
+        }
+      ]
+    },
+    {
+      "id": "happy-together-ep458",
+      "title": "Episode 458: Fake Friends Special",
+      "series": "happy-together",
+      "venue": "KBS2",
+      "date": "2016-07-21",
+      "note": "Jihyo and Tzuyu with Hong Seok-cheon and Wax, and makeup artists Son Dae-sik and Park Tae-yoon, out to prove their friendships are real.",
+      "members": "Jihyo, Tzuyu",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "h31ROrGcyrs",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "1:18:29"
+        }
+      ]
+    },
+    {
+      "id": "happy-together-ep498",
+      "title": "Episode 498: I Rule This Field Special",
+      "series": "happy-together",
+      "venue": "KBS2",
+      "date": "2017-05-11",
+      "note": "Sana and Tzuyu with Namkoong Min and Junho of Good Manager, Wang Ji-won and Hwang Seung-eon, and a surprise \"TT\" stage with Namkoong Min and Junho.",
+      "members": "Sana, Tzuyu",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "374TStcj66A",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "1:15:27"
+        }
+      ]
+    },
+    {
+      "id": "happy-together-ep537",
+      "title": "Episode 537: Hallyu Stars Special, Part 2",
+      "series": "happy-together",
+      "venue": "KBS2",
+      "date": "2018-05-03",
+      "note": "전설의 조동아리, the K-pop Hallyu stars special with Dynamic Duo, Hwang Chi-yeul and Jung Seung-hwan. Part 1 aired April 26.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "1XB-9t4X9GU",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "1:33:55"
+        }
+      ]
+    },
+    {
+      "id": "a-look-at-myself-ep25",
+      "title": "Episode 25",
+      "series": "a-look-at-myself",
+      "venue": "KBS2",
+      "date": "2016-01-15",
+      "note": "Tzuyu and GOT7's Jackson with Cho Young-nam and Lee Kyung-kyu: Tzuyu tries silkworm pupae and live octopus, and Jackson gets taken to a Korean bathhouse.",
+      "members": "Tzuyu",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "kiUbwKHwDbs",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "1:11:47"
+        }
+      ]
+    },
+    {
+      "id": "gag-concert-ep899",
+      "title": "Episode 899: Idiotic Robot (봇말려)",
+      "series": "gag-concert",
+      "venue": "KBS2",
+      "date": "2017-05-21",
+      "note": "Momo and Dahyun guest in the Idiotic Robot sketch, part 2 of the 900th-episode special, the week Signal came out.",
+      "members": "Momo, Dahyun",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "NyFxz7YrGR8",
+          "label": "Idiotic Robot Sketch · Eng Sub",
+          "official": true,
+          "duration": "6:50"
+        }
+      ]
+    },
+    {
+      "id": "gag-concert-ep945",
+      "title": "Episode 945: YOLO Inn (욜老 민박)",
+      "series": "gag-concert",
+      "venue": "KBS2",
+      "date": "2018-04-22",
+      "note": "Sana, Jihyo, Mina and Dahyun drop in on the YOLO Inn sketch. What is Love? era.",
+      "members": "Sana, Jihyo, Mina, Dahyun",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "3KXFjLXqzzQ",
+          "label": "YOLO Inn Sketch · Eng Sub",
+          "official": true,
+          "duration": "6:07"
+        }
+      ]
+    },
+    {
+      "id": "hello-counselor-ep328",
+      "title": "Episode 328",
+      "series": "hello-counselor",
+      "venue": "KBS2",
+      "date": "2017-06-05",
+      "note": "Jeongyeon and Dahyun with Boom. Jeongyeon on wanting to grow out her short hair, Dahyun on sleeping up to 26 hours.",
+      "members": "Jeongyeon, Dahyun",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "VlO_imuWJ0w",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "1:13:29"
+        }
+      ]
+    },
+    {
+      "id": "hello-counselor-ep360",
+      "title": "Episode 360",
+      "series": "hello-counselor",
+      "venue": "KBS2",
+      "date": "2018-04-09",
+      "note": "Jeongyeon, Sana and Tzuyu with Lee Ji-ae and Lee Min-woong. Tzuyu comforts a guest in tears and recalls her own Korean slip-up, saying \"지겨웠다\" for \"즐거웠다\".",
+      "members": "Jeongyeon, Sana, Tzuyu",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "1cublJWQ1YA",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "1:22:10"
+        }
+      ]
+    },
+    {
+      "id": "hello-counselor-ep388",
+      "title": "Episode 388",
+      "series": "hello-counselor",
+      "venue": "KBS2",
+      "date": "2018-11-12",
+      "note": "Mina and Jihyo with Park Joon-hyung, Kim Ji-hye and Hanhae: who's the dorm's cleaning queen, and who can't be bothered. YES or YES era.",
+      "members": "Jihyo, Mina",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "VZ_9XX-zQl0",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "1:21:57"
+        }
+      ]
+    },
+    {
+      "id": "hello-counselor-ep431",
+      "title": "Episode 431",
+      "series": "hello-counselor",
+      "venue": "KBS2",
+      "date": "2019-09-30",
+      "note": "Momo and Dahyun with Baek Ji-young and Hwang Jae-sung, on the show's last episode before its break; Dahyun does Momo's famous sneeze.",
+      "members": "Momo, Dahyun",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "HQzEJefE2xA",
+          "label": "Part 1 · Eng Sub",
+          "official": true,
+          "duration": "42:08"
+        },
+        {
+          "kind": "episode",
+          "url": "CjwccfS2ScA",
+          "label": "Part 2 · Eng Sub",
+          "official": true,
+          "duration": "33:54"
+        }
+      ]
+    },
+    {
+      "id": "icsyv-s4-ep13",
+      "title": "Season 4, Episode 13",
+      "series": "i-can-see-your-voice",
+      "venue": "Mnet",
+      "date": "2017-05-25",
+      "note": "All nine as the guest artists, trying to pick out the tone-deaf singers without hearing them — and getting it right.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4799305264011776",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "1:10:16",
+          "thumb": "https://p.bstarstatic.com/ugc/e1b29bb82baec128c44c5120328041a1.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "lets-eat-dinner-together-2017",
+      "title": "Jeongyeon & Dahyun",
+      "series": "lets-eat-dinner-together",
+      "venue": "JTBC",
+      "date": "2017-11-08",
+      "note": "Knocking on doors in Jamsil's apartment blocks, where a fan and a birthday get them their dinner.",
+      "members": "Jeongyeon, Dahyun",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://drive.google.com/file/d/1TAtac5WT8sTmVss5W0aR28TQrJhKPavP/view",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "thumb": "https://drive.google.com/thumbnail?id=1TAtac5WT8sTmVss5W0aR28TQrJhKPavP&sz=w640",
+          "duration": "1:34:21"
+        }
+      ],
+      "credit": {
+        "name": "ONCE ZONE",
+        "url": "https://once.zone/"
+      }
+    },
+    {
+      "id": "night-of-tv-entertainment-2017",
+      "title": "Likey Comeback Interview",
+      "series": "night-of-tv-entertainment",
+      "venue": "SBS",
+      "date": "2017-11-07",
+      "note": "A week after Likey: Tzuyu on being ranked among the world's most beautiful faces, and Jihyo on worrying that success so fast could fade just as fast.",
+      "credit": {
+        "name": "ONCE ZONE",
+        "url": "https://once.zone/"
+      },
+      "videos": [
+        {
+          "kind": "other",
+          "url": "https://drive.google.com/file/d/1AhbvhOlXAXGDnbQGuQIZDbDUJBsmUTPv/view",
+          "label": "TWICE's Segment · Eng Sub",
+          "official": false,
+          "duration": "6:20",
+          "thumb": "https://drive.google.com/thumbnail?id=1AhbvhOlXAXGDnbQGuQIZDbDUJBsmUTPv&sz=w640"
+        }
+      ]
+    },
+    {
+      "id": "entertainment-weekly-2016-field-day",
+      "title": "Field Day",
+      "series": "entertainment-weekly",
+      "venue": "KBS2",
+      "date": "2016-10-29",
+      "note": "A sports day with TWICE, the week TT came out.",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "XO07KH9TwfY",
+          "label": "TWICE's Segment · Eng Sub",
+          "official": true,
+          "duration": "7:38"
+        }
+      ]
+    },
+    {
+      "id": "entertainment-weekly-2017-school-attack",
+      "title": "School Attack",
+      "series": "entertainment-weekly",
+      "venue": "KBS2",
+      "date": "2017-06-02",
+      "note": "TWICE surprise a school with a performance. Signal era.",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "Dc3HqmVhJwo",
+          "label": "TWICE's Segment · Eng Sub",
+          "official": true,
+          "duration": "7:38"
+        }
+      ]
+    },
+    {
+      "id": "entertainment-weekly-2018-school-attack",
+      "title": "School Attack: Kwangwoon University",
+      "series": "entertainment-weekly",
+      "venue": "KBS2",
+      "date": "2018-04-20",
+      "note": "Filmed April 10 at Kwangwoon University. What is Love? era.",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "j9w3ql56vhE",
+          "label": "TWICE's Segment · Eng Sub",
+          "official": true,
+          "duration": "7:53"
+        }
+      ]
+    },
+    {
+      "id": "entertainment-weekly-2018-guerrilla-date",
+      "title": "Guerrilla Date",
+      "series": "entertainment-weekly",
+      "venue": "KBS2",
+      "date": "2018-07-13",
+      "note": "Dance the Night Away era.",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "SpMUJ4EGPsU",
+          "label": "TWICE's Segment · Eng Sub",
+          "official": true,
+          "duration": "7:54"
+        }
+      ]
+    },
+    {
+      "id": "entertainment-weekly-2018-fall-picnic",
+      "title": "Fall Picnic",
+      "series": "entertainment-weekly",
+      "venue": "KBS2",
+      "date": "2018-11-09",
+      "note": "An autumn picnic with TWICE. YES or YES era.",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "waPihwk_OU0",
+          "label": "TWICE's Segment · Eng Sub",
+          "official": true,
+          "duration": "9:26"
+        },
+        {
+          "kind": "episode",
+          "url": "https://www.youtube.com/watch?v=yei86vwG_-g&t=1991",
+          "label": "Full Episode · Eng Sub (TWICE from 33:11)",
+          "official": true,
+          "duration": "47:43"
+        }
+      ]
+    },
+    {
+      "id": "my-hometown-2020-part1",
+      "title": "Oh! Manbogi with TWICE, Part 1",
+      "series": "six-oclock-my-hometown",
+      "venue": "KBS1",
+      "date": "2020-06-03",
+      "note": "Yangpyeong, Gyeonggi: Dumulmeori hot dogs, MORE & MORE out in the fields, and planting rice.",
+      "members": "Jeongyeon, Momo, Sana, Mina, Chaeyoung",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "DdUYiULhRSQ",
+          "label": "Part 1",
+          "official": true,
+          "duration": "14:01"
+        }
+      ]
+    },
+    {
+      "id": "amazing-saturday-ep18",
+      "title": "Episode 18",
+      "series": "amazing-saturday",
+      "venue": "tvN",
+      "date": "2018-08-04",
+      "note": "\"I Love Sports\" at Mangwon Market, Seoul.",
+      "members": "Momo, Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2041972942",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:14:53",
+          "thumb": "https://p.bstarstatic.com/ugc/af84cf0e9f649720152d032376ba9042.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "amazing-saturday-ep132",
+      "title": "Episode 132",
+      "series": "amazing-saturday",
+      "venue": "tvN",
+      "date": "2020-10-31",
+      "note": "A 5th debut anniversary special, at Mokdong Kkabi Market.",
+      "members": "Nayeon, Jihyo, Dahyun",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4786491892567552",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:19:52",
+          "thumb": "https://p.bstarstatic.com/ugc/ba9450c047755f136af966acd1cd1d4a.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "amazing-saturday-ep164",
+      "title": "Episode 164",
+      "series": "amazing-saturday",
+      "venue": "tvN",
+      "date": "2021-06-12",
+      "note": "\"Passion! Passion! Passion!\" at Sinjang Market, Hanam. Alcohol-Free era.",
+      "members": "Sana, Dahyun",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4787468520396288",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:21:41",
+          "thumb": "https://p.bstarstatic.com/ugc/4a818a4ab2ea459b52b790b1df357f81.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "amazing-saturday-ep218",
+      "title": "Episode 218",
+      "series": "amazing-saturday",
+      "venue": "tvN",
+      "date": "2022-06-25",
+      "note": "\"If It's Pop, It's Pop\" for Nayeon's solo debut, with Chris Hemsworth as a special correspondent on video.",
+      "members": "Nayeon, Momo, Chaeyoung",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2043628780",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:27:17",
+          "thumb": "https://p.bstarstatic.com/ugc/55e90fe532c3b38b6fc2fc9677bfdc94.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "amazing-saturday-ep254",
+      "title": "Episode 254",
+      "series": "amazing-saturday",
+      "venue": "tvN",
+      "date": "2023-03-11",
+      "note": "\"Freely Saturday\" for SET ME FREE, with ZE:A's Hwang Kwang-hee.",
+      "members": "Jeongyeon, Jihyo, Dahyun",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4786415874608128",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:27:44",
+          "thumb": "https://p.bstarstatic.com/ugc/c3ffb0210a7d30fb30f62895f6bf47f9.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "amazing-saturday-ep268",
+      "title": "Episode 268",
+      "series": "amazing-saturday",
+      "venue": "tvN",
+      "date": "2023-06-17",
+      "note": "Dahyun stands in for Taeyeon in the cast; the guests are Kim Nam-hee and Park Ha-sun.",
+      "members": "Dahyun",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4787525252684288",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:27:37",
+          "thumb": "https://p.bstarstatic.com/ugc/5dd900e5e48978c6efacc1813cf09ed4.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "amazing-saturday-ep269",
+      "title": "Episode 269",
+      "series": "amazing-saturday",
+      "venue": "tvN",
+      "date": "2023-06-24",
+      "note": "Dahyun stands in for Taeyeon again; the guests are Kim Dong-wook and Chun Woo-hee.",
+      "members": "Dahyun",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4787606729397760",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:27:09",
+          "thumb": "https://p.bstarstatic.com/ugc/e143bbff2c6f0cffe917c8b0f4323956.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "2d1n-s3-dream-in-your-40s",
+      "title": "Season 3: Dream in Your 40s, Part 2",
+      "series": "2-days-1-night",
+      "venue": "KBS2",
+      "date": "2018-12-09",
+      "note": "TWICE drop by Kim Jong-min's café, where he makes even his juniors pay for their coffee. They're on from 13:00.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.youtube.com/watch?v=_OgL8nXtrgA&t=780",
+          "label": "Full Episode · Eng Sub (TWICE from 13:00)",
+          "official": true,
+          "duration": "1:22:11"
+        }
+      ]
+    },
+    {
+      "id": "super-intern-twice",
+      "title": "TWICE's Parts",
+      "series": "super-intern",
+      "venue": "Mnet",
+      "date": "2019-01-31",
+      "note": "A fan cut of TWICE's scenes. The whole group consulted the interns on Episode 2 (January 31, 2019); Dahyun and Chaeyoung came back in March.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.dailymotion.com/video/x755ey5",
+          "label": "TWICE Cut · Eng Sub",
+          "official": false,
+          "duration": "57:06",
+          "thumb": "https://s1.dmcdn.net/v/Pldlj1eor5NahxDzf/x720"
+        }
+      ]
+    },
+    {
+      "id": "dancing-high-ep3",
+      "title": "Episode 3",
+      "series": "dancing-high",
+      "venue": "KBS2",
+      "date": "2018-09-21",
+      "note": "Momo as a special judge, with Chungha, J-Black, Ha Hwi-dong and UNB's Pildok and Euijin.",
+      "members": "Momo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2045297543",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "1:14:59",
+          "thumb": "https://p.bstarstatic.com/ugc/d69d423e4a60061c02f9505363694cba.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "hit-the-stage-ep1",
+      "title": "Episode 1: Devil",
+      "series": "hit-the-stage",
+      "venue": "Mnet",
+      "date": "2016-07-27",
+      "note": "The first round, on the theme \"Devil\": Momo trades her bright image for a vampire princess.",
+      "members": "Momo",
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "vCFOLaHvdRg",
+          "label": "Full Performance: Vampire Momo",
+          "official": true,
+          "duration": "2:28",
+          "mustWatch": true
+        },
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2044877035",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "1:05:17",
+          "thumb": "https://p.bstarstatic.com/ugc/d1179a384478292daacef6af5a9cdf89.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "hit-the-stage-ep2",
+      "title": "Episode 2: Devil",
+      "series": "hit-the-stage",
+      "venue": "Mnet",
+      "date": "2016-08-03",
+      "note": "The rest of the \"Devil\" round and its final ranking.",
+      "members": "Momo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2046161185",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "1:06:09",
+          "thumb": "https://p.bstarstatic.com/ugc/d1179a384478292daacef6af5a9cdf89.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "hit-the-stage-ep3",
+      "title": "Episode 3",
+      "series": "hit-the-stage",
+      "venue": "Mnet",
+      "date": "2016-08-10",
+      "note": "Momo's stage with Mina comes the week after, in Episode 4.",
+      "members": "Momo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2040151838",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "1:07:21",
+          "thumb": "https://p.bstarstatic.com/ugc/d1179a384478292daacef6af5a9cdf89.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "hit-the-stage-ep4",
+      "title": "Episode 4: Crazy Love",
+      "series": "hit-the-stage",
+      "venue": "Mnet",
+      "date": "2016-08-17",
+      "note": "Momo and Mina perform together on the theme \"Crazy Love\": \"Crazy in Love\", with a Fifty Shades of Grey concept.",
+      "members": "Momo, Mina",
+      "videos": [
+        {
+          "kind": "performance",
+          "url": "4rpY57eJqfM",
+          "label": "Full Performance: Crazy in Love, with Mina",
+          "official": true,
+          "duration": "2:28",
+          "mustWatch": true
+        },
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4786084047490048",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "1:09:08",
+          "thumb": "https://p.bstarstatic.com/ugc/d1179a384478292daacef6af5a9cdf89.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "eat-in-style-2018",
+      "title": "Jeongyeon & Dahyun",
+      "series": "eat-in-style",
+      "venue": "SBS",
+      "date": "2018-10-19",
+      "note": "The show's first girl-group guests: they go after giant rock oysters, and Jeongyeon's \"nostrils of truth\" only react to food that's really good.",
+      "members": "Jeongyeon, Dahyun",
+      "videos": []
+    },
+    {
+      "id": "battle-trip-ep141",
+      "title": "Episode 141: Ganghwado Healing Tour",
+      "series": "battle-trip",
+      "venue": "KBS2",
+      "date": "2019-05-11",
+      "note": "Dahyun, Chaeyoung and Tzuyu plan a spring trip to Ganghwado for the \"Korean islands\" theme: five meals in a day, a luge ride, and a foot-bath café.",
+      "members": "Dahyun, Chaeyoung, Tzuyu",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "PZvfcuK_Ozs",
+          "label": "Part 1 · Eng Sub",
+          "official": true,
+          "duration": "45:53"
+        },
+        {
+          "kind": "episode",
+          "url": "IPU0LeJsnaU",
+          "label": "Part 2 · Eng Sub",
+          "official": true,
+          "duration": "30:55"
+        }
+      ]
+    },
+    {
+      "id": "300-x2-ep1",
+      "title": "Episode 1: TWICE",
+      "series": "300-x2",
+      "venue": "tvN",
+      "date": "2019-05-03",
+      "note": "The show's first episode: TWICE perform with 300 fans picked from over 3,000 applicants, from all over Korea and as far as Malaysia and Japan.",
+      "credit": {
+        "name": "ONCE ZONE",
+        "url": "https://once.zone/"
+      },
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "xKJJR64j3Ko",
+          "label": "Part 1 · Eng Sub",
+          "official": false,
+          "duration": "12:12"
+        },
+        {
+          "kind": "episode",
+          "url": "L4czcvUWb6Y",
+          "label": "Part 2 · Eng Sub",
+          "official": false,
+          "duration": "10:20"
+        },
+        {
+          "kind": "episode",
+          "url": "tJ1r_5bnbbo",
+          "label": "Part 3 · Eng Sub",
+          "official": false,
+          "duration": "11:55"
+        },
+        {
+          "kind": "episode",
+          "url": "vEe_t-RwW10",
+          "label": "Part 4 · Eng Sub",
+          "official": false,
+          "duration": "8:41"
+        },
+        {
+          "kind": "episode",
+          "url": "ZAKx406lIFc",
+          "label": "Part 5 · Eng Sub",
+          "official": false,
+          "duration": "8:58"
+        },
+        {
+          "kind": "episode",
+          "url": "E75FG8s15Rc",
+          "label": "Part 6 · Eng Sub",
+          "official": false,
+          "duration": "10:49"
+        }
+      ]
+    },
+    {
+      "id": "where-is-my-home-ep61",
+      "title": "Episode 61",
+      "series": "where-is-my-home",
+      "venue": "MBC",
+      "date": "2020-06-07",
+      "note": "Jihyo and Mina join Boom's team to find a home for a brother and sister and their dog. Jihyo on six years of dorm life (\"3 bathrooms for 9 people\"), Mina on wanting sunlight. MORE & MORE era.",
+      "members": "Jihyo, Mina",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/2048489548",
+          "label": "TWICE Cut · Eng Sub",
+          "official": false,
+          "duration": "55:29",
+          "thumb": "https://p.bstarstatic.com/ugc/d7f4c278b45282f435ce6c3761be3733.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "beat-coin-ep49",
+      "title": "Episode 49",
+      "series": "beat-coin",
+      "venue": "KBS2",
+      "date": "2023-08-17",
+      "note": "Jihyo with Lee Sang-yeob and WINNER's Kim Jin-woo, in an episode where the cast turn up dressed as sports stars. Killin' Me Good era.",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.bilibili.tv/en/video/4788214224000512",
+          "label": "Full Episode",
+          "official": false,
+          "duration": "1:04:20",
+          "thumb": "https://p.bstarstatic.com/ugc/bf3ed2cf94c42ca08d1609ccebc3bab5.jpg@640w_360h.webp"
+        }
+      ]
+    },
+    {
+      "id": "dogs-are-incredible-2020",
+      "title": "Nayeon, Momo & Tzuyu",
+      "series": "dogs-are-incredible",
+      "venue": "KBS2",
+      "date": "2020-06-08",
+      "note": "Nayeon, Momo and Tzuyu join Lee Kyung-kyu and dog trainer Kang Hyung-wook. MORE & MORE era.",
+      "members": "Nayeon, Momo, Tzuyu",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "Q6_eiqz9ZA0",
+          "label": "TWICE's Segment, Part 1 · Spanish Sub",
+          "official": true,
+          "duration": "12:24"
+        },
+        {
+          "kind": "other",
+          "url": "2vx8QdL2s0k",
+          "label": "TWICE's Segment, Part 2 · Spanish Sub",
+          "official": true,
+          "duration": "4:52"
+        }
+      ]
+    },
+    {
+      "id": "on-and-off-2021-sejeong-jihyo",
+      "title": "Kim Sejeong & Jihyo",
+      "series": "on-and-off",
+      "venue": "tvN",
+      "date": "2021-03-30",
+      "note": "Kim Sejeong spends her day off with her close friend Jihyo, ending up at a club so loud they can barely hear.",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "hfSkbsrofDQ",
+          "label": "Sejeong & Jihyo Segment",
+          "official": true,
+          "duration": "24:35"
+        }
+      ]
+    },
+    {
+      "id": "the-manager-ep205",
+      "title": "Episode 205: Nayeon",
+      "series": "the-manager",
+      "venue": "MBC",
+      "date": "2022-06-25",
+      "note": "Nayeon's day with her manager, and the first look at the dorm she shares with Momo: a Han River view, peeling wallpaper and iron marks on the floor. POP! era.",
+      "members": "Nayeon, Momo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://drive.google.com/file/d/1yOm2fG_mrWhroSk2nKdAElYYM6Wapqof/view",
+          "label": "Nayeon's Part · Eng Sub",
+          "official": false,
+          "duration": "44:28",
+          "thumb": "https://drive.google.com/thumbnail?id=1yOm2fG_mrWhroSk2nKdAElYYM6Wapqof&sz=w640"
+        }
+      ]
+    },
+    {
+      "id": "idol-on-quiz-ep16",
+      "title": "Episode 16: TWICE",
+      "series": "idol-on-quiz",
+      "venue": "KBS2",
+      "date": "2020-11-07",
+      "note": "Momo, Sana, Dahyun and Tzuyu on the quiz show that pits Korean and global idols against each other. KBS World's upload calls it #15.",
+      "members": "Momo, Sana, Dahyun, Tzuyu",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "hoEIjqxXvwE",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "47:02"
+        }
+      ]
+    },
+    {
+      "id": "kelly-clarkson-2023",
+      "title": "TWICE (2023)",
+      "series": "kelly-clarkson-show",
+      "venue": "NBC",
+      "date": "2023-03-14",
+      "note": "How the group came together on an audition show, like Kelly; seeing ONCE's faces, Takis and hamburgers in the US; and Tzuyu on the meaning of MOONLIGHT SUNRISE.",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "YS3Cny3l08E",
+          "label": "Interview: Favourite Things About Visiting America",
+          "official": true,
+          "duration": "6:19"
+        },
+        {
+          "kind": "other",
+          "url": "FWayd7Ya02A",
+          "label": "Clip: The Meaning Behind MOONLIGHT SUNRISE",
+          "official": true,
+          "duration": "1:26"
+        }
+      ]
+    },
+    {
+      "id": "dosi-hoetjip-ep8",
+      "title": "Episode 8",
+      "series": "dosi-hoetjip",
+      "venue": "Channel A",
+      "date": "2023-05-11",
+      "note": "Dahyun works a shift as the restaurant's new part-timer.",
+      "members": "Dahyun",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "sVZKWaGSTnc",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "1:30:51"
+        }
+      ]
+    },
+    {
+      "id": "today-show-2023",
+      "title": "TWICE (2023)",
+      "series": "today-show",
+      "venue": "NBC",
+      "date": "2023-07-05",
+      "note": "All nine introduce themselves to TODAY's viewers, as the first all-woman K-pop group to sell out a stadium in North America.",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "rsNALZdjisw",
+          "label": "Clip: Meet the Members",
+          "official": true,
+          "duration": "2:01"
+        }
+      ]
+    },
+    {
+      "id": "i-live-alone-jihyo",
+      "title": "Jihyo: Episodes 508, 516 & 530",
+      "series": "i-live-alone",
+      "venue": "MBC",
+      "date": "2023-08-18",
+      "note": "All three of Jihyo's episodes in one video. Ep. 508 (Aug 18, 2023): two years living on her own after six in the dorm, two walk-in closets, and Pilates. Ep. 516 (Oct 13, 2023): camping with her younger sister Jiyoung at the camping house their architect father built. Ep. 530 (Jan 26, 2024): New Year's tteokguk with Kim Sejeong and Kim Na-young.",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Txx6-XkmXlc",
+          "label": "All Three Episodes · Eng CC",
+          "official": true,
+          "duration": "1:59:59"
+        }
+      ]
+    },
+    {
+      "id": "sbs-8-news-2025",
+      "title": "Culture Road Interview: Nayeon, Jeongyeon & Jihyo",
+      "series": "sbs-8-news",
+      "venue": "SBS",
+      "date": "2025-07-14",
+      "note": "On SBS 8 News for THIS IS FOR: the 10th anniversary, the KPop Demon Hunters OST that Jeongyeon, Jihyo and Chaeyoung sang on, and the world tour. This is the full, uncut interview.",
+      "members": "Nayeon, Jeongyeon, Jihyo",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "MxmdeCx3u-U",
+          "label": "Full Interview",
+          "official": true,
+          "duration": "20:05"
+        }
+      ]
+    },
+    {
+      "id": "first-pitch-tzuyu-lg-2024",
+      "title": "Tzuyu: LG Twins First Pitch",
+      "series": "first-pitch",
+      "venue": "Jamsil Baseball Stadium",
+      "date": "2024-09-22",
+      "note": "Tzuyu throws the ceremonial first pitch for LG Twins, the week after abouTZU. She's first in KBO's compilation of the day's pitches, 0:02–1:31. Her behind-the-scenes vlog is on the Vlogs page, under TZUYU-log.",
+      "members": "Tzuyu",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "VPqVkhleWR0",
+          "label": "KBO First-Pitch Compilation (Tzuyu 0:02–1:31)",
+          "official": true,
+          "duration": "5:09"
         }
       ]
     }

@@ -221,6 +221,16 @@ function memberStyle(names, colors, groupColors) {
   return `background:${bg};color:${readableOn(cols[0])};`;
 }
 
+/* The member buttons take any number of members at once. Each page keeps its
+   pick as an array: an entry stays when it has any of the picked members, and
+   an empty pick ("Everyone") shows everything. */
+function toggleMember(picked, value) {
+  if (value === 'all') return [];
+  return picked.includes(value) ? picked.filter(m => m !== value) : [...picked, value];
+}
+const anyPicked    = (picked, has) => !picked.length || picked.some(has);
+const memberChipOn = (picked, value) => value === 'all' ? !picked.length : picked.includes(value);
+
 /* A pinned video leads, then every official upload ahead of every fan one, and
    within each of those the kinds in VIDEO_ORDER, so lyric videos read as a
    footnote. A show's full episode leads its own extras (behind clips,

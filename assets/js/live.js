@@ -34,7 +34,7 @@ const state = {
   data: null,
   query: '',
   series: 'all',
-  member: 'all',
+  members: [],     /* picked members; empty = everyone */
   year: 'all',
 };
 
@@ -72,7 +72,7 @@ function visibleEvents() {
   const q = state.query.trim().toLowerCase();
   return state.data.events.filter(e => {
     if (state.series !== 'all' && !inSeries(e, state.series)) return false;
-    if (state.member !== 'all' && !membersOf(e).includes(state.member)) return false;
+    if (!anyPicked(state.members, m => membersOf(e).includes(m))) return false;
     if (state.year !== 'all' && eventYear(e) !== state.year) return false;
     if (!q) return true;
     return [e.title, e.venue, e.artist, e.members, e.note, ...seriesKeys(e).map(seriesLabel), seasonLabel(e), e.date,
@@ -237,11 +237,15 @@ function renderProgress() {
 
 /* ---------- filters ---------- */
 
+/* current is one value, or an array for the multi-pick member row. */
 function chips(hostId, key, items, current) {
-  el(hostId).innerHTML = items.map(([value, label, n, style]) =>
-    `<button type="button" class="chip${current === value ? ' on' : ''}" data-${key}="${escapeHtml(value)}">${
+  const multi = Array.isArray(current);
+  el(hostId).innerHTML = items.map(([value, label, n, style]) => {
+    const on = multi ? memberChipOn(current, value) : current === value;
+    return `<button type="button" class="chip${on ? ' on' : ''}"${multi ? ` aria-pressed="${on}"` : ''} data-${key}="${escapeHtml(value)}">${
       style ? `<span class="dot" style="${style}"></span>` : ''}${escapeHtml(label)}${
-      n != null ? ` <span class="chip-n">${n}</span>` : ''}</button>`).join('');
+      n != null ? ` <span class="chip-n">${n}</span>` : ''}</button>`;
+  }).join('');
 }
 
 function renderChips() {
@@ -255,12 +259,19 @@ function renderChips() {
 
   /* A handful of series reads well as tabs (Vlogs, Concerts & Live). Past
      that the tabs wrap into a wall of buttons (TWICE TV has dozens of runs),
-     so the series become one dropdown instead, in the same order. */
+     so the series become one dropdown instead. */
   const host = el('series');
   const asPicker = seriesItems.length - 1 > TAB_LIMIT;
   host.classList.toggle('tabs', !asPicker);
   host.classList.toggle('picker', asPicker);
   if (asPicker) {
+    /* A long list is easier to search by name ("pickerOrder": "name" in the
+       data file); the sections below keep their airing order either way. */
+    if (state.data.pickerOrder === 'name') {
+      const [all, ...rest] = seriesItems;
+      rest.sort((a, b) => a[1].localeCompare(b[1], 'en', { numeric: true, sensitivity: 'base' }));
+      seriesItems.splice(0, seriesItems.length, all, ...rest);
+    }
     host.innerHTML = `<label class="series-picker">
         <span class="picker-label">Show</span>
         <select data-series-select aria-label="Show">${seriesItems.map(([value, label, n]) =>
@@ -277,21 +288,20 @@ function renderChips() {
      one turns up rather than sitting there saying only "Everyone". */
   const names = Object.keys(state.data.memberColors || {})
     .filter(m => events.some(e => membersOf(e).includes(m)));
+  state.members = state.members.filter(m => names.includes(m));
   el('members').hidden = !names.length;
   if (names.length) {
     chips('members', 'member', [
       ['all', 'Everyone'],
       ...names.map(m => [m, m, count(e => membersOf(e).includes(m)),
                          `background:${state.data.memberColors[m]}`]),
-    ], state.member);
-  } else if (state.member !== 'all') {
-    state.member = 'all';
+    ], state.members);
   }
 
   /* Years narrow to what the chosen series and member actually have. */
   const pool = events.filter(e =>
     (state.series === 'all' || inSeries(e, state.series)) &&
-    (state.member === 'all' || membersOf(e).includes(state.member)));
+    anyPicked(state.members, m => membersOf(e).includes(m)));
   const years = [...new Set(pool.map(eventYear))].filter(Boolean).sort();
   if (!years.includes(state.year)) state.year = 'all';
   chips('years', 'year', [['all', 'All years'], ...years.map(y => [y, y])], state.year);
@@ -312,7 +322,8 @@ function wireFilters() {
     el(hostId).addEventListener('click', e => {
       const chip = e.target.closest(`[data-${key}]`);
       if (!chip) return;
-      state[key] = chip.dataset[key];
+      if (key === 'member') state.members = toggleMember(state.members, chip.dataset.member);
+      else state[key] = chip.dataset[key];
       renderChips();
       renderList();
     });

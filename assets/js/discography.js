@@ -21,7 +21,7 @@ const state = {
   query: '',
   era: 'all',
   category: 'all',
-  member: 'all',
+  members: [],     /* picked members; empty = everyone */
   openId: null,
 };
 
@@ -103,7 +103,7 @@ function albumMembers(album) {
 }
 
 const inCategory = a => state.category === 'all' || a.category === state.category;
-const hasMember  = a => state.member === 'all' || albumMembers(a).has(state.member);
+const hasMember  = a => anyPicked(state.members, m => albumMembers(a).has(m));
 
 function visibleAlbums() {
   const q = state.query.trim().toLowerCase();
@@ -362,11 +362,12 @@ function renderMemberChips() {
   const counts = Object.keys(colors)
     .map(m => [m, pool.filter(a => albumMembers(a).has(m)).length])
     .filter(([, n]) => n);
-  if (state.member !== 'all' && !counts.some(([m]) => m === state.member)) state.member = 'all';
+  state.members = state.members.filter(m => counts.some(([c]) => c === m));
+  const on = m => memberChipOn(state.members, m);
   el('members').innerHTML = [
-    `<button type="button" class="chip${state.member === 'all' ? ' on' : ''}" data-member="all">Everyone</button>`,
+    `<button type="button" class="chip${on('all') ? ' on' : ''}" aria-pressed="${on('all')}" data-member="all">Everyone</button>`,
     ...counts.map(([m, n]) =>
-      `<button type="button" class="chip${state.member === m ? ' on' : ''}" data-member="${escapeHtml(m)}"><span class="dot" style="background:${escapeHtml(colors[m])}"></span>${escapeHtml(m)} <span class="chip-n">${n}</span></button>`),
+      `<button type="button" class="chip${on(m) ? ' on' : ''}" aria-pressed="${on(m)}" data-member="${escapeHtml(m)}"><span class="dot" style="background:${escapeHtml(colors[m])}"></span>${escapeHtml(m)} <span class="chip-n">${n}</span></button>`),
   ].join('');
 }
 
@@ -379,8 +380,8 @@ function wireFilters() {
   el('members').addEventListener('click', e => {
     const chip = e.target.closest('[data-member]');
     if (!chip) return;
-    state.member = chip.dataset.member;
-    [...el('members').children].forEach(c => c.classList.toggle('on', c === chip));
+    state.members = toggleMember(state.members, chip.dataset.member);
+    renderMemberChips();
     renderEraChips();
     renderGrid();
   });

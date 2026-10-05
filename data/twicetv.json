@@ -131,6 +131,10 @@
         {
           "key": "sana-tv",
           "label": "SANA TV"
+        },
+        {
+          "key": "all-abouTZU",
+          "label": "TZUYU Reality: All abouTZU"
         }
       ]
     },
@@ -5969,6 +5973,23 @@
       ]
     },
     {
+      "id": "twice-anniversary-h6me-party-6th",
+      "title": "6th Anniversary: H6ME PARTY with 6NCE",
+      "series": "anniversary",
+      "venue": "YouTube",
+      "date": "2021-10-20",
+      "note": "The 6th-anniversary live party with ONCE, streamed on TWICE's channel.",
+      "videos": [
+        {
+          "kind": "live",
+          "url": "yi7x_bMDygs",
+          "label": "Live Stream",
+          "official": true,
+          "duration": "1:38:47"
+        }
+      ]
+    },
+    {
       "id": "twice-anniversary-present-for-once-6th",
       "title": "Present For ONCE (6th)",
       "series": "anniversary",
@@ -6443,6 +6464,60 @@
           "url": "sqoPQZ-Tz3I",
           "official": true,
           "duration": "11:49"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-all-abouTZU-ep0",
+      "title": "EP.0: Prologue",
+      "series": "member-tv",
+      "season": "all-abouTZU",
+      "venue": "YouTube",
+      "date": "2024-09-09",
+      "note": "Tzuyu's reality series for her first solo album, abouTZU.",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "znhq5rEJVa8",
+          "official": true,
+          "duration": "4:40"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-all-abouTZU-ep1",
+      "title": "EP.1",
+      "series": "member-tv",
+      "season": "all-abouTZU",
+      "venue": "YouTube",
+      "date": "2024-09-16",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "sXhf3mv9DUg",
+          "official": true,
+          "duration": "28:45"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-all-abouTZU-ep2",
+      "title": "EP.2",
+      "series": "member-tv",
+      "season": "all-abouTZU",
+      "venue": "YouTube",
+      "date": "2024-09-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "3necB2puwQU",
+          "official": true,
+          "duration": "20:36"
         }
       ]
     },

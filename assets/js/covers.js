@@ -19,7 +19,7 @@ const state = {
   data: null,
   query: '',
   series: 'all',
-  member: 'all',
+  members: [],     /* picked members; empty = everyone */
   year: 'all',
 };
 
@@ -40,7 +40,7 @@ function visibleCovers() {
   const q = state.query.trim().toLowerCase();
   return state.data.covers.filter(c => {
     if (state.series !== 'all' && c.series !== state.series) return false;
-    if (state.member !== 'all' && !membersOf(c).includes(state.member)) return false;
+    if (!anyPicked(state.members, m => membersOf(c).includes(m))) return false;
     if (state.year !== 'all' && coverYear(c) !== state.year) return false;
     if (!q) return true;
     return [c.song, c.songKo, c.originalArtist, c.members, c.note,
@@ -149,11 +149,15 @@ function renderProgress() {
 
 /* ---------- filters ---------- */
 
+/* current is one value, or an array for the multi-pick member row. */
 function chips(hostId, key, items, current) {
-  el(hostId).innerHTML = items.map(([value, label, n, style]) =>
-    `<button type="button" class="chip${current === value ? ' on' : ''}" data-${key}="${escapeHtml(value)}">${
+  const multi = Array.isArray(current);
+  el(hostId).innerHTML = items.map(([value, label, n, style]) => {
+    const on = multi ? memberChipOn(current, value) : current === value;
+    return `<button type="button" class="chip${on ? ' on' : ''}"${multi ? ` aria-pressed="${on}"` : ''} data-${key}="${escapeHtml(value)}">${
       style ? `<span class="dot" style="${style}"></span>` : ''}${escapeHtml(label)}${
-      n != null ? ` <span class="chip-n">${n}</span>` : ''}</button>`).join('');
+      n != null ? ` <span class="chip-n">${n}</span>` : ''}</button>`;
+  }).join('');
 }
 
 function renderChips() {
@@ -168,16 +172,17 @@ function renderChips() {
   /* Members in the data file's colour order, only those with a cover. */
   const names = Object.keys(state.data.memberColors || {})
     .filter(m => covers.some(c => membersOf(c).includes(m)));
+  state.members = state.members.filter(m => names.includes(m));
   chips('members', 'member', [
     ['all', 'Everyone'],
     ...names.map(m => [m, m, count(c => membersOf(c).includes(m)),
                        `background:${state.data.memberColors[m]}`]),
-  ], state.member);
+  ], state.members);
 
   /* Years narrow to what the chosen series and member actually have. */
   const pool = covers.filter(c =>
     (state.series === 'all' || c.series === state.series) &&
-    (state.member === 'all' || membersOf(c).includes(state.member)));
+    anyPicked(state.members, m => membersOf(c).includes(m)));
   const years = [...new Set(pool.map(coverYear))].filter(Boolean).sort();
   if (!years.includes(state.year)) state.year = 'all';
   chips('years', 'year', [['all', 'All years'], ...years.map(y => [y, y])], state.year);
@@ -192,7 +197,8 @@ function wireFilters() {
     el(hostId).addEventListener('click', e => {
       const chip = e.target.closest(`[data-${key}]`);
       if (!chip) return;
-      state[key] = chip.dataset[key];
+      if (key === 'member') state.members = toggleMember(state.members, chip.dataset.member);
+      else state[key] = chip.dataset[key];
       renderChips();
       renderList();
     });

@@ -254,10 +254,10 @@ function renderPost(p, data) {
 
 const PAGE_SIZE = 15;
 
-const state = { data: null, posts: [], query: '', member: 'all', limit: PAGE_SIZE };
+const state = { data: null, posts: [], query: '', members: [], limit: PAGE_SIZE };
 
 const matches = p =>
-  (state.member === 'all' || p.filter.includes(state.member)) &&
+  anyPicked(state.members, m => p.filter.includes(m)) &&
   state.query.split(/\s+/).filter(Boolean).every(w => p.search.includes(w));
 
 /* A post's card is built the first time it's shown and then kept, only hidden
@@ -281,19 +281,20 @@ function showPosts() {
   el('none').hidden = hits.length > 0;
   el('more').hidden = hits.length <= state.limit;
   const n = state.posts.length;
-  el('count').innerHTML = state.query || state.member !== 'all'
+  el('count').innerHTML = state.query || state.members.length
     ? `<b>${hits.length}</b> of ${n} posts` : `${n} post${n === 1 ? '' : 's'}`;
 }
 
 function renderChips() {
   const colors = state.data.memberColors || {};
   const names  = Object.keys(colors).filter(m => state.posts.some(p => p.filter.includes(m)));
+  state.members = state.members.filter(m => names.includes(m));
   el('members').hidden = !names.length;
   el('members').innerHTML = [
     ['all', 'Everyone', state.posts.length, ''],
     ...names.map(m => [m, m, state.posts.filter(p => p.filter.includes(m)).length, `background:${colors[m]}`]),
   ].map(([value, label, n, style]) =>
-    `<button type="button" class="chip${state.member === value ? ' on' : ''}" data-member="${escapeHtml(value)}">${
+    `<button type="button" class="chip${memberChipOn(state.members, value) ? ' on' : ''}" aria-pressed="${memberChipOn(state.members, value)}" data-member="${escapeHtml(value)}">${
       style ? `<span class="dot" style="${style}"></span>` : ''}${escapeHtml(label)} <span class="chip-n">${n}</span></button>`
   ).join('');
 }
@@ -307,7 +308,7 @@ function wireFilters() {
   el('members').addEventListener('click', e => {
     const chip = e.target.closest('[data-member]');
     if (!chip) return;
-    state.member = chip.dataset.member;
+    state.members = toggleMember(state.members, chip.dataset.member);
     state.limit = PAGE_SIZE;
     renderChips();
     showPosts();

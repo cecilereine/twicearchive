@@ -3,6 +3,7 @@
   "note": "Variety shows made for YouTube, Netflix and other streaming platforms, one entry per episode. Grouped by show, like TV Variety: each show is one tab and one section, and a show that ran in seasons keeps each under its own sub-heading. Teasers and Shorts are left out. TWICE's own TIME TO TWICE has its own page.",
   "updated": "2026-10-02",
   "groupBy": "series",
+  "pickerOrder": "name",
   "series": [
     {
       "key": "1thek",
@@ -28,6 +29,11 @@
       ]
     },
     {
+      "key": "todays-room",
+      "label": "Today's Room (오늘의 방)",
+      "summary": "Mnet's weekly web show, posted to Naver tvcast, Daum tv pot and YouTube."
+    },
+    {
       "key": "mwave-meet-greet",
       "label": "Mwave MEET&GREET",
       "summary": "Mwave's live online fan meeting: stars chat live with fans worldwide, play games and sign gifts, with real-time translation."
@@ -38,9 +44,44 @@
       "summary": "M2's show where artists watch their own music video and tell the stories behind it."
     },
     {
+      "key": "snack-lab",
+      "label": "Snack Lab (간식연구소)",
+      "summary": "M2's short web show where idols make snacks from scratch."
+    },
+    {
+      "key": "amigo-tv",
+      "label": "Amigo TV (아미고TV)",
+      "summary": "아이돌에 미치고, 아미고TV: a 2017 idol variety web show on V LIVE and YouTube."
+    },
+    {
+      "key": "while-moms-asleep",
+      "label": "While Mom's Asleep (엄마가 잠든 후에)",
+      "summary": "Pikicast's ASMR variety show: guests cook and answer questions in whispers, careful not to wake \"Mom\"."
+    },
+    {
+      "key": "im-celuv",
+      "label": "I'm Celuv (아임셀럽)",
+      "summary": "Celuv.TV's live show, streamed in its app, where a star chats and plays games with fans in real time."
+    },
+    {
+      "key": "star-road",
+      "label": "Star Road (스타로드)",
+      "summary": "V LIVE's reality series of short episodes, showing a different side of a star than the one on stage."
+    },
+    {
+      "key": "inkigayo-checkin",
+      "label": "Inkigayo Check-in LIVE (인기가요 출첵라이브)",
+      "summary": "SBS KPOP's live web show with the artists of that week's Inkigayo."
+    },
+    {
       "key": "giant-peng-tv",
       "label": "Giant Peng TV (자이언트 펭TV)",
       "summary": "EBS's YouTube show starring Pengsoo, the giant penguin."
+    },
+    {
+      "key": "yeris-room",
+      "label": "Yeri's Room (예리한 방)",
+      "summary": "Red Velvet Yeri's visible-radio web show on Seezn, where she plays DJ to a guest."
     },
     {
       "key": "boatta",
@@ -58,6 +99,16 @@
       "summary": "SBS's YouTube talk show hosted by Jaejae (Lee Eun-jae)."
     },
     {
+      "key": "jyp-hard-drive",
+      "label": "J.Y. Park's Hard Drive Release (#박진영하드대방출)",
+      "summary": "J.Y. Park's YouTube project to find singers outside JYP for songs sitting on his hard drive."
+    },
+    {
+      "key": "jyp-edm",
+      "label": "Every Dream Matters! (JYP EDM)",
+      "summary": "JYP Entertainment's charity programme (CSR), \"Every Dream Matters\", and its EDM DAY specials on YouTube."
+    },
+    {
       "key": "showterview",
       "label": "Jessi's Showterview (제시의 쇼!터뷰)",
       "summary": "Jessi's no-holds-barred interview show on the Mobidic YouTube channel."
@@ -68,9 +119,49 @@
       "summary": "Studio K's unscripted \"real (?) documentary\" web series on KBS's K-pop YouTube channel. TWICE have been on four times."
     },
     {
+      "key": "seulgi-zip",
+      "label": "Seulgi.zip",
+      "summary": "Red Velvet Seulgi's live talk show on V LIVE."
+    },
+    {
+      "key": "turkids-on-the-block",
+      "label": "Turkids on the Block (터키즈 온 더 블럭)",
+      "summary": "Lee Yong-jin's ultra-low-budget street talk show on STUDIO WAFFLE."
+    },
+    {
+      "key": "odg",
+      "label": "ODG",
+      "summary": "ODG studio's YouTube channel of conversations between kids and the people they look up to."
+    },
+    {
+      "key": "monotube",
+      "label": "MONOTUBE (모노튜브)",
+      "summary": "A Korean YouTube channel of celebrity web shows."
+    },
+    {
+      "key": "no-charim",
+      "label": "차린건 없지만 (Lee Young-ji, 2021)",
+      "summary": "Lee Young-ji's 2021 show on its own channel, where she cooks for one guest. A different channel from No Prepare (차린건 쥐뿔도 없지만), which came later."
+    },
+    {
       "key": "pixid",
       "label": "PIXID (픽시드)",
       "summary": "A YouTube channel of hidden-identity games, where a star hides among others and has to stay undiscovered."
+    },
+    {
+      "key": "gap-of-itzy",
+      "label": "Gap of ITZY (빈틈있지)",
+      "summary": "ITZY's own talk-and-game show on NAVER NOW."
+    },
+    {
+      "key": "studio-moon-night",
+      "label": "Studio Moon Night (스튜디오 문나잇)",
+      "summary": "MAMAMOO Moonbyul's late-night talk show on NAVER NOW."
+    },
+    {
+      "key": "yongjin-health-center",
+      "label": "Yongjin Health Center (용진건강원)",
+      "summary": "Lee Yong-jin's advice talk show on STUDIO JAMBOX, with dancer Gabee."
     },
     {
       "key": "hal-myungsoo",
@@ -78,9 +169,24 @@
       "summary": "Park Myung-soo's YouTube variety show, made by JTBC."
     },
     {
+      "key": "leoj-makeup",
+      "label": "LeoJ Makeup (레오제이)",
+      "summary": "Makeup artist LeoJ's YouTube channel."
+    },
+    {
+      "key": "aikis-thumbs-up",
+      "label": "Aiki's Thumbs Up (아이키의 떰즈업)",
+      "summary": "Dancer Aiki's dance-and-talk show on NAVER NOW. (2022–2023): each week she and her guests complete the choreography for one song."
+    },
+    {
       "key": "no-prepare",
       "label": "No Prepare (차린건 쥐뿔도 없지만)",
       "summary": "Lee Young-ji's one-on-one drinking talk show on her YouTube channel."
+    },
+    {
+      "key": "jung-hyungdon-untitled",
+      "label": "Jung Hyung-don's Untitled TV (정형돈의 제목없음TV)",
+      "summary": "Jung Hyung-don's YouTube channel, with corners such as 이게 뭔 소리야!? and 용돈 줄게."
     },
     {
       "key": "k-star-next-door",
@@ -96,6 +202,36 @@
           "label": "Season 4"
         }
       ]
+    },
+    {
+      "key": "lil-cherry",
+      "label": "정신들체리세요 (Lil Cherry, 117)",
+      "summary": "Lil Cherry's beauty talk show on 117."
+    },
+    {
+      "key": "konodol",
+      "label": "Konodol (코노돌)",
+      "summary": "MBCkpop's web series where idols sing in a coin karaoke room (코인 노래방)."
+    },
+    {
+      "key": "bam-house",
+      "label": "BAMHOUSE (뱀집)",
+      "summary": "GOT7 BamBam's talk show on his YouTube channel, 깡시안: friends come over to his place for his home-brewed beer."
+    },
+    {
+      "key": "kangnami",
+      "label": "Kangnami's Channel (동네친구 강나미)",
+      "summary": "Kangnami's YouTube channel, made with SANDBOX."
+    },
+    {
+      "key": "gym-jongkook",
+      "label": "GYM JONG KOOK (짐종국)",
+      "summary": "Kim Jong-kook's fitness YouTube channel, where guests come to work out with him."
+    },
+    {
+      "key": "yes-or-hot",
+      "label": "Yes or Hot (예스오아핫)",
+      "summary": "Jeon Somi's spicy-food talk show, a two-episode pilot on the TEO channel."
     },
     {
       "key": "fridge-interview",
@@ -121,6 +257,21 @@
       ]
     },
     {
+      "key": "sseolply",
+      "label": "Sseolply (썰플리)",
+      "summary": "Lee Seok-hoon's music talk show on Studio Sseol: guests share their stories and make a playlist out of them."
+    },
+    {
+      "key": "eunchae-star-diary",
+      "label": "Eunchae's Star Diary (은채의 스타일기)",
+      "summary": "LE SSERAFIM Eunchae's interview show from Studio K, on KBS's K-pop YouTube channel."
+    },
+    {
+      "key": "kang-dog-uest-show",
+      "label": "Kang Hyung-wook's Dog-uest Show (강형욱의 개스트쇼)",
+      "summary": "Dog trainer Kang Hyung-wook's guest show on his channel 보듬TV, where celebrities bring their dogs."
+    },
+    {
       "key": "seibja",
       "label": "Seibja (세입자)",
       "summary": "Jihyo checks into guesthouses around Korea and abroad and reviews them, from Jeju to Bangkok, on ootb STUDIO.",
@@ -134,6 +285,36 @@
           "label": "Season 2"
         }
       ]
+    },
+    {
+      "key": "young-k-k-survival",
+      "label": "Young K's K-Survival (영케이의 K생존기)",
+      "summary": "DAY6 Young K's show on 117: each guest cooks a \"last meal\" with him and picks the items they'd keep to survive."
+    },
+    {
+      "key": "my-little-day",
+      "label": "My Little Day (마이리틀데이)",
+      "summary": "Studio K's day-in-the-life series on KBS's 아이돌 인간극장 channel: a camera follows one idol through a day of their own."
+    },
+    {
+      "key": "cellphone-kode",
+      "label": "Cellphone KODE (셀폰KODE)",
+      "summary": "KODE's blind-chat show: two guests text a \"code mate\" without knowing who's on the other end, then meet."
+    },
+    {
+      "key": "jo-hyunah-thursday-night",
+      "label": "Jo Hyun-ah's Thursday Night (조현아의 목요일 밤)",
+      "summary": "Urban Zakapa's Jo Hyun-ah's music talk show on Off The Record: K-POP."
+    },
+    {
+      "key": "bapmukja",
+      "label": "Kkondae Hee's Bapmukja (밥묵자)",
+      "summary": "Comedian Kim Dae-hee's YouTube channel, in character as the old-school Kkondae Hee: a guest comes over and they eat together."
+    },
+    {
+      "key": "lia-lity-show",
+      "label": "Lia-lity Show (리아리티쇼)",
+      "summary": "Choreographer Lia Kim's talk show on 1MILLION Dance Studio's channel."
     },
     {
       "key": "inspector",
@@ -151,13 +332,48 @@
       ]
     },
     {
+      "key": "risabae",
+      "label": "RISABAE (이사배)",
+      "summary": "Makeup artist Risabae's YouTube channel."
+    },
+    {
+      "key": "ppuppa-town",
+      "label": "Everland Ppuppa Town (뿌빠타운)",
+      "summary": "Everland's zoo show on its 말하는동물원 뿌빠TV channel, where guests try working as a zookeeper."
+    },
+    {
+      "key": "jae-friends",
+      "label": "Jae Friends (재친구)",
+      "summary": "Kim Jae-joong's cross-generation talk show, where he sets out to make friends with each guest."
+    },
+    {
       "key": "trick-kode",
       "label": "Trick KODE (트릭KODE)",
       "summary": "Nayeon's first show as host, on the KODE channel: a blind guessing game where she works out who the hidden guest is from their smartphone."
     },
     {
+      "key": "good-job-today",
+      "label": "Good Job Today (수고했어 오늘도)",
+      "summary": "dingo story's show where stars turn up to surprise and cheer on someone chasing a dream."
+    },
+    {
       "key": "hyeris-club",
       "label": "Hyeri's Club (혤's club)"
+    },
+    {
+      "key": "naraesik",
+      "label": "Naraesik (나래식)",
+      "summary": "Comedian Park Na-rae's cooking-and-drinks talk show on her YouTube channel."
+    },
+    {
+      "key": "sungan-ppojjak",
+      "label": "Sungan Ppojjak (순간뽀짝 세상에 이런 아이돌이)",
+      "summary": "SBS KPOP's idol show from Studio Prism, a play on SBS's 순간포착 세상에 이런 일이."
+    },
+    {
+      "key": "bapsahyo",
+      "label": "Hyo's Level Up: Bapsahyo (밥사효)",
+      "summary": "Girls' Generation Hyoyeon's YouTube channel. On 밥사효 she treats a guest to a meal."
     },
     {
       "key": "iu-palette",
@@ -170,14 +386,39 @@
       "summary": "BIGBANG Daesung's YouTube talk show."
     },
     {
+      "key": "kickflip-debut-lecture",
+      "label": "KickFlip's JYP Debut Lecture (JYP 데뷔 특강)",
+      "summary": "JYP's new boy group KickFlip ask their seniors for debut advice, on KickFlip's channel."
+    },
+    {
+      "key": "ahn-sohee",
+      "label": "Ahn So-hee's Channel (안소희)",
+      "summary": "Former Wonder Girls member Ahn So-hee's YouTube channel; 안고독한 소식가 is her small-eater's food series."
+    },
+    {
       "key": "pinggyego",
       "label": "Pinggyego (핑계고)",
       "summary": "Yoo Jae-suk's talk show on the DdeunDdeun (뜬뜬) YouTube channel."
     },
     {
+      "key": "spotify-kpop-on",
+      "label": "Spotify K-Pop ON!",
+      "summary": "Spotify's K-pop video podcast. Full episodes stream only in the Spotify app; Spotify Korea's YouTube posts the highlights."
+    },
+    {
+      "key": "maejeom-gayo",
+      "label": "Maejeom Gayo (인기가요 끝나면 매점가요)",
+      "summary": "SBS KPOP's after-Inkigayo show: the snack bar the artists drop into once the broadcast ends."
+    },
+    {
       "key": "yoo-got-a-minute",
       "label": "YOO Got a Minute?",
       "summary": "Comedian Yoo Byung-jae's Disney+ talk show (고독한 인터뷰, The Quiet Interview)."
+    },
+    {
+      "key": "bibbidi-babbidi-boo",
+      "label": "Boo Seungkwan's Bibbidi Babbidi Boo (비비디바비디부)",
+      "summary": "SEVENTEEN Seungkwan's cooking and talk show on 117."
     },
     {
       "key": "choo-sung-hoon",
@@ -201,7 +442,8 @@
           "url": "6-sCxviQdo8",
           "label": "Full Episode",
           "official": true,
-          "duration": "32:54"
+          "duration": "32:54",
+          "mustWatch": true
         }
       ]
     },
@@ -2268,6 +2510,23 @@
       ]
     },
     {
+      "id": "season-b-season-s4-ep48",
+      "title": "Season 4, Episode 48: JYP 30th Anniversary Concert",
+      "series": "season-b-season",
+      "venue": "시즌비시즌 (YouTube)",
+      "date": "2024-09-26",
+      "note": "Rain goes to perform at J.Y. Park's 30th-anniversary concert, which turns into a JYP family reunion with g.o.d, Wonder Girls, 2PM and TWICE.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "https://www.youtube.com/watch?v=YcWIzZOfzis&t=518",
+          "label": "Full Episode · Eng Sub (TWICE from 8:38)",
+          "official": true,
+          "duration": "14:29"
+        }
+      ]
+    },
+    {
       "id": "mmtg-ep151",
       "title": "Episode 151: TWICE",
       "series": "mmtg",
@@ -2289,7 +2548,7 @@
       "title": "Episode 82: Home-cation",
       "series": "pinggyego",
       "venue": "뜬뜬 DdeunDdeun (YouTube)",
-      "date": "2025-07-11",
+      "date": "2025-07-12",
       "note": "A summer \"home-cation\" with Yoo Jae-suk and Ji Suk-jin.",
       "members": "Nayeon, Jeongyeon, Sana, Jihyo",
       "videos": [
@@ -2578,6 +2837,23 @@
       ]
     },
     {
+      "id": "mwave-meet-greet-2016-11-14",
+      "title": "MEET&GREET: 'TWICEcoaster : LANE 1'",
+      "series": "mwave-meet-greet",
+      "venue": "Mwave (YouTube)",
+      "date": "2016-11-14",
+      "note": "Their third mini album, the TT comeback.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ChKyF63-OXs",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "53:18"
+        }
+      ]
+    },
+    {
       "id": "pixid-nayeon-2022",
       "title": "Find Nayeon in the Rookie Idol Group Chat",
       "series": "pixid",
@@ -2719,6 +2995,1176 @@
           "label": "Full Episode",
           "official": true,
           "duration": "28:44"
+        }
+      ]
+    },
+    {
+      "id": "eunchae-star-diary-ep36",
+      "title": "Episode 36: Nayeon",
+      "series": "eunchae-star-diary",
+      "venue": "KBS Kpop (YouTube)",
+      "date": "2024-03-07",
+      "note": "A two-way fan meeting: Eunchae, a ONCE herself, interviews Nayeon. ONE SPARK era.",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "A_WSwFerTw0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "22:50"
+        }
+      ]
+    },
+    {
+      "id": "kangnami-jihyo-crepe-cake",
+      "title": "A Giant Crepe Cake with Jihyo",
+      "series": "kangnami",
+      "venue": "동네친구 강나미 (YouTube)",
+      "date": "2023-08-21",
+      "note": "Jihyo and Kangnami build an oversized crepe cake. Killin' Me Good era.",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "5BPs83XFnUs",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:52"
+        }
+      ]
+    },
+    {
+      "id": "kangnami-hanpan-ep11",
+      "title": "One-Round Match, Episode 11: Sana",
+      "series": "kangnami",
+      "venue": "동네친구 강나미 (YouTube)",
+      "date": "2024-11-21",
+      "note": "Sana and Kangnami face off in a Korean-language battle to settle whose Korean is better.",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "2GUN94w7dXw",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:46"
+        }
+      ]
+    },
+    {
+      "id": "eunchae-star-diary-ep57",
+      "title": "Episode 57: Tzuyu",
+      "series": "eunchae-star-diary",
+      "venue": "KBS Kpop (YouTube)",
+      "date": "2024-09-12",
+      "note": "Eunchae names Tzuyu her #1 goddess in real life. Run Away era.",
+      "members": "Tzuyu",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "4IgbROLbZSk",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "18:38"
+        }
+      ]
+    },
+    {
+      "id": "no-charim-ep10",
+      "title": "Episode 10: Chaeyoung",
+      "series": "no-charim",
+      "venue": "차린건 없지만 (YouTube)",
+      "date": "2021-12-31",
+      "note": "New Year's Eve 2021: Young-ji cooks for Chaeyoung and reads her tarot.",
+      "members": "Chaeyoung",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "0Opp6meixwc",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "11:55"
+        }
+      ]
+    },
+    {
+      "id": "young-k-k-survival-ep2",
+      "title": "Episode 2: Nayeon",
+      "series": "young-k-k-survival",
+      "venue": "117 (YouTube)",
+      "date": "2024-05-17",
+      "note": "Nayeon cooks her last meal with Young K and picks the survival items she'd keep.",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "QkqKMLUBbXk",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "30:07"
+        }
+      ]
+    },
+    {
+      "id": "ppuppa-town-tzuyu",
+      "title": "Tzuyu, Rookie Zookeeper",
+      "series": "ppuppa-town",
+      "venue": "말하는동물원 뿌빠TV (YouTube)",
+      "date": "2024-09-12",
+      "note": "Tzuyu spends a day as a rookie zookeeper at Everland, with a sloth and fennec foxes. Run Away era.",
+      "members": "Tzuyu",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Z7y00tUr10k",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:45"
+        }
+      ]
+    },
+    {
+      "id": "good-job-today-dahyun-chaeyoung",
+      "title": "Dahyun & Chaeyoung",
+      "series": "good-job-today",
+      "venue": "dingo story (YouTube)",
+      "date": "2024-11-28",
+      "note": "They surprise Jae-hyung, a fan who dreams of becoming a TV producer: a café disguise, a baking class and a tour of the JYP building.",
+      "members": "Dahyun, Chaeyoung",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "WFmKviC3IE4",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "15:23"
+        }
+      ]
+    },
+    {
+      "id": "hal-myungsoo-ep211",
+      "title": "Episode 211: Nayeon & Jihyo",
+      "series": "hal-myungsoo",
+      "venue": "할명수 (YouTube)",
+      "date": "2024-11-29",
+      "note": "Nayeon and Jihyo wear Park Myung-soo out with nine people's worth of energy.",
+      "members": "Nayeon, Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Sia2Oisd9ew",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "29:59"
+        }
+      ]
+    },
+    {
+      "id": "sungan-ppojjak-dahyun",
+      "title": "Dahyun",
+      "series": "sungan-ppojjak",
+      "venue": "SBS KPOP (YouTube)",
+      "date": "2024-12-08",
+      "note": "\"People never recognize me...\"",
+      "members": "Dahyun",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "8BdhGA3vBrg",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "11:40"
+        }
+      ]
+    },
+    {
+      "id": "bapsahyo-ep20",
+      "title": "Episode 20: Momo",
+      "series": "bapsahyo",
+      "venue": "효연의 레벨업 Hyo's Level Up (YouTube)",
+      "date": "2024-12-11",
+      "note": "Momo's first solo talk show: meeting Hyoyeon, her casting story, MISAMO, and the Strategy challenge.",
+      "members": "Momo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "33BPXeC3ksU",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "39:21"
+        }
+      ]
+    },
+    {
+      "id": "kickflip-debut-lecture-ep4",
+      "title": "Episode 4: Nayeon & Momo",
+      "series": "kickflip-debut-lecture",
+      "venue": "KickFlip (YouTube)",
+      "date": "2025-01-30",
+      "note": "",
+      "members": "Nayeon, Momo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "oeUVcY402qU",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "16:22"
+        }
+      ]
+    },
+    {
+      "id": "cellphone-kode-nayeon",
+      "title": "Nayeon & Lee Na-yeon",
+      "series": "cellphone-kode",
+      "venue": "KODE (YouTube)",
+      "date": "2024-06-19",
+      "note": "Two Nayeons, the other the dating-show star Lee Na-yeon, find they're practically doppelgängers: favourite apps, jellies and dating shows. NA era.",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "reUduVdGD6o",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:11"
+        }
+      ]
+    },
+    {
+      "id": "cellphone-kode-dahyun",
+      "title": "B1A4 Jinyoung & Dahyun",
+      "series": "cellphone-kode",
+      "venue": "KODE (YouTube)",
+      "date": "2025-02-19",
+      "note": "Dahyun knows who her chat partner is; Jinyoung, her co-star in You Are the Apple of My Eye, doesn't. Out to promote the film.",
+      "members": "Dahyun",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "13RmgRsLV5Q",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "20:12"
+        }
+      ]
+    },
+    {
+      "id": "maejeom-gayo-ep13",
+      "title": "Episode 13: TWICE",
+      "series": "maejeom-gayo",
+      "venue": "SBS KPOP (YouTube)",
+      "date": "2025-07-25",
+      "note": "A 10th-anniversary party for ONCE. THIS IS FOR era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "8Jjzn8Y7x9U",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "27:54"
+        }
+      ]
+    },
+    {
+      "id": "spotify-kpop-on-house-party",
+      "title": "TWICE House Party",
+      "series": "spotify-kpop-on",
+      "venue": "Spotify Korea (YouTube)",
+      "date": "2025-07-18",
+      "note": "A 10th-anniversary party at the Spotify House. The full version is on the K-Pop ON! video podcast in the Spotify app. THIS IS FOR era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "QQNGyws-OAw",
+          "label": "Highlights",
+          "official": true,
+          "duration": "9:21"
+        }
+      ]
+    },
+    {
+      "id": "todays-room-ep14",
+      "title": "Episode 14: TWICE Cooking Show",
+      "series": "todays-room",
+      "venue": "Mnet (YouTube)",
+      "date": "2015-11-04",
+      "note": "A game to win sandwich ingredients, then a sandwich-making battle between first-time cooks, set to a mystery \"I'm Hungry\" song. Part 3 has the winners and a bonus Like OOH-AHH performance with individual cams.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Ug76YFq35UY",
+          "label": "Part 1: Scramble for Ingredients",
+          "official": true,
+          "duration": "8:14"
+        },
+        {
+          "kind": "episode",
+          "url": "VNZSh-bzcPw",
+          "label": "Part 2: Cooking Battle",
+          "official": true,
+          "duration": "11:33"
+        },
+        {
+          "kind": "episode",
+          "url": "1KUPSTUKe3I",
+          "label": "Part 3: Results + Like OOH-AHH (Today's Room ver.)",
+          "official": true,
+          "duration": "11:33"
+        }
+      ]
+    },
+    {
+      "id": "inkigayo-checkin-ep1",
+      "title": "Episodes 1–2: TWICE",
+      "series": "inkigayo-checkin",
+      "venue": "SBS KPOP (YouTube)",
+      "date": "2019-10-06",
+      "note": "Album unboxing, a cover dance challenge, Showtime HOT6, a body-language quiz, a reflex battle, a mukbang and a live Q&A. Eight members; Mina was on hiatus. Feel Special era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "t5p6Uu1quGE",
+          "label": "Part 1 · Eng Sub",
+          "official": true,
+          "duration": "20:21"
+        },
+        {
+          "kind": "episode",
+          "url": "dvHq3NaC0K0",
+          "label": "Part 2 · Eng Sub",
+          "official": true,
+          "duration": "15:50"
+        }
+      ],
+      "members": "Nayeon, Jeongyeon, Momo, Sana, Jihyo, Dahyun, Chaeyoung, Tzuyu"
+    },
+    {
+      "id": "snack-lab-ep1",
+      "title": "Episode 1: Popcorn",
+      "series": "snack-lab",
+      "venue": "M2 (YouTube)",
+      "date": "2016-05-27",
+      "note": "TWICE make popcorn coated in dalgona candy, and Sana blows out a fire on the hotplate. Cheer Up era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "srS9ao691p0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "4:03"
+        }
+      ]
+    },
+    {
+      "id": "bapmukja-nayeon",
+      "title": "Nayeon",
+      "series": "bapmukja",
+      "venue": "꼰대희 (YouTube)",
+      "date": "2024-06-22",
+      "note": "Nayeon sits down to a meal with Kkondae Hee. NA era.",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "jmKGfqMI1PE",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "22:57"
+        }
+      ]
+    },
+    {
+      "id": "while-moms-asleep-twice",
+      "title": "TWICE",
+      "series": "while-moms-asleep",
+      "venue": "Pikicast (YouTube)",
+      "date": "2018-05-17",
+      "note": "An ASMR shoot that turns into a party of meme-worthy moments, with Dahyun's camera-spotting at 6:54. What is Love? era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "XMBPaGg_r58",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "13:50",
+          "mustWatch": true
+        }
+      ]
+    },
+    {
+      "id": "amigo-tv-twice",
+      "title": "TWICE",
+      "series": "amigo-tv",
+      "venue": "V LIVE · YouTube",
+      "date": "2017-02-27",
+      "note": "First released in six parts. This copy is the whole episode in one, with V LIVE's English subtitles. Knock Knock era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "TIe1dRtZSYo",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "32:48",
+          "mustWatch": true
+        }
+      ]
+    },
+    {
+      "id": "im-celuv-chaeyoung-tzuyu",
+      "title": "Chaeyoung & Tzuyu",
+      "series": "im-celuv",
+      "venue": "Celuv.TV",
+      "date": "2018-07-10",
+      "note": "The maknaes' live \"reverse fan meeting\" in the Celuv.TV app: a random dance, a telepathy game and love requests. Dance the Night Away era.",
+      "members": "Chaeyoung, Tzuyu",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "XhnfOnB8cGM",
+          "label": "Full Broadcast (Replay)",
+          "official": true,
+          "duration": "1:34:27"
+        },
+        {
+          "kind": "other",
+          "url": "O8oOi6uIDNs",
+          "label": "Clip: \"Tzuyu… I think you're having a hard time\"",
+          "official": true,
+          "duration": "14:49"
+        }
+      ]
+    },
+    {
+      "id": "star-road-twice",
+      "title": "Star Road: TWICE",
+      "series": "star-road",
+      "venue": "V LIVE",
+      "date": "2019-03-04",
+      "note": "24 short episodes on V LIVE, March 4–27, 2019. This copy puts all 24 in one video, with the repeated intros and outros cut.",
+      "members": "Momo, Sana, Dahyun, Tzuyu",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "QlX0maLRn08",
+          "label": "Episodes 1–24 (Compilation)",
+          "official": false,
+          "duration": "2:09:17"
+        }
+      ]
+    },
+    {
+      "id": "yeris-room-ep2",
+      "title": "Episode 2: Nayeon",
+      "series": "yeris-room",
+      "venue": "Seezn · YouTube",
+      "date": "2020-06-15",
+      "note": "The show's first guest: Red Velvet's Yeri and her friend Nayeon. Part 2 is all about how much they both love to eat. MORE & MORE era.",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "5-40gjivVxI",
+          "label": "Part 1 · Eng Sub",
+          "official": true,
+          "duration": "13:06"
+        },
+        {
+          "kind": "episode",
+          "url": "Ia_6YXOV3YU",
+          "label": "Part 2 · Eng Sub",
+          "official": true,
+          "duration": "10:15"
+        }
+      ]
+    },
+    {
+      "id": "yeris-room-ep3",
+      "title": "Episode 3: Nayeon, Cooking",
+      "series": "yeris-room",
+      "venue": "Seezn · YouTube",
+      "date": "2020-06-22",
+      "note": "Yeri and Nayeon turn the room into a cooking show: gimbap with only the fillings they like, and cookies.",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "gvjOaJWIvUo",
+          "label": "Part 1 · Eng Sub",
+          "official": true,
+          "duration": "10:04"
+        },
+        {
+          "kind": "episode",
+          "url": "ya9SrcP1awA",
+          "label": "Part 2 · Eng Sub",
+          "official": true,
+          "duration": "10:36"
+        }
+      ]
+    },
+    {
+      "id": "jyp-hard-drive-ep2",
+      "title": "Episode 2: Corny Love Song (by Yoyomi)",
+      "series": "jyp-hard-drive",
+      "venue": "J.Y. Park (YouTube)",
+      "date": "2021-01-25",
+      "note": "Nayeon, as J.Y. Park's star pupil, welcomes trot singer Yoyomi to the JYP building and gives her tips before she records his song.",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "YiWShXLifUc",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "13:50"
+        }
+      ]
+    },
+    {
+      "id": "jyp-edm-day-2021-03",
+      "title": "JYP EDM DAY (March 2021)",
+      "series": "jyp-edm",
+      "venue": "JYP Entertainment (YouTube)",
+      "date": "2021-03-25",
+      "note": "Sana with 2PM's Wooyoung on JYP's charity day special.",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "NE95RElSqPc",
+          "label": "Full Video",
+          "official": true,
+          "duration": "34:20"
+        }
+      ]
+    },
+    {
+      "id": "jyp-edm-day-2021-12",
+      "title": "2021 JYP EDM DAY",
+      "series": "jyp-edm",
+      "venue": "JYP Entertainment (YouTube)",
+      "date": "2021-12-24",
+      "note": "Sana with Stray Kids' Bang Chan, looking back on a year of JYP's charity work with fans.",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "RL7UO1mLyME",
+          "label": "Full Video",
+          "official": true,
+          "duration": "21:34"
+        }
+      ]
+    },
+    {
+      "id": "jyp-edm-day-2022",
+      "title": "2022 JYP EDM DAY",
+      "series": "jyp-edm",
+      "venue": "JYP Entertainment (YouTube)",
+      "date": "2022-12-24",
+      "note": "Sana with 2PM's Wooyoung again, looking back on JYP's 2022 charity work: medical-cost support, and a funding project with 2PM's Junho.",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "UaZvQTDsIxY",
+          "label": "Full Video",
+          "official": true,
+          "duration": "33:12"
+        }
+      ]
+    },
+    {
+      "id": "lil-cherry-ep1",
+      "title": "Episode 1: Chaeyoung",
+      "series": "lil-cherry",
+      "venue": "117 (YouTube)",
+      "date": "2022-09-13",
+      "note": "The first guest: Chaeyoung, Lil Cherry's fellow INFP, at her favourite salon, talking through her beauty worries.",
+      "members": "Chaeyoung",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "GuZlEB6YCu0",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "17:51"
+        }
+      ]
+    },
+    {
+      "id": "turkids-ep23",
+      "title": "Episode 23: Sana, Dahyun & Chaeyoung",
+      "series": "turkids-on-the-block",
+      "venue": "STUDIO WAFFLE (YouTube)",
+      "date": "2021-11-19",
+      "note": "Lee Yong-jin, a big fan, gets Sana, Dahyun and Chaeyoung on his street talk show: a bombshell from Sana, and his reaction to SCIENTIST. Formula of Love era.",
+      "members": "Sana, Dahyun, Chaeyoung",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "_SNMVy6V4Dg",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "13:24"
+        }
+      ]
+    },
+    {
+      "id": "bibbidi-boo-jihyo-jeongyeon",
+      "title": "Jihyo & Jeongyeon",
+      "series": "bibbidi-babbidi-boo",
+      "venue": "117 (YouTube)",
+      "date": "2026-05-14",
+      "note": "SEVENTEEN's Seungkwan treats Jihyo and Jeongyeon to a Korean meal and an alcohol-free toast: first impressions, Jeongyeon's SIXTEEN bob, the TWICE–SEVENTEEN fight story, and their Star King and ISAC days.",
+      "members": "Jeongyeon, Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "WRu8CU3_Buk",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "41:19"
+        }
+      ]
+    },
+    {
+      "id": "seulgi-zip-ep49",
+      "title": "Episode 49: Jeongyeon & Jihyo",
+      "series": "seulgi-zip",
+      "venue": "V LIVE",
+      "date": "2021-11-16",
+      "note": "Red Velvet's Seulgi has Jeongyeon and Jihyo over on her live show. Formula of Love era.",
+      "members": "Jeongyeon, Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "6aUG1MxKL8k",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:25:12"
+        }
+      ]
+    },
+    {
+      "id": "bam-house-ep9",
+      "title": "Episode 9: Jihyo",
+      "series": "bam-house",
+      "venue": "깡시안 (YouTube)",
+      "date": "2023-03-17",
+      "note": "BamBam and Jihyo, friends since they were JYP trainees 14 years earlier, go through the history of their friendship over his home-brewed beer. SET ME FREE era.",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "0YAspcbazf0",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "17:41"
+        }
+      ]
+    },
+    {
+      "id": "bam-house-special-ep2",
+      "title": "Special Episode 2: Nayeon",
+      "series": "bam-house",
+      "venue": "깡시안 (YouTube)",
+      "date": "2024-06-14",
+      "note": "A special before Season 3: BamBam owns up to his trainee-days crush on Nayeon, the noona he looked up to like Shin-chan does Nanako. NA era.",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "TxoGJnolzYU",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "42:34"
+        }
+      ]
+    },
+    {
+      "id": "leoj-makeup-jihyo",
+      "title": "Jihyo at JYP",
+      "series": "leoj-makeup",
+      "venue": "LeoJ Makeup (YouTube)",
+      "date": "2022-08-29",
+      "note": "LeoJ goes to JYP to meet his favourite member, Jihyo, for a chat, and takes in J.Y. Park's very self-loving office decor. Talk that Talk era.",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "HSDrUjO71MM",
+          "label": "Full Video",
+          "official": true,
+          "duration": "16:42"
+        }
+      ]
+    },
+    {
+      "id": "aikis-thumbs-up-ep24",
+      "title": "Episode 24: Mina & Tzuyu",
+      "series": "aikis-thumbs-up",
+      "venue": "NAVER NOW.",
+      "date": "2022-08-30",
+      "note": "Mina and Tzuyu join dancer Aiki to learn and finish a choreography together, with talk in between. Talk that Talk era.",
+      "members": "Mina, Tzuyu",
+      "credit": {
+        "name": "tzuyuism614",
+        "url": "https://twitter.com/tzuyuism614"
+      },
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ID5mLYLwJDU",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:03:00"
+        }
+      ]
+    },
+    {
+      "id": "monotube-jeongyeon-once-again",
+      "title": "Jeongyeon: Once Again",
+      "series": "monotube",
+      "venue": "모노튜브 (YouTube)",
+      "date": "2021-11-27",
+      "note": "Four weekly parts (Nov 27 – Dec 18, 2021) as Jeongyeon gets ready to return to the stage: LEGO, rooftop tent practice and her cat Bam, then a road trip to a campsite in Gangwon-do, a birch forest, pizza and sheep, and her resolutions for 2022.",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "yJ2lLg_tYqo",
+          "label": "Part 1 · Eng Sub",
+          "official": true,
+          "duration": "9:20"
+        },
+        {
+          "kind": "episode",
+          "url": "18unuw5rKnY",
+          "label": "Part 2 · Eng Sub",
+          "official": true,
+          "duration": "11:01"
+        },
+        {
+          "kind": "episode",
+          "url": "QoWJcvW6Q8E",
+          "label": "Part 3 · Eng Sub",
+          "official": true,
+          "duration": "10:38"
+        },
+        {
+          "kind": "episode",
+          "url": "B-uUrM2dwfU",
+          "label": "Part 4 · Eng Sub",
+          "official": true,
+          "duration": "10:40"
+        }
+      ]
+    },
+    {
+      "id": "monotube-dahyun-free",
+      "title": "Dahyun-Free",
+      "series": "monotube",
+      "venue": "모노튜브 (YouTube)",
+      "date": "2022-05-18",
+      "note": "Four weekly parts (May 18 – June 8, 2022) of Dahyun on her own: eating alone in the JYP cafeteria, a Han River walk with her dog Ari, a day out around Yongsan, her skincare without makeup, designing a tarpaulin bag, a book café, and a finale at Hwarangdae Railway Park.",
+      "members": "Dahyun",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "TdQ73cese3g",
+          "label": "Part 1 · Eng Sub",
+          "official": true,
+          "duration": "9:39"
+        },
+        {
+          "kind": "episode",
+          "url": "XH77d00MqVg",
+          "label": "Part 2 · Eng Sub",
+          "official": true,
+          "duration": "11:20"
+        },
+        {
+          "kind": "episode",
+          "url": "WpjKj3VkFXw",
+          "label": "Part 3 · Eng Sub",
+          "official": true,
+          "duration": "11:20"
+        },
+        {
+          "kind": "episode",
+          "url": "2Egk7rx5NcA",
+          "label": "Part 4 · Eng Sub",
+          "official": true,
+          "duration": "10:35"
+        }
+      ]
+    },
+    {
+      "id": "monotube-earth-defenders-sana",
+      "title": "Earth Defenders: Sana (지구 특공대)",
+      "series": "monotube",
+      "venue": "모노튜브 (YouTube)",
+      "date": "2022-09-01",
+      "note": "A sponsored RE:EARTH challenge for Lotte Department Store and the Korea Environment Foundation: Sana revisits her Cheongdam-dong memories and goes plogging around the neighbourhood.",
+      "members": "Sana",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "DwVenLbEO0s",
+          "label": "Full Video · Eng Sub",
+          "official": true,
+          "duration": "9:38"
+        }
+      ]
+    },
+    {
+      "id": "monotube-earth-defenders-jihyo",
+      "title": "Earth Defenders: Jihyo (지구 특공대)",
+      "series": "monotube",
+      "venue": "모노튜브 (YouTube)",
+      "date": "2024-06-05",
+      "note": "The RE:EARTH challenge returns for 2024: Jihyo goes plogging at Olympic Park and around the JYP building.",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "uOfnrbh2T0E",
+          "label": "Full Video · Eng Sub",
+          "official": true,
+          "duration": "7:56"
+        }
+      ]
+    },
+    {
+      "id": "jung-hyungdon-untitled-ep10",
+      "title": "What's That Sound?! Episode 10: Jeongyeon & Dahyun",
+      "series": "jung-hyungdon-untitled",
+      "venue": "정형돈의 제목없음TV (YouTube)",
+      "date": "2022-09-02",
+      "note": "Jung Hyung-don, their old Weekly Idol host, welcomes back Jeongyeon and Dahyun after the re-signing and the Talk that Talk comeback, and finds the seven-year veterans much harder to rattle.",
+      "members": "Jeongyeon, Dahyun",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "9bgBcIl6vrs",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "25:42"
+        }
+      ]
+    },
+    {
+      "id": "jung-hyungdon-untitled-2025-jeongyeon",
+      "title": "I'll Give You Pocket Money: Jeongyeon (용돈 줄게)",
+      "series": "jung-hyungdon-untitled",
+      "venue": "정형돈의 제목없음TV (YouTube)",
+      "date": "2025-02-18",
+      "note": "Jeongyeon's second time on the channel, as the first guest of 2025: she answers back like an old friend and walks off with most of the pocket money.",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "bP0kiHsPXgo",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "37:44"
+        }
+      ]
+    },
+    {
+      "id": "konodol-twice",
+      "title": "Episodes 6–7: TWICE",
+      "series": "konodol",
+      "venue": "MBCkpop (YouTube)",
+      "date": "2022-09-22",
+      "note": "TWICE take over a coin karaoke room. Both episodes are the full, previously unaired versions. Talk that Talk era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "h0aoiGvRgUk",
+          "label": "Episode 6 (Unaired Full Version)",
+          "official": true,
+          "duration": "8:40"
+        },
+        {
+          "kind": "episode",
+          "url": "7lQ2P3UEGtc",
+          "label": "Episode 7 (Unaired Full Version)",
+          "official": true,
+          "duration": "8:58"
+        }
+      ]
+    },
+    {
+      "id": "gap-of-itzy-s2-ep9",
+      "title": "Season 2, Episode 9: Nayeon",
+      "series": "gap-of-itzy",
+      "venue": "NAVER NOW.",
+      "date": "2022-06-27",
+      "note": "Nayeon joins ITZY as the guest, the week of her solo debut with POP!.",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "wrsGnNZFf24",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:25:56"
+        }
+      ]
+    },
+    {
+      "id": "studio-moon-night-nayeon",
+      "title": "Nayeon",
+      "series": "studio-moon-night",
+      "venue": "NAVER NOW.",
+      "date": "2022-06-29",
+      "note": "Moonbyul's guest the week POP! came out. A short part is cut from this copy for copyright reasons.",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ZpVRLO3PmFI",
+          "label": "Full Episode · Eng Sub",
+          "official": false,
+          "duration": "1:01:37"
+        }
+      ]
+    },
+    {
+      "id": "yongjin-health-center-ep5",
+      "title": "Episode 5: Nayeon",
+      "series": "yongjin-health-center",
+      "venue": "STUDIO JAMBOX (YouTube)",
+      "date": "2022-06-30",
+      "note": "Nayeon brings her worry about being shy with people she doesn't know, and is told she doesn't need to change. POP! era.",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "rWHwQVgGke8",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "15:57"
+        }
+      ]
+    },
+    {
+      "id": "odg-twice-2021",
+      "title": "What Is TWICE to a High-School Junior? (고2에게 트와이스란?)",
+      "series": "odg",
+      "venue": "ODG (YouTube)",
+      "date": "2021-11-19",
+      "note": "Teenagers who grew up with TWICE look back on the group's career. Formula of Love era.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "Z3uBgd76Pik",
+          "label": "Full Video",
+          "official": true,
+          "duration": "16:21"
+        }
+      ]
+    },
+    {
+      "id": "gym-jongkook-jihyo",
+      "title": "Jihyo",
+      "series": "gym-jongkook",
+      "venue": "김종국 GYM JONG KOOK (YouTube)",
+      "date": "2023-08-24",
+      "note": "Jihyo works out with Kim Jong-kook, with bodybuilder Ma Sun-ho as co-host, and impresses them as practically an athlete. Killin' Me Good era.",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "OqKAJBc_JcY",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "28:02",
+          "mustWatch": true
+        }
+      ]
+    },
+    {
+      "id": "yes-or-hot-ep2",
+      "title": "Episode 2: Chaeyoung",
+      "series": "yes-or-hot",
+      "venue": "TEO (YouTube)",
+      "date": "2023-08-30",
+      "note": "Somi's \"first-love unnie\" Chaeyoung, just back from the US tour, takes on American hot food: stories from SIXTEEN and half a lifetime of friendship. The pilot's final episode.",
+      "members": "Chaeyoung",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "NKr5fD7BcMU",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "30:44"
+        }
+      ]
+    },
+    {
+      "id": "sseolply-jyp-training",
+      "title": "Training Stories at JYP (트레이닝썰)",
+      "series": "sseolply",
+      "venue": "스튜디오 썰 (YouTube)",
+      "date": "2024-02-29",
+      "note": "Lee Seok-hoon visits JYP to hear what it takes to debut there, with Jihyo, NMIXX's Haewon and Xdinary Heroes' Jooyeon and O.de. Jihyo is in front of the JYP building from 0:37.",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "1m_dU6kXcXA",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "31:02"
+        }
+      ]
+    },
+    {
+      "id": "dog-uest-show-ep27",
+      "title": "Episode 27: Jeongyeon & Gong Seung-yeon",
+      "series": "kang-dog-uest-show",
+      "venue": "강형욱의 보듬TV (YouTube)",
+      "date": "2024-04-13",
+      "note": "Sisters Jeongyeon and actress Gong Seung-yeon bring their dogs to show off, and end up bickering.",
+      "members": "Jeongyeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "rm3EodlSdHw",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "18:14"
+        }
+      ]
+    },
+    {
+      "id": "ahn-sohee-nayeon-jihyo",
+      "title": "안고독한 소식가: Nayeon & Jihyo",
+      "series": "ahn-sohee",
+      "venue": "안소희 (YouTube)",
+      "date": "2025-07-11",
+      "note": "Former Wonder Girl Ahn So-hee, their old JYP senior, takes Nayeon and Jihyo to try Pyongyang naengmyeon for the first time. THIS IS FOR era.",
+      "members": "Nayeon, Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "RciU7CskzaQ",
+          "label": "Full Video",
+          "official": true,
+          "duration": "22:53"
+        }
+      ]
+    },
+    {
+      "id": "naraesik-ep12",
+      "title": "Episode 12: Jihyo",
+      "series": "naraesik",
+      "venue": "나래식 (YouTube)",
+      "date": "2024-12-04",
+      "note": "Park Na-rae drops in on Jihyo's family campsite: being TWICE's leader (\"I'll die five years early\"), the re-signing, a tarot reading on the new song, and a campfire meal. Strategy era.",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "OVfA-9zClU4",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "31:54"
+        }
+      ]
+    },
+    {
+      "id": "thursday-night-ep78",
+      "title": "Episode 78: Nayeon",
+      "series": "jo-hyunah-thursday-night",
+      "venue": "Off The Record: K-POP (YouTube)",
+      "date": "2024-06-20",
+      "note": "Nayeon, back solo with NA: the swings she goes looking for on her own, the selfies she takes when she cries, and her ideal type.",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "HHtOM2IAVs4",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "24:03"
+        }
+      ]
+    },
+    {
+      "id": "lia-lity-show-ep1",
+      "title": "Episode 1: Nayeon",
+      "series": "lia-lity-show",
+      "venue": "1MILLION Dance Studio (YouTube)",
+      "date": "2024-07-05",
+      "note": "The show's first guest: Nayeon, Lia Kim's favourite student from her years as a JYP dance trainer, with stories from Nayeon's trainee days. NA era.",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "N7_WUFTjk6Q",
+          "label": "Full Episode",
+          "official": true,
+          "duration": "19:10"
+        }
+      ]
+    },
+    {
+      "id": "risabae-tzuyu",
+      "title": "Tzuyu's Makeup",
+      "series": "risabae",
+      "venue": "RISABAE (YouTube)",
+      "date": "2024-09-10",
+      "note": "Makeup artist Risabae does Tzuyu's makeup, turning her puppy look into a cat look, for her first solo album abouTZU.",
+      "members": "Tzuyu",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "rkNgJlCUF9g",
+          "label": "Full Video",
+          "official": true,
+          "duration": "15:11"
+        }
+      ]
+    },
+    {
+      "id": "jae-friends-ep52",
+      "title": "Episode 52: Tzuyu",
+      "series": "jae-friends",
+      "venue": "재친구 Jae Friends (YouTube)",
+      "date": "2024-09-12",
+      "note": "Season 3's eleventh guest: Kim Jae-joong makes friends with Tzuyu, TWICE's well-behaved maknae, as she debuts solo with abouTZU.",
+      "members": "Tzuyu",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "8CkjvAMa4hU",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "30:28"
+        }
+      ]
+    },
+    {
+      "id": "my-little-day-ep4",
+      "title": "Episode 4: Nayeon",
+      "series": "my-little-day",
+      "venue": "아이돌 인간극장 (YouTube)",
+      "date": "2024-06-15",
+      "note": "A day all to herself: doing her own makeup, brunch in Seongsu, and raiding a shop of cute little things. NA era.",
+      "members": "Nayeon",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "gGnr8Z6PpA8",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "38:21"
         }
       ]
     }
