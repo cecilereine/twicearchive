@@ -170,7 +170,11 @@
     {
       "key": "tdoong-ent",
       "label": "TWICE TV — TDOONG Entertainment",
-      "summary": "Season 1 of TDOONG Entertainment, posted as TWICE TV in 2019. Season 2 is on the TIME TO TWICE page."
+      "summary": "Season 1 of TDOONG Entertainment, posted as TWICE TV in 2019. Season 2 is on the TIME TO TWICE page.",
+      "seeAlso": {
+        "label": "TDOONG Entertainment Season 2 on TIME TO TWICE",
+        "href": "timetotwice.html#ttt-tdoong-ent-s2-ep1"
+      }
     },
     {
       "key": "feel-special",

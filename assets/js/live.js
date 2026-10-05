@@ -141,6 +141,13 @@ const sectionHead = (title, n, years = '', must = false) => `
    the years they span. A series without seasons shows its years on its own
    heading instead (SIXTEEN 2015). A series, like a season, can carry
    "mustWatch" and a "summary". */
+/* A series split across two pages points to its other half ("seeAlso":
+   {"label", "href"}), e.g. TDOONG Entertainment: Season 1 on TWICE TV,
+   Season 2 on TIME TO TWICE. The href can carry #event-id to land on it. */
+const seeAlso = s => s?.seeAlso
+  ? `<p class="season-summary see-also"><a href="${escapeHtml(s.seeAlso.href)}">${escapeHtml(s.seeAlso.label)} →</a></p>`
+  : '';
+
 function seriesSections(events) {
   const listed = (state.data.series || []).map(s => s.key);
   const keys = [...listed, ...new Set(events.map(e => e.series).filter(k => !listed.includes(k)))];
@@ -159,6 +166,7 @@ function seriesSections(events) {
       ${sectionHead(seriesLabel(key), countable(mine), seasons.length ? '' : yearSpan(mine),
                     seriesOf(key)?.mustWatch)}
       ${seriesOf(key)?.summary ? `<p class="season-summary">${escapeHtml(seriesOf(key).summary)}</p>` : ''}
+      ${seeAlso(seriesOf(key))}
       ${parts.map(([season, list]) => {
         /* A season can pin its "years" when a late upload (a Secret Cut clip
            posted years on) would otherwise stretch the span. */

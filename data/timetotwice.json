@@ -78,7 +78,11 @@
     {
       "key": "tdoong-ent",
       "label": "TDOONG Entertainment Season 2",
-      "summary": "Season 1 was fan club concept content, so it isn't here — you don't need to have seen it to follow Season 2."
+      "summary": "Season 1 was posted as TWICE TV in 2019 and is on the TWICE TV page. You don't need to have seen it to follow Season 2.",
+      "seeAlso": {
+        "label": "TDOONG Entertainment Season 1 on TWICE TV",
+        "href": "twicetv.html#twice-tdoong-ent-marketing-team"
+      }
     },
     {
       "key": "yes-or-no",

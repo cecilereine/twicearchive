@@ -62,6 +62,11 @@
       "summary": "SBS's long-running race variety show: missions at landmarks, capped by the name-tag elimination game."
     },
     {
+      "key": "chef-and-my-fridge",
+      "label": "Chef & My Fridge (냉장고를 부탁해)",
+      "summary": "JTBC's cooking show: star chefs race to make dishes using only what's in a guest's own fridge."
+    },
+    {
       "key": "happy-together",
       "label": "Happy Together (해피투게더)",
       "summary": "KBS2's long-running Thursday-night talk show."
@@ -518,19 +523,89 @@
       ]
     },
     {
-      "id": "oppa-thinking-twice-song",
-      "title": "TWICE Song (트와이스송)",
+      "id": "oppa-thinking-ep2",
+      "title": "Episode 2: TWICE",
       "series": "oppa-thinking",
       "venue": "MBC",
-      "date": "2017-06-01",
-      "note": "A song written for TWICE on the show that runs through all nine names. It became a fan favourite.",
+      "date": "2017-05-27",
+      "note": "TWICE's episode, in MBC's clips: the TWICE Song (트와이스송) written for them that runs through all nine names and became a fan favourite, word-chain games, Chaeyoung's journal and teaching the hosts their choreography. SIGNAL era.",
       "videos": [
         {
           "kind": "special",
           "url": "YdeeXDO--cs",
-          "label": "Clip",
+          "label": "TWICE Song (트와이스송)",
           "official": true,
           "duration": "2:05"
+        },
+        {
+          "kind": "special",
+          "url": "mujSFwG6fR4",
+          "label": "Special Song With Each Member's Name In It",
+          "official": true,
+          "duration": "2:15"
+        },
+        {
+          "kind": "special",
+          "url": "JdTHHfPuYro",
+          "label": "Dahyun's Powerful but a Bit Weird Dance",
+          "official": true,
+          "duration": "2:47"
+        },
+        {
+          "kind": "special",
+          "url": "FCVhlZrMDOM",
+          "label": "Tzuyu, Momo, Sana & Mina Play Word Chain in Korean",
+          "official": true,
+          "duration": "2:57"
+        },
+        {
+          "kind": "special",
+          "url": "OgVOq1ovyTo",
+          "label": "TWICE Mistake Moments",
+          "official": true,
+          "duration": "2:40"
+        },
+        {
+          "kind": "special",
+          "url": "A5u-7C-q9tU",
+          "label": "The Members Say \"Jihyo Is the Cutest\"",
+          "official": true,
+          "duration": "2:50"
+        },
+        {
+          "kind": "special",
+          "url": "y4iFptT4ZQI",
+          "label": "A Short SIGNAL Performance",
+          "official": true,
+          "duration": "2:53"
+        },
+        {
+          "kind": "special",
+          "url": "6iMelOd5WW8",
+          "label": "Watching Fans' Covers of Their Dance",
+          "official": true,
+          "duration": "2:47"
+        },
+        {
+          "kind": "special",
+          "url": "11nvpUYcWUY",
+          "label": "Chaeyoung Opens Her Private Journal",
+          "official": true,
+          "duration": "3:10"
+        },
+        {
+          "kind": "special",
+          "url": "4SKg5852T8Y",
+          "label": "Teaching the Hosts Their Choreography",
+          "official": true,
+          "duration": "2:40"
+        },
+        {
+          "kind": "special",
+          "url": "t0ly4Mm2Ba8",
+          "label": "Showing Off Each Member's Charm",
+          "official": true,
+          "duration": "2:22"
         }
       ]
     },
@@ -2464,8 +2539,8 @@
       "date": "2019-05-03",
       "note": "The show's first episode: TWICE perform with 300 fans picked from over 3,000 applicants, from all over Korea and as far as Malaysia and Japan.",
       "credit": {
-        "name": "ONCE ZONE",
-        "url": "https://once.zone/"
+        "name": "teudoongie subs",
+        "url": "https://www.youtube.com/@teudoongiesubs"
       },
       "videos": [
         {
@@ -2740,6 +2815,24 @@
           "label": "KBO First-Pitch Compilation (Tzuyu 0:02–1:31)",
           "official": true,
           "duration": "5:09"
+        }
+      ]
+    },
+    {
+      "id": "chef-and-my-fridge-2016",
+      "title": "Jeongyeon & Tzuyu",
+      "series": "chef-and-my-fridge",
+      "venue": "JTBC",
+      "date": "2016-06-27",
+      "note": "The chefs cook from Jeongyeon's and Tzuyu's fridges, and Tzuyu bursts into tears over a dish from home by Lee Yeon-bok, who once cooked at the Taiwanese embassy. JTBC's cut of their parts, from the June 27, 2016 episode and the one after.",
+      "members": "Jeongyeon, Tzuyu",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "ibibw0gP7IU",
+          "label": "Jeongyeon & Tzuyu's Parts · Eng Sub",
+          "official": true,
+          "duration": "40:15"
         }
       ]
     }
