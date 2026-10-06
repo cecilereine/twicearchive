@@ -126,12 +126,15 @@ const yearSpan = list => {
   const years = [...new Set(list.map(eventYear).filter(Boolean))].sort();
   return years.length > 1 ? `${years[0]}–${years.at(-1)}` : years[0] || '';
 };
-const sectionHead = (title, n, years = '', must = false) => `
-      <div class="era-head">
+/* "anchor" is the series key, which gives the heading a link button: the link
+   opens the page on that series' tab (see showFromHash). */
+const sectionHead = (title, n, years = '', must = false, anchor = '') => `
+      <div class="era-head"${anchor ? ` data-anchor="${escapeHtml(anchor)}"` : ''}>
         <h2>${escapeHtml(title)}${years ? ` <span class="era-years">${escapeHtml(years)}</span>` : ''}</h2>
         ${must ? '<span class="must">★ Must watch</span>' : ''}
         <span class="rule"></span>
         <span class="count">${countOf(n)}</span>
+        ${anchor ? shareButton(anchor, title) : ''}
       </div>`;
 
 /* The Vlogs page ("groupBy": "series") keeps each series in one section in the
@@ -164,7 +167,7 @@ function seriesSections(events) {
     return `
     <section>
       ${sectionHead(seriesLabel(key), countable(mine), seasons.length ? '' : yearSpan(mine),
-                    seriesOf(key)?.mustWatch)}
+                    seriesOf(key)?.mustWatch, key)}
       ${seriesOf(key)?.summary ? `<p class="season-summary">${escapeHtml(seriesOf(key).summary)}</p>` : ''}
       ${seeAlso(seriesOf(key))}
       ${parts.map(([season, list]) => {
@@ -174,10 +177,11 @@ function seriesSections(events) {
         /* A season can be flagged as the one to start with, and say in a line
            what it's about, since the episode cards only name who it follows. */
         return `${season ? `
-      <div class="season-head">
+      <div class="season-head" data-anchor="${escapeHtml(season.key)}">
         <h3>${escapeHtml(season.label)}</h3>
         ${season.mustWatch ? '<span class="must">★ Must watch</span>' : ''}
         <span class="count">${escapeHtml(span)} · ${countOf(list.length)}</span>
+        ${shareButton(season.key, `${seriesLabel(key)}: ${season.label}`)}
       </div>
       ${season.summary ? `<p class="season-summary">${escapeHtml(season.summary)}</p>` : ''}` : ''}
       <div class="live-grid">
@@ -315,6 +319,11 @@ function renderChips() {
   chips('years', 'year', [['all', 'All years'], ...years.map(y => [y, y])], state.year);
 }
 
+/* The chosen tab goes in the address as #series-key, so the address bar is a
+   link to it too. replaceState, so picking tabs doesn't fill the back button. */
+const tabInAddress = () => history.replaceState(null, '',
+  state.series === 'all' ? location.pathname + location.search : '#' + encodeURIComponent(state.series));
+
 function wireFilters() {
   el('search').addEventListener('input', e => {
     state.query = e.target.value;
@@ -323,6 +332,7 @@ function wireFilters() {
   el('series').addEventListener('change', e => {
     if (!e.target.matches('[data-series-select]')) return;
     state.series = e.target.value;
+    tabInAddress();
     renderChips();
     renderList();
   });
@@ -332,10 +342,40 @@ function wireFilters() {
       if (!chip) return;
       if (key === 'member') state.members = toggleMember(state.members, chip.dataset.member);
       else state[key] = chip.dataset[key];
+      if (key === 'series') tabInAddress();
       renderChips();
       renderList();
     });
   }
+}
+
+/* ---------- links into the page ---------- */
+
+/* #key in the address shows that part of the page, which is what the link
+   buttons on the headings hand out:
+     a series key  (#twlog)          opens on that tab, at the top of the page;
+     a season key  (#secret-friend)  opens on its series' tab, scrolled to it;
+     anything else (#event-id)       is one entry, scrolled to.
+   The other filters are cleared first, so what the link points at is on screen.
+   A series key wins over an entry with the same id (ONE IN A MILL10N is both). */
+function showFromHash() {
+  const key = decodeURIComponent(location.hash.slice(1));
+  if (!key) return;
+  const series = state.data.series || [];
+  const tab = series.find(s => s.key === key)
+           || series.find(s => (s.seasons || []).some(ss => ss.key === key));
+
+  state.query = '';
+  el('search').value = '';
+  state.members = [];
+  state.year = 'all';
+  state.series = tab ? tab.key : 'all';
+  renderChips();
+  renderList();
+
+  if (tab?.key === key) { window.scrollTo(0, 0); return; }
+  (document.querySelector(`[data-anchor="${CSS.escape(key)}"]`) || document.getElementById(key))
+    ?.scrollIntoView();
 }
 
 /* ---------- boot ---------- */
@@ -362,10 +402,11 @@ async function init() {
   renderList();
   renderProgress();
   wireVideoCards(el('list'), renderProgress);
+  wireShareButtons(el('list'));
 
-  /* #event-id in the address scrolls to that show, so links are shareable. */
-  const id = decodeURIComponent(location.hash.slice(1));
-  if (id) document.getElementById(id)?.scrollIntoView();
+  /* hashchange covers a link pasted over the page that's already open. */
+  showFromHash();
+  window.addEventListener('hashchange', showFromHash);
 }
 
 init();

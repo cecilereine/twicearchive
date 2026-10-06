@@ -1,11 +1,12 @@
 /* ---------------------------------------------------------------------------
    Candybong Vault — shared helpers.
 
-   Four things live here because every section page needs them:
+   Five things live here because every section page needs them:
      1. YouTube link handling  — turn whatever you pasted into a video id.
      2. Watched state          — remembered in this browser via localStorage.
      3. Small shared helpers   — dates, member colours, video order.
      4. Video cards            — a thumbnail that opens the video in a new tab.
+     5. Share links            — a button that hands out a link to one section.
 --------------------------------------------------------------------------- */
 
 /* ---------- 1. YouTube links ---------------------------------------------
@@ -411,5 +412,54 @@ function wireVideoCards(root, onWatchChange) {
       });
       onWatchChange?.();
     }
+  });
+}
+
+/* ---------- 5. Share links ------------------------------------------------
+
+   A heading can carry a link button for the part of the page under it
+   (TW-LOG's Secret Friend, say). The link is this page plus "#key", and the
+   page script reads the key back when the link is opened and shows that part.
+   On a phone the button opens the share sheet; anywhere else it copies the
+   link and turns into a tick for a moment. */
+
+const LINK_ICON = `<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6.6 9.4l2.8-2.8M7.3 4.4l.9-.9a2.6 2.6 0 0 1 3.7 3.7l-.9.9M8.7 11.6l-.9.9a2.6 2.6 0 0 1-3.7-3.7l.9-.9"/></svg>`;
+const TICK_ICON = `<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7"/></svg>`;
+
+const shareUrl = key => location.origin + location.pathname + '#' + encodeURIComponent(key);
+
+const shareButton = (key, label) =>
+  `<button type="button" class="share-btn" data-share="${escapeHtml(key)}" data-share-label="${escapeHtml(label)}"
+     aria-label="Share a link to ${escapeHtml(label)}" title="Share a link to ${escapeHtml(label)}">${LINK_ICON}</button>`;
+
+function wireShareButtons(root) {
+  const phone = window.matchMedia('(pointer: coarse)');
+  root.addEventListener('click', async event => {
+    const btn = event.target.closest('.share-btn');
+    if (!btn) return;
+    const url = shareUrl(btn.dataset.share);
+
+    if (navigator.share && phone.matches) {
+      try {
+        await navigator.share({ title: `${btn.dataset.shareLabel} · ${document.title}`, url });
+        return;
+      } catch (err) {
+        if (err.name === 'AbortError') return;      /* closed the sheet */
+      }
+    }
+    /* No clipboard (an older browser, a page opened over plain http): the link
+       goes in the address bar instead, to be copied from there. */
+    let copied = false;
+    try { await navigator.clipboard.writeText(url); copied = true; }
+    catch { history.replaceState(null, '', url); }
+
+    btn.dataset.tip = copied ? 'Link copied' : 'Link is in the address bar';
+    btn.classList.add('done');
+    btn.innerHTML = TICK_ICON;
+    clearTimeout(btn.resetTimer);
+    btn.resetTimer = setTimeout(() => {
+      btn.classList.remove('done');
+      btn.innerHTML = LINK_ICON;
+    }, 2000);
   });
 }
