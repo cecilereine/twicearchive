@@ -135,6 +135,10 @@
         {
           "key": "all-abouTZU",
           "label": "TZUYU Reality: All abouTZU"
+        },
+        {
+          "key": "jihyo-20th",
+          "label": "JIHYO's 20th Dol Party"
         }
       ]
     },
@@ -6522,6 +6526,24 @@
           "url": "3necB2puwQU",
           "official": true,
           "duration": "20:36"
+        }
+      ]
+    },
+    {
+      "id": "twice-member-tv-jihyo-20th-dol-party",
+      "title": "20 Years with JYP",
+      "series": "member-tv",
+      "season": "jihyo-20th",
+      "venue": "YouTube",
+      "date": "2025-07-15",
+      "note": "Jihyo celebrates 20 years at JYP with a dol party, the Korean first-birthday party, joined by Nayeon and Jeongyeon and guests BamBam, Mingyu, Seungkwan, Sungjin, Sejeong and Nayoung.",
+      "videos": [
+        {
+          "kind": "episode",
+          "label": "Full Episode",
+          "url": "BOhBOZCRpwM",
+          "official": true,
+          "duration": "43:00"
         }
       ]
     },

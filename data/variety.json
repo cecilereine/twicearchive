@@ -1,7 +1,7 @@
 {
   "section": "TV Variety & Reality",
   "note": "TWICE on TV variety and reality shows — their own series (SIXTEEN) and guest runs on others, one entry per episode. Grouped by show, not by year: each show is one tab and one section. YouTube variety (TIME TO TWICE and the rest) is a separate section. A show can carry \"mustWatch\" and a \"summary\", shown on its heading.",
-  "updated": "2026-10-02",
+  "updated": "2026-10-06",
   "groupBy": "series",
   "pickerOrder": "name",
   "series": [
@@ -52,6 +52,11 @@
       "summary": "SBS's talent show, where ordinary people with unusual skills perform for a celebrity panel."
     },
     {
+      "key": "kiss-the-radio",
+      "label": "Kiss the Radio (키스더라디오)",
+      "summary": "KBS Cool FM's late-night radio show, hosted by Super Junior and later by FT Island's Lee Hong-ki."
+    },
+    {
       "key": "knowing-bros",
       "label": "Knowing Bros",
       "summary": "JTBC's school-themed talk show: guests arrive as transfer students and trade games and questions with the brothers."
@@ -75,6 +80,11 @@
       "key": "hit-the-stage",
       "label": "Hit the Stage (힛 더 스테이지)",
       "summary": "Mnet's 2016 dance competition for idols: each performs a solo stage on the week's theme. Momo competed in Episodes 1–4."
+    },
+    {
+      "key": "2-days-1-night",
+      "label": "2 Days & 1 Night (1박 2일)",
+      "summary": "KBS2's long-running Sunday travel variety show."
     },
     {
       "key": "sister-slam-dunk",
@@ -140,6 +150,11 @@
       "summary": "KBS2's book-publishing show: celebrities each write a small book of their own. TWICE wrote \"Exposing TWICE\" across three episodes; the rest of each episode follows the other authors, so the TWICE parts are listed on each card."
     },
     {
+      "key": "idol-school",
+      "label": "Idol School (아이돌학교)",
+      "summary": "Mnet's 2017 survival show that formed fromis_9, set as a school for future idols."
+    },
+    {
       "key": "carefree-travelers",
       "label": "Carefree Travelers",
       "summary": "Eight members (Dahyun was absent) join JTBC's package-tour show for a group package tour to Da Nang, Vietnam, travelling alongside the regular cast."
@@ -173,11 +188,6 @@
       "key": "eat-in-style",
       "label": "Eat in Style (폼나게 먹자)",
       "summary": "SBS's food show about eating Korea's ingredients in season, where they come from."
-    },
-    {
-      "key": "2-days-1-night",
-      "label": "2 Days & 1 Night (1박 2일)",
-      "summary": "KBS2's long-running Sunday travel variety show."
     },
     {
       "key": "super-intern",
@@ -1736,8 +1746,8 @@
       "series": "isac",
       "venue": "MBC",
       "date": "2016-02-09",
-      "note": "",
-      "members": "Mina",
+      "note": "Nayeon, Jeongyeon and Momo take silver in the women's team ssireum, Momo beating EXID's Hyelin in the final, and Mina and Dahyun shoot in the archery semifinal against CLC.",
+      "members": "Nayeon, Jeongyeon, Momo, Sana, Jihyo, Mina, Dahyun",
       "videos": [
         {
           "kind": "other",
@@ -1745,6 +1755,34 @@
           "label": "Mina — Rhythmic Gymnastics, Hoop",
           "official": true,
           "duration": "2:27"
+        },
+        {
+          "kind": "other",
+          "url": "q6YeVmtL_rc",
+          "label": "Mina vs CLC's Seungyeon — Archery Semifinal",
+          "official": true,
+          "duration": "1:12"
+        },
+        {
+          "kind": "other",
+          "url": "ryQ9f42zbpU",
+          "label": "Dahyun vs CLC's Yujin — Archery Semifinal",
+          "official": true,
+          "duration": "1:34"
+        },
+        {
+          "kind": "other",
+          "url": "k0gukIbe2A8",
+          "label": "Momo vs EXID's Hyelin — Ssireum Final · Eng Sub",
+          "official": true,
+          "duration": "2:42"
+        },
+        {
+          "kind": "other",
+          "url": "gfP0S66EDYk",
+          "label": "Behind the Scenes: Self-Cam · Eng Sub",
+          "official": false,
+          "duration": "1:42"
         }
       ]
     },
@@ -1754,8 +1792,8 @@
       "series": "isac",
       "venue": "MBC",
       "date": "2016-09-15",
-      "note": "",
-      "members": "Tzuyu",
+      "note": "Tzuyu shoots in the women's archery, and Jeongyeon, Sana and Chaeyoung run in the women's 400m relay final.",
+      "members": "Jeongyeon, Sana, Chaeyoung, Tzuyu",
       "videos": [
         {
           "kind": "other",
@@ -1763,6 +1801,34 @@
           "label": "Tzuyu — Archery",
           "official": true,
           "duration": "1:41"
+        },
+        {
+          "kind": "other",
+          "url": "5nSxr4UgfY4",
+          "label": "Sana's \"Sha Sha Sha\" Heart Attack · Eng Sub",
+          "official": true,
+          "duration": "1:42"
+        },
+        {
+          "kind": "other",
+          "url": "S42O_YR_Vgc",
+          "label": "Women's 60m Final · Eng Sub",
+          "official": true,
+          "duration": "3:03"
+        },
+        {
+          "kind": "other",
+          "url": "Ife3WeuFekU",
+          "label": "Women's 400m Relay Final · Eng Sub",
+          "official": true,
+          "duration": "2:59"
+        },
+        {
+          "kind": "other",
+          "url": "zuO540SmDlw",
+          "label": "Behind the Scenes: An ISAC Within ISAC",
+          "official": true,
+          "duration": "9:22"
         }
       ]
     },
@@ -1772,8 +1838,8 @@
       "series": "isac",
       "venue": "MBC",
       "date": "2017-01-30",
-      "note": "",
-      "members": "Mina",
+      "note": "Mina ties with Fiestar's Cao Lu for gold in rhythmic gymnastics.",
+      "members": "Mina, Chaeyoung",
       "videos": [
         {
           "kind": "other",
@@ -1781,6 +1847,183 @@
           "label": "Mina — Rhythmic Gymnastics, Ball · Eng Sub",
           "official": true,
           "duration": "2:21"
+        },
+        {
+          "kind": "other",
+          "url": "uZToDS1BJX4",
+          "label": "Mina — Rhythmic Gymnastics, Ball: \"Perfect Competition\" · Eng Sub",
+          "official": true,
+          "duration": "2:26"
+        },
+        {
+          "kind": "other",
+          "url": "7W0ZkTu9zdk",
+          "label": "Women's Archery Preliminary vs AOA",
+          "official": true,
+          "duration": "1:43"
+        },
+        {
+          "kind": "other",
+          "url": "1udu9dBcvWo",
+          "label": "Women's 400m Relay Pre-Interview, With Oh My Girl",
+          "official": true,
+          "duration": "1:57"
+        },
+        {
+          "kind": "other",
+          "url": "PdQobaJv06s",
+          "label": "Women's 400m Relay Final · Eng Sub",
+          "official": true,
+          "duration": "2:51"
+        }
+      ]
+    },
+    {
+      "id": "isac-2018-lunar",
+      "title": "2018 Lunar New Year",
+      "series": "isac",
+      "venue": "MBC",
+      "date": "2018-02-15",
+      "note": "Dahyun and Tzuyu shoot for TWICE in the women's archery, against Red Velvet and then gugudan.",
+      "members": "Dahyun, Tzuyu",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "H-NB9yAIoxs",
+          "label": "Women's Archery Preliminary vs Red Velvet",
+          "official": true,
+          "duration": "2:43"
+        },
+        {
+          "kind": "other",
+          "url": "nxi8VCS1kI8",
+          "label": "Tzuyu vs Red Velvet's Irene — Archery",
+          "official": true,
+          "duration": "2:41"
+        },
+        {
+          "kind": "other",
+          "url": "pTWwxk06eu4",
+          "label": "Tzuyu vs Red Velvet's Irene — Match of Archery Goddesses",
+          "official": true,
+          "duration": "3:05"
+        },
+        {
+          "kind": "other",
+          "url": "jBAOVD_O7pk",
+          "label": "Tzuyu's Last Arrow, Chasing gugudan — Archery",
+          "official": true,
+          "duration": "2:59"
+        }
+      ]
+    },
+    {
+      "id": "isac-2018-chuseok",
+      "title": "2018 Chuseok",
+      "series": "isac",
+      "venue": "MBC",
+      "date": "2018-09-25",
+      "note": "Nayeon co-hosts, with Jun Hyun-moo and Leeteuk. TWICE lose the women's archery semifinal to Red Velvet.",
+      "members": "Nayeon, Dahyun, Tzuyu",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "BS_6xCfkobU",
+          "label": "Nayeon Previews the Rhythmic Gymnastics",
+          "official": true,
+          "duration": "2:53"
+        },
+        {
+          "kind": "other",
+          "url": "zetw6ODNHD4",
+          "label": "Dahyun vs Red Velvet's Wendy — Archery Semifinal",
+          "official": true,
+          "duration": "3:04"
+        },
+        {
+          "kind": "other",
+          "url": "p3taDJv_x6s",
+          "label": "Tzuyu vs Red Velvet's Irene — Archery Semifinal",
+          "official": true,
+          "duration": "3:03"
+        }
+      ]
+    },
+    {
+      "id": "isac-2019-lunar",
+      "title": "2019 Lunar New Year",
+      "series": "isac",
+      "venue": "MBC",
+      "date": "2019-02-05",
+      "note": "Sana co-hosts, with Jun Hyun-moo and Leeteuk. Chaeyoung, Dahyun and Tzuyu beat Red Velvet in the women's archery semifinal and take silver, losing the final to gugudan 91–87.",
+      "members": "Sana, Dahyun, Chaeyoung, Tzuyu",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "Er67TXPFDBo",
+          "label": "Dahyun vs Red Velvet's Wendy — Archery Semifinal, Hair in the Way",
+          "official": true,
+          "duration": "2:52"
+        },
+        {
+          "kind": "other",
+          "url": "3RnrIWr0N3s",
+          "label": "Tzuyu vs Red Velvet's Seulgi — Archery Semifinal · Eng Sub",
+          "official": true,
+          "duration": "3:06"
+        },
+        {
+          "kind": "other",
+          "url": "iW4drQ84MYk",
+          "label": "Tzuyu vs Red Velvet's Seulgi — Archery Semifinal",
+          "official": true,
+          "duration": "3:12"
+        },
+        {
+          "kind": "other",
+          "url": "TxQOKSc9Ce0",
+          "label": "Women's Archery Final vs gugudan",
+          "official": false,
+          "duration": "3:35"
+        }
+      ]
+    },
+    {
+      "id": "isac-2019-chuseok",
+      "title": "2019 Chuseok",
+      "series": "isac",
+      "venue": "MBC",
+      "date": "2019-09-12",
+      "note": "Dahyun co-hosts, with Jun Hyun-moo and Leeteuk, and shoots with Chaeyoung and Tzuyu in the women's archery. Lovelyz beat them in the semifinal.",
+      "members": "Dahyun, Chaeyoung, Tzuyu",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "oFXdFvQ3QcE",
+          "label": "Women's Archery Semifinal vs Lovelyz: The Teams",
+          "official": true,
+          "duration": "1:58"
+        },
+        {
+          "kind": "other",
+          "url": "RNHIh8xx6jU",
+          "label": "Dahyun vs Lovelyz's Kei — Archery Semifinal",
+          "official": true,
+          "duration": "2:23"
+        },
+        {
+          "kind": "other",
+          "url": "sesdbEwKMmA",
+          "label": "Tzuyu Coaches Dahyun: Dahyun's Last Shot vs Kei · Eng Sub",
+          "official": true,
+          "duration": "2:11"
+        },
+        {
+          "kind": "other",
+          "url": "CXOZ1xEXE8o",
+          "label": "Tzuyu vs Lovelyz's Yein — Archery Semifinal",
+          "official": true,
+          "duration": "4:35"
         }
       ]
     },
@@ -2351,21 +2594,39 @@
       ]
     },
     {
+      "id": "2d1n-s3-ep135-heat-brings-luck",
+      "title": "Season 3, Episode 135: Heat Brings You Luck, Part 2",
+      "series": "2-days-1-night",
+      "venue": "KBS2",
+      "date": "2016-08-07",
+      "note": "TWICE's surprise visit to Cheongdo, Gyeongsangbuk-do, as the \"noon angels\": they turn up to \"Cheer Up\" in the middle of a meditation mission, team up with the cast for a shaved-ice game and a lunch game of chance, and leave after lunch. Everyone but Momo.",
+      "members": "Nayeon, Jeongyeon, Sana, Jihyo, Mina, Dahyun, Chaeyoung, Tzuyu",
+      "videos": []
+    },
+    {
       "id": "2d1n-s3-dream-in-your-40s",
       "title": "Season 3: Dream in Your 40s, Part 2",
       "series": "2-days-1-night",
       "venue": "KBS2",
       "date": "2018-12-09",
-      "note": "TWICE drop by Kim Jong-min's café, where he makes even his juniors pay for their coffee. They're on from 13:00.",
+      "note": "A cameo from Jeongyeon, who drops by Kim Jong-min's café, where he makes even his juniors pay for their coffee.",
       "videos": [
+        {
+          "kind": "other",
+          "url": "nRYvXtSvX04",
+          "label": "Jeongyeon's Cameo: \"Treat Us to Coffee, Jong-min\" · Eng Sub",
+          "official": true,
+          "duration": "15:23"
+        },
         {
           "kind": "episode",
           "url": "https://www.youtube.com/watch?v=_OgL8nXtrgA&t=780",
-          "label": "Full Episode · Eng Sub (TWICE from 13:00)",
+          "label": "Full Episode · Eng Sub (cameo from 13:00)",
           "official": true,
           "duration": "1:22:11"
         }
-      ]
+      ],
+      "members": "Jeongyeon"
     },
     {
       "id": "super-intern-twice",
@@ -2833,6 +3094,74 @@
           "label": "Jeongyeon & Tzuyu's Parts · Eng Sub",
           "official": true,
           "duration": "40:15"
+        }
+      ]
+    },
+    {
+      "id": "idol-school-ep8",
+      "title": "Episode 8",
+      "series": "idol-school",
+      "venue": "Mnet",
+      "date": "2017-09-08",
+      "note": "Momo and Mina visit for the end-of-term exams to cheer on former JYP trainees Park Ji-won and Natty; Ji-won tears up meeting them.",
+      "members": "Momo, Mina",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "a4Ya-Ehx5WE",
+          "label": "Momo & Mina's Cut · Eng Sub",
+          "official": false,
+          "duration": "3:11"
+        }
+      ]
+    },
+    {
+      "id": "kiss-the-radio-selfcam-chocolate",
+      "title": "Self Camera: Team \"Chocolate\"",
+      "series": "kiss-the-radio",
+      "venue": "KBS Cool FM",
+      "date": "2016-04-29",
+      "note": "Nayeon, Jihyo, Chaeyoung and Mina, as team \"Chocolate\", film themselves for Super Junior's Kiss the Radio. Cheer Up era.",
+      "members": "Nayeon, Jihyo, Mina, Chaeyoung",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "F4E7ePbEPZw",
+          "label": "Self Camera",
+          "official": true,
+          "duration": "3:42"
+        }
+      ]
+    },
+    {
+      "id": "kiss-the-radio-2017-special",
+      "title": "Special Guests: TWICE (2017)",
+      "series": "kiss-the-radio",
+      "venue": "KBS Cool FM",
+      "date": "2017-02-27",
+      "note": "TWICE as special guests on Lee Hong-ki's Kiss the Radio, split into team \"TT\" (Tzuyu, Nayeon, Sana) and team \"Knock Knock\" (Jeongyeon, Mina, Dahyun, Momo) for the self cameras. Knock Knock era.",
+      "members": "Nayeon, Jeongyeon, Momo, Sana, Mina, Dahyun, Tzuyu",
+      "videos": [
+        {
+          "kind": "other",
+          "url": "QiVJC3Z2zjY",
+          "label": "Behind the Scenes",
+          "official": true,
+          "duration": "4:47"
+        },
+        {
+          "kind": "other",
+          "url": "etKUGvm3uoo",
+          "label": "Self Camera: Team \"TT\"",
+          "official": true,
+          "duration": "3:51"
+        },
+        {
+          "kind": "other",
+          "url": "wzQ1OdcNE1U",
+          "label": "Self Camera: Team \"Knock Knock\"",
+          "official": true,
+          "duration": "3:13"
         }
       ]
     }

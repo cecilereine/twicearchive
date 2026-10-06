@@ -54,6 +54,11 @@
       "summary": "아이돌에 미치고, 아미고TV: a 2017 idol variety web show on V LIVE and YouTube."
     },
     {
+      "key": "tvdaily-say-anything",
+      "label": "Say Anything Interview (아무말 인터뷰)",
+      "summary": "TV Daily's web interview series of silly, random questions."
+    },
+    {
       "key": "while-moms-asleep",
       "label": "While Mom's Asleep (엄마가 잠든 후에)",
       "summary": "Pikicast's ASMR variety show: guests cook and answer questions in whispers, careful not to wake \"Mom\"."
@@ -77,6 +82,11 @@
       "key": "giant-peng-tv",
       "label": "Giant Peng TV (자이언트 펭TV)",
       "summary": "EBS's YouTube show starring Pengsoo, the giant penguin."
+    },
+    {
+      "key": "mv-reactions",
+      "label": "TWICE M/V Reactions",
+      "summary": "TWICE watching their new M/Vs together on their own channel, from MORE & MORE on, plus the members' solo M/Vs and J.Y. Park's \"When We Disco\"."
     },
     {
       "key": "yeris-room",
@@ -332,6 +342,11 @@
       ]
     },
     {
+      "key": "bapsahyo",
+      "label": "Hyo's Level Up: Bapsahyo (밥사효)",
+      "summary": "Girls' Generation Hyoyeon's YouTube channel. On 밥사효 she treats a guest to a meal."
+    },
+    {
       "key": "risabae",
       "label": "RISABAE (이사배)",
       "summary": "Makeup artist Risabae's YouTube channel."
@@ -369,11 +384,6 @@
       "key": "sungan-ppojjak",
       "label": "Sungan Ppojjak (순간뽀짝 세상에 이런 아이돌이)",
       "summary": "SBS KPOP's idol show from Studio Prism, a play on SBS's 순간포착 세상에 이런 일이."
-    },
-    {
-      "key": "bapsahyo",
-      "label": "Hyo's Level Up: Bapsahyo (밥사효)",
-      "summary": "Girls' Generation Hyoyeon's YouTube channel. On 밥사효 she treats a guest to a meal."
     },
     {
       "key": "iu-palette",
@@ -3179,6 +3189,24 @@
       ]
     },
     {
+      "id": "bapsahyo-ep7",
+      "title": "Episode 7: Jihyo",
+      "series": "bapsahyo",
+      "venue": "효연의 레벨업 Hyo's Level Up (YouTube)",
+      "date": "2024-07-31",
+      "note": "The junior Hyoyeon had her eye on: Jihyo's years as an SM trainee, when Girls' Generation doted on her, and the stories behind TWICE's choreography.",
+      "members": "Jihyo",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "qpdpsTxxHnY",
+          "label": "Full Episode · Eng Sub",
+          "official": true,
+          "duration": "28:21"
+        }
+      ]
+    },
+    {
       "id": "bapsahyo-ep20",
       "title": "Episode 20: Momo",
       "series": "bapsahyo",
@@ -4165,6 +4193,334 @@
           "label": "Full Episode · Eng Sub",
           "official": true,
           "duration": "38:21"
+        }
+      ]
+    },
+    {
+      "id": "mv-reaction-more-more",
+      "title": "MORE & MORE",
+      "series": "mv-reactions",
+      "venue": "TWICE (YouTube)",
+      "date": "2020-06-06",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "vnkqgoiDRpI",
+          "label": "M/V Reaction",
+          "official": true,
+          "duration": "6:21"
+        }
+      ]
+    },
+    {
+      "id": "mv-reaction-j-y-park-s-when-we-disco",
+      "title": "J.Y. Park's \"When We Disco\"",
+      "series": "mv-reactions",
+      "venue": "TWICE (YouTube)",
+      "date": "2020-08-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "adpF5AKoTw0",
+          "label": "M/V Reaction",
+          "official": true,
+          "duration": "5:01"
+        }
+      ]
+    },
+    {
+      "id": "mv-reaction-i-can-t-stop-me",
+      "title": "I CAN'T STOP ME",
+      "series": "mv-reactions",
+      "venue": "TWICE (YouTube)",
+      "date": "2020-11-02",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "Lei4HUduRPg",
+          "label": "M/V Reaction",
+          "official": true,
+          "duration": "6:38"
+        }
+      ]
+    },
+    {
+      "id": "mv-reaction-alcohol-free",
+      "title": "Alcohol-Free",
+      "series": "mv-reactions",
+      "venue": "TWICE (YouTube)",
+      "date": "2021-06-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "0FALBzRyod0",
+          "label": "M/V Reaction",
+          "official": true,
+          "duration": "9:58"
+        }
+      ]
+    },
+    {
+      "id": "mv-reaction-the-feels",
+      "title": "The Feels",
+      "series": "mv-reactions",
+      "venue": "TWICE (YouTube)",
+      "date": "2021-10-01",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "KPd7fKJFwHE",
+          "label": "M/V Reaction",
+          "official": true,
+          "duration": "10:36"
+        }
+      ]
+    },
+    {
+      "id": "mv-reaction-scientist",
+      "title": "SCIENTIST",
+      "series": "mv-reactions",
+      "venue": "TWICE (YouTube)",
+      "date": "2021-11-19",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "PemKdH26-cU",
+          "label": "M/V Reaction",
+          "official": true,
+          "duration": "9:26"
+        }
+      ]
+    },
+    {
+      "id": "mv-reaction-nayeon-pop-with-jeongyeon-chaeyoung",
+      "title": "NAYEON \"POP!\" (with Jeongyeon & Chaeyoung)",
+      "series": "mv-reactions",
+      "venue": "TWICE (YouTube)",
+      "date": "2022-06-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "igzQMg7Qt0Q",
+          "label": "M/V Reaction",
+          "official": true,
+          "duration": "9:48"
+        }
+      ],
+      "members": "Nayeon, Jeongyeon, Chaeyoung"
+    },
+    {
+      "id": "mv-reaction-talk-that-talk",
+      "title": "Talk that Talk",
+      "series": "mv-reactions",
+      "venue": "TWICE (YouTube)",
+      "date": "2022-08-29",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "NnnVBSV0u94",
+          "label": "M/V Reaction",
+          "official": true,
+          "duration": "10:53"
+        }
+      ]
+    },
+    {
+      "id": "mv-reaction-set-me-free",
+      "title": "SET ME FREE",
+      "series": "mv-reactions",
+      "venue": "TWICE (YouTube)",
+      "date": "2023-03-15",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "lNNiA7WzmbQ",
+          "label": "M/V Reaction",
+          "official": true,
+          "duration": "11:44"
+        }
+      ]
+    },
+    {
+      "id": "mv-reaction-jihyo-killin-me-good-with-twice",
+      "title": "JIHYO \"Killin' Me Good\" (with TWICE)",
+      "series": "mv-reactions",
+      "venue": "TWICE (YouTube)",
+      "date": "2023-08-22",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "vPQeuHgKFeE",
+          "label": "M/V Reaction",
+          "official": true,
+          "duration": "6:35"
+        }
+      ],
+      "members": "Jihyo"
+    },
+    {
+      "id": "mv-reaction-i-got-you",
+      "title": "I GOT YOU",
+      "series": "mv-reactions",
+      "venue": "TWICE (YouTube)",
+      "date": "2024-02-08",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "ZtKNrssankU",
+          "label": "M/V Reaction",
+          "official": true,
+          "duration": "9:24"
+        }
+      ]
+    },
+    {
+      "id": "mv-reaction-one-spark",
+      "title": "ONE SPARK",
+      "series": "mv-reactions",
+      "venue": "TWICE (YouTube)",
+      "date": "2024-02-28",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "ysuGySeZY2Y",
+          "label": "M/V Reaction",
+          "official": true,
+          "duration": "6:08"
+        }
+      ]
+    },
+    {
+      "id": "mv-reaction-nayeon-abcd-with-twice",
+      "title": "NAYEON \"ABCD\" (with TWICE)",
+      "series": "mv-reactions",
+      "venue": "TWICE (YouTube)",
+      "date": "2024-06-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "m1a0s9LDFmk",
+          "label": "M/V Reaction",
+          "official": true,
+          "duration": "6:07"
+        }
+      ],
+      "members": "Nayeon"
+    },
+    {
+      "id": "mv-reaction-tzuyu-run-away-with-twice",
+      "title": "TZUYU \"Run Away\" (with TWICE)",
+      "series": "mv-reactions",
+      "venue": "TWICE (YouTube)",
+      "date": "2024-09-12",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "6EVyDvat1hc",
+          "label": "M/V Reaction",
+          "official": true,
+          "duration": "6:59"
+        }
+      ],
+      "members": "Tzuyu"
+    },
+    {
+      "id": "mv-reaction-strategy-feat-megan-thee-stallion",
+      "title": "Strategy (feat. Megan Thee Stallion)",
+      "series": "mv-reactions",
+      "venue": "TWICE (YouTube)",
+      "date": "2024-12-11",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "fsRMxx2E6KY",
+          "label": "M/V Reaction",
+          "official": true,
+          "duration": "6:51"
+        }
+      ]
+    },
+    {
+      "id": "mv-reaction-this-is-for",
+      "title": "THIS IS FOR",
+      "series": "mv-reactions",
+      "venue": "TWICE (YouTube)",
+      "date": "2025-07-14",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "feSPhDh3xqY",
+          "label": "M/V Reaction",
+          "official": true,
+          "duration": "7:53"
+        }
+      ]
+    },
+    {
+      "id": "mv-reaction-chaeyoung-shoot-firecracker-with-twice",
+      "title": "CHAEYOUNG \"SHOOT (Firecracker)\" (with TWICE)",
+      "series": "mv-reactions",
+      "venue": "TWICE (YouTube)",
+      "date": "2025-09-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "Dk5N36Cjj0o",
+          "label": "M/V Reaction",
+          "official": true,
+          "duration": "5:18"
+        }
+      ],
+      "members": "Chaeyoung"
+    },
+    {
+      "id": "mv-reaction-me-you",
+      "title": "ME+YOU",
+      "series": "mv-reactions",
+      "venue": "TWICE (YouTube)",
+      "date": "2025-10-17",
+      "note": "",
+      "videos": [
+        {
+          "kind": "special",
+          "url": "a2YbviGpwBk",
+          "label": "M/V Reaction",
+          "official": true,
+          "duration": "9:36"
+        }
+      ]
+    },
+    {
+      "id": "tvdaily-say-anything-twice",
+      "title": "TWICE",
+      "series": "tvdaily-say-anything",
+      "venue": "TV Daily (Naver TV)",
+      "date": "2017-10-06",
+      "note": "TV Daily's interview of deliberately absurd, rambling questions.",
+      "videos": [
+        {
+          "kind": "episode",
+          "url": "myoidKmmaBY",
+          "label": "Full Interview · Eng Sub",
+          "official": false,
+          "duration": "4:34"
         }
       ]
     }
